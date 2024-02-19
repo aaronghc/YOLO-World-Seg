@@ -21,6 +21,14 @@ This is a demo of zero-shot object detection and instance segmentation using
 
 Powered by Roboflow [Inference](https://github.com/roboflow/inference) and 
 [Supervision](https://github.com/roboflow/supervision).
+
+❗ **Don't give up right away if YOLO-World doesn't detect the objects you are looking 
+for on the first try.** Use the `Configuration` tab and experiment with 
+`confidence_threshold` and `iou_threshold`. YOLO-World tends to return low `confidence` 
+values for objects outside the 
+[COCO](https://universe.roboflow.com/microsoft/coco) dataset. Check out this
+[notebook](https://supervision.roboflow.com/develop/notebooks/zero-shot-object-detection-with-yolo-world)
+to learn more about YOLO-World's prompting.
 """
 
 RESULTS = "results"
@@ -31,6 +39,8 @@ IMAGE_EXAMPLES = [
 VIDEO_EXAMPLES = [
     ['https://media.roboflow.com/supervision/video-examples/croissant-1280x720.mp4', 'croissant', 0.01, 0.2, False, False, False],
     ['https://media.roboflow.com/supervision/video-examples/suitcases-1280x720.mp4', 'suitcase', 0.1, 0.2, False, False, False],
+    ['https://media.roboflow.com/supervision/video-examples/tokyo-walk-1280x720.mp4', 'woman walking', 0.1, 0.2, False, False, False],
+    ['https://media.roboflow.com/supervision/video-examples/wooly-mammoth-1280x720.mp4', 'mammoth', 0.01, 0.2, False, False, False],
 ]
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
