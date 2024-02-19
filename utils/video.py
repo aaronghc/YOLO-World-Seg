@@ -5,7 +5,7 @@ import uuid
 import supervision as sv
 
 
-MAX_VIDEO_LENGTH_SEC = 3
+MAX_VIDEO_LENGTH_SEC = 2
 
 
 def generate_file_name(extension="mp4"):
