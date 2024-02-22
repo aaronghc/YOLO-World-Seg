@@ -10,10 +10,33 @@ from tqdm import tqdm
 from inference.models import YOLOWorld
 
 from utils.efficient_sam import load, inference_with_boxes
-from utils.video import generate_file_name, calculate_end_frame_index, create_directory
+from utils.video import (
+    generate_file_name,
+    calculate_end_frame_index,
+    create_directory,
+    remove_files_older_than
+)
 
 MARKDOWN = """
 # YOLO-World + EfficientSAM 🔥
+
+<div>
+    <a href="https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/zero-shot-object-detection-with-yolo-world.ipynb">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab" style="display:inline-block;">
+    </a>
+    <a href="https://blog.roboflow.com/what-is-yolo-world/">
+        <img src="https://raw.githubusercontent.com/roboflow-ai/notebooks/main/assets/badges/roboflow-blogpost.svg" alt="Roboflow" style="display:inline-block;">
+    </a>
+    <a href="https://www.youtube.com/watch?v=X7gKBGVz4vs">
+        <img src="https://badges.aleen42.com/src/youtube.svg" alt="YouTube" style="display:inline-block;">
+    </a>
+    <a href="https://github.com/AILab-CVC/YOLO-World">
+        <img src="https://badges.aleen42.com/src/github.svg" alt="GitHub" style="display:inline-block;">
+    </a>
+    <a href="https://arxiv.org/abs/2401.17270">
+        <img src="https://img.shields.io/badge/arXiv-2401.17270-b31b1b.svg" alt="arXiv" style="display:inline-block;">
+    </a>
+</div>
 
 This is a demo of zero-shot object detection and instance segmentation using 
 [YOLO-World](https://github.com/AILab-CVC/YOLO-World) and 
@@ -35,6 +58,7 @@ RESULTS = "results"
 
 IMAGE_EXAMPLES = [
     ['https://media.roboflow.com/dog.jpeg', 'dog, eye, nose, tongue, car', 0.005, 0.1, True, False, False],
+    ['https://media.roboflow.com/albert-4x.png', 'hand, hair', 0.005, 0.1, True, False, False],
 ]
 VIDEO_EXAMPLES = [
     ['https://media.roboflow.com/supervision/video-examples/croissant-1280x720.mp4', 'croissant', 0.01, 0.2, False, False, False],
@@ -51,7 +75,7 @@ BOUNDING_BOX_ANNOTATOR = sv.BoundingBoxAnnotator()
 MASK_ANNOTATOR = sv.MaskAnnotator()
 LABEL_ANNOTATOR = sv.LabelAnnotator()
 
-
+# creating video results directory
 create_directory(directory_path=RESULTS)
 
 
@@ -89,6 +113,9 @@ def process_image(
     with_confidence: bool = False,
     with_class_agnostic_nms: bool = False,
 ) -> np.ndarray:
+    # cleanup of old video files
+    remove_files_older_than(RESULTS, 30)
+
     categories = process_categories(categories)
     YOLO_WORLD_MODEL.set_classes(categories)
     results = YOLO_WORLD_MODEL.infer(input_image, confidence=confidence_threshold)
@@ -124,6 +151,9 @@ def process_video(
     with_class_agnostic_nms: bool = False,
     progress=gr.Progress(track_tqdm=True)
 ) -> str:
+    # cleanup of old video files
+    remove_files_older_than(RESULTS, 30)
+
     categories = process_categories(categories)
     YOLO_WORLD_MODEL.set_classes(categories)
     video_info = sv.VideoInfo.from_video_path(input_video)
