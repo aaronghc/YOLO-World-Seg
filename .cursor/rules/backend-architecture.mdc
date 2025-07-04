@@ -1,0 +1,48 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Rule Name: backend-architecture
+
+## Description: ProXeek Backend Architecture
+
+### Overall Architecture
+ProXeek's backend uses a multi-stage pipeline to match virtual objects with physical haptic proxies:
+
+1. **Data Processing Layer**
+   - Haptic annotation phrasing
+   - Physical object detection
+   <!-- - Spatial relationship mapping -->
+
+2. **Proxy Matching Layer**
+   - Object-level feature extraction (virtual and physical)
+   - Initial matching using LLM
+   - Constraint solver using optimization techniques
+   - Conflict resolution based on engagement priorities
+
+3. **Final Selection & Reasoning Layer**
+   - Solution validation
+   - Explanation generation
+   - Response formatting
+
+### Constraint Handling
+The system handles these critical constraints:
+- Exclusive assignment (one physical object = one virtual object)
+- Spatial arrangement preservation
+- Engagement level priorities
+
+### Implementation Strategy
+1. **Phase 1**: Initial matching based on haptic properties
+2. **Phase 2**: Conflict resolution using priority rules
+3. **Phase 3**: Spatial constraint optimization
+
+### Technology Stack
+- LLM API for matching and explanations
+- Classical optimization algorithms for constraint solving
+- Computer vision for object detection and localization
+- Graph algorithms for spatial relationship management
+
+
+
+This hybrid LLM + classical optimization approach separates subjective matching from constraint satisfaction while maintaining explainability.

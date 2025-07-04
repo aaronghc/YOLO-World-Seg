@@ -1,0 +1,98 @@
+[
+  {
+    "objectName": "Treasure Chest",
+    "involvementType": "contact",
+    "usage": "A chest for players to store and take treasures",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "its hinged lid could be opened",
+    "outline": "",
+    "texture": "wooden texture on the surface",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 1.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.5,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.62",
+      "y": "0.36",
+      "z": "0.54"
+    },
+    "interactionDeduction": "Users will approach the treasure chest and use their hands to press down on the hinged lid to open it. The interaction will likely involve a momentary tap to initiate the opening mechanism, followed by a sustained contact as they lift the lid. The wooden texture will provide a tactile feedback, and users may feel a slight resistance when pushing down before the lid opens. The chest's dimensions suggest it is large enough for both hands to interact comfortably."
+  },
+  {
+    "objectName": "key",
+    "involvementType": "grasp",
+    "usage": "players will use it to open a tresure chest",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "a ring-shape holding part ",
+    "texture": "smooth finishing",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.699999988079071,
+    "textureValue": 0.4000000059604645,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.06",
+      "y": "0.05",
+      "z": "0.14"
+    },
+    "interactionDeduction": "Users will grasp the key using a precision grip, holding it between their thumb and index finger. The interaction will involve a turning motion as they insert the key into the lock of the treasure chest. The smooth finishing of the key will provide a pleasant tactile sensation, and users will likely feel the outline of the ring-shaped holding part as they manipulate it. The interaction will be brief but precise, requiring careful alignment with the lock."
+  },
+  {
+    "objectName": "Hammer Dispenser 2",
+    "involvementType": "grasp",
+    "usage": "players will use it to smash things",
+    "engagementLevel": 2,
+    "inertia": "relatively heavy with the center of mass concentrated at one end",
+    "interactivity": "",
+    "outline": "round handle",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.699999988079071,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.4000000059604645,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.25",
+      "y": "0.42",
+      "z": "0.17"
+    },
+    "interactionDeduction": "Users will grasp the hammer using a power grip, wrapping their fingers around the round handle. The interaction will involve lifting the hammer and swinging it downwards to smash objects. The relatively heavy design with a concentrated center of mass will provide significant inertia, making the hammer feel substantial in the user's hands. Users will experience a strong haptic feedback upon impact, simulating the sensation of smashing through resistance."
+  },
+  {
+    "objectName": "Scarecrow punching bag",
+    "involvementType": "contact",
+    "usage": "players will punch it for blowing off steam",
+    "engagementLevel": 0,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "the punching bag is positioned on the ground. make sure a proxy's volume covers this punching bag",
+    "texture": "",
+    "hardness": "feeling a little bit soft while punching",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.8999999761581421,
+    "textureValue": 0.0,
+    "hardnessValue": 0.5,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "1.02",
+      "y": "1.64",
+      "z": "0.70"
+    },
+    "interactionDeduction": "Users will approach the scarecrow punching bag and use their fists to strike it, employing a contact method of punching. The interaction will involve a momentary contact as they hit the bag, with a feeling of softness upon impact. Users may also use their palms or forearms for a more sustained contact, feeling the bag give slightly under pressure. The punching bag's dimensions suggest it is large enough to accommodate various striking techniques, allowing users to blow off steam effectively."
+  }
+]

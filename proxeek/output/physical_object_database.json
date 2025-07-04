@@ -1,0 +1,218 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "black laptop",
+      "position": "detected at mask center (217, 386)",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.0,
+          "y1": 182.028076171875,
+          "x2": 413.3019104003906,
+          "y2": 583.7435302734375,
+          "width": 413.3019104003906,
+          "height": 401.7154541015625,
+          "center_x": 206.6509552001953,
+          "center_y": 382.88580322265625
+        },
+        "mask_center": {
+          "x": 217.0,
+          "y": 386.0
+        },
+        "confidence": 0.25385016202926636,
+        "detected_name": "black laptop",
+        "has_mask": true
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "green plastic container lid",
+      "position": "detected at mask center (569, 433)",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 513.95166015625,
+          "y1": 392.30322265625,
+          "x2": 627.6553955078125,
+          "y2": 475.8858642578125,
+          "width": 113.7037353515625,
+          "height": 83.5826416015625,
+          "center_x": 570.8035278320312,
+          "center_y": 434.09454345703125
+        },
+        "mask_center": {
+          "x": 569.0,
+          "y": 433.0
+        },
+        "confidence": 0.6010329723358154,
+        "detected_name": "green plastic container lid",
+        "has_mask": true
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "black smartphone (iPhone model)",
+      "position": "bottom right of the image",
+      "image_id": 0,
+      "yolo_segmentation": null
+    },
+    {
+      "object_id": 4,
+      "object": "black pen",
+      "position": "detected at mask center (1201, 202)",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1186.506591796875,
+          "y1": 189.28414916992188,
+          "x2": 1279.978271484375,
+          "y2": 219.82669067382812,
+          "width": 93.4716796875,
+          "height": 30.54254150390625,
+          "center_x": 1233.242431640625,
+          "center_y": 204.555419921875
+        },
+        "mask_center": {
+          "x": 1201.0,
+          "y": 202.0
+        },
+        "confidence": 0.04045705869793892,
+        "detected_name": "black pen",
+        "has_mask": true
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "blue pen",
+      "position": "detected at mask center (419, 462)",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 403.05792236328125,
+          "y1": 324.45989990234375,
+          "x2": 477.87176513671875,
+          "y2": 491.68695068359375,
+          "width": 74.8138427734375,
+          "height": 167.22705078125,
+          "center_x": 440.46484375,
+          "center_y": 408.07342529296875
+        },
+        "mask_center": {
+          "x": 419.0,
+          "y": 462.0
+        },
+        "confidence": 0.8556042909622192,
+        "detected_name": "blue pen",
+        "has_mask": true
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "green notebook with handwritten notes",
+      "position": "detected at mask center (986, 940)",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 650.243408203125,
+          "y1": 451.474609375,
+          "x2": 1280.0,
+          "y2": 959.9998779296875,
+          "width": 629.756591796875,
+          "height": 508.5252685546875,
+          "center_x": 965.1217041015625,
+          "center_y": 705.7372436523438
+        },
+        "mask_center": {
+          "x": 986.0,
+          "y": 940.0
+        },
+        "confidence": 0.2836800217628479,
+        "detected_name": "green notebook with handwritten notes",
+        "has_mask": true
+      }
+    },
+    {
+      "object_id": 7,
+      "object": "white airpods case",
+      "position": "detected at mask center (1001, 518)",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 928.50244140625,
+          "y1": 457.81117248535156,
+          "x2": 1069.73779296875,
+          "y2": 582.3472747802734,
+          "width": 141.2353515625,
+          "height": 124.53610229492188,
+          "center_x": 999.1201171875,
+          "center_y": 520.0792236328125
+        },
+        "mask_center": {
+          "x": 1001.0,
+          "y": 518.0
+        },
+        "confidence": 0.0277272816747427,
+        "detected_name": "white airpods case",
+        "has_mask": true
+      }
+    },
+    {
+      "object_id": 8,
+      "object": "black keyboard",
+      "position": "detected at mask center (1228, 386)",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 638.4010009765625,
+          "y1": 262.19793701171875,
+          "x2": 1279.9307861328125,
+          "y2": 527.646484375,
+          "width": 641.52978515625,
+          "height": 265.44854736328125,
+          "center_x": 959.1658935546875,
+          "center_y": 394.9222106933594
+        },
+        "mask_center": {
+          "x": 1228.0,
+          "y": 386.0
+        },
+        "confidence": 0.9087833166122437,
+        "detected_name": "black keyboard",
+        "has_mask": true
+      }
+    },
+    {
+      "object_id": 9,
+      "object": "computer monitor",
+      "position": "detected at mask center (827, 15)",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 342.3028564453125,
+          "y1": 0.00909423828125,
+          "x2": 1280.0,
+          "y2": 282.5283203125,
+          "width": 937.6971435546875,
+          "height": 282.51922607421875,
+          "center_x": 811.1514282226562,
+          "center_y": 141.26870727539062
+        },
+        "mask_center": {
+          "x": 827.0,
+          "y": 15.0
+        },
+        "confidence": 0.6755606532096863,
+        "detected_name": "computer monitor",
+        "has_mask": true
+      }
+    },
+    {
+      "object_id": 10,
+      "object": "cable (possibly charging cable)",
+      "position": "bottom left of the image",
+      "image_id": 0,
+      "yolo_segmentation": null
+    }
+  ]
+}

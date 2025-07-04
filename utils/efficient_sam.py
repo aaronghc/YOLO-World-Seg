@@ -1,9 +1,14 @@
 import torch
 import numpy as np
+import os
 from torchvision.transforms import ToTensor
 
-GPU_EFFICIENT_SAM_CHECKPOINT = "efficient_sam_s_gpu.jit"
-CPU_EFFICIENT_SAM_CHECKPOINT = "efficient_sam_s_cpu.jit"
+# Get the absolute path to the model files (they're in the root directory)
+_current_dir = os.path.dirname(os.path.abspath(__file__))
+_root_dir = os.path.dirname(_current_dir)  # Go up one level to the root directory
+
+GPU_EFFICIENT_SAM_CHECKPOINT = os.path.join(_root_dir, "efficient_sam_s_gpu.jit")
+CPU_EFFICIENT_SAM_CHECKPOINT = os.path.join(_root_dir, "efficient_sam_s_cpu.jit")
 
 
 def load(device: torch.device) -> torch.jit.ScriptModule:
@@ -44,6 +49,11 @@ def inference_with_box(
         ):
             max_predicted_iou = curr_predicted_iou
             selected_mask_using_predicted_iou = all_masks[m]
+    
+    # Return empty mask if no masks were found
+    if selected_mask_using_predicted_iou is None:
+        return np.zeros((image.shape[0], image.shape[1]), dtype=bool)
+    
     return selected_mask_using_predicted_iou
 
 

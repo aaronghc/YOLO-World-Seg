@@ -1,0 +1,12 @@
+---
+description: 
+globs: *.cs,*.py
+alwaysApply: false
+---
+Your job is to design and develop a system that finds viable haptic proxies for VR users from their surroundings. The overall user flow of the system is that users take photos of their environment using passthrough camera on the Meta Quest 3, and send them to the server together with haptic information about virtual game objects annotated by VR developers in advance. The server will run Python scripts to query the LLM and run optimization algorithms to get the result regarding selected viable haptic proxies from the physical objects shown in the photos.
+
+
+The programming language you will use is C# and Python mainly.
+
+Some common mistakes you may encounter:
+-All the JSON files are the outcome for running the scripts. Therefore, their content will not change until the modified scripts are rerun.

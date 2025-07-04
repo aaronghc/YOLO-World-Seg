@@ -89,6 +89,10 @@ def annotate_image(
     categories: List[str],
     with_confidence: bool = False,
 ) -> np.ndarray:
+    # Add null checks for detections attributes
+    if detections.class_id is None or detections.confidence is None:
+        return input_image
+    
     labels = [
         (
             f"{categories[class_id]}: {confidence:.3f}"
@@ -116,8 +120,9 @@ def process_image(
     # cleanup of old video files
     remove_files_older_than(RESULTS, 30)
 
-    categories = process_categories(categories)
-    YOLO_WORLD_MODEL.set_classes(categories)
+    # Process categories and use a different variable name to avoid shadowing
+    categories_list = process_categories(categories)
+    YOLO_WORLD_MODEL.set_classes(categories_list)
     results = YOLO_WORLD_MODEL.infer(input_image, confidence=confidence_threshold)
     detections = sv.Detections.from_inference(results)
     detections = detections.with_nms(
@@ -135,7 +140,7 @@ def process_image(
     output_image = annotate_image(
         input_image=output_image,
         detections=detections,
-        categories=categories,
+        categories=categories_list,
         with_confidence=with_confidence
     )
     return cv2.cvtColor(output_image, cv2.COLOR_BGR2RGB)
@@ -154,8 +159,9 @@ def process_video(
     # cleanup of old video files
     remove_files_older_than(RESULTS, 30)
 
-    categories = process_categories(categories)
-    YOLO_WORLD_MODEL.set_classes(categories)
+    # Process categories and use a different variable name to avoid shadowing
+    categories_list = process_categories(categories)
+    YOLO_WORLD_MODEL.set_classes(categories_list)
     video_info = sv.VideoInfo.from_video_path(input_video)
     total = calculate_end_frame_index(input_video)
     frame_generator = sv.get_video_frames_generator(
@@ -183,7 +189,7 @@ def process_video(
             frame = annotate_image(
                 input_image=frame,
                 detections=detections,
-                categories=categories,
+                categories=categories_list,
                 with_confidence=with_confidence
             )
             sink.write_frame(frame)
