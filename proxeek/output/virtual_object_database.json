@@ -21,7 +21,7 @@
       "y": "0.36",
       "z": "0.54"
     },
-    "interactionDeduction": "Users will approach the treasure chest and use their hands to press down on the hinged lid to open it. The interaction will likely involve a momentary tap to initiate the opening mechanism, followed by a sustained contact as they lift the lid. The wooden texture will provide a tactile feedback, and users may feel a slight resistance when pushing down before the lid opens. The chest's dimensions suggest it is large enough for both hands to interact comfortably."
+    "interactionDeduction": "Users will approach the treasure chest and use their hands to make contact with the lid. The interaction will likely involve a pressing motion to push down on the lid, followed by a pulling motion to lift it open. The chest's wooden texture will provide a tactile feedback, and users may feel the resistance of the hinged lid as they open it. The interaction is expected to be momentary as they quickly access the contents inside."
   },
   {
     "objectName": "key",
@@ -45,7 +45,7 @@
       "y": "0.05",
       "z": "0.14"
     },
-    "interactionDeduction": "Users will grasp the key using a precision grip, holding it between their thumb and index finger. The interaction will involve a turning motion as they insert the key into the lock of the treasure chest. The smooth finishing of the key will provide a pleasant tactile sensation, and users will likely feel the outline of the ring-shaped holding part as they manipulate it. The interaction will be brief but precise, requiring careful alignment with the lock."
+    "interactionDeduction": "Users will grasp the key using a precision grip, holding it between their thumb and index finger. The smooth texture of the key will be felt as they manipulate it. The interaction will involve a turning motion as they insert the key into the lock of the treasure chest, followed by a twisting action to unlock it. This requires careful control and dexterity, as users will need to ensure the key aligns properly with the lock."
   },
   {
     "objectName": "Hammer Dispenser 2",
@@ -69,7 +69,7 @@
       "y": "0.42",
       "z": "0.17"
     },
-    "interactionDeduction": "Users will grasp the hammer using a power grip, wrapping their fingers around the round handle. The interaction will involve lifting the hammer and swinging it downwards to smash objects. The relatively heavy design with a concentrated center of mass will provide significant inertia, making the hammer feel substantial in the user's hands. Users will experience a strong haptic feedback upon impact, simulating the sensation of smashing through resistance."
+    "interactionDeduction": "Users will grasp the hammer using a power grip, wrapping their hand around the round handle. The relatively heavy weight, with the center of mass concentrated at one end, will require users to adjust their grip for balance. The interaction will involve a swinging motion to lift the hammer and then a downward smashing motion aimed at a target. Users will feel the inertia as they swing and the impact feedback when the hammer strikes an object, simulating a realistic hammering experience."
   },
   {
     "objectName": "Scarecrow punching bag",
@@ -93,6 +93,6 @@
       "y": "1.64",
       "z": "0.70"
     },
-    "interactionDeduction": "Users will approach the scarecrow punching bag and use their fists to strike it, employing a contact method of punching. The interaction will involve a momentary contact as they hit the bag, with a feeling of softness upon impact. Users may also use their palms or forearms for a more sustained contact, feeling the bag give slightly under pressure. The punching bag's dimensions suggest it is large enough to accommodate various striking techniques, allowing users to blow off steam effectively."
+    "interactionDeduction": "Users will approach the scarecrow punching bag and use their fists to make contact. The interaction will involve a punching motion, where users will strike the bag with their fists. The bag is expected to feel a little soft upon impact, providing a slight give that simulates a real punching experience. Users may engage in sustained contact as they repeatedly punch the bag, feeling the feedback of their strikes and the slight movement of the bag as it absorbs the impact."
   }
 ]
