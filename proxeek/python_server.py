@@ -191,6 +191,48 @@ def send_to_quest():
         return jsonify({'status': 'error', 'message': f"Send failed: {str(e)}"}), 500
 
 
+# ============================================================================
+#  NEW ENDPOINT: receive_updated_bounding_boxes
+#  Quest sends back bounding box data where world positions have been added.
+#  This endpoint stores the data as the final physical_object_database.json.
+# ============================================================================
+
+
+@app.route('/receive_updated_bounding_boxes', methods=['POST'])
+def receive_updated_bounding_boxes():
+    """Receive updated bounding box data (with world positions) from Quest and save it as the final physical_object_database.json"""
+    try:
+        data = request.get_json(silent=True)
+        if not data:
+            return jsonify({'status': 'error', 'message': 'No JSON body received'}), 400
+
+        # Ensure output directory exists
+        output_dir = os.path.join(SCRIPTS_PATH, 'output')
+        os.makedirs(output_dir, exist_ok=True)
+
+        output_path = os.path.join(output_dir, 'physical_object_database.json')
+
+        # If a top-level 'data' key is present, save only its contents (strip the wrapper)
+        to_save = data.get('data', data)
+
+        with open(output_path, 'w') as f:
+            json.dump(to_save, f, indent=2)
+
+        obj_count = 0
+        try:
+            obj_count = sum(len(v) for v in to_save.values())
+        except Exception:
+            pass
+
+        print(f"Received updated bounding box data. Saved {obj_count} objects to {output_path}")
+
+        return jsonify({'status': 'success', 'message': 'Updated physical object database saved'}), 200
+
+    except Exception as e:
+        print(f"Error handling updated bounding box data: {e}")
+        return jsonify({'status': 'error', 'message': str(e)}), 500
+
+
 if __name__ == '__main__':
     print(f"Starting Python server on port 5000")
     print(f"Scripts path: {SCRIPTS_PATH}")

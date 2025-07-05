@@ -943,11 +943,13 @@ async def enhance_with_yolo_segmentation(object_database: Dict[int, List[Dict]],
             enhanced_database[image_id] = objects
             continue
         
-        # Extract object names for YOLO detection
+        # Extract object names with positions for YOLO detection
+        # This sends the full object description including position to YOLO-World
+        # Format: "white handheld scanner (bottom right of the image)"
         object_names = []
         for obj in objects:
-            # Extract the main object name (before parentheses if any)
-            object_name = obj.get("object", "").split("(")[0].strip()
+            # Include both object name and position in the format "object (position)"
+            object_name = obj.get("object", "").strip()
             if object_name:
                 object_names.append(object_name)
         
@@ -959,7 +961,7 @@ async def enhance_with_yolo_segmentation(object_database: Dict[int, List[Dict]],
                 unique_names.append(name)
                 seen.add(name)
         
-        log(f"Running YOLO segmentation on image {image_id} for objects: {unique_names}")
+        log(f"Running YOLO segmentation on image {image_id} for objects with positions: {unique_names}")
         
         # Run YOLO segmentation
         try:
@@ -972,7 +974,7 @@ async def enhance_with_yolo_segmentation(object_database: Dict[int, List[Dict]],
                 enhanced_obj = obj.copy()
                 
                 # Try to find matching YOLO segmentation
-                obj_name = obj.get("object", "").split("(")[0].strip().lower()
+                obj_name = obj.get("object", "").strip().lower()
                 best_match = None
                 best_confidence = 0.0
                 
@@ -980,8 +982,12 @@ async def enhance_with_yolo_segmentation(object_database: Dict[int, List[Dict]],
                     detected_name = segmentation.get("detected_object_name", "").lower()
                     confidence = segmentation.get("confidence", 0.0)
                     
+                    # Extract just the object name part (before parentheses) for matching
+                    obj_name_part = obj_name.split("(")[0].strip()
+                    detected_name_part = detected_name.split("(")[0].strip()
+                    
                     # Simple name matching (can be improved with fuzzy matching if needed)
-                    if detected_name in obj_name or obj_name in detected_name:
+                    if detected_name_part in obj_name_part or obj_name_part in detected_name_part:
                         if confidence > best_confidence:
                             best_match = segmentation
                             best_confidence = confidence
@@ -996,8 +1002,7 @@ async def enhance_with_yolo_segmentation(object_database: Dict[int, List[Dict]],
                         "has_mask": best_match["has_mask"],
                         "mask_contours": best_match.get("mask_contours", [])
                     }
-                    # Update position to use mask center instead of bbox center
-                    enhanced_obj["position"] = f"detected at mask center ({best_match['mask_center']['x']:.0f}, {best_match['mask_center']['y']:.0f})"
+                    # Keep original 'position'; do not overwrite with mask center coordinates
                     log(f"Matched '{obj.get('object', '')}' with YOLO segmentation '{best_match['detected_object_name']}' (confidence: {best_confidence:.3f})")
                 else:
                     enhanced_obj["yolo_segmentation"] = None
@@ -1031,6 +1036,48 @@ async def enhance_with_yolo_segmentation(object_database: Dict[int, List[Dict]],
                     }
                     enhanced_objects.append(additional_obj)
                     log(f"Added YOLO-only segmentation: '{detected_name}' (confidence: {segmentation['confidence']:.3f})")
+            
+            # ------------------------------------------------------------------
+            # SECOND PASS: ultra-low-threshold YOLO detection for still-unmatched
+            # objects (e.g., "blue plastic food storage container with a clear
+            # lid").  Runs once per remaining object using the format
+            #   "object name (position)"  and confidence 0.0001.
+            # ------------------------------------------------------------------
+            for obj in enhanced_objects:
+                if obj.get("yolo_segmentation") is None:
+                    obj_name = obj.get("object", "").strip()
+                    obj_pos = obj.get("position", "").strip()
+                    if not obj_name:
+                        continue  # skip nameless entries
+
+                    query_name = f"{obj_name} ({obj_pos})" if obj_pos else obj_name
+
+                    # Temporarily override global confidence threshold
+                    global CONFIDENCE_THRESHOLD
+                    _orig_conf = CONFIDENCE_THRESHOLD
+                    CONFIDENCE_THRESHOLD = 0.0001
+                    try:
+                        low_segs = run_yolo_segmentation(image_base64, [query_name], image_id)
+                        if low_segs:
+                            seg = low_segs[0]
+                            obj["yolo_segmentation"] = {
+                                "bbox": seg["bbox"],
+                                "mask_center": seg["mask_center"],
+                                "confidence": seg["confidence"],
+                                "detected_name": seg["detected_object_name"],
+                                "has_mask": seg["has_mask"],
+                                "mask_contours": seg.get("mask_contours", []),
+                            }
+                            log(
+                                f"Second-pass YOLO matched '{obj_name}' in image {image_id} "
+                                f"(conf {seg['confidence']:.4f})"
+                            )
+                    except Exception as e:
+                        log(
+                            f"Second-pass YOLO error for '{obj_name}' in image {image_id}: {e}"
+                        )
+                    finally:
+                        CONFIDENCE_THRESHOLD = _orig_conf
             
             enhanced_database[image_id] = enhanced_objects
             
