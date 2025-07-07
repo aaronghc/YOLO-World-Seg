@@ -22,6 +22,7 @@ class VirtualObject:
     index: int  # Index in the virtual objects list
     engagement_level: int  # 0=low, 1=medium, 2=high
     involvement_type: str  # grasp, contact, substrate
+    position: Optional[np.ndarray] = None  # 3D position in virtual space
 
 @dataclass
 class PhysicalObject:
@@ -30,6 +31,7 @@ class PhysicalObject:
     object_id: int
     image_id: int
     index: int  # Index in the physical objects list
+    position: Optional[np.ndarray] = None  # 3D position in world space
 
 @dataclass
 class Assignment:
@@ -42,7 +44,7 @@ class Assignment:
 class ProXeekOptimizer:
     """Global optimization for haptic proxy assignment"""
     
-    def __init__(self, data_dir: str = r"C:\Users\aaron\Documents\GitHub\YOLO-World\YOLO-World\demo\output"):
+    def __init__(self, data_dir: str = r"C:\Users\aaron\Documents\GitHub\YOLO-World-Seg\proxeek\output"):
         self.data_dir = data_dir
         self.virtual_objects: List[VirtualObject] = []
         self.physical_objects: List[PhysicalObject] = []
@@ -55,6 +57,15 @@ class ProXeekOptimizer:
         self.w_realism = 1.0
         self.w_priority = 1.0
         self.w_interaction = 1.0
+        # NEW: spatial weight
+        self.w_spatial = 1.0
+        
+        # Matrices for spatial calculations (initialized later)
+        self.spatial_group_matrix: Optional[np.ndarray] = None
+        self.virtual_distance_matrix: Optional[np.ndarray] = None
+        self.virtual_angle_matrix: Optional[np.ndarray] = None
+        self.physical_distance_matrix: Optional[np.ndarray] = None
+        self.physical_angle_matrix: Optional[np.ndarray] = None
         
         # Constraints
         self.enable_exclusivity = True  # Each physical object used at most once
@@ -91,11 +102,20 @@ class ProXeekOptimizer:
             with open(relationship_file, 'r') as f:
                 relationship_data = json.load(f)
             
+            # NEW: Load virtual object database (for positions)
+            virtual_file = os.path.join(self.data_dir, "virtual_object_database.json")
+            with open(virtual_file, 'r') as f:
+                virtual_data = json.load(f)
+            
             # Process the loaded data
             self._process_virtual_objects(haptic_data)
             self._process_physical_objects(physical_data)
+            # Assign positions to virtual objects
+            self._assign_virtual_positions(virtual_data)
+            # Build auxiliary matrices
             self._build_realism_matrix(proxy_data)
             self._build_interaction_matrices(haptic_data, relationship_data)
+            self._build_distance_matrices()  # for spatial loss
             
             print(f"Loaded data successfully:")
             print(f"  Virtual objects: {len(self.virtual_objects)}")
@@ -156,14 +176,39 @@ class ProXeekOptimizer:
         index = 0
         for image_id_str, objects in physical_data.items():
             for obj in objects:
+                # Extract 3D position if available
+                world_pos = obj.get("worldposition", {})
+                pos_arr = None
+                if world_pos:
+                    pos_arr = np.array([
+                        float(world_pos.get("x", 0.0)),
+                        float(world_pos.get("y", 0.0)),
+                        float(world_pos.get("z", 0.0))
+                    ])
                 physical_obj = PhysicalObject(
                     name=obj.get("object", ""),
                     object_id=obj.get("object_id", -1),
                     image_id=obj.get("image_id", int(image_id_str)),
-                    index=index
+                    index=index,
+                    position=pos_arr
                 )
                 self.physical_objects.append(physical_obj)
                 index += 1
+    
+    def _assign_virtual_positions(self, virtual_data: List[Dict]) -> None:
+        """Assign 3D positions to previously created VirtualObject instances"""
+        name_to_pos = {}
+        for entry in virtual_data:
+            if "objectName" in entry and "globalPosition" in entry:
+                gp = entry["globalPosition"]
+                name_to_pos[entry["objectName"]] = np.array([
+                    float(gp.get("x", 0.0)),
+                    float(gp.get("y", 0.0)),
+                    float(gp.get("z", 0.0))
+                ])
+        for v_obj in self.virtual_objects:
+            if v_obj.name in name_to_pos:
+                v_obj.position = name_to_pos[v_obj.name]
     
     def _build_realism_matrix(self, proxy_data: List[Dict]) -> None:
         """Build the realism rating matrix from proxy matching results"""
@@ -273,6 +318,44 @@ class ProXeekOptimizer:
         
         print(f"Processed {ratings_processed} interaction ratings into 3D matrix")
     
+    def _build_distance_matrices(self) -> None:
+        """Pre-compute distance and angle matrices for spatial loss"""
+        # Virtual objects
+        n_virtual = len(self.virtual_objects)
+        self.virtual_distance_matrix = np.zeros((n_virtual, n_virtual))
+        self.virtual_angle_matrix = np.zeros((n_virtual, n_virtual))
+        for i in range(n_virtual):
+            pos_i = self.virtual_objects[i].position
+            if pos_i is None:
+                continue
+            for k in range(n_virtual):
+                pos_k = self.virtual_objects[k].position
+                if pos_k is None:
+                    continue
+                diff = pos_k - pos_i
+                self.virtual_distance_matrix[i, k] = float(np.linalg.norm(diff))
+                self.virtual_angle_matrix[i, k] = float(np.arctan2(diff[2], diff[0]))
+        
+        # Physical objects
+        n_physical = len(self.physical_objects)
+        self.physical_distance_matrix = np.zeros((n_physical, n_physical))
+        self.physical_angle_matrix = np.zeros((n_physical, n_physical))
+        for i in range(n_physical):
+            pos_i = self.physical_objects[i].position
+            if pos_i is None:
+                continue
+            for k in range(n_physical):
+                pos_k = self.physical_objects[k].position
+                if pos_k is None:
+                    continue
+                diff = pos_k - pos_i
+                self.physical_distance_matrix[i, k] = float(np.linalg.norm(diff))
+                self.physical_angle_matrix[i, k] = float(np.arctan2(diff[2], diff[0]))
+        
+        # Spatial group matrix: default all pairs (excluding self) are in same group
+        self.spatial_group_matrix = np.ones((n_virtual, n_virtual))
+        np.fill_diagonal(self.spatial_group_matrix, 0.0)
+    
     def calculate_realism_loss(self, assignment_matrix: np.ndarray) -> float:
         """Calculate L_realism = -∑ᵢ∑ⱼ (realism_rating[i,j] × X[i,j])"""
         if self.realism_matrix is None:
@@ -338,20 +421,43 @@ class ProXeekOptimizer:
         
         return loss
     
+    def calculate_spatial_loss(self, assignment_matrix: np.ndarray) -> float:
+        """Calculate L_spatial based only on distance distortions (no direction)"""
+        if (self.spatial_group_matrix is None or
+            self.virtual_distance_matrix is None or self.physical_distance_matrix is None):
+            return 0.0
+        # Cast to local vars for clarity
+        virtual_dist_mat = self.virtual_distance_matrix
+        physical_dist_mat = self.physical_distance_matrix
+        n_virtual = len(self.virtual_objects)
+        assigned_physical = np.argmax(assignment_matrix, axis=1)
+        loss = 0.0
+        for i in range(n_virtual):
+            for k in range(n_virtual):
+                if i == k or self.spatial_group_matrix[i, k] == 0:
+                    continue
+                v_dist = virtual_dist_mat[i, k]
+                p_dist = physical_dist_mat[assigned_physical[i], assigned_physical[k]]
+                loss += (v_dist - p_dist) ** 2
+        return float(loss)
+    
     def calculate_total_loss(self, assignment_matrix: np.ndarray) -> Tuple[float, Dict[str, float]]:
         """Calculate the total multi-objective loss function"""
         l_realism = self.calculate_realism_loss(assignment_matrix)
         l_priority = self.calculate_priority_loss(assignment_matrix)
         l_interaction = self.calculate_interaction_loss(assignment_matrix)
+        l_spatial = self.calculate_spatial_loss(assignment_matrix)
         
         total_loss = (self.w_realism * l_realism + 
                      self.w_priority * l_priority + 
-                     self.w_interaction * l_interaction)
+                     self.w_interaction * l_interaction +
+                     self.w_spatial * l_spatial)
         
         loss_components = {
             "L_realism": l_realism,
             "L_priority": l_priority,
             "L_interaction": l_interaction,
+            "L_spatial": l_spatial,
             "total": total_loss
         }
         
@@ -624,7 +730,8 @@ class ProXeekOptimizer:
                 "loss_weights": {
                     "w_realism": self.w_realism,
                     "w_priority": self.w_priority,
-                    "w_interaction": self.w_interaction
+                    "w_interaction": self.w_interaction,
+                    "w_spatial": self.w_spatial
                 }
             },
             "assignments": []
@@ -686,6 +793,7 @@ def main():
     optimizer.w_realism = 1.0
     optimizer.w_priority = 0.05
     optimizer.w_interaction = 0.5
+    optimizer.w_spatial = 0.5
     
     # Enable/disable exclusivity constraint
     optimizer.enable_exclusivity = True
@@ -694,6 +802,7 @@ def main():
     print(f"  Realism weight: {optimizer.w_realism}")
     print(f"  Priority weight: {optimizer.w_priority}")
     print(f"  Interaction weight: {optimizer.w_interaction}")
+    print(f"  Spatial weight: {optimizer.w_spatial}")
     print(f"  Exclusivity constraint: {optimizer.enable_exclusivity}")
     
     # Run optimization

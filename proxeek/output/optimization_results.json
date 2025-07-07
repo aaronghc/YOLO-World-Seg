@@ -1,0 +1,168 @@
+{
+  "optimization_summary": {
+    "total_loss": 61.72596649435803,
+    "loss_components": {
+      "L_realism": -22.099999874830246,
+      "L_priority": -464.9366627164682,
+      "L_interaction": -33.0,
+      "L_spatial": 247.14559901002337,
+      "total": 61.72596649435803
+    },
+    "num_virtual_objects": 5,
+    "num_physical_objects": 11,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1.0,
+      "w_priority": 0.05,
+      "w_interaction": 0.5,
+      "w_spatial": 0.5
+    }
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Treasure Chest",
+        "index": 0,
+        "engagement_level": 3,
+        "involvement_type": "contact",
+        "priority_weight": 3.0
+      },
+      "physical_object": {
+        "name": "white cuboid AirPods case",
+        "object_id": 6,
+        "image_id": 0,
+        "index": 5
+      },
+      "realism_score": 7.5,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "key",
+        "index": 1,
+        "engagement_level": 4,
+        "involvement_type": "grasp",
+        "priority_weight": 4.0
+      },
+      "physical_object": {
+        "name": "green circular lid",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 6.099999964237213,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "Tomato",
+        "index": 2,
+        "engagement_level": 2,
+        "involvement_type": "substrate",
+        "priority_weight": 2.0
+      },
+      "physical_object": {
+        "name": "black umbrella",
+        "object_id": 7,
+        "image_id": 0,
+        "index": 6
+      },
+      "realism_score": 0.0,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer Dispenser 2",
+        "index": 3,
+        "engagement_level": 5,
+        "involvement_type": "grasp",
+        "priority_weight": 5.0
+      },
+      "physical_object": {
+        "name": "blue plastic container with ice cube tray",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 3.2999999821186066,
+      "assignment_matrix_row": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "Scarecrow punching bag",
+        "index": 4,
+        "engagement_level": 1,
+        "involvement_type": "contact",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "various sticky notes",
+        "object_id": 11,
+        "image_id": 0,
+        "index": 10
+      },
+      "realism_score": 5.199999928474426,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

@@ -21,7 +21,17 @@
       "y": "0.36",
       "z": "0.54"
     },
-    "interactionDeduction": "Users will approach the treasure chest and use their hands to press down on the hinged lid to open it. The interaction will involve a momentary tap or sustained pressure on the lid, simulating the action of lifting it. The wooden texture will provide a tactile feedback, and users may feel a slight resistance as they push down before the lid opens. The chest will respond by visually animating the lid opening, possibly with a creaking sound to enhance the realism."
+    "globalPosition": {
+      "x": -0.14849241077899933,
+      "y": 0.0,
+      "z": -9.238492965698242
+    },
+    "globalRotation": {
+      "x": -1.341066138138558e-07,
+      "y": 41.79588317871094,
+      "z": 6.594675596716115e-07
+    },
+    "interactionDeduction": "Users will approach the treasure chest and use their hands to make contact with the lid. The interaction will likely involve a pressing motion to push down on the lid to open it, simulating the action of lifting a heavy lid. Users may also use their palms to slide across the surface before applying pressure. The wooden texture will provide a tactile feedback, and the chest may respond with a slight resistance before the lid opens, mimicking the feel of a real chest."
   },
   {
     "objectName": "key",
@@ -45,7 +55,17 @@
       "y": "0.05",
       "z": "0.14"
     },
-    "interactionDeduction": "Users will grasp the key using a precision grip, holding it between their thumb and index finger. The interaction will involve a turning motion as they insert the key into the lock of the treasure chest. The smooth texture of the key will provide a comfortable feel in the user's hand. Users will likely perform a twisting action to simulate unlocking the chest, which will respond with a visual cue indicating the lock has been disengaged."
+    "globalPosition": {
+      "x": 3.083050012588501,
+      "y": 1.149999976158142,
+      "z": -4.472835063934326
+    },
+    "globalRotation": {
+      "x": 1.7075473124350538e-06,
+      "y": 18.880008697509766,
+      "z": 90.00001525878906
+    },
+    "interactionDeduction": "Users will grasp the key using a precision grip, holding it between their thumb and index finger. The interaction will involve a twisting motion as they insert the key into the lock of the treasure chest. The smooth texture of the key will provide a comfortable grip, and users may feel a slight click or resistance when the key engages with the lock mechanism, indicating successful insertion."
   },
   {
     "objectName": "Hammer Dispenser 2",
@@ -69,7 +89,17 @@
       "y": "0.42",
       "z": "0.17"
     },
-    "interactionDeduction": "Users will grasp the hammer using a power grip, wrapping their hand around the round handle. The interaction will involve lifting the hammer and swinging it downwards to smash virtual objects. The relatively heavy weight and concentrated center of mass will provide a sense of inertia, making the hammer feel substantial during use. Users will experience a strong haptic feedback as they strike, simulating the impact of a real hammer hitting a surface."
+    "globalPosition": {
+      "x": 1.3730000257492065,
+      "y": 1.2319999933242798,
+      "z": -3.4800000190734863
+    },
+    "globalRotation": {
+      "x": 356.6505432128906,
+      "y": 111.71516418457031,
+      "z": 89.894775390625
+    },
+    "interactionDeduction": "Users will grasp the hammer using a power grip, wrapping their fingers around the round handle. The interaction will involve lifting the hammer and swinging it downwards to smash objects. The relatively heavy weight, with the center of mass concentrated at one end, will provide a realistic inertia, making users feel the effort required to lift and swing it. The hammer will respond with a solid impact feedback when it strikes an object, simulating the sensation of a real hammer."
   },
   {
     "objectName": "Scarecrow punching bag",
@@ -93,6 +123,16 @@
       "y": "1.64",
       "z": "0.70"
     },
-    "interactionDeduction": "Users will approach the scarecrow punching bag and use their fists to punch it, employing a contact method that involves a quick, forceful strike. The interaction will likely involve a sustained contact as users may repeatedly hit the bag to blow off steam. The punching bag will feel slightly soft upon impact, providing a cushioning effect that simulates a real punching bag. Users will experience a satisfying feedback from the bag as it sways and rebounds after each punch, enhancing the physicality of the interaction."
+    "globalPosition": {
+      "x": 0.009999999776482582,
+      "y": -0.34299999475479126,
+      "z": -9.12600040435791
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 32.06475830078125,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users will approach the scarecrow punching bag and use their fists to make contact with it. The interaction will involve a punching motion, where users may throw quick jabs or sustained punches. The punching bag will feel soft upon impact, providing a slight give, which will help absorb the force of the punches. Users may also feel a slight rebound effect as the bag moves back after being struck, simulating the experience of hitting a real punching bag."
   }
 ]

@@ -2,263 +2,332 @@
   "0": [
     {
       "object_id": 1,
-      "object": "black computer mouse",
-      "position": "bottom center of the image",
-      "worldposition": {
-        "x": 0.449318826,
-        "y": 0.7327684,
-        "z": 0.325315446
-      },
+      "object": "black computer keyboard",
+      "position": "center of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 484.432251,
-          "y1": 453.165527,
-          "x2": 636.6875,
-          "y2": 643.0862,
-          "width": 152.255249,
-          "height": 189.920685,
-          "center_x": 560.5599,
-          "center_y": 548.125854
+          "x1": 325.337890625,
+          "y1": 376.02349853515625,
+          "x2": 862.02734375,
+          "y2": 537.5506591796875,
+          "width": 536.689453125,
+          "height": 161.52716064453125,
+          "center_x": 593.6826171875,
+          "center_y": 456.7870788574219
         },
         "mask_center": {
-          "x": 554.0,
-          "y": 536.0
+          "x": 756.0,
+          "y": 448.0
         },
-        "confidence": 0.8593614,
-        "detected_name": "black computer mouse"
+        "confidence": 0.9539781212806702,
+        "detected_name": "black computer keyboard",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.339323848,
+        "y": 0.7258089,
+        "z": 0.5052633
       }
     },
     {
       "object_id": 2,
       "object": "blue plastic container with ice cube tray",
-      "position": "top right of the mouse",
-      "worldposition": {
-        "x": 0.5283678,
-        "y": 0.738089144,
-        "z": 0.404350579
-      },
+      "position": "bottom left of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 485.182678,
-          "y1": 318.277466,
-          "x2": 742.360535,
-          "y2": 470.517334,
-          "width": 257.177856,
-          "height": 152.239868,
-          "center_x": 613.7716,
-          "center_y": 394.3974
+          "x1": 149.080810546875,
+          "y1": 624.8438720703125,
+          "x2": 284.1787414550781,
+          "y2": 724.261474609375,
+          "width": 135.09793090820312,
+          "height": 99.4176025390625,
+          "center_x": 216.62977600097656,
+          "center_y": 674.5526733398438
         },
         "mask_center": {
-          "x": 607.0,
-          "y": 383.0
+          "x": 208.0,
+          "y": 676.0
         },
-        "confidence": 0.0160687547,
-        "detected_name": "blue plastic container with ice cube tray"
+        "confidence": 0.09077271074056625,
+        "detected_name": "blue plastic container with ice cube tray (bottom left of the image)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.008180365,
+        "y": 0.708470762,
+        "z": 0.4133249
       }
     },
     {
       "object_id": 3,
-      "object": "colorful promotional postcard",
-      "position": "bottom left of the mouse",
-      "worldposition": {
-        "x": 0.343116373,
-        "y": 0.6965755,
-        "z": 0.354632437
-      },
+      "object": "green circular lid",
+      "position": "bottom left of the image, next to the blue container",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 168.871643,
-          "y1": 469.308777,
-          "x2": 481.358948,
-          "y2": 760.6706,
-          "width": 312.4873,
-          "height": 291.361816,
-          "center_x": 325.1153,
-          "center_y": 614.9897
+          "x1": 149.20477294921875,
+          "y1": 625.3021240234375,
+          "x2": 284.6165771484375,
+          "y2": 723.2425537109375,
+          "width": 135.41180419921875,
+          "height": 97.9404296875,
+          "center_x": 216.91067504882812,
+          "center_y": 674.2723388671875
         },
         "mask_center": {
-          "x": 307.0,
-          "y": 660.0
+          "x": 208.0,
+          "y": 676.0
         },
-        "confidence": 0.0407273658,
-        "detected_name": "colorful promotional postcard"
+        "confidence": 0.3804711401462555,
+        "detected_name": "green circular lid",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.008180365,
+        "y": 0.708470762,
+        "z": 0.4133249
       }
     },
     {
       "object_id": 4,
-      "object": "spiral notebook",
-      "position": "bottom left corner of the image",
-      "worldposition": {
-        "x": 0.8140776,
-        "y": 0.4101241,
-        "z": 0.122091077
-      },
+      "object": "notebook with handwritten notes",
+      "position": "center right of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 863.3042,
-          "y1": 556.806,
-          "x2": 1280.0,
-          "y2": 960.0,
-          "width": 416.6958,
-          "height": 403.19397,
-          "center_x": 1071.6521,
-          "center_y": 758.403
+          "x1": 372.76080322265625,
+          "y1": 513.9461669921875,
+          "x2": 799.9722290039062,
+          "y2": 883.8890380859375,
+          "width": 427.21142578125,
+          "height": 369.94287109375,
+          "center_x": 586.3665161132812,
+          "center_y": 698.9176025390625
         },
         "mask_center": {
-          "x": 1188.0,
-          "y": 830.0
+          "x": 577.0,
+          "y": 691.0
         },
-        "confidence": 0.07757434,
-        "detected_name": "spiral notebook (bottom left corner of the image)"
+        "confidence": 0.5007197856903076,
+        "detected_name": "notebook with handwritten notes",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.169400454,
+        "y": 0.707634568,
+        "z": 0.346111655
       }
     },
     {
       "object_id": 5,
-      "object": "black umbrella",
-      "position": "top right of the image",
-      "worldposition": {
-        "x": 0.6664032,
-        "y": 0.7446053,
-        "z": 0.274446428
-      },
+      "object": "black pen",
+      "position": "on top of the notebook",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 894.70874,
-          "y1": 319.839661,
-          "x2": 1244.34473,
-          "y2": 681.7931,
-          "width": 349.636,
-          "height": 361.95343,
-          "center_x": 1069.52673,
-          "center_y": 500.816376
+          "x1": 433.13446044921875,
+          "y1": 556.794921875,
+          "x2": 684.5682983398438,
+          "y2": 595.815673828125,
+          "width": 251.433837890625,
+          "height": 39.020751953125,
+          "center_x": 558.8513793945312,
+          "center_y": 576.3052978515625
         },
         "mask_center": {
-          "x": 989.0,
-          "y": 400.0
+          "x": 461.0,
+          "y": 567.0
         },
-        "confidence": 0.1451092,
-        "detected_name": "black umbrella"
+        "confidence": 0.22644183039665222,
+        "detected_name": "black pen",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.13565442,
+        "y": 0.708469748,
+        "z": 0.461201072
       }
     },
     {
       "object_id": 6,
-      "object": "computer keyboard",
-      "position": "left side of the image",
-      "worldposition": {
-        "x": 0.26797843,
-        "y": 0.7238963,
-        "z": 0.5572332
-      },
+      "object": "white cuboid AirPods case",
+      "position": "to the right of the notebook",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 0.00531005859,
-          "y1": 309.2052,
-          "x2": 245.535553,
-          "y2": 588.01416,
-          "width": 245.530243,
-          "height": 278.80896,
-          "center_x": 122.770432,
-          "center_y": 448.60968
+          "x1": 741.669677734375,
+          "y1": 600.57275390625,
+          "x2": 867.568359375,
+          "y2": 687.518310546875,
+          "width": 125.898681640625,
+          "height": 86.945556640625,
+          "center_x": 804.6190185546875,
+          "center_y": 644.0455322265625
         },
         "mask_center": {
-          "x": 19.0,
-          "y": 436.0
+          "x": 815.0,
+          "y": 642.0
         },
-        "confidence": 0.6473135,
-        "detected_name": "computer keyboard"
+        "confidence": 0.09011293202638626,
+        "detected_name": "white cuboid AirPods case",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.2849266,
+        "y": 0.7157501,
+        "z": 0.331289768
       }
     },
     {
       "object_id": 7,
-      "object": "monitor displaying code",
-      "position": "top left of the image",
-      "worldposition": {
-        "x": 0.7327111,
-        "y": 0.886536,
-        "z": 0.392393172
-      },
+      "object": "black umbrella",
+      "position": "to the right of the AirPods case",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 50.00879,
-          "y1": 0.0,
-          "x2": 1149.84229,
-          "y2": 353.9542,
-          "width": 1099.8335,
-          "height": 353.9542,
-          "center_x": 599.925537,
-          "center_y": 176.9771
+          "x1": 896.18701171875,
+          "y1": 493.73741149902344,
+          "x2": 1278.09033203125,
+          "y2": 951.2171783447266,
+          "width": 381.9033203125,
+          "height": 457.4797668457031,
+          "center_x": 1087.138671875,
+          "center_y": 722.477294921875
         },
         "mask_center": {
-          "x": 950.0,
-          "y": 15.0
+          "x": 988.0,
+          "y": 586.0
         },
-        "confidence": 0.464603841,
-        "detected_name": "monitor displaying code"
+        "confidence": 0.027361217886209488,
+        "detected_name": "black umbrella",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.368106127,
+        "y": 0.7392574,
+        "z": 0.315846264
       }
     },
     {
       "object_id": 8,
-      "object": "cables and wires",
-      "position": "bottom right of the image",
-      "worldposition": {
-        "x": 0.8140776,
-        "y": 0.4101241,
-        "z": 0.122091077
-      },
+      "object": "coin",
+      "position": "to the right of the notebook",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 855.3948,
-          "y1": 543.4409,
-          "x2": 1280.0,
-          "y2": 960.0,
-          "width": 424.605225,
-          "height": 416.559082,
-          "center_x": 1067.69739,
-          "center_y": 751.720459
+          "x1": 373.18601989746094,
+          "y1": 512.658203125,
+          "x2": 802.6423492431641,
+          "y2": 887.35205078125,
+          "width": 429.4563293457031,
+          "height": 374.69384765625,
+          "center_x": 587.9141845703125,
+          "center_y": 700.005126953125
         },
         "mask_center": {
-          "x": 1188.0,
-          "y": 830.0
+          "x": 577.0,
+          "y": 691.0
         },
-        "confidence": 0.017083196,
-        "detected_name": "cables and wires (bottom right of the image)"
+        "confidence": 0.013734780251979828,
+        "detected_name": "coin (to the right of the notebook)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.169400454,
+        "y": 0.707634568,
+        "z": 0.346111655
       }
     },
     {
       "object_id": 9,
-      "object": "white computer tower",
-      "position": "bottom right corner of the image",
-      "worldposition": {
-        "x": 0.8140776,
-        "y": 0.4101241,
-        "z": 0.122091077
-      },
+      "object": "two computer monitors displaying code",
+      "position": "top of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 858.6349,
-          "y1": 552.0216,
-          "x2": 1279.53821,
-          "y2": 960.0,
-          "width": 420.90332,
-          "height": 407.9784,
-          "center_x": 1069.08655,
-          "center_y": 756.0108
+          "x1": 0.0,
+          "y1": 0.105377197265625,
+          "x2": 821.0457153320312,
+          "y2": 407.67327880859375,
+          "width": 821.0457153320312,
+          "height": 407.5679016113281,
+          "center_x": 410.5228576660156,
+          "center_y": 203.8893280029297
         },
         "mask_center": {
-          "x": 1188.0,
-          "y": 830.0
+          "x": 270.0,
+          "y": 15.0
         },
-        "confidence": 0.0233701672,
-        "detected_name": "white computer tower (bottom right corner of the image)"
+        "confidence": 0.9208667278289795,
+        "detected_name": "two computer monitors displaying code",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.08554329,
+        "y": 0.972856939,
+        "z": 0.7511075
+      }
+    },
+    {
+      "object_id": 10,
+      "object": "black mouse",
+      "position": "to the right of the keyboard",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 742.0209350585938,
+          "y1": 600.9368896484375,
+          "x2": 867.4602661132812,
+          "y2": 687.7689208984375,
+          "width": 125.4393310546875,
+          "height": 86.83203125,
+          "center_x": 804.7406005859375,
+          "center_y": 644.3529052734375
+        },
+        "mask_center": {
+          "x": 815.0,
+          "y": 642.0
+        },
+        "confidence": 0.25123754143714905,
+        "detected_name": "black mouse",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.2849266,
+        "y": 0.7157501,
+        "z": 0.331289768
+      }
+    },
+    {
+      "object_id": 11,
+      "object": "various sticky notes",
+      "position": "on the monitor and around the workspace",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 789.552978515625,
+          "y1": 0.0,
+          "x2": 1280.0,
+          "y2": 308.2009582519531,
+          "width": 490.447021484375,
+          "height": 308.2009582519531,
+          "center_x": 1034.7764892578125,
+          "center_y": 154.10047912597656
+        },
+        "mask_center": {
+          "x": 1264.0,
+          "y": 15.0
+        },
+        "confidence": 0.00989663414657116,
+        "detected_name": "various sticky notes (on the monitor and around the workspace)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.62820363,
+        "y": 0.975457847,
+        "z": 0.469204962
       }
     }
   ]

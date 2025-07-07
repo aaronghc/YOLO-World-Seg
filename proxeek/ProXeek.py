@@ -31,19 +31,19 @@ import tempfile
 # =============================================================================
 
 # Substrate Utilization Process - Overlapping Batch Configuration
-SUBSTRATE_BATCH_SIZE = 10        # Number of tasks per batch
+SUBSTRATE_BATCH_SIZE = 50        # Number of tasks per batch
 SUBSTRATE_BATCH_INTERVAL = 1.5  # Seconds between starting new batches
 
 # Property Rating Process - Overlapping Batch Configuration
-PROPERTY_RATING_BATCH_SIZE = 5  # Number of tasks per batch
+PROPERTY_RATING_BATCH_SIZE = 50  # Number of tasks per batch
 PROPERTY_RATING_BATCH_INTERVAL = 2  # Seconds between starting new batches
 
 # Relationship Rating Process - Overlapping Batch Configuration
-RELATIONSHIP_RATING_BATCH_SIZE = 5  # Number of tasks per batch
+RELATIONSHIP_RATING_BATCH_SIZE = 50  # Number of tasks per batch
 RELATIONSHIP_RATING_BATCH_INTERVAL = 1  # Seconds between starting new batches
 
 # Process Activation Switches
-ENABLE_PROXY_MATCHING = False        # Set to True to enable proxy matching and dependent processes
+ENABLE_PROXY_MATCHING = True        # Set to True to enable proxy matching and dependent processes
 ENABLE_RELATIONSHIP_RATING = True   # Set to True to enable relationship rating
 
 # =============================================================================
@@ -1192,29 +1192,47 @@ async def export_annotated_images(enhanced_database: Dict[int, List[Dict]], envi
 # Function to save object database to JSON file
 def save_object_database(object_db: Dict[int, List[Dict]], output_path: str) -> Optional[str]:
     try:
-        # Create a deep-copy without mask_contours to avoid large/unnecessary data
-        cleaned_db: Dict[str, List[Dict]] = {}
+        # --- NEW: merge with existing data to preserve Quest world positions ---
+        merged_db: Dict[str, List[Dict]] = {}
+        existing_db = {}
+        if os.path.exists(output_path):
+            try:
+                with open(output_path, "r") as prev_f:
+                    existing_db = json.load(prev_f)
+            except Exception as merge_err:
+                log(f"Warning: Failed reading existing physical database for merge: {merge_err}")
+                existing_db = {}
+ 
+        # Deep-copy incoming db first (str keys for json)
         for img_id, obj_list in object_db.items():
-            cleaned_objects: List[Dict] = []
+            merged_db[str(img_id)] = []
             for obj in obj_list:
-                obj_copy = json.loads(json.dumps(obj))  # simple deep copy via json
-                yolo_seg = obj_copy.get("yolo_segmentation")
+                merged_obj = json.loads(json.dumps(obj))  # simple deep copy
+ 
+                # Try to pull worldposition from existing db if not present
+                if "worldposition" not in merged_obj:
+                    prev_objs = existing_db.get(str(img_id), [])
+                    for prev in prev_objs:
+                        if (
+                            prev.get("object_id") == merged_obj.get("object_id")
+                            and "worldposition" in prev
+                        ):
+                            merged_obj["worldposition"] = prev["worldposition"]
+                            break
+ 
+                # Remove heavy mask contours before save
+                yolo_seg = merged_obj.get("yolo_segmentation")
                 if yolo_seg and "mask_contours" in yolo_seg:
                     del yolo_seg["mask_contours"]
-                cleaned_objects.append(obj_copy)
-            cleaned_db[str(img_id)] = cleaned_objects
-
-        # Convert to serializable format (mask_contours removed)
-        serializable_db = cleaned_db
-
-        # Ensure directory exists
+                merged_db[str(img_id)].append(merged_obj)
+ 
+        # ------------------------------------------------------------------
+        # Persist
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        
-        # Save to file
-        with open(output_path, 'w') as f:
-            json.dump(serializable_db, f, indent=2)
-            
-        log(f"Object database saved to {output_path}")
+        with open(output_path, "w") as f:
+            json.dump(merged_db, f, indent=2)
+ 
+        log(f"Object database saved to {output_path} (merged world positions where available)")
         return output_path
     except Exception as e:
         log(f"Error saving object database: {e}")
@@ -4404,4 +4422,21 @@ except Exception as e:
     import traceback
     log(traceback.format_exc())
     print(json.dumps({"status": "error", "message": str(e)}))
+
+# After loading environment variables and before any LangSmith-enabled LLMs are instantiated
+# -----------------------------------------------------------------------------
+# SAFETY SWITCH: Disable LangSmith tracing automatically if the request payload
+# would exceed the 20-MB upload limit (e.g. many base-64 images).  This prevents
+# connection errors like:
+#   "content length of XXX bytes exceeds the maximum size limit of 20971520"
+# -----------------------------------------------------------------------------
+try:
+    # Rough estimate – each base-64 char ~0.75 byte of binary data.
+    img_chars = sum(len(s) for s in environment_image_base64_list) if 'environment_image_base64_list' in globals() else 0
+    if img_chars * 0.75 > 15 * 1024 * 1024:  # >15 MB raw data → will blow past 20 MB when logged
+        os.environ["LANGSMITH_TRACING"] = "false"
+        os.environ["LANGCHAIN_TRACING_V2"] = "false"
+        log("Large image payload detected – LangSmith tracing disabled to avoid ingest limit")
+except Exception as _trace_err:
+    log(f"Tracing-safety check failed: {_trace_err}")
 
