@@ -1,0 +1,472 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "large black flat-screen television",
+      "position": "top half of the image, spanning from left to right",
+      "worldposition": {
+        "x": -4.06641436,
+        "y": 1.24915516,
+        "z": -1.82144284
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 956.636963,
+          "y1": 0.0,
+          "x2": 1280.0,
+          "y2": 213.009583,
+          "width": 323.363037,
+          "height": 213.009583,
+          "center_x": 1118.31848,
+          "center_y": 106.504791
+        },
+        "mask_center": {
+          "x": 1197.0,
+          "y": 15.0
+        },
+        "confidence": 0.07633974,
+        "detected_name": "large black flat-screen television"
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "silver-colored dual-disc metal lamp head on a black stand",
+      "position": "bottom left of the image, on the wooden surface",
+      "worldposition": {
+        "x": -3.64390516,
+        "y": 0.9089847,
+        "z": -2.79988766
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 84.72223,
+          "y1": 435.62085,
+          "x2": 400.5805,
+          "y2": 960.0,
+          "width": 315.858276,
+          "height": 524.37915,
+          "center_x": 242.651367,
+          "center_y": 697.8104
+        },
+        "mask_center": {
+          "x": 238.0,
+          "y": 567.0
+        },
+        "confidence": 0.7964103,
+        "detected_name": "silver-colored dual-disc metal lamp head on a black stand"
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "cream-colored over-ear protective earmuffs with black headband",
+      "position": "center right of the image, on the wooden surface",
+      "worldposition": {
+        "x": -3.61537266,
+        "y": 0.7562015,
+        "z": -2.37334776
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 696.4805,
+          "y1": 612.5595,
+          "x2": 899.6442,
+          "y2": 761.250549,
+          "width": 203.1637,
+          "height": 148.69104,
+          "center_x": 798.0624,
+          "center_y": 686.905
+        },
+        "mask_center": {
+          "x": 808.0,
+          "y": 692.0
+        },
+        "confidence": 0.0153840426,
+        "detected_name": "cream-colored over-ear protective earmuffs with black headband (center right of the image, on the wooden surface)"
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "small black USB-powered desk fan with circular grille",
+      "position": "far right of the image, on the wooden surface",
+      "worldposition": {
+        "x": -3.662325,
+        "y": 0.9425339,
+        "z": -2.05115581
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1016.89722,
+          "y1": 329.067871,
+          "x2": 1279.99829,
+          "y2": 715.4242,
+          "width": 263.101074,
+          "height": 386.356323,
+          "center_x": 1148.44775,
+          "center_y": 522.246033
+        },
+        "mask_center": {
+          "x": 1183.0,
+          "y": 441.0
+        },
+        "confidence": 0.850790262,
+        "detected_name": "small black USB-powered desk fan with circular grille"
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "small yellow metal binder clip",
+      "position": "near the center bottom of the wooden surface",
+      "worldposition": {
+        "x": -3.523986,
+        "y": 0.685730934,
+        "z": -2.405938
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 783.494141,
+          "y1": 829.73175,
+          "x2": 819.7163,
+          "y2": 872.146057,
+          "width": 36.222168,
+          "height": 42.4143066,
+          "center_x": 801.6052,
+          "center_y": 850.9389
+        },
+        "mask_center": {
+          "x": 798.0,
+          "y": 846.0
+        },
+        "confidence": 0.08183163,
+        "detected_name": "small yellow metal binder clip"
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "transparent plastic cup",
+      "position": "front right of the wooden surface",
+      "worldposition": {
+        "x": -3.49309969,
+        "y": 0.6944471,
+        "z": -2.2521832
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 946.00354,
+          "y1": 757.5748,
+          "x2": 1068.51367,
+          "y2": 913.0377,
+          "width": 122.510132,
+          "height": 155.462891,
+          "center_x": 1007.25861,
+          "center_y": 835.3063
+        },
+        "mask_center": {
+          "x": 1004.0,
+          "y": 845.0
+        },
+        "confidence": 0.274021715,
+        "detected_name": "transparent plastic cup"
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "camouflage-patterned video game controller",
+      "position": "bottom left of the image",
+      "worldposition": {
+        "x": -3.37977242,
+        "y": 0.7428833,
+        "z": -1.93935919
+      },
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 75.95599,
+          "y1": 652.3876,
+          "x2": 538.3923,
+          "y2": 960.0,
+          "width": 462.436279,
+          "height": 307.612427,
+          "center_x": 307.174133,
+          "center_y": 806.1938
+        },
+        "mask_center": {
+          "x": 413.0,
+          "y": 730.0
+        },
+        "confidence": 0.06613071,
+        "detected_name": "camouflage-patterned video game controller"
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "green and white Hearttex tissue box with one tissue partially pulled out",
+      "position": "center right of the image",
+      "worldposition": {
+        "x": -3.37977242,
+        "y": 0.7428833,
+        "z": -1.93935919
+      },
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 77.2780762,
+          "y1": 652.276,
+          "x2": 537.6024,
+          "y2": 959.250366,
+          "width": 460.324341,
+          "height": 306.974365,
+          "center_x": 307.440247,
+          "center_y": 805.7632
+        },
+        "mask_center": {
+          "x": 413.0,
+          "y": 730.0
+        },
+        "confidence": 0.0603648461,
+        "detected_name": "green and white Hearttex tissue box with one tissue partially pulled out"
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "black stainless steel Tesla branded travel water bottle",
+      "position": "upper center of the image",
+      "worldposition": {
+        "x": -3.47646475,
+        "y": 0.8806331,
+        "z": -1.71658885
+      },
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 497.265869,
+          "y1": 32.41333,
+          "x2": 648.0051,
+          "y2": 475.508362,
+          "width": 150.739227,
+          "height": 443.095032,
+          "center_x": 572.6355,
+          "center_y": 253.960846
+        },
+        "mask_center": {
+          "x": 572.0,
+          "y": 184.0
+        },
+        "confidence": 0.425809443,
+        "detected_name": "black stainless steel Tesla branded travel water bottle"
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "clear round plastic soap dispenser with a white pump",
+      "position": "center left of the image",
+      "worldposition": {
+        "x": -3.533695,
+        "y": 0.7650279,
+        "z": -1.87329865
+      },
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 192.7829,
+          "y1": 272.206238,
+          "x2": 398.735168,
+          "y2": 629.7783,
+          "width": 205.952286,
+          "height": 357.572083,
+          "center_x": 295.759033,
+          "center_y": 450.992279
+        },
+        "mask_center": {
+          "x": 289.0,
+          "y": 465.0
+        },
+        "confidence": 0.968227744,
+        "detected_name": "clear round plastic soap dispenser with a white pump"
+      }
+    }
+  ],
+  "2": [
+    {
+      "object_id": 1,
+      "object": "blue upholstered two-seater bench with black metal armrests",
+      "position": "center to left of the image",
+      "worldposition": {
+        "x": -2.56706834,
+        "y": 0.358814716,
+        "z": -2.28784251
+      },
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.722290039,
+          "y1": 181.749573,
+          "x2": 815.0958,
+          "y2": 770.92804,
+          "width": 814.373535,
+          "height": 589.178467,
+          "center_x": 407.909058,
+          "center_y": 476.3388
+        },
+        "mask_center": {
+          "x": 490.0,
+          "y": 527.0
+        },
+        "confidence": 0.9806846,
+        "detected_name": "blue upholstered two-seater bench with black metal armrests"
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "black Nikon DSLR camera with yellow strap",
+      "position": "on the left side of the bench seat",
+      "worldposition": {
+        "x": -2.99929452,
+        "y": 0.27546525,
+        "z": -1.97884464
+      },
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 119.914032,
+          "y1": 439.6574,
+          "x2": 309.574615,
+          "y2": 583.2681,
+          "width": 189.660583,
+          "height": 143.610718,
+          "center_x": 214.744324,
+          "center_y": 511.462769
+        },
+        "mask_center": {
+          "x": 218.0,
+          "y": 485.0
+        },
+        "confidence": 0.0479233675,
+        "detected_name": "black Nikon DSLR camera with yellow strap"
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "green turtle shell\u2013shaped plush pillow with white rim",
+      "position": "center-left on the bench seat",
+      "worldposition": {
+        "x": -2.677083,
+        "y": 0.386498451,
+        "z": -2.256726
+      },
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 309.015747,
+          "y1": 416.71936,
+          "x2": 541.4309,
+          "y2": 624.435669,
+          "width": 232.415161,
+          "height": 207.716278,
+          "center_x": 425.223328,
+          "center_y": 520.5775
+        },
+        "mask_center": {
+          "x": 413.0,
+          "y": 520.0
+        },
+        "confidence": 0.4280158,
+        "detected_name": "green turtle shell\u2013shaped plush pillow with white rim"
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "compact black mechanical keyboard with a single red keycap",
+      "position": "center of the bench seat",
+      "worldposition": {
+        "x": -2.99929452,
+        "y": 0.27546525,
+        "z": -1.97884464
+      },
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 120.081635,
+          "y1": 439.77417,
+          "x2": 310.866577,
+          "y2": 585.616943,
+          "width": 190.784943,
+          "height": 145.842773,
+          "center_x": 215.4741,
+          "center_y": 512.695557
+        },
+        "mask_center": {
+          "x": 218.0,
+          "y": 485.0
+        },
+        "confidence": 0.0075442167,
+        "detected_name": "compact black mechanical keyboard with a single red keycap (center of the bench seat)"
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "green cleaning spray bottle with white trigger nozzle",
+      "position": "center-right on the bench seat",
+      "worldposition": {
+        "x": -2.19668937,
+        "y": 0.329085469,
+        "z": -2.1006074
+      },
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 635.3777,
+          "y1": 302.342346,
+          "x2": 705.712646,
+          "y2": 464.0622,
+          "width": 70.33496,
+          "height": 161.719849,
+          "center_x": 670.545166,
+          "center_y": 383.202271
+        },
+        "mask_center": {
+          "x": 671.0,
+          "y": 402.0
+        },
+        "confidence": 0.549272537,
+        "detected_name": "green cleaning spray bottle with white trigger nozzle"
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "large grey fabric bean bag chair",
+      "position": "right side of the image on the floor",
+      "worldposition": {
+        "x": -1.76335073,
+        "y": 0.187255025,
+        "z": -2.56049275
+      },
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 767.031738,
+          "y1": 331.29126,
+          "x2": 1244.61523,
+          "y2": 820.479736,
+          "width": 477.5835,
+          "height": 489.188477,
+          "center_x": 1005.82349,
+          "center_y": 575.8855
+        },
+        "mask_center": {
+          "x": 1000.0,
+          "y": 583.0
+        },
+        "confidence": 0.508617,
+        "detected_name": "large grey fabric bean bag chair"
+      }
+    }
+  ]
+}

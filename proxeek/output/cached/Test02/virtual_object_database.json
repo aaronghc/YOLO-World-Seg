@@ -1,0 +1,172 @@
+[
+  {
+    "objectName": "Big Red Button",
+    "involvementType": "contact",
+    "usage": "This virtual button would be used for triggering critical actions",
+    "engagementLevel": 2,
+    "inertia": "",
+    "interactivity": "The red cap responds to downward pressure by traveling vertically into the base assembly. The travel distance is about 4cm. Users should feel progressive compression resistance.",
+    "outline": "The raised profile of the button above the base should provide obvious targeting feedback, with clean edges defining the round surface area.",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.8333333134651184,
+    "outlineValue": 0.1666666567325592,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.19",
+      "y": "0.06",
+      "z": "0.18"
+    },
+    "globalPosition": {
+      "x": -0.9509999752044678,
+      "y": 0.7009999752044678,
+      "z": -0.33399999141693115
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users will approach the button with a direct downward press, typically using the pad of the index finger or the flat of the palm for dramatic effect. The motion is a short, piston-like thrust: wrist remains mostly neutral while elbow and shoulder supply a quick 4\u20136 cm travel. Contact is concentrated at the center of the circular cap. As force increases, the cap offers progressive spring resistance, then bottoms out against an internal stop before immediately rebounding when released. Haptically, the user expects a firm initial resistance, a smooth compression over the 4 cm stroke, a soft mechanical 'click' or detent at full travel, and a rapid return to the starting height."
+  },
+  {
+    "objectName": "Pot Plant",
+    "involvementType": "contact",
+    "usage": "This potted plant would be used for gentle, therapeutic interaction. VR players would run their hands along the leaves for stress relief.",
+    "engagementLevel": 0,
+    "inertia": "",
+    "interactivity": "The leaves function as flexible, responsive plant material that bends and flexes naturally as hands pass over them. Users should feel the leaves gently deflecting under their touch.",
+    "outline": "",
+    "texture": "The leaf surfaces should convey slightly coarse plant skin with subtle raised veining patterns running through each leaf.",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.8333333134651184,
+    "outlineValue": 0.0,
+    "textureValue": 0.1666666567325592,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.61",
+      "y": "0.56",
+      "z": "0.64"
+    },
+    "globalPosition": {
+      "x": 0.36000001430511475,
+      "y": 0.9300000071525574,
+      "z": 0.33799999952316284
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users interact with the plant in a gentle, exploratory manner, grazing fingertips or an open hand across the foliage. Movements are slow strokes or light taps, fingers slightly spread to let leaves slip between them. Contact focuses on finger pads and sometimes the dorsal side of the hand as users scoop upward from pot rim to leaf tips. The leaves flex away, providing low-force, compliant resistance (<0.5 N), then spring back once the hand passes. Users perceive slight textural variations\u2014the faint ridges of veins\u2014while overall softness conveys living plant material."
+  },
+  {
+    "objectName": "Globe",
+    "involvementType": "contact",
+    "usage": "This desktop globe would be used for educational exploration in classroom. VR players would rotate the sphere to navigate around the world.",
+    "engagementLevel": 2,
+    "inertia": "",
+    "interactivity": "The globe functions as a rotating mechanism that responds to touch with smooth, controlled spinning around its vertical axis.",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 1.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.39",
+      "y": "0.38",
+      "z": "0.32"
+    },
+    "globalPosition": {
+      "x": -1.0119999647140503,
+      "y": 0.7749999761581421,
+      "z": 0.48399999737739563
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 99.144287109375,
+      "z": 0.0
+    },
+    "interactionDeduction": "The globe invites a tangential push or drag gesture. A user typically places one or two fingertips or the side of the hand on the sphere and applies a sweeping arc motion horizontally, initiating rotation about the fixed vertical axis. Larger motions might use the whole palm, with wrist pronation/supination controlling spin speed. The sphere responds with smooth, low-friction inertia\u2014initial force overcomes static friction, after which it glides freely, gradually decelerating due to mild bearing resistance. Users may also steady the globe by lightly pinching the meridian ring while the opposite hand spins the sphere."
+  },
+  {
+    "objectName": "Soccer",
+    "involvementType": "contact",
+    "usage": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+    "engagementLevel": 0,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "The surface should be resilient, providing the characteristic \"pop\" sensation when kicked cleanly, with enough give to absorb impact energy.",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 1.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.20",
+      "y": "0.20",
+      "z": "0.20"
+    },
+    "globalPosition": {
+      "x": -1.065000057220459,
+      "y": 0.09300000220537186,
+      "z": -0.9049999713897705
+    },
+    "globalRotation": {
+      "x": 2.5044780613825424e-06,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Interaction is foot-centric: the user lines up a virtual kick, swinging the leg from hip and knee to strike the ball with the instep or toe. Contact duration is brief (~20 ms) and forceful, producing an elastic compression of the ball\u2019s surface followed by rapid restitution\u2014the classic 'pop' sensation. The ball departs along the kick vector with velocity proportional to applied force and exhibits realistic spin if contact is off-center. Secondary interactions include trapping or dribbling with the inside of the foot, where sustained, softer pushes keep the ball close."
+  },
+  {
+    "objectName": "Keyboard",
+    "involvementType": "contact",
+    "usage": "Musical performance. VR players would press the piano keys to generate musical notes.",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "The keys function as pressure-sensitive switches that depress smoothly when pressed and spring back immediately upon release. Users should feel distinct key travel distance with clear actuation points.",
+    "outline": "Users should perceive an organized array of keys arranged layout. The linear arrangement of keys should provide clear spatial reference points",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.5882352590560913,
+    "outlineValue": 0.4117646813392639,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.33",
+      "y": "0.93",
+      "z": "1.18"
+    },
+    "globalPosition": {
+      "x": 1.190999984741211,
+      "y": 0.03700000047683716,
+      "z": -0.6019999980926514
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users perform rapid, repeated finger presses on the linear key array. Each key is targeted with an isolated finger\u2014thumbs for lower keys, remaining digits for mid/high\u2014while wrists float slightly above the board. A key press involves a 1\u20131.5 cm downward travel, encountering a smooth initial glide, a definitive actuation point halfway, and a cushioned bottom. Release relies on the key\u2019s spring, returning the finger to the neutral position for the next note. Chords require simultaneous multi-finger depression, and glissandos generate continuous fingertip slides across sequential keys, each key momentarily depressing under the moving finger."
+  }
+]

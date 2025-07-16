@@ -1,0 +1,193 @@
+{
+  "optimization_summary": {
+    "total_loss": -45.954756220769866,
+    "loss_components": {
+      "L_realism": -22.941175758838654,
+      "L_priority": -460.27160923862425,
+      "L_interaction": 0.0,
+      "L_spatial": 0.0,
+      "total": -45.954756220769866
+    },
+    "num_virtual_objects": 5,
+    "num_physical_objects": 16,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1.0,
+      "w_priority": 0.05,
+      "w_interaction": 0.5,
+      "w_spatial": 0.5
+    }
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Big Red Button",
+        "index": 0,
+        "engagement_level": 5,
+        "involvement_type": "contact",
+        "priority_weight": 5.0
+      },
+      "physical_object": {
+        "name": "clear round plastic soap dispenser with a white pump",
+        "object_id": 4,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 5.611110955476761,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "Pot Plant",
+        "index": 1,
+        "engagement_level": 2,
+        "involvement_type": "contact",
+        "priority_weight": 2.0
+      },
+      "physical_object": {
+        "name": "green turtle shell\u2013shaped plush pillow with white rim",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 5.3888887266318,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "Globe",
+        "index": 2,
+        "engagement_level": 4,
+        "involvement_type": "contact",
+        "priority_weight": 4.0
+      },
+      "physical_object": {
+        "name": "small black USB-powered desk fan with circular grille",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 5.333333333333333,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "Soccer",
+        "index": 3,
+        "engagement_level": 1,
+        "involvement_type": "contact",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "large grey fabric bean bag chair",
+        "object_id": 6,
+        "image_id": 2,
+        "index": 15
+      },
+      "realism_score": 0.0,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "Keyboard",
+        "index": 4,
+        "engagement_level": 3,
+        "involvement_type": "contact",
+        "priority_weight": 3.0
+      },
+      "physical_object": {
+        "name": "compact black mechanical keyboard with a single red keycap",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 13
+      },
+      "realism_score": 6.607842743396759,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

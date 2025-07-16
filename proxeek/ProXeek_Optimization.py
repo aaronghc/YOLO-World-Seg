@@ -16,6 +16,15 @@ from typing import List, Dict, Any, Tuple, Optional
 from dataclasses import dataclass
 import time
 
+# =============================================================================
+# CONFIGURATION PARAMETERS - Easy to find and modify
+# =============================================================================
+
+# Top-K Filtering Configuration
+TOP_K_CONTACT_OBJECTS = 5           # Number of top contact objects to consider (with tie handling)
+
+# =============================================================================
+
 @dataclass
 class VirtualObject:
     """Represents a virtual object with its properties"""
@@ -353,9 +362,9 @@ class ProXeekOptimizer:
                 self.physical_distance_matrix[i, k] = float(np.linalg.norm(diff))
                 self.physical_angle_matrix[i, k] = float(np.arctan2(diff[2], diff[0]))
         
-        # Spatial group matrix: default all pairs (excluding self) are in same group
-        self.spatial_group_matrix = np.ones((n_virtual, n_virtual))
-        np.fill_diagonal(self.spatial_group_matrix, 0.0)
+        # Spatial group matrix: default no spatial relationships (all zeros)
+        # Only explicit spatial groups should have non-zero values
+        self.spatial_group_matrix = np.zeros((n_virtual, n_virtual))
     
     def calculate_realism_loss(self, assignment_matrix: np.ndarray) -> float:
         """Calculate L_realism = -∑ᵢ∑ⱼ (realism_rating[i,j] × X[i,j])"""
@@ -486,7 +495,7 @@ class ProXeekOptimizer:
         
         # Set default K to fixed value
         if k is None:
-            k = 5
+            k = TOP_K_CONTACT_OBJECTS
             print(f"Setting K = {k}")
         
         # Ensure K doesn't exceed available physical objects
@@ -521,11 +530,30 @@ class ProXeekOptimizer:
             # Only apply Top-K filtering to grasp and contact objects
             if virtual_obj.involvement_type in ["grasp", "contact"]:
                 realism_scores = self.realism_matrix[v_idx, :]
-                # Get indices of top K realism scores
-                top_k_indices = np.argsort(realism_scores)[-k:]
-                top_k_assignments[v_idx] = top_k_indices.tolist()
                 
-                print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Top-{k} realism scores: {realism_scores[top_k_indices]}")
+                # Handle ties: include all objects with the same score as the k-th object
+                if len(realism_scores) <= k:
+                    # If we have k or fewer objects, use all of them
+                    top_k_indices = list(range(len(realism_scores)))
+                else:
+                    # Get sorted indices by realism score (highest first)
+                    sorted_indices = np.argsort(realism_scores)[::-1]
+                    
+                    # Find the k-th highest score
+                    kth_score = realism_scores[sorted_indices[k-1]]
+                    
+                    # Include all objects with scores >= k-th score
+                    top_k_indices = []
+                    for idx in sorted_indices:
+                        if realism_scores[idx] >= kth_score:
+                            top_k_indices.append(idx)
+                        else:
+                            break  # Since list is sorted, we can break early
+                
+                top_k_assignments[v_idx] = top_k_indices
+                
+                print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Top-{k} realism scores (with ties): {realism_scores[top_k_indices]}")
+                print(f"    Selected {len(top_k_indices)} objects (including ties)")
             else:
                 # For substrate objects, use all physical objects since realism ratings are zero
                 top_k_assignments[v_idx] = list(range(n_physical))
@@ -554,7 +582,7 @@ class ProXeekOptimizer:
         
         print(f"Top-K filtering generated {len(valid_assignments)} assignments")
         return valid_assignments
-
+    
     def generate_all_assignments(self) -> List[np.ndarray]:
         """Generate all valid assignment permutations with optional Top-K filtering"""
         n_virtual = len(self.virtual_objects)
@@ -564,7 +592,7 @@ class ProXeekOptimizer:
             print(f"Error: Not enough physical objects ({n_physical}) for virtual objects ({n_virtual})")
             return []
         
-        # Calculate theoretical assignment count
+        # Calculate theoretical assignment count (for informational purposes)
         if self.enable_exclusivity:
             theoretical_count = math.factorial(n_physical) // math.factorial(n_physical - n_virtual)
         else:
@@ -572,33 +600,10 @@ class ProXeekOptimizer:
         
         print(f"Theoretical assignment count: {theoretical_count}")
         
-        # Use Top-K filtering if the count is too large
-        if theoretical_count > 50000:  # Threshold for when to apply filtering
-            print("Using Top-K filtered assignment generation due to large search space")
-            # Use fixed K value
-            k = 5
-            return self.filter_by_top_k_realism(k=k)
-        else:
-            print("Using exhaustive assignment generation")
-            valid_assignments = []
-            
-            if self.enable_exclusivity:
-                # Generate permutations: each virtual object gets a unique physical object
-                for perm in itertools.permutations(range(n_physical), n_virtual):
-                    assignment_matrix = np.zeros((n_virtual, n_physical))
-                    for i, j in enumerate(perm):
-                        assignment_matrix[i, j] = 1.0
-                    valid_assignments.append(assignment_matrix)
-            else:
-                # Generate all combinations: each virtual object can get any physical object
-                for assignment_tuple in itertools.product(range(n_physical), repeat=n_virtual):
-                    assignment_matrix = np.zeros((n_virtual, n_physical))
-                    for i, j in enumerate(assignment_tuple):
-                        assignment_matrix[i, j] = 1.0
-                    valid_assignments.append(assignment_matrix)
-            
-            print(f"Generated {len(valid_assignments)} valid assignments")
-            return valid_assignments
+        # Always use Top-K filtering for consistent behavior
+        print("Using Top-K filtered assignment generation")
+        k = TOP_K_CONTACT_OBJECTS
+        return self.filter_by_top_k_realism(k=k)
     
     def print_debug_matrices(self) -> None:
         """Print all matrices for debugging purposes"""
@@ -886,7 +891,7 @@ def main():
     optimizer.w_realism = 1.0
     optimizer.w_priority = 0.05
     optimizer.w_interaction = 0.5
-    optimizer.w_spatial = 0.5
+    optimizer.w_spatial = 0.001
     
     # Enable/disable exclusivity constraint
     optimizer.enable_exclusivity = True

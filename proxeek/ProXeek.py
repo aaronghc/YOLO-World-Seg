@@ -46,6 +46,9 @@ RELATIONSHIP_RATING_BATCH_INTERVAL = 1  # Seconds between starting new batches
 ENABLE_PROXY_MATCHING = True        # Set to True to enable proxy matching and dependent processes
 ENABLE_RELATIONSHIP_RATING = True   # Set to True to enable relationship rating
 
+# Top-K Filtering Configuration
+TOP_K_CONTACT_OBJECTS = 5           # Number of top contact objects to consider (with tie handling)
+
 # =============================================================================
 
 # Set up logging to help debug
@@ -384,7 +387,7 @@ physical_object_recognition_llm = ChatOpenAI(
 
 # Initialize the virtual object processing LLM
 virtual_object_processor_llm = ChatOpenAI(
-    model="o4-mini-2025-04-16",
+    model="o3-2025-04-16",
     temperature=0.1,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
@@ -392,7 +395,7 @@ virtual_object_processor_llm = ChatOpenAI(
 
 # Initialize the proxy matching LLM
 proxy_matching_llm = ChatOpenAI(
-    model="o4-mini-2025-04-16",
+    model="o3-2025-04-16",
     temperature=0.1,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
@@ -400,16 +403,16 @@ proxy_matching_llm = ChatOpenAI(
 
 # Initialize the property rating LLM
 property_rating_llm = ChatOpenAI(
-    model="o4-mini-2025-04-16",
-    temperature=0.1,
+    model="o3-2025-04-16",
+    temperature=0.3,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
 
 # Initialize the relationship rating LLM
 relationship_rating_llm = ChatOpenAI(
-    model="o4-mini-2025-04-16",
-    temperature=0.1,
+    model="o3-2025-04-16",
+    temperature=0.3,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
@@ -417,7 +420,7 @@ log("Initialized relationship_rating_llm for LangSmith tracing")
 
 # Initialize the substrate utilization LLM
 substrate_utilization_llm = ChatOpenAI(
-    model="o4-mini-2025-04-16",
+    model="o3-2025-04-16",
     temperature=0.1,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
@@ -449,10 +452,16 @@ efficient_sam_model = None
 object_recognition_system_prompt = """
 You are an expert computer vision system that identifies objects in images.
 
-For each image, create a detailed list of all recognizable objects with the following information:
+For each image, create a detailed list of recognizable objects with the following information:
 
 1. Its name with some details (e.g., "white cuboid airpods case")
 2. Its position in the image (e.g., "bottom left of the image")
+
+**AVOID INCLUDING:**
+- Objects that are only partially visible at image edges (less than 70% visible)
+- Objects that are too far away or too small to identify reliably
+- Objects that are heavily occluded or obscured
+- Background elements that are not distinct objects
 
 FORMAT YOUR RESPONSE AS A JSON ARRAY with the following structure:
 
@@ -535,6 +544,27 @@ First, carefully consider the deduced interaction for the virtual object—how u
 For each physical object, propose a specific method to utilize it as a haptic proxy that best replicates the deduced interaction of the virtual object.
 
 Focus on matching the most important haptic properties of the virtual object (those with higher importance values), but always ensure your proxy method enables the user to perform the same type of interaction as described in the interaction deduction.
+
+CRITICAL CONSTRAINTS FOR REALISTIC UTILIZATION:
+1. Use objects AS-IS in their current state - no modifications, installations, or adding components
+2. No installing hardware (switches, sensors, actuators, etc.) or electronic components
+3. No disassembly or reassembly of objects
+4. No adding external attachments or accessories
+5. Work with ONLY the object's existing physical properties (shape, size, weight, texture, hardness, etc.)
+6. Propose methods that VR users can immediately perform without any setup or preparation
+7. Focus on how to hold, touch, press, move, or interact with the object using its inherent characteristics
+
+Examples of APPROPRIATE utilization methods:
+- "Press down on the flat surface to simulate button activation"
+- "Grip the cylindrical handle to replicate tool holding"
+- "Slide your finger along the smooth edge to feel texture transitions"
+- "Use the object's weight and size to simulate the virtual object's mass"
+
+Examples of INAPPROPRIATE utilization methods:
+- "Install switches into the surface" (hardware installation)
+- "Attach sensors to the object" (adding components)
+- "Disassemble the object and use parts" (modification)
+- "Add mechanical components" (hardware addition)
 
 Make sure to include the object_id and image_id for each physical object exactly as they appear in the detected objects list.
 
@@ -773,10 +803,10 @@ You will be given:
 3. All physical objects in the environment as potential substrate candidates
 
 For each physical substrate candidate, determine:
-- How it should be positioned, oriented, or prepared to serve as a substrate
+- How it should be positioned or oriented to serve as a substrate (using existing physical properties)
 - What specific properties or features should be utilized
 - How it would interact with the given physical contact object's utilization method
-- What modifications or setup might be needed"""
+- Use ONLY the object's existing characteristics - NO modifications or additional setup"""
     else:  # dual-role
         context_section = """
 **Important Context**: The virtual substrate object is a DUAL-ROLE object that:
@@ -791,19 +821,40 @@ You will be given:
 
 For each physical substrate candidate, consider:
 - Its existing utilization method as a proxy for the virtual substrate object (if any)
-- How this existing method can be adapted or enhanced for substrate use
+- How this existing method can be adapted or enhanced for substrate use (using existing properties only)
 - How it should be positioned/oriented to work with the contact object's utilization method
 - How to combine its contact-proxy role with its substrate role
-- What additional setup or modifications might be needed
+- Use ONLY the object's existing characteristics - NO additional setup or modifications
 
-**Key Consideration**: When a physical object already has a utilization method for the virtual substrate object from proxy matching, build upon that existing method rather than completely replacing it. The substrate utilization should complement and work with the existing contact utilization."""
+**Key Consideration**: When a physical object already has a utilization method for the virtual substrate object from proxy matching, build upon that existing method rather than completely replacing it. The substrate utilization should complement and work with the existing contact utilization using only the object's inherent properties."""
     
     # Common evaluation guidelines
     guidelines_section = """
+**CRITICAL CONSTRAINTS FOR REALISTIC SUBSTRATE UTILIZATION:**
+1. Use objects AS-IS in their current state - no modifications, installations, or adding components
+2. No installing hardware (switches, sensors, actuators, etc.) or electronic components
+3. No disassembly or reassembly of objects
+4. No adding external attachments or accessories
+5. Work with ONLY the object's existing physical properties (shape, size, weight, texture, hardness, etc.)
+6. Propose methods that VR users can immediately perform without any setup or preparation
+7. Focus on how to position, orient, or interact with the object using its inherent characteristics
+
+Examples of APPROPRIATE substrate utilization methods:
+- "Position the flat surface horizontally to serve as a stable base for tapping"
+- "Orient the curved surface to provide natural resistance when pressed"
+- "Use the object's weight and stability to absorb impact forces"
+- "Leverage the object's texture to provide tactile feedback through the contact object"
+
+Examples of INAPPROPRIATE substrate utilization methods:
+- "Install pressure sensors into the surface" (hardware installation)
+- "Attach vibration motors to the object" (adding components)
+- "Modify the object's surface" (object modification)
+- "Add mechanical components" (hardware addition)
+
 Use the following evaluation guidelines when planning substrate utilization methods:
 
 **Harmony Considerations:**
-- Ensure the substrate setup allows for synchronized physical and visual contact
+- Ensure the substrate positioning allows for synchronized physical and visual contact
 - Consider how the substrate positioning affects force direction alignment
 - Plan for substrate responses that match expected visual behavior
 
@@ -2686,113 +2737,7 @@ FORMAT YOUR RESPONSE AS A JSON ARRAY as specified in the system prompt, using th
             "error": f"Processing error: {str(e)}"
         }]
 
-# Function to rate a single relationship group with all three dimensions
-async def rate_single_relationship_group_simple(relationship_annotation, contact_object, substrate_objects, environment_images, physical_object_database, object_snapshot_map, enhanced_virtual_objects, proxy_matching_results, substrate_utilization_results, group_index=1):
-    try:
-        virtual_contact_name = relationship_annotation.get("contactObject", "Unknown Contact Object")
-        virtual_substrate_name = relationship_annotation.get("substrateObject", "Unknown Substrate Object")
-        
-        log(f"Rating relationship group {group_index}: {virtual_contact_name} -> {virtual_substrate_name} with all three dimensions")
-        
-        # Evaluate all three dimensions: harmony, expressivity, realism
-        dimensions = ["harmony", "expressivity", "realism"]
-        
-        log(f"Creating ratings for {len(dimensions)} dimensions for group {group_index}")
-        
-        # Call the dimension rating function for each dimension sequentially
-        all_dimension_results = []
-        
-        for dimension in dimensions:
-            log(f"Processing {dimension} rating for group {group_index}")
-            
-            dimension_result = await rate_single_relationship_dimension(
-                relationship_annotation,
-                contact_object,
-                substrate_objects,
-                environment_images,
-                physical_object_database,
-                object_snapshot_map,
-                enhanced_virtual_objects,
-                proxy_matching_results,
-                substrate_utilization_results,
-                dimension,
-                group_index
-            )
-            
-            # Process the dimension result
-            if isinstance(dimension_result, Exception):
-                log(f"Failed {dimension} rating for group {group_index}: {dimension_result}")
-                # Continue with other dimensions even if one fails
-                continue
-            elif isinstance(dimension_result, list):
-                log(f"Completed {dimension} rating for group {group_index} with {len(dimension_result)} results")
-                all_dimension_results.extend(dimension_result)
-            else:
-                log(f"Invalid result type for {dimension} in group {group_index}: {type(dimension_result)}")
-                continue
-        
-        # Combine results from all dimensions
-        if all_dimension_results:
-            # Group results by contact-substrate pair to combine dimension ratings
-            combined_results = {}
-            
-            for result in all_dimension_results:
-                # Create a key for this contact-substrate pair
-                contact_id = result.get("contactObject_id", "unknown")
-                contact_img_id = result.get("contactImage_id", "unknown")
-                substrate_id = result.get("substrateObject_id", "unknown")
-                substrate_img_id = result.get("substrateImage_id", "unknown")
-                
-                pair_key = f"{contact_id}_{contact_img_id}_{substrate_id}_{substrate_img_id}"
-                
-                # Initialize the combined entry if it doesn't exist
-                if pair_key not in combined_results:
-                    combined_results[pair_key] = {
-                        "virtualContactObject": result.get("virtualContactObject", ""),
-                        "virtualSubstrateObject": result.get("virtualSubstrateObject", ""),
-                        "physicalContactObject": result.get("physicalContactObject", ""),
-                        "physicalSubstrateObject": result.get("physicalSubstrateObject", ""),
-                        "contactObject_id": result.get("contactObject_id", ""),
-                        "contactImage_id": result.get("contactImage_id", ""),
-                        "substrateObject_id": result.get("substrateObject_id", ""),
-                        "substrateImage_id": result.get("substrateImage_id", ""),
-                        "contactUtilizationMethod": result.get("contactUtilizationMethod", ""),
-                        "substrateUtilizationMethod": result.get("substrateUtilizationMethod", ""),
-                        "group_index": result.get("group_index", group_index),
-                        "expectedHapticFeedback": result.get("expectedHapticFeedback", "")
-                    }
-                
-                # Add the dimension-specific rating and explanation
-                dimension = result.get("dimension", "unknown")
-                rating_key = f"{dimension}_rating"
-                explanation_key = f"{dimension}_explanation"
-                
-                if rating_key in result:
-                    combined_results[pair_key][rating_key] = result[rating_key]
-                if explanation_key in result:
-                    combined_results[pair_key][explanation_key] = result[explanation_key]
-            
-            # Convert back to list
-            final_results = list(combined_results.values())
-            log(f"Combined all dimensions for group {group_index}: {len(final_results)} final results")
-            return final_results
-        else:
-            log(f"No valid dimension results for group {group_index}")
-            return [{
-                "group_index": group_index,
-                "error": "No valid dimension results"
-            }]
-        
-    except Exception as e:
-        log(f"Error in relationship rating for group {group_index}: {e}")
-        import traceback
-        log(traceback.format_exc())
-        
-        # Return a basic result with the error
-        return [{
-            "group_index": group_index,
-            "error": f"Processing error: {str(e)}"
-        }]
+
 
 # Function to run relationship ratings for all relationships in parallel
 @traceable(run_type="chain", metadata={"process": "relationship_rating_batch"})
@@ -2821,7 +2766,7 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
         log(f"Found {len(all_physical_objects)} total physical objects for relationship rating")
         
         # Function to get top k physical objects for a virtual contact object based on property rating results
-        def get_top_k_contact_objects(virtual_contact_name, k=5):
+        def get_top_k_contact_objects(virtual_contact_name, k=TOP_K_CONTACT_OBJECTS):
             # Get property rating results for this virtual contact object
             contact_ratings = []
             for rating in property_rating_results:
@@ -2860,20 +2805,39 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
                     }
                 object_scores[obj_key]["total_weighted_score"] += rating["weighted_score"]
             
-            # Sort by total weighted score and return top k
+            # Sort by total weighted score
             sorted_objects = sorted(object_scores.values(), key=lambda x: x["total_weighted_score"], reverse=True)
-            top_k_objects = sorted_objects[:k]
             
-            log(f"Top {k} physical objects for virtual contact '{virtual_contact_name}':")
+            # Handle ties: include all objects with the same score as the k-th object
+            if len(sorted_objects) <= k:
+                # If we have k or fewer objects, return all of them
+                top_k_objects = sorted_objects
+            else:
+                # Find the k-th object's score
+                kth_score = sorted_objects[k-1]["total_weighted_score"]
+                
+                # Include all objects with scores >= k-th score
+                top_k_objects = []
+                for obj in sorted_objects:
+                    if obj["total_weighted_score"] >= kth_score:
+                        top_k_objects.append(obj)
+                    else:
+                        break  # Since list is sorted, we can break early
+            
+            log(f"Top {k} physical objects for virtual contact '{virtual_contact_name}' (with ties):")
             for i, obj in enumerate(top_k_objects, 1):
                 log(f"  {i}. {obj['physicalObject']} (ID: {obj['object_id']}, Image: {obj['image_id']}, Score: {obj['total_weighted_score']:.3f})")
             
+            log(f"Selected {len(top_k_objects)} objects (including ties)")
             return top_k_objects
         
-        # Create rating tasks - Only consider top k physical objects as contact objects
+        # Create individual dimension rating tasks - ALL tasks run concurrently
         all_tasks = []
         group_counter = 1
         all_rated_pairs = set()  # Track which pairs will be rated
+        
+        # List of all dimensions to evaluate
+        dimensions = ["harmony", "expressivity", "realism"]
         
         for relationship in relationship_annotations:
             virtual_contact_name = relationship.get("contactObject", "")
@@ -2882,7 +2846,7 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
             log(f"Processing relationship: {virtual_contact_name} -> {virtual_substrate_name}")
             
             # Get top k physical objects for this virtual contact object
-            top_k_contact_objects = get_top_k_contact_objects(virtual_contact_name, k=5)
+            top_k_contact_objects = get_top_k_contact_objects(virtual_contact_name, k=TOP_K_CONTACT_OBJECTS)
             
             # Create one group for each top k physical object as the contact object
             for top_obj in top_k_contact_objects:
@@ -2897,6 +2861,7 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
                 if contact_obj is None:
                     log(f"Warning: Could not find physical object for top-k result: {top_obj}")
                     continue
+                    
                 # Get the contact object's utilization method from proxy matching results (if available)
                 contact_utilization_method = "No utilization method available"
                 for proxy_result in proxy_matching_results:
@@ -2916,7 +2881,7 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
                                           obj.get('image_id') == contact_obj.get('image_id'))]
                 
                 if len(substrate_objects) > 0:
-                    log(f"Creating group {group_counter} for contact object: {contact_obj.get('object')} (ID: {contact_obj.get('object_id')}, Image: {contact_obj.get('image_id')}) with {len(substrate_objects)} substrate candidates")
+                    log(f"Creating dimension tasks for group {group_counter}: contact object {contact_obj.get('object')} (ID: {contact_obj.get('object_id')}, Image: {contact_obj.get('image_id')}) with {len(substrate_objects)} substrate candidates")
                     log(f"  Contact utilization method available: {'Yes' if contact_utilization_method != 'No utilization method available' else 'No'}")
                     
                     # Track which pairs will be rated
@@ -2924,25 +2889,30 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
                         pair_key = f"{virtual_contact_name}_{virtual_substrate_name}_{contact_obj.get('object_id')}_{contact_obj.get('image_id')}_{substrate_obj.get('object_id')}_{substrate_obj.get('image_id')}"
                         all_rated_pairs.add(pair_key)
                     
-                    task = rate_single_relationship_group_simple(
-                        relationship,
-                        contact_obj_with_method,
-                        substrate_objects,
-                        environment_images,
-                        physical_object_database,
-                        object_snapshot_map,
-                        enhanced_virtual_objects,
-                        proxy_matching_results,
-                        substrate_utilization_results,
-                        group_counter
-                    )
-                    all_tasks.append(task)
+                    # Create individual dimension tasks for each dimension - ALL CONCURRENT
+                    for dimension in dimensions:
+                        log(f"Creating {dimension} dimension task for group {group_counter}")
+                        task = rate_single_relationship_dimension(
+                            relationship,
+                            contact_obj_with_method,
+                            substrate_objects,
+                            environment_images,
+                            physical_object_database,
+                            object_snapshot_map,
+                            enhanced_virtual_objects,
+                            proxy_matching_results,
+                            substrate_utilization_results,
+                            dimension,
+                            group_counter
+                        )
+                        all_tasks.append(task)
+                    
                     group_counter += 1
                 else:
                     log(f"Warning: No substrate candidates found for contact object: {contact_obj.get('object')}")
         
-        # Run tasks with overlapping batches for maximum throughput (same approach as substrate utilization)
-        log(f"Running {len(all_tasks)} relationship rating tasks with overlapping batches (size: {RELATIONSHIP_RATING_BATCH_SIZE}, interval: {RELATIONSHIP_RATING_BATCH_INTERVAL}s)")
+        # Run tasks with overlapping batches for maximum throughput
+        log(f"Running {len(all_tasks)} individual dimension rating tasks with overlapping batches (size: {RELATIONSHIP_RATING_BATCH_SIZE}, interval: {RELATIONSHIP_RATING_BATCH_INTERVAL}s)")
         
         # Create all batch tasks without waiting for them to complete
         batch_tasks = []
@@ -2983,12 +2953,58 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
         
         log(f"Overlapping relationship batch execution completed: {successful_batches}/{len(batch_tasks)} batches successful")
         
+        # Now combine dimension results by contact-substrate pair
+        log("Combining dimension results by contact-substrate pair...")
+        combined_results = {}
+        
+        for result in all_relationship_results:
+            if "error" in result:
+                continue
+                
+            # Create a key for this contact-substrate pair
+            contact_id = result.get("contactObject_id", "unknown")
+            contact_img_id = result.get("contactImage_id", "unknown")
+            substrate_id = result.get("substrateObject_id", "unknown")
+            substrate_img_id = result.get("substrateImage_id", "unknown")
+            
+            pair_key = f"{contact_id}_{contact_img_id}_{substrate_id}_{substrate_img_id}"
+            
+            # Initialize the combined entry if it doesn't exist
+            if pair_key not in combined_results:
+                combined_results[pair_key] = {
+                    "virtualContactObject": result.get("virtualContactObject", ""),
+                    "virtualSubstrateObject": result.get("virtualSubstrateObject", ""),
+                    "physicalContactObject": result.get("physicalContactObject", ""),
+                    "physicalSubstrateObject": result.get("physicalSubstrateObject", ""),
+                    "contactObject_id": result.get("contactObject_id", ""),
+                    "contactImage_id": result.get("contactImage_id", ""),
+                    "substrateObject_id": result.get("substrateObject_id", ""),
+                    "substrateImage_id": result.get("substrateImage_id", ""),
+                    "contactUtilizationMethod": result.get("contactUtilizationMethod", ""),
+                    "substrateUtilizationMethod": result.get("substrateUtilizationMethod", ""),
+                    "group_index": result.get("group_index", 0),
+                    "expectedHapticFeedback": result.get("expectedHapticFeedback", "")
+                }
+            
+            # Add the dimension-specific rating and explanation
+            dimension = result.get("dimension", "unknown")
+            rating_key = f"{dimension}_rating"
+            explanation_key = f"{dimension}_explanation"
+            
+            if rating_key in result:
+                combined_results[pair_key][rating_key] = result[rating_key]
+            if explanation_key in result:
+                combined_results[pair_key][explanation_key] = result[explanation_key]
+        
+        # Convert combined results back to list
+        final_relationship_results = list(combined_results.values())
+        
         # Generate unrated pairs with 0 scores for comprehensive coverage
         log("Generating unrated pairs with 0 scores for comprehensive coverage")
         
         # Create a set of rated pairs from the results
         rated_pairs_from_results = set()
-        for result in all_relationship_results:
+        for result in final_relationship_results:
             if "error" not in result:
                 pair_key = f"{result.get('virtualContactObject', '')}_{result.get('virtualSubstrateObject', '')}_{result.get('contactObject_id', '')}_{result.get('contactImage_id', '')}_{result.get('substrateObject_id', '')}_{result.get('substrateImage_id', '')}"
                 rated_pairs_from_results.add(pair_key)
@@ -3035,14 +3051,14 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
                         unrated_pairs.append(unrated_pair)
         
         # Combine rated and unrated pairs
-        all_relationship_results.extend(unrated_pairs)
+        final_relationship_results.extend(unrated_pairs)
         
         # Log summary of results
-        log(f"Completed relationship ratings with {len(all_relationship_results)} total ratings")
-        log(f"  - Rated pairs: {len(all_relationship_results) - len(unrated_pairs)}")
+        log(f"Completed relationship ratings with {len(final_relationship_results)} total ratings")
+        log(f"  - Rated pairs: {len(final_relationship_results) - len(unrated_pairs)}")
         log(f"  - Unrated pairs (0 scores): {len(unrated_pairs)}")
         
-        return all_relationship_results
+        return final_relationship_results
         
     except Exception as e:
         log(f"Error processing relationship ratings: {e}")
@@ -3147,58 +3163,48 @@ async def run_concurrent_tasks():
         else:
             log("Warning: No proxy matching results available!")
         
-        # Run property rating and substrate utilization concurrently, then relationship rating
-        log("Starting new execution sequence: property rating + substrate utilization concurrent, then relationship rating")
+        # Run property rating, substrate utilization, and relationship rating sequentially
+        log("Starting new execution sequence: property rating → substrate utilization → relationship rating (sequential)")
         
-        # Step 1: Run property rating and substrate utilization concurrently
-        log("Step 1: Starting property rating and substrate utilization concurrently")
+        # Step 1: Run property rating first
+        log("Step 1: Starting property rating")
         
-        # Create tasks for concurrent execution
-        property_task = run_property_ratings(
-            enhanced_virtual_objects,
-            environment_image_base64_list,
-            physical_object_database,
-            object_snapshot_map,
-            proxy_matching_results
-        )
-        
-        substrate_task = run_substrate_utilization_methods(
-            haptic_annotation_json,
-            environment_image_base64_list,
-            physical_object_database,
-            object_snapshot_map,
-            enhanced_virtual_objects,
-            proxy_matching_results
-        )
-        
-        # Run both tasks concurrently using asyncio.gather()
         try:
-            concurrent_results = await asyncio.gather(property_task, substrate_task, return_exceptions=True)
+            property_rating_results = await run_property_ratings(
+                enhanced_virtual_objects,
+                environment_image_base64_list,
+                physical_object_database,
+                object_snapshot_map,
+                proxy_matching_results
+            )
+            log(f"Step 1 complete: Property rating finished with {len(property_rating_results) if isinstance(property_rating_results, (list, tuple)) else 0} results")
             
-            # Process property rating result (first result)
-            if isinstance(concurrent_results[0], Exception):
-                log(f"Step 1 error: Property rating failed: {concurrent_results[0]}")
-                property_rating_results = []
-            else:
-                property_rating_results = concurrent_results[0]
-                log(f"Step 1 complete: Property rating finished with {len(property_rating_results) if isinstance(property_rating_results, (list, tuple)) else 0} results")
-            
-            # Process substrate utilization result (second result)
-            if isinstance(concurrent_results[1], Exception):
-                log(f"Step 1 error: Substrate utilization failed: {concurrent_results[1]}")
-                substrate_utilization_results = []
-            else:
-                substrate_utilization_results = concurrent_results[1]
-                log(f"Step 1 complete: Substrate utilization finished with {len(substrate_utilization_results) if isinstance(substrate_utilization_results, (list, tuple)) else 0} results")
-                
         except Exception as e:
-            log(f"Step 1 error: Concurrent execution failed: {e}")
+            log(f"Step 1 error: Property rating failed: {e}")
             property_rating_results = []
+        
+        # Step 2: Run substrate utilization second (can now use property rating results for top-k filtering)
+        log("Step 2: Starting substrate utilization (using property rating results for top-k filtering)")
+        
+        try:
+            substrate_utilization_results = await run_substrate_utilization_methods(
+                haptic_annotation_json,
+                environment_image_base64_list,
+                physical_object_database,
+                object_snapshot_map,
+                enhanced_virtual_objects,
+                proxy_matching_results,
+                property_rating_results  # Now available from Step 1
+            )
+            log(f"Step 2 complete: Substrate utilization finished with {len(substrate_utilization_results) if isinstance(substrate_utilization_results, (list, tuple)) else 0} results")
+            
+        except Exception as e:
+            log(f"Step 2 error: Substrate utilization failed: {e}")
             substrate_utilization_results = []
         
-        # Step 2: Run relationship rating after both property rating and substrate utilization complete
+        # Step 3: Run relationship rating third (using both property rating and substrate utilization results)
         if ENABLE_RELATIONSHIP_RATING:
-            log("Step 2: Starting relationship rating (after property rating and substrate utilization completion)")
+            log("Step 3: Starting relationship rating (using property rating and substrate utilization results)")
             
             try:
                 relationship_rating_results = await run_relationship_ratings(
@@ -3211,21 +3217,21 @@ async def run_concurrent_tasks():
                     substrate_utilization_results,
                     property_rating_results
                 )
-                log(f"Step 2 complete: Relationship rating finished with {len(relationship_rating_results) if isinstance(relationship_rating_results, (list, tuple)) else 0} results")
+                log(f"Step 3 complete: Relationship rating finished with {len(relationship_rating_results) if isinstance(relationship_rating_results, (list, tuple)) else 0} results")
                 
             except Exception as e:
-                log(f"Step 2 error: Relationship rating failed: {e}")
+                log(f"Step 3 error: Relationship rating failed: {e}")
                 relationship_rating_results = []
             
-            log("New execution sequence complete: property rating + substrate utilization concurrent, then relationship rating")
+            log("Sequential execution sequence complete: property rating → substrate utilization → relationship rating")
             
         else:
-            log("Step 2: Relationship rating disabled - skipping")
+            log("Step 3: Relationship rating disabled - skipping")
             
             # Set relationship rating results as empty
             relationship_rating_results = []
             
-            log("New execution sequence complete: property rating + substrate utilization concurrent, relationship rating skipped")
+            log("Sequential execution sequence complete: property rating → substrate utilization → relationship rating (skipped)")
         
         # Add to results
         results["property_rating_result"] = property_rating_results
@@ -3875,9 +3881,9 @@ async def _run_single_property_batch(batch_tasks, batch_num):
 
 # Helper function to run a single batch of relationship rating tasks
 async def _run_single_relationship_batch(batch_tasks, batch_num):
-    """Run a single batch of relationship rating tasks and return results"""
+    """Run a single batch of individual dimension rating tasks and return results"""
     try:
-        log(f"Executing relationship batch {batch_num}: {len(batch_tasks)} tasks")
+        log(f"Executing relationship batch {batch_num}: {len(batch_tasks)} dimension tasks")
         batch_results = await asyncio.gather(*batch_tasks, return_exceptions=True)
         
         # Process batch results
@@ -3889,13 +3895,13 @@ async def _run_single_relationship_batch(batch_tasks, batch_num):
                 log(f"Error in relationship batch {batch_num}, task {j+1}: {result}")
                 continue
             elif isinstance(result, list):
-                # Each result is an array of relationship rating results for a single relationship group
+                # Each result is an array of relationship rating results for a single dimension
                 batch_relationship_results.extend(result)
                 batch_success_count += 1
             else:
                 log(f"Relationship batch {batch_num}, task {j+1} returned unexpected result type: {type(result)}")
         
-        log(f"Relationship batch {batch_num} completed: {batch_success_count}/{len(batch_tasks)} tasks successful")
+        log(f"Relationship batch {batch_num} completed: {batch_success_count}/{len(batch_tasks)} dimension tasks successful")
         return batch_relationship_results
         
     except Exception as e:
@@ -3904,7 +3910,7 @@ async def _run_single_relationship_batch(batch_tasks, batch_num):
 
 # Function to run substrate utilization methods generation for all relationships
 @traceable(run_type="chain", metadata={"process": "substrate_utilization_batch"})
-async def run_substrate_utilization_methods(haptic_annotation_json, environment_images, physical_object_database, object_snapshot_map, enhanced_virtual_objects, proxy_matching_results):
+async def run_substrate_utilization_methods(haptic_annotation_json, environment_images, physical_object_database, object_snapshot_map, enhanced_virtual_objects, proxy_matching_results, property_rating_results=None):
     if not haptic_annotation_json:
         log("No haptic annotation data provided for substrate utilization methods")
         return []
@@ -3928,15 +3934,105 @@ async def run_substrate_utilization_methods(haptic_annotation_json, environment_
         
         log(f"Found {len(all_physical_objects)} total physical objects for substrate utilization method generation")
         
-        # Create substrate utilization tasks - for each relationship, create one task per physical object as contact
+        # Function to get top k physical objects for a virtual contact object based on property rating results
+        def get_top_k_contact_objects_for_substrate(virtual_contact_name, k=TOP_K_CONTACT_OBJECTS):
+            # If property rating results are not available, fall back to using all physical objects
+            if not property_rating_results:
+                log(f"Warning: No property rating results available for {virtual_contact_name}, using all physical objects as fallback")
+                return [{"object_id": obj.get("object_id"), "image_id": obj.get("image_id"), 
+                        "physicalObject": obj.get("object"), "total_weighted_score": 0.0} 
+                        for obj in all_physical_objects]
+            
+            # Get property rating results for this virtual contact object
+            contact_ratings = []
+            for rating in property_rating_results:
+                if rating.get("virtualObject") == virtual_contact_name:
+                    # Calculate mean rating from the three runs
+                    rating_1 = rating.get("rating_1", 0)
+                    rating_2 = rating.get("rating_2", 0) 
+                    rating_3 = rating.get("rating_3", 0)
+                    mean_rating = (rating_1 + rating_2 + rating_3) / 3 if (rating_1 or rating_2 or rating_3) else 0
+                    
+                    # Get property value for weighting
+                    property_value = rating.get("propertyValue", 0.0)
+                    
+                    # Calculate weighted score
+                    weighted_score = mean_rating * property_value
+                    
+                    contact_ratings.append({
+                        "object_id": rating.get("object_id"),
+                        "image_id": rating.get("image_id"),
+                        "physicalObject": rating.get("physicalObject"),
+                        "weighted_score": weighted_score,
+                        "mean_rating": mean_rating,
+                        "property_value": property_value
+                    })
+            
+            # Group by physical object and sum weighted scores across all properties
+            object_scores = {}
+            for rating in contact_ratings:
+                obj_key = f"{rating['object_id']}_{rating['image_id']}"
+                if obj_key not in object_scores:
+                    object_scores[obj_key] = {
+                        "object_id": rating["object_id"],
+                        "image_id": rating["image_id"],
+                        "physicalObject": rating["physicalObject"],
+                        "total_weighted_score": 0
+                    }
+                object_scores[obj_key]["total_weighted_score"] += rating["weighted_score"]
+            
+            # Sort by total weighted score
+            sorted_objects = sorted(object_scores.values(), key=lambda x: x["total_weighted_score"], reverse=True)
+            
+            # Handle ties: include all objects with the same score as the k-th object
+            if len(sorted_objects) <= k:
+                # If we have k or fewer objects, return all of them
+                top_k_objects = sorted_objects
+            else:
+                # Find the k-th object's score
+                kth_score = sorted_objects[k-1]["total_weighted_score"]
+                
+                # Include all objects with scores >= k-th score
+                top_k_objects = []
+                for obj in sorted_objects:
+                    if obj["total_weighted_score"] >= kth_score:
+                        top_k_objects.append(obj)
+                    else:
+                        break  # Since list is sorted, we can break early
+            
+            log(f"Top {k} physical objects for virtual contact '{virtual_contact_name}' in substrate utilization (with ties):")
+            for i, obj in enumerate(top_k_objects, 1):
+                log(f"  {i}. {obj['physicalObject']} (ID: {obj['object_id']}, Image: {obj['image_id']}, Score: {obj['total_weighted_score']:.3f})")
+            
+            log(f"Selected {len(top_k_objects)} objects for substrate utilization (including ties)")
+            return top_k_objects
+
+        # Create substrate utilization tasks - for each relationship, create one task per top-k physical object as contact
         all_tasks = []
         
         for relationship in relationship_annotations:
             virtual_contact_name = relationship.get("contactObject", "")
             virtual_substrate_name = relationship.get("substrateObject", "")
             
-            # For each physical object that could be a contact object (has a utilization method for this virtual contact)
-            for contact_obj in all_physical_objects:
+            log(f"Processing relationship for substrate utilization: {virtual_contact_name} -> {virtual_substrate_name}")
+            
+            # Get top k physical objects for this virtual contact object
+            top_k_contact_objects = get_top_k_contact_objects_for_substrate(virtual_contact_name, k=TOP_K_CONTACT_OBJECTS)
+            
+            # Create tasks only for the top-k contact objects
+            for top_obj in top_k_contact_objects:
+                # Find the actual physical object from the database
+                contact_obj = None
+                for obj in all_physical_objects:
+                    if (obj.get('object_id') == top_obj['object_id'] and 
+                        obj.get('image_id') == top_obj['image_id']):
+                        contact_obj = obj
+                        break
+                
+                if contact_obj is None:
+                    log(f"Warning: Could not find physical object for top-k result: {top_obj}")
+                    continue
+                
                 # Check if this physical object has a utilization method for the virtual contact object
                 has_contact_utilization = False
                 contact_utilization_method = None
@@ -3950,7 +4046,7 @@ async def run_substrate_utilization_methods(haptic_annotation_json, environment_
                 
                 # Only create a task if this physical object can serve as the contact object
                 if has_contact_utilization:
-                    log(f"Creating substrate utilization task for {virtual_contact_name} -> {virtual_substrate_name} with contact object {contact_obj.get('object')} (ID: {contact_obj.get('object_id')})")
+                    log(f"Creating substrate utilization task for {virtual_contact_name} -> {virtual_substrate_name} with contact object {contact_obj.get('object')} (ID: {contact_obj.get('object_id')}, Score: {top_obj['total_weighted_score']:.3f})")
                     log(f"  Contact utilization method: {contact_utilization_method[:50]}..." if contact_utilization_method else "  No utilization method")
                     
                     task = generate_substrate_utilization_for_contact(
@@ -3964,7 +4060,7 @@ async def run_substrate_utilization_methods(haptic_annotation_json, environment_
                     )
                     all_tasks.append(task)
                 else:
-                    log(f"Skipping contact object {contact_obj.get('object')} (ID: {contact_obj.get('object_id')}) - no utilization method for {virtual_contact_name}")
+                    log(f"Warning: Top-k contact object {contact_obj.get('object')} (ID: {contact_obj.get('object_id')}) has no utilization method for {virtual_contact_name}")
         
         # Run tasks with overlapping batches for maximum throughput
         log(f"Running {len(all_tasks)} substrate utilization tasks with overlapping batches (size: {SUBSTRATE_BATCH_SIZE}, interval: {SUBSTRATE_BATCH_INTERVAL}s)")
