@@ -9,6 +9,7 @@ implementing the Multi-Objective Loss Function from the backend specification.
 import os
 import sys
 import json
+import math
 import numpy as np
 import itertools
 from typing import List, Dict, Any, Tuple, Optional
@@ -74,7 +75,7 @@ class ProXeekOptimizer:
         """Load all required data files"""
         try:
             # Load haptic annotation data - find the most recent haptic_annotation file
-            haptic_dir = r"C:\Users\aaron\Documents\GitHub\ProXeek\Assets\StreamingAssets\Export"
+            haptic_dir = r"C:\Users\aaron\Documents\GitHub\ProXeek\ProXeek\Assets\StreamingAssets\Export"
             haptic_files = [f for f in os.listdir(haptic_dir) if f.startswith("haptic_annotation") and f.endswith(".json")]
             
             if not haptic_files:
@@ -478,8 +479,84 @@ class ProXeekOptimizer:
         
         return True
     
+    def filter_by_top_k_realism(self, k: Optional[int] = None) -> List[np.ndarray]:
+        """Generate assignments using only top-K realism scores for grasp and contact virtual objects"""
+        n_virtual = len(self.virtual_objects)
+        n_physical = len(self.physical_objects)
+        
+        # Set default K to fixed value
+        if k is None:
+            k = 5
+            print(f"Setting K = {k}")
+        
+        # Ensure K doesn't exceed available physical objects
+        k = min(k, n_physical)
+        
+        print(f"Applying Top-K filtering with K = {k}")
+        
+        # Check if realism matrix is available
+        if self.realism_matrix is None:
+            print("Warning: Realism matrix not available, falling back to exhaustive generation")
+            # Fall back to exhaustive generation
+            valid_assignments = []
+            if self.enable_exclusivity:
+                for perm in itertools.permutations(range(n_physical), n_virtual):
+                    assignment_matrix = np.zeros((n_virtual, n_physical))
+                    for i, j in enumerate(perm):
+                        assignment_matrix[i, j] = 1.0
+                    valid_assignments.append(assignment_matrix)
+            else:
+                for assignment_tuple in itertools.product(range(n_physical), repeat=n_virtual):
+                    assignment_matrix = np.zeros((n_virtual, n_physical))
+                    for i, j in enumerate(assignment_tuple):
+                        assignment_matrix[i, j] = 1.0
+                    valid_assignments.append(assignment_matrix)
+            return valid_assignments
+        
+        # Get top-K physical objects for each virtual object
+        top_k_assignments = {}
+        for v_idx in range(n_virtual):
+            virtual_obj = self.virtual_objects[v_idx]
+            
+            # Only apply Top-K filtering to grasp and contact objects
+            if virtual_obj.involvement_type in ["grasp", "contact"]:
+                realism_scores = self.realism_matrix[v_idx, :]
+                # Get indices of top K realism scores
+                top_k_indices = np.argsort(realism_scores)[-k:]
+                top_k_assignments[v_idx] = top_k_indices.tolist()
+                
+                print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Top-{k} realism scores: {realism_scores[top_k_indices]}")
+            else:
+                # For substrate objects, use all physical objects since realism ratings are zero
+                top_k_assignments[v_idx] = list(range(n_physical))
+                print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Using all physical objects (substrate)")
+        
+        # Generate assignments using only top-K combinations
+        valid_assignments = []
+        assignment_count = 0
+        
+        print(f"Generating assignments from filtered combinations...")
+        
+        for assignment_tuple in itertools.product(*[top_k_assignments[i] for i in range(n_virtual)]):
+            # Check exclusivity constraint if enabled
+            if self.enable_exclusivity and len(set(assignment_tuple)) != len(assignment_tuple):
+                continue
+                
+            assignment_matrix = np.zeros((n_virtual, n_physical))
+            for i, j in enumerate(assignment_tuple):
+                assignment_matrix[i, j] = 1.0
+            valid_assignments.append(assignment_matrix)
+            assignment_count += 1
+            
+            # Progress indicator for large searches
+            if assignment_count % 10000 == 0:
+                print(f"    Generated {assignment_count} assignments...")
+        
+        print(f"Top-K filtering generated {len(valid_assignments)} assignments")
+        return valid_assignments
+
     def generate_all_assignments(self) -> List[np.ndarray]:
-        """Generate all valid assignment permutations"""
+        """Generate all valid assignment permutations with optional Top-K filtering"""
         n_virtual = len(self.virtual_objects)
         n_physical = len(self.physical_objects)
         
@@ -487,25 +564,41 @@ class ProXeekOptimizer:
             print(f"Error: Not enough physical objects ({n_physical}) for virtual objects ({n_virtual})")
             return []
         
-        valid_assignments = []
-        
+        # Calculate theoretical assignment count
         if self.enable_exclusivity:
-            # Generate permutations: each virtual object gets a unique physical object
-            for perm in itertools.permutations(range(n_physical), n_virtual):
-                assignment_matrix = np.zeros((n_virtual, n_physical))
-                for i, j in enumerate(perm):
-                    assignment_matrix[i, j] = 1.0
-                valid_assignments.append(assignment_matrix)
+            theoretical_count = math.factorial(n_physical) // math.factorial(n_physical - n_virtual)
         else:
-            # Generate all combinations: each virtual object can get any physical object
-            for assignment_tuple in itertools.product(range(n_physical), repeat=n_virtual):
-                assignment_matrix = np.zeros((n_virtual, n_physical))
-                for i, j in enumerate(assignment_tuple):
-                    assignment_matrix[i, j] = 1.0
-                valid_assignments.append(assignment_matrix)
+            theoretical_count = n_physical ** n_virtual
         
-        print(f"Generated {len(valid_assignments)} valid assignments")
-        return valid_assignments
+        print(f"Theoretical assignment count: {theoretical_count}")
+        
+        # Use Top-K filtering if the count is too large
+        if theoretical_count > 50000:  # Threshold for when to apply filtering
+            print("Using Top-K filtered assignment generation due to large search space")
+            # Use fixed K value
+            k = 5
+            return self.filter_by_top_k_realism(k=k)
+        else:
+            print("Using exhaustive assignment generation")
+            valid_assignments = []
+            
+            if self.enable_exclusivity:
+                # Generate permutations: each virtual object gets a unique physical object
+                for perm in itertools.permutations(range(n_physical), n_virtual):
+                    assignment_matrix = np.zeros((n_virtual, n_physical))
+                    for i, j in enumerate(perm):
+                        assignment_matrix[i, j] = 1.0
+                    valid_assignments.append(assignment_matrix)
+            else:
+                # Generate all combinations: each virtual object can get any physical object
+                for assignment_tuple in itertools.product(range(n_physical), repeat=n_virtual):
+                    assignment_matrix = np.zeros((n_virtual, n_physical))
+                    for i, j in enumerate(assignment_tuple):
+                        assignment_matrix[i, j] = 1.0
+                    valid_assignments.append(assignment_matrix)
+            
+            print(f"Generated {len(valid_assignments)} valid assignments")
+            return valid_assignments
     
     def print_debug_matrices(self) -> None:
         """Print all matrices for debugging purposes"""

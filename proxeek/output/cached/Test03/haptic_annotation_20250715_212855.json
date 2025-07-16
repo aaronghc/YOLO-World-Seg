@@ -1,0 +1,189 @@
+{
+    "summary": "Test playground 03",
+    "highEngagementOrder": [
+        "Tomato",
+        "Binoculars",
+        "Hammer"
+    ],
+    "mediumEngagementOrder": [
+        "Chest"
+    ],
+    "lowEngagementOrder": [
+        "Valve Wheel"
+    ],
+    "nodeAnnotations": [
+        {
+            "objectName": "Chest",
+            "involvementType": "grasp",
+            "usage": "A container that opens to reveal storage space for holding items",
+            "engagementLevel": 1,
+            "inertia": "",
+            "interactivity": "Users should feel the lid's pivoting motion with smooth arc-based movement, potential resistance from internal springs or friction.",
+            "outline": "",
+            "texture": "",
+            "hardness": "",
+            "temperature": "The brass handle may feel cool to the touch",
+            "inertiaValue": 0.0,
+            "interactivityValue": 0.7142857313156128,
+            "outlineValue": 0.0,
+            "textureValue": 0.0,
+            "hardnessValue": 0.0,
+            "temperatureValue": 0.2857142984867096,
+            "dimensions_meters": {
+                "x": "0.28",
+                "y": "0.16",
+                "z": "0.20"
+            },
+            "globalPosition": {
+                "x": 0.22216251492500306,
+                "y": 0.8629999756813049,
+                "z": 0.6635169386863709
+            },
+            "globalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "objectName": "Hammer",
+            "involvementType": "grasp",
+            "usage": "Striking and smashing objects",
+            "engagementLevel": 2,
+            "inertia": "The hammer should convey significant weight concentrated in the metal head, creating a distinctly top-heavy feel. Users would expect substantial resistance when lifting and notable momentum during swinging motions.",
+            "interactivity": "",
+            "outline": "Thick cylindrical handle",
+            "texture": "",
+            "hardness": "",
+            "temperature": "",
+            "inertiaValue": 0.6153846383094788,
+            "interactivityValue": 0.0,
+            "outlineValue": 0.38461539149284365,
+            "textureValue": 0.0,
+            "hardnessValue": 0.0,
+            "temperatureValue": 0.0,
+            "dimensions_meters": {
+                "x": "0.54",
+                "y": "0.12",
+                "z": "0.28"
+            },
+            "globalPosition": {
+                "x": -0.11900000274181366,
+                "y": 0.765999972820282,
+                "z": 0.33799999952316286
+            },
+            "globalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "objectName": "Tomato",
+            "involvementType": "substrate",
+            "usage": "",
+            "engagementLevel": 2,
+            "inertia": "",
+            "interactivity": "",
+            "outline": "",
+            "texture": "",
+            "hardness": "",
+            "temperature": "",
+            "inertiaValue": 0.0,
+            "interactivityValue": 0.0,
+            "outlineValue": 0.0,
+            "textureValue": 0.0,
+            "hardnessValue": 0.0,
+            "temperatureValue": 0.0,
+            "dimensions_meters": {
+                "x": "0.17",
+                "y": "0.14",
+                "z": "0.17"
+            },
+            "globalPosition": {
+                "x": -0.3659999966621399,
+                "y": 0.7749999761581421,
+                "z": 0.515999972820282
+            },
+            "globalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "objectName": "Binoculars",
+            "involvementType": "grasp",
+            "usage": "Optical viewing device for magnifying distant objects",
+            "engagementLevel": 2,
+            "inertia": "",
+            "interactivity": "",
+            "outline": "Users should feel the distinct dual-barrel shape",
+            "texture": "",
+            "hardness": "",
+            "temperature": "",
+            "inertiaValue": 0.0,
+            "interactivityValue": 0.0,
+            "outlineValue": 1.0,
+            "textureValue": 0.0,
+            "hardnessValue": 0.0,
+            "temperatureValue": 0.0,
+            "dimensions_meters": {
+                "x": "0.19",
+                "y": "0.07",
+                "z": "0.17"
+            },
+            "globalPosition": {
+                "x": -1.0980000495910645,
+                "y": 0.8119999766349793,
+                "z": 0.5299999713897705
+            },
+            "globalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "objectName": "Valve Wheel",
+            "involvementType": "grasp",
+            "usage": "This wheel would be used for manually operating industrial valves",
+            "engagementLevel": 0,
+            "inertia": "",
+            "interactivity": "A freely rotatable structure around its central axis, responding smoothly to applied rotational forces. Users should feel the wheel's rotation transmitted through their grip points.",
+            "outline": "",
+            "texture": "",
+            "hardness": "",
+            "temperature": "",
+            "inertiaValue": 0.0,
+            "interactivityValue": 1.0,
+            "outlineValue": 0.0,
+            "textureValue": 0.0,
+            "hardnessValue": 0.0,
+            "temperatureValue": 0.0,
+            "dimensions_meters": {
+                "x": "0.40",
+                "y": "0.35",
+                "z": "0.31"
+            },
+            "globalPosition": {
+                "x": 1.1749999523162842,
+                "y": 1.0,
+                "z": 0.48500001430511477
+            },
+            "globalRotation": {
+                "x": 45.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    ],
+    "relationshipAnnotations": [
+        {
+            "contactObject": "Hammer",
+            "substrateObject": "Tomato",
+            "annotationText": "When the hammer strikes the tomato, its momentum briefly encounters resistance before immediately breaking through."
+        }
+    ],
+    "groups": []
+}
