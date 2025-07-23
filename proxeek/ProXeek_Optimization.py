@@ -11,6 +11,7 @@ import sys
 import json
 import math
 import numpy as np
+import pandas as pd
 import itertools
 from typing import List, Dict, Any, Tuple, Optional
 from dataclasses import dataclass
@@ -30,7 +31,7 @@ class VirtualObject:
     """Represents a virtual object with its properties"""
     name: str
     index: int  # Index in the virtual objects list
-    engagement_level: int  # 0=low, 1=medium, 2=high
+    engagement_level: float  # 0.0-1.0 scale (normalized priority weight)
     involvement_type: str  # grasp, contact, substrate
     position: Optional[np.ndarray] = None  # 3D position in virtual space
 
@@ -161,12 +162,13 @@ class ProXeekOptimizer:
             name = obj.get("objectName", "")
             involvement_type = obj.get("involvementType", "")
             
-            # Determine granular engagement level (unique rank from 1 to N)
-            engagement_level = 0  # default for unranked objects
+            # Determine granular engagement level (normalized to 0-1 scale)
+            engagement_level = 0.0  # default for unranked objects
             if name in complete_priority_order:
                 # Higher priority gets higher engagement level
                 priority_rank = complete_priority_order.index(name)
-                engagement_level = len(complete_priority_order) - priority_rank
+                # Scale to 0-1 range instead of 1-N range for better scalability
+                engagement_level = (len(complete_priority_order) - priority_rank) / len(complete_priority_order)
             
             virtual_obj = VirtualObject(
                 name=name,
@@ -874,6 +876,168 @@ class ProXeekOptimizer:
         
         print(f"\nResults saved to: {output_path}")
 
+    def export_realism_matrix_to_csv(self, output_filename: str = "realism_matrix.csv") -> None:
+        """Export the full realism matrix to a CSV file"""
+        if self.realism_matrix is None:
+            print("Warning: Realism matrix not available for export")
+            return
+        
+        # Create row labels (virtual object names)
+        row_labels = [f"V{i}_{obj.name}" for i, obj in enumerate(self.virtual_objects)]
+        
+        # Create column labels (physical object names)
+        col_labels = [f"P{i}_{obj.name}" for i, obj in enumerate(self.physical_objects)]
+        
+        # Create DataFrame with labels - use explicit pd.Index to avoid type issues
+        df = pd.DataFrame(
+            self.realism_matrix,
+            index=pd.Index(row_labels),
+            columns=pd.Index(col_labels)
+        )
+        
+        # Save to CSV
+        output_path = os.path.join(self.data_dir, output_filename)
+        df.to_csv(output_path, float_format='%.4f')
+        
+        print(f"Realism matrix exported to: {output_path}")
+        print(f"Matrix shape: {self.realism_matrix.shape}")
+        print(f"Total non-zero entries: {np.count_nonzero(self.realism_matrix)}")
+
+    def export_interaction_matrices_to_csv(self) -> None:
+        """Export the interaction matrices to CSV files with detailed dimension ratings"""
+        
+        # Export 2D interaction matrix if it exists
+        if hasattr(self, 'interaction_matrix') and self.interaction_matrix is not None:
+            # Create physical object labels
+            phys_labels = [f"P{i}_{obj.name}" for i, obj in enumerate(self.physical_objects)]
+            
+            # Create DataFrame for 2D interaction matrix
+            df_2d = pd.DataFrame(
+                self.interaction_matrix,
+                index=pd.Index(phys_labels),  # Contact physical objects
+                columns=pd.Index(phys_labels)  # Substrate physical objects
+            )
+            
+            # Save 2D interaction matrix
+            output_path_2d = os.path.join(self.data_dir, "interaction_matrix_2d.csv")
+            df_2d.to_csv(output_path_2d, float_format='%.4f')
+            
+            print(f"2D Interaction matrix exported to: {output_path_2d}")
+            print(f"2D Matrix shape: {self.interaction_matrix.shape}")
+            print(f"2D Total non-zero entries: {np.count_nonzero(self.interaction_matrix)}")
+        
+        # Export 3D interaction matrix if it exists
+        if (hasattr(self, 'interaction_matrix_3d') and self.interaction_matrix_3d is not None and
+            hasattr(self, 'virtual_relationship_pairs') and self.virtual_relationship_pairs is not None):
+            
+            # Create physical object labels
+            phys_labels = [f"P{i}_{obj.name}" for i, obj in enumerate(self.physical_objects)]
+            
+            # Export each relationship as a separate CSV with detailed ratings
+            for rel_idx, (contact_idx, substrate_idx) in enumerate(self.virtual_relationship_pairs):
+                contact_name = self.virtual_objects[contact_idx].name
+                substrate_name = self.virtual_objects[substrate_idx].name
+                
+                # Get the 2D slice for this relationship
+                rel_matrix = self.interaction_matrix_3d[rel_idx, :, :]
+                
+                # Create detailed matrix with dimension breakdown
+                detailed_matrix = np.empty(rel_matrix.shape, dtype=object)
+                
+                # Load relationship rating results to get individual dimension ratings
+                relationship_file = os.path.join(self.data_dir, "relationship_rating_results.json")
+                if os.path.exists(relationship_file):
+                    with open(relationship_file, 'r') as f:
+                        relationship_data = json.load(f)
+                    
+                    # Create mapping from (contact_id, contact_img, substrate_id, substrate_img) to ratings
+                    rating_map = {}
+                    for rel_result in relationship_data:
+                        if (rel_result.get("virtualContactObject") == contact_name and 
+                            rel_result.get("virtualSubstrateObject") == substrate_name):
+                            
+                            contact_obj_id = rel_result.get("contactObject_id", -1)
+                            contact_img_id = rel_result.get("contactImage_id", -1)
+                            substrate_obj_id = rel_result.get("substrateObject_id", -1)
+                            substrate_img_id = rel_result.get("substrateImage_id", -1)
+                            
+                            # Get individual dimension ratings
+                            harmony_rating = rel_result.get("harmony_rating", 0)
+                            expressivity_rating = rel_result.get("expressivity_rating", 0)
+                            realism_rating = rel_result.get("realism_rating", 0)
+                            combined_rating = rel_result.get("combined_rating", harmony_rating + expressivity_rating + realism_rating)
+                            
+                            # Create key for mapping
+                            rating_key = (contact_obj_id, contact_img_id, substrate_obj_id, substrate_img_id)
+                            rating_map[rating_key] = {
+                                'harmony': harmony_rating,
+                                'expressivity': expressivity_rating,
+                                'realism': realism_rating,
+                                'combined': combined_rating
+                            }
+                    
+                    # Fill detailed matrix
+                    for i, contact_obj in enumerate(self.physical_objects):
+                        for j, substrate_obj in enumerate(self.physical_objects):
+                            rating_key = (contact_obj.object_id, contact_obj.image_id, 
+                                        substrate_obj.object_id, substrate_obj.image_id)
+                            
+                            if rating_key in rating_map:
+                                ratings = rating_map[rating_key]
+                                detailed_matrix[i, j] = f"{ratings['combined']}({ratings['harmony']},{ratings['expressivity']},{ratings['realism']})"
+                            else:
+                                detailed_matrix[i, j] = f"{rel_matrix[i, j]:.0f}(0,0,0)"
+                else:
+                    # Fallback: just show combined ratings
+                    for i in range(rel_matrix.shape[0]):
+                        for j in range(rel_matrix.shape[1]):
+                            detailed_matrix[i, j] = f"{rel_matrix[i, j]:.0f}(0,0,0)"
+                
+                # Create DataFrame for this relationship with detailed ratings
+                df_rel = pd.DataFrame(
+                    detailed_matrix,
+                    index=pd.Index(phys_labels),  # Contact physical objects
+                    columns=pd.Index(phys_labels)  # Substrate physical objects
+                )
+                
+                # Save this relationship matrix
+                safe_contact_name = contact_name.replace(" ", "_").replace("/", "_")
+                safe_substrate_name = substrate_name.replace(" ", "_").replace("/", "_")
+                output_filename = f"interaction_matrix_3d_rel{rel_idx}_{safe_contact_name}_to_{safe_substrate_name}.csv"
+                output_path_rel = os.path.join(self.data_dir, output_filename)
+                df_rel.to_csv(output_path_rel)
+                
+                non_zero_count = np.count_nonzero(rel_matrix)
+                print(f"3D Interaction matrix for relationship {rel_idx} ({contact_name} -> {substrate_name}) exported to: {output_filename}")
+                print(f"  Matrix shape: {rel_matrix.shape}, Non-zero entries: {non_zero_count}")
+                print(f"  Format: combined_rating(harmony,expressivity,realism)")
+            
+            # Also export a summary of all relationships
+            summary_data = []
+            for rel_idx, (contact_idx, substrate_idx) in enumerate(self.virtual_relationship_pairs):
+                contact_name = self.virtual_objects[contact_idx].name
+                substrate_name = self.virtual_objects[substrate_idx].name
+                rel_matrix = self.interaction_matrix_3d[rel_idx, :, :]
+                
+                summary_data.append({
+                    'relationship_index': rel_idx,
+                    'contact_virtual_object': contact_name,
+                    'substrate_virtual_object': substrate_name,
+                    'matrix_shape': f"{rel_matrix.shape[0]}x{rel_matrix.shape[1]}",
+                    'non_zero_entries': int(np.count_nonzero(rel_matrix)),
+                    'max_rating': float(np.max(rel_matrix)),
+                    'mean_rating': float(np.mean(rel_matrix[rel_matrix > 0])) if np.any(rel_matrix > 0) else 0.0
+                })
+            
+            # Save summary
+            summary_df = pd.DataFrame(summary_data)
+            summary_path = os.path.join(self.data_dir, "interaction_matrix_3d_summary.csv")
+            summary_df.to_csv(summary_path, index=False, float_format='%.4f')
+            print(f"3D Interaction matrix summary exported to: interaction_matrix_3d_summary.csv")
+        
+        if not hasattr(self, 'interaction_matrix') and not hasattr(self, 'interaction_matrix_3d'):
+            print("Warning: No interaction matrices available for export")
+
 def main():
     """Main function to run the optimization"""
     print("ProXeek Global Optimization")
@@ -887,11 +1051,17 @@ def main():
         print("Failed to load data. Exiting.")
         return
     
+    # Export realism matrix to CSV
+    optimizer.export_realism_matrix_to_csv()
+    
+    # Export interaction matrices to CSV
+    optimizer.export_interaction_matrices_to_csv()
+    
     # Set loss function weights (can be adjusted)
     optimizer.w_realism = 1.0
-    optimizer.w_priority = 0.05
+    optimizer.w_priority = 0.5
     optimizer.w_interaction = 0.5
-    optimizer.w_spatial = 0.001
+    optimizer.w_spatial = 0.5
     
     # Enable/disable exclusivity constraint
     optimizer.enable_exclusivity = True

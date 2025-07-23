@@ -44,7 +44,10 @@ RELATIONSHIP_RATING_BATCH_INTERVAL = 1  # Seconds between starting new batches
 
 # Process Activation Switches
 ENABLE_PROXY_MATCHING = True        # Set to True to enable proxy matching and dependent processes
-ENABLE_RELATIONSHIP_RATING = True   # Set to True to enable relationship rating
+ENABLE_PROPERTY_RATING = False       # Set to True to enable property rating
+ENABLE_SUBSTRATE_UTILIZATION = False # Set to True to enable substrate utilization
+ENABLE_RELATIONSHIP_RATING = False   # Set to True to enable relationship rating
+
 
 # Top-K Filtering Configuration
 TOP_K_CONTACT_OBJECTS = 5           # Number of top contact objects to consider (with tie handling)
@@ -430,7 +433,7 @@ substrate_utilization_llm = ChatOpenAI(
 
 # YOLO-World + EfficientSAM configuration  
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-CONFIDENCE_THRESHOLD = 0.01
+CONFIDENCE_THRESHOLD = 0.0001
 IOU_THRESHOLD = 0.5
 
 # Log CUDA availability and device info
@@ -3167,39 +3170,47 @@ async def run_concurrent_tasks():
         log("Starting new execution sequence: property rating → substrate utilization → relationship rating (sequential)")
         
         # Step 1: Run property rating first
-        log("Step 1: Starting property rating")
-        
-        try:
-            property_rating_results = await run_property_ratings(
-                enhanced_virtual_objects,
-                environment_image_base64_list,
-                physical_object_database,
-                object_snapshot_map,
-                proxy_matching_results
-            )
-            log(f"Step 1 complete: Property rating finished with {len(property_rating_results) if isinstance(property_rating_results, (list, tuple)) else 0} results")
+        if ENABLE_PROPERTY_RATING:
+            log("Step 1: Starting property rating")
             
-        except Exception as e:
-            log(f"Step 1 error: Property rating failed: {e}")
+            try:
+                property_rating_results = await run_property_ratings(
+                    enhanced_virtual_objects,
+                    environment_image_base64_list,
+                    physical_object_database,
+                    object_snapshot_map,
+                    proxy_matching_results
+                )
+                log(f"Step 1 complete: Property rating finished with {len(property_rating_results) if isinstance(property_rating_results, (list, tuple)) else 0} results")
+                
+            except Exception as e:
+                log(f"Step 1 error: Property rating failed: {e}")
+                property_rating_results = []
+        else:
+            log("Step 1: Property rating disabled - skipping")
             property_rating_results = []
         
         # Step 2: Run substrate utilization second (can now use property rating results for top-k filtering)
-        log("Step 2: Starting substrate utilization (using property rating results for top-k filtering)")
-        
-        try:
-            substrate_utilization_results = await run_substrate_utilization_methods(
-                haptic_annotation_json,
-                environment_image_base64_list,
-                physical_object_database,
-                object_snapshot_map,
-                enhanced_virtual_objects,
-                proxy_matching_results,
-                property_rating_results  # Now available from Step 1
-            )
-            log(f"Step 2 complete: Substrate utilization finished with {len(substrate_utilization_results) if isinstance(substrate_utilization_results, (list, tuple)) else 0} results")
+        if ENABLE_SUBSTRATE_UTILIZATION:
+            log("Step 2: Starting substrate utilization (using property rating results for top-k filtering)")
             
-        except Exception as e:
-            log(f"Step 2 error: Substrate utilization failed: {e}")
+            try:
+                substrate_utilization_results = await run_substrate_utilization_methods(
+                    haptic_annotation_json,
+                    environment_image_base64_list,
+                    physical_object_database,
+                    object_snapshot_map,
+                    enhanced_virtual_objects,
+                    proxy_matching_results,
+                    property_rating_results  # Now available from Step 1
+                )
+                log(f"Step 2 complete: Substrate utilization finished with {len(substrate_utilization_results) if isinstance(substrate_utilization_results, (list, tuple)) else 0} results")
+                
+            except Exception as e:
+                log(f"Step 2 error: Substrate utilization failed: {e}")
+                substrate_utilization_results = []
+        else:
+            log("Step 2: Substrate utilization disabled - skipping")
             substrate_utilization_results = []
         
         # Step 3: Run relationship rating third (using both property rating and substrate utilization results)
@@ -4394,7 +4405,7 @@ try:
         }
     
     # Process property rating results if available
-    if environment_image_base64_list and haptic_annotation_json and ENABLE_PROXY_MATCHING:
+    if environment_image_base64_list and haptic_annotation_json and ENABLE_PROXY_MATCHING and ENABLE_PROPERTY_RATING:
         log("Processing completed property rating results")
         property_rating_results = concurrent_results.get("property_rating_result", [])
         
@@ -4433,12 +4444,15 @@ try:
         if not ENABLE_PROXY_MATCHING:
             log("Property rating skipped - proxy matching disabled via configuration")
             status_message = "Property rating skipped - proxy matching disabled via configuration"
+        elif not ENABLE_PROPERTY_RATING:
+            log("Property rating disabled via configuration")
+            status_message = "Property rating disabled via configuration"
         else:
             log("No data available for property rating")
             status_message = "No environment images or haptic annotation data provided"
         
         result["property_rating"] = {
-            "status": "disabled" if not ENABLE_PROXY_MATCHING else "no_data",
+            "status": "disabled" if not ENABLE_PROXY_MATCHING or not ENABLE_PROPERTY_RATING else "no_data",
             "message": status_message,
             "count": 0,
             "rating_results": []
@@ -4574,7 +4588,7 @@ try:
         }
     
     # Process substrate utilization results if available
-    if environment_image_base64_list and haptic_annotation_json and ENABLE_PROXY_MATCHING:
+    if environment_image_base64_list and haptic_annotation_json and ENABLE_PROXY_MATCHING and ENABLE_SUBSTRATE_UTILIZATION:
         log("Processing completed substrate utilization results")
         substrate_utilization_results = concurrent_results.get("substrate_utilization_result", [])
         
@@ -4611,12 +4625,15 @@ try:
         if not ENABLE_PROXY_MATCHING:
             log("Substrate utilization skipped - proxy matching disabled via configuration")
             status_message = "Substrate utilization skipped - proxy matching disabled via configuration"
+        elif not ENABLE_SUBSTRATE_UTILIZATION:
+            log("Substrate utilization disabled via configuration")
+            status_message = "Substrate utilization disabled via configuration"
         else:
             log("No data available for substrate utilization")
             status_message = "No environment images or haptic annotation data provided"
         
         result["substrate_utilization"] = {
-            "status": "disabled" if not ENABLE_PROXY_MATCHING else "no_data",
+            "status": "disabled" if not ENABLE_PROXY_MATCHING or not ENABLE_SUBSTRATE_UTILIZATION else "no_data",
             "message": status_message,
             "count": 0,
             "utilization_results": []

@@ -2,437 +2,873 @@
   "0": [
     {
       "object_id": 1,
-      "object": "black fabric roller blind fully extended",
-      "position": "center and covering the majority of the image",
+      "object": "beige fabric bean bag chair",
+      "position": "center of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 0.36572265625,
-          "y1": 0.0,
-          "x2": 1276.1436767578125,
-          "y2": 959.7169189453125,
-          "width": 1275.7779541015625,
-          "height": 959.7169189453125,
-          "center_x": 638.2546997070312,
-          "center_y": 479.85845947265625
+          "x1": 53.11431884765625,
+          "y1": 346.64739990234375,
+          "x2": 957.0281982421875,
+          "y2": 926.9395141601562,
+          "width": 903.9138793945312,
+          "height": 580.2921142578125,
+          "center_x": 505.0712585449219,
+          "center_y": 636.79345703125
         },
         "mask_center": {
-          "x": 611.0,
-          "y": 298.0
+          "x": 513.0,
+          "y": 637.0
         },
-        "confidence": 0.03801044821739197,
-        "detected_name": "black fabric roller blind fully extended",
+        "confidence": 0.37159663438796997,
+        "detected_name": "beige fabric bean bag chair",
         "has_mask": true
       },
-      "worldposition": {
-        "x": -4.06641436,
-        "y": 1.24915516,
-        "z": -1.82144284
-      }
-    },
-    {
-      "object_id": 2,
-      "object": "silver bead pull chain for the roller blind",
-      "position": "right side of the blind, hanging vertically",
-      "image_id": 0,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 1097.01416015625,
-          "y1": 0.0,
-          "x2": 1198.91748046875,
-          "y2": 840.1838989257812,
-          "width": 101.9033203125,
-          "height": 840.1838989257812,
-          "center_x": 1147.9658203125,
-          "center_y": 420.0919494628906
-        },
-        "mask_center": {
-          "x": 1125.0,
-          "y": 736.0
-        },
-        "confidence": 0.01609942317008972,
-        "detected_name": "silver bead pull chain for the roller blind (right side of the blind, hanging vertically)",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -3.64390516,
-        "y": 0.9089847,
-        "z": -2.79988766
-      }
-    },
-    {
-      "object_id": 3,
-      "object": "white window frame (sill at bottom and side pillar on the left)",
-      "position": "along the bottom and left edges of the image",
-      "image_id": 0,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 1098.894775390625,
-          "y1": 0.83050537109375,
-          "x2": 1280.0,
-          "y2": 952.5609741210938,
-          "width": 181.105224609375,
-          "height": 951.73046875,
-          "center_x": 1189.4473876953125,
-          "center_y": 476.69573974609375
-        },
-        "mask_center": {
-          "x": 1264.0,
-          "y": 911.0
-        },
-        "confidence": 0.0221570935100317,
-        "detected_name": "white window frame (sill at bottom and side pillar on the left) (along the bottom and left edges of the image)",
-        "has_mask": true
-      }
+      "worldposition": null
     }
   ],
   "1": [
     {
       "object_id": 1,
-      "object": "beige and black over-ear hearing protection earmuffs",
-      "position": "left side of the table",
+      "object": "compact dark gray mechanical keyboard with low-profile keycaps",
+      "position": "center of the image",
       "image_id": 1,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 47.275115966796875,
-          "y1": 369.7659912109375,
-          "x2": 267.49578857421875,
-          "y2": 558.58837890625,
-          "width": 220.22067260742188,
-          "height": 188.8223876953125,
-          "center_x": 157.3854522705078,
-          "center_y": 464.17718505859375
+          "x1": 31.9512939453125,
+          "y1": 23.45068359375,
+          "x2": 1633.235595703125,
+          "y2": 699.1627807617188,
+          "width": 1601.2843017578125,
+          "height": 675.7120971679688,
+          "center_x": 832.5934448242188,
+          "center_y": 361.3067321777344
         },
         "mask_center": {
-          "x": 152.0,
-          "y": 466.0
+          "x": 1236.0,
+          "y": 354.0
         },
-        "confidence": 0.13776306807994843,
-        "detected_name": "beige and black over-ear hearing protection earmuffs (left side of the table)",
+        "confidence": 0.9292763471603394,
+        "detected_name": "compact dark gray mechanical keyboard with low-profile keycaps",
         "has_mask": true
       },
-      "worldposition": {
-        "x": -3.37977242,
-        "y": 0.7428833,
-        "z": -1.93935919
-      }
+      "worldposition": null
     },
     {
       "object_id": 2,
-      "object": "gray camouflage wireless game controller",
-      "position": "upper center of the table",
+      "object": "orange ESC keycap",
+      "position": "top left of the image",
       "image_id": 1,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 49.642822265625,
-          "y1": 369.6142578125,
-          "x2": 262.85198974609375,
-          "y2": 552.3802490234375,
-          "width": 213.20916748046875,
-          "height": 182.7659912109375,
-          "center_x": 156.24740600585938,
-          "center_y": 460.99725341796875
+          "x1": 1411.6388549804688,
+          "y1": 154.33684539794922,
+          "x2": 1551.4817504882812,
+          "y2": 269.00659942626953,
+          "width": 139.8428955078125,
+          "height": 114.66975402832031,
+          "center_x": 1481.560302734375,
+          "center_y": 211.67172241210938
         },
         "mask_center": {
-          "x": 152.0,
-          "y": 466.0
+          "x": 1474.0,
+          "y": 209.0
         },
-        "confidence": 0.01924373209476471,
-        "detected_name": "gray camouflage wireless game controller",
+        "confidence": 0.0006257461500354111,
+        "detected_name": "orange ESC keycap",
         "has_mask": true
       },
-      "worldposition": {
-        "x": -3.37977242,
-        "y": 0.7428833,
-        "z": -1.93935919
-      }
-    },
-    {
-      "object_id": 3,
-      "object": "green and white rectangular tissue box",
-      "position": "upper right of the table",
-      "image_id": 1,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 804.4560546875,
-          "y1": 248.297607421875,
-          "x2": 1124.3492431640625,
-          "y2": 510.60675048828125,
-          "width": 319.8931884765625,
-          "height": 262.30914306640625,
-          "center_x": 964.4026489257812,
-          "center_y": 379.4521789550781
-        },
-        "mask_center": {
-          "x": 995.0,
-          "y": 388.0
-        },
-        "confidence": 0.15576361119747162,
-        "detected_name": "green and white rectangular tissue box",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -3.47646475,
-        "y": 0.8806331,
-        "z": -1.71658885
-      }
-    },
-    {
-      "object_id": 4,
-      "object": "small yellow metal binder clip",
-      "position": "lower left of the table",
-      "image_id": 1,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 270.38946533203125,
-          "y1": 689.00390625,
-          "x2": 343.01153564453125,
-          "y2": 757.5146484375,
-          "width": 72.6220703125,
-          "height": 68.5107421875,
-          "center_x": 306.70050048828125,
-          "center_y": 723.25927734375
-        },
-        "mask_center": {
-          "x": 303.0,
-          "y": 728.0
-        },
-        "confidence": 0.019706521183252335,
-        "detected_name": "small yellow metal binder clip",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -3.533695,
-        "y": 0.7650279,
-        "z": -1.87329865
-      }
-    },
-    {
-      "object_id": 5,
-      "object": "cylindrical metal calibration weight labeled 'M 500g'",
-      "position": "center of the table",
-      "image_id": 1,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 529.8226318359375,
-          "y1": 595.06298828125,
-          "x2": 602.0284423828125,
-          "y2": 673.6942138671875,
-          "width": 72.205810546875,
-          "height": 78.6312255859375,
-          "center_x": 565.925537109375,
-          "center_y": 634.3786010742188
-        },
-        "mask_center": {
-          "x": 565.0,
-          "y": 634.0
-        },
-        "confidence": 0.12793421745300293,
-        "detected_name": "cylindrical metal calibration weight labeled 'M 500g'",
-        "has_mask": true
-      }
-    },
-    {
-      "object_id": 6,
-      "object": "small Phillips-head screwdriver with purple translucent handle",
-      "position": "lower right of center on the table",
-      "image_id": 1,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 867.2161865234375,
-          "y1": 655.635498046875,
-          "x2": 916.6807861328125,
-          "y2": 744.5791015625,
-          "width": 49.464599609375,
-          "height": 88.943603515625,
-          "center_x": 891.948486328125,
-          "center_y": 700.1072998046875
-        },
-        "mask_center": {
-          "x": 890.0,
-          "y": 698.0
-        },
-        "confidence": 0.5590479373931885,
-        "detected_name": "small Phillips-head screwdriver with purple translucent handle",
-        "has_mask": true
-      }
-    },
-    {
-      "object_id": 7,
-      "object": "curved metal pry tool or spudger",
-      "position": "far right of the table",
-      "image_id": 1,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 48.180908203125,
-          "y1": 264.66827392578125,
-          "x2": 371.73919677734375,
-          "y2": 555.8773803710938,
-          "width": 323.55828857421875,
-          "height": 291.2091064453125,
-          "center_x": 209.96005249023438,
-          "center_y": 410.2728271484375
-        },
-        "mask_center": {
-          "x": 174.0,
-          "y": 460.0
-        },
-        "confidence": 0.017999377101659775,
-        "detected_name": "curved metal pry tool or spudger (far right of the table)",
-        "has_mask": true
-      }
+      "worldposition": null
     }
   ],
   "2": [
     {
       "object_id": 1,
-      "object": "black Nikon DSLR camera with lens and Nikon-branded strap",
-      "position": "bottom left of the image",
-      "image_id": 2,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 93.15225219726562,
-          "y1": 377.55047607421875,
-          "x2": 397.0578918457031,
-          "y2": 630.0690307617188,
-          "width": 303.9056396484375,
-          "height": 252.5185546875,
-          "center_x": 245.10507202148438,
-          "center_y": 503.80975341796875
-        },
-        "mask_center": {
-          "x": 235.0,
-          "y": 447.0
-        },
-        "confidence": 0.16872890293598175,
-        "detected_name": "black Nikon DSLR camera with lens and Nikon-branded strap",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -2.56706834,
-        "y": 0.358814716,
-        "z": -2.28784251
-      }
-    },
-    {
-      "object_id": 2,
-      "object": "green plush turtle-shell pillow",
+      "object": "translucent disposable plastic cup with horizontal ridges and a flared rim",
       "position": "center of the image",
       "image_id": 2,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 404.2381591796875,
-          "y1": 351.0609130859375,
-          "x2": 795.3349609375,
-          "y2": 748.6136474609375,
-          "width": 391.0968017578125,
-          "height": 397.552734375,
-          "center_x": 599.7865600585938,
-          "center_y": 549.8372802734375
+          "x1": 168.91827392578125,
+          "y1": 84.04425048828125,
+          "x2": 547.4168090820312,
+          "y2": 605.66064453125,
+          "width": 378.49853515625,
+          "height": 521.6163940429688,
+          "center_x": 358.16754150390625,
+          "center_y": 344.8524475097656
         },
         "mask_center": {
-          "x": 597.0,
-          "y": 559.0
+          "x": 356.0,
+          "y": 239.0
         },
-        "confidence": 0.041957076638936996,
-        "detected_name": "green plush turtle-shell pillow",
+        "confidence": 0.994597315788269,
+        "detected_name": "translucent disposable plastic cup with horizontal ridges and a flared rim",
         "has_mask": true
       },
-      "worldposition": {
-        "x": -2.99929452,
-        "y": 0.27546525,
-        "z": -1.97884464
-      }
+      "worldposition": null
+    }
+  ],
+  "3": [
+    {
+      "object_id": 1,
+      "object": "200 g polished cylindrical calibration weight (stainless steel)",
+      "position": "center of the image",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 383.70562744140625,
+          "y1": 363.29554748535156,
+          "x2": 618.2785034179688,
+          "y2": 711.6573333740234,
+          "width": 234.5728759765625,
+          "height": 348.3617858886719,
+          "center_x": 500.9920654296875,
+          "center_y": 537.4764404296875
+        },
+        "mask_center": {
+          "x": 500.0,
+          "y": 506.0
+        },
+        "confidence": 0.006388336420059204,
+        "detected_name": "200 g polished cylindrical calibration weight (stainless steel)",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "4": [
+    {
+      "object_id": 1,
+      "object": "white adjustable desk lamp with rectangular LED light panel and hinged arm",
+      "position": "center of the image",
+      "image_id": 4,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 284.26611328125,
+          "y1": 44.602294921875,
+          "x2": 1348.3079833984375,
+          "y2": 1473.26025390625,
+          "width": 1064.0418701171875,
+          "height": 1428.657958984375,
+          "center_x": 816.2870483398438,
+          "center_y": 758.9312744140625
+        },
+        "mask_center": {
+          "x": 534.0,
+          "y": 1345.0
+        },
+        "confidence": 0.9014996886253357,
+        "detected_name": "white adjustable desk lamp with rectangular LED light panel and hinged arm",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "5": [
+    {
+      "object_id": 1,
+      "object": "mint-green round retractable tape measure with central button",
+      "position": "center of the image",
+      "image_id": 5,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 358.3137512207031,
+          "y1": 169.79649353027344,
+          "x2": 428.1717224121094,
+          "y2": 241.3501434326172,
+          "width": 69.85797119140625,
+          "height": 71.55364990234375,
+          "center_x": 393.24273681640625,
+          "center_y": 205.5733184814453
+        },
+        "mask_center": {
+          "x": 381.0,
+          "y": 198.0
+        },
+        "confidence": 0.5404137372970581,
+        "detected_name": "mint-green round retractable tape measure with central button",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "6": [
+    {
+      "object_id": 1,
+      "object": "black stainless steel Tesla-branded insulated water bottle",
+      "position": "center of the image",
+      "image_id": 6,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 289.4808807373047,
+          "y1": 129.919921875,
+          "x2": 464.5164337158203,
+          "y2": 709.2257080078125,
+          "width": 175.03555297851562,
+          "height": 579.3057861328125,
+          "center_x": 376.9986572265625,
+          "center_y": 419.57281494140625
+        },
+        "mask_center": {
+          "x": 377.0,
+          "y": 295.0
+        },
+        "confidence": 0.8912360668182373,
+        "detected_name": "black stainless steel Tesla-branded insulated water bottle",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "7": [
+    {
+      "object_id": 1,
+      "object": "yellow Lay's Classic Salted potato chips bag",
+      "position": "center of the image",
+      "image_id": 7,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 243.3544921875,
+          "y1": 71.9339599609375,
+          "x2": 1262.092041015625,
+          "y2": 1453.032470703125,
+          "width": 1018.737548828125,
+          "height": 1381.0985107421875,
+          "center_x": 752.7232666015625,
+          "center_y": 762.4832153320312
+        },
+        "mask_center": {
+          "x": 747.0,
+          "y": 934.0
+        },
+        "confidence": 0.0014696934958919883,
+        "detected_name": "yellow Lay's Classic Salted potato chips bag",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "8": [
+    {
+      "object_id": 1,
+      "object": "white plastic desktop stapler (open lever revealing metal anvil)",
+      "position": "center of the image",
+      "image_id": 8,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 205.6458740234375,
+          "y1": 640.0782470703125,
+          "x2": 1039.8875732421875,
+          "y2": 1125.614990234375,
+          "width": 834.24169921875,
+          "height": 485.5367431640625,
+          "center_x": 622.7667236328125,
+          "center_y": 882.8466186523438
+        },
+        "mask_center": {
+          "x": 712.0,
+          "y": 921.0
+        },
+        "confidence": 0.07515763491392136,
+        "detected_name": "white plastic desktop stapler (open lever revealing metal anvil)",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "9": [
+    {
+      "object_id": 1,
+      "object": "Chinese cabbage (Napa cabbage) with light-green crisp leaves",
+      "position": "center of the image",
+      "image_id": 9,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 67.91595458984375,
+          "y1": 42.7744140625,
+          "x2": 644.7770385742188,
+          "y2": 860.8900146484375,
+          "width": 576.861083984375,
+          "height": 818.1156005859375,
+          "center_x": 356.34649658203125,
+          "center_y": 451.83221435546875
+        },
+        "mask_center": {
+          "x": 346.0,
+          "y": 451.0
+        },
+        "confidence": 0.4645274579524994,
+        "detected_name": "Chinese cabbage (Napa cabbage) with light-green crisp leaves",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "10": [
+    {
+      "object_id": 1,
+      "object": "black hard-shell rolling suitcase with vertical ridges and telescopic handle extended",
+      "position": "center of the image",
+      "image_id": 10,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 208.55848693847656,
+          "y1": 132.2469482421875,
+          "x2": 590.0064544677734,
+          "y2": 770.6118774414062,
+          "width": 381.4479675292969,
+          "height": 638.3649291992188,
+          "center_x": 399.282470703125,
+          "center_y": 451.4294128417969
+        },
+        "mask_center": {
+          "x": 399.0,
+          "y": 347.0
+        },
+        "confidence": 0.9357753992080688,
+        "detected_name": "black hard-shell rolling suitcase with vertical ridges and telescopic handle extended",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "11": [
+    {
+      "object_id": 1,
+      "object": "white toothbrush with slim handle and small bristle head",
+      "position": "center of the image",
+      "image_id": 11,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 590.8929443359375,
+          "y1": 111.14501953125,
+          "x2": 677.754638671875,
+          "y2": 1144.9727783203125,
+          "width": 86.8616943359375,
+          "height": 1033.8277587890625,
+          "center_x": 634.3237915039062,
+          "center_y": 628.0588989257812
+        },
+        "mask_center": {
+          "x": 631.0,
+          "y": 546.0
+        },
+        "confidence": 0.8934863209724426,
+        "detected_name": "white toothbrush with slim handle and small bristle head",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "12": [
+    {
+      "object_id": 1,
+      "object": "black ergonomic mesh office chair with headrest, adjustable armrests, padded seat cushion, chrome metal base and five caster wheels",
+      "position": "center of the image",
+      "image_id": 12,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 378.7132873535156,
+          "y1": 19.018798828125,
+          "x2": 1355.6775817871094,
+          "y2": 1727.3953857421875,
+          "width": 976.9642944335938,
+          "height": 1708.3765869140625,
+          "center_x": 867.1954345703125,
+          "center_y": 873.2070922851562
+        },
+        "mask_center": {
+          "x": 666.0,
+          "y": 463.0
+        },
+        "confidence": 0.728569507598877,
+        "detected_name": "black ergonomic mesh office chair with headrest, adjustable armrests, padded seat cushion, chrome metal base and five caster wheels",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "13": [
+    {
+      "object_id": 1,
+      "object": "large double-sided dry-erase whiteboard mounted on a metal stand with caster wheels",
+      "position": "center of the image",
+      "image_id": 13,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 231.0216064453125,
+          "y1": 16.132598876953125,
+          "x2": 683.8785400390625,
+          "y2": 465.0765075683594,
+          "width": 452.85693359375,
+          "height": 448.94390869140625,
+          "center_x": 457.4500732421875,
+          "center_y": 240.60455322265625
+        },
+        "mask_center": {
+          "x": 440.0,
+          "y": 233.0
+        },
+        "confidence": 0.21745549142360687,
+        "detected_name": "large double-sided dry-erase whiteboard mounted on a metal stand with caster wheels",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "14": [
+    {
+      "object_id": 1,
+      "object": "white round plastic pump bottle labeled 'Walch' containing antibacterial foaming hand wash",
+      "position": "center of the image",
+      "image_id": 14,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 232.31414794921875,
+          "y1": 58.96966552734375,
+          "x2": 755.1408081054688,
+          "y2": 972.6900024414062,
+          "width": 522.82666015625,
+          "height": 913.7203369140625,
+          "center_x": 493.72747802734375,
+          "center_y": 515.829833984375
+        },
+        "mask_center": {
+          "x": 493.0,
+          "y": 702.0
+        },
+        "confidence": 0.17951138317584991,
+        "detected_name": "white round plastic pump bottle labeled 'Walch' containing antibacterial foaming hand wash",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "15": [
+    {
+      "object_id": 1,
+      "object": "black telescopic tripod with fold-out legs and adjustable phone clamp",
+      "position": "center of the image",
+      "image_id": 15,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 190.7928466796875,
+          "y1": 651.3768920898438,
+          "x2": 808.5924072265625,
+          "y2": 990.1643676757812,
+          "width": 617.799560546875,
+          "height": 338.7874755859375,
+          "center_x": 499.692626953125,
+          "center_y": 820.7706298828125
+        },
+        "mask_center": {
+          "x": 740.0,
+          "y": 933.0
+        },
+        "confidence": 0.09342072159051895,
+        "detected_name": "black telescopic tripod with fold-out legs and adjustable phone clamp",
+        "has_mask": true
+      },
+      "worldposition": null
+    },
+    {
+      "object_id": 2,
+      "object": "small black Bluetooth remote shutter attached to the tripod's central column",
+      "position": "mid lower center of the image",
+      "image_id": 15,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 189.86376953125,
+          "y1": 718.5948791503906,
+          "x2": 511.61126708984375,
+          "y2": 922.3294372558594,
+          "width": 321.74749755859375,
+          "height": 203.73455810546875,
+          "center_x": 350.7375183105469,
+          "center_y": 820.462158203125
+        },
+        "mask_center": {
+          "x": 225.0,
+          "y": 888.0
+        },
+        "confidence": 0.013471613638103008,
+        "detected_name": "small black Bluetooth remote shutter attached to the tripod's central column",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "16": [
+    {
+      "object_id": 1,
+      "object": "over-ear wireless headphones with white ear cups and tan leatherette ear cushions",
+      "position": "center of the image",
+      "image_id": 16,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 129.3045196533203,
+          "y1": 706.739501953125,
+          "x2": 559.2059783935547,
+          "y2": 1095.8031005859375,
+          "width": 429.9014587402344,
+          "height": 389.0635986328125,
+          "center_x": 344.2552490234375,
+          "center_y": 901.2713012695312
+        },
+        "mask_center": {
+          "x": 356.0,
+          "y": 902.0
+        },
+        "confidence": 0.28300029039382935,
+        "detected_name": "over-ear wireless headphones with white ear cups and tan leatherette ear cushions",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "17": [
+    {
+      "object_id": 1,
+      "object": "medium black binder clip with silver metal handles",
+      "position": "center of the image",
+      "image_id": 17,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 220.32666015625,
+          "y1": 152.1875,
+          "x2": 1292.88720703125,
+          "y2": 1353.658447265625,
+          "width": 1072.560546875,
+          "height": 1201.470947265625,
+          "center_x": 756.60693359375,
+          "center_y": 752.9229736328125
+        },
+        "mask_center": {
+          "x": 599.0,
+          "y": 951.0
+        },
+        "confidence": 0.8294344544410706,
+        "detected_name": "medium black binder clip with silver metal handles",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "18": [
+    {
+      "object_id": 1,
+      "object": "Xbox Series X|S wireless controller with gray camouflage finish",
+      "position": "center of image",
+      "image_id": 18,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 41.50959777832031,
+          "y1": 91.16998291015625,
+          "x2": 253.85716247558594,
+          "y2": 332.1693420410156,
+          "width": 212.34756469726562,
+          "height": 240.99935913085938,
+          "center_x": 147.68338012695312,
+          "center_y": 211.66966247558594
+        },
+        "mask_center": {
+          "x": 101.0,
+          "y": 242.0
+        },
+        "confidence": 0.001343859126791358,
+        "detected_name": "Xbox Series X|S wireless controller with gray camouflage finish (center of image)",
+        "has_mask": true
+      },
+      "worldposition": null
+    },
+    {
+      "object_id": 2,
+      "object": "left analog stick (textured concave joystick)",
+      "position": "upper left quadrant of image",
+      "image_id": 18,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 151.55606079101562,
+          "y1": 88.27297973632812,
+          "x2": 248.36026000976562,
+          "y2": 177.90496826171875,
+          "width": 96.80419921875,
+          "height": 89.63198852539062,
+          "center_x": 199.95816040039062,
+          "center_y": 133.08897399902344
+        },
+        "mask_center": {
+          "x": 177.0,
+          "y": 125.0
+        },
+        "confidence": 0.0008274753345176578,
+        "detected_name": "left analog stick (textured concave joystick)",
+        "has_mask": true
+      },
+      "worldposition": null
     },
     {
       "object_id": 3,
-      "object": "spool of white thread",
-      "position": "upper center-right of the image",
-      "image_id": 2,
+      "object": "right analog stick (textured concave joystick)",
+      "position": "center-right of image, slightly lower than horizontal center",
+      "image_id": 18,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 407.64984130859375,
-          "y1": 353.89990234375,
-          "x2": 794.5441284179688,
-          "y2": 751.4049072265625,
-          "width": 386.894287109375,
-          "height": 397.5050048828125,
-          "center_x": 601.0969848632812,
-          "center_y": 552.6524047851562
+          "x1": 362.74957275390625,
+          "y1": 200.4484634399414,
+          "x2": 410.8450927734375,
+          "y2": 256.18575286865234,
+          "width": 48.09552001953125,
+          "height": 55.73728942871094,
+          "center_x": 386.7973327636719,
+          "center_y": 228.31710815429688
         },
         "mask_center": {
-          "x": 597.0,
-          "y": 559.0
+          "x": 386.0,
+          "y": 229.0
         },
-        "confidence": 0.3390541672706604,
-        "detected_name": "spool of white thread (upper center-right of the image)",
+        "confidence": 0.011701454408466816,
+        "detected_name": "right analog stick (textured concave joystick) (center-right of image, slightly lower than horizontal center)",
         "has_mask": true
       },
-      "worldposition": {
-        "x": -2.677083,
-        "y": 0.386498451,
-        "z": -2.256726
-      }
+      "worldposition": null
     },
     {
       "object_id": 4,
-      "object": "green spray bottle of cleaning solution",
-      "position": "top right of the image",
-      "image_id": 2,
+      "object": "D-pad (white cross-shaped directional pad)",
+      "position": "left of center, lower left quadrant of image",
+      "image_id": 18,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 936.091064453125,
-          "y1": 169.62942504882812,
-          "x2": 1101.6026611328125,
-          "y2": 436.0378723144531,
-          "width": 165.5115966796875,
-          "height": 266.408447265625,
-          "center_x": 1018.8468627929688,
-          "center_y": 302.8336486816406
+          "x1": 2.65252685546875,
+          "y1": 0.31463623046875,
+          "x2": 943.9781494140625,
+          "y2": 880.691162109375,
+          "width": 941.3256225585938,
+          "height": 880.3765258789062,
+          "center_x": 473.3153381347656,
+          "center_y": 440.5028991699219
         },
         "mask_center": {
-          "x": 1000.0,
-          "y": 358.0
+          "x": 550.0,
+          "y": 320.0
         },
-        "confidence": 0.9574604630470276,
-        "detected_name": "green spray bottle of cleaning solution",
+        "confidence": 0.010118617676198483,
+        "detected_name": "D-pad (white cross-shaped directional pad)",
         "has_mask": true
       },
-      "worldposition": {
-        "x": -2.99929452,
-        "y": 0.27546525,
-        "z": -1.97884464
-      }
+      "worldposition": null
     },
     {
       "object_id": 5,
-      "object": "black tenkeyless keyboard with grey keys and one red keycap",
-      "position": "bottom right of the image",
-      "image_id": 2,
+      "object": "A button (white circular button labeled 'A')",
+      "position": "right of center, lower right quadrant of image",
+      "image_id": 18,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 833.094482421875,
-          "y1": 443.91246032714844,
-          "x2": 1143.5029296875,
-          "y2": 765.5804595947266,
-          "width": 310.408447265625,
-          "height": 321.6679992675781,
-          "center_x": 988.2987060546875,
-          "center_y": 604.7464599609375
+          "x1": 247.0727310180664,
+          "y1": 212.76864624023438,
+          "x2": 287.52339935302734,
+          "y2": 264.7087097167969,
+          "width": 40.45066833496094,
+          "height": 51.9400634765625,
+          "center_x": 267.2980651855469,
+          "center_y": 238.73867797851562
         },
         "mask_center": {
-          "x": 1043.0,
-          "y": 671.0
+          "x": 268.0,
+          "y": 237.0
         },
-        "confidence": 0.9760167002677917,
-        "detected_name": "black tenkeyless keyboard with grey keys and one red keycap",
+        "confidence": 0.2661370635032654,
+        "detected_name": "A button (white circular button labeled 'A')",
         "has_mask": true
       },
-      "worldposition": {
-        "x": -2.19668937,
-        "y": 0.329085469,
-        "z": -2.1006074
-      }
+      "worldposition": null
+    },
+    {
+      "object_id": 6,
+      "object": "B button (white circular button labeled 'B')",
+      "position": "right of center, upper right quadrant of the face-button cluster",
+      "image_id": 18,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 41.85699462890625,
+          "y1": 88.6270751953125,
+          "x2": 260.4120788574219,
+          "y2": 330.9176330566406,
+          "width": 218.55508422851562,
+          "height": 242.29055786132812,
+          "center_x": 151.13453674316406,
+          "center_y": 209.77235412597656
+        },
+        "mask_center": {
+          "x": 101.0,
+          "y": 242.0
+        },
+        "confidence": 0.005604442209005356,
+        "detected_name": "B button (white circular button labeled 'B')",
+        "has_mask": true
+      },
+      "worldposition": null
+    },
+    {
+      "object_id": 7,
+      "object": "X button (white circular button labeled 'X')",
+      "position": "just right of center, left side of face-button cluster",
+      "image_id": 18,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 130.4063720703125,
+          "y1": 284.26214599609375,
+          "x2": 425.490234375,
+          "y2": 519.9157104492188,
+          "width": 295.0838623046875,
+          "height": 235.653564453125,
+          "center_x": 277.94830322265625,
+          "center_y": 402.08892822265625
+        },
+        "mask_center": {
+          "x": 206.0,
+          "y": 427.0
+        },
+        "confidence": 0.00030769844306632876,
+        "detected_name": "X button (white circular button labeled 'X')",
+        "has_mask": true
+      },
+      "worldposition": null
+    },
+    {
+      "object_id": 8,
+      "object": "Y button (white circular button labeled 'Y')",
+      "position": "upper right quadrant of image, top of face-button cluster",
+      "image_id": 18,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 302.45765686035156,
+          "y1": 312.2326202392578,
+          "x2": 463.32261657714844,
+          "y2": 486.0913543701172,
+          "width": 160.86495971679688,
+          "height": 173.85873413085938,
+          "center_x": 382.89013671875,
+          "center_y": 399.1619873046875
+        },
+        "mask_center": {
+          "x": 387.0,
+          "y": 400.0
+        },
+        "confidence": 0.01777253858745098,
+        "detected_name": "Y button (white circular button labeled 'Y') (upper right quadrant of image, top of face-button cluster)",
+        "has_mask": true
+      },
+      "worldposition": null
+    },
+    {
+      "object_id": 9,
+      "object": "Xbox home button (white circular button with Xbox logo)",
+      "position": "upper center of image",
+      "image_id": 18,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 246.8856658935547,
+          "y1": 212.74700927734375,
+          "x2": 287.7119903564453,
+          "y2": 264.76171875,
+          "width": 40.826324462890625,
+          "height": 52.01470947265625,
+          "center_x": 267.298828125,
+          "center_y": 238.75436401367188
+        },
+        "mask_center": {
+          "x": 268.0,
+          "y": 237.0
+        },
+        "confidence": 0.2364523559808731,
+        "detected_name": "Xbox home button (white circular button with Xbox logo)",
+        "has_mask": true
+      },
+      "worldposition": null
+    },
+    {
+      "object_id": 10,
+      "object": "view button (small round button with overlapping-squares icon)",
+      "position": "slightly above left of center, between left analog stick and home button",
+      "image_id": 18,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 302.8522491455078,
+          "y1": 312.10565185546875,
+          "x2": 463.2609100341797,
+          "y2": 485.7396240234375,
+          "width": 160.40866088867188,
+          "height": 173.63397216796875,
+          "center_x": 383.05657958984375,
+          "center_y": 398.9226379394531
+        },
+        "mask_center": {
+          "x": 387.0,
+          "y": 400.0
+        },
+        "confidence": 0.05731365457177162,
+        "detected_name": "view button (small round button with overlapping-squares icon) (slightly above left of center, between left analog stick and home button)",
+        "has_mask": true
+      },
+      "worldposition": null
+    },
+    {
+      "object_id": 11,
+      "object": "menu button (small round button with three horizontal lines)",
+      "position": "slightly above right of center, between right analog stick and home button",
+      "image_id": 18,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 246.97012329101562,
+          "y1": 212.72074127197266,
+          "x2": 287.7341613769531,
+          "y2": 264.67391204833984,
+          "width": 40.7640380859375,
+          "height": 51.95317077636719,
+          "center_x": 267.3521423339844,
+          "center_y": 238.69732666015625
+        },
+        "mask_center": {
+          "x": 268.0,
+          "y": 237.0
+        },
+        "confidence": 0.003022147575393319,
+        "detected_name": "menu button (small round button with three horizontal lines) (slightly above right of center, between right analog stick and home button)",
+        "has_mask": true
+      },
+      "worldposition": null
+    }
+  ],
+  "19": [
+    {
+      "object_id": 1,
+      "object": "green Koopa Troopa turtle shell plush with white rim and yellow underside",
+      "position": "center of the image",
+      "image_id": 19,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 33.1478271484375,
+          "y1": 55.207763671875,
+          "x2": 1250.5704345703125,
+          "y2": 855.6156005859375,
+          "width": 1217.422607421875,
+          "height": 800.4078369140625,
+          "center_x": 641.859130859375,
+          "center_y": 455.41168212890625
+        },
+        "mask_center": {
+          "x": 639.0,
+          "y": 456.0
+        },
+        "confidence": 0.7479439973831177,
+        "detected_name": "green Koopa Troopa turtle shell plush with white rim and yellow underside",
+        "has_mask": true
+      },
+      "worldposition": null
     }
   ]
 }

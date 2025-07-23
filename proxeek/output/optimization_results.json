@@ -1,21 +1,21 @@
 {
   "optimization_summary": {
-    "total_loss": -64.83432175432773,
+    "total_loss": -82.65775752606797,
     "loss_components": {
-      "L_realism": -29.10620875159899,
-      "L_priority": -534.5622600545746,
+      "L_realism": -29.027777403593063,
+      "L_priority": -89.2599602449498,
       "L_interaction": -18.0,
       "L_spatial": 0.0,
-      "total": -64.83432175432773
+      "total": -82.65775752606797
     },
     "num_virtual_objects": 6,
     "num_physical_objects": 15,
     "exclusivity_enabled": true,
     "loss_weights": {
       "w_realism": 1.0,
-      "w_priority": 0.05,
+      "w_priority": 0.5,
       "w_interaction": 0.5,
-      "w_spatial": 0.001
+      "w_spatial": 0.5
     }
   },
   "assignments": [
@@ -23,9 +23,9 @@
       "virtual_object": {
         "name": "Drum",
         "index": 0,
-        "engagement_level": 5,
+        "engagement_level": 0.8333333333333334,
         "involvement_type": "substrate",
-        "priority_weight": 5.0
+        "priority_weight": 0.8333333333333334
       },
       "physical_object": {
         "name": "black fabric roller blind fully extended",
@@ -56,9 +56,9 @@
       "virtual_object": {
         "name": "Drum Stick 1",
         "index": 1,
-        "engagement_level": 6,
+        "engagement_level": 1.0,
         "involvement_type": "grasp",
-        "priority_weight": 6.0
+        "priority_weight": 1.0
       },
       "physical_object": {
         "name": "small Phillips-head screwdriver with purple translucent handle",
@@ -89,9 +89,9 @@
       "virtual_object": {
         "name": "Chess Piece",
         "index": 2,
-        "engagement_level": 4,
+        "engagement_level": 0.6666666666666666,
         "involvement_type": "grasp",
-        "priority_weight": 4.0
+        "priority_weight": 0.6666666666666666
       },
       "physical_object": {
         "name": "cylindrical metal calibration weight labeled 'M 500g'",
@@ -122,42 +122,9 @@
       "virtual_object": {
         "name": "Dropper",
         "index": 3,
-        "engagement_level": 3,
+        "engagement_level": 0.5,
         "involvement_type": "grasp",
-        "priority_weight": 3.0
-      },
-      "physical_object": {
-        "name": "beige and black over-ear hearing protection earmuffs",
-        "object_id": 1,
-        "image_id": 1,
-        "index": 3
-      },
-      "realism_score": 5.944444268941879,
-      "assignment_matrix_row": [
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "virtual_object": {
-        "name": "Pistol",
-        "index": 4,
-        "engagement_level": 2,
-        "involvement_type": "grasp",
-        "priority_weight": 2.0
+        "priority_weight": 0.5
       },
       "physical_object": {
         "name": "green spray bottle of cleaning solution",
@@ -165,7 +132,7 @@
         "image_id": 2,
         "index": 13
       },
-      "realism_score": 6.411764323711395,
+      "realism_score": 6.277777602275213,
       "assignment_matrix_row": [
         0.0,
         0.0,
@@ -186,11 +153,44 @@
     },
     {
       "virtual_object": {
+        "name": "Pistol",
+        "index": 4,
+        "engagement_level": 0.3333333333333333,
+        "involvement_type": "grasp",
+        "priority_weight": 0.3333333333333333
+      },
+      "physical_object": {
+        "name": "black Nikon DSLR camera with lens and Nikon-branded strap",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 10
+      },
+      "realism_score": 5.999999642372131,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
         "name": "Sackboy",
         "index": 5,
-        "engagement_level": 1,
+        "engagement_level": 0.16666666666666666,
         "involvement_type": "contact",
-        "priority_weight": 1.0
+        "priority_weight": 0.16666666666666666
       },
       "physical_object": {
         "name": "green plush turtle-shell pillow",

@@ -1,156 +1,54 @@
 [
   {
-    "objectName": "Drum Stick 1",
+    "objectName": "Chest",
     "involvementType": "grasp",
-    "usage": "This drumstick would be used for percussion performance",
-    "engagementLevel": 2,
-    "inertia": "",
-    "interactivity": "",
-    "outline": "0.6-Users should perceive an elongated cylindrical shaft with 2cm diameter.",
-    "texture": "The surface should convey a smooth, slightly matte finish.",
-    "hardness": "",
-    "temperature": "",
-    "inertiaValue": 0.0,
-    "interactivityValue": 0.0,
-    "outlineValue": 0.7272727489471436,
-    "textureValue": 0.27272728085517883,
-    "hardnessValue": 0.0,
-    "temperatureValue": 0.0,
-    "dimensions_meters": {
-      "x": "0.02",
-      "y": "0.02",
-      "z": "0.27"
-    },
-    "globalPosition": {
-      "x": -0.04699999839067459,
-      "y": 0.7839999794960022,
-      "z": 0.7799999713897705
-    },
-    "globalRotation": {
-      "x": 0.0,
-      "y": 180.0,
-      "z": 180.0
-    },
-    "interactionDeduction": "The user will employ a relaxed power grip\u2014thumb opposite the first two fingers\u2014around the back third of the cylindrical shaft. Wrists and forearms will drive rapid swing arcs toward an imagined drum surface, followed by quick rebounds. Between strikes the stick will roll slightly in the fingertips for angle adjustment or occasional twirling. Because the stick is light and rigid, the user should feel very low inertia, crisp stopping points, and subtle vibration that decays immediately after each impact."
-  },
-  {
-    "objectName": "Chess Piece",
-    "involvementType": "grasp",
-    "usage": "The chess piece is intended for a strategy game where players pick it up and place it on a board.",
-    "engagementLevel": 1,
-    "inertia": "Users will likely sense a substantial weight when handling the piece, reflective of a dense, marble-like material.",
-    "interactivity": "",
-    "outline": "The curved neck profile should be perceivable through touch, with pinchable size.",
-    "texture": "The surface of the chess piece should feel smooth and polished, akin to carved marble.",
-    "hardness": "",
-    "temperature": "",
-    "inertiaValue": 0.27272728085517883,
-    "interactivityValue": 0.0,
-    "outlineValue": 0.45454543828964233,
-    "textureValue": 0.27272728085517883,
-    "hardnessValue": 0.0,
-    "temperatureValue": 0.0,
-    "dimensions_meters": {
-      "x": "0.04",
-      "y": "0.08",
-      "z": "0.04"
-    },
-    "globalPosition": {
-      "x": -0.9919999837875366,
-      "y": 0.7799999713897705,
-      "z": -0.2750000059604645
-    },
-    "globalRotation": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
-    },
-    "interactionDeduction": "The piece will be lifted with a precision pinch grip, thumb on one side of the neck and index-middle fingers on the opposite side of the base. The hand rises a few centimeters, translates horizontally above the virtual board, and lowers for placement. Motions are slow and deliberate to avoid knocking other pieces. A dense, marble-like mass gives noticeable but manageable inertia, so the user perceives a slight lag when starting or stopping motion. Once set down, the piece offers no movement until grasped again, reinforcing a solid, polished object response."
-  },
-  {
-    "objectName": "Dropper",
-    "involvementType": "grasp",
-    "usage": "This dropper would be used for precise liquid dispensing",
+    "usage": "A container that opens to reveal storage space for holding items",
     "engagementLevel": 1,
     "inertia": "",
-    "interactivity": "Users should feel gradual compression resistance that builds with pressure, followed by elastic spring-back when released.",
+    "interactivity": "",
     "outline": "",
-    "texture": "Smooth, slightly grippy rubber surface",
-    "hardness": "",
-    "temperature": "",
-    "inertiaValue": 0.0,
-    "interactivityValue": 0.8333333134651184,
-    "outlineValue": 0.0,
-    "textureValue": 0.1666666567325592,
-    "hardnessValue": 0.0,
-    "temperatureValue": 0.0,
-    "dimensions_meters": {
-      "x": "0.12",
-      "y": "0.01",
-      "z": "0.01"
-    },
-    "globalPosition": {
-      "x": -0.9110000133514404,
-      "y": 0.7760000228881836,
-      "z": 0.0989999994635582
-    },
-    "globalRotation": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 90.0
-    },
-    "interactionDeduction": "The user will hold the glass tube between thumb and middle finger while the index finger or thumb rests on the rubber bulb. Squeezing the bulb produces progressive resistance that peaks near full compression; releasing it causes a smooth, elastic return as the bulb re-inflates. The wrist rotates to invert the dropper tip downward, and micro-adjusted bulb squeezes meter individual droplets. Throughout, the glass section feels rigid and cool, while the bulb feels soft, slightly tacky, and springy, giving immediate tactile confirmation of dosage control."
-  },
-  {
-    "objectName": "Pistol",
-    "involvementType": "grasp",
-    "usage": "This pistol would be used for shooting mechanics in VR scenarios",
-    "engagementLevel": 1,
-    "inertia": "",
-    "interactivity": "The trigger pivots around its axis with progressive travel and distinct break point when fired.",
-    "outline": "Users should perceive the distinctive grip contours",
     "texture": "",
     "hardness": "",
     "temperature": "",
     "inertiaValue": 0.0,
-    "interactivityValue": 0.5882352590560913,
-    "outlineValue": 0.4117646813392639,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
     "textureValue": 0.0,
     "hardnessValue": 0.0,
     "temperatureValue": 0.0,
     "dimensions_meters": {
-      "x": "0.60",
-      "y": "0.81",
-      "z": "0.62"
+      "x": "0.28",
+      "y": "0.16",
+      "z": "0.20"
     },
     "globalPosition": {
-      "x": -0.4819999933242798,
-      "y": 0.7960000038146973,
-      "z": 0.5440000295639038
+      "x": 0.22216251492500305,
+      "y": 0.8629999756813049,
+      "z": 0.6635169386863708
     },
     "globalRotation": {
       "x": 0.0,
       "y": 0.0,
       "z": 0.0
     },
-    "interactionDeduction": "The dominant hand wraps around the molded grip in a firm power grip; the index finger rests on the trigger while the thumb may flick a virtual safety. Aiming involves forearm rotation and shoulder alignment with sights. Pulling the trigger entails a gradual squeeze with increasing resistance, culminating in a crisp \u2018break\u2019 point that triggers the firing event. Immediately after the break, the user should feel a brief rearward kick (simulated recoil) transmitted through the grip. The off-hand may cup beneath the grip for added stability during rapid-fire sequences."
+    "interactionDeduction": "Users grasp the small brass handle on the front with a power grip of the whole hand or a three-finger hook grip, then lift the lid by rotating the wrist upward on its hinge. The motion involves forearm supination and elbow flexion. Once the lid is open, the chest remains stationary while users may support it with their free hand when rummaging inside. The wood-and-metal build gives it moderate weight; the lid has perceived inertia and stops at its hinge limit, providing a hard stop when fully opened."
   },
   {
     "objectName": "Sackboy",
-    "involvementType": "contact",
+    "involvementType": "grasp",
     "usage": "Players would pick it up, hold it, pose it, and engage in imaginative play scenarios.",
     "engagementLevel": 1,
     "inertia": "",
     "interactivity": "",
-    "outline": "Users should perceive the distinctive character silhouette featuring a large round head, compact torso, and four limbs (two arms and two legs).",
-    "texture": "The surface should convey the characteristic knitted or woven fabric texture visible in the design, feeling soft and slightly textured under the fingers.",
-    "hardness": "Moderately soft and compressible like a quality stuffed toy, yielding gently under pressure while maintaining overall shape. ",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
     "temperature": "",
     "inertiaValue": 0.0,
     "interactivityValue": 0.0,
-    "outlineValue": 0.25,
-    "textureValue": 0.375,
-    "hardnessValue": 0.375,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
     "temperatureValue": 0.0,
     "dimensions_meters": {
       "x": "0.10",
@@ -167,6 +65,618 @@
       "y": 158.49273681640625,
       "z": 203.15216064453125
     },
-    "interactionDeduction": "Users will interact with the plush figure mainly through whole-hand contact: picking it up with both hands, squeezing its torso, or supporting its limbs to pose it. The plush yields softly under moderate finger or palm pressure, compressing a few millimeters before springing back slowly, mimicking stuffed fabric. Fingers may trace the knit texture across the head or body, feeling small ridges and valleys. Interaction sessions range from momentary pats to prolonged holding, with the toy remaining passive\u2014its only response is compliant deformation and gradual shape recovery."
+    "interactionDeduction": "Because the plush doll is light and compressible, users pick it up between thumb and fingers with a gentle precision grip around the torso or head. They may squeeze or pivot it in mid-air, shake it playfully, or position its limbs with small pinching gestures. The object visually yields slightly but always springs back, encouraging repeated soft squeezes and rapid pose changes."
+  },
+  {
+    "objectName": "Binoculars",
+    "involvementType": "grasp",
+    "usage": "Optical viewing device for magnifying distant objects",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.19",
+      "y": "0.07",
+      "z": "0.17"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Players wrap both hands around the optical barrels using two symmetrical power grips, thumbs resting on top while index fingers hover near focus wheels. Hands are raised to eye level with elbow flexion and slight wrist pronation. Users may roll the focus wheels with fingertip precision, then tilt their head and arms to scan the environment. The binoculars feel moderately heavy and resist rapid lateral acceleration, simulating real glass lenses inside."
+  },
+  {
+    "objectName": "Dropper",
+    "involvementType": "grasp",
+    "usage": "This dropper would be used for precise liquid dispensing",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.01",
+      "y": "0.12",
+      "z": "0.01"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "The narrow glass tube is held with a precision pinch between thumb and index, typically near the rubber bulb. Users squeeze the bulb using thumb-index compression to intake or expel fluid, then aim the tip by rotating the wrist for precise droplet placement. The bulb visually deforms with pressure, springs back on release, and the dropper remains almost weightless, emphasizing finger dexterity rather than arm strength."
+  },
+  {
+    "objectName": "Pistol",
+    "involvementType": "grasp",
+    "usage": "This pistol would be used for shooting mechanics in VR scenarios",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.24",
+      "y": "0.16",
+      "z": "0.03"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 90.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users employ a single-hand firearm grip: palm wraps the grip frame, index finger rests on the trigger, remaining fingers curl around the handle, and thumb stabilizes the other side. They raise the arm, align sights by rotating forearm and wrist, then squeeze the trigger with a short index-finger pull. The gun delivers a brief recoil impulse\u2014slight upward kick and vibration\u2014requiring users to re-stabilize their wrist for the next shot."
+  },
+  {
+    "objectName": "Steering Wheel",
+    "involvementType": "grasp",
+    "usage": "This wheel would be used for vehicle navigation ",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.40",
+      "y": "0.35",
+      "z": "0.31"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 1.3389999866485596
+    },
+    "globalRotation": {
+      "x": 45.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Players grasp opposite sides of the rim (10-and-2 o\u2019clock) with two power grips, elbows bent. They rotate the wheel about its central axis through forearm pronation/supination and shoulder movement. Users might hand-over-hand for large turns, briefly releasing and re-gripping farther along the rim. The wheel resists motion with simulated vehicle steering force that recenters slowly when released."
+  },
+  {
+    "objectName": "Double Slider",
+    "involvementType": "grasp",
+    "usage": "This virtual double slider serves as a mechanical control interface",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.20",
+      "y": "0.13",
+      "z": "0.21"
+    },
+    "globalPosition": {
+      "x": 0.6000000238418579,
+      "y": 0.800000011920929,
+      "z": 1.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "The red cylindrical handle is pinched or loosely power-gripped by one hand, then translated linearly along two parallel slots. Players push or pull it forward/backward using shoulder and elbow extension while maintaining a straight wrist. The mechanism gives light detent clicks at discrete positions, offering low inertia and slight friction to mimic hardware sliders used in machinery or mixing boards."
+  },
+  {
+    "objectName": "Sling Shot",
+    "involvementType": "grasp",
+    "usage": "This virtual slingshot serves as a projectile launching tool for target practice",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.14",
+      "y": "0.24",
+      "z": "0.04"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users wrap fingers around the vertical grip with a power grip. With the other hand, they pinch the pouch (imaginary band) pulling it straight back by extending the elbow and abducting the shoulder. Tension builds visually as the band stretches. Releasing the pouch with a rapid finger opening launches the projectile; the grip hand experiences a small counter-jerk as the bands snap forward."
+  },
+  {
+    "objectName": "Hammer",
+    "involvementType": "grasp",
+    "usage": "Striking and smashing objects",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.54",
+      "y": "0.12",
+      "z": "0.28"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "The long handle is seized near its end with a firm power grip. Users raise the tool overhead or sideways by flexing the shoulder and elbow, then accelerate the hammer head toward a target through a controlled arc, using wrist snap for added speed. Upon virtual impact, the head stops abruptly, delivering strong force feedback while the user feels a recoil vibration up the handle."
+  },
+  {
+    "objectName": "Ladle",
+    "involvementType": "grasp",
+    "usage": "Kitchen serving utensil for scooping, and stirring liquids like soup or stew",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.19",
+      "y": "0.39",
+      "z": "0.12"
+    },
+    "globalPosition": {
+      "x": 0.4269999861717224,
+      "y": 0.9079999923706055,
+      "z": -0.2709999978542328
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Players grasp the thin handle somewhere mid-length with a relaxed power grip or pinch grip near the upper shaft. They dip the bowl into imaginary liquid via wrist pronation and elbow extension, lift, then pour by tilting the wrist so the bowl mouth points downward. Gentle stirring involves circular wrist motions; the long handle provides leverage with minimal resistance."
+  },
+  {
+    "objectName": "Big Red Button",
+    "involvementType": "contact",
+    "usage": "This virtual button would be used for triggering critical actions",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.19",
+      "y": "0.06",
+      "z": "0.18"
+    },
+    "globalPosition": {
+      "x": -0.48399999737739563,
+      "y": 0.6966999769210815,
+      "z": 0.29100000858306885
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users reach out with an extended index finger and deliver a straight downward press onto the button top. The contact is momentary; finger joints flex slightly as they push until the button bottoms out with an audible click. The button cap depresses about 1 cm, offers moderate spring resistance, then pops back up when the finger lifts, confirming activation."
+  },
+  {
+    "objectName": "Oak Tree",
+    "involvementType": "contact",
+    "usage": "Resting against the tree, using it as back support",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "10.53",
+      "y": "8.83",
+      "z": "8.20"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Players lean their avatar\u2019s back or shoulder against the trunk, transferring body weight through broad torso contact. The interaction is static and sustained; minor posture shifts slide clothing against rough bark. The tree remains completely immovable, providing a rigid, cool, and textured vertical surface for resting."
+  },
+  {
+    "objectName": "Party Balloons",
+    "involvementType": "contact",
+    "usage": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "1.33",
+      "y": "1.73",
+      "z": "1.24"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users lightly tap or flick the balloon surfaces with fingertips or the back of the hand. Contact is quick and gentle, imparting small impulses that send the balloons drifting away. Because of low virtual mass, they wobble and ascend or bob erratically. Players may also bat them with an open palm for longer pushes, feeling almost no resistance."
+  },
+  {
+    "objectName": "Pot Plant",
+    "involvementType": "contact",
+    "usage": "This potted plant would be used for gentle, therapeutic interaction. VR players would run their hands along the leaves for stress relief.",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.61",
+      "y": "0.56",
+      "z": "0.64"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.14769580960273743,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Players slowly run their open hand over the top foliage, fingers splaying and bending to brush individual leaves. The motion is gentle and exploratory with light fingertip contact. Leaves bend and spring back, offering soft resistance, while the heavy clay pot at the base stays fixed, reinforcing a stable anchor point."
+  },
+  {
+    "objectName": "Globe",
+    "involvementType": "contact",
+    "usage": "This desktop globe would be used for educational exploration in classroom. VR players would rotate the sphere to navigate around the world.",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.39",
+      "y": "0.38",
+      "z": "0.32"
+    },
+    "globalPosition": {
+      "x": -2.4549999237060547,
+      "y": 0.8840000033378601,
+      "z": -4.267000198364258
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 99.144287109375,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users place an open palm or several fingertips against the sphere, then apply sideways force while maintaining contact, resulting in a smooth rotational spin about its tilted axis. Small pushes yield slow rotation; stronger swipes accelerate the globe. Friction gradually slows it, encouraging repeated spins and stops for geographic inspection."
+  },
+  {
+    "objectName": "Scarecrow Punching Bag",
+    "involvementType": "contact",
+    "usage": "This scarecrow punching bag would be used for combat training, exercise, or stress relief in VR fitness, martial arts, or outdoor training environments. VR players would strike it with fists, hands, or potentially legs to practice techniques.",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "1.02",
+      "y": "1.64",
+      "z": "0.70"
+    },
+    "globalPosition": {
+      "x": 0.009999999776482582,
+      "y": 0.015000015497207642,
+      "z": -0.12600040435791016
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 32.06475830078125,
+      "z": 0.0
+    },
+    "interactionDeduction": "Players strike the padded torso and head areas with closed fists, open-hand palm strikes, or elbow/leg kicks. Movements involve full-body kinetic chains\u2014hip rotation, shoulder extension, and quick arm acceleration\u2014followed by brief impact and recoil. The target compresses slightly and swings or pivots on its support rod, providing visual feedback of absorbed force."
+  },
+  {
+    "objectName": "Soccer",
+    "involvementType": "contact",
+    "usage": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.20",
+      "y": "0.20",
+      "z": "0.20"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 2.5044780613825424e-06,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users approach and kick the ball with the instep or toe of a virtual foot through a forward leg swing. Contact is momentary, occurring at peak foot velocity. The ball accelerates away on a realistic trajectory; heavier kicks send it farther, while taps nudge it slightly. Players may also stop it by placing a foot atop and rolling it with plantar pressure."
+  },
+  {
+    "objectName": "Keyboard",
+    "involvementType": "contact",
+    "usage": "Musical performance. VR players would press the piano keys to generate musical notes",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "1.18",
+      "y": "0.93",
+      "z": "0.33"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Players extend individual fingers to press down specific piano keys. Each key press involves a short downward stroke (~10 mm) with minimal force, followed by an automatic spring return. Rapid sequential finger lifts and drops enable chords and melodies. The frame remains stationary while only the targeted keys depress and release with audible note feedback."
+  },
+  {
+    "objectName": "Black Chair",
+    "involvementType": "contact",
+    "usage": "VR players would primarily sit in the chair for work, relaxation, or social interactions",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.74",
+      "y": "0.80",
+      "z": "0.86"
+    },
+    "globalPosition": {
+      "x": -0.33825770020484924,
+      "y": -0.005094928666949272,
+      "z": 1.6815099716186523
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users back up and lower their avatar\u2019s pelvis until contact with the seat pan, bending knees and hips. Once seated, weight is supported across the thighs and buttocks in sustained contact. The chair is stable and unmoving; users can lean against the curved backrest or shift posture, causing small frictional slides but no perceptible chair displacement."
+  },
+  {
+    "objectName": "Plato Bust",
+    "involvementType": "contact",
+    "usage": "VR players would run their hands across the sculptural surfaces to appreciate the craftsmanship",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.23",
+      "y": "0.34",
+      "z": "0.28"
+    },
+    "globalPosition": {
+      "x": -0.4519999921321869,
+      "y": 1.0579999685287476,
+      "z": 0.7820000052452087
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Players glide fingers along the contours of the marble-like sculpture, tracing facial features and flowing hair. Contact is light and exploratory, mainly fingertip strokes with occasional palm rests. The bust is rigid, cool, and smooth, offering no movement but allowing tactile appreciation of carved ridges and planes."
   }
 ]
