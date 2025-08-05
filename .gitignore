@@ -1,4 +1,8 @@
 venv/
 .idea/
+.env
 
 /env
+proxeek/.env
+proxeek/eval_dataset.jsonl
+proxeek/vft_property_rating_train.jsonl
