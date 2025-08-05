@@ -1,0 +1,10 @@
+{
+  "job_id": "ftjob-d8AMYvaXnnVuwv1rSDvHXvMP",
+  "model": "gpt-4o-2024-08-06",
+  "method": "vision_fine_tuning",
+  "training_file_id": "file-RUdKguAxKRiztsBGp4QqwT",
+  "validation_file_id": "file-FTknEfCBKhMNKDYovyzMwS",
+  "training_examples": 12,
+  "testing_examples": 6,
+  "includes_images": true
+}

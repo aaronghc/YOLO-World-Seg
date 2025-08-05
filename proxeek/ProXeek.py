@@ -337,12 +337,14 @@ except Exception as e:
 # Get API keys
 api_key = os.environ.get("OPENAI_API_KEY")
 langchain_api_key = os.environ.get("LANGCHAIN_API_KEY")
+finetune_api_key = os.environ.get("OPENAI_FINETUNE_API_KEY")
 
 log(f"API key found: {'Yes' if api_key else 'No'}")
 log(f"Langchain API key found: {'Yes' if langchain_api_key else 'No'}")
+log(f"Finetune API key found: {'Yes' if finetune_api_key else 'No'}")
 
 # If keys not found in environment, try to read directly from .env file
-if not api_key or not langchain_api_key:
+if not api_key or not langchain_api_key or not finetune_api_key:
     try:
         log("Trying to read API keys directly from .env file")
         with open(os.path.join(script_dir, '.env'), 'r') as f:
@@ -354,6 +356,9 @@ if not api_key or not langchain_api_key:
                 elif line.startswith('LANGCHAIN_API_KEY='):
                     langchain_api_key = line.strip().split('=', 1)[1].strip('"\'')
                     log("Found LANGCHAIN_API_KEY in .env file")
+                elif line.startswith('OPENAI_FINETUNE_API_KEY='):
+                    finetune_api_key = line.strip().split('=', 1)[1].strip('"\'')
+                    log("Found OPENAI_FINETUNE_API_KEY in .env file")
     except Exception as e:
         log(f"Error reading .env file directly: {e}")
 
@@ -404,18 +409,18 @@ proxy_matching_llm = ChatOpenAI(
     api_key=SecretStr(api_key) if api_key else None
 )
 
-# Initialize the property rating LLM
+# Initialize the property rating LLM (using fine-tuned model)
 property_rating_llm = ChatOpenAI(
-    model="o3-2025-04-16",
-    temperature=0.3,
-    base_url="https://api.nuwaapi.com/v1",
-    api_key=SecretStr(api_key) if api_key else None
+    model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
+    temperature=0.1,
+    base_url="https://api.openai.com/v1",
+    api_key=SecretStr(finetune_api_key) if finetune_api_key else None
 )
 
 # Initialize the relationship rating LLM
 relationship_rating_llm = ChatOpenAI(
-    model="o3-2025-04-16",
-    temperature=0.3,
+    model="o4-mini-2025-04-16",
+    temperature=0.1,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )

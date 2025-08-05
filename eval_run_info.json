@@ -1,0 +1,7 @@
+{
+  "eval_id": "eval_688e271ddb6c8191ad50d2dab11c3cfd",
+  "fine_tuned_run_id": "evalrun_688e272ab7a4819195dbd8effa37e101",
+  "base_run_id": "evalrun_688e272c034c81919405758561f67a7b",
+  "fine_tuned_model": "ft:gpt-4o-2024-08-06:mosra::C04ZOYAf",
+  "base_model": "gpt-4o-2024-08-06"
+}

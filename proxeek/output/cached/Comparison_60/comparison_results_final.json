@@ -1,0 +1,2773 @@
+{
+  "fine_tuned": [
+    {
+      "item_index": 0,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Inertia",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here is the evaluation:\n\n**Inertia: 2 - Disagree**\n\n- **Weight and Feel**: The stainless steel water bottle is likely much lighter than a chest, which would typically be heavier and more solid. This weight difference would be noticeable and could disrupt the immersion.\n  \n- **Center of Mass**: The water bottle's center of mass is likely more centralized, whereas a chest might have a more distributed weight, especially if it contains items.\n\n- **Movement Resistance**: The action of twisting off a cap does not replicate the experience of opening a chest lid, which would have a different resistance and momentum.\n\nOverall, the physical object does not effectively replicate the inertia characteristics of the virtual chest.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 1,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 1,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "To evaluate the interactivity of the stainless steel water bottle as a haptic proxy for the virtual chest:\n\n1. **Interactive Elements**: \n   - The virtual chest opens with a lid, likely hinged, while the water bottle requires twisting off a cap. The actions are different in nature (lifting vs. twisting).\n\n2. **Functionality**:\n   - Both objects involve opening to reveal storage, but the method of interaction is not the same. The chest likely involves a lifting motion, whereas the bottle involves a twisting motion.\n\n3. **Degrees of Freedom**:\n   - The chest's lid likely rotates around a hinge, while the bottle cap rotates around its axis. These are different types of rotational movements.\n\nGiven these considerations, the water",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: To evaluate the interactivity of the stainless steel water bottle as a haptic proxy for the virtual ...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 2,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Outline",
+      "ground_truth_rating": 1,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the physical object (stainless steel water bottle) does not closely match the outline of the virtual object (chest). \n\n- **Size and Shape**: The chest is rectangular and box-like, while the water bottle is cylindrical. This is a significant mismatch in basic shape category.\n- **Affordances**: The chest likely requires a lifting or opening motion, whereas the water bottle involves twisting off a cap. The interaction methods are quite different.\n\nGiven these factors, the water bottle does not effectively replicate the outline characteristics needed for the chest interaction.\n\n**Rating: 1 - Strongly Disagree**",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 3,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Texture",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the stainless steel water bottle does not closely match the texture of the virtual chest. The virtual chest likely has a wooden or textured surface, while the water bottle is smooth and metallic. The tactile experience of twisting off a metal cap is also different from opening a chest lid.\n\n**Rating: 2 - Disagree**\n\nThe physical object's texture does not align well with the expected texture of the virtual object.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 4,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Hardness",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the stainless steel water bottle can somewhat replicate the hardness of a virtual chest. Here's the evaluation:\n\n- **Material Hardness**: The stainless steel bottle is hard and rigid, similar to the expected feel of a wooden or metal chest.\n- **Deformation Behavior**: The bottle does not deform easily, which aligns with the expected behavior of a chest.\n\nHowever, the interaction method (twisting off a cap) is different from opening a lid, which might affect the overall haptic experience.\n\n**Rating**: 5 - Somewhat Agree\n\nThe hardness is appropriate, but the interaction method differs from the virtual object.",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 5,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Temperature",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 4",
+        "predicted_rating": 4,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the virtual chest, the expected temperature sensation would likely be neutral or slightly cool, as it might be made of wood or metal. The stainless steel water bottle, being metal, can provide a cool sensation, especially if it has been in a cooler environment.\n\n**Rating: 5 - Somewhat Agree**\n\n- The stainless steel can mimic the coolness expected from a metal part of the chest.\n- However, the sensation might be too cold if the bottle is chilled, which could be slightly off from the expected neutral temperature of a wooden chest.",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 6,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Inertia",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided information and images, here's the evaluation:\n\n**Inertia: 2 - Disagree**\n\n- **Weight and Resistance:** The pillow is likely too light and soft to effectively simulate the weight and resistance of a mechanical control interface like a double slider. The virtual object would typically have a more rigid and substantial feel.\n  \n- **Center of Mass:** The pillow's center of mass is likely inconsistent with the expected feel of a mechanical slider, which would have a more stable and predictable center of mass.\n\n- **Movement Resistance:** The soft drag of the pillow provides some resistance, but it may not accurately replicate the low-friction, controlled movement expected from a virtual slider.\n\nOverall, the pillow does not effectively replicate the inertia characteristics of the",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 7,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and description, the physical object (pillow) is used to simulate the interaction with a virtual double slider. Here’s the evaluation:\n\n- **Interactivity Elements**: The virtual double slider likely requires precise control and movement along a defined path. The pillow, being soft and compressible, does not provide the rigid structure or precise linear movement that a slider would require.\n- **Functionality**: The pillow can be pressed and slid, but it lacks the mechanical feedback and defined path of a slider. The resistance provided by the pillow is not equivalent to the tactile feedback of a mechanical slider.\n- **Degrees of Freedom**: The pillow allows for movement, but not in a controlled or precise manner that matches the expected interaction",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and description, the physical object (pillow) is used to simulate the i...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 8,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Outline",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the images and description provided, the physical object (pillow) does not closely match the outline of the virtual double slider. Here’s the evaluation:\n\n- **Size and Shape**: The pillow is soft and rounded, lacking the defined linear structure of the double slider.\n- **Affordances**: The pillow does not have the rigid bar or the distinct sliding mechanism of the virtual object.\n- **Contact Points**: The pillow's soft surface does not replicate the tactile feedback expected from a mechanical slider.\n\nGiven these factors, the pillow does not effectively replicate the outline characteristics of the virtual double slider.\n\n**Rating: 2 - Disagree**",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 9,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Texture",
+      "ground_truth_rating": 1,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and description, the physical object (pillow) does not closely match the expected texture of the virtual double slider, which likely has a smooth, mechanical feel. The pillow's soft and plush texture is quite different from the anticipated smooth and possibly rigid texture of a mechanical slider.\n\n**Rating: 2 - Disagree**\n\n- The pillow's surface is too soft and plush compared to the expected smooth and possibly rigid texture of the virtual slider.\n- The tactile feedback from compressing the plush fabric does not align well with the expected low-friction mechanical movement of a slider.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 10,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Hardness",
+      "ground_truth_rating": 1,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and description, the physical object (pillow) is soft and compressible, which does not align well with the expected hardness of a mechanical control interface like the virtual double slider. The pillow's softness would not provide the necessary rigidity or resistance expected from interacting with a mechanical slider.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 11,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Temperature",
+      "ground_truth_rating": 1,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the images and description, the physical object (pillow) is soft and likely retains a neutral or warm temperature due to its insulating properties. The virtual object (double slider) appears to be a mechanical interface, which might be expected to have a cooler, metallic feel.\n\n**Temperature Evaluation:**\n\n- The pillow's insulating nature and likely warm temperature do not match the expected cooler, metallic sensation of a mechanical slider.\n- The heat flow during contact with the pillow would not mimic the expected sensation of a metal slider.\n\n**Rating: 2 (Disagree)**\n\nThe pillow does not effectively replicate the expected temperature characteristics of the virtual double slider.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 12,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Inertia",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and description, the pillow does not effectively replicate the inertia characteristics of a dropper. The weight and center of mass of a pillow are significantly different from a dropper, which is typically lightweight and has a specific balance for precise liquid dispensing. The pillow's compressibility might mimic the soft feedback of a rubber bulb to some extent, but overall, it lacks the appropriate weight and movement resistance.\n\nRating: 2 - Disagree",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 13,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided information, the pillow does not effectively replicate the interactivity of a dropper used for liquid dispensing. The dropper requires precise control and a specific squeezing action to dispense liquid, which the pillow cannot provide. The pillow's soft and elastic feedback does not match the tactile feedback needed for a dropper's bulb.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 14,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Outline",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information:\n\n- The virtual object is a dropper, which typically has a slender, elongated shape with a bulb for squeezing.\n- The physical object is a pillow, which is soft and plush, lacking the elongated and narrow shape of a dropper.\n\n**Evaluation:**\n\n- **Size and Shape Mismatch:** The pillow does not match the slender, elongated shape of a dropper. This size mismatch is immediately apparent and disrupts the expected grip formation.\n- **Basic Shape Category:** The pillow is a soft, rounded object, entirely different from the dropper's cylindrical form.\n- **Key Affordances:** The pillow lacks the specific contact points and shape needed to mimic the dropper's functionality.\n\n**Rating:",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information:\n\n- The virtual object is a dropper, which typically ha...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 15,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Texture",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the images and description, the pillow's texture is soft and plush, which is quite different from the expected rubbery texture of a dropper bulb. The pillow's surface does not replicate the smooth, elastic feel of a rubber bulb used for liquid dispensing.\n\nRating: 2 - Disagree\n\nThe pillow's texture is not suitable for replicating the tactile feedback expected from a dropper.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 16,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Hardness",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided information, the pillow's softness and compressibility do not match the expected hardness and elastic feedback of a rubber bulb on a dropper. The pillow is likely too soft and lacks the necessary resistance and rebound characteristics.\n\nRating: 2 - Disagree",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 17,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Temperature",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the virtual dropper, the expected temperature sensation would likely be neutral or slightly cool, as droppers are often made of materials like glass or rubber that don't retain heat.\n\nThe physical object, a pillow, is typically warm and insulating, which contrasts with the expected temperature sensation of a dropper. The pillow's material would not provide the cool or neutral temperature expected from a dropper.\n\nRating: 1 - Strongly Disagree\n\nThe pillow's temperature characteristics do not align with the expected thermal sensation of a virtual dropper.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 18,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Inertia",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the sewing tape measure is not well-suited to replicate the inertia of a hammer for striking and smashing objects. Here's the evaluation:\n\n- **Weight**: The tape measure is significantly lighter than a hammer, making the weight difference immediately noticeable.\n- **Center of Mass**: The center of mass of the tape measure is not aligned like a hammer, which typically has a heavier head.\n- **Movement Resistance**: The tape measure offers little to no resistance or momentum similar to a hammer.\n\n**Rating: 1 - Strongly Disagree**\n\nThe physical object does not effectively deliver the expected inertia haptic feedback for the virtual hammer.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 19,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the sewing tape measure does not effectively replicate the interactivity of a hammer for striking and smashing objects. Here’s the evaluation:\n\n- **Interactive Elements**: The sewing tape measure lacks the necessary weight and rigidity to mimic the striking action of a hammer. The flexible tape and lightweight disc do not provide the necessary feedback or force.\n- **Degrees of Freedom**: The sewing tape measure does not offer the same handling or balance as a hammer. The makeshift handle does not allow for a realistic swinging motion.\n\n**Rating**: 1 - Strongly Disagree\n\nThe physical object does not support the intended proxy interaction effectively.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 20,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Outline",
+      "ground_truth_rating": 1,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the sewing tape measure does not effectively replicate the outline of a hammer for striking and smashing activities. \n\n- **Size and Shape Mismatch**: The sewing tape measure is small and round, lacking the elongated handle and distinct head of a hammer.\n- **Affordances**: The makeshift handle using the tape does not provide the necessary grip or weight distribution typical of a hammer.\n\nRating: **1 - Strongly Disagree**",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, the sewing tape measure does not effectively replicate...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 21,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Texture",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the virtual object of a hammer, the expected texture would be hard and solid, typically metallic or wooden, especially at the striking surface. The physical object, a sewing tape measure, has a soft, flexible tape and a smooth plastic housing.\n\n**Texture Evaluation:**\n\n- **Surface Finishing:** The tape measure's surface is smooth and flexible, which is significantly different from the hard, solid texture expected from a hammer.\n- **Tactile Landmarks:** The tape measure lacks the distinct tactile features of a hammer, such as a hard striking surface.\n\nGiven these considerations, the sewing tape measure does not effectively replicate the texture of a hammer.\n\n**Rating: 1 - Strongly Disagree**",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 22,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Hardness",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the sewing tape measure is not a suitable proxy for the hardness of a hammer. The tape measure is soft and flexible, lacking the rigidity and solid feel expected from a hammer used for striking and smashing objects. The deformation behavior of the tape measure would be significantly different from that of a hammer.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 23,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Temperature",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the virtual object of a hammer, the expected temperature sensation would likely be cool or metallic. The physical object, a sewing tape measure, is typically made of plastic and fabric, which do not convey the same temperature sensations as metal.\n\nRating: 1 - Strongly Disagree\n\nThe sewing tape measure does not provide the expected cool, metallic temperature sensation of a hammer.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 24,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Inertia",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here is the evaluation:\n\n- **Weight and Inertia**: The selfie-stick is likely much lighter than a keyboard, which would make the weight difference noticeable. The lack of substantial weight means it won't provide the same resistance or momentum as a keyboard.\n\n- **Center of Mass**: The selfie-stick's center of mass is likely not aligned with that of a keyboard. A keyboard has a more evenly distributed weight, while the selfie-stick, especially when extended, may feel unbalanced.\n\n- **Movement Resistance**: The selfie-stick does not offer the same resistance or tactile feedback as pressing keys on a keyboard. The tapping action along the pole will not replicate the feel of pressing keys.\n\nOverall, the selfie-stick",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, here is the evaluation:\n\n- **Weight and Inertia**: The...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 25,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the selfie-stick as a haptic proxy for a keyboard in VR has significant limitations:\n\n- **Interactive Elements**: The selfie-stick lacks the individual keys necessary for simulating a keyboard. It does not provide the tactile feedback or the distinct separation of keys that a keyboard offers.\n- **Functionality**: Tapping along a pole does not replicate the pressing action of piano keys, which involves distinct, separate movements and feedback.\n- **Degrees of Freedom**: The selfie-stick does not match the degrees of freedom required for playing a keyboard, such as pressing down on keys with varying pressure.\n\nGiven these factors, the selfie-stick does not effectively replicate the interactivity of a keyboard.\n\n**Rating: 1 -",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 26,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Outline",
+      "ground_truth_rating": 5,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information:\n\n- The virtual object is a keyboard, which typically has a flat, wide surface with multiple keys.\n- The physical object, a selfie-stick, when fully extended and laid horizontally, offers a long, narrow surface.\n\n**Evaluation:**\n\n- **Size and Proportions:** The selfie-stick does not match the width or the flat surface area of a keyboard. It is narrow and cylindrical, which is quite different from the broad, flat surface of a keyboard.\n- **Shape and Affordances:** The selfie-stick lacks the distinct key outlines and tactile feedback that a keyboard provides. It does not afford the same interaction patterns, such as pressing individual keys.\n\n**Rating: 2 - Disagree**\n\nThe selfie",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 27,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Texture",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the selfie-stick as a physical proxy for a keyboard in VR has significant limitations in delivering the expected texture haptic feedback:\n\n1. **Surface Texture**: The selfie-stick's pole is likely smooth and metallic, which is quite different from the tactile feel of piano keys, which are typically smooth but have distinct separations and a slight resistance when pressed.\n\n2. **Tactile Landmarks**: A keyboard has distinct keys with separations that provide tactile feedback when pressed. The selfie-stick lacks these separations and tactile landmarks, making it difficult to replicate the feel of pressing individual keys.\n\n3. **Texture Transitions**: The transitions between keys on a keyboard are absent in the selfie-stick, which is",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the images and information provided, the selfie-stick as a physical proxy for a keyboard in...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 28,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Hardness",
+      "ground_truth_rating": 2,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the selfie-stick, when fully extended and laid horizontally, does not closely replicate the hardness or tactile feedback expected from pressing piano keys. The keys of a keyboard have a specific resistance and tactile response that a telescopic pole cannot mimic.\n\nRating: 2 - Disagree\n\nThe selfie-stick's hardness and lack of key-like feedback would not provide an immersive or accurate haptic experience for a virtual keyboard.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 29,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Temperature",
+      "ground_truth_rating": 5,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the temperature aspect, the selfie-stick is likely made of metal or plastic, which can feel cool to the touch initially. This might somewhat align with the expected sensation of a keyboard, which is often made of plastic and can also feel cool. However, the thermal conductivity and overall feel might not perfectly match the expectation of a keyboard.\n\nRating: 4 - Neutral\n\nThe selfie-stick doesn't strongly deviate from the expected temperature sensation of a keyboard, but it doesn't perfectly replicate it either.",
+        "predicted_rating": 4,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 30,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Inertia",
+      "ground_truth_rating": 5,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the virtual object of a party balloon, the physical object is a game controller. The interaction involves flicking or tapping the balloon, which is simulated by flicking the thumb-stick on the controller.\n\n**Evaluation of Inertia:**\n\n- **Weight and Resistance:** The game controller's thumb-stick offers a low-force bounce due to its spring return, which can somewhat mimic the light resistance of a balloon being nudged. However, the overall weight of the controller is significantly heavier than a balloon, which might affect the perception of inertia.\n  \n- **Center of Mass:** The center of mass of the controller is not aligned with the light, airy feel of a balloon. The controller is more solid and dense, which could detract from the intended experience",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: For the virtual object of a party balloon, the physical object is a game controller. The interaction...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 31,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 6,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided information, the game controller's thumb-stick can simulate the flicking motion needed for interacting with virtual party balloons. The spring return of the thumb-stick offers a low-force bounce, somewhat mimicking the light touch required to set a balloon in motion.\n\n**Rating: 5 - Somewhat Agree**\n\n- The thumb-stick provides a similar flicking motion.\n- The spring return offers a bounce-like feedback.\n- However, the tactile sensation of a balloon is not fully replicated.",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 32,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Outline",
+      "ground_truth_rating": 3,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here's the evaluation:\n\n### Outline Evaluation\n\n- **Size and Shape**: The game controller is significantly different in size and shape compared to a party balloon. A balloon is lightweight, round, and can be easily flicked or tapped, while a game controller is solid, heavy, and designed for gripping.\n- **Affordances**: The controller's thumb-stick can mimic the flicking motion to some extent, but it doesn't replicate the tactile experience of interacting with a balloon's surface or its buoyancy.\n\n### Rating\n\nGiven these considerations, the game controller does not effectively replicate the outline characteristics of a party balloon. The size mismatch and shape differences are significant.\n\n**Rating: 2 - Disagree**",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 33,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Texture",
+      "ground_truth_rating": 2,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the game controller's texture does not closely match the expected texture of a party balloon. A balloon is smooth, soft, and flexible, while a game controller is hard and rigid with a textured grip.\n\n**Rating: 2 - Disagree**\n\nThe game controller's surface does not replicate the tactile sensation of a balloon, which is crucial for the intended playful interaction in a VR environment.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 34,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Hardness",
+      "ground_truth_rating": 3,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "For the virtual object of a party balloon, the expected hardness is very soft and light, with minimal resistance. The game controller's thumb-stick provides a spring return that offers a smooth, low-force bounce, which can somewhat mimic the light touch needed to flick a balloon.\n\nHowever, the physical hardness of the game controller itself is much more rigid than a balloon. The thumb-stick's resistance and return mechanism can simulate the motion but not the softness or the delicate feel of a balloon.\n\nRating: 3 - Somewhat Disagree\n\nThe game controller provides some level of interaction that aligns with the motion of flicking a balloon, but it does not replicate the softness and lightness of a balloon's material.",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 35,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Temperature",
+      "ground_truth_rating": 4,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the virtual object of a party balloon, the expected temperature sensation would be neutral or slightly cool, as balloons are typically at room temperature or slightly cooler due to air inside.\n\nThe physical object, a game controller, is likely to be at room temperature, which aligns with the expected temperature of a balloon. However, the material of the controller (likely plastic) does not mimic the thin, flexible material of a balloon, which might affect the perception of temperature.\n\nRating: 5 - Somewhat Agree\n\nThe game controller's temperature is generally neutral, which somewhat aligns with the expected sensation of a balloon, but the material difference slightly detracts from the experience.",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 36,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Inertia",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the interaction of running hands along the leaves of a virtual pot plant, the physical object (ergonomic chair) provides a mesh backrest that yields slightly and springs back. This can somewhat mimic the flexible nature of plant leaves.\n\n**Inertia Evaluation:**\n\n- **Weight and Resistance:** The chair's mesh backrest offers some resistance and spring-back, similar to the feel of flexible foliage. However, the overall weight and structure of the chair do not align with the lightness of a plant.\n- **Center of Mass:** The chair's center of mass is irrelevant to the interaction, as the focus is on the mesh's flexibility rather than the chair's weight distribution.\n- **Movement Resistance:** The mesh provides a tactile response that can somewhat simulate",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: For the interaction of running hands along the leaves of a virtual pot plant, the physical object (e...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 37,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "To evaluate how well the ergonomic chair can serve as a haptic proxy for the pot plant, we need to consider the interactivity aspect of running hands along the leaves for stress relief.\n\n**Interactivity Evaluation:**\n\n- **Tactile Feedback:** The mesh backrest of the chair provides a yielding and springing sensation, which can somewhat mimic the flexible nature of plant leaves. However, the texture and individual leaf-like elements are not present.\n- **Flexibility and Movement:** The tensioned fabric can simulate the slight give and return of foliage, but it lacks the individual movement of leaves.\n- **Surface Area and Shape:** The chair's backrest is a large, flat surface, unlike the varied and intricate structure of a plant.\n\n**Rating",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: To evaluate how well the ergonomic chair can serve as a haptic proxy for the pot plant, we need to c...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 38,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Outline",
+      "ground_truth_rating": 2,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here is the evaluation:\n\n- **Size and Proportions**: The ergonomic chair's backrest is significantly larger and differently shaped compared to the leaves of a pot plant. This size mismatch is apparent and may disrupt the intended interaction of running hands along leaves.\n\n- **Shape and Affordances**: The chair's mesh backrest does not replicate the individual leaf structure of a pot plant. While the mesh may provide a similar yielding sensation, the overall shape and contact points are quite different.\n\nGiven these considerations, the ergonomic chair does not closely replicate the outline characteristics of a pot plant for the intended interaction.\n\n**Rating: 2 - Disagree**",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 39,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Texture",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the ergonomic chair's mesh backrest offers a flexible surface that can mimic the yielding nature of plant leaves to some extent. However, the texture of the mesh is likely quite different from the smooth, natural feel of plant leaves.\n\n**Rating: 3 - Somewhat Disagree**\n\n- The mesh backrest provides some flexibility similar to leaves, but the texture is not a close match.\n- The tactile experience of running hands over mesh is quite different from the smooth, soft texture of plant leaves.",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 40,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Hardness",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the ergonomic chair's mesh backrest can somewhat mimic the flexible and slightly yielding nature of plant leaves. However, the texture and specific deformation behavior of the chair's mesh may not perfectly match the expected softness and flexibility of plant leaves.\n\nRating: 4 - Neutral\n\nThe chair provides a somewhat similar experience, but the hardness and texture differences may affect the immersion.",
+        "predicted_rating": 4,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 41,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Temperature",
+      "ground_truth_rating": 3,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "For the temperature aspect, the ergonomic chair's mesh backrest is unlikely to replicate the expected sensation of a pot plant's leaves. The plant would typically feel cool and natural, while the chair's fabric might feel neutral or slightly warm due to room temperature and its material properties.\n\nRating: 2 - Disagree\n\nThe chair does not effectively mimic the cool, natural temperature expected from interacting with plant leaves.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 42,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Inertia",
+      "ground_truth_rating": 4,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "To evaluate how well the game controller can replicate the inertia of pressing a virtual red button, consider the following:\n\n1. **Weight and Resistance**: The game controller's button likely has a lighter resistance compared to a large, physical red button. The tactile feedback from the controller's button may not fully match the expected resistance and weight of pressing a larger button.\n\n2. **Center of Mass and Stability**: The controller is designed for handheld use, which may not align with the stability and center of mass expected from pressing a stationary button.\n\n3. **Movement and Momentum**: The spring return and tactile bump of the controller's button provide some feedback, but it may not fully capture the momentum and force expected from a larger button press.\n\nGiven these",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: To evaluate how well the game controller can replicate the inertia of pressing a virtual red button,...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 43,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 6,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 6",
+        "predicted_rating": 6,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the game controller's large A button can serve as a reasonable haptic proxy for the virtual red button. Here's the evaluation:\n\n- **Interactive Elements**: The A button on the controller provides a tactile bump and a faint click, which aligns well with the expected feedback from pressing a virtual button.\n- **Functionality**: The button press and release mechanism (spring return) is similar to the action of pressing a virtual button.\n- **Degrees of Freedom**: The interaction is straightforward and matches the expected action of pressing a button.\n\nRating: **6 - Agree**\n\nThe game controller effectively replicates the interactivity of pressing a virtual button, though the size and visual appearance differ slightly.",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, the game controller's large A button can serve as a re...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 44,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Outline",
+      "ground_truth_rating": 3,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "To evaluate how well the game controller can serve as a haptic proxy for the virtual red button, let's consider the outline characteristics:\n\n1. **Size and Proportions**: \n   - The virtual red button is large and flat, while the game controller's A button is smaller and more rounded. This size mismatch might affect the natural feel in the hand.\n\n2. **Shape and Affordances**:\n   - The virtual button is a large, flat surface, which is different from the smaller, convex shape of the controller's A button. This could impact the expected grip and manipulation patterns.\n\n3. **Key Affordances or Contact Points**:\n   - The game controller's button does provide a tactile bump and click, which aligns",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: To evaluate how well the game controller can serve as a haptic proxy for the virtual red button, let...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 45,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Texture",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the game controller's large A button can serve as a reasonable haptic proxy for the virtual red button. The tactile feedback from pressing the A button, which includes a tactile bump and faint click, aligns well with the expected interaction of pressing a virtual button.\n\n**Rating: 6 - Agree**\n\n- The surface texture of the A button is likely smooth, similar to the virtual red button.\n- The tactile feedback (bump and click) provides a realistic button-press sensation.\n- The spring return mimics the expected release action.\n\nOverall, the game controller provides a good match for the texture and interaction of the virtual red button.",
+        "predicted_rating": 6,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 46,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Hardness",
+      "ground_truth_rating": 6,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided information, the game controller's large A button can serve as a reasonable haptic proxy for the virtual red button. The tactile bump and faint click of the membrane switch provide a sense of actuation similar to pressing a physical button. The spring return mimics the expected behavior of a button reset.\n\nRating: 6 (Agree)\n\nThe hardness and tactile feedback are well-suited for simulating the pressing of a virtual button, though it may not perfectly match the exact feel of a larger, possibly more rigid button.",
+        "predicted_rating": 6,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 47,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Temperature",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "To evaluate the temperature aspect of the physical object as a proxy for the virtual red button:\n\n- **Virtual Object (Red Button):** Typically, a button like this would be expected to have a neutral or slightly cool temperature, similar to plastic or metal.\n- **Physical Object (Game Controller):** The large A button on a game controller is usually made of plastic, which can feel neutral or slightly cool to the touch.\n\n**Rating: 6 (Agree)**\n\n- The game controller's button likely provides a temperature sensation that aligns well with the expected feel of a virtual red button. The plastic material of the controller button should match the neutral temperature expectation.",
+        "predicted_rating": 6,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 48,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Inertia",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here is the evaluation:\n\n- **Weight and Movement Resistance**: A stainless steel water bottle is significantly heavier and more rigid than a soccer ball. The weight and resistance when kicking would feel very different from a soccer ball, which is designed to be light and responsive.\n\n- **Center of Mass**: The center of mass in a water bottle is likely to be more centralized and stable compared to a soccer ball, which is evenly distributed and designed to roll smoothly.\n\n- **Overall Inertia Experience**: The experience of kicking a water bottle on its side would not replicate the expected inertia of a soccer ball. The bottle's weight and rigidity would make the interaction feel unnatural for a soccer training exercise.\n\n**Rating**",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, here is the evaluation:\n\n- **Weight and Movement Resis...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 49,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "Rating: 1 - Strongly Disagree\n\n**Evaluation:**\n\n- **Shape and Size:** A soccer ball is spherical, allowing it to roll and be kicked in any direction. The water bottle is cylindrical and rigid, which does not replicate the rolling or bouncing behavior of a soccer ball.\n  \n- **Material and Feedback:** A soccer ball is typically made of a softer material that compresses slightly when kicked, providing tactile feedback. The stainless steel water bottle is hard and unyielding, offering a completely different sensation.\n\n- **Interactivity:** The primary interaction with a soccer ball is kicking, which involves dynamic movement and control. The water bottle, when laid on its side, does not provide the same interactive experience or degrees of freedom.\n\nOverall",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 50,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Outline",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the stainless steel water bottle does not closely match the outline of a soccer ball. Here’s the evaluation:\n\n- **Size and Shape**: The soccer ball is spherical, while the water bottle is cylindrical. This fundamental shape difference is significant.\n- **Affordances**: A soccer ball is designed to be kicked from any angle, while a water bottle, even on its side, does not provide the same interaction affordances.\n- **Contact Points**: The water bottle lacks the uniform surface and contact points of a soccer ball.\n\nGiven these considerations, the water bottle does not effectively replicate the outline of a soccer ball for the intended interaction.\n\n**Rating: 1 - Strongly Disagree**",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 51,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Texture",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the stainless steel water bottle is not a suitable haptic proxy for a soccer ball in terms of texture. \n\n- **Surface Texture**: A soccer ball typically has a textured, slightly grippy surface, often made of leather or synthetic material, which is quite different from the smooth, hard surface of a stainless steel water bottle.\n- **Tactile Landmarks**: The soccer ball has distinct panels and seams, which are absent in the water bottle.\n\nGiven these differences, the physical object does not replicate the expected texture of the virtual soccer ball.\n\n**Rating**: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 52,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Hardness",
+      "ground_truth_rating": 3,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the virtual object of a soccer ball, the expected hardness is relatively soft and slightly deformable upon impact, as it is designed to be kicked.\n\nThe physical object, a stainless steel water bottle, is hard and rigid, with no deformation upon impact. This is significantly different from the expected feel of a soccer ball.\n\nRating: 1 - Strongly Disagree\n\nThe hardness of the stainless steel water bottle does not match the expected haptic feedback of a soccer ball, which affects the basic interaction and immersion.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      }
+    },
+    {
+      "item_index": 53,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Temperature",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "For the virtual soccer ball, the expected temperature sensation would be neutral or slightly warm, similar to a typical outdoor environment. A stainless steel water bottle, however, is likely to feel cool to the touch, especially if it has been in a cooler environment.\n\nGiven this mismatch in expected temperature sensation, the stainless steel water bottle does not effectively replicate the temperature aspect of a soccer ball. The thermal conductivity of the steel, which tends to feel cooler, contrasts with the expected warmth of a soccer ball.\n\nRating: 2 - Disagree",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      }
+    },
+    {
+      "item_index": 54,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Inertia",
+      "ground_truth_rating": 3,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information:\n\n- **Weight and Inertia**: A pillow is very light and lacks the weight and resistance expected from a steering wheel, which typically has some heft to it.\n- **Center of Mass**: The pillow's center of mass is likely not aligned or stable for simulating a steering wheel.\n- **Movement Resistance**: The pillow offers little to no resistance when twisted, unlike a steering wheel which provides some feedback and resistance.\n\nGiven these factors, the pillow is not a suitable proxy for the steering wheel in terms of inertia.\n\n**Rating: 1 - Strongly Disagree**",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      }
+    },
+    {
+      "item_index": 55,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the pillow does not effectively replicate the interactivity of a steering wheel used for vehicle navigation. \n\n- **Degrees of Freedom**: A steering wheel requires rotational movement around a central axis, which a pillow cannot provide.\n- **Grip and Feedback**: The pillow lacks the structure and resistance needed to simulate the feel of a steering wheel.\n\nRating: **1 - Strongly Disagree**",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, the pillow does not effectively replicate the interact...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 56,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Outline",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the physical object (pillow) does not closely match the outline of the virtual object (steering wheel). \n\n- The steering wheel is circular and rigid, designed for gripping and turning.\n- The pillow is soft, lacks a defined circular shape, and does not provide the necessary structure for a steering wheel interaction.\n\nRating: **1 - Strongly Disagree**\n\nThe pillow's shape and structure do not support the expected haptic feedback for a steering wheel.",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the images and information provided, the physical object (pillow) does not closely match th...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 57,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Texture",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the physical object (a plush pillow) does not effectively replicate the texture of a virtual steering wheel. The steering wheel is expected to have a firm, smooth surface, while the pillow is soft and plush, lacking the necessary tactile feedback for vehicle navigation.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 58,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Hardness",
+      "ground_truth_rating": 1,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the physical object (a pillow) is not suitable for replicating the hardness of a virtual steering wheel. A steering wheel is typically hard and rigid, while a pillow is soft and pliable. This discrepancy would significantly affect the haptic feedback and immersion during the interaction.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 59,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Temperature",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the virtual steering wheel, the expected temperature sensation would likely be cool or neutral, as steering wheels are typically made of materials like metal or plastic that have higher thermal conductivity.\n\nThe physical object, a plush pillow, would feel warm and insulating, which is quite different from the expected sensation of a steering wheel.\n\nRating: 1 - Strongly Disagree\n\nThe pillow's temperature characteristics do not align with the expected thermal sensation of a steering wheel.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    }
+  ],
+  "base": [
+    {
+      "item_index": 0,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Inertia",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here is the evaluation:\n\n**Inertia: 2 - Disagree**\n\n- **Weight and Feel**: The stainless steel water bottle is likely much lighter than a chest, which would typically be heavier and more solid. This weight difference would be noticeable and could disrupt the immersion.\n  \n- **Center of Mass**: The water bottle's center of mass is likely more centralized, whereas a chest might have a more distributed weight, especially if it contains items.\n\n- **Movement Resistance**: The action of twisting off a cap does not replicate the experience of opening a chest lid, which would have a different resistance and momentum.\n\nOverall, the physical object does not effectively replicate the inertia characteristics of the virtual chest.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 1,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 1,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "To evaluate the interactivity of the stainless steel water bottle as a haptic proxy for the virtual chest:\n\n1. **Interactive Elements**: \n   - The virtual chest opens with a lid, likely hinged, while the water bottle requires twisting off a cap. The actions are different in nature (lifting vs. twisting).\n\n2. **Functionality**:\n   - Both objects involve opening to reveal storage, but the method of interaction is not the same. The chest likely involves a lifting motion, whereas the bottle involves a twisting motion.\n\n3. **Degrees of Freedom**:\n   - The chest's lid likely rotates around a hinge, while the bottle cap rotates around its axis. These are different types of rotational movements.\n\nGiven these considerations, the water",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: To evaluate the interactivity of the stainless steel water bottle as a haptic proxy for the virtual ...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 2,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Outline",
+      "ground_truth_rating": 1,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the physical object (stainless steel water bottle) does not closely match the outline of the virtual object (chest). \n\n- **Size and Shape**: The chest is rectangular and box-like, while the water bottle is cylindrical. This is a significant mismatch in basic shape category.\n- **Affordances**: The chest likely requires a lifting or opening motion, whereas the water bottle involves twisting off a cap. The interaction methods are quite different.\n\nGiven these factors, the water bottle does not effectively replicate the outline characteristics needed for the chest interaction.\n\n**Rating: 1 - Strongly Disagree**",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 3,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Texture",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the stainless steel water bottle does not closely match the texture of the virtual chest. The virtual chest likely has a wooden or textured surface, while the water bottle is smooth and metallic. The tactile experience of twisting off a metal cap is also different from opening a chest lid.\n\n**Rating: 2 - Disagree**\n\nThe physical object's texture does not align well with the expected texture of the virtual object.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 4,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Hardness",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the stainless steel water bottle can somewhat replicate the hardness of a virtual chest. Here's the evaluation:\n\n- **Material Hardness**: The stainless steel bottle is hard and rigid, similar to the expected feel of a wooden or metal chest.\n- **Deformation Behavior**: The bottle does not deform easily, which aligns with the expected behavior of a chest.\n\nHowever, the interaction method (twisting off a cap) is different from opening a lid, which might affect the overall haptic experience.\n\n**Rating**: 5 - Somewhat Agree\n\nThe hardness is appropriate, but the interaction method differs from the virtual object.",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 5,
+      "virtual_object": "Chest",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Temperature",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Players would open the lid to reveal storage space for holding items.",
+      "utilization_method": "Twist off the metal cap while holding the body still",
+      "fine_tuned": {
+        "raw_response": "rating: 4",
+        "predicted_rating": 4,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the virtual chest, the expected temperature sensation would likely be neutral or slightly cool, as it might be made of wood or metal. The stainless steel water bottle, being metal, can provide a cool sensation, especially if it has been in a cooler environment.\n\n**Rating: 5 - Somewhat Agree**\n\n- The stainless steel can mimic the coolness expected from a metal part of the chest.\n- However, the sensation might be too cold if the bottle is chilled, which could be slightly off from the expected neutral temperature of a wooden chest.",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 6,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Inertia",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided information and images, here's the evaluation:\n\n**Inertia: 2 - Disagree**\n\n- **Weight and Resistance:** The pillow is likely too light and soft to effectively simulate the weight and resistance of a mechanical control interface like a double slider. The virtual object would typically have a more rigid and substantial feel.\n  \n- **Center of Mass:** The pillow's center of mass is likely inconsistent with the expected feel of a mechanical slider, which would have a more stable and predictable center of mass.\n\n- **Movement Resistance:** The soft drag of the pillow provides some resistance, but it may not accurately replicate the low-friction, controlled movement expected from a virtual slider.\n\nOverall, the pillow does not effectively replicate the inertia characteristics of the",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 7,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and description, the physical object (pillow) is used to simulate the interaction with a virtual double slider. Here’s the evaluation:\n\n- **Interactivity Elements**: The virtual double slider likely requires precise control and movement along a defined path. The pillow, being soft and compressible, does not provide the rigid structure or precise linear movement that a slider would require.\n- **Functionality**: The pillow can be pressed and slid, but it lacks the mechanical feedback and defined path of a slider. The resistance provided by the pillow is not equivalent to the tactile feedback of a mechanical slider.\n- **Degrees of Freedom**: The pillow allows for movement, but not in a controlled or precise manner that matches the expected interaction",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and description, the physical object (pillow) is used to simulate the i...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 8,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Outline",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the images and description provided, the physical object (pillow) does not closely match the outline of the virtual double slider. Here’s the evaluation:\n\n- **Size and Shape**: The pillow is soft and rounded, lacking the defined linear structure of the double slider.\n- **Affordances**: The pillow does not have the rigid bar or the distinct sliding mechanism of the virtual object.\n- **Contact Points**: The pillow's soft surface does not replicate the tactile feedback expected from a mechanical slider.\n\nGiven these factors, the pillow does not effectively replicate the outline characteristics of the virtual double slider.\n\n**Rating: 2 - Disagree**",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 9,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Texture",
+      "ground_truth_rating": 1,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and description, the physical object (pillow) does not closely match the expected texture of the virtual double slider, which likely has a smooth, mechanical feel. The pillow's soft and plush texture is quite different from the anticipated smooth and possibly rigid texture of a mechanical slider.\n\n**Rating: 2 - Disagree**\n\n- The pillow's surface is too soft and plush compared to the expected smooth and possibly rigid texture of the virtual slider.\n- The tactile feedback from compressing the plush fabric does not align well with the expected low-friction mechanical movement of a slider.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 10,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Hardness",
+      "ground_truth_rating": 1,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and description, the physical object (pillow) is soft and compressible, which does not align well with the expected hardness of a mechanical control interface like the virtual double slider. The pillow's softness would not provide the necessary rigidity or resistance expected from interacting with a mechanical slider.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 11,
+      "virtual_object": "Double Slider",
+      "physical_object": "Pillow",
+      "property_type": "Temperature",
+      "ground_truth_rating": 1,
+      "interaction_activity": "This virtual double slider serves as a mechanical control interface.",
+      "utilization_method": "Set the plush on a smooth table, press down lightly on the white rim (acts as a bar), and slide the toy forward/back by compressing the plush fabric. The soft drag gives gentle resistance, suitable for simulating a low-friction virtual slider.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the images and description, the physical object (pillow) is soft and likely retains a neutral or warm temperature due to its insulating properties. The virtual object (double slider) appears to be a mechanical interface, which might be expected to have a cooler, metallic feel.\n\n**Temperature Evaluation:**\n\n- The pillow's insulating nature and likely warm temperature do not match the expected cooler, metallic sensation of a mechanical slider.\n- The heat flow during contact with the pillow would not mimic the expected sensation of a metal slider.\n\n**Rating: 2 (Disagree)**\n\nThe pillow does not effectively replicate the expected temperature characteristics of the virtual double slider.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 12,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Inertia",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and description, the pillow does not effectively replicate the inertia characteristics of a dropper. The weight and center of mass of a pillow are significantly different from a dropper, which is typically lightweight and has a specific balance for precise liquid dispensing. The pillow's compressibility might mimic the soft feedback of a rubber bulb to some extent, but overall, it lacks the appropriate weight and movement resistance.\n\nRating: 2 - Disagree",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 13,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided information, the pillow does not effectively replicate the interactivity of a dropper used for liquid dispensing. The dropper requires precise control and a specific squeezing action to dispense liquid, which the pillow cannot provide. The pillow's soft and elastic feedback does not match the tactile feedback needed for a dropper's bulb.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 14,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Outline",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information:\n\n- The virtual object is a dropper, which typically has a slender, elongated shape with a bulb for squeezing.\n- The physical object is a pillow, which is soft and plush, lacking the elongated and narrow shape of a dropper.\n\n**Evaluation:**\n\n- **Size and Shape Mismatch:** The pillow does not match the slender, elongated shape of a dropper. This size mismatch is immediately apparent and disrupts the expected grip formation.\n- **Basic Shape Category:** The pillow is a soft, rounded object, entirely different from the dropper's cylindrical form.\n- **Key Affordances:** The pillow lacks the specific contact points and shape needed to mimic the dropper's functionality.\n\n**Rating:",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information:\n\n- The virtual object is a dropper, which typically ha...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 15,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Texture",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the images and description, the pillow's texture is soft and plush, which is quite different from the expected rubbery texture of a dropper bulb. The pillow's surface does not replicate the smooth, elastic feel of a rubber bulb used for liquid dispensing.\n\nRating: 2 - Disagree\n\nThe pillow's texture is not suitable for replicating the tactile feedback expected from a dropper.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 16,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Hardness",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided information, the pillow's softness and compressibility do not match the expected hardness and elastic feedback of a rubber bulb on a dropper. The pillow is likely too soft and lacks the necessary resistance and rebound characteristics.\n\nRating: 2 - Disagree",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 17,
+      "virtual_object": "Dropper",
+      "physical_object": "Pillow",
+      "property_type": "Temperature",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This dropper would be used for liquid dispensing.",
+      "utilization_method": "Pinch a portion of the plush rim between thumb and finger; the stuffed filling compresses easily and rebounds, yielding the soft, elastic feedback of a rubber bulb.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the virtual dropper, the expected temperature sensation would likely be neutral or slightly cool, as droppers are often made of materials like glass or rubber that don't retain heat.\n\nThe physical object, a pillow, is typically warm and insulating, which contrasts with the expected temperature sensation of a dropper. The pillow's material would not provide the cool or neutral temperature expected from a dropper.\n\nRating: 1 - Strongly Disagree\n\nThe pillow's temperature characteristics do not align with the expected thermal sensation of a virtual dropper.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 18,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Inertia",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the sewing tape measure is not well-suited to replicate the inertia of a hammer for striking and smashing objects. Here's the evaluation:\n\n- **Weight**: The tape measure is significantly lighter than a hammer, making the weight difference immediately noticeable.\n- **Center of Mass**: The center of mass of the tape measure is not aligned like a hammer, which typically has a heavier head.\n- **Movement Resistance**: The tape measure offers little to no resistance or momentum similar to a hammer.\n\n**Rating: 1 - Strongly Disagree**\n\nThe physical object does not effectively deliver the expected inertia haptic feedback for the virtual hammer.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 19,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the sewing tape measure does not effectively replicate the interactivity of a hammer for striking and smashing objects. Here’s the evaluation:\n\n- **Interactive Elements**: The sewing tape measure lacks the necessary weight and rigidity to mimic the striking action of a hammer. The flexible tape and lightweight disc do not provide the necessary feedback or force.\n- **Degrees of Freedom**: The sewing tape measure does not offer the same handling or balance as a hammer. The makeshift handle does not allow for a realistic swinging motion.\n\n**Rating**: 1 - Strongly Disagree\n\nThe physical object does not support the intended proxy interaction effectively.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 20,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Outline",
+      "ground_truth_rating": 1,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the sewing tape measure does not effectively replicate the outline of a hammer for striking and smashing activities. \n\n- **Size and Shape Mismatch**: The sewing tape measure is small and round, lacking the elongated handle and distinct head of a hammer.\n- **Affordances**: The makeshift handle using the tape does not provide the necessary grip or weight distribution typical of a hammer.\n\nRating: **1 - Strongly Disagree**",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, the sewing tape measure does not effectively replicate...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 21,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Texture",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the virtual object of a hammer, the expected texture would be hard and solid, typically metallic or wooden, especially at the striking surface. The physical object, a sewing tape measure, has a soft, flexible tape and a smooth plastic housing.\n\n**Texture Evaluation:**\n\n- **Surface Finishing:** The tape measure's surface is smooth and flexible, which is significantly different from the hard, solid texture expected from a hammer.\n- **Tactile Landmarks:** The tape measure lacks the distinct tactile features of a hammer, such as a hard striking surface.\n\nGiven these considerations, the sewing tape measure does not effectively replicate the texture of a hammer.\n\n**Rating: 1 - Strongly Disagree**",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 22,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Hardness",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the sewing tape measure is not a suitable proxy for the hardness of a hammer. The tape measure is soft and flexible, lacking the rigidity and solid feel expected from a hammer used for striking and smashing objects. The deformation behavior of the tape measure would be significantly different from that of a hammer.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 23,
+      "virtual_object": "Hammer",
+      "physical_object": "Sewing Tape Measure",
+      "property_type": "Temperature",
+      "ground_truth_rating": 2,
+      "interaction_activity": "Striking and smashing objects",
+      "utilization_method": "Pull out about 15 cm of tape and wrap it around your fingers as a makeshift handle, letting the disc housing dangle forward as the hammer head.",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the virtual object of a hammer, the expected temperature sensation would likely be cool or metallic. The physical object, a sewing tape measure, is typically made of plastic and fabric, which do not convey the same temperature sensations as metal.\n\nRating: 1 - Strongly Disagree\n\nThe sewing tape measure does not provide the expected cool, metallic temperature sensation of a hammer.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 24,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Inertia",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here is the evaluation:\n\n- **Weight and Inertia**: The selfie-stick is likely much lighter than a keyboard, which would make the weight difference noticeable. The lack of substantial weight means it won't provide the same resistance or momentum as a keyboard.\n\n- **Center of Mass**: The selfie-stick's center of mass is likely not aligned with that of a keyboard. A keyboard has a more evenly distributed weight, while the selfie-stick, especially when extended, may feel unbalanced.\n\n- **Movement Resistance**: The selfie-stick does not offer the same resistance or tactile feedback as pressing keys on a keyboard. The tapping action along the pole will not replicate the feel of pressing keys.\n\nOverall, the selfie-stick",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, here is the evaluation:\n\n- **Weight and Inertia**: The...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 25,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the selfie-stick as a haptic proxy for a keyboard in VR has significant limitations:\n\n- **Interactive Elements**: The selfie-stick lacks the individual keys necessary for simulating a keyboard. It does not provide the tactile feedback or the distinct separation of keys that a keyboard offers.\n- **Functionality**: Tapping along a pole does not replicate the pressing action of piano keys, which involves distinct, separate movements and feedback.\n- **Degrees of Freedom**: The selfie-stick does not match the degrees of freedom required for playing a keyboard, such as pressing down on keys with varying pressure.\n\nGiven these factors, the selfie-stick does not effectively replicate the interactivity of a keyboard.\n\n**Rating: 1 -",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 26,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Outline",
+      "ground_truth_rating": 5,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information:\n\n- The virtual object is a keyboard, which typically has a flat, wide surface with multiple keys.\n- The physical object, a selfie-stick, when fully extended and laid horizontally, offers a long, narrow surface.\n\n**Evaluation:**\n\n- **Size and Proportions:** The selfie-stick does not match the width or the flat surface area of a keyboard. It is narrow and cylindrical, which is quite different from the broad, flat surface of a keyboard.\n- **Shape and Affordances:** The selfie-stick lacks the distinct key outlines and tactile feedback that a keyboard provides. It does not afford the same interaction patterns, such as pressing individual keys.\n\n**Rating: 2 - Disagree**\n\nThe selfie",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 27,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Texture",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the selfie-stick as a physical proxy for a keyboard in VR has significant limitations in delivering the expected texture haptic feedback:\n\n1. **Surface Texture**: The selfie-stick's pole is likely smooth and metallic, which is quite different from the tactile feel of piano keys, which are typically smooth but have distinct separations and a slight resistance when pressed.\n\n2. **Tactile Landmarks**: A keyboard has distinct keys with separations that provide tactile feedback when pressed. The selfie-stick lacks these separations and tactile landmarks, making it difficult to replicate the feel of pressing individual keys.\n\n3. **Texture Transitions**: The transitions between keys on a keyboard are absent in the selfie-stick, which is",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the images and information provided, the selfie-stick as a physical proxy for a keyboard in...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 28,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Hardness",
+      "ground_truth_rating": 2,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the selfie-stick, when fully extended and laid horizontally, does not closely replicate the hardness or tactile feedback expected from pressing piano keys. The keys of a keyboard have a specific resistance and tactile response that a telescopic pole cannot mimic.\n\nRating: 2 - Disagree\n\nThe selfie-stick's hardness and lack of key-like feedback would not provide an immersive or accurate haptic experience for a virtual keyboard.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 29,
+      "virtual_object": "Keyboard",
+      "physical_object": "Selfie-stick",
+      "property_type": "Temperature",
+      "ground_truth_rating": 5,
+      "interaction_activity": "VR players would press series of piano keys to generate musical notes.",
+      "utilization_method": "Fully extend the telescopic pole and lay the tripod horizontally. Tapping along the pole like wide keyboard.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the temperature aspect, the selfie-stick is likely made of metal or plastic, which can feel cool to the touch initially. This might somewhat align with the expected sensation of a keyboard, which is often made of plastic and can also feel cool. However, the thermal conductivity and overall feel might not perfectly match the expectation of a keyboard.\n\nRating: 4 - Neutral\n\nThe selfie-stick doesn't strongly deviate from the expected temperature sensation of a keyboard, but it doesn't perfectly replicate it either.",
+        "predicted_rating": 4,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 30,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Inertia",
+      "ground_truth_rating": 5,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the virtual object of a party balloon, the physical object is a game controller. The interaction involves flicking or tapping the balloon, which is simulated by flicking the thumb-stick on the controller.\n\n**Evaluation of Inertia:**\n\n- **Weight and Resistance:** The game controller's thumb-stick offers a low-force bounce due to its spring return, which can somewhat mimic the light resistance of a balloon being nudged. However, the overall weight of the controller is significantly heavier than a balloon, which might affect the perception of inertia.\n  \n- **Center of Mass:** The center of mass of the controller is not aligned with the light, airy feel of a balloon. The controller is more solid and dense, which could detract from the intended experience",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: For the virtual object of a party balloon, the physical object is a game controller. The interaction...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 31,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 6,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided information, the game controller's thumb-stick can simulate the flicking motion needed for interacting with virtual party balloons. The spring return of the thumb-stick offers a low-force bounce, somewhat mimicking the light touch required to set a balloon in motion.\n\n**Rating: 5 - Somewhat Agree**\n\n- The thumb-stick provides a similar flicking motion.\n- The spring return offers a bounce-like feedback.\n- However, the tactile sensation of a balloon is not fully replicated.",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 32,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Outline",
+      "ground_truth_rating": 3,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here's the evaluation:\n\n### Outline Evaluation\n\n- **Size and Shape**: The game controller is significantly different in size and shape compared to a party balloon. A balloon is lightweight, round, and can be easily flicked or tapped, while a game controller is solid, heavy, and designed for gripping.\n- **Affordances**: The controller's thumb-stick can mimic the flicking motion to some extent, but it doesn't replicate the tactile experience of interacting with a balloon's surface or its buoyancy.\n\n### Rating\n\nGiven these considerations, the game controller does not effectively replicate the outline characteristics of a party balloon. The size mismatch and shape differences are significant.\n\n**Rating: 2 - Disagree**",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 33,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Texture",
+      "ground_truth_rating": 2,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the game controller's texture does not closely match the expected texture of a party balloon. A balloon is smooth, soft, and flexible, while a game controller is hard and rigid with a textured grip.\n\n**Rating: 2 - Disagree**\n\nThe game controller's surface does not replicate the tactile sensation of a balloon, which is crucial for the intended playful interaction in a VR environment.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 34,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Hardness",
+      "ground_truth_rating": 3,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "For the virtual object of a party balloon, the expected hardness is very soft and light, with minimal resistance. The game controller's thumb-stick provides a spring return that offers a smooth, low-force bounce, which can somewhat mimic the light touch needed to flick a balloon.\n\nHowever, the physical hardness of the game controller itself is much more rigid than a balloon. The thumb-stick's resistance and return mechanism can simulate the motion but not the softness or the delicate feel of a balloon.\n\nRating: 3 - Somewhat Disagree\n\nThe game controller provides some level of interaction that aligns with the motion of flicking a balloon, but it does not replicate the softness and lightness of a balloon's material.",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 35,
+      "virtual_object": "Party Balloon",
+      "physical_object": "Game Controller",
+      "property_type": "Temperature",
+      "ground_truth_rating": 4,
+      "interaction_activity": "These party balloons would be used for playful interaction in celebration VR environments. VR players would flick or tap floating balloons to set them in motion.",
+      "utilization_method": "Flick either thumb-stick sideways and let it self-center; the spring return offers a smooth, low-force bounce like nudging a small balloon. ",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the virtual object of a party balloon, the expected temperature sensation would be neutral or slightly cool, as balloons are typically at room temperature or slightly cooler due to air inside.\n\nThe physical object, a game controller, is likely to be at room temperature, which aligns with the expected temperature of a balloon. However, the material of the controller (likely plastic) does not mimic the thin, flexible material of a balloon, which might affect the perception of temperature.\n\nRating: 5 - Somewhat Agree\n\nThe game controller's temperature is generally neutral, which somewhat aligns with the expected sensation of a balloon, but the material difference slightly detracts from the experience.",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 36,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Inertia",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the interaction of running hands along the leaves of a virtual pot plant, the physical object (ergonomic chair) provides a mesh backrest that yields slightly and springs back. This can somewhat mimic the flexible nature of plant leaves.\n\n**Inertia Evaluation:**\n\n- **Weight and Resistance:** The chair's mesh backrest offers some resistance and spring-back, similar to the feel of flexible foliage. However, the overall weight and structure of the chair do not align with the lightness of a plant.\n- **Center of Mass:** The chair's center of mass is irrelevant to the interaction, as the focus is on the mesh's flexibility rather than the chair's weight distribution.\n- **Movement Resistance:** The mesh provides a tactile response that can somewhat simulate",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: For the interaction of running hands along the leaves of a virtual pot plant, the physical object (e...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 37,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "To evaluate how well the ergonomic chair can serve as a haptic proxy for the pot plant, we need to consider the interactivity aspect of running hands along the leaves for stress relief.\n\n**Interactivity Evaluation:**\n\n- **Tactile Feedback:** The mesh backrest of the chair provides a yielding and springing sensation, which can somewhat mimic the flexible nature of plant leaves. However, the texture and individual leaf-like elements are not present.\n- **Flexibility and Movement:** The tensioned fabric can simulate the slight give and return of foliage, but it lacks the individual movement of leaves.\n- **Surface Area and Shape:** The chair's backrest is a large, flat surface, unlike the varied and intricate structure of a plant.\n\n**Rating",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: To evaluate how well the ergonomic chair can serve as a haptic proxy for the pot plant, we need to c...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 38,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Outline",
+      "ground_truth_rating": 2,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here is the evaluation:\n\n- **Size and Proportions**: The ergonomic chair's backrest is significantly larger and differently shaped compared to the leaves of a pot plant. This size mismatch is apparent and may disrupt the intended interaction of running hands along leaves.\n\n- **Shape and Affordances**: The chair's mesh backrest does not replicate the individual leaf structure of a pot plant. While the mesh may provide a similar yielding sensation, the overall shape and contact points are quite different.\n\nGiven these considerations, the ergonomic chair does not closely replicate the outline characteristics of a pot plant for the intended interaction.\n\n**Rating: 2 - Disagree**",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 39,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Texture",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the ergonomic chair's mesh backrest offers a flexible surface that can mimic the yielding nature of plant leaves to some extent. However, the texture of the mesh is likely quite different from the smooth, natural feel of plant leaves.\n\n**Rating: 3 - Somewhat Disagree**\n\n- The mesh backrest provides some flexibility similar to leaves, but the texture is not a close match.\n- The tactile experience of running hands over mesh is quite different from the smooth, soft texture of plant leaves.",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 40,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Hardness",
+      "ground_truth_rating": 4,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the ergonomic chair's mesh backrest can somewhat mimic the flexible and slightly yielding nature of plant leaves. However, the texture and specific deformation behavior of the chair's mesh may not perfectly match the expected softness and flexibility of plant leaves.\n\nRating: 4 - Neutral\n\nThe chair provides a somewhat similar experience, but the hardness and texture differences may affect the immersion.",
+        "predicted_rating": 4,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 41,
+      "virtual_object": "Pot Plant",
+      "physical_object": "Ergonomic Chair",
+      "property_type": "Temperature",
+      "ground_truth_rating": 3,
+      "interaction_activity": "VR players would run their hands along the leaves for stress relief.",
+      "utilization_method": "Stand beside chair and pass hands over the mesh backrest; the tensioned fabric yields slightly then springs back, similar to flexible foliage surfaces. ",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "For the temperature aspect, the ergonomic chair's mesh backrest is unlikely to replicate the expected sensation of a pot plant's leaves. The plant would typically feel cool and natural, while the chair's fabric might feel neutral or slightly warm due to room temperature and its material properties.\n\nRating: 2 - Disagree\n\nThe chair does not effectively mimic the cool, natural temperature expected from interacting with plant leaves.",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 42,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Inertia",
+      "ground_truth_rating": 4,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "To evaluate how well the game controller can replicate the inertia of pressing a virtual red button, consider the following:\n\n1. **Weight and Resistance**: The game controller's button likely has a lighter resistance compared to a large, physical red button. The tactile feedback from the controller's button may not fully match the expected resistance and weight of pressing a larger button.\n\n2. **Center of Mass and Stability**: The controller is designed for handheld use, which may not align with the stability and center of mass expected from pressing a stationary button.\n\n3. **Movement and Momentum**: The spring return and tactile bump of the controller's button provide some feedback, but it may not fully capture the momentum and force expected from a larger button press.\n\nGiven these",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: To evaluate how well the game controller can replicate the inertia of pressing a virtual red button,...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 43,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 6,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 6",
+        "predicted_rating": 6,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the game controller's large A button can serve as a reasonable haptic proxy for the virtual red button. Here's the evaluation:\n\n- **Interactive Elements**: The A button on the controller provides a tactile bump and a faint click, which aligns well with the expected feedback from pressing a virtual button.\n- **Functionality**: The button press and release mechanism (spring return) is similar to the action of pressing a virtual button.\n- **Degrees of Freedom**: The interaction is straightforward and matches the expected action of pressing a button.\n\nRating: **6 - Agree**\n\nThe game controller effectively replicates the interactivity of pressing a virtual button, though the size and visual appearance differ slightly.",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, the game controller's large A button can serve as a re...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 44,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Outline",
+      "ground_truth_rating": 3,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "To evaluate how well the game controller can serve as a haptic proxy for the virtual red button, let's consider the outline characteristics:\n\n1. **Size and Proportions**: \n   - The virtual red button is large and flat, while the game controller's A button is smaller and more rounded. This size mismatch might affect the natural feel in the hand.\n\n2. **Shape and Affordances**:\n   - The virtual button is a large, flat surface, which is different from the smaller, convex shape of the controller's A button. This could impact the expected grip and manipulation patterns.\n\n3. **Key Affordances or Contact Points**:\n   - The game controller's button does provide a tactile bump and click, which aligns",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: To evaluate how well the game controller can serve as a haptic proxy for the virtual red button, let...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 45,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Texture",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the game controller's large A button can serve as a reasonable haptic proxy for the virtual red button. The tactile feedback from pressing the A button, which includes a tactile bump and faint click, aligns well with the expected interaction of pressing a virtual button.\n\n**Rating: 6 - Agree**\n\n- The surface texture of the A button is likely smooth, similar to the virtual red button.\n- The tactile feedback (bump and click) provides a realistic button-press sensation.\n- The spring return mimics the expected release action.\n\nOverall, the game controller provides a good match for the texture and interaction of the virtual red button.",
+        "predicted_rating": 6,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 46,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Hardness",
+      "ground_truth_rating": 6,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided information, the game controller's large A button can serve as a reasonable haptic proxy for the virtual red button. The tactile bump and faint click of the membrane switch provide a sense of actuation similar to pressing a physical button. The spring return mimics the expected behavior of a button reset.\n\nRating: 6 (Agree)\n\nThe hardness and tactile feedback are well-suited for simulating the pressing of a virtual button, though it may not perfectly match the exact feel of a larger, possibly more rigid button.",
+        "predicted_rating": 6,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 47,
+      "virtual_object": "Red Button",
+      "physical_object": "Game Controller",
+      "property_type": "Temperature",
+      "ground_truth_rating": 5,
+      "interaction_activity": "Pressing the button to trigger critical actions",
+      "utilization_method": "Use the large A button: press firmly until the membrane switch actuates with a tactile bump and faint click, then release for spring return.",
+      "fine_tuned": {
+        "raw_response": "rating: 5",
+        "predicted_rating": 5,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "To evaluate the temperature aspect of the physical object as a proxy for the virtual red button:\n\n- **Virtual Object (Red Button):** Typically, a button like this would be expected to have a neutral or slightly cool temperature, similar to plastic or metal.\n- **Physical Object (Game Controller):** The large A button on a game controller is usually made of plastic, which can feel neutral or slightly cool to the touch.\n\n**Rating: 6 (Agree)**\n\n- The game controller's button likely provides a temperature sensation that aligns well with the expected feel of a virtual red button. The plastic material of the controller button should match the neutral temperature expectation.",
+        "predicted_rating": 6,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 48,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Inertia",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, here is the evaluation:\n\n- **Weight and Movement Resistance**: A stainless steel water bottle is significantly heavier and more rigid than a soccer ball. The weight and resistance when kicking would feel very different from a soccer ball, which is designed to be light and responsive.\n\n- **Center of Mass**: The center of mass in a water bottle is likely to be more centralized and stable compared to a soccer ball, which is evenly distributed and designed to roll smoothly.\n\n- **Overall Inertia Experience**: The experience of kicking a water bottle on its side would not replicate the expected inertia of a soccer ball. The bottle's weight and rigidity would make the interaction feel unnatural for a soccer training exercise.\n\n**Rating**",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, here is the evaluation:\n\n- **Weight and Movement Resis...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 49,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "Rating: 1 - Strongly Disagree\n\n**Evaluation:**\n\n- **Shape and Size:** A soccer ball is spherical, allowing it to roll and be kicked in any direction. The water bottle is cylindrical and rigid, which does not replicate the rolling or bouncing behavior of a soccer ball.\n  \n- **Material and Feedback:** A soccer ball is typically made of a softer material that compresses slightly when kicked, providing tactile feedback. The stainless steel water bottle is hard and unyielding, offering a completely different sensation.\n\n- **Interactivity:** The primary interaction with a soccer ball is kicking, which involves dynamic movement and control. The water bottle, when laid on its side, does not provide the same interactive experience or degrees of freedom.\n\nOverall",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 50,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Outline",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the stainless steel water bottle does not closely match the outline of a soccer ball. Here’s the evaluation:\n\n- **Size and Shape**: The soccer ball is spherical, while the water bottle is cylindrical. This fundamental shape difference is significant.\n- **Affordances**: A soccer ball is designed to be kicked from any angle, while a water bottle, even on its side, does not provide the same interaction affordances.\n- **Contact Points**: The water bottle lacks the uniform surface and contact points of a soccer ball.\n\nGiven these considerations, the water bottle does not effectively replicate the outline of a soccer ball for the intended interaction.\n\n**Rating: 1 - Strongly Disagree**",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 51,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Texture",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the stainless steel water bottle is not a suitable haptic proxy for a soccer ball in terms of texture. \n\n- **Surface Texture**: A soccer ball typically has a textured, slightly grippy surface, often made of leather or synthetic material, which is quite different from the smooth, hard surface of a stainless steel water bottle.\n- **Tactile Landmarks**: The soccer ball has distinct panels and seams, which are absent in the water bottle.\n\nGiven these differences, the physical object does not replicate the expected texture of the virtual soccer ball.\n\n**Rating**: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via standalone digit",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 52,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Hardness",
+      "ground_truth_rating": 3,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "For the virtual object of a soccer ball, the expected hardness is relatively soft and slightly deformable upon impact, as it is designed to be kicked.\n\nThe physical object, a stainless steel water bottle, is hard and rigid, with no deformation upon impact. This is significantly different from the expected feel of a soccer ball.\n\nRating: 1 - Strongly Disagree\n\nThe hardness of the stainless steel water bottle does not match the expected haptic feedback of a soccer ball, which affects the basic interaction and immersion.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      }
+    },
+    {
+      "item_index": 53,
+      "virtual_object": "Soccer",
+      "physical_object": "Stainless Steel Water Bottle",
+      "property_type": "Temperature",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This soccer ball would be used for training exercises. VR players would primarily kick the ball for practicing penalties",
+      "utilization_method": "Lay the bottle on its side and kick through the middle. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      },
+      "base": {
+        "raw_response": "For the virtual soccer ball, the expected temperature sensation would be neutral or slightly warm, similar to a typical outdoor environment. A stainless steel water bottle, however, is likely to feel cool to the touch, especially if it has been in a cooler environment.\n\nGiven this mismatch in expected temperature sensation, the stainless steel water bottle does not effectively replicate the temperature aspect of a soccer ball. The thermal conductivity of the steel, which tends to feel cooler, contrasts with the expected warmth of a soccer ball.\n\nRating: 2 - Disagree",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      }
+    },
+    {
+      "item_index": 54,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Inertia",
+      "ground_truth_rating": 3,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information:\n\n- **Weight and Inertia**: A pillow is very light and lacks the weight and resistance expected from a steering wheel, which typically has some heft to it.\n- **Center of Mass**: The pillow's center of mass is likely not aligned or stable for simulating a steering wheel.\n- **Movement Resistance**: The pillow offers little to no resistance when twisted, unlike a steering wheel which provides some feedback and resistance.\n\nGiven these factors, the pillow is not a suitable proxy for the steering wheel in terms of inertia.\n\n**Rating: 1 - Strongly Disagree**",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.3
+      }
+    },
+    {
+      "item_index": 55,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Interactivity",
+      "ground_truth_rating": 4,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 3",
+        "predicted_rating": 3,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the pillow does not effectively replicate the interactivity of a steering wheel used for vehicle navigation. \n\n- **Degrees of Freedom**: A steering wheel requires rotational movement around a central axis, which a pillow cannot provide.\n- **Grip and Feedback**: The pillow lacks the structure and resistance needed to simulate the feel of a steering wheel.\n\nRating: **1 - Strongly Disagree**",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the provided images and information, the pillow does not effectively replicate the interact...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 56,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Outline",
+      "ground_truth_rating": 5,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the physical object (pillow) does not closely match the outline of the virtual object (steering wheel). \n\n- The steering wheel is circular and rigid, designed for gripping and turning.\n- The pillow is soft, lacks a defined circular shape, and does not provide the necessary structure for a steering wheel interaction.\n\nRating: **1 - Strongly Disagree**\n\nThe pillow's shape and structure do not support the expected haptic feedback for a steering wheel.",
+        "predicted_rating": null,
+        "parse_info": "Could not parse rating from: Based on the images and information provided, the physical object (pillow) does not closely match th...",
+        "error": null,
+        "accuracy_score": 0.0
+      }
+    },
+    {
+      "item_index": 57,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Texture",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "Based on the images and information provided, the physical object (a plush pillow) does not effectively replicate the texture of a virtual steering wheel. The steering wheel is expected to have a firm, smooth surface, while the pillow is soft and plush, lacking the necessary tactile feedback for vehicle navigation.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    },
+    {
+      "item_index": 58,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Hardness",
+      "ground_truth_rating": 1,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      },
+      "base": {
+        "raw_response": "Based on the provided images and information, the physical object (a pillow) is not suitable for replicating the hardness of a virtual steering wheel. A steering wheel is typically hard and rigid, while a pillow is soft and pliable. This discrepancy would significantly affect the haptic feedback and immersion during the interaction.\n\nRating: 1 - Strongly Disagree",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      }
+    },
+    {
+      "item_index": 59,
+      "virtual_object": "Steering Wheel",
+      "physical_object": "Pillow",
+      "property_type": "Temperature",
+      "ground_truth_rating": 2,
+      "interaction_activity": "This steering wheel would be used for vehicle navigation.",
+      "utilization_method": "Hold opposite edges of the plush shell and twist it left or right. ",
+      "fine_tuned": {
+        "raw_response": "rating: 2",
+        "predicted_rating": 2,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 1.0
+      },
+      "base": {
+        "raw_response": "For the virtual steering wheel, the expected temperature sensation would likely be cool or neutral, as steering wheels are typically made of materials like metal or plastic that have higher thermal conductivity.\n\nThe physical object, a plush pillow, would feel warm and insulating, which is quite different from the expected sensation of a steering wheel.\n\nRating: 1 - Strongly Disagree\n\nThe pillow's temperature characteristics do not align with the expected thermal sensation of a steering wheel.",
+        "predicted_rating": 1,
+        "parse_info": "Extracted via rating: X format",
+        "error": null,
+        "accuracy_score": 0.7
+      }
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-08-03T14:39:16.418082",
+    "fine_tuned_model": "ft:gpt-4o-2024-08-06:mosra::C04ZOYAf",
+    "base_model": "gpt-4o-2024-08-06",
+    "total_items": 60,
+    "completed_items": 60
+  }
+}

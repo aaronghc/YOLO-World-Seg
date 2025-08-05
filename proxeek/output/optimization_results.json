@@ -1,15 +1,15 @@
 {
   "optimization_summary": {
-    "total_loss": -82.65775752606797,
+    "total_loss": 0.0,
     "loss_components": {
-      "L_realism": -29.027777403593063,
-      "L_priority": -89.2599602449498,
-      "L_interaction": -18.0,
+      "L_realism": -0.0,
+      "L_priority": 0.0,
+      "L_interaction": 0.0,
       "L_spatial": 0.0,
-      "total": -82.65775752606797
+      "total": 0.0
     },
-    "num_virtual_objects": 6,
-    "num_physical_objects": 15,
+    "num_virtual_objects": 1,
+    "num_physical_objects": 32,
     "exclusivity_enabled": true,
     "loss_weights": {
       "w_realism": 1.0,
@@ -21,184 +21,19 @@
   "assignments": [
     {
       "virtual_object": {
-        "name": "Drum",
+        "name": "Hammer",
         "index": 0,
-        "engagement_level": 0.8333333333333334,
-        "involvement_type": "substrate",
-        "priority_weight": 0.8333333333333334
-      },
-      "physical_object": {
-        "name": "black fabric roller blind fully extended",
-        "object_id": 1,
-        "image_id": 0,
-        "index": 0
-      },
-      "realism_score": 0.0,
-      "assignment_matrix_row": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "virtual_object": {
-        "name": "Drum Stick 1",
-        "index": 1,
         "engagement_level": 1.0,
-        "involvement_type": "grasp",
+        "involvement_type": "contact",
         "priority_weight": 1.0
       },
       "physical_object": {
-        "name": "small Phillips-head screwdriver with purple translucent handle",
-        "object_id": 6,
-        "image_id": 1,
-        "index": 8
-      },
-      "realism_score": 5.060606211423874,
-      "assignment_matrix_row": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "virtual_object": {
-        "name": "Chess Piece",
-        "index": 2,
-        "engagement_level": 0.6666666666666666,
-        "involvement_type": "grasp",
-        "priority_weight": 0.6666666666666666
-      },
-      "physical_object": {
-        "name": "cylindrical metal calibration weight labeled 'M 500g'",
-        "object_id": 5,
-        "image_id": 1,
-        "index": 7
-      },
-      "realism_score": 6.272727280855179,
-      "assignment_matrix_row": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "virtual_object": {
-        "name": "Dropper",
-        "index": 3,
-        "engagement_level": 0.5,
-        "involvement_type": "grasp",
-        "priority_weight": 0.5
-      },
-      "physical_object": {
-        "name": "green spray bottle of cleaning solution",
-        "object_id": 4,
-        "image_id": 2,
-        "index": 13
-      },
-      "realism_score": 6.277777602275213,
-      "assignment_matrix_row": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0
-      ]
-    },
-    {
-      "virtual_object": {
-        "name": "Pistol",
-        "index": 4,
-        "engagement_level": 0.3333333333333333,
-        "involvement_type": "grasp",
-        "priority_weight": 0.3333333333333333
-      },
-      "physical_object": {
-        "name": "black Nikon DSLR camera with lens and Nikon-branded strap",
+        "name": "green Koopa Troopa turtle shell plush with white rim and yellow underside",
         "object_id": 1,
-        "image_id": 2,
-        "index": 10
+        "image_id": 19,
+        "index": 31
       },
-      "realism_score": 5.999999642372131,
-      "assignment_matrix_row": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "virtual_object": {
-        "name": "Sackboy",
-        "index": 5,
-        "engagement_level": 0.16666666666666666,
-        "involvement_type": "contact",
-        "priority_weight": 0.16666666666666666
-      },
-      "physical_object": {
-        "name": "green plush turtle-shell pillow",
-        "object_id": 2,
-        "image_id": 2,
-        "index": 11
-      },
-      "realism_score": 5.416666666666666,
+      "realism_score": 0.0,
       "assignment_matrix_row": [
         0.0,
         0.0,
@@ -211,10 +46,27 @@
         0.0,
         0.0,
         0.0,
-        1.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
       ]
     }
   ]

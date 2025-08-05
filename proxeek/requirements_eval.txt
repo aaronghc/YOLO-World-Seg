@@ -1,0 +1,24 @@
+# ProXeek Model Evaluation Requirements
+# Install with: pip install -r requirements_eval.txt
+
+# Core dependencies
+openai>=1.54.0
+python-dotenv>=1.0.0
+Pillow>=10.0.0
+
+# Data processing and statistics
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+requests>=2.31.0
+tqdm>=4.65.0
+
+# Visualization (for analyze_comparison_results.py)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# CSV processing is built-in with Python's csv module
+# JSON processing is built-in with Python's json module
+# Base64 encoding is built-in with Python's base64 module
+# Regular expressions are built-in with Python's re module 
