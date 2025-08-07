@@ -1,0 +1,73 @@
+{
+  "optimization_summary": {
+    "total_loss": -91.79876156297269,
+    "loss_components": {
+      "L_realism": -46.31821263028479,
+      "L_priority": -45.480548932687896,
+      "L_interaction": 0.0,
+      "L_spatial": 0.0,
+      "total": -91.79876156297269
+    },
+    "num_virtual_objects": 2,
+    "num_physical_objects": 6,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1.0,
+      "w_priority": 1.0,
+      "w_interaction": 0.5,
+      "w_spatial": 0.5
+    }
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 0,
+        "engagement_level": 1.0512710963760241,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0512710963760241
+      },
+      "physical_object": {
+        "name": "closed dark gray notebook or laptop",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 3.76923089226087,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "utilization_method": "Slide one hand underneath to grasp a single corner while the rest of the notebook hangs below the fist. The bulk of the notebook supplies noticeable mass, so lifting then swinging it downward gives strong inertial pull similar to a sledge-hammer action. Bringing the notebook\u2019s flat edge to meet the desk produces a solid, vibration-rich impact through the rigid cover back into the user\u2019s hand."
+    },
+    {
+      "virtual_object": {
+        "name": "Red Button",
+        "index": 1,
+        "engagement_level": 0.951229424500714,
+        "involvement_type": "contact",
+        "priority_weight": 0.951229424500714
+      },
+      "physical_object": {
+        "name": "black retractable multi-color ballpoint pen (red/green/blue/black)",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 5.666666666666667,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Hold the pen vertically on the desk with the clicker end up. Repeatedly depress the clicker with the thumb or index finger. The built-in spring delivers clear downward travel, increasing resistance and a crisp mechanical click at full depression, followed by an automatic return\u2014closely matching the tactile feedback of the red push-button."
+    }
+  ]
+}

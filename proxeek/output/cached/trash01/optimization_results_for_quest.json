@@ -1,0 +1,17 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "closed dark gray notebook or laptop",
+      "utilizationMethod": "Slide one hand underneath to grasp a single corner while the rest of the notebook hangs below the fist. The bulk of the notebook supplies noticeable mass, so lifting then swinging it downward gives strong inertial pull similar to a sledge-hammer action. Bringing the notebook\u2019s flat edge to meet the desk produces a solid, vibration-rich impact through the rigid cover back into the user\u2019s hand."
+    },
+    {
+      "virtualObjectName": "Red Button",
+      "proxyObjectName": "black retractable multi-color ballpoint pen (red/green/blue/black)",
+      "utilizationMethod": "No utilization method available"
+    }
+  ],
+  "timestamp": "2d0bda50-9957-40aa-a652-bbbc1e4a62b8",
+  "total_assignments": 2
+}

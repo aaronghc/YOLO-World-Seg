@@ -1,0 +1,632 @@
+[
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "crumpled white tissue paper",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "center-left of the desk, sitting upright",
+    "utilizationMethod": "Pinch the crumpled wad between thumb and the first two fingers, then perform the same wrist-flick and forearm arcs used for light hammer taps. Although the tissue is almost weightless, the irregular bulk gives a clear contact point that can be bounced against the tabletop to supply a subtle stop cue, supporting the rhythmic \u2018tap-tap-tap\u2019 motion associated with setting a nail.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "Striking and smashing objects",
+      "engagementLevel": 1,
+      "inertia": "The hammer should convey significant weight concentrated in the metal head, creating a distinctly top-heavy feel. Users would expect substantial resistance when lifting and notable momentum during swinging motions.",
+      "interactivity": "",
+      "outline": "Thick cylindrical handle ",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6153846383094788,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.38461539149284363,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.38",
+        "y": "0.08",
+        "z": "0.19"
+      },
+      "globalPosition": {
+        "x": 0.0,
+        "y": 0.8130000233650208,
+        "z": 0.3709999918937683
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will perform a power-grip around the cylindrical handle, wrapping the thumb and all fingers to stabilize the top-heavy mass of the metal head. Typical motions involve raising the forearm and cocking the wrist, then executing an arcing swing that pivots at the elbow and shoulder to deliver impact with the flat striking face. Quick wrist rotations may be added for small taps or nail-setting. During the upswing the user feels inertial lag from the heavy head; during the downswing the head accelerates, amplifying momentum until contact is made with the target surface. On impact, a solid, sharp stop is expected, with vibration propagating back through the rigid handle. If the user adjusts grip toward the head (choking up), finer control and reduced torque are achieved, whereas holding the handle\u2019s end maximizes striking force. Two-handed swings are plausible for heavier blows, requiring interleaved hand placement and full-body trunk rotation."
+    },
+    "rating_score": 1.0000000298023224,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.0,
+        "property_value": 0.6153846383094788,
+        "weighted_score": 0.6153846383094788
+      },
+      "outline": {
+        "mean_rating": 1.0,
+        "property_value": 0.38461539149284363,
+        "weighted_score": 0.38461539149284363
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "green-and-white cardboard tissue box",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "top-left of the image, edge of the desk",
+    "utilizationMethod": "Grip one of the short ends of the box with a power-grip so that most of the box\u2019s mass extends beyond the hand. This makes the far end act like a hammer head while the gripped end serves as a makeshift handle. Swing the wrist and elbow in an arc and let the inertia of the loosely packed tissues give delayed follow-through, imitating the top-heavy lag of a real hammer head. Bringing the box down onto the desk provides a soft but sudden stop that echoes the moment of impact.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "Striking and smashing objects",
+      "engagementLevel": 1,
+      "inertia": "The hammer should convey significant weight concentrated in the metal head, creating a distinctly top-heavy feel. Users would expect substantial resistance when lifting and notable momentum during swinging motions.",
+      "interactivity": "",
+      "outline": "Thick cylindrical handle ",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6153846383094788,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.38461539149284363,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.38",
+        "y": "0.08",
+        "z": "0.19"
+      },
+      "globalPosition": {
+        "x": 0.0,
+        "y": 0.8130000233650208,
+        "z": 0.3709999918937683
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will perform a power-grip around the cylindrical handle, wrapping the thumb and all fingers to stabilize the top-heavy mass of the metal head. Typical motions involve raising the forearm and cocking the wrist, then executing an arcing swing that pivots at the elbow and shoulder to deliver impact with the flat striking face. Quick wrist rotations may be added for small taps or nail-setting. During the upswing the user feels inertial lag from the heavy head; during the downswing the head accelerates, amplifying momentum until contact is made with the target surface. On impact, a solid, sharp stop is expected, with vibration propagating back through the rigid handle. If the user adjusts grip toward the head (choking up), finer control and reduced torque are achieved, whereas holding the handle\u2019s end maximizes striking force. Two-handed swings are plausible for heavier blows, requiring interleaved hand placement and full-body trunk rotation."
+    },
+    "rating_score": 2.7435898284117384,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.0,
+        "property_value": 0.6153846383094788,
+        "weighted_score": 1.8461539149284363
+      },
+      "outline": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.38461539149284363,
+        "weighted_score": 0.8974359134833019
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "black retractable multi-color ballpoint pen",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "upper-center of the image, lying horizontally",
+    "utilizationMethod": "Hold the pen close to its clip end so that the opposite, slightly heavier cartridge end projects outward. The cylindrical barrel lets the user apply a true hammer power-grip. Swinging from the elbow gives a scaled-down but familiar feeling of directing a weighted tip toward a target surface; the audible click when the pen makes contact with the desk supplies the crisp strike cue.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "Striking and smashing objects",
+      "engagementLevel": 1,
+      "inertia": "The hammer should convey significant weight concentrated in the metal head, creating a distinctly top-heavy feel. Users would expect substantial resistance when lifting and notable momentum during swinging motions.",
+      "interactivity": "",
+      "outline": "Thick cylindrical handle ",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6153846383094788,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.38461539149284363,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.38",
+        "y": "0.08",
+        "z": "0.19"
+      },
+      "globalPosition": {
+        "x": 0.0,
+        "y": 0.8130000233650208,
+        "z": 0.3709999918937683
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will perform a power-grip around the cylindrical handle, wrapping the thumb and all fingers to stabilize the top-heavy mass of the metal head. Typical motions involve raising the forearm and cocking the wrist, then executing an arcing swing that pivots at the elbow and shoulder to deliver impact with the flat striking face. Quick wrist rotations may be added for small taps or nail-setting. During the upswing the user feels inertial lag from the heavy head; during the downswing the head accelerates, amplifying momentum until contact is made with the target surface. On impact, a solid, sharp stop is expected, with vibration propagating back through the rigid handle. If the user adjusts grip toward the head (choking up), finer control and reduced torque are achieved, whereas holding the handle\u2019s end maximizes striking force. Two-handed swings are plausible for heavier blows, requiring interleaved hand placement and full-body trunk rotation."
+    },
+    "rating_score": 2.717948794364929,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.6153846383094788,
+        "weighted_score": 1.435897489388784
+      },
+      "outline": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.38461539149284363,
+        "weighted_score": 1.2820513049761455
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "tan fine-tip marker",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "right-center of the image, resting on the desk",
+    "utilizationMethod": "Wrap all fingers around the marker\u2019s barrel near its cap so the capped tip extends forward like a miniature hammer head. The marker is slightly heavier at the ink reservoir end, giving a hint of top weight. Users can practice controlled wrist snaps and feel the sudden resistance when the capped tip taps the table, echoing the precise strikes used when driving small tacks.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "Striking and smashing objects",
+      "engagementLevel": 1,
+      "inertia": "The hammer should convey significant weight concentrated in the metal head, creating a distinctly top-heavy feel. Users would expect substantial resistance when lifting and notable momentum during swinging motions.",
+      "interactivity": "",
+      "outline": "Thick cylindrical handle ",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6153846383094788,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.38461539149284363,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.38",
+        "y": "0.08",
+        "z": "0.19"
+      },
+      "globalPosition": {
+        "x": 0.0,
+        "y": 0.8130000233650208,
+        "z": 0.3709999918937683
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will perform a power-grip around the cylindrical handle, wrapping the thumb and all fingers to stabilize the top-heavy mass of the metal head. Typical motions involve raising the forearm and cocking the wrist, then executing an arcing swing that pivots at the elbow and shoulder to deliver impact with the flat striking face. Quick wrist rotations may be added for small taps or nail-setting. During the upswing the user feels inertial lag from the heavy head; during the downswing the head accelerates, amplifying momentum until contact is made with the target surface. On impact, a solid, sharp stop is expected, with vibration propagating back through the rigid handle. If the user adjusts grip toward the head (choking up), finer control and reduced torque are achieved, whereas holding the handle\u2019s end maximizes striking force. Two-handed swings are plausible for heavier blows, requiring interleaved hand placement and full-body trunk rotation."
+    },
+    "rating_score": 2.5128205815951032,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.6153846383094788,
+        "weighted_score": 1.2307692766189575
+      },
+      "outline": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.38461539149284363,
+        "weighted_score": 1.2820513049761455
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "closed dark gray notebook or laptop",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "bottom-left of the image, flat on the desk surface",
+    "utilizationMethod": "Slide one hand underneath to grasp a single corner while the rest of the notebook hangs below the fist. The bulk of the notebook supplies noticeable mass, so lifting then swinging it downward gives strong inertial pull similar to a sledge-hammer action. Bringing the notebook\u2019s flat edge to meet the desk produces a solid, vibration-rich impact through the rigid cover back into the user\u2019s hand.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "Striking and smashing objects",
+      "engagementLevel": 1,
+      "inertia": "The hammer should convey significant weight concentrated in the metal head, creating a distinctly top-heavy feel. Users would expect substantial resistance when lifting and notable momentum during swinging motions.",
+      "interactivity": "",
+      "outline": "Thick cylindrical handle ",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6153846383094788,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.38461539149284363,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.38",
+        "y": "0.08",
+        "z": "0.19"
+      },
+      "globalPosition": {
+        "x": 0.0,
+        "y": 0.8130000233650208,
+        "z": 0.3709999918937683
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will perform a power-grip around the cylindrical handle, wrapping the thumb and all fingers to stabilize the top-heavy mass of the metal head. Typical motions involve raising the forearm and cocking the wrist, then executing an arcing swing that pivots at the elbow and shoulder to deliver impact with the flat striking face. Quick wrist rotations may be added for small taps or nail-setting. During the upswing the user feels inertial lag from the heavy head; during the downswing the head accelerates, amplifying momentum until contact is made with the target surface. On impact, a solid, sharp stop is expected, with vibration propagating back through the rigid handle. If the user adjusts grip toward the head (choking up), finer control and reduced torque are achieved, whereas holding the handle\u2019s end maximizes striking force. Two-handed swings are plausible for heavier blows, requiring interleaved hand placement and full-body trunk rotation."
+    },
+    "rating_score": 3.76923089226087,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.6153846383094788,
+        "weighted_score": 2.871794978777568
+      },
+      "outline": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.38461539149284363,
+        "weighted_score": 0.8974359134833019
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "white sheet of graph-patterned paper",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "top-right of the image, partly curled upward",
+    "utilizationMethod": "Hold the sheet by one corner and snap the wrist so the free-hanging paper slaps against the desk. The sudden air resistance followed by the crisp paper-on-surface slap provides a light version of the hammer\u2019s acceleration and abrupt stop, useful for practicing high-speed swing timing even though the mass is minimal.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "Striking and smashing objects",
+      "engagementLevel": 1,
+      "inertia": "The hammer should convey significant weight concentrated in the metal head, creating a distinctly top-heavy feel. Users would expect substantial resistance when lifting and notable momentum during swinging motions.",
+      "interactivity": "",
+      "outline": "Thick cylindrical handle ",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6153846383094788,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.38461539149284363,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.38",
+        "y": "0.08",
+        "z": "0.19"
+      },
+      "globalPosition": {
+        "x": 0.0,
+        "y": 0.8130000233650208,
+        "z": 0.3709999918937683
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will perform a power-grip around the cylindrical handle, wrapping the thumb and all fingers to stabilize the top-heavy mass of the metal head. Typical motions involve raising the forearm and cocking the wrist, then executing an arcing swing that pivots at the elbow and shoulder to deliver impact with the flat striking face. Quick wrist rotations may be added for small taps or nail-setting. During the upswing the user feels inertial lag from the heavy head; during the downswing the head accelerates, amplifying momentum until contact is made with the target surface. On impact, a solid, sharp stop is expected, with vibration propagating back through the rigid handle. If the user adjusts grip toward the head (choking up), finer control and reduced torque are achieved, whereas holding the handle\u2019s end maximizes striking force. Two-handed swings are plausible for heavier blows, requiring interleaved hand placement and full-body trunk rotation."
+    },
+    "rating_score": 1.0000000298023224,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.0,
+        "property_value": 0.6153846383094788,
+        "weighted_score": 0.6153846383094788
+      },
+      "outline": {
+        "mean_rating": 1.0,
+        "property_value": 0.38461539149284363,
+        "weighted_score": 0.38461539149284363
+      }
+    }
+  },
+  {
+    "virtualObject": "Red Button",
+    "physicalObject": "crumpled white tissue paper",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "center-left of the desk, sitting upright like a small mound",
+    "utilizationMethod": "Place the index finger pad on the peak of the crumpled tissue and press straight down until it flattens. The folds compress roughly 3\u20135 cm before the table stops further motion, giving progressive resistance that loosely mimics the spring travel of the emergency button; releasing the finger lets the paper re-expand, pushing the finger back up.",
+    "virtualObjectInfo": {
+      "objectName": "Red Button",
+      "involvementType": "contact",
+      "usage": "Pressing the button to trigger critical actions",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "The red cap responds to downward pressure by traveling vertically into the base assembly. The travel distance is about 4cm. Users should feel progressive compression resistance.",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 1.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.15",
+        "y": "0.06",
+        "z": "0.15"
+      },
+      "globalPosition": {
+        "x": -0.43799999356269836,
+        "y": 0.7080000042915344,
+        "z": 0.41100001335144043
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Interaction is a momentary, downward press using the pad of the index finger (occasionally palm or fist for an emergency-style slam). The user positions the finger above the center of the 15 cm-wide red cap, then applies vertical force. The button travels approximately 4 cm before a hard mechanical stop. During travel, a progressively stiff spring resistance is felt, followed by a tactile click that signals actuation. Upon release, the spring returns the cap to its original height, pushing the user\u2019s finger upward. Typical contact duration is under one second for a tap; sustained presses may occur when holding the action. The surrounding black bezel serves as a visual and physical guide, preventing lateral slip of the finger."
+    },
+    "rating_score": 4.0,
+    "property_scores": {
+      "interactivity": {
+        "mean_rating": 4.0,
+        "property_value": 1.0,
+        "weighted_score": 4.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Red Button",
+    "physicalObject": "green-and-white cardboard tissue box",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "top-left corner of the workspace",
+    "utilizationMethod": "Rest the box flat on the desk and press the palm or finger onto the center of the cardboard lid. The lid flexes downward several millimeters and the tissues inside compress further, offering a cushioned spring feel. A firm cardboard stop is felt at the end of travel, then the lid rebounds, simulating a larger, full-hand \"slam\" on the virtual red button.",
+    "virtualObjectInfo": {
+      "objectName": "Red Button",
+      "involvementType": "contact",
+      "usage": "Pressing the button to trigger critical actions",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "The red cap responds to downward pressure by traveling vertically into the base assembly. The travel distance is about 4cm. Users should feel progressive compression resistance.",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 1.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.15",
+        "y": "0.06",
+        "z": "0.15"
+      },
+      "globalPosition": {
+        "x": -0.43799999356269836,
+        "y": 0.7080000042915344,
+        "z": 0.41100001335144043
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Interaction is a momentary, downward press using the pad of the index finger (occasionally palm or fist for an emergency-style slam). The user positions the finger above the center of the 15 cm-wide red cap, then applies vertical force. The button travels approximately 4 cm before a hard mechanical stop. During travel, a progressively stiff spring resistance is felt, followed by a tactile click that signals actuation. Upon release, the spring returns the cap to its original height, pushing the user\u2019s finger upward. Typical contact duration is under one second for a tap; sustained presses may occur when holding the action. The surrounding black bezel serves as a visual and physical guide, preventing lateral slip of the finger."
+    },
+    "rating_score": 3.0,
+    "property_scores": {
+      "interactivity": {
+        "mean_rating": 3.0,
+        "property_value": 1.0,
+        "weighted_score": 3.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Red Button",
+    "physicalObject": "black retractable multi-color ballpoint pen",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "upper-center area, lying horizontally across the paper edge",
+    "utilizationMethod": "Hold the pen vertically on the desk with the clicker end up. Repeatedly depress the clicker with the thumb or index finger. The built-in spring delivers clear downward travel, increasing resistance and a crisp mechanical click at full depression, followed by an automatic return\u2014closely matching the tactile feedback of the red push-button.",
+    "virtualObjectInfo": {
+      "objectName": "Red Button",
+      "involvementType": "contact",
+      "usage": "Pressing the button to trigger critical actions",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "The red cap responds to downward pressure by traveling vertically into the base assembly. The travel distance is about 4cm. Users should feel progressive compression resistance.",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 1.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.15",
+        "y": "0.06",
+        "z": "0.15"
+      },
+      "globalPosition": {
+        "x": -0.43799999356269836,
+        "y": 0.7080000042915344,
+        "z": 0.41100001335144043
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Interaction is a momentary, downward press using the pad of the index finger (occasionally palm or fist for an emergency-style slam). The user positions the finger above the center of the 15 cm-wide red cap, then applies vertical force. The button travels approximately 4 cm before a hard mechanical stop. During travel, a progressively stiff spring resistance is felt, followed by a tactile click that signals actuation. Upon release, the spring returns the cap to its original height, pushing the user\u2019s finger upward. Typical contact duration is under one second for a tap; sustained presses may occur when holding the action. The surrounding black bezel serves as a visual and physical guide, preventing lateral slip of the finger."
+    },
+    "rating_score": 5.666666666666667,
+    "property_scores": {
+      "interactivity": {
+        "mean_rating": 5.666666666666667,
+        "property_value": 1.0,
+        "weighted_score": 5.666666666666667
+      }
+    }
+  },
+  {
+    "virtualObject": "Red Button",
+    "physicalObject": "tan fine-tip marker/pen",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "right-center of the scene, adjacent to the notebook edge",
+    "utilizationMethod": "Stand the marker vertically on its capped tip. Press down on the opposite end with a fingertip so the felt nib and cap padding compress slightly against the desk (about 2\u20133 mm) before a hard stop. The small give and rebound provide a mini spring sensation suitable for light, rapid button taps.",
+    "virtualObjectInfo": {
+      "objectName": "Red Button",
+      "involvementType": "contact",
+      "usage": "Pressing the button to trigger critical actions",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "The red cap responds to downward pressure by traveling vertically into the base assembly. The travel distance is about 4cm. Users should feel progressive compression resistance.",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 1.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.15",
+        "y": "0.06",
+        "z": "0.15"
+      },
+      "globalPosition": {
+        "x": -0.43799999356269836,
+        "y": 0.7080000042915344,
+        "z": 0.41100001335144043
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Interaction is a momentary, downward press using the pad of the index finger (occasionally palm or fist for an emergency-style slam). The user positions the finger above the center of the 15 cm-wide red cap, then applies vertical force. The button travels approximately 4 cm before a hard mechanical stop. During travel, a progressively stiff spring resistance is felt, followed by a tactile click that signals actuation. Upon release, the spring returns the cap to its original height, pushing the user\u2019s finger upward. Typical contact duration is under one second for a tap; sustained presses may occur when holding the action. The surrounding black bezel serves as a visual and physical guide, preventing lateral slip of the finger."
+    },
+    "rating_score": 2.3333333333333335,
+    "property_scores": {
+      "interactivity": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 1.0,
+        "weighted_score": 2.3333333333333335
+      }
+    }
+  },
+  {
+    "virtualObject": "Red Button",
+    "physicalObject": "closed dark gray notebook/laptop",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "bottom-left portion of the image, resting flat",
+    "utilizationMethod": "Use the broad, flat cover as an unyielding target for an emergency-style hit: slam the palm or fist onto the center of the notebook to recreate the forceful strike sometimes used on a large red button. Although there is no vertical travel, the solid impact and audible thud reinforce the decisive action characteristic of a critical push.",
+    "virtualObjectInfo": {
+      "objectName": "Red Button",
+      "involvementType": "contact",
+      "usage": "Pressing the button to trigger critical actions",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "The red cap responds to downward pressure by traveling vertically into the base assembly. The travel distance is about 4cm. Users should feel progressive compression resistance.",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 1.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.15",
+        "y": "0.06",
+        "z": "0.15"
+      },
+      "globalPosition": {
+        "x": -0.43799999356269836,
+        "y": 0.7080000042915344,
+        "z": 0.41100001335144043
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Interaction is a momentary, downward press using the pad of the index finger (occasionally palm or fist for an emergency-style slam). The user positions the finger above the center of the 15 cm-wide red cap, then applies vertical force. The button travels approximately 4 cm before a hard mechanical stop. During travel, a progressively stiff spring resistance is felt, followed by a tactile click that signals actuation. Upon release, the spring returns the cap to its original height, pushing the user\u2019s finger upward. Typical contact duration is under one second for a tap; sustained presses may occur when holding the action. The surrounding black bezel serves as a visual and physical guide, preventing lateral slip of the finger."
+    },
+    "rating_score": 1.3333333333333333,
+    "property_scores": {
+      "interactivity": {
+        "mean_rating": 1.3333333333333333,
+        "property_value": 1.0,
+        "weighted_score": 1.3333333333333333
+      }
+    }
+  },
+  {
+    "virtualObject": "Red Button",
+    "physicalObject": "white sheet of graph-patterned paper",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "top-right, draped over the desk edge",
+    "utilizationMethod": "Slide the sheet so half of it hangs off the desk, creating unsupported space beneath. Press the fingertip onto the overhanging center area and push downward about 4 cm until the paper becomes taut, then meets the hard edge of the desk as a stop. The gradual sag followed by a firm stop imitates the travel and termination of the virtual button; releasing the finger lets the sheet spring back to flat, giving a light rebound.",
+    "virtualObjectInfo": {
+      "objectName": "Red Button",
+      "involvementType": "contact",
+      "usage": "Pressing the button to trigger critical actions",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "The red cap responds to downward pressure by traveling vertically into the base assembly. The travel distance is about 4cm. Users should feel progressive compression resistance.",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 1.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.15",
+        "y": "0.06",
+        "z": "0.15"
+      },
+      "globalPosition": {
+        "x": -0.43799999356269836,
+        "y": 0.7080000042915344,
+        "z": 0.41100001335144043
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "Interaction is a momentary, downward press using the pad of the index finger (occasionally palm or fist for an emergency-style slam). The user positions the finger above the center of the 15 cm-wide red cap, then applies vertical force. The button travels approximately 4 cm before a hard mechanical stop. During travel, a progressively stiff spring resistance is felt, followed by a tactile click that signals actuation. Upon release, the spring returns the cap to its original height, pushing the user\u2019s finger upward. Typical contact duration is under one second for a tap; sustained presses may occur when holding the action. The surrounding black bezel serves as a visual and physical guide, preventing lateral slip of the finger."
+    },
+    "rating_score": 4.666666666666667,
+    "property_scores": {
+      "interactivity": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 1.0,
+        "weighted_score": 4.666666666666667
+      }
+    }
+  }
+]

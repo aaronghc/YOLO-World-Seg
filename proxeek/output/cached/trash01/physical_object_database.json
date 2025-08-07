@@ -1,0 +1,184 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "crumpled white tissue paper",
+      "position": "center-left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 93.0274658203125,
+          "y1": 0.0,
+          "x2": 687.1287841796875,
+          "y2": 557.4942626953125,
+          "width": 594.101318359375,
+          "height": 557.4942626953125,
+          "center_x": 390.078125,
+          "center_y": 278.74713134765625
+        },
+        "mask_center": {
+          "x": 400.0,
+          "y": 254.0
+        },
+        "confidence": 0.0008388306596316397,
+        "detected_name": "crumpled white tissue paper",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.373082042,
+        "y": 0.70922786,
+        "z": 0.5037498
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "green-and-white cardboard tissue box with 'Heartex' branding",
+      "position": "top-left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.154296875,
+          "y1": 0.0,
+          "x2": 631.921875,
+          "y2": 201.950927734375,
+          "width": 631.767578125,
+          "height": 201.950927734375,
+          "center_x": 316.0380859375,
+          "center_y": 100.9754638671875
+        },
+        "mask_center": {
+          "x": 87.0,
+          "y": 15.0
+        },
+        "confidence": 0.1156485304236412,
+        "detected_name": "green-and-white cardboard tissue box with 'Heartex' branding",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.494976223,
+        "y": 0.728814662,
+        "z": 0.5411094
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "black retractable multi-color ballpoint pen (red/green/blue/black)",
+      "position": "upper-center of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 799.4183349609375,
+          "y1": 492.565673828125,
+          "x2": 1262.9666748046875,
+          "y2": 959.785888671875,
+          "width": 463.54833984375,
+          "height": 467.22021484375,
+          "center_x": 1031.1925048828125,
+          "center_y": 726.17578125
+        },
+        "mask_center": {
+          "x": 1142.0,
+          "y": 927.0
+        },
+        "confidence": 0.6674002408981323,
+        "detected_name": "black retractable multi-color ballpoint pen (red/green/blue/black)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.203131646,
+        "y": 0.7033586,
+        "z": 0.424188644
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "tan-colored fine-tip marker or pen",
+      "position": "right-center of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.0,
+          "y1": 111.94239807128906,
+          "x2": 192.13665771484375,
+          "y2": 195.6861114501953,
+          "width": 192.13665771484375,
+          "height": 83.74371337890625,
+          "center_x": 96.06832885742188,
+          "center_y": 153.8142547607422
+        },
+        "mask_center": {
+          "x": 38.0,
+          "y": 145.0
+        },
+        "confidence": 0.030587872490286827,
+        "detected_name": "tan-colored fine-tip marker or pen",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.532066941,
+        "y": 0.688763,
+        "z": 0.528532863
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "closed dark gray notebook or laptop",
+      "position": "bottom-left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.0,
+          "y1": 428.1807861328125,
+          "x2": 970.6477661132812,
+          "y2": 960.0,
+          "width": 970.6477661132812,
+          "height": 531.8192138671875,
+          "center_x": 485.3238830566406,
+          "center_y": 694.0903930664062
+        },
+        "mask_center": {
+          "x": 414.0,
+          "y": 944.0
+        },
+        "confidence": 0.20400889217853546,
+        "detected_name": "closed dark gray notebook or laptop",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.295012116,
+        "y": 0.696647346,
+        "z": 0.383110553
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "white sheet of graph-patterned paper",
+      "position": "top-right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 631.8544921875,
+          "y2": 200.45382690429688,
+          "width": 631.8544921875,
+          "height": 200.45382690429688,
+          "center_x": 315.92724609375,
+          "center_y": 100.22691345214844
+        },
+        "mask_center": {
+          "x": 88.0,
+          "y": 15.0
+        },
+        "confidence": 0.009297329001128674,
+        "detected_name": "white sheet of graph-patterned paper (top-right of the image)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.49048692,
+        "y": 0.7306638,
+        "z": 0.538347661
+      }
+    }
+  ]
+}

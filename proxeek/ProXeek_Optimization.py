@@ -84,15 +84,14 @@ class ProXeekOptimizer:
     def load_data(self) -> bool:
         """Load all required data files"""
         try:
-            # Load haptic annotation data - find the most recent haptic_annotation file
-            haptic_dir = r"C:\Users\aaron\Documents\GitHub\ProXeek\ProXeek\Assets\StreamingAssets\Export"
-            haptic_files = [f for f in os.listdir(haptic_dir) if f.startswith("haptic_annotation") and f.endswith(".json")]
+            # Load haptic annotation data - locate the most recent file in the output directory
+            haptic_files = [f for f in os.listdir(self.data_dir) if f.startswith("haptic_annotation") and f.endswith(".json")]
             
             if not haptic_files:
-                raise FileNotFoundError(f"No haptic annotation files found in {haptic_dir}")
+                raise FileNotFoundError(f"No haptic annotation files found in {self.data_dir}")
             
             # Use the most recent file (sorted alphabetically, which works for timestamp format)
-            haptic_file = os.path.join(haptic_dir, sorted(haptic_files)[-1])
+            haptic_file = os.path.join(self.data_dir, sorted(haptic_files)[-1])
             print(f"Loading haptic annotation file: {haptic_file}")
             
             with open(haptic_file, 'r') as f:
@@ -100,13 +99,29 @@ class ProXeekOptimizer:
             
             # Load physical object database
             physical_file = os.path.join(self.data_dir, "physical_object_database.json")
+            print(f"DEBUG: Loading physical objects from: {physical_file}")
             with open(physical_file, 'r') as f:
                 physical_data = json.load(f)
             
+            # Debug: Show sample physical objects
+            sample_objects = []
+            for image_id, objects in physical_data.items():
+                for obj in objects[:2]:  # First 2 objects
+                    sample_objects.append(obj.get('object', 'Unknown'))
+                    if len(sample_objects) >= 3:
+                        break
+                if len(sample_objects) >= 3:
+                    break
+            print(f"DEBUG: Sample physical objects loaded: {sample_objects}")
+            
             # Load proxy matching results (for realism ratings)
             proxy_file = os.path.join(self.data_dir, "proxy_matching_results.json")
+            print(f"DEBUG: Loading proxy matching from: {proxy_file}")
             with open(proxy_file, 'r') as f:
                 proxy_data = json.load(f)
+            
+            # Store proxy data for later use (e.g., utilization methods)
+            self.proxy_data = proxy_data
             
             # Load relationship rating results (for interaction ratings)
             relationship_file = os.path.join(self.data_dir, "relationship_rating_results.json")
@@ -144,6 +159,52 @@ class ProXeekOptimizer:
             traceback.print_exc()
             return False
     
+    def load_data_from_memory(self, haptic_annotation_json: str, physical_object_database: Dict, 
+                             virtual_objects: List[Dict], proxy_matching_results: List[Dict], 
+                             relationship_rating_results: List[Dict]) -> bool:
+        """Load data from in-memory objects instead of files"""
+        try:
+            print(f"DEBUG: load_data_from_memory received:")
+            print(f"  Physical DB keys: {list(physical_object_database.keys()) if physical_object_database else 'None'}")
+            if physical_object_database:
+                sample_objects = []
+                for image_id, objects in physical_object_database.items():
+                    sample_objects.extend([obj.get('object', 'Unknown') for obj in objects[:2]])
+                    if len(sample_objects) >= 3:
+                        break
+                print(f"  Sample physical objects: {sample_objects[:3]}")
+            print(f"  Proxy matching results count: {len(proxy_matching_results) if proxy_matching_results else 0}")
+            
+            # Parse haptic annotation JSON
+            haptic_data = json.loads(haptic_annotation_json)
+            
+            # Process the in-memory data
+            self._process_virtual_objects(haptic_data)
+            self._process_physical_objects(physical_object_database)
+            # Assign positions to virtual objects
+            self._assign_virtual_positions(virtual_objects)
+            # Build auxiliary matrices
+            self._build_realism_matrix(proxy_matching_results)
+            self._build_interaction_matrices(haptic_data, relationship_rating_results)
+            self._build_distance_matrices()  # for spatial loss
+            
+            print(f"Loaded in-memory data successfully:")
+            print(f"  Virtual objects: {len(self.virtual_objects)}")
+            print(f"  Physical objects: {len(self.physical_objects)}")
+            if self.realism_matrix is not None:
+                print(f"  Realism matrix shape: {self.realism_matrix.shape}")
+                print(f"  Non-zero entries in realism matrix: {np.count_nonzero(self.realism_matrix)}")
+            if self.interaction_matrix is not None:
+                print(f"  Interaction matrix shape: {self.interaction_matrix.shape}")
+            
+            return True
+            
+        except Exception as e:
+            print(f"Error loading in-memory data: {e}")
+            import traceback
+            traceback.print_exc()
+            return False
+    
     def _process_virtual_objects(self, haptic_data: Dict) -> None:
         """Process virtual objects from haptic annotation data"""
         node_annotations = haptic_data.get("nodeAnnotations", [])
@@ -165,10 +226,13 @@ class ProXeekOptimizer:
             # Determine granular engagement level (normalized to 0-1 scale)
             engagement_level = 0.0  # default for unranked objects
             if name in complete_priority_order:
-                # Higher priority gets higher engagement level
+                # Symmetric exponential priority weighting
                 priority_rank = complete_priority_order.index(name)
-                # Scale to 0-1 range instead of 1-N range for better scalability
-                engagement_level = (len(complete_priority_order) - priority_rank) / len(complete_priority_order)
+                N = len(complete_priority_order)
+                center = (N - 1) / 2.0
+                x_i = center - priority_rank          # evenly spaced, centred at 0
+                k = 0.2                                # slope parameter for exp
+                engagement_level = math.exp(k * x_i)
             
             virtual_obj = VirtualObject(
                 name=name,
@@ -369,10 +433,12 @@ class ProXeekOptimizer:
         self.spatial_group_matrix = np.zeros((n_virtual, n_virtual))
     
     def calculate_realism_loss(self, assignment_matrix: np.ndarray) -> float:
-        """Calculate L_realism = -∑ᵢ∑ⱼ (realism_rating[i,j] × X[i,j])"""
+        """Calculate L_realism = -∑ᵢ∑ⱼ (realism_rating[i,j]² × X[i,j])"""
         if self.realism_matrix is None:
             return 0.0
-        sum_value = np.sum(self.realism_matrix * assignment_matrix.astype(float))
+        # Square the realism ratings before multiplying with assignment matrix
+        squared_realism = self.realism_matrix ** 2
+        sum_value = np.sum(squared_realism * assignment_matrix.astype(float))
         return -float(sum_value)
     
     def calculate_priority_loss(self, assignment_matrix: np.ndarray) -> float:
@@ -867,6 +933,19 @@ class ProXeekOptimizer:
                 "realism_score": float(realism_score),
                 "assignment_matrix_row": assignment.assignment_matrix[virtual_idx, :].tolist()
             }
+
+            # Lookup utilization method from proxy matching results if available
+            util_method = None
+            if hasattr(self, "proxy_data") and self.proxy_data:
+                for entry in self.proxy_data:
+                    if (entry.get("virtualObject") == virtual_obj.name and
+                        entry.get("object_id") == physical_obj.object_id and
+                        entry.get("image_id") == physical_obj.image_id):
+                        util_method = entry.get("utilizationMethod") or entry.get("utilization_method")
+                        break
+            if util_method:
+                assignment_info["utilization_method"] = util_method
+
             results["assignments"].append(assignment_info)
         
         # Save to file
@@ -1059,9 +1138,9 @@ def main():
     
     # Set loss function weights (can be adjusted)
     optimizer.w_realism = 1.0
-    optimizer.w_priority = 0.5
-    optimizer.w_interaction = 0.5
-    optimizer.w_spatial = 0.5
+    optimizer.w_priority = 1.0
+    optimizer.w_interaction = 1.0
+    optimizer.w_spatial = 1.0
     
     # Enable/disable exclusivity constraint
     optimizer.enable_exclusivity = True

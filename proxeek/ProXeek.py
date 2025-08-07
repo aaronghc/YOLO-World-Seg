@@ -14,6 +14,7 @@ from langsmith import traceable
 from langsmith.wrappers import wrap_openai
 import uuid
 import difflib
+from datetime import datetime
 import requests
 
 # Add YOLO-World + EfficientSAM imports
@@ -25,6 +26,7 @@ from utils.efficient_sam import load, inference_with_boxes
 import supervision as sv
 from supervision.detection.core import Detections
 import tempfile
+from ProXeek_Optimization import ProXeekOptimizer
 
 # =============================================================================
 # CONFIGURATION PARAMETERS - Easy to find and modify
@@ -44,9 +46,10 @@ RELATIONSHIP_RATING_BATCH_INTERVAL = 1  # Seconds between starting new batches
 
 # Process Activation Switches
 ENABLE_PROXY_MATCHING = True        # Set to True to enable proxy matching and dependent processes
-ENABLE_PROPERTY_RATING = False       # Set to True to enable property rating
-ENABLE_SUBSTRATE_UTILIZATION = False # Set to True to enable substrate utilization
-ENABLE_RELATIONSHIP_RATING = False   # Set to True to enable relationship rating
+ENABLE_PROPERTY_RATING = True       # Set to True to enable property rating
+ENABLE_SUBSTRATE_UTILIZATION = True # Set to True to enable substrate utilization
+ENABLE_RELATIONSHIP_RATING = True   # Set to True to enable relationship rating
+ENABLE_OPTIMIZATION = True          # Set to True to enable ProXeek optimization after relationship rating
 
 
 # Top-K Filtering Configuration
@@ -89,7 +92,8 @@ def normalize_name(name):
 
 # Helper function to retry async operations with exponential backoff and timeout
 async def retry_with_backoff(async_func, max_retries=3, base_delay=1.0, backoff_factor=2.0, timeout_seconds=300):
-    """Retry an async function with exponential backoff and timeout"""
+    """Previously implemented retries and timeout. Simplified to direct call due to long LLM response times."""
+    return await async_func()
     for attempt in range(max_retries):
         try:
             # Add timeout to each attempt
@@ -303,6 +307,25 @@ if len(sys.argv) > 1:
         log(f"Found {len(virtual_object_snapshots)} virtual object snapshots")
         log(f"Found {len(arrangement_snapshots)} arrangement snapshots")
         log(f"Haptic annotation JSON present: {'Yes' if haptic_annotation_json else 'No'}")
+        
+        # Save haptic annotation JSON to the output directory for optimization
+        if haptic_annotation_json:
+            output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+            os.makedirs(output_dir, exist_ok=True)
+            try:
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                haptic_output_path = os.path.join(output_dir, f"haptic_annotation_{timestamp}.json")
+                with open(haptic_output_path, 'w') as f:
+                    json.dump(json.loads(haptic_annotation_json), f, indent=2)
+                log(f"Saved haptic annotation JSON to {haptic_output_path}")
+            except Exception as e:
+                try:
+                    # Fall back to writing raw string if parsing fails
+                    with open(haptic_output_path, 'w') as f:
+                        f.write(haptic_annotation_json)
+                    log(f"Saved raw haptic annotation JSON to {haptic_output_path} due to parsing error: {e}")
+                except Exception as inner_e:
+                    log(f"Failed to save haptic annotation JSON: {inner_e}")
 
     except Exception as e:
         log(f"Error reading parameters file: {e}")
@@ -410,18 +433,25 @@ proxy_matching_llm = ChatOpenAI(
 )
 
 # Initialize the property rating LLM (using fine-tuned model)
+# property_rating_llm = ChatOpenAI(
+#     model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
+#     temperature=0.1,
+#     base_url="https://api.openai.com/v1",
+#     api_key=SecretStr(finetune_api_key) if finetune_api_key else None
+# )
+
 property_rating_llm = ChatOpenAI(
-    model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
+    model="o4-mini-2025-04-16",
     temperature=0.1,
-    base_url="https://api.openai.com/v1",
-    api_key=SecretStr(finetune_api_key) if finetune_api_key else None
+    base_url="https://api.nuwaapi.com/v1",
+    api_key=SecretStr(api_key) if api_key else None
 )
 
 # Initialize the relationship rating LLM
 relationship_rating_llm = ChatOpenAI(
     model="o4-mini-2025-04-16",
     temperature=0.1,
-    base_url="https://api.nuwaapi.com/v1",
+    base_url="https://api.openai.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
 log("Initialized relationship_rating_llm for LangSmith tracing")
@@ -920,11 +950,25 @@ async def process_single_image(image_base64: str, image_id: int) -> Dict[str, An
             HumanMessage(content=human_message_content)
         ]
         
-        # Get response from the model
-        log(f"Sending image {image_id} to object recognition model")
-        # LangChain ChatOpenAI has built-in LangSmith tracing - no extra config needed
-        response = await physical_object_recognition_llm.ainvoke(messages)
-        log(f"Received response for image {image_id}")
+        # Define the LLM call function for retry mechanism
+        async def call_object_recognition_llm():
+            log(f"Sending image {image_id} to object recognition model")
+            response = await physical_object_recognition_llm.ainvoke(messages)
+            log(f"Received response for image {image_id}")
+            return response
+        
+        # Use retry mechanism with backoff for the LLM call
+        try:
+            response = await retry_with_backoff(
+                call_object_recognition_llm,
+                max_retries=3,
+                base_delay=2.0,
+                backoff_factor=2.0,
+                timeout_seconds=120  # 2 minutes timeout per attempt
+            )
+        except Exception as e:
+            log(f"All retry attempts failed for image {image_id}: {e}")
+            return {"image_id": image_id, "objects": [], "status": "error", "error": f"Connection error after retries: {str(e)}"}
         
         # Extract JSON from response
         response_text = extract_response_text(response.content)
@@ -1435,11 +1479,28 @@ async def process_virtual_objects(haptic_annotation_json: str) -> List[Dict]:
             HumanMessage(content=human_message_content)
         ]
         
-        # Get response from the model
-        log("Sending virtual object data to LLM for haptic feedback processing")
-        # LangChain ChatOpenAI has built-in LangSmith tracing - no extra config needed
-        response = await virtual_object_processor_llm.ainvoke(messages)
-        log("Received haptic feedback descriptions")
+        # Define the LLM call function for retry mechanism
+        async def call_virtual_object_processor_llm():
+            log("Sending virtual object data to LLM for haptic feedback processing")
+            response = await virtual_object_processor_llm.ainvoke(messages)
+            log("Received haptic feedback descriptions")
+            return response
+        
+        # Use retry mechanism with backoff for the LLM call
+        try:
+            response = await retry_with_backoff(
+                call_virtual_object_processor_llm,
+                max_retries=3,
+                base_delay=2.0,
+                backoff_factor=2.0,
+                timeout_seconds=120  # 2 minutes timeout per attempt
+            )
+        except Exception as e:
+            log(f"All retry attempts failed for virtual object processing: {e}")
+            # Return the original node annotations without haptic feedback as a fallback
+            # Only include grasp and contact objects
+            return [node.copy() for node in node_annotations 
+                    if node.get("involvementType", "") in ["grasp", "contact"]]
         
         # Extract JSON from response using a more robust approach
         response_text = extract_response_text(response.content)
@@ -1694,11 +1755,29 @@ IMPORTANT:
             HumanMessage(content=human_message_content)
         ]
         
-        # Get response from the model
-        log(f"Sending proxy matching request for {virtual_object_name}")
-        # LangChain ChatOpenAI has built-in LangSmith tracing - no extra config needed
-        response = await proxy_matching_llm.ainvoke(messages)
-        log(f"Received method proposals for {virtual_object_name}")
+        # Define the LLM call function for retry mechanism
+        async def call_proxy_matching_llm():
+            log(f"Sending proxy matching request for {virtual_object_name}")
+            response = await proxy_matching_llm.ainvoke(messages)
+            log(f"Received method proposals for {virtual_object_name}")
+            return response
+        
+        # Use retry mechanism with backoff for the LLM call
+        try:
+            response = await retry_with_backoff(
+                call_proxy_matching_llm,
+                max_retries=3,
+                base_delay=2.0,
+                backoff_factor=2.0,
+                timeout_seconds=120  # 2 minutes timeout per attempt
+            )
+        except Exception as e:
+            log(f"All retry attempts failed for {virtual_object_name}: {e}")
+            # Return a basic result with the error
+            return [{
+                "virtualObject": virtual_object_name,
+                "error": f"Connection error after retries: {str(e)}"
+            }]
         
         # Extract JSON from response
         response_text = extract_response_text(response.content)
@@ -2071,11 +2150,30 @@ IMPORTANT: Include ALL physical objects in your evaluation, even those with low 
             HumanMessage(content=human_message_content)
         ]
         
-        # Get response from the model
-        log(f"Sending property rating request for {property_name} of {virtual_object_name} (run {run_index})")
-        # LangChain ChatOpenAI has built-in LangSmith tracing - no extra config needed
-        response = await property_rating_llm.ainvoke(messages)
-        log(f"Received property ratings for {property_name} of {virtual_object_name} (run {run_index})")
+        # Define the LLM call function for retry mechanism
+        async def call_property_rating_llm():
+            log(f"Sending property rating request for {property_name} of {virtual_object_name} (run {run_index})")
+            response = await property_rating_llm.ainvoke(messages)
+            log(f"Received property ratings for {property_name} of {virtual_object_name} (run {run_index})")
+            return response
+        
+        # Use retry mechanism with backoff for the LLM call
+        try:
+            response = await retry_with_backoff(
+                call_property_rating_llm,
+                max_retries=3,
+                base_delay=2.0,
+                backoff_factor=2.0,
+                timeout_seconds=120  # 2 minutes timeout per attempt
+            )
+        except Exception as e:
+            log(f"All retry attempts failed for {property_name} of {virtual_object_name}: {e}")
+            # Return a basic result with the error
+            return [{
+                "virtualObject": virtual_object_name,
+                "property": property_name.replace("Value", ""),
+                "error": f"Connection error after retries: {str(e)}"
+            }]
         
         # Extract JSON from response
         response_text = extract_response_text(response.content)
@@ -2665,16 +2763,32 @@ FORMAT YOUR RESPONSE AS A JSON ARRAY as specified in the system prompt, using th
             HumanMessage(content=human_message_content)
         ]
         
-        # Get response from the model with retry logic
-        log(f"Sending {dimension_name} rating request for group {group_index}")
-        
-        try:
-            # Make direct LLM call to maintain LangSmith tracing context
+        # Define the LLM call function for retry mechanism
+        async def call_relationship_rating_llm():
+            log(f"Sending {dimension_name} rating request for group {group_index}")
             response = await relationship_rating_llm.ainvoke(messages)
             log(f"Successfully received {dimension_name} ratings for group {group_index}")
+            return response
+        
+        # Use retry mechanism with backoff for the LLM call
+        try:
+            response = await retry_with_backoff(
+                call_relationship_rating_llm,
+                max_retries=3,
+                base_delay=2.0,
+                backoff_factor=2.0,
+                timeout_seconds=120  # 2 minutes timeout per attempt
+            )
         except Exception as e:
-            log(f"Error during {dimension_name} rating LLM call for group {group_index}: {e}")
-            raise
+            log(f"All retry attempts failed for {dimension_name} rating group {group_index}: {e}")
+            # Return a basic result with the error
+            return [{
+                "group_index": group_index,
+                "dimension": dimension_name,
+                "virtualContactObject": virtual_contact_name,
+                "virtualSubstrateObject": virtual_substrate_name,
+                "error": f"Connection error after retries: {str(e)}"
+            }]
         
         # Extract JSON from response
         response_text = extract_response_text(response.content)
@@ -3249,6 +3363,15 @@ async def run_concurrent_tasks():
             
             log("Sequential execution sequence complete: property rating → substrate utilization → relationship rating (skipped)")
         
+        # Step 4: Skip optimization during pipeline - will run separately after data export
+        if ENABLE_OPTIMIZATION:
+            log("Step 4: Skipping optimization during pipeline - will run separately after all data is exported")
+            optimization_result = None
+            results["optimization_result"] = optimization_result
+        else:
+            log("Optimization disabled")
+            results["optimization_result"] = None
+        
         # Add to results
         results["property_rating_result"] = property_rating_results
         results["relationship_rating_result"] = relationship_rating_results
@@ -3266,6 +3389,7 @@ async def run_concurrent_tasks():
         results["property_rating_result"] = []
         results["relationship_rating_result"] = []
         results["substrate_utilization_result"] = []
+        results["optimization_result"] = []
     
     # Store the enhanced physical object database in results
     results["enhanced_physical_result"] = physical_object_database
@@ -3774,11 +3898,31 @@ FORMAT YOUR RESPONSE as specified in the system prompt, using the EXACT object I
             HumanMessage(content=human_message_content)
         ]
         
-        # Get response from the model
-        log(f"Sending substrate utilization request for {virtual_contact_name} -> {virtual_substrate_name}")
-        # LangChain ChatOpenAI has built-in LangSmith tracing - no extra config needed
-        response = await substrate_utilization_llm.ainvoke(messages)
-        log(f"Received substrate utilization methods for {virtual_contact_name} -> {virtual_substrate_name}")
+        # Define the LLM call function for retry mechanism
+        async def call_substrate_utilization_llm():
+            log(f"Sending substrate utilization request for {virtual_contact_name} -> {virtual_substrate_name}")
+            response = await substrate_utilization_llm.ainvoke(messages)
+            log(f"Received substrate utilization methods for {virtual_contact_name} -> {virtual_substrate_name}")
+            return response
+        
+        # Use retry mechanism with backoff for the LLM call
+        try:
+            response = await retry_with_backoff(
+                call_substrate_utilization_llm,
+                max_retries=3,
+                base_delay=2.0,
+                backoff_factor=2.0,
+                timeout_seconds=120  # 2 minutes timeout per attempt
+            )
+        except Exception as e:
+            log(f"All retry attempts failed for substrate utilization {virtual_contact_name} -> {virtual_substrate_name}: {e}")
+            # Return a basic result with the error
+            return [{
+                "virtualContactObject": virtual_contact_name,
+                "virtualSubstrateObject": virtual_substrate_name,
+                "physicalContactObject": contact_object.get('object', 'Unknown'),
+                "error": f"Connection error after retries: {str(e)}"
+            }]
         
         # Extract JSON from response
         response_text = extract_response_text(response.content)
@@ -4292,6 +4436,159 @@ async def send_segmentation_data_to_quest(enhanced_physical_database: Dict[int, 
         log(f"Error sending segmentation data to Quest: {e}")
         return False
 
+
+@traceable(run_type="chain", metadata={"process": "proxeek_optimization"})
+async def run_optimization(output_dir: str = None, haptic_annotation_json: str = None, 
+                          physical_object_database: Dict = None, virtual_objects: List[Dict] = None,
+                          proxy_matching_results: List[Dict] = None, relationship_rating_results: List[Dict] = None) -> Optional[Dict]:
+    """Run ProXeek optimization to find optimal haptic proxy assignments"""
+    try:
+        log("Starting ProXeek optimization...")
+        
+        # Use default output directory if not provided
+        if output_dir is None:
+            output_dir = r"C:\Users\aaron\Documents\GitHub\YOLO-World-Seg\proxeek\output"
+        
+        # Initialize optimizer
+        optimizer = ProXeekOptimizer(data_dir=output_dir)
+        
+        # Load data from exported files
+        log("Loading data from exported files...")
+        if not optimizer.load_data():
+            log("Failed to load data for optimization")
+            return None
+        
+        # Set optimization parameters (can be adjusted)
+        optimizer.w_realism = 1.0
+        optimizer.w_priority = 1.0
+        optimizer.w_interaction = 1.0
+        optimizer.w_spatial = 1.0
+        optimizer.enable_exclusivity = True
+        
+        log(f"Optimization parameters: realism={optimizer.w_realism}, priority={optimizer.w_priority}, interaction={optimizer.w_interaction}, spatial={optimizer.w_spatial}, exclusivity={optimizer.enable_exclusivity}")
+        
+        # Run optimization
+        best_assignment = optimizer.optimize()
+        
+        if best_assignment:
+            log(f"Optimization completed successfully with total loss: {best_assignment.total_loss:.4f}")
+            
+            # Save optimization results
+            optimizer.save_results(best_assignment)
+            
+            # Return the assignment for further processing
+            return {
+                "assignment": best_assignment,
+                "optimizer": optimizer
+            }
+        else:
+            log("Optimization failed - no valid assignment found")
+            return None
+            
+    except Exception as e:
+        log(f"Error in optimization: {e}")
+        import traceback
+        traceback.print_exc()
+        return None
+
+
+def format_optimization_results_for_quest(optimization_result: Dict, proxy_matching_results: List[Dict]) -> List[Dict]:
+    """Format optimization results for Quest with virtualObjectName, proxyObjectName, utilizationMethod"""
+    try:
+        log("Formatting optimization results for Quest...")
+        
+        assignment = optimization_result["assignment"]
+        optimizer = optimization_result["optimizer"]
+        assignments_data = optimization_result.get("assignments", [])
+        
+        quest_results = []
+        
+        # Process each assignment
+        for virtual_idx, physical_idx in assignment.virtual_to_physical.items():
+            virtual_obj = optimizer.virtual_objects[virtual_idx]
+            physical_obj = optimizer.physical_objects[physical_idx]
+            
+            # Find utilization method from optimization assignments data
+            utilization_method = "No utilization method available"
+            for assignment_data in assignments_data:
+                if (assignment_data.get("virtual_object", {}).get("name") == virtual_obj.name and
+                    assignment_data.get("physical_object", {}).get("name") == physical_obj.name):
+                    utilization_method = assignment_data.get("utilization_method", "No utilization method available")
+                    break
+            
+            # If not found in assignments, try proxy matching results as fallback
+            if utilization_method == "No utilization method available":
+                for proxy_result in proxy_matching_results:
+                    if (normalize_name(proxy_result.get("virtualObject", "")) == normalize_name(virtual_obj.name) and
+                        normalize_name(proxy_result.get("physicalObject", "")) == normalize_name(physical_obj.name)):
+                        utilization_method = proxy_result.get("utilizationMethod", "No utilization method available")
+                        break
+            
+            quest_result = {
+                "virtualObjectName": virtual_obj.name,
+                "proxyObjectName": physical_obj.name,
+                "utilizationMethod": utilization_method
+            }
+            quest_results.append(quest_result)
+            
+            log(f"Formatted assignment: {virtual_obj.name} -> {physical_obj.name} | util: {utilization_method[:100]}...")
+        
+        log(f"Formatted {len(quest_results)} optimization results for Quest")
+        return quest_results
+        
+    except Exception as e:
+        log(f"Error formatting optimization results: {e}")
+        return []
+
+
+async def send_optimization_results_to_quest(optimization_results: List[Dict]) -> bool:
+    """Send optimization results to Quest via the local server"""
+    try:
+        log("Preparing optimization results for Quest transmission...")
+        
+        total_assignments = len(optimization_results)
+        log(f"Sending optimization results for {total_assignments} assignments to Quest")
+        
+        # Prepare the payload for Quest
+        quest_payload = {
+            "action": "optimization_results",
+            "data": optimization_results,
+            "timestamp": str(uuid.uuid4()),
+            "total_assignments": total_assignments
+        }
+
+        # --- Save the exact payload we are about to send so Quest can be re-fed later ----
+        try:
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            out_dir    = os.path.join(script_dir, "output")
+            os.makedirs(out_dir, exist_ok=True)
+            payload_path = os.path.join(out_dir, "optimization_results_for_quest.json")
+            with open(payload_path, "w") as fp:
+                json.dump(quest_payload, fp, indent=2)
+            log(f"Saved Quest optimization payload to {payload_path}")
+        except Exception as save_err:
+            log(f"Warning: could not save optimization payload locally: {save_err}")
+        
+        # Send to Quest via local server (assuming server runs on localhost:5000)
+        server_url = "http://localhost:5000/send_to_quest"
+        
+        response = requests.post(
+            server_url,
+            json=quest_payload,
+            timeout=10  # 10 second timeout
+        )
+        
+        if response.status_code == 200:
+            log("Successfully sent optimization results to Quest")
+            return True
+        else:
+            log(f"Failed to send optimization results to Quest: HTTP {response.status_code}")
+            return False
+            
+    except Exception as e:
+        log(f"Error sending optimization results to Quest: {e}")
+        return False
+
 try:
     # Create a variable to store the processing results
     result: Dict[str, Any] = {"status": "success", "message": "Processing complete"}
@@ -4644,8 +4941,89 @@ try:
             "utilization_results": []
         }
     
+    # Skip processing optimization results here - will be handled in post-pipeline optimization
+    if False:  # Disabled - optimization runs separately after data export
+        pass
+    else:
+        # Handle disabled or unavailable optimization
+        if not ENABLE_PROXY_MATCHING:
+            log("Optimization skipped - proxy matching disabled via configuration")
+            status_message = "Optimization skipped - proxy matching disabled via configuration"
+        elif not ENABLE_OPTIMIZATION:
+            log("Optimization disabled via configuration")
+            status_message = "Optimization disabled via configuration"
+        else:
+            log("No data available for optimization")
+            status_message = "No environment images or haptic annotation data provided"
+        
+        result["optimization"] = {
+            "status": "disabled" if not ENABLE_PROXY_MATCHING or not ENABLE_OPTIMIZATION else "no_data",
+            "message": status_message,
+            "count": 0,
+            "optimization_results": []
+        }
+    
     # Print final result as JSON
     # print(json.dumps(result, indent=2))
+    
+    # Run optimization separately after all data is exported (if enabled)
+    if ENABLE_OPTIMIZATION and environment_image_base64_list and haptic_annotation_json:
+        try:
+            log("\n" + "="*60)
+            log("RUNNING POST-PIPELINE OPTIMIZATION")
+            log("="*60)
+            log("All data has been exported to files. Running optimization with fresh data...")
+            
+            # Run optimization using the exported files
+            optimization_result = asyncio.run(run_optimization())
+            
+            if optimization_result:
+                log("Post-pipeline optimization completed successfully!")
+                
+                # Update the result with optimization data
+                result["optimization"] = {
+                    "status": "completed",
+                    "message": "Optimization completed successfully",
+                    "count": len(optimization_result.get("assignments", [])),
+                    "optimization_results": optimization_result
+                }
+                
+                # Format and send results to Quest if needed
+                try:
+                    # Load proxy matching results for formatting
+                    proxy_matching_file = os.path.join(r"C:\Users\aaron\Documents\GitHub\YOLO-World-Seg\proxeek\output", "proxy_matching_results.json")
+                    if os.path.exists(proxy_matching_file):
+                        with open(proxy_matching_file, 'r') as f:
+                            proxy_matching_data = json.load(f)
+                        
+                        quest_optimization_results = format_optimization_results_for_quest(
+                            optimization_result, proxy_matching_data
+                        )
+                        asyncio.run(send_optimization_results_to_quest(quest_optimization_results))
+                        log("Optimization results sent to Quest successfully")
+                    
+                except Exception as quest_error:
+                    log(f"Warning: Failed to send optimization results to Quest: {quest_error}")
+                    
+            else:
+                log("Post-pipeline optimization failed")
+                result["optimization"] = {
+                    "status": "failed", 
+                    "message": "Optimization failed during execution",
+                    "count": 0,
+                    "optimization_results": []
+                }
+                
+        except Exception as opt_error:
+            log(f"Error during post-pipeline optimization: {opt_error}")
+            import traceback
+            log(traceback.format_exc())
+            result["optimization"] = {
+                "status": "error",
+                "message": f"Optimization error: {str(opt_error)}",
+                "count": 0, 
+                "optimization_results": []
+            }
         
 except Exception as e:
     log(f"Error in processing: {e}")
