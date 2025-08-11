@@ -2,16 +2,36 @@
   "action": "optimization_results",
   "data": [
     {
-      "virtualObjectName": "Hammer",
-      "proxyObjectName": "spiral-bound graph paper notebook with handwritten notes",
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "white paper towel roll (partially used)",
       "utilizationMethod": "No utilization method available"
     },
     {
-      "virtualObjectName": "Red Button",
-      "proxyObjectName": "black mechanical computer keyboard with function keys",
-      "utilizationMethod": "Use one of the larger keys (e.g., the space-bar or Enter key) as the press surface. Rest your index finger on that key and push straight down until the key bottoms out. The key\u2019s built-in switch and return spring give a clear travel distance, progressive resistance, an audible click, and automatic rebound\u2014closely mimicking the feel of depressing and releasing the virtual red button."
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "transparent disposable plastic cup",
+      "utilizationMethod": "No utilization method available"
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "red and white beverage carton with screw cap",
+      "utilizationMethod": "Hold the top corner of the carton like a vertical handle\u2014thumb on one panel, fingers on the opposite panel. Fill the carton with liquid to create a bottom-heavy feel, then raise and tilt it as though drinking from a mug. The rectangular body substitutes for the wooden barrel while the corner edge mimics a slender handle."
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "black over-ear headphones",
+      "utilizationMethod": "Wrap fingers firmly around the flexible headband near one earcup and let the opposite earcup swing forward as the \u2018axe head.\u2019 The two earcups supply distributed weight that pulls against the hand during broad swings, while the padded band offers a thick cylindrical grip approximating a tool handle."
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "black stainless steel water bottle with silver screw cap",
+      "utilizationMethod": "Grip the bottle just above its lower third so that most of the mass (the full metal body and any remaining liquid) sits forward of your hand, creating a head-heavy feel. Swing downward in short arcs, letting the weight pull your wrist much like a real hammer head while your closed fingers feel the cylindrical circumference of the bottle as the handle."
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "black-handled, silver-shafted adjustable phone selfie stick",
+      "utilizationMethod": "Hold the rubberized handle exactly as the sickle grip and keep the phone clamp folded forward to approximate the blade tip. The telescopic shaft adds forward length and modest mass, enabling realistic sweeping arcs followed by a pulling motion that produces noticeable inertia along the stick\u2019s length."
     }
   ],
-  "timestamp": "5e71981e-26c1-4ead-908c-9d35ef3e956f",
-  "total_assignments": 2
+  "timestamp": "49a647b9-d013-48ed-a2f7-aec1ce70abe5",
+  "total_assignments": 6
 }

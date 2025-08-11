@@ -433,25 +433,25 @@ proxy_matching_llm = ChatOpenAI(
 )
 
 # Initialize the property rating LLM (using fine-tuned model)
-# property_rating_llm = ChatOpenAI(
-#     model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
-#     temperature=0.1,
-#     base_url="https://api.openai.com/v1",
-#     api_key=SecretStr(finetune_api_key) if finetune_api_key else None
-# )
-
 property_rating_llm = ChatOpenAI(
-    model="o4-mini-2025-04-16",
+    model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
     temperature=0.1,
-    base_url="https://api.nuwaapi.com/v1",
-    api_key=SecretStr(api_key) if api_key else None
+    base_url="https://api.openai.com/v1",
+    api_key=SecretStr(finetune_api_key) if finetune_api_key else None
 )
+
+# property_rating_llm = ChatOpenAI(
+#     model="o4-mini-2025-04-16",
+#     temperature=0.1,
+#     base_url="https://api.nuwaapi.com/v1",
+#     api_key=SecretStr(api_key) if api_key else None
+# )
 
 # Initialize the relationship rating LLM
 relationship_rating_llm = ChatOpenAI(
     model="o4-mini-2025-04-16",
     temperature=0.1,
-    base_url="https://api.openai.com/v1",
+    base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
 log("Initialized relationship_rating_llm for LangSmith tracing")
@@ -532,7 +532,7 @@ For each virtual object, consider the following information:
 - usage: Overall usage of this virtual object in the VR scene
 - inertia: Highly expected haptic feedback, if any, regarding the target virtual object's mass, weight distribution, and resistance to movement.
 - interactivity: Highly expected haptic feedback, if any, regarding how the virtual object responds to user actions.
-- outline: Highly expected haptic feedback, if any, regarding the target virtual object's shape and size.
+- outline: Highly expected haptic feedback, if any, regarding the virtual object's shape and size when contacted or grasped.
 - texture: Highly expected haptic feedback, if any, regarding the target virtual object's surface feel and tactile patterns.
 - hardness: Highly expected haptic feedback, if any, regarding the target virtual object's rigidity, compliance, and deformation.
 - temperature: Highly expected haptic feedback, if any, regarding the target virtual object's thermal properties and heat transfer.

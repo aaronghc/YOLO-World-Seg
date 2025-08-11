@@ -178,6 +178,9 @@ class ProXeekOptimizer:
             # Parse haptic annotation JSON
             haptic_data = json.loads(haptic_annotation_json)
             
+            # Store haptic data for spatial group processing
+            self.haptic_data = haptic_data
+            
             # Process the in-memory data
             self._process_virtual_objects(haptic_data)
             self._process_physical_objects(physical_object_database)
@@ -431,6 +434,108 @@ class ProXeekOptimizer:
         # Spatial group matrix: default no spatial relationships (all zeros)
         # Only explicit spatial groups should have non-zero values
         self.spatial_group_matrix = np.zeros((n_virtual, n_virtual))
+        
+        # Process spatial groups from haptic annotation data if available
+        # We need to access the haptic data that was loaded earlier
+        if hasattr(self, 'haptic_data') and self.haptic_data is not None:
+            self._process_spatial_groups(self.haptic_data)
+        else:
+            # Try to find haptic data from the output directory
+            self._try_load_haptic_data_for_spatial_groups()
+    
+    def _try_load_haptic_data_for_spatial_groups(self) -> None:
+        """Try to load haptic annotation data to process spatial groups"""
+        try:
+            # Look for haptic annotation files in the output directory
+            haptic_files = [f for f in os.listdir(self.data_dir) if f.startswith("haptic_annotation") and f.endswith(".json")]
+            
+            if haptic_files:
+                # Use the most recent file
+                haptic_file = os.path.join(self.data_dir, sorted(haptic_files)[-1])
+                print(f"Loading haptic annotation for spatial groups: {haptic_file}")
+                
+                with open(haptic_file, 'r') as f:
+                    haptic_data = json.load(f)
+                
+                self._process_spatial_groups(haptic_data)
+            else:
+                print("No haptic annotation files found for spatial group processing")
+        except Exception as e:
+            print(f"Error loading haptic data for spatial groups: {e}")
+    
+    def _process_spatial_groups(self, haptic_data: Dict) -> None:
+        """Process spatial groups from haptic annotation data to populate spatial_group_matrix"""
+        groups = haptic_data.get("groups", [])
+        if not groups:
+            print("No spatial groups found in haptic annotation data")
+            return
+        
+        # Create mapping from virtual object name to index
+        virtual_name_to_index = {obj.name: obj.index for obj in self.virtual_objects}
+        
+        spatial_relationships_found = 0
+        
+        for group in groups:
+            group_title = group.get("title", "Unknown")
+            object_names = group.get("objectNames", [])
+            object_vectors = group.get("objectVectors", [])
+            
+            print(f"Processing spatial group: {group_title} with {len(object_names)} objects")
+            
+            # Mark all objects in the group as spatially related to each other
+            for i, obj_name_i in enumerate(object_names):
+                if obj_name_i not in virtual_name_to_index:
+                    print(f"  Warning: Virtual object '{obj_name_i}' not found in virtual objects list")
+                    continue
+                idx_i = virtual_name_to_index[obj_name_i]
+                
+                for j, obj_name_j in enumerate(object_names):
+                    if obj_name_j not in virtual_name_to_index:
+                        print(f"  Warning: Virtual object '{obj_name_j}' not found in virtual objects list")
+                        continue
+                    idx_j = virtual_name_to_index[obj_name_j]
+                    
+                    # Mark spatial relationship (symmetric)
+                    if idx_i != idx_j:
+                        self.spatial_group_matrix[idx_i, idx_j] = 1.0
+                        self.spatial_group_matrix[idx_j, idx_i] = 1.0
+                        spatial_relationships_found += 1
+                        print(f"    Marked spatial relationship: {obj_name_i} <-> {obj_name_j}")
+            
+            # Process object vectors for distance validation (optional)
+            for vector_info in object_vectors:
+                obj_a = vector_info.get("objectA", "")
+                obj_b = vector_info.get("objectB", "")
+                expected_distance = vector_info.get("distance", 0.0)
+                
+                if obj_a in virtual_name_to_index and obj_b in virtual_name_to_index:
+                    idx_a = virtual_name_to_index[obj_a]
+                    idx_b = virtual_name_to_index[obj_b]
+                    
+                    # Verify that the computed distance matches the expected distance
+                    if (self.virtual_objects[idx_a].position is not None and 
+                        self.virtual_objects[idx_b].position is not None):
+                        computed_distance = self.virtual_distance_matrix[idx_a, idx_b]
+                        distance_diff = abs(computed_distance - expected_distance)
+                        
+                        if distance_diff > 0.01:  # 1cm tolerance
+                            print(f"Warning: Distance mismatch for {obj_a}->{obj_b}: "
+                                  f"computed={computed_distance:.3f}, expected={expected_distance:.3f}")
+        
+        print(f"Found {spatial_relationships_found} spatial relationships in {len(groups)} groups")
+        
+        # Debug: show which virtual objects have spatial relationships
+        spatial_objects = set()
+        for i in range(len(self.virtual_objects)):
+            for j in range(len(self.virtual_objects)):
+                if self.spatial_group_matrix[i, j] > 0:
+                    spatial_objects.add(self.virtual_objects[i].name)
+                    spatial_objects.add(self.virtual_objects[j].name)
+        
+        if spatial_objects:
+            print(f"Spatially related virtual objects: {', '.join(sorted(spatial_objects))}")
+        else:
+            print("No spatial relationships found - L_spatial will be 0")
     
     def calculate_realism_loss(self, assignment_matrix: np.ndarray) -> float:
         """Calculate L_realism = -∑ᵢ∑ⱼ (realism_rating[i,j]² × X[i,j])"""
@@ -503,20 +608,34 @@ class ProXeekOptimizer:
         """Calculate L_spatial based only on distance distortions (no direction)"""
         if (self.spatial_group_matrix is None or
             self.virtual_distance_matrix is None or self.physical_distance_matrix is None):
+            print("DEBUG: Spatial loss returning 0 - missing required matrices")
             return 0.0
+        
         # Cast to local vars for clarity
         virtual_dist_mat = self.virtual_distance_matrix
         physical_dist_mat = self.physical_distance_matrix
         n_virtual = len(self.virtual_objects)
         assigned_physical = np.argmax(assignment_matrix, axis=1)
         loss = 0.0
+        relationships_processed = 0
+        
         for i in range(n_virtual):
             for k in range(n_virtual):
                 if i == k or self.spatial_group_matrix[i, k] == 0:
                     continue
+                
                 v_dist = virtual_dist_mat[i, k]
                 p_dist = physical_dist_mat[assigned_physical[i], assigned_physical[k]]
-                loss += (v_dist - p_dist) ** 2
+                dist_diff = v_dist - p_dist
+                loss += dist_diff ** 2
+                relationships_processed += 1
+                
+                # # Debug: show first few relationships
+                # if relationships_processed <= 3:
+                #     print(f"DEBUG: Spatial relationship {self.virtual_objects[i].name}->{self.virtual_objects[k].name}: "
+                #           f"virtual_dist={v_dist:.3f}, physical_dist={p_dist:.3f}, diff={dist_diff:.3f}")
+        
+        # print(f"DEBUG: Processed {relationships_processed} spatial relationships, total loss: {loss:.6f}")
         return float(loss)
     
     def calculate_total_loss(self, assignment_matrix: np.ndarray) -> Tuple[float, Dict[str, float]]:
@@ -621,11 +740,18 @@ class ProXeekOptimizer:
                 top_k_assignments[v_idx] = top_k_indices
                 
                 print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Top-{k} realism scores (with ties): {realism_scores[top_k_indices]}")
-                print(f"    Selected {len(top_k_indices)} objects (including ties)")
+                print(f"    Selected {len(top_k_indices)} objects (including ties):")
+                for idx in top_k_indices:
+                    physical_obj_name = self.physical_objects[idx].name
+                    score = realism_scores[idx]
+                    print(f"      - {physical_obj_name}: {score:.3f}")
             else:
                 # For substrate objects, use all physical objects since realism ratings are zero
                 top_k_assignments[v_idx] = list(range(n_physical))
-                print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Using all physical objects (substrate)")
+                print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Using all physical objects (substrate):")
+                for idx in range(n_physical):
+                    physical_obj_name = self.physical_objects[idx].name
+                    print(f"      - {physical_obj_name}")
         
         # Generate assignments using only top-K combinations
         valid_assignments = []
@@ -794,6 +920,55 @@ class ProXeekOptimizer:
                                     sample_count += 1
                         if non_zero_count > 3:
                             print(f"    ... and {non_zero_count - 3} more")
+        
+        # Print spatial matrices information
+        print(f"\nSpatial Matrices:")
+        print("-" * 40)
+        
+        # Spatial group matrix
+        if self.spatial_group_matrix is not None:
+            spatial_relationships = np.count_nonzero(self.spatial_group_matrix)
+            print(f"Spatial Group Matrix: {spatial_relationships} non-zero entries")
+            
+            if spatial_relationships > 0:
+                print("Spatial relationships found:")
+                for i in range(self.spatial_group_matrix.shape[0]):
+                    for j in range(self.spatial_group_matrix.shape[1]):
+                        if self.spatial_group_matrix[i, j] > 0 and i != j:
+                            obj_i_name = self.virtual_objects[i].name
+                            obj_j_name = self.virtual_objects[j].name
+                            print(f"  {obj_i_name} <-> {obj_j_name}")
+            else:
+                print("No spatial relationships found")
+        else:
+            print("Spatial Group Matrix: Not initialized")
+        
+        # Virtual distance matrix
+        if self.virtual_distance_matrix is not None:
+            non_zero_distances = np.count_nonzero(self.virtual_distance_matrix)
+            print(f"Virtual Distance Matrix: {non_zero_distances} non-zero entries")
+            
+            # Show a few sample distances
+            if non_zero_distances > 0:
+                sample_count = 0
+                for i in range(self.virtual_distance_matrix.shape[0]):
+                    for j in range(self.virtual_distance_matrix.shape[1]):
+                        if (self.virtual_distance_matrix[i, j] > 0 and i != j and 
+                            sample_count < 5):
+                            obj_i_name = self.virtual_objects[i].name
+                            obj_j_name = self.virtual_objects[j].name
+                            distance = self.virtual_distance_matrix[i, j]
+                            print(f"  {obj_i_name} -> {obj_j_name}: {distance:.3f}m")
+                            sample_count += 1
+        else:
+            print("Virtual Distance Matrix: Not initialized")
+        
+        # Physical distance matrix
+        if self.physical_distance_matrix is not None:
+            non_zero_distances = np.count_nonzero(self.physical_distance_matrix)
+            print(f"Physical Distance Matrix: {non_zero_distances} non-zero entries")
+        else:
+            print("Physical Distance Matrix: Not initialized")
         
         print("="*60)
 
@@ -1139,8 +1314,8 @@ def main():
     # Set loss function weights (can be adjusted)
     optimizer.w_realism = 1.0
     optimizer.w_priority = 1.0
-    optimizer.w_interaction = 1.0
-    optimizer.w_spatial = 1.0
+    optimizer.w_interaction = 1
+    optimizer.w_spatial = 1
     
     # Enable/disable exclusivity constraint
     optimizer.enable_exclusivity = True

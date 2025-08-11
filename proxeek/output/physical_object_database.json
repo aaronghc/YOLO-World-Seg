@@ -2,118 +2,304 @@
   "0": [
     {
       "object_id": 1,
-      "object": "black mechanical computer keyboard with function keys",
-      "position": "top center of the image",
-      "worldposition": {
-        "x": 0.09688011,
-        "y": 0.7159135,
-        "z": 0.7575619
-      },
+      "object": "black stainless steel water bottle with silver screw cap",
+      "position": "slightly above center of the table",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 0.6876221,
-          "y1": 0.2305603,
-          "x2": 1038.42175,
-          "y2": 499.908356,
-          "width": 1037.73413,
-          "height": 499.6778,
-          "center_x": 519.5547,
-          "center_y": 250.069458
+          "x1": 662.5182495117188,
+          "y1": 213.91436767578125,
+          "x2": 780.9010620117188,
+          "y2": 518.1422729492188,
+          "width": 118.3828125,
+          "height": 304.2279052734375,
+          "center_x": 721.7096557617188,
+          "center_y": 366.0283203125
         },
         "mask_center": {
-          "x": 663.0,
-          "y": 15.0
+          "x": 721.0,
+          "y": 325.0
         },
-        "confidence": 0.9921427,
-        "detected_name": "black mechanical computer keyboard with function keys"
+        "confidence": 0.9737204909324646,
+        "detected_name": "black stainless steel water bottle with silver screw cap",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.0375573933,
+        "y": 0.9525604,
+        "z": 0.8537694
       }
     },
     {
       "object_id": 2,
-      "object": "green plastic round cup",
-      "position": "top left of the image",
-      "worldposition": {
-        "x": -0.0593688264,
-        "y": 0.7202292,
-        "z": 0.7410871
-      },
+      "object": "white paper towel roll (partially used)",
+      "position": "top right of the table",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 69.14993,
-          "y1": 0.0,
-          "x2": 213.125366,
-          "y2": 15.5291882,
-          "width": 143.975433,
-          "height": 15.5291882,
-          "center_x": 141.13765,
-          "center_y": 7.764594
+          "x1": 806.1058959960938,
+          "y1": 4.05291748046875,
+          "x2": 1022.4757690429688,
+          "y2": 232.01181030273438,
+          "width": 216.369873046875,
+          "height": 227.95889282226562,
+          "center_x": 914.2908325195312,
+          "center_y": 118.03236389160156
         },
         "mask_center": {
-          "x": 135.303467,
-          "y": 5.536563
+          "x": 894.0,
+          "y": 128.0
         },
-        "confidence": 0.0567212664,
-        "detected_name": "green plastic round cup"
+        "confidence": 0.012846646830439568,
+        "detected_name": "white paper towel roll (partially used)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.405539632,
+        "y": 0.8703624,
+        "z": 0.927049935
       }
     },
     {
       "object_id": 3,
-      "object": "beige fineliner pen",
-      "position": "top right of the image",
-      "worldposition": {
-        "x": 0.236834586,
-        "y": 0.683424056,
-        "z": 0.690056741
-      },
+      "object": "red and white beverage carton with screw cap",
+      "position": "right side of the table",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 1053.74829,
-          "y1": 23.23468,
-          "x2": 1210.04321,
-          "y2": 425.492554,
-          "width": 156.294922,
-          "height": 402.257874,
-          "center_x": 1131.89575,
-          "center_y": 224.363617
+          "x1": 660.972412109375,
+          "y1": 213.38623046875,
+          "x2": 782.4512939453125,
+          "y2": 520.4661254882812,
+          "width": 121.4788818359375,
+          "height": 307.07989501953125,
+          "center_x": 721.7118530273438,
+          "center_y": 366.9261779785156
         },
         "mask_center": {
-          "x": 1165.0,
-          "y": 340.0
+          "x": 721.0,
+          "y": 325.0
         },
-        "confidence": 0.513061166,
-        "detected_name": "beige fineliner pen"
+        "confidence": 0.054884012788534164,
+        "detected_name": "red and white beverage carton with screw cap (right side of the table)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.0375573933,
+        "y": 0.9525604,
+        "z": 0.8537694
       }
     },
     {
       "object_id": 4,
-      "object": "spiral-bound graph paper notebook with handwritten notes",
-      "position": "bottom left of the image",
-      "worldposition": {
-        "x": 0.07835664,
-        "y": 0.6976481,
-        "z": 0.5196725
-      },
+      "object": "transparent disposable plastic cup",
+      "position": "just left of the water bottle, above center of the table",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 0.0,
-          "y1": 519.1339,
-          "x2": 730.804932,
-          "y2": 960.0,
-          "width": 730.804932,
-          "height": 440.8661,
-          "center_x": 365.402466,
-          "center_y": 739.566956
+          "x1": 534.6508178710938,
+          "y1": 251.60296630859375,
+          "x2": 615.2700805664062,
+          "y2": 367.95880126953125,
+          "width": 80.6192626953125,
+          "height": 116.3558349609375,
+          "center_x": 574.96044921875,
+          "center_y": 309.7808837890625
         },
         "mask_center": {
-          "x": 309.0,
-          "y": 943.0
+          "x": 575.0,
+          "y": 325.0
         },
-        "confidence": 0.131564662,
-        "detected_name": "spiral-bound graph paper notebook with handwritten notes"
+        "confidence": 0.2205573171377182,
+        "detected_name": "transparent disposable plastic cup",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.129340261,
+        "y": 0.791949034,
+        "z": 0.6634252
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "small silver cylindrical container with black top",
+      "position": "left center of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 299.90887451171875,
+          "y1": 512.9722900390625,
+          "x2": 374.44378662109375,
+          "y2": 599.1043701171875,
+          "width": 74.534912109375,
+          "height": 86.132080078125,
+          "center_x": 337.17633056640625,
+          "center_y": 556.038330078125
+        },
+        "mask_center": {
+          "x": 331.0,
+          "y": 545.0
+        },
+        "confidence": 0.9333176612854004,
+        "detected_name": "small silver cylindrical container with black top",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.183110923,
+        "y": 0.8104428,
+        "z": 0.577694535
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "black over-ear headphones",
+      "position": "bottom right of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 647.9859619140625,
+          "y1": 601.3070068359375,
+          "x2": 968.592529296875,
+          "y2": 928.736083984375,
+          "width": 320.6065673828125,
+          "height": 327.4290771484375,
+          "center_x": 808.2892456054688,
+          "center_y": 765.0215454101562
+        },
+        "mask_center": {
+          "x": 753.0,
+          "y": 748.0
+        },
+        "confidence": 0.2519502639770508,
+        "detected_name": "black over-ear headphones",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.279422283,
+        "y": 0.85468173,
+        "z": 0.9294343
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "grey camouflage-pattern protective game controller shell",
+      "position": "top left of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 199.21237182617188,
+          "y1": 203.12175750732422,
+          "x2": 347.6848449707031,
+          "y2": 337.1400833129883,
+          "width": 148.47247314453125,
+          "height": 134.01832580566406,
+          "center_x": 273.4486083984375,
+          "center_y": 270.13092041015625
+        },
+        "mask_center": {
+          "x": 276.0,
+          "y": 278.0
+        },
+        "confidence": 0.0011381545336917043,
+        "detected_name": "grey camouflage-pattern protective game controller shell",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.3402361,
+        "y": 0.785045445,
+        "z": 1.43392956
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "black-handled, silver-shafted adjustable phone selfie stick",
+      "position": "upper center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 557.8314208984375,
+          "y1": 48.590087890625,
+          "x2": 698.3770751953125,
+          "y2": 291.3672180175781,
+          "width": 140.545654296875,
+          "height": 242.77713012695312,
+          "center_x": 628.104248046875,
+          "center_y": 169.97865295410156
+        },
+        "mask_center": {
+          "x": 581.0,
+          "y": 226.0
+        },
+        "confidence": 0.11094211041927338,
+        "detected_name": "black-handled, silver-shafted adjustable phone selfie stick",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.3109069,
+        "y": 0.7749261,
+        "z": 1.71336031
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "green plush turtle shell cushion with white foam border",
+      "position": "bottom right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 538.998779296875,
+          "y1": 365.8983154296875,
+          "x2": 1081.513671875,
+          "y2": 858.120849609375,
+          "width": 542.514892578125,
+          "height": 492.2225341796875,
+          "center_x": 810.2562255859375,
+          "center_y": 612.0095825195312
+        },
+        "mask_center": {
+          "x": 815.0,
+          "y": 614.0
+        },
+        "confidence": 0.9245036840438843,
+        "detected_name": "green plush turtle shell cushion with white foam border",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.190651044,
+        "y": 0.9321628,
+        "z": 1.68145907
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "small brass-colored metal screw",
+      "position": "lower left-center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 599.623779296875,
+          "y1": 58.589630126953125,
+          "x2": 697.6903076171875,
+          "y2": 198.45901489257812,
+          "width": 98.0665283203125,
+          "height": 139.869384765625,
+          "center_x": 648.6570434570312,
+          "center_y": 128.52432250976562
+        },
+        "mask_center": {
+          "x": 641.0,
+          "y": 125.0
+        },
+        "confidence": 0.0012661971850320697,
+        "detected_name": "small brass-colored metal screw",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.4466513,
+        "y": 0.7694358,
+        "z": 1.82438445
       }
     }
   ]

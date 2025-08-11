@@ -1,57 +1,148 @@
 {
   "optimization_summary": {
-    "total_loss": -92.35510502552009,
+    "total_loss": -287.78240974639664,
     "loss_components": {
-      "L_realism": -45.62590465065213,
-      "L_priority": -46.72920037486796,
-      "L_interaction": 0.0,
-      "L_spatial": 0.0,
-      "total": -92.35510502552009
+      "L_realism": -119.50164502569127,
+      "L_priority": -150.81155610100586,
+      "L_interaction": -19.0,
+      "L_spatial": 1.5307913803005166,
+      "total": -287.78240974639664
     },
-    "num_virtual_objects": 2,
-    "num_physical_objects": 4,
+    "num_virtual_objects": 6,
+    "num_physical_objects": 10,
     "exclusivity_enabled": true,
     "loss_weights": {
       "w_realism": 1.0,
       "w_priority": 1.0,
-      "w_interaction": 1.0,
-      "w_spatial": 1.0
+      "w_interaction": 1,
+      "w_spatial": 1
     }
   },
   "assignments": [
     {
       "virtual_object": {
-        "name": "Hammer",
+        "name": "Watermelon",
         "index": 0,
+        "engagement_level": 0.7408182206817179,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7408182206817179
+      },
+      "physical_object": {
+        "name": "white paper towel roll (partially used)",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 0.0,
+      "assignment_matrix_row": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
         "engagement_level": 1.1051709180756477,
-        "involvement_type": "grasp",
+        "involvement_type": "substrate",
         "priority_weight": 1.1051709180756477
       },
       "physical_object": {
-        "name": "spiral-bound graph paper notebook with handwritten notes",
+        "name": "transparent disposable plastic cup",
         "object_id": 4,
         "image_id": 0,
         "index": 3
       },
-      "realism_score": 3.102564205725988,
+      "realism_score": 0.0,
       "assignment_matrix_row": [
         0.0,
         0.0,
         0.0,
-        1.0
-      ],
-      "utilization_method": "Grab the notebook by the spiral binding with your fist wrapped fully around the wire spine. The stack of pages forms a broad, weighty \u2018head\u2019 that sticks out from your grip. Swinging it produces a clear moment of inertia because the paper mass lags and then follows through, echoing the feel of a hammer\u2019s metal head. Lightly tapping the page block against your other palm gives a firm, sudden stop that reinforces the impact sensation."
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
     },
     {
       "virtual_object": {
-        "name": "Red Button",
-        "index": 1,
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 0.6065306597126334,
+        "involvement_type": "grasp",
+        "priority_weight": 0.6065306597126334
+      },
+      "physical_object": {
+        "name": "red and white beverage carton with screw cap",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 4.743589888016382,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Hold the top corner of the carton like a vertical handle\u2014thumb on one panel, fingers on the opposite panel. Fill the carton with liquid to create a bottom-heavy feel, then raise and tilt it as though drinking from a mug. The rectangular body substitutes for the wooden barrel while the corner edge mimics a slender handle."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 1.3498588075760032,
+        "involvement_type": "grasp",
+        "priority_weight": 1.3498588075760032
+      },
+      "physical_object": {
+        "name": "black over-ear headphones",
+        "object_id": 6,
+        "image_id": 0,
+        "index": 5
+      },
+      "realism_score": 5.0,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Wrap fingers firmly around the flexible headband near one earcup and let the opposite earcup swing forward as the \u2018axe head.\u2019 The two earcups supply distributed weight that pulls against the hand during broad swings, while the padded band offers a thick cylindrical grip approximating a tool handle."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
         "engagement_level": 0.9048374180359595,
-        "involvement_type": "contact",
+        "involvement_type": "grasp",
         "priority_weight": 0.9048374180359595
       },
       "physical_object": {
-        "name": "black mechanical computer keyboard with function keys",
+        "name": "black stainless steel water bottle with silver screw cap",
         "object_id": 1,
         "image_id": 0,
         "index": 0
@@ -61,9 +152,44 @@
         1.0,
         0.0,
         0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
       ],
-      "utilization_method": "Use one of the larger keys (e.g., the space-bar or Enter key) as the press surface. Rest your index finger on that key and push straight down until the key bottoms out. The key\u2019s built-in switch and return spring give a clear travel distance, progressive resistance, an audible click, and automatic rebound\u2014closely mimicking the feel of depressing and releasing the virtual red button."
+      "utilization_method": "Grip the bottle just above its lower third so that most of the mass (the full metal body and any remaining liquid) sits forward of your hand, creating a head-heavy feel. Swing downward in short arcs, letting the weight pull your wrist much like a real hammer head while your closed fingers feel the cylindrical circumference of the bottle as the handle."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 1.6487212707001282,
+        "involvement_type": "grasp",
+        "priority_weight": 1.6487212707001282
+      },
+      "physical_object": {
+        "name": "black-handled, silver-shafted adjustable phone selfie stick",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 6.0,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Hold the rubberized handle exactly as the sickle grip and keep the phone clamp folded forward to approximate the blade tip. The telescopic shaft adds forward length and modest mass, enabling realistic sweeping arcs followed by a pulling motion that produces noticeable inertia along the stick\u2019s length."
     }
   ]
 }

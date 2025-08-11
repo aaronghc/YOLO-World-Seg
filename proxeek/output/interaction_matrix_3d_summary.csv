@@ -1,2 +1,3 @@
 relationship_index,contact_virtual_object,substrate_virtual_object,matrix_shape,non_zero_entries,max_rating,mean_rating
-0,Drum Stick 1,Drum,15x15,70,18.0000,12.3714
+0,Hammer,Watermelon,10x10,49,19.0000,13.5510
+1,Axe,FireWood,10x10,9,18.0000,13.2222
