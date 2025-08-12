@@ -5,8 +5,8 @@
     "Axe"
   ],
   "mediumEngagementOrder": [
-    "FireWood",
-    "Hammer"
+    "Hammer",
+    "FireWood"
   ],
   "lowEngagementOrder": [
     "Watermelon",
@@ -84,7 +84,7 @@
       "involvementType": "grasp",
       "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
       "engagementLevel": 0,
-      "inertia": "User should feel moderate weight that feels substantial since it's full. The weight distribution should feel bottom-heavy.",
+      "inertia": "User should feel moderate weight that feels substantial since it's full. As well as a rotational moment around their grip point.",
       "interactivity": "",
       "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
       "texture": "",
@@ -265,9 +265,9 @@
         }
       ],
       "additionalViewAngles": [
-        "StreamingAssets/Export/Arrangement_Tools_20250811_141405_angle0.png",
-        "StreamingAssets/Export/Arrangement_Tools_20250811_141405_angle1.png",
-        "StreamingAssets/Export/Arrangement_Tools_20250811_141405_angle2.png"
+        "StreamingAssets/Export/Arrangement_Tools_20250812_131433_angle0.png",
+        "StreamingAssets/Export/Arrangement_Tools_20250812_131433_angle1.png",
+        "StreamingAssets/Export/Arrangement_Tools_20250812_131433_angle2.png"
       ]
     }
   ]

@@ -53,7 +53,14 @@ class Assignment:
     loss_components: Dict[str, float]
 
 class ProXeekOptimizer:
-    """Global optimization for haptic proxy assignment"""
+    """Global optimization for haptic proxy assignment
+    
+    The optimizer now uses a combined L_realism loss that incorporates priority weighting:
+    - When priority weighting is enabled: L_realism = -∑ᵢ∑ⱼ (priority_weight[i] × realism_rating[i,j] × X[i,j])
+    - When priority weighting is disabled: L_realism = -∑ᵢ∑ⱼ (realism_rating[i,j] × X[i,j])
+    
+    This combines the previous separate L_realism and L_priority losses into a single, more intuitive loss function.
+    """
     
     def __init__(self, data_dir: str = r"C:\Users\aaron\Documents\GitHub\YOLO-World-Seg\proxeek\output"):
         self.data_dir = data_dir
@@ -66,10 +73,12 @@ class ProXeekOptimizer:
         
         # Loss function weights
         self.w_realism = 1.0
-        self.w_priority = 1.0
         self.w_interaction = 1.0
         # NEW: spatial weight
         self.w_spatial = 1.0
+        
+        # Priority control
+        self.enable_priority_weighting = True  # Control whether to apply priority weights
         
         # Matrices for spatial calculations (initialized later)
         self.spatial_group_matrix: Optional[np.ndarray] = None
@@ -136,8 +145,8 @@ class ProXeekOptimizer:
             # Process the loaded data
             self._process_virtual_objects(haptic_data)
             self._process_physical_objects(physical_data)
-            # Assign positions to virtual objects
-            self._assign_virtual_positions(virtual_data)
+            # Assign positions to virtual objects from haptic data (not from virtual object database)
+            self._assign_virtual_positions(haptic_data.get("nodeAnnotations", []))
             # Build auxiliary matrices
             self._build_realism_matrix(proxy_data)
             self._build_interaction_matrices(haptic_data, relationship_data)
@@ -184,8 +193,8 @@ class ProXeekOptimizer:
             # Process the in-memory data
             self._process_virtual_objects(haptic_data)
             self._process_physical_objects(physical_object_database)
-            # Assign positions to virtual objects
-            self._assign_virtual_positions(virtual_objects)
+            # Assign positions to virtual objects from haptic data (not from separate virtual_objects parameter)
+            self._assign_virtual_positions(haptic_data.get("nodeAnnotations", []))
             # Build auxiliary matrices
             self._build_realism_matrix(proxy_matching_results)
             self._build_interaction_matrices(haptic_data, relationship_rating_results)
@@ -218,24 +227,50 @@ class ProXeekOptimizer:
         # Create complete priority order for granular engagement levels
         complete_priority_order = high_engagement + medium_engagement + low_engagement
         
-        # Only include grasp and contact objects (not substrate-only objects)
+        print(f"DEBUG: Processing {len(node_annotations)} node annotations")
+        print(f"DEBUG: Available involvement types: {list(set(obj.get('involvementType', '') for obj in node_annotations))}")
+        
+        # Include ALL object types (grasp, contact, substrate)
         filtered_objects = [obj for obj in node_annotations 
                           if obj.get("involvementType") in ["grasp", "contact", "substrate"]]
+        
+        print(f"DEBUG: Filtered to {len(filtered_objects)} objects")
+        for obj in filtered_objects:
+            print(f"  DEBUG: {obj.get('objectName', 'Unknown')} - Type: {obj.get('involvementType', 'Unknown')}")
+        
+        # Filter priority order to exclude substrate objects (only grasp and contact objects get ranked)
+        grasp_contact_priority_order = []
+        for obj_name in complete_priority_order:
+            # Find the object in filtered_objects to check its type
+            for obj in filtered_objects:
+                if obj.get("objectName") == obj_name and obj.get("involvementType") in ["grasp", "contact"]:
+                    grasp_contact_priority_order.append(obj_name)
+                    break
+        
+        print(f"DEBUG: Priority order for grasp/contact objects: {grasp_contact_priority_order}")
         
         for i, obj in enumerate(filtered_objects):
             name = obj.get("objectName", "")
             involvement_type = obj.get("involvementType", "")
             
-            # Determine granular engagement level (normalized to 0-1 scale)
-            engagement_level = 0.0  # default for unranked objects
-            if name in complete_priority_order:
-                # Symmetric exponential priority weighting
-                priority_rank = complete_priority_order.index(name)
-                N = len(complete_priority_order)
-                center = (N - 1) / 2.0
-                x_i = center - priority_rank          # evenly spaced, centred at 0
-                k = 0.2                                # slope parameter for exp
-                engagement_level = math.exp(k * x_i)
+            # Determine engagement level based on object type
+            if involvement_type == "substrate":
+                # Substrate objects get priority weight 1.0 (no ranking)
+                engagement_level = 1.0
+            else:
+                # Grasp and contact objects get priority weights from ranking
+                engagement_level = 0.0  # default for unranked objects
+                if name in grasp_contact_priority_order:
+                    # Symmetric exponential priority weighting
+                    priority_rank = grasp_contact_priority_order.index(name)
+                    N = len(grasp_contact_priority_order)
+                    if N > 0:  # Only calculate if we have ranked objects
+                        center = (N - 1) / 2.0
+                        x_i = center - priority_rank          # evenly spaced, centred at 0
+                        k = 0.2                                # slope parameter for exp
+                        engagement_level = math.exp(k * x_i)
+                    else:
+                        engagement_level = 1.0  # Default if no ranking available
             
             virtual_obj = VirtualObject(
                 name=name,
@@ -248,7 +283,11 @@ class ProXeekOptimizer:
         # Print priority assignments for debugging
         print(f"Priority weights assigned:")
         for virtual_obj in self.virtual_objects:
-            print(f"  {virtual_obj.name}: {virtual_obj.engagement_level:.1f}")
+            print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): {virtual_obj.engagement_level:.3f}")
+        
+        print(f"DEBUG: Created {len(self.virtual_objects)} virtual objects:")
+        for i, obj in enumerate(self.virtual_objects):
+            print(f"  DEBUG: [{i}] {obj.name} - Type: {obj.involvement_type}")
     
     def _process_physical_objects(self, physical_data: Dict) -> None:
         """Process physical objects from database"""
@@ -277,6 +316,10 @@ class ProXeekOptimizer:
     def _assign_virtual_positions(self, virtual_data: List[Dict]) -> None:
         """Assign 3D positions to previously created VirtualObject instances"""
         name_to_pos = {}
+        positions_found = 0
+        
+        # Extract positions from the haptic annotation data
+        print(f"DEBUG: Looking for positions in {len(virtual_data)} entries")
         for entry in virtual_data:
             if "objectName" in entry and "globalPosition" in entry:
                 gp = entry["globalPosition"]
@@ -285,9 +328,37 @@ class ProXeekOptimizer:
                     float(gp.get("y", 0.0)),
                     float(gp.get("z", 0.0))
                 ])
+                positions_found += 1
+                print(f"  DEBUG: Found position for '{entry['objectName']}' at {entry['globalPosition']}")
+            else:
+                missing_fields = []
+                if "objectName" not in entry:
+                    missing_fields.append("objectName")
+                if "globalPosition" not in entry:
+                    missing_fields.append("globalPosition")
+                print(f"  DEBUG: Entry missing fields: {missing_fields}")
+                if "objectName" in entry:
+                    print(f"    DEBUG: Entry has objectName: '{entry['objectName']}'")
+        
+        print(f"Found positions for {positions_found} objects in haptic annotation data")
+        
+        # Assign positions to virtual objects
+        positions_assigned = 0
         for v_obj in self.virtual_objects:
             if v_obj.name in name_to_pos:
                 v_obj.position = name_to_pos[v_obj.name]
+                positions_assigned += 1
+            else:
+                print(f"WARNING: No position found for virtual object '{v_obj.name}'")
+        
+        print(f"Assigned positions to {positions_assigned}/{len(self.virtual_objects)} virtual objects")
+        
+        # Verify all objects have positions
+        missing_positions = [obj.name for obj in self.virtual_objects if obj.position is None]
+        if missing_positions:
+            print(f"Objects still missing positions: {missing_positions}")
+        else:
+            print("All virtual objects now have positions assigned!")
     
     def _build_realism_matrix(self, proxy_data: List[Dict]) -> None:
         """Build the realism rating matrix from proxy matching results"""
@@ -382,7 +453,13 @@ class ProXeekOptimizer:
             expressivity_rating = rel_result.get("expressivity_rating", 0)
             realism_rating = rel_result.get("realism_rating", 0)
             
-            combined_rating = (harmony_rating + expressivity_rating + realism_rating)
+            # Use geometric mean (cube root of product) instead of arithmetic sum
+            # This ensures all three dimensions must be good for a high combined rating
+            if harmony_rating > 0 and expressivity_rating > 0 and realism_rating > 0:
+                combined_rating = (harmony_rating * expressivity_rating * realism_rating) ** (1/3)
+            else:
+                # If any rating is 0, the combined rating is 0
+                combined_rating = 0.0
             
             # Map to physical object indices
             contact_key = (contact_obj_id, contact_img_id)
@@ -403,9 +480,29 @@ class ProXeekOptimizer:
         n_virtual = len(self.virtual_objects)
         self.virtual_distance_matrix = np.zeros((n_virtual, n_virtual))
         self.virtual_angle_matrix = np.zeros((n_virtual, n_virtual))
+        
+        print(f"Building distance matrices for {n_virtual} virtual objects...")
+        
+        # Check position status before building matrices
+        objects_with_positions = []
+        objects_without_positions = []
+        for i, obj in enumerate(self.virtual_objects):
+            if obj.position is not None:
+                objects_with_positions.append(f"{obj.name} (index {i})")
+            else:
+                objects_without_positions.append(f"{obj.name} (index {i})")
+        
+        if objects_with_positions:
+            print(f"  Objects WITH positions ({len(objects_with_positions)}): {', '.join(objects_with_positions)}")
+        if objects_without_positions:
+            print(f"  Objects WITHOUT positions ({len(objects_without_positions)}): {', '.join(objects_without_positions)}")
+        
+        # Build distance matrices
+        distances_calculated = 0
         for i in range(n_virtual):
             pos_i = self.virtual_objects[i].position
             if pos_i is None:
+                print(f"  Skipping {self.virtual_objects[i].name} (index {i}) - no position")
                 continue
             for k in range(n_virtual):
                 pos_k = self.virtual_objects[k].position
@@ -414,6 +511,11 @@ class ProXeekOptimizer:
                 diff = pos_k - pos_i
                 self.virtual_distance_matrix[i, k] = float(np.linalg.norm(diff))
                 self.virtual_angle_matrix[i, k] = float(np.arctan2(diff[2], diff[0]))
+                if i != k:  # Don't count diagonal (self-distance)
+                    distances_calculated += 1
+        
+        print(f"  Calculated {distances_calculated} non-zero distances")
+        print(f"  Expected: {n_virtual} × {n_virtual} - {n_virtual} = {(n_virtual * n_virtual) - n_virtual}")
         
         # Physical objects
         n_physical = len(self.physical_objects)
@@ -538,37 +640,39 @@ class ProXeekOptimizer:
             print("No spatial relationships found - L_spatial will be 0")
     
     def calculate_realism_loss(self, assignment_matrix: np.ndarray) -> float:
-        """Calculate L_realism = -∑ᵢ∑ⱼ (realism_rating[i,j]² × X[i,j])"""
-        if self.realism_matrix is None:
-            return 0.0
-        # Square the realism ratings before multiplying with assignment matrix
-        squared_realism = self.realism_matrix ** 2
-        sum_value = np.sum(squared_realism * assignment_matrix.astype(float))
-        return -float(sum_value)
-    
-    def calculate_priority_loss(self, assignment_matrix: np.ndarray) -> float:
-        """Calculate L_priority = -∑ᵢ (priority[i] × max_realism_for_object[i] × assigned_realism[i])"""
+        """Calculate combined L_realism = -∑ᵢ∑ⱼ (priority_weight[i] × realism_rating[i,j] × X[i,j])"""
         if self.realism_matrix is None:
             return 0.0
             
         loss = 0.0
         n_virtual = len(self.virtual_objects)
         
-        for i in range(n_virtual):
-            # Get max realism rating for this virtual object
-            max_realism = np.max(self.realism_matrix[i, :])
-            
-            # Get assigned realism rating
-            assigned_realism = np.sum(self.realism_matrix[i, :] * assignment_matrix[i, :])
-            
-            # Use engagement_level from VirtualObject directly instead of priority_weights array
-            priority_weight = self.virtual_objects[i].engagement_level
-            
-            # Calculate priority loss component
-            priority_component = priority_weight * max_realism * assigned_realism
-            loss -= priority_component
+        # Count grasp and contact objects (exclude substrate objects)
+        grasp_contact_count = 0
         
-        return loss
+        for i in range(n_virtual):
+            # Get priority weight for this virtual object
+            if self.enable_priority_weighting:
+                priority_weight = self.virtual_objects[i].engagement_level
+            else:
+                priority_weight = 1.0  # Equal priority when disabled
+            
+            # Calculate realism loss for this virtual object
+            for j in range(len(self.physical_objects)):
+                if assignment_matrix[i, j] > 0:  # If virtual object i is assigned to physical object j
+                    realism_rating = self.realism_matrix[i, j]
+                    # Apply priority weight to realism rating (no squaring)
+                    loss -= priority_weight * realism_rating
+            
+            # Count grasp and contact objects (exclude substrate)
+            if self.virtual_objects[i].involvement_type in ['grasp', 'contact']:
+                grasp_contact_count += 1
+        
+        # Normalize by the count of grasp and contact objects
+        if grasp_contact_count > 0:
+            loss = loss / grasp_contact_count
+        
+        return float(loss)
     
     def calculate_interaction_loss(self, assignment_matrix: np.ndarray) -> float:
         """Calculate L_interaction = -∑ᵢ∑ₖ (interaction_exists[i,k] × interaction_rating[proxy_assigned[i], proxy_assigned[k]])"""
@@ -590,6 +694,7 @@ class ProXeekOptimizer:
             
         loss = 0.0
         n_virtual = len(self.virtual_objects)
+        interaction_relationships_count = 0
         
         # Iterate through each virtual relationship
         for rel_idx, (contact_virtual_idx, substrate_virtual_idx) in enumerate(self.virtual_relationship_pairs):
@@ -601,6 +706,11 @@ class ProXeekOptimizer:
                 # Get interaction rating from 3D matrix for this specific relationship
                 interaction_rating = self.interaction_matrix_3d[rel_idx, proxy_contact, proxy_substrate]
                 loss -= interaction_rating
+                interaction_relationships_count += 1
+        
+        # Normalize by the count of interaction relationships
+        if interaction_relationships_count > 0:
+            loss = loss / interaction_relationships_count
         
         return loss
     
@@ -635,24 +745,25 @@ class ProXeekOptimizer:
                 #     print(f"DEBUG: Spatial relationship {self.virtual_objects[i].name}->{self.virtual_objects[k].name}: "
                 #           f"virtual_dist={v_dist:.3f}, physical_dist={p_dist:.3f}, diff={dist_diff:.3f}")
         
+        # Normalize by the count of spatial relationships
+        if relationships_processed > 0:
+            loss = loss / relationships_processed
+        
         # print(f"DEBUG: Processed {relationships_processed} spatial relationships, total loss: {loss:.6f}")
         return float(loss)
     
     def calculate_total_loss(self, assignment_matrix: np.ndarray) -> Tuple[float, Dict[str, float]]:
         """Calculate the total multi-objective loss function"""
         l_realism = self.calculate_realism_loss(assignment_matrix)
-        l_priority = self.calculate_priority_loss(assignment_matrix)
         l_interaction = self.calculate_interaction_loss(assignment_matrix)
         l_spatial = self.calculate_spatial_loss(assignment_matrix)
         
         total_loss = (self.w_realism * l_realism + 
-                     self.w_priority * l_priority + 
                      self.w_interaction * l_interaction +
                      self.w_spatial * l_spatial)
         
         loss_components = {
             "L_realism": l_realism,
-            "L_priority": l_priority,
             "L_interaction": l_interaction,
             "L_spatial": l_spatial,
             "total": total_loss
@@ -674,6 +785,18 @@ class ProXeekOptimizer:
                 return False
         
         return True
+    
+    def set_priority_weighting(self, enabled: bool) -> None:
+        """Enable or disable priority weighting in the realism loss calculation
+        
+        Args:
+            enabled: If True, use engagement_level as priority weights. If False, use equal weights (1.0).
+        """
+        self.enable_priority_weighting = enabled
+        if enabled:
+            print("Priority weighting enabled - using engagement_level as priority weights")
+        else:
+            print("Priority weighting disabled - using equal weights for all objects")
     
     def filter_by_top_k_realism(self, k: Optional[int] = None) -> List[np.ndarray]:
         """Generate assignments using only top-K realism scores for grasp and contact virtual objects"""
@@ -948,18 +1071,39 @@ class ProXeekOptimizer:
             non_zero_distances = np.count_nonzero(self.virtual_distance_matrix)
             print(f"Virtual Distance Matrix: {non_zero_distances} non-zero entries")
             
-            # Show a few sample distances
+            # Show ALL distances (not just samples)
             if non_zero_distances > 0:
-                sample_count = 0
+                print("Complete Virtual Distance Matrix:")
+                print("  Format: Object_A -> Object_B: distance")
+                
+                # First, show which objects have positions
+                objects_with_positions = []
+                objects_without_positions = []
+                for i, obj in enumerate(self.virtual_objects):
+                    if obj.position is not None:
+                        objects_with_positions.append(f"{obj.name} (index {i})")
+                    else:
+                        objects_without_positions.append(f"{obj.name} (index {i})")
+                
+                if objects_with_positions:
+                    print(f"  Objects WITH positions ({len(objects_with_positions)}): {', '.join(objects_with_positions)}")
+                if objects_without_positions:
+                    print(f"  Objects WITHOUT positions ({len(objects_without_positions)}): {', '.join(objects_without_positions)}")
+                
+                print("  All distance entries:")
                 for i in range(self.virtual_distance_matrix.shape[0]):
                     for j in range(self.virtual_distance_matrix.shape[1]):
-                        if (self.virtual_distance_matrix[i, j] > 0 and i != j and 
-                            sample_count < 5):
+                        if self.virtual_distance_matrix[i, j] > 0 and i != j:
                             obj_i_name = self.virtual_objects[i].name
                             obj_j_name = self.virtual_objects[j].name
                             distance = self.virtual_distance_matrix[i, j]
-                            print(f"  {obj_i_name} -> {obj_j_name}: {distance:.3f}m")
-                            sample_count += 1
+                            print(f"    {obj_i_name} -> {obj_j_name}: {distance:.3f}m")
+                
+                # Also show the matrix structure
+                print(f"  Matrix shape: {self.virtual_distance_matrix.shape}")
+                print(f"  Expected entries for {len(self.virtual_objects)} objects: {len(self.virtual_objects)} × {len(self.virtual_objects)} - {len(self.virtual_objects)} = {(len(self.virtual_objects) * len(self.virtual_objects)) - len(self.virtual_objects)}")
+            else:
+                print("  No distances calculated - all objects may be missing positions")
         else:
             print("Virtual Distance Matrix: Not initialized")
         
@@ -1070,10 +1214,10 @@ class ProXeekOptimizer:
                 "exclusivity_enabled": self.enable_exclusivity,
                 "loss_weights": {
                     "w_realism": self.w_realism,
-                    "w_priority": self.w_priority,
                     "w_interaction": self.w_interaction,
                     "w_spatial": self.w_spatial
-                }
+                },
+                "priority_weighting_enabled": self.enable_priority_weighting
             },
             "assignments": []
         }
@@ -1312,19 +1456,21 @@ def main():
     optimizer.export_interaction_matrices_to_csv()
     
     # Set loss function weights (can be adjusted)
-    optimizer.w_realism = 1.0
-    optimizer.w_priority = 1.0
+    optimizer.w_realism = 1
     optimizer.w_interaction = 1
-    optimizer.w_spatial = 1
+    optimizer.w_spatial = 0
     
     # Enable/disable exclusivity constraint
     optimizer.enable_exclusivity = True
     
+    # Control priority weighting (can be adjusted)
+    optimizer.set_priority_weighting(True)  # Set to False to disable priority weighting
+    
     print(f"\nOptimization Parameters:")
     print(f"  Realism weight: {optimizer.w_realism}")
-    print(f"  Priority weight: {optimizer.w_priority}")
     print(f"  Interaction weight: {optimizer.w_interaction}")
     print(f"  Spatial weight: {optimizer.w_spatial}")
+    print(f"  Priority weighting: {optimizer.enable_priority_weighting}")
     print(f"  Exclusivity constraint: {optimizer.enable_exclusivity}")
     
     # Run optimization

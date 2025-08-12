@@ -1,34 +1,33 @@
 {
   "optimization_summary": {
-    "total_loss": -287.78240974639664,
+    "total_loss": -11.247701407684817,
     "loss_components": {
-      "L_realism": -119.50164502569127,
-      "L_priority": -150.81155610100586,
-      "L_interaction": -19.0,
-      "L_spatial": 1.5307913803005166,
-      "total": -287.78240974639664
+      "L_realism": -5.089521608856629,
+      "L_interaction": -6.158179798828188,
+      "L_spatial": 6.521316395075434,
+      "total": -11.247701407684817
     },
     "num_virtual_objects": 6,
-    "num_physical_objects": 10,
+    "num_physical_objects": 12,
     "exclusivity_enabled": true,
     "loss_weights": {
-      "w_realism": 1.0,
-      "w_priority": 1.0,
+      "w_realism": 1,
       "w_interaction": 1,
-      "w_spatial": 1
-    }
+      "w_spatial": 0
+    },
+    "priority_weighting_enabled": true
   },
   "assignments": [
     {
       "virtual_object": {
         "name": "Watermelon",
         "index": 0,
-        "engagement_level": 0.7408182206817179,
+        "engagement_level": 1.0,
         "involvement_type": "substrate",
-        "priority_weight": 0.7408182206817179
+        "priority_weight": 1.0
       },
       "physical_object": {
-        "name": "white paper towel roll (partially used)",
+        "name": "brown rectangular cardboard box",
         "object_id": 2,
         "image_id": 0,
         "index": 1
@@ -44,6 +43,8 @@
         0.0,
         0.0,
         0.0,
+        0.0,
+        0.0,
         0.0
       ]
     },
@@ -51,22 +52,24 @@
       "virtual_object": {
         "name": "FireWood",
         "index": 1,
-        "engagement_level": 1.1051709180756477,
+        "engagement_level": 1.0,
         "involvement_type": "substrate",
-        "priority_weight": 1.1051709180756477
+        "priority_weight": 1.0
       },
       "physical_object": {
-        "name": "transparent disposable plastic cup",
-        "object_id": 4,
+        "name": "tall black Tesla-branded stainless steel water bottle with silver cap",
+        "object_id": 1,
         "image_id": 0,
-        "index": 3
+        "index": 0
       },
       "realism_score": 0.0,
       "assignment_matrix_row": [
-        0.0,
-        0.0,
-        0.0,
         1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -79,17 +82,17 @@
       "virtual_object": {
         "name": "Mug",
         "index": 2,
-        "engagement_level": 0.6065306597126334,
+        "engagement_level": 0.7408182206817179,
         "involvement_type": "grasp",
-        "priority_weight": 0.6065306597126334
+        "priority_weight": 0.7408182206817179
       },
       "physical_object": {
-        "name": "red and white beverage carton with screw cap",
+        "name": "small cylindrical shiny metal calibration weight",
         "object_id": 3,
         "image_id": 0,
         "index": 2
       },
-      "realism_score": 4.743589888016382,
+      "realism_score": 4.615384757518768,
       "assignment_matrix_row": [
         0.0,
         0.0,
@@ -100,28 +103,28 @@
         0.0,
         0.0,
         0.0,
+        0.0,
+        0.0,
         0.0
       ],
-      "utilization_method": "Hold the top corner of the carton like a vertical handle\u2014thumb on one panel, fingers on the opposite panel. Fill the carton with liquid to create a bottom-heavy feel, then raise and tilt it as though drinking from a mug. The rectangular body substitutes for the wooden barrel while the corner edge mimics a slender handle."
+      "utilization_method": "Hook the pads of your index and middle fingers over the domed top while the thumb supports under the rim, letting the weight dangle below your grip. This finger-hook posture reproduces clasping a mug\u2019s handle and, because the weight is dense, it delivers the important sense of moderate inertia when you tilt it."
     },
     {
       "virtual_object": {
         "name": "Axe",
         "index": 3,
-        "engagement_level": 1.3498588075760032,
+        "engagement_level": 1.1051709180756477,
         "involvement_type": "grasp",
-        "priority_weight": 1.3498588075760032
+        "priority_weight": 1.1051709180756477
       },
       "physical_object": {
-        "name": "black over-ear headphones",
-        "object_id": 6,
+        "name": "white paper towel roll core",
+        "object_id": 4,
         "image_id": 0,
-        "index": 5
+        "index": 3
       },
-      "realism_score": 5.0,
+      "realism_score": 3.5,
       "assignment_matrix_row": [
-        0.0,
-        0.0,
         0.0,
         0.0,
         0.0,
@@ -129,9 +132,13 @@
         0.0,
         0.0,
         0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
       ],
-      "utilization_method": "Wrap fingers firmly around the flexible headband near one earcup and let the opposite earcup swing forward as the \u2018axe head.\u2019 The two earcups supply distributed weight that pulls against the hand during broad swings, while the padded band offers a thick cylindrical grip approximating a tool handle."
+      "utilization_method": "Wrap your hand firmly around the cardboard tube as though it were the wooden handle. Though light, the diameter and length encourage a full power grip and allow rehearsal of the shoulder-led swing path and wrist snap that would drive a virtual axe."
     },
     {
       "virtual_object": {
@@ -142,17 +149,19 @@
         "priority_weight": 0.9048374180359595
       },
       "physical_object": {
-        "name": "black stainless steel water bottle with silver screw cap",
-        "object_id": 1,
+        "name": "clear plastic jar or container (stackable design)",
+        "object_id": 6,
         "image_id": 0,
-        "index": 0
+        "index": 5
       },
-      "realism_score": 6.0,
+      "realism_score": 4.5,
       "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         1.0,
-        0.0,
-        0.0,
-        0.0,
         0.0,
         0.0,
         0.0,
@@ -160,24 +169,26 @@
         0.0,
         0.0
       ],
-      "utilization_method": "Grip the bottle just above its lower third so that most of the mass (the full metal body and any remaining liquid) sits forward of your hand, creating a head-heavy feel. Swing downward in short arcs, letting the weight pull your wrist much like a real hammer head while your closed fingers feel the cylindrical circumference of the bottle as the handle."
+      "utilization_method": "Invert the jar and grasp it near its open mouth so the bulk of the container sits above your hand. The widened body acts as the hammer head while the neck provides a short cylindrical grip. The shift in weight above the wrist helps approximate the top-heavy feel and permits safe downward pounding on the table surface."
     },
     {
       "virtual_object": {
         "name": "Sickle",
         "index": 5,
-        "engagement_level": 1.6487212707001282,
+        "engagement_level": 1.3498588075760032,
         "involvement_type": "grasp",
-        "priority_weight": 1.6487212707001282
+        "priority_weight": 1.3498588075760032
       },
       "physical_object": {
-        "name": "black-handled, silver-shafted adjustable phone selfie stick",
-        "object_id": 2,
-        "image_id": 1,
-        "index": 7
+        "name": "black telescopic selfie stick with adjustable phone holder",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 9
       },
-      "realism_score": 6.0,
+      "realism_score": 6.666666666666666,
       "assignment_matrix_row": [
+        0.0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -189,7 +200,7 @@
         0.0,
         0.0
       ],
-      "utilization_method": "Hold the rubberized handle exactly as the sickle grip and keep the phone clamp folded forward to approximate the blade tip. The telescopic shaft adds forward length and modest mass, enabling realistic sweeping arcs followed by a pulling motion that produces noticeable inertia along the stick\u2019s length."
+      "utilization_method": "Hold the rubberized black grip as the sickle handle; extend a single telescope segment so the rod plus phone clamp form a curved, forward-projecting mass. The distributed weight along the rod closely mirrors a sickle blade, allowing full-scale elbow and wrist sweeps that replicate harvesting strokes."
     }
   ]
 }

@@ -4,7 +4,7 @@
     "involvementType": "grasp",
     "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
     "engagementLevel": 0,
-    "inertia": "User should feel moderate weight that feels substantial since it's full. The weight distribution should feel bottom-heavy.",
+    "inertia": "User should feel moderate weight that feels substantial since it's full. As well as a rotational moment around their grip point.",
     "interactivity": "",
     "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
     "texture": "",
@@ -31,7 +31,7 @@
       "y": 231.77813720703125,
       "z": 0.0
     },
-    "interactionDeduction": "The user will perform a cylindrical power-grip around the vertical wooden handle (\u22482 cm diameter). Fingers curl fully around the rod while the thumb opposes on the far side, similar to holding a thick marker. Once secured, the forearm is raised and the wrist supinates to bring the lip of the mug toward the mouth. The elbow flexes and the shoulder raises for sipping motions, followed by gentle wrist pronation to set the mug back down. Because the mug is bottom-heavy (liquid plus a metal-banded base), the user will feel a noticeable downward moment when the mug is tilted; they must counterbalance with wrist torque. During manipulation the mug itself remains rigid, giving no deformation feedback\u2014only the shift of liquid weight that creates a slight lag on direction changes. No finger repositioning is expected once the grip is established; interaction is dominated by forearm and wrist articulation."
+    "interactionDeduction": "The user will approach the mug\u2019s handle with a semi-open C-shape power grip, curling 2\u20133 fingers around the slender 2 cm-diameter rod while the thumb opposes from the outside. The hand closes until the handle rests against the proximal phalanges, giving a stable lever to lift. The wrist then pivots to raise the mug toward the mouth; elbow flexion provides the bulk of the lift while shoulder abducts slightly. Just before drinking, the wrist pronates and then slowly tilts the mug so the liquid flows toward the rim. Throughout the tilt the user perceives moderate liquid weight and a shifting center of mass that creates a small rotational moment around the handle. Micro-adjustments of finger force stabilize the mug against this torque. After sipping, the wrist supinates to level the mug and the arm lowers it back. If the mug is set on a surface, contact is made with the flat base first, producing a short normal impulse. The mug itself offers no compliance, so the haptic response is rigid and inert; any slosh in the liquid would be perceived only visually or through subtle controller vibration."
   },
   {
     "objectName": "Axe",
@@ -65,7 +65,7 @@
       "y": 113.15540313720703,
       "z": 89.79319763183594
     },
-    "interactionDeduction": "The user secures a firm saber-style power grip around the lower portion of the wooden handle, thumb and fingers wrapping fully to stabilize against rotational torque. Primary motions are broad shoulder-driven swings with elbow extension, producing an arcing trajectory that brings the heavy metal head downward or sideways toward a target. The head-heavy inertia causes the tool to lag slightly behind hand motion on initiation and to continue forward after the hand begins decelerating, so the user feels the need to brace and absorb recoil on impact. Fine orientation adjustments (edge alignment) are made through wrist pronation/supination, but most force is generated through gross arm motion. The axe stays rigid; the only feedback change is inertial, not shape or compliance."
+    "interactionDeduction": "The user employs a single-handed power grip, wrapping all fingers and thumb tightly around the lower portion of the cylindrical wooden handle. The grip axis aligns roughly with the forearm to maximize control. Because the head is heavy, the user feels an immediate forward/top-heavy inertia that tries to droop the blade downward. Swinging involves drawing the axe backward (elbow flexion, shoulder extension), then a rapid shoulder flexion and elbow extension to drive the blade in an arcing path. The wrist remains fairly stiff, adding a minor pronation snap just before impact. After contact with a virtual target, the head virtually decelerates abruptly, sending a simulated recoil up the handle; the user experiences this as controller vibration coupled with a torque impulse that momentarily pulls the handle out of line. If the user keeps chopping, they reset the axe by lifting it using more shoulder than wrist, repeating the cycle."
   },
   {
     "objectName": "Hammer",
@@ -99,7 +99,7 @@
       "y": 109.54983520507812,
       "z": 85.54302215576172
     },
-    "interactionDeduction": "The user employs a carpentry-style power grip a bit above the handle\u2019s end, wrapping all fingers and the thumb around the cylindrical shaft. Striking actions involve short, controlled elbow flexion/extension combined with wrist snap to accelerate the head downward onto a virtual surface. The pronounced head-heavy mass creates a pendulum effect: once the swing starts, the user feels momentum pulling the handle forward, and upon impact must absorb rebound through wrist stiffness and slight elbow give. The hammer remains completely rigid; the response is felt only as sudden deceleration and possible vibration cues at the moment of contact."
+    "interactionDeduction": "The hammer is grasped in a power grip similar to the axe, but higher up on the handle to shorten the lever for better control. The head-heavy inertia is instantly apparent, urging the head to dip. Typical use is a vertical pounding motion: the user raises the hammer by flexing the elbow and shoulder, then rapidly extends the elbow and drops the shoulder while keeping the wrist locked, delivering the head straight downward. Upon virtual impact, the hammer head stops suddenly; the user detects a sharp vibration plus a brief upward reactive force, imitating the rebound of a dense object (e.g., striking a nail or anvil). For precision strikes, users may choke up on the handle, sliding the hand closer to the head to reduce swing arc and torque."
   },
   {
     "objectName": "Sickle",
@@ -133,6 +133,6 @@
       "y": 102.79971313476562,
       "z": 93.36920928955078
     },
-    "interactionDeduction": "The user adopts a pistol-like power grip around the short handle, with the index finger often extended along the handle for directional control while the remaining fingers wrap underneath. Cutting motions are compact sweeping arcs generated by wrist ulnar deviation and forearm rotation, allowing the curved blade to hook around vegetation. After hooking, the user pulls the tool toward the body with elbow flexion to slice through the target. Moderate forward-weighted inertia means the curved blade feels present but not as concentrated as a hammer or axe head; it provides steady guidance during the pull without excessive overshoot. The tool stays rigid; feedback comes from continuous resistance during the pulling slice rather than a single impact."
+    "interactionDeduction": "The sickle is held with a power-pinch hybrid: the fingers wrap around the short cylindrical handle while the thumb presses along the side, allowing blade orientation control. The forearm is pronated so the curved blade faces forward/outward. A typical cut begins with the wrist slightly extended and the elbow flexed. The user then performs a sweeping pull: shoulder abducts minimally, elbow extends a bit, and the wrist flexes while the forearm supinates, drawing the blade in a concave path that hooks and slices through virtual vegetation. Because the curved blade mass is distributed along its arc, the user feels a modest forward inertia but less concentrated than an axe. On contact, the blade drags through material, producing continuous low-frequency vibration and gentle resistance rather than a single impact jolt. After the follow-through, the user resets by rotating the wrist back and bringing the sickle forward for another stroke."
   }
 ]

@@ -2,304 +2,366 @@
   "0": [
     {
       "object_id": 1,
-      "object": "black stainless steel water bottle with silver screw cap",
-      "position": "slightly above center of the table",
+      "object": "tall black Tesla-branded stainless steel water bottle with silver cap",
+      "position": "upper center-left of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 662.5182495117188,
-          "y1": 213.91436767578125,
-          "x2": 780.9010620117188,
-          "y2": 518.1422729492188,
-          "width": 118.3828125,
-          "height": 304.2279052734375,
-          "center_x": 721.7096557617188,
-          "center_y": 366.0283203125
+          "x1": 634.9801025390625,
+          "y1": 413.2606201171875,
+          "x2": 698.1580810546875,
+          "y2": 528.3785400390625,
+          "width": 63.177978515625,
+          "height": 115.117919921875,
+          "center_x": 666.569091796875,
+          "center_y": 470.819580078125
         },
         "mask_center": {
-          "x": 721.0,
-          "y": 325.0
+          "x": 666.0,
+          "y": 462.0
         },
-        "confidence": 0.9737204909324646,
-        "detected_name": "black stainless steel water bottle with silver screw cap",
+        "confidence": 0.953888475894928,
+        "detected_name": "tall black Tesla-branded stainless steel water bottle with silver cap",
         "has_mask": true
       },
       "worldposition": {
-        "x": 0.0375573933,
-        "y": 0.9525604,
-        "z": 0.8537694
+        "x": 2.382427,
+        "y": 1.048005,
+        "z": 3.53052354
       }
     },
     {
       "object_id": 2,
-      "object": "white paper towel roll (partially used)",
-      "position": "top right of the table",
+      "object": "brown rectangular cardboard box",
+      "position": "bottom left of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 806.1058959960938,
-          "y1": 4.05291748046875,
-          "x2": 1022.4757690429688,
-          "y2": 232.01181030273438,
-          "width": 216.369873046875,
-          "height": 227.95889282226562,
-          "center_x": 914.2908325195312,
-          "center_y": 118.03236389160156
+          "x1": 7.28369140625,
+          "y1": 425.63612365722656,
+          "x2": 581.7174072265625,
+          "y2": 876.4722747802734,
+          "width": 574.4337158203125,
+          "height": 450.8361511230469,
+          "center_x": 294.50054931640625,
+          "center_y": 651.05419921875
         },
         "mask_center": {
-          "x": 894.0,
-          "y": 128.0
+          "x": 244.0,
+          "y": 639.0
         },
-        "confidence": 0.012846646830439568,
-        "detected_name": "white paper towel roll (partially used)",
+        "confidence": 0.43734610080718994,
+        "detected_name": "brown rectangular cardboard box",
         "has_mask": true
       },
       "worldposition": {
-        "x": -0.405539632,
-        "y": 0.8703624,
-        "z": 0.927049935
+        "x": 2.103137,
+        "y": 1.07105184,
+        "z": 3.550312
       }
     },
     {
       "object_id": 3,
-      "object": "red and white beverage carton with screw cap",
-      "position": "right side of the table",
+      "object": "small cylindrical shiny metal calibration weight",
+      "position": "center of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 660.972412109375,
-          "y1": 213.38623046875,
-          "x2": 782.4512939453125,
-          "y2": 520.4661254882812,
-          "width": 121.4788818359375,
-          "height": 307.07989501953125,
-          "center_x": 721.7118530273438,
-          "center_y": 366.9261779785156
+          "x1": 1021.196533203125,
+          "y1": 444.51890563964844,
+          "x2": 1207.1123046875,
+          "y2": 662.8809967041016,
+          "width": 185.915771484375,
+          "height": 218.36209106445312,
+          "center_x": 1114.1544189453125,
+          "center_y": 553.699951171875
         },
         "mask_center": {
-          "x": 721.0,
-          "y": 325.0
+          "x": 1113.0,
+          "y": 584.0
         },
-        "confidence": 0.054884012788534164,
-        "detected_name": "red and white beverage carton with screw cap (right side of the table)",
+        "confidence": 0.03963847458362579,
+        "detected_name": "small cylindrical shiny metal calibration weight (center of the image)",
         "has_mask": true
       },
       "worldposition": {
-        "x": 0.0375573933,
-        "y": 0.9525604,
-        "z": 0.8537694
+        "x": 2.44938636,
+        "y": 1.01455235,
+        "z": 3.27549148
       }
     },
     {
       "object_id": 4,
-      "object": "transparent disposable plastic cup",
-      "position": "just left of the water bottle, above center of the table",
+      "object": "white paper towel roll core",
+      "position": "upper center-right of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 534.6508178710938,
-          "y1": 251.60296630859375,
-          "x2": 615.2700805664062,
-          "y2": 367.95880126953125,
-          "width": 80.6192626953125,
-          "height": 116.3558349609375,
-          "center_x": 574.96044921875,
-          "center_y": 309.7808837890625
+          "x1": 810.7559814453125,
+          "y1": 154.19808959960938,
+          "x2": 947.4129638671875,
+          "y2": 458.6908874511719,
+          "width": 136.656982421875,
+          "height": 304.4927978515625,
+          "center_x": 879.08447265625,
+          "center_y": 306.4444885253906
         },
         "mask_center": {
-          "x": 575.0,
-          "y": 325.0
+          "x": 888.0,
+          "y": 228.0
         },
-        "confidence": 0.2205573171377182,
-        "detected_name": "transparent disposable plastic cup",
+        "confidence": 0.28759798407554626,
+        "detected_name": "white paper towel roll core",
         "has_mask": true
       },
       "worldposition": {
-        "x": -0.129340261,
-        "y": 0.791949034,
-        "z": 0.6634252
+        "x": 2.54311442,
+        "y": 1.17699623,
+        "z": 3.46089315
       }
     },
     {
       "object_id": 5,
-      "object": "small silver cylindrical container with black top",
-      "position": "left center of the table",
+      "object": "small yellow metal binder clip",
+      "position": "lower center-right of the image",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 299.90887451171875,
-          "y1": 512.9722900390625,
-          "x2": 374.44378662109375,
-          "y2": 599.1043701171875,
-          "width": 74.534912109375,
-          "height": 86.132080078125,
-          "center_x": 337.17633056640625,
-          "center_y": 556.038330078125
+          "x1": 755.6104736328125,
+          "y1": 619.9666748046875,
+          "x2": 820.2535400390625,
+          "y2": 686.7265625,
+          "width": 64.64306640625,
+          "height": 66.7598876953125,
+          "center_x": 787.9320068359375,
+          "center_y": 653.3466186523438
         },
         "mask_center": {
-          "x": 331.0,
-          "y": 545.0
+          "x": 795.0,
+          "y": 662.0
         },
-        "confidence": 0.9333176612854004,
-        "detected_name": "small silver cylindrical container with black top",
+        "confidence": 0.24399356544017792,
+        "detected_name": "small yellow metal binder clip",
         "has_mask": true
       },
       "worldposition": {
-        "x": 0.183110923,
-        "y": 0.8104428,
-        "z": 0.577694535
+        "x": 2.284539,
+        "y": 1.01428175,
+        "z": 3.3914814
       }
     },
     {
       "object_id": 6,
-      "object": "black over-ear headphones",
-      "position": "bottom right of the table",
+      "object": "clear plastic jar or container (stackable design)",
+      "position": "right side of the image, above the binder clip",
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 647.9859619140625,
-          "y1": 601.3070068359375,
-          "x2": 968.592529296875,
-          "y2": 928.736083984375,
-          "width": 320.6065673828125,
-          "height": 327.4290771484375,
-          "center_x": 808.2892456054688,
-          "center_y": 765.0215454101562
+          "x1": 1021.055908203125,
+          "y1": 444.47308349609375,
+          "x2": 1204.57958984375,
+          "y2": 660.2409057617188,
+          "width": 183.523681640625,
+          "height": 215.767822265625,
+          "center_x": 1112.8177490234375,
+          "center_y": 552.3569946289062
         },
         "mask_center": {
-          "x": 753.0,
-          "y": 748.0
+          "x": 1113.0,
+          "y": 582.0
         },
-        "confidence": 0.2519502639770508,
-        "detected_name": "black over-ear headphones",
+        "confidence": 0.4229174852371216,
+        "detected_name": "clear plastic jar or container (stackable design)",
         "has_mask": true
       },
       "worldposition": {
-        "x": 0.279422283,
-        "y": 0.85468173,
-        "z": 0.9294343
+        "x": 2.44989324,
+        "y": 1.015502,
+        "z": 3.27577472
       }
     }
   ],
   "1": [
     {
       "object_id": 1,
-      "object": "grey camouflage-pattern protective game controller shell",
+      "object": "green plush turtle shell with white rim",
       "position": "top left of the image",
       "image_id": 1,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 199.21237182617188,
-          "y1": 203.12175750732422,
-          "x2": 347.6848449707031,
-          "y2": 337.1400833129883,
-          "width": 148.47247314453125,
-          "height": 134.01832580566406,
-          "center_x": 273.4486083984375,
-          "center_y": 270.13092041015625
+          "x1": 71.883544921875,
+          "y1": 0.0,
+          "x2": 788.201416015625,
+          "y2": 461.6131591796875,
+          "width": 716.31787109375,
+          "height": 461.6131591796875,
+          "center_x": 430.04248046875,
+          "center_y": 230.80657958984375
         },
         "mask_center": {
-          "x": 276.0,
-          "y": 278.0
+          "x": 391.0,
+          "y": 191.0
         },
-        "confidence": 0.0011381545336917043,
-        "detected_name": "grey camouflage-pattern protective game controller shell",
+        "confidence": 0.6315044164657593,
+        "detected_name": "green plush turtle shell with white rim",
         "has_mask": true
       },
       "worldposition": {
-        "x": -0.3402361,
-        "y": 0.785045445,
-        "z": 1.43392956
+        "x": -0.448208421,
+        "y": 1.0117296,
+        "z": 1.91432369
       }
     },
     {
       "object_id": 2,
-      "object": "black-handled, silver-shafted adjustable phone selfie stick",
-      "position": "upper center of the image",
+      "object": "small black USB-C hub dongle",
+      "position": "middle right of the image",
       "image_id": 1,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 557.8314208984375,
-          "y1": 48.590087890625,
-          "x2": 698.3770751953125,
-          "y2": 291.3672180175781,
-          "width": 140.545654296875,
-          "height": 242.77713012695312,
-          "center_x": 628.104248046875,
-          "center_y": 169.97865295410156
+          "x1": 860.93408203125,
+          "y1": 405.7006530761719,
+          "x2": 1056.005126953125,
+          "y2": 460.3408508300781,
+          "width": 195.071044921875,
+          "height": 54.64019775390625,
+          "center_x": 958.4696044921875,
+          "center_y": 433.020751953125
         },
         "mask_center": {
-          "x": 581.0,
-          "y": 226.0
+          "x": 964.0,
+          "y": 432.0
         },
-        "confidence": 0.11094211041927338,
-        "detected_name": "black-handled, silver-shafted adjustable phone selfie stick",
+        "confidence": 0.0403018556535244,
+        "detected_name": "small black USB-C hub dongle",
         "has_mask": true
       },
       "worldposition": {
-        "x": -0.3109069,
-        "y": 0.7749261,
-        "z": 1.71336031
+        "x": -0.5011405,
+        "y": 0.8839687,
+        "z": 2.19990349
       }
     },
     {
       "object_id": 3,
-      "object": "green plush turtle shell cushion with white foam border",
-      "position": "bottom right of the image",
+      "object": "grey and black fine-tip pen",
+      "position": "bottom left of the image",
       "image_id": 1,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 538.998779296875,
-          "y1": 365.8983154296875,
-          "x2": 1081.513671875,
-          "y2": 858.120849609375,
-          "width": 542.514892578125,
-          "height": 492.2225341796875,
-          "center_x": 810.2562255859375,
-          "center_y": 612.0095825195312
+          "x1": 190.4306640625,
+          "y1": 712.7282104492188,
+          "x2": 536.843017578125,
+          "y2": 787.2509155273438,
+          "width": 346.412353515625,
+          "height": 74.522705078125,
+          "center_x": 363.6368408203125,
+          "center_y": 749.9895629882812
         },
         "mask_center": {
-          "x": 815.0,
-          "y": 614.0
+          "x": 466.0,
+          "y": 759.0
         },
-        "confidence": 0.9245036840438843,
-        "detected_name": "green plush turtle shell cushion with white foam border",
+        "confidence": 0.4219072163105011,
+        "detected_name": "grey and black fine-tip pen",
         "has_mask": true
       },
       "worldposition": {
-        "x": 0.190651044,
-        "y": 0.9321628,
-        "z": 1.68145907
+        "x": -0.2601297,
+        "y": 0.8662578,
+        "z": 2.013002
+      }
+    }
+  ],
+  "2": [
+    {
+      "object_id": 1,
+      "object": "black telescopic selfie stick with adjustable phone holder",
+      "position": "upper left of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 199.059326171875,
+          "y1": 28.220703125,
+          "x2": 737.4686279296875,
+          "y2": 499.9952392578125,
+          "width": 538.4093017578125,
+          "height": 471.7745361328125,
+          "center_x": 468.26397705078125,
+          "center_y": 264.10797119140625
+        },
+        "mask_center": {
+          "x": 388.0,
+          "y": 317.0
+        },
+        "confidence": 0.12212564051151276,
+        "detected_name": "black telescopic selfie stick with adjustable phone holder",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.175367951,
+        "y": 0.8850472,
+        "z": 1.14733934
       }
     },
     {
-      "object_id": 4,
-      "object": "small brass-colored metal screw",
-      "position": "lower left-center of the image",
-      "image_id": 1,
+      "object_id": 2,
+      "object": "grey and white camouflage-patterned video game controller",
+      "position": "upper right of the image",
+      "image_id": 2,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 599.623779296875,
-          "y1": 58.589630126953125,
-          "x2": 697.6903076171875,
-          "y2": 198.45901489257812,
-          "width": 98.0665283203125,
-          "height": 139.869384765625,
-          "center_x": 648.6570434570312,
-          "center_y": 128.52432250976562
+          "x1": 655.0764770507812,
+          "y1": 270.312255859375,
+          "x2": 964.1808471679688,
+          "y2": 483.6973876953125,
+          "width": 309.1043701171875,
+          "height": 213.3851318359375,
+          "center_x": 809.628662109375,
+          "center_y": 377.00482177734375
         },
         "mask_center": {
-          "x": 641.0,
-          "y": 125.0
+          "x": 873.0,
+          "y": 340.0
         },
-        "confidence": 0.0012661971850320697,
-        "detected_name": "small brass-colored metal screw",
+        "confidence": 0.8628425598144531,
+        "detected_name": "grey and white camouflage-patterned video game controller",
         "has_mask": true
       },
       "worldposition": {
-        "x": -0.4466513,
-        "y": 0.7694358,
-        "z": 1.82438445
+        "x": -0.146406621,
+        "y": 0.9282962,
+        "z": 1.42456353
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "white coiled 3.5mm audio cable",
+      "position": "lower center of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 329.96533203125,
+          "y1": 585.3544921875,
+          "x2": 641.5828247070312,
+          "y2": 834.2808837890625,
+          "width": 311.61749267578125,
+          "height": 248.9263916015625,
+          "center_x": 485.7740783691406,
+          "center_y": 709.8176879882812
+        },
+        "mask_center": {
+          "x": 435.0,
+          "y": 640.0
+        },
+        "confidence": 0.027263842523097992,
+        "detected_name": "white coiled 3.5mm audio cable",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 0.0212042034,
+        "y": 0.874974132,
+        "z": 1.23331451
       }
     }
   ]

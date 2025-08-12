@@ -3,35 +3,35 @@
   "data": [
     {
       "virtualObjectName": "Watermelon",
-      "proxyObjectName": "white paper towel roll (partially used)",
+      "proxyObjectName": "tall black Tesla-branded stainless steel water bottle with silver cap",
       "utilizationMethod": "No utilization method available"
     },
     {
       "virtualObjectName": "FireWood",
-      "proxyObjectName": "transparent disposable plastic cup",
+      "proxyObjectName": "brown rectangular cardboard box",
       "utilizationMethod": "No utilization method available"
     },
     {
       "virtualObjectName": "Mug",
-      "proxyObjectName": "red and white beverage carton with screw cap",
-      "utilizationMethod": "Hold the top corner of the carton like a vertical handle\u2014thumb on one panel, fingers on the opposite panel. Fill the carton with liquid to create a bottom-heavy feel, then raise and tilt it as though drinking from a mug. The rectangular body substitutes for the wooden barrel while the corner edge mimics a slender handle."
+      "proxyObjectName": "clear plastic jar or container (stackable design)",
+      "utilizationMethod": "Hook two fingers through the lip of the jar while the thumb braces the outer wall, treating the rim as a circular handle. Lift and tilt it; the jar\u2019s cylindrical body and empty volume give a convincing mug outline, and if you partially fill it with water it can add the desired mass without altering the object."
     },
     {
       "virtualObjectName": "Axe",
-      "proxyObjectName": "black over-ear headphones",
-      "utilizationMethod": "Wrap fingers firmly around the flexible headband near one earcup and let the opposite earcup swing forward as the \u2018axe head.\u2019 The two earcups supply distributed weight that pulls against the hand during broad swings, while the padded band offers a thick cylindrical grip approximating a tool handle."
+      "proxyObjectName": "grey and white camouflage-patterned video game controller",
+      "utilizationMethod": "Grasp the controller by a single grip horn so the rest of the body hangs outward as a weighted head. Swinging this asymmetrically held mass offers torque that strives to rotate the wrist downward, analogously to how an axe head tries to drop during a chop."
     },
     {
       "virtualObjectName": "Hammer",
-      "proxyObjectName": "black stainless steel water bottle with silver screw cap",
-      "utilizationMethod": "Grip the bottle just above its lower third so that most of the mass (the full metal body and any remaining liquid) sits forward of your hand, creating a head-heavy feel. Swing downward in short arcs, letting the weight pull your wrist much like a real hammer head while your closed fingers feel the cylindrical circumference of the bottle as the handle."
+      "proxyObjectName": "green plush turtle shell with white rim",
+      "utilizationMethod": "Curl your fingers around the white plush rim, letting the large soft dome hang over your fist like an oversized, padded hammer head. Its considerable size and off-centre mass make the head dip naturally, while the softness lets you perform full swings and feel a cushioned yet abrupt stop when it contacts a surface."
     },
     {
       "virtualObjectName": "Sickle",
-      "proxyObjectName": "black-handled, silver-shafted adjustable phone selfie stick",
-      "utilizationMethod": "Hold the rubberized handle exactly as the sickle grip and keep the phone clamp folded forward to approximate the blade tip. The telescopic shaft adds forward length and modest mass, enabling realistic sweeping arcs followed by a pulling motion that produces noticeable inertia along the stick\u2019s length."
+      "proxyObjectName": "black telescopic selfie stick with adjustable phone holder",
+      "utilizationMethod": "Hold the rubberized black grip as the sickle handle; extend a single telescope segment so the rod plus phone clamp form a curved, forward-projecting mass. The distributed weight along the rod closely mirrors a sickle blade, allowing full-scale elbow and wrist sweeps that replicate harvesting strokes."
     }
   ],
-  "timestamp": "49a647b9-d013-48ed-a2f7-aec1ce70abe5",
+  "timestamp": "c149db46-625d-457b-812a-fac13cbbfdde",
   "total_assignments": 6
 }

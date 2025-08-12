@@ -435,24 +435,32 @@ proxy_matching_llm = ChatOpenAI(
 # Initialize the property rating LLM (using fine-tuned model)
 property_rating_llm = ChatOpenAI(
     model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
-    temperature=0.1,
+    temperature=0.3,
     base_url="https://api.openai.com/v1",
     api_key=SecretStr(finetune_api_key) if finetune_api_key else None
 )
 
 # property_rating_llm = ChatOpenAI(
 #     model="o4-mini-2025-04-16",
-#     temperature=0.1,
+#     temperature=0.3,
 #     base_url="https://api.nuwaapi.com/v1",
 #     api_key=SecretStr(api_key) if api_key else None
 # )
 
-# Initialize the relationship rating LLM
+# # Initialize the relationship rating LLM
+# relationship_rating_llm = ChatOpenAI(
+#     model="o4-mini-2025-04-16",
+#     temperature=0.3,
+#     base_url="https://api.nuwaapi.com/v1",
+#     api_key=SecretStr(api_key) if api_key else None
+# )
+# log("Initialized relationship_rating_llm for LangSmith tracing")
+
 relationship_rating_llm = ChatOpenAI(
-    model="o4-mini-2025-04-16",
-    temperature=0.1,
-    base_url="https://api.nuwaapi.com/v1",
-    api_key=SecretStr(api_key) if api_key else None
+    model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
+    temperature=0.3,
+    base_url="https://api.openai.com/v1",
+    api_key=SecretStr(finetune_api_key) if finetune_api_key else None
 )
 log("Initialized relationship_rating_llm for LangSmith tracing")
 
@@ -727,7 +735,7 @@ def get_relationship_rating_system_prompt(dimension_name):
     base_prompt = f"""
 You are an expert in haptic design who specializes in evaluating how well pairs of physical objects can simulate the expected haptic feedback when two virtual objects interact with each other in VR.
 
-You will be provided with pre-generated substrate utilization methods for each contact-substrate pair. Your task is to critically evaluate how well each pair can deliver the expected haptic feedback, considering both the contact object's utilization method and the provided substrate utilization method.
+You will be provided with pre-generated substrate utilization methods for each contact-substrate pair. Your task is to **critically** evaluate how well each pair can deliver the expected haptic feedback, considering both the contact object's utilization method and the provided substrate utilization method.
 
 Rate each physical object pair on a 7-point Likert scale for {dimension_name}:
 1 - Strongly Disagree 
@@ -4460,12 +4468,14 @@ async def run_optimization(output_dir: str = None, haptic_annotation_json: str =
         
         # Set optimization parameters (can be adjusted)
         optimizer.w_realism = 1.0
-        optimizer.w_priority = 1.0
         optimizer.w_interaction = 1.0
         optimizer.w_spatial = 1.0
         optimizer.enable_exclusivity = True
         
-        log(f"Optimization parameters: realism={optimizer.w_realism}, priority={optimizer.w_priority}, interaction={optimizer.w_interaction}, spatial={optimizer.w_spatial}, exclusivity={optimizer.enable_exclusivity}")
+        # Control priority weighting (can be adjusted)
+        optimizer.set_priority_weighting(True)  # Set to False to disable priority weighting
+        
+        log(f"Optimization parameters: realism={optimizer.w_realism}, interaction={optimizer.w_interaction}, spatial={optimizer.w_spatial}, exclusivity={optimizer.enable_exclusivity}, priority_weighting={optimizer.enable_priority_weighting}")
         
         # Run optimization
         best_assignment = optimizer.optimize()
@@ -4476,10 +4486,31 @@ async def run_optimization(output_dir: str = None, haptic_annotation_json: str =
             # Save optimization results
             optimizer.save_results(best_assignment)
             
+            # Load the saved results to get the assignments data with utilization methods
+            try:
+                import json
+                import os
+                script_dir = os.path.dirname(os.path.abspath(__file__))
+                out_dir = os.path.join(script_dir, "output")
+                optimization_file = os.path.join(out_dir, "optimization_results.json")
+                
+                if os.path.exists(optimization_file):
+                    with open(optimization_file, 'r') as f:
+                        saved_results = json.load(f)
+                    assignments_data = saved_results.get("assignments", [])
+                    log(f"Loaded {len(assignments_data)} assignments with utilization methods")
+                else:
+                    assignments_data = []
+                    log("Warning: Could not find saved optimization results file")
+            except Exception as e:
+                log(f"Warning: Could not load saved optimization results: {e}")
+                assignments_data = []
+            
             # Return the assignment for further processing
             return {
                 "assignment": best_assignment,
-                "optimizer": optimizer
+                "optimizer": optimizer,
+                "assignments": assignments_data
             }
         else:
             log("Optimization failed - no valid assignment found")
