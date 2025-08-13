@@ -1,0 +1,356 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "wireless game controller with gray camouflage pattern",
+      "position": "upper middle-left of the image",
+      "worldposition": {
+        "x": -3.299334,
+        "y": 0.668672144,
+        "z": -0.204113767
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 308.5149,
+          "y1": 329.022156,
+          "x2": 541.0805,
+          "y2": 492.482361,
+          "width": 232.565613,
+          "height": 163.4602,
+          "center_x": 424.7977,
+          "center_y": 410.752258
+        },
+        "mask_center": {
+          "x": 359.0,
+          "y": 394.0
+        },
+        "confidence": 0.08899742,
+        "detected_name": "wireless game controller with gray camouflage pattern"
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "black stainless steel Tesla water bottle",
+      "position": "upper right of the image",
+      "worldposition": {
+        "x": -3.02802181,
+        "y": 0.819111943,
+        "z": 0.0107012689
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 818.183,
+          "y1": 61.93152,
+          "x2": 1002.04016,
+          "y2": 476.8922,
+          "width": 183.857178,
+          "height": 414.9607,
+          "center_x": 910.1116,
+          "center_y": 269.411865
+        },
+        "mask_center": {
+          "x": 921.0,
+          "y": 213.0
+        },
+        "confidence": 0.9204179,
+        "detected_name": "black stainless steel Tesla water bottle"
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "yellow snack bag with Japanese text and peanuts illustration",
+      "position": "bottom left of the image",
+      "worldposition": {
+        "x": -3.13188577,
+        "y": 0.6465319,
+        "z": -0.381233037
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 75.5220642,
+          "y1": 529.5746,
+          "x2": 429.028351,
+          "y2": 935.4962,
+          "width": 353.5063,
+          "height": 405.921631,
+          "center_x": 252.2752,
+          "center_y": 732.5354
+        },
+        "mask_center": {
+          "x": 232.0,
+          "y": 718.0
+        },
+        "confidence": 0.0157883316,
+        "detected_name": "yellow snack bag with Japanese text and peanuts illustration"
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "small yellow metal binder clip",
+      "position": "center of the image, slightly to the right",
+      "worldposition": {
+        "x": -3.00798059,
+        "y": 0.628165,
+        "z": -0.160367221
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 686.465332,
+          "y1": 599.075562,
+          "x2": 737.8899,
+          "y2": 657.8109,
+          "width": 51.42456,
+          "height": 58.73535,
+          "center_x": 712.1776,
+          "center_y": 628.443237
+        },
+        "mask_center": {
+          "x": 715.0,
+          "y": 636.0
+        },
+        "confidence": 0.266656131,
+        "detected_name": "small yellow metal binder clip"
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "clear plastic disposable cup with lid",
+      "position": "bottom right of the image",
+      "worldposition": {
+        "x": -2.886176,
+        "y": 0.630700231,
+        "z": -0.0595954657
+      },
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 913.537231,
+          "y1": 499.778564,
+          "x2": 1116.77185,
+          "y2": 739.4719,
+          "width": 203.234619,
+          "height": 239.69339,
+          "center_x": 1015.15454,
+          "center_y": 619.625244
+        },
+        "mask_center": {
+          "x": 1003.0,
+          "y": 657.0
+        },
+        "confidence": 0.6174345,
+        "detected_name": "clear plastic disposable cup with lid"
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "green plush turtle shell cushion with white rim",
+      "position": "upper left of the image",
+      "worldposition": {
+        "x": -0.953629,
+        "y": 0.878801465,
+        "z": -2.64400673
+      },
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 91.11865,
+          "y1": 0.0,
+          "x2": 753.247,
+          "y2": 453.435516,
+          "width": 662.128357,
+          "height": 453.435516,
+          "center_x": 422.182831,
+          "center_y": 226.717758
+        },
+        "mask_center": {
+          "x": 385.0,
+          "y": 194.0
+        },
+        "confidence": 0.983391762,
+        "detected_name": "green plush turtle shell cushion with white rim"
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "single roll of paper towels (empty or nearly empty)",
+      "position": "upper right of the image",
+      "worldposition": {
+        "x": -1.24825442,
+        "y": 0.9488387,
+        "z": -2.71512771
+      },
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 901.7352,
+          "y1": 41.81714,
+          "x2": 1186.44348,
+          "y2": 461.9665,
+          "width": 284.708252,
+          "height": 420.149353,
+          "center_x": 1044.08936,
+          "center_y": 251.891815
+        },
+        "mask_center": {
+          "x": 1083.0,
+          "y": 124.0
+        },
+        "confidence": 0.385423481,
+        "detected_name": "single roll of paper towels (empty or nearly empty)"
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "fine-tip black and silver pen with clip",
+      "position": "near bottom center of the image",
+      "worldposition": {
+        "x": -1.11089933,
+        "y": 0.730396867,
+        "z": -2.44450665
+      },
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 458.214142,
+          "y1": 585.473145,
+          "x2": 495.2601,
+          "y2": 883.2914,
+          "width": 37.04596,
+          "height": 297.818237,
+          "center_x": 476.737122,
+          "center_y": 734.382263
+        },
+        "mask_center": {
+          "x": 476.0,
+          "y": 808.0
+        },
+        "confidence": 0.231603548,
+        "detected_name": "fine-tip black and silver pen with clip"
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "silver metal USB-C hub/adapter",
+      "position": "bottom right of the image",
+      "worldposition": {
+        "x": -1.214099,
+        "y": 0.7449429,
+        "z": -2.57497859
+      },
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 702.915344,
+          "y1": 576.632751,
+          "x2": 890.4786,
+          "y2": 727.1386,
+          "width": 187.563232,
+          "height": 150.505859,
+          "center_x": 796.69696,
+          "center_y": 651.8857
+        },
+        "mask_center": {
+          "x": 802.0,
+          "y": 646.0
+        },
+        "confidence": 0.138808563,
+        "detected_name": "silver metal USB-C hub/adapter"
+      }
+    }
+  ],
+  "2": [
+    {
+      "object_id": 1,
+      "object": "black and silver telescopic selfie stick with phone holder clamp",
+      "position": "top center of the image",
+      "worldposition": {
+        "x": -0.4004033,
+        "y": 0.7563076,
+        "z": -2.210537
+      },
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 154.0838,
+          "y1": 78.7744751,
+          "x2": 849.204651,
+          "y2": 379.199158,
+          "width": 695.12085,
+          "height": 300.424683,
+          "center_x": 501.644226,
+          "center_y": 228.986816
+        },
+        "mask_center": {
+          "x": 428.0,
+          "y": 288.0
+        },
+        "confidence": 0.50221777,
+        "detected_name": "black and silver telescopic selfie stick with phone holder clamp"
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "blue Pilot whiteboard eraser box",
+      "position": "bottom left of the image",
+      "worldposition": {
+        "x": -0.57494086,
+        "y": 0.796268761,
+        "z": -2.07425284
+      },
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 137.413086,
+          "y1": 374.860474,
+          "x2": 540.8034,
+          "y2": 726.680054,
+          "width": 403.39032,
+          "height": 351.8196,
+          "center_x": 339.108246,
+          "center_y": 550.770264
+        },
+        "mask_center": {
+          "x": 405.0,
+          "y": 579.0
+        },
+        "confidence": 0.0106083378,
+        "detected_name": "blue Pilot whiteboard eraser box"
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "silver cylindrical 500 g calibration weight",
+      "position": "bottom right of the image",
+      "worldposition": {
+        "x": -0.74755466,
+        "y": 0.8002323,
+        "z": -2.221863
+      },
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 936.317261,
+          "y1": 531.764954,
+          "x2": 1090.4281,
+          "y2": 701.067566,
+          "width": 154.11084,
+          "height": 169.302612,
+          "center_x": 1013.37268,
+          "center_y": 616.41626
+        },
+        "mask_center": {
+          "x": 1027.0,
+          "y": 592.0
+        },
+        "confidence": 0.0180719886,
+        "detected_name": "silver cylindrical 500 g calibration weight"
+      }
+    }
+  ]
+}

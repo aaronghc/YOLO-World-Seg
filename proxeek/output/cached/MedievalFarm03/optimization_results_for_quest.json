@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "yellow snack bag with Japanese text and peanuts illustration",
+      "utilizationMethod": "No utilization method available"
+    },
+    {
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "silver cylindrical 500 g calibration weight",
+      "utilizationMethod": "No utilization method available"
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "black stainless steel Tesla water bottle",
+      "utilizationMethod": "Pinch the neck of the bottle between thumb and index finger so that the bottle body hangs downward, emulating a mug whose center of mass is offset from the grip point. Lift and tip the hanging cylinder to simulate bringing liquid to the lips; the steel body supplies realistic weight and rotational inertia."
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "single roll of paper towels (empty or nearly empty)",
+      "utilizationMethod": "Hold the cardboard core at one end, leaving most of the roll extending outward as the simulated blade mass. The overall length and cylinder diameter accommodate a full fist grip, and the off-center hold creates a front-loaded feel that replicates the axe\u2019s leverage, though with lighter inertia."
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "green plush turtle shell cushion with white rim",
+      "utilizationMethod": "Slip fingers under the firm white rim and hold it as a broad handle while the much bulkier green shell looms above the hand, naturally creating a top-heavy feel. Swing downward in short arcs so the plush shell meets the surface; its large mass and minor rebound successfully echo the momentum and damping vibration of a mallet-style hammer."
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "black and silver telescopic selfie stick with phone holder clamp",
+      "utilizationMethod": "Grasp the padded handle of the selfie stick just as you would the sickle\u2019s wooden grip. Keep the telescopic pole partly extended so the clamp end provides forward length and noticeable weight distribution. When you perform sweeping, inward pull strokes, the extended rod\u2019s inertia approximates the balanced yet forward-weighted feel of a curved blade."
+    }
+  ],
+  "timestamp": "4e2109fb-9b42-401e-806c-3846d9c6e639",
+  "total_assignments": 6
+}

@@ -432,37 +432,37 @@ proxy_matching_llm = ChatOpenAI(
     api_key=SecretStr(api_key) if api_key else None
 )
 
-# Initialize the property rating LLM (using fine-tuned model)
+# # Initialize the property rating LLM (using fine-tuned model)
+# property_rating_llm = ChatOpenAI(
+#     model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
+#     temperature=0.3,
+#     base_url="https://api.openai.com/v1",
+#     api_key=SecretStr(finetune_api_key) if finetune_api_key else None
+# )
+
 property_rating_llm = ChatOpenAI(
-    model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
+    model="o4-mini-2025-04-16",
     temperature=0.3,
-    base_url="https://api.openai.com/v1",
-    api_key=SecretStr(finetune_api_key) if finetune_api_key else None
+    base_url="https://api.nuwaapi.com/v1",
+    api_key=SecretStr(api_key) if api_key else None
 )
 
-# property_rating_llm = ChatOpenAI(
-#     model="o4-mini-2025-04-16",
-#     temperature=0.3,
-#     base_url="https://api.nuwaapi.com/v1",
-#     api_key=SecretStr(api_key) if api_key else None
-# )
-
-# # Initialize the relationship rating LLM
-# relationship_rating_llm = ChatOpenAI(
-#     model="o4-mini-2025-04-16",
-#     temperature=0.3,
-#     base_url="https://api.nuwaapi.com/v1",
-#     api_key=SecretStr(api_key) if api_key else None
-# )
-# log("Initialized relationship_rating_llm for LangSmith tracing")
-
+# Initialize the relationship rating LLM
 relationship_rating_llm = ChatOpenAI(
-    model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
+    model="o4-mini-2025-04-16",
     temperature=0.3,
-    base_url="https://api.openai.com/v1",
-    api_key=SecretStr(finetune_api_key) if finetune_api_key else None
+    base_url="https://api.nuwaapi.com/v1",
+    api_key=SecretStr(api_key) if api_key else None
 )
 log("Initialized relationship_rating_llm for LangSmith tracing")
+
+# relationship_rating_llm = ChatOpenAI(
+#     model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
+#     temperature=0.3,
+#     base_url="https://api.openai.com/v1",
+#     api_key=SecretStr(finetune_api_key) if finetune_api_key else None
+# )
+# log("Initialized relationship_rating_llm for LangSmith tracing")
 
 # Initialize the substrate utilization LLM
 substrate_utilization_llm = ChatOpenAI(
@@ -754,12 +754,12 @@ Focus specifically on the {dimension_name} dimension:
         "harmony": """
 **Harmony Dimension**: "I felt the haptic feedback was well coordinated with visual feedback"
 
-Focus on the synchronization of contact-substrate contact:
+Focus on the synchronization of contact-substrate contact. You should refer to the **dimensions** of the virtual contact object:
 
 Score 1 - Strongly Disagree:
-- Physical contact happens noticeably before visual contact or visual contact occurs with no physical sensation
+- Visual contact occurs with no physical sensation (missing contact)
 - Force direction contradicts visual motion
-- Visual substrate responses don't match felt impact intensity
+- Visual substrate responses don't match felt impact intensity at all
 
 Score 7 - Strongly Agree:
 - Physical and visual contact perfectly synchronized
@@ -2463,7 +2463,6 @@ async def rate_single_relationship_dimension(relationship_annotation, contact_ob
 ## Physical Object Assignment
 - **Contact Object**: {contact_object.get('object', 'Unknown')} (ID: {contact_object.get('object_id')}, Image: {contact_object.get('image_id')})
 - **Contact Utilization Method**: {contact_utilization_method}
-- **Contact Method Available**: {'Yes - this object can serve as a proxy for the virtual contact object' if has_valid_contact_method else 'No - this object cannot serve as a proxy for the virtual contact object, but evaluate it anyway for comprehensive coverage'}
 - **Substrate Objects**: All other physical objects listed below
 
 Please rate how well each pair (contact + substrate) can deliver the expected {dimension_name} aspect of the haptic feedback described above.

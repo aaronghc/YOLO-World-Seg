@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "transparent plastic lid",
+      "utilizationMethod": "No utilization method available"
+    },
+    {
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "tall roll of white paper towel (empty cardboard core)",
+      "utilizationMethod": "No utilization method available"
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "grey and white camouflage-pattern wireless game controller",
+      "utilizationMethod": "Hold the controller by slipping your index and middle fingers through the gap created by the two analog sticks and the underside ridge, while the thumb and remaining fingers clamp the front shell. This hook-style grip gives a 2-3 cm thick rounded edge that loosely mimics a mug handle. The controller\u2019s mass (\u2248250 g) provides moderate inertia so wrist pronation / supination feels like tilting a partially-filled mug."
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "black telescoping selfie stick with phone holder",
+      "utilizationMethod": "Keep the selfie stick collapsed and grasp the rubberized base grip; the phone clamp and telescoping tubes form a forward-loaded head. Its metal body and length allow either one-handed or two-handed baseball-bat grips, delivering realistic handle girth and convincing head-heavy inertia during wide chopping swings."
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "black stainless steel water bottle with Tesla logo",
+      "utilizationMethod": "Grip the lower third of the bottle so the filled upper portion operates as a weighted head. The metal shell\u2019s heft and cool rigidity provide authentic mass and hardness, while the cylindrical body offers a comfortable hammer-style handle circumference."
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "silver cylindrical 500 g calibration weight",
+      "utilizationMethod": "Grasp the narrow top knob between thumb and index finger, letting the dense cylinder hang forward like the mass of a forged blade. Swinging or rotating the wrist causes clear forward-weighted inertia, closely matching the moderate tug expected from the sickle\u2019s curved steel."
+    }
+  ],
+  "timestamp": "e4ccc2d3-a958-46ba-b95a-d7dd4171565d",
+  "total_assignments": 6
+}

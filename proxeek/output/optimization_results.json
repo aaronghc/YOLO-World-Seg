@@ -1,11 +1,11 @@
 {
   "optimization_summary": {
-    "total_loss": -11.247701407684817,
+    "total_loss": -10.513412994182161,
     "loss_components": {
-      "L_realism": -5.089521608856629,
-      "L_interaction": -6.158179798828188,
-      "L_spatial": 6.521316395075434,
-      "total": -11.247701407684817
+      "L_realism": -5.03365848458255,
+      "L_interaction": -5.479754509599612,
+      "L_spatial": 5.292840594786456,
+      "total": -10.513412994182161
     },
     "num_virtual_objects": 6,
     "num_physical_objects": 12,
@@ -27,26 +27,13 @@
         "priority_weight": 1.0
       },
       "physical_object": {
-        "name": "brown rectangular cardboard box",
-        "object_id": 2,
+        "name": "roll of beige masking tape",
+        "object_id": 5,
         "image_id": 0,
-        "index": 1
+        "index": 4
       },
       "realism_score": 0.0,
-      "assignment_matrix_row": [
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ]
+      "utilization_method": "Place the tape roll flat on the table with its hole centred. Guide the bottle cap so it strikes directly onto the inner rim. The cap meets the rigid cardboard edge first (noticeable resistance), then slips suddenly through the hollow centre, causing the roll to tilt and the resistance to disappear\u2014delivering a clean \u2018break-in\u2019 sensation similar to the rind finally splitting."
     },
     {
       "virtual_object": {
@@ -57,150 +44,81 @@
         "priority_weight": 1.0
       },
       "physical_object": {
-        "name": "tall black Tesla-branded stainless steel water bottle with silver cap",
-        "object_id": 1,
-        "image_id": 0,
-        "index": 0
+        "name": "white paper towel roll",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 6
       },
       "realism_score": 0.0,
-      "assignment_matrix_row": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ]
+      "utilization_method": "Stand the roll vertically like a small log. Bring the plush down onto the cut edge. The dense paper layers give a solid, resistive feel; as the force increases, the inner cardboard tube collapses slightly and sheets separate, letting the plush suddenly push through\u2014providing that dramatic give-way of wood cracking."
     },
     {
       "virtual_object": {
         "name": "Mug",
         "index": 2,
-        "engagement_level": 0.7408182206817179,
+        "engagement_level": 1.161834242728283,
         "involvement_type": "grasp",
-        "priority_weight": 0.7408182206817179
+        "priority_weight": 1.161834242728283
       },
       "physical_object": {
-        "name": "small cylindrical shiny metal calibration weight",
-        "object_id": 3,
+        "name": "black stainless steel water bottle with 'TESLA' branding",
+        "object_id": 2,
         "image_id": 0,
-        "index": 2
+        "index": 1
       },
-      "realism_score": 4.615384757518768,
-      "assignment_matrix_row": [
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "utilization_method": "Hook the pads of your index and middle fingers over the domed top while the thumb supports under the rim, letting the weight dangle below your grip. This finger-hook posture reproduces clasping a mug\u2019s handle and, because the weight is dense, it delivers the important sense of moderate inertia when you tilt it."
+      "realism_score": 6.0769232610861454,
+      "utilization_method": "Grip the narrow neck of the bottle (\u22482\u20133 cm diameter) as though it were the mug handle, keeping the heavier body hanging below your hand.  This offset mass reproduces the mug\u2019s forward roll when lifted.  Pitching the wrist 30\u201370\u00b0 gives clear inertial resistance from the full bottle, simulating the sensation of tilting a full mug toward the mouth."
     },
     {
       "virtual_object": {
         "name": "Axe",
         "index": 3,
-        "engagement_level": 1.1051709180756477,
+        "engagement_level": 1.5683121854901687,
         "involvement_type": "grasp",
-        "priority_weight": 1.1051709180756477
+        "priority_weight": 1.5683121854901687
       },
       "physical_object": {
-        "name": "white paper towel roll core",
-        "object_id": 4,
-        "image_id": 0,
-        "index": 3
+        "name": "green plush turtle shell with white rim",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 5
       },
-      "realism_score": 3.5,
-      "assignment_matrix_row": [
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "utilization_method": "Wrap your hand firmly around the cardboard tube as though it were the wooden handle. Though light, the diameter and length encourage a full power grip and allow rehearsal of the shoulder-led swing path and wrist snap that would drive a virtual axe."
+      "realism_score": 3.1666666666666665,
+      "utilization_method": "Clamp both hands around one edge of the plush shell and swing the opposite, padded bulk forward as the axe head.  The size and moderate weight offer noticeable inertia while the soft impact surface lets users safely practice the abrupt stop of a virtual chop."
     },
     {
       "virtual_object": {
         "name": "Hammer",
         "index": 4,
-        "engagement_level": 0.9048374180359595,
+        "engagement_level": 0.8607079764250578,
         "involvement_type": "grasp",
-        "priority_weight": 0.9048374180359595
+        "priority_weight": 0.8607079764250578
       },
       "physical_object": {
-        "name": "clear plastic jar or container (stackable design)",
-        "object_id": 6,
-        "image_id": 0,
-        "index": 5
+        "name": "black and silver telescopic selfie stick with phone holder clamp",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 9
       },
-      "realism_score": 4.5,
-      "assignment_matrix_row": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "utilization_method": "Invert the jar and grasp it near its open mouth so the bulk of the container sits above your hand. The widened body acts as the hammer head while the neck provides a short cylindrical grip. The shift in weight above the wrist helps approximate the top-heavy feel and permits safe downward pounding on the table surface."
+      "realism_score": 6.333333333333334,
+      "utilization_method": "Extend the telescopic arm halfway and grip the rubberized handle at the bottom. The phone clamp on the far end concentrates mass away from your hand, giving a pronounced head-heavy feel. This length and weight distribution closely match the dynamics of a full-size claw hammer when swung."
     },
     {
       "virtual_object": {
         "name": "Sickle",
         "index": 5,
-        "engagement_level": 1.3498588075760032,
+        "engagement_level": 0.6376281516217733,
         "involvement_type": "grasp",
-        "priority_weight": 1.3498588075760032
+        "priority_weight": 0.6376281516217733
       },
       "physical_object": {
-        "name": "black telescopic selfie stick with adjustable phone holder",
+        "name": "camouflage-pattern video game controller (wireless)",
         "object_id": 1,
-        "image_id": 2,
-        "index": 9
+        "image_id": 0,
+        "index": 0
       },
-      "realism_score": 6.666666666666666,
-      "assignment_matrix_row": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0,
-        0.0,
-        0.0
-      ],
-      "utilization_method": "Hold the rubberized black grip as the sickle handle; extend a single telescope segment so the rod plus phone clamp form a curved, forward-projecting mass. The distributed weight along the rod closely mirrors a sickle blade, allowing full-scale elbow and wrist sweeps that replicate harvesting strokes."
+      "realism_score": 4.166666666666666,
+      "utilization_method": "Grasp only the right-hand grip of the controller in a power grip so that your knuckles point toward the opposite left grip. The single occupied grip becomes a short cylindrical handle while the bulk of the controller body overhangs forward, creating slight forward weight. Perform crescent-shaped pulling motions; the protruding left grip gives the sense of a curved blade leading the swing."
     }
   ]
 }

@@ -1,0 +1,368 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "wireless game controller with gray camouflage pattern",
+      "position": "upper middle-left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 308.514892578125,
+          "y1": 329.02215576171875,
+          "x2": 541.0805053710938,
+          "y2": 492.48236083984375,
+          "width": 232.56561279296875,
+          "height": 163.460205078125,
+          "center_x": 424.7976989746094,
+          "center_y": 410.75225830078125
+        },
+        "mask_center": {
+          "x": 359.0,
+          "y": 394.0
+        },
+        "confidence": 0.08899742364883423,
+        "detected_name": "wireless game controller with gray camouflage pattern",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.299334,
+        "y": 0.668672144,
+        "z": -0.204113767
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "black stainless steel Tesla water bottle",
+      "position": "upper right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 818.1829833984375,
+          "y1": 61.9315185546875,
+          "x2": 1002.0401611328125,
+          "y2": 476.8922119140625,
+          "width": 183.857177734375,
+          "height": 414.960693359375,
+          "center_x": 910.111572265625,
+          "center_y": 269.411865234375
+        },
+        "mask_center": {
+          "x": 921.0,
+          "y": 213.0
+        },
+        "confidence": 0.9204179048538208,
+        "detected_name": "black stainless steel Tesla water bottle",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.02802181,
+        "y": 0.819111943,
+        "z": 0.0107012689
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "yellow snack bag with Japanese text and peanuts illustration",
+      "position": "bottom left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 75.52206420898438,
+          "y1": 529.5745849609375,
+          "x2": 429.0283508300781,
+          "y2": 935.4962158203125,
+          "width": 353.50628662109375,
+          "height": 405.921630859375,
+          "center_x": 252.27520751953125,
+          "center_y": 732.535400390625
+        },
+        "mask_center": {
+          "x": 232.0,
+          "y": 718.0
+        },
+        "confidence": 0.015788331627845764,
+        "detected_name": "yellow snack bag with Japanese text and peanuts illustration",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.13188577,
+        "y": 0.6465319,
+        "z": -0.381233037
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "small yellow metal binder clip",
+      "position": "center of the image, slightly to the right",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 686.46533203125,
+          "y1": 599.0755615234375,
+          "x2": 737.889892578125,
+          "y2": 657.8109130859375,
+          "width": 51.424560546875,
+          "height": 58.7353515625,
+          "center_x": 712.1776123046875,
+          "center_y": 628.4432373046875
+        },
+        "mask_center": {
+          "x": 715.0,
+          "y": 636.0
+        },
+        "confidence": 0.26665613055229187,
+        "detected_name": "small yellow metal binder clip",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.00798059,
+        "y": 0.628165,
+        "z": -0.160367221
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "clear plastic disposable cup with lid",
+      "position": "bottom right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 913.5372314453125,
+          "y1": 499.77854919433594,
+          "x2": 1116.7718505859375,
+          "y2": 739.4719390869141,
+          "width": 203.234619140625,
+          "height": 239.69338989257812,
+          "center_x": 1015.154541015625,
+          "center_y": 619.625244140625
+        },
+        "mask_center": {
+          "x": 1003.0,
+          "y": 657.0
+        },
+        "confidence": 0.6174345016479492,
+        "detected_name": "clear plastic disposable cup with lid",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.886176,
+        "y": 0.630700231,
+        "z": -0.0595954657
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "green plush turtle shell cushion with white rim",
+      "position": "upper left of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 91.11865234375,
+          "y1": 0.0,
+          "x2": 753.2470092773438,
+          "y2": 453.4355163574219,
+          "width": 662.1283569335938,
+          "height": 453.4355163574219,
+          "center_x": 422.1828308105469,
+          "center_y": 226.71775817871094
+        },
+        "mask_center": {
+          "x": 385.0,
+          "y": 194.0
+        },
+        "confidence": 0.9833917617797852,
+        "detected_name": "green plush turtle shell cushion with white rim",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.953629,
+        "y": 0.878801465,
+        "z": -2.64400673
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "single roll of paper towels (empty or nearly empty)",
+      "position": "upper right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 901.7352294921875,
+          "y1": 41.817138671875,
+          "x2": 1186.4434814453125,
+          "y2": 461.96649169921875,
+          "width": 284.708251953125,
+          "height": 420.14935302734375,
+          "center_x": 1044.08935546875,
+          "center_y": 251.89181518554688
+        },
+        "mask_center": {
+          "x": 1083.0,
+          "y": 124.0
+        },
+        "confidence": 0.385423481464386,
+        "detected_name": "single roll of paper towels (empty or nearly empty)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.24825442,
+        "y": 0.9488387,
+        "z": -2.71512771
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "fine-tip black and silver pen with clip",
+      "position": "near bottom center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 458.2141418457031,
+          "y1": 585.47314453125,
+          "x2": 495.2601013183594,
+          "y2": 883.2913818359375,
+          "width": 37.04595947265625,
+          "height": 297.8182373046875,
+          "center_x": 476.73712158203125,
+          "center_y": 734.3822631835938
+        },
+        "mask_center": {
+          "x": 476.0,
+          "y": 808.0
+        },
+        "confidence": 0.23160354793071747,
+        "detected_name": "fine-tip black and silver pen with clip",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.11089933,
+        "y": 0.730396867,
+        "z": -2.44450665
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "silver metal USB-C hub/adapter",
+      "position": "bottom right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 702.9153442382812,
+          "y1": 576.6327514648438,
+          "x2": 890.4785766601562,
+          "y2": 727.1386108398438,
+          "width": 187.563232421875,
+          "height": 150.505859375,
+          "center_x": 796.6969604492188,
+          "center_y": 651.8856811523438
+        },
+        "mask_center": {
+          "x": 802.0,
+          "y": 646.0
+        },
+        "confidence": 0.13880856335163116,
+        "detected_name": "silver metal USB-C hub/adapter",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.214099,
+        "y": 0.7449429,
+        "z": -2.57497859
+      }
+    }
+  ],
+  "2": [
+    {
+      "object_id": 1,
+      "object": "black and silver telescopic selfie stick with phone holder clamp",
+      "position": "top center of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 154.08380126953125,
+          "y1": 78.77447509765625,
+          "x2": 849.2046508789062,
+          "y2": 379.19915771484375,
+          "width": 695.120849609375,
+          "height": 300.4246826171875,
+          "center_x": 501.64422607421875,
+          "center_y": 228.98681640625
+        },
+        "mask_center": {
+          "x": 428.0,
+          "y": 288.0
+        },
+        "confidence": 0.5022177696228027,
+        "detected_name": "black and silver telescopic selfie stick with phone holder clamp",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.4004033,
+        "y": 0.7563076,
+        "z": -2.210537
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "blue Pilot whiteboard eraser box",
+      "position": "bottom left of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 137.4130859375,
+          "y1": 374.86045837402344,
+          "x2": 540.8034057617188,
+          "y2": 726.6800689697266,
+          "width": 403.39031982421875,
+          "height": 351.8196105957031,
+          "center_x": 339.1082458496094,
+          "center_y": 550.770263671875
+        },
+        "mask_center": {
+          "x": 405.0,
+          "y": 579.0
+        },
+        "confidence": 0.010608337819576263,
+        "detected_name": "blue Pilot whiteboard eraser box",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.57494086,
+        "y": 0.796268761,
+        "z": -2.07425284
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "silver cylindrical 500 g calibration weight",
+      "position": "bottom right of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 936.3172607421875,
+          "y1": 531.7649536132812,
+          "x2": 1090.4281005859375,
+          "y2": 701.0675659179688,
+          "width": 154.11083984375,
+          "height": 169.3026123046875,
+          "center_x": 1013.3726806640625,
+          "center_y": 616.416259765625
+        },
+        "mask_center": {
+          "x": 1027.0,
+          "y": 592.0
+        },
+        "confidence": 0.018071988597512245,
+        "detected_name": "silver cylindrical 500 g calibration weight",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.74755466,
+        "y": 0.8002323,
+        "z": -2.221863
+      }
+    }
+  ]
+}

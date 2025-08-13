@@ -3,35 +3,35 @@
   "data": [
     {
       "virtualObjectName": "Watermelon",
-      "proxyObjectName": "tall black Tesla-branded stainless steel water bottle with silver cap",
+      "proxyObjectName": "yellow paper coffee cup labeled 'Caf\u00e9'",
       "utilizationMethod": "No utilization method available"
     },
     {
       "virtualObjectName": "FireWood",
-      "proxyObjectName": "brown rectangular cardboard box",
+      "proxyObjectName": "white paper towel roll",
       "utilizationMethod": "No utilization method available"
     },
     {
       "virtualObjectName": "Mug",
-      "proxyObjectName": "clear plastic jar or container (stackable design)",
-      "utilizationMethod": "Hook two fingers through the lip of the jar while the thumb braces the outer wall, treating the rim as a circular handle. Lift and tilt it; the jar\u2019s cylindrical body and empty volume give a convincing mug outline, and if you partially fill it with water it can add the desired mass without altering the object."
+      "proxyObjectName": "black stainless steel water bottle with 'TESLA' branding",
+      "utilizationMethod": "Grip the narrow neck of the bottle (\u22482\u20133 cm diameter) as though it were the mug handle, keeping the heavier body hanging below your hand.  This offset mass reproduces the mug\u2019s forward roll when lifted.  Pitching the wrist 30\u201370\u00b0 gives clear inertial resistance from the full bottle, simulating the sensation of tilting a full mug toward the mouth."
     },
     {
       "virtualObjectName": "Axe",
-      "proxyObjectName": "grey and white camouflage-patterned video game controller",
-      "utilizationMethod": "Grasp the controller by a single grip horn so the rest of the body hangs outward as a weighted head. Swinging this asymmetrically held mass offers torque that strives to rotate the wrist downward, analogously to how an axe head tries to drop during a chop."
+      "proxyObjectName": "green plush turtle shell with white rim",
+      "utilizationMethod": "Clamp both hands around one edge of the plush shell and swing the opposite, padded bulk forward as the axe head.  The size and moderate weight offer noticeable inertia while the soft impact surface lets users safely practice the abrupt stop of a virtual chop."
     },
     {
       "virtualObjectName": "Hammer",
-      "proxyObjectName": "green plush turtle shell with white rim",
-      "utilizationMethod": "Curl your fingers around the white plush rim, letting the large soft dome hang over your fist like an oversized, padded hammer head. Its considerable size and off-centre mass make the head dip naturally, while the softness lets you perform full swings and feel a cushioned yet abrupt stop when it contacts a surface."
+      "proxyObjectName": "blue rectangular Pilot V Board Master whiteboard eraser box",
+      "utilizationMethod": "Clasp one narrow end of the box, letting the box\u2019s bulk project outward as the striking head. Because the box is wider than your grip, each downward tap delivers a solid stop\u2014useful for simulating flat-faced mallet blows in VR."
     },
     {
       "virtualObjectName": "Sickle",
-      "proxyObjectName": "black telescopic selfie stick with adjustable phone holder",
-      "utilizationMethod": "Hold the rubberized black grip as the sickle handle; extend a single telescope segment so the rod plus phone clamp form a curved, forward-projecting mass. The distributed weight along the rod closely mirrors a sickle blade, allowing full-scale elbow and wrist sweeps that replicate harvesting strokes."
+      "proxyObjectName": "black and silver telescopic selfie stick with phone holder clamp",
+      "utilizationMethod": "Collapse the pole to its shortest length and hold the foam-covered handle. Orient the phone clamp forward and downward; its claw-like curve substitutes for the sickle blade, while the collapsed pole provides moderate forward inertia. Perform elbow-driven pulling arcs, feeling the clamp drag through the air like a hooked cutter."
     }
   ],
-  "timestamp": "c149db46-625d-457b-812a-fac13cbbfdde",
+  "timestamp": "d0364f13-b0fb-4665-9dfa-1440ce486868",
   "total_assignments": 6
 }

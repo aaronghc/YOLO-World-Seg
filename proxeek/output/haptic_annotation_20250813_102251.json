@@ -1,0 +1,274 @@
+{
+  "summary": "Medieval Farm",
+  "highEngagementOrder": [
+    "Axe"
+  ],
+  "mediumEngagementOrder": [
+    "Mug",
+    "Hammer"
+  ],
+  "lowEngagementOrder": [
+    "Watermelon",
+    "FireWood",
+    "Sickle"
+  ],
+  "nodeAnnotations": [
+    {
+      "objectName": "Watermelon",
+      "involvementType": "substrate",
+      "usage": "",
+      "engagementLevel": 0,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.29",
+        "y": "0.19",
+        "z": "0.31"
+      },
+      "globalPosition": {
+        "x": 0.7289999723434448,
+        "y": 0.028491802513599396,
+        "z": 0.7919999957084656
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 242.30728149414062,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "FireWood",
+      "involvementType": "substrate",
+      "usage": "",
+      "engagementLevel": 0,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.16",
+        "y": "0.20",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 1.5750000476837158,
+        "y": -0.9319999814033508,
+        "z": -0.3240000009536743
+      },
+      "globalRotation": {
+        "x": 1.5292739868164062,
+        "y": 70.534912109375,
+        "z": 359.2193908691406
+      }
+    },
+    {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel moderate weight that feels substantial since it's full, as well as a rotational moment around their grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6153846383094788,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.38461539149284363,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      }
+    },
+    {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      }
+    },
+    {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      }
+    }
+  ],
+  "relationshipAnnotations": [
+    {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    },
+    {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  ],
+  "groups": [
+    {
+      "title": "Tools",
+      "objectNames": [
+        "Axe",
+        "Sickle",
+        "Hammer"
+      ],
+      "objectVectors": [
+        {
+          "objectA": "Axe",
+          "objectB": "Sickle",
+          "vector": {
+            "x": -0.47430893778800964,
+            "y": 0.0067055001854896545,
+            "z": 0.01228061318397522
+          },
+          "distance": 0.47451528906822205
+        },
+        {
+          "objectA": "Axe",
+          "objectB": "Hammer",
+          "vector": {
+            "x": -0.24065721035003662,
+            "y": 0.0017054975032806396,
+            "z": -0.003974735736846924
+          },
+          "distance": 0.24069607257843018
+        },
+        {
+          "objectA": "Sickle",
+          "objectB": "Hammer",
+          "vector": {
+            "x": 0.23365172743797302,
+            "y": -0.005000002682209015,
+            "z": -0.016255348920822144
+          },
+          "distance": 0.2342698574066162
+        }
+      ],
+      "additionalViewAngles": [
+        "StreamingAssets/Export/Arrangement_Tools_20250813_095757_angle0.png",
+        "StreamingAssets/Export/Arrangement_Tools_20250813_095757_angle1.png",
+        "StreamingAssets/Export/Arrangement_Tools_20250813_095757_angle2.png"
+      ]
+    }
+  ]
+}

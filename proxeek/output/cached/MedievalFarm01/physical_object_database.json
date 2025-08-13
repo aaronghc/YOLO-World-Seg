@@ -1,0 +1,368 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "black insulated water bottle with Tesla logo",
+      "position": "left side of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 112.43356323242188,
+          "y1": 75.771728515625,
+          "x2": 329.2616882324219,
+          "y2": 504.52276611328125,
+          "width": 216.828125,
+          "height": 428.75103759765625,
+          "center_x": 220.84762573242188,
+          "center_y": 290.1472473144531
+        },
+        "mask_center": {
+          "x": 206.0,
+          "y": 232.0
+        },
+        "confidence": 0.7113580703735352,
+        "detected_name": "black insulated water bottle with Tesla logo",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.08834958,
+        "y": 1.195062,
+        "z": -0.0463944227
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "white cardboard tube (empty paper roll core)",
+      "position": "center-back of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 680.1666259765625,
+          "y1": 136.52239990234375,
+          "x2": 815.6202392578125,
+          "y2": 475.79815673828125,
+          "width": 135.45361328125,
+          "height": 339.2757568359375,
+          "center_x": 747.8934326171875,
+          "center_y": 306.1602783203125
+        },
+        "mask_center": {
+          "x": 751.0,
+          "y": 227.0
+        },
+        "confidence": 0.47708356380462646,
+        "detected_name": "white cardboard tube (empty paper roll core)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.876553,
+        "y": 1.18795872,
+        "z": 0.16010122
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "chrome cylindrical calibration weight",
+      "position": "bottom-left of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 237.2158203125,
+          "y1": 627.1868286132812,
+          "x2": 333.462890625,
+          "y2": 718.7274780273438,
+          "width": 96.2470703125,
+          "height": 91.5406494140625,
+          "center_x": 285.33935546875,
+          "center_y": 672.9571533203125
+        },
+        "mask_center": {
+          "x": 283.0,
+          "y": 673.0
+        },
+        "confidence": 0.0031532926950603724,
+        "detected_name": "chrome cylindrical calibration weight",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.91751242,
+        "y": 1.05851734,
+        "z": -0.147909939
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "small yellow binder clip",
+      "position": "center of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 571.66552734375,
+          "y1": 561.2252197265625,
+          "x2": 617.829345703125,
+          "y2": 620.82080078125,
+          "width": 46.163818359375,
+          "height": 59.5955810546875,
+          "center_x": 594.7474365234375,
+          "center_y": 591.0230102539062
+        },
+        "mask_center": {
+          "x": 593.0,
+          "y": 599.0
+        },
+        "confidence": 0.055572543293237686,
+        "detected_name": "small yellow binder clip",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.87216544,
+        "y": 1.01343727,
+        "z": 0.0113054812
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "blue and white Pilot whiteboard eraser box",
+      "position": "bottom-right of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 723.764892578125,
+          "y1": 528.035400390625,
+          "x2": 1082.3363037109375,
+          "y2": 769.804443359375,
+          "width": 358.5714111328125,
+          "height": 241.76904296875,
+          "center_x": 903.0505981445312,
+          "center_y": 648.919921875
+        },
+        "mask_center": {
+          "x": 975.0,
+          "y": 658.0
+        },
+        "confidence": 0.0036955911200493574,
+        "detected_name": "blue and white Pilot whiteboard eraser box",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.676937,
+        "y": 1.05927968,
+        "z": 0.0551893562
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "green and white plush turtle-shell cushion",
+      "position": "top left of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 93.171142578125,
+          "y1": 0.0,
+          "x2": 790.9483642578125,
+          "y2": 448.2325744628906,
+          "width": 697.7772216796875,
+          "height": 448.2325744628906,
+          "center_x": 442.05975341796875,
+          "center_y": 224.1162872314453
+        },
+        "mask_center": {
+          "x": 400.0,
+          "y": 185.0
+        },
+        "confidence": 0.9579373002052307,
+        "detected_name": "green and white plush turtle-shell cushion",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.8036552,
+        "y": 1.107084,
+        "z": -2.55764174
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "black rectangular USB-C adapter",
+      "position": "middle right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 919.962890625,
+          "y1": 383.8447265625,
+          "x2": 1117.5189208984375,
+          "y2": 447.0865478515625,
+          "width": 197.5560302734375,
+          "height": 63.2418212890625,
+          "center_x": 1018.7409057617188,
+          "center_y": 415.46563720703125
+        },
+        "mask_center": {
+          "x": 1022.0,
+          "y": 416.0
+        },
+        "confidence": 0.3845694959163666,
+        "detected_name": "black rectangular USB-C adapter",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.10218525,
+        "y": 0.9835835,
+        "z": -2.67822647
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "silver-colored fine-liner pen with black cap",
+      "position": "bottom left of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 225.761474609375,
+          "y1": 733.8292236328125,
+          "x2": 593.97314453125,
+          "y2": 852.6192626953125,
+          "width": 368.211669921875,
+          "height": 118.7900390625,
+          "center_x": 409.8673095703125,
+          "center_y": 793.2242431640625
+        },
+        "mask_center": {
+          "x": 518.0,
+          "y": 818.0
+        },
+        "confidence": 0.4588000178337097,
+        "detected_name": "silver-colored fine-liner pen with black cap",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.9725237,
+        "y": 0.9714011,
+        "z": -2.36737776
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "thin brown/orange rubber band",
+      "position": "bottom right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 224.634765625,
+          "y1": 734.68212890625,
+          "x2": 594.68212890625,
+          "y2": 855.11279296875,
+          "width": 370.04736328125,
+          "height": 120.4306640625,
+          "center_x": 409.658447265625,
+          "center_y": 794.8974609375
+        },
+        "mask_center": {
+          "x": 522.0,
+          "y": 819.0
+        },
+        "confidence": 0.00616153609007597,
+        "detected_name": "thin brown/orange rubber band (bottom right of the image)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.97410953,
+        "y": 0.971529067,
+        "z": -2.36765575
+      }
+    }
+  ],
+  "2": [
+    {
+      "object_id": 1,
+      "object": "black selfie stick with extendable metal rod and phone holder",
+      "position": "top left of image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 84.7427978515625,
+          "y1": 30.013153076171875,
+          "x2": 766.1510009765625,
+          "y2": 455.8038635253906,
+          "width": 681.408203125,
+          "height": 425.79071044921875,
+          "center_x": 425.4468994140625,
+          "center_y": 242.90850830078125
+        },
+        "mask_center": {
+          "x": 360.0,
+          "y": 310.0
+        },
+        "confidence": 0.5761681795120239,
+        "detected_name": "black selfie stick with extendable metal rod and phone holder",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.185595721,
+        "y": 1.00536585,
+        "z": -2.12225842
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "transparent plastic cup",
+      "position": "lower center of image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 832.630859375,
+          "y1": 229.41287231445312,
+          "x2": 1214.40576171875,
+          "y2": 494.8447570800781,
+          "width": 381.77490234375,
+          "height": 265.431884765625,
+          "center_x": 1023.518310546875,
+          "center_y": 362.1288146972656
+        },
+        "mask_center": {
+          "x": 1116.0,
+          "y": 326.0
+        },
+        "confidence": 0.0011245441855862737,
+        "detected_name": "transparent plastic cup",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.5393649,
+        "y": 1.0498898,
+        "z": -2.20866251
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "white and gray camouflage wireless game controller",
+      "position": "top right of image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 832.912353515625,
+          "y1": 230.42434692382812,
+          "x2": 1213.3089599609375,
+          "y2": 494.2188415527344,
+          "width": 380.3966064453125,
+          "height": 263.79449462890625,
+          "center_x": 1023.1106567382812,
+          "center_y": 362.32159423828125
+        },
+        "mask_center": {
+          "x": 1116.0,
+          "y": 326.0
+        },
+        "confidence": 0.3331393599510193,
+        "detected_name": "white and gray camouflage wireless game controller",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.5393649,
+        "y": 1.0498898,
+        "z": -2.20866251
+      }
+    }
+  ]
+}

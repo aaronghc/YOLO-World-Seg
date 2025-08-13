@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "transparent plastic cup",
+      "utilizationMethod": "No utilization method available"
+    },
+    {
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "chrome cylindrical calibration weight",
+      "utilizationMethod": "No utilization method available"
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "black insulated water bottle with Tesla logo",
+      "utilizationMethod": "Grip the bottle around its narrow neck with the thumb on one side and 2\u20133 fingers on the opposite side. The neck\u2019s ~3 cm diameter gives a rounded rod-like feel that approximates the mug\u2019s handle, while the bottle\u2019s filled mass and off-center weight create a similar downward torque when you lift, tilt, and set it down."
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "green and white plush turtle-shell cushion",
+      "utilizationMethod": "Grasp the hard-sewn rim with both hands spaced apart. The large, soft dome supplies noticeable bulk and drag when you heave it downward, imitating the broad two-handed chopping motion and the deceleration thud of embedding an axe into wood."
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "white and gray camouflage wireless game controller",
+      "utilizationMethod": "Hold the controller by one of its handgrips so the opposite weighted side extends forward like a mallet head. The plastic shell offers a rigid surface and the internal batteries concentrate weight toward the center, giving a moment of inertia that lags behind the wrist when you swing, effectively simulating hammer heft and follow-through."
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "black selfie stick with extendable metal rod and phone holder",
+      "utilizationMethod": "Grip the padded handle as the sickle\u2019s handle and leave the phone clamp folded so it forms a hook. With the rod partially extended, the telescoping section adds forward-weighted inertia, closely matching the swing feel when harvesting."
+    }
+  ],
+  "timestamp": "e328d786-2428-4731-8d7d-bc66f8ee931c",
+  "total_assignments": 6
+}

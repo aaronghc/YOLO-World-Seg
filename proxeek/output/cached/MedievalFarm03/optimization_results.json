@@ -1,0 +1,206 @@
+{
+  "optimization_summary": {
+    "total_loss": -11.477690735154052,
+    "loss_components": {
+      "L_realism": -5.166882267497504,
+      "L_interaction": -6.482879679403677,
+      "L_spatial": 0.17207121174712917,
+      "total": -11.477690735154052
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 12,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.0,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "yellow snack bag with Japanese text and peanuts illustration",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 0.0,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 1.0,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "silver cylindrical 500 g calibration weight",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 11
+      },
+      "realism_score": 0.0,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.161834242728283,
+        "involvement_type": "grasp",
+        "priority_weight": 1.161834242728283
+      },
+      "physical_object": {
+        "name": "black stainless steel Tesla water bottle",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 4.974359134833018,
+      "assignment_matrix_row": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Pinch the neck of the bottle between thumb and index finger so that the bottle body hangs downward, emulating a mug whose center of mass is offset from the grip point. Lift and tip the hanging cylinder to simulate bringing liquid to the lips; the steel body supplies realistic weight and rotational inertia."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 1.5683121854901687,
+        "involvement_type": "grasp",
+        "priority_weight": 1.5683121854901687
+      },
+      "physical_object": {
+        "name": "single roll of paper towels (empty or nearly empty)",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 6
+      },
+      "realism_score": 4.333333333333333,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Hold the cardboard core at one end, leaving most of the roll extending outward as the simulated blade mass. The overall length and cylinder diameter accommodate a full fist grip, and the off-center hold creates a front-loaded feel that replicates the axe\u2019s leverage, though with lighter inertia."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 0.8607079764250578,
+        "involvement_type": "grasp",
+        "priority_weight": 0.8607079764250578
+      },
+      "physical_object": {
+        "name": "green plush turtle shell cushion with white rim",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 5
+      },
+      "realism_score": 4.833333333333333,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Slip fingers under the firm white rim and hold it as a broad handle while the much bulkier green shell looms above the hand, naturally creating a top-heavy feel. Swing downward in short arcs so the plush shell meets the surface; its large mass and minor rebound successfully echo the momentum and damping vibration of a mallet-style hammer."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.6376281516217733,
+        "involvement_type": "grasp",
+        "priority_weight": 0.6376281516217733
+      },
+      "physical_object": {
+        "name": "black and silver telescopic selfie stick with phone holder clamp",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 9
+      },
+      "realism_score": 6.166666666666666,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Grasp the padded handle of the selfie stick just as you would the sickle\u2019s wooden grip. Keep the telescopic pole partly extended so the clamp end provides forward length and noticeable weight distribution. When you perform sweeping, inward pull strokes, the extended rod\u2019s inertia approximates the balanced yet forward-weighted feel of a curved blade."
+    }
+  ]
+}

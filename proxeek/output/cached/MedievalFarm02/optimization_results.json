@@ -1,0 +1,212 @@
+{
+  "optimization_summary": {
+    "total_loss": -8.520161661781332,
+    "loss_components": {
+      "L_realism": -5.708333370586237,
+      "L_interaction": -2.9999999999999996,
+      "L_spatial": 0.18817170880490594,
+      "total": -8.520161661781332
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 13,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.0,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "transparent plastic lid",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 0.0,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 1.0,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "tall roll of white paper towel (empty cardboard core)",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 0.0,
+      "assignment_matrix_row": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 0.6376281516217733,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "grey and white camouflage-pattern wireless game controller",
+        "object_id": 1,
+        "image_id": 0,
+        "index": 0
+      },
+      "realism_score": 5.000000149011612,
+      "assignment_matrix_row": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Hold the controller by slipping your index and middle fingers through the gap created by the two analog sticks and the underside ridge, while the thumb and remaining fingers clamp the front shell. This hook-style grip gives a 2-3 cm thick rounded edge that loosely mimics a mug handle. The controller\u2019s mass (\u2248250 g) provides moderate inertia so wrist pronation / supination feels like tilting a partially-filled mug."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 1.161834242728283,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black telescoping selfie stick with phone holder",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 10
+      },
+      "realism_score": 6.0,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Keep the selfie stick collapsed and grasp the rubberized base grip; the phone clamp and telescoping tubes form a forward-loaded head. Its metal body and length allow either one-handed or two-handed baseball-bat grips, delivering realistic handle girth and convincing head-heavy inertia during wide chopping swings."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 0.8607079764250578,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black stainless steel water bottle with Tesla logo",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 11
+      },
+      "realism_score": 6.0,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "utilization_method": "Grip the lower third of the bottle so the filled upper portion operates as a weighted head. The metal shell\u2019s heft and cool rigidity provide authentic mass and hardness, while the cylindrical body offers a comfortable hammer-style handle circumference."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 1.5683121854901687,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "silver cylindrical 500 g calibration weight",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 8
+      },
+      "realism_score": 5.833333333333334,
+      "assignment_matrix_row": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "utilization_method": "Grasp the narrow top knob between thumb and index finger, letting the dense cylinder hang forward like the mass of a forged blade. Swinging or rotating the wrist causes clear forward-weighted inertia, closely matching the moderate tug expected from the sickle\u2019s curved steel."
+    }
+  ]
+}

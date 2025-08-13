@@ -267,7 +267,7 @@ class ProXeekOptimizer:
                     if N > 0:  # Only calculate if we have ranked objects
                         center = (N - 1) / 2.0
                         x_i = center - priority_rank          # evenly spaced, centred at 0
-                        k = 0.2                                # slope parameter for exp
+                        k = 0.3                                # slope parameter for exp
                         engagement_level = math.exp(k * x_i)
                     else:
                         engagement_level = 1.0  # Default if no ranking available
@@ -1194,11 +1194,14 @@ class ProXeekOptimizer:
             else:
                 realism_score = 0.0
                 
-            # Use engagement_level from VirtualObject directly
-            priority = virtual_obj.engagement_level
+            # Show effective priority weight used in optimization
+            if self.enable_priority_weighting:
+                effective_priority = virtual_obj.engagement_level
+            else:
+                effective_priority = 1.0  # Equal priority when disabled
             
             print(f"{virtual_obj.name} -> {physical_obj.name}")
-            print(f"  Priority: {priority:.1f}")
+            print(f"  Priority: {effective_priority:.3f}")
             print(f"  Realism Score: {realism_score:.3f}")
             print(f"  Physical ID: {physical_obj.object_id}, Image: {physical_obj.image_id}")
             print()
@@ -1232,8 +1235,11 @@ class ProXeekOptimizer:
             else:
                 realism_score = 0.0
                 
-            # Use engagement_level from VirtualObject directly
-            priority_weight = float(virtual_obj.engagement_level)
+            # Use effective priority weight from optimization
+            if self.enable_priority_weighting:
+                priority_weight = float(virtual_obj.engagement_level)
+            else:
+                priority_weight = 1.0  # Equal priority when disabled
             
             assignment_info = {
                 "virtual_object": {
@@ -1250,7 +1256,7 @@ class ProXeekOptimizer:
                     "index": physical_obj.index
                 },
                 "realism_score": float(realism_score),
-                "assignment_matrix_row": assignment.assignment_matrix[virtual_idx, :].tolist()
+                # "assignment_matrix_row": assignment.assignment_matrix[virtual_idx, :].tolist()
             }
 
             # Lookup utilization method from proxy matching results if available
@@ -1262,6 +1268,27 @@ class ProXeekOptimizer:
                         entry.get("image_id") == physical_obj.image_id):
                         util_method = entry.get("utilizationMethod") or entry.get("utilization_method")
                         break
+            
+            # If no utilization method found and this is a substrate object, 
+            # look for substrate utilization method from relationship rating results
+            if not util_method and virtual_obj.involvement_type == "substrate":
+                # Load relationship rating results to find substrate utilization method
+                relationship_file = os.path.join(self.data_dir, "relationship_rating_results.json")
+                if os.path.exists(relationship_file):
+                    try:
+                        with open(relationship_file, 'r') as f:
+                            relationship_data = json.load(f)
+                        
+                        # Search for matching substrate object in relationship data
+                        for rel_entry in relationship_data:
+                            if (rel_entry.get("virtualSubstrateObject") == virtual_obj.name and
+                                rel_entry.get("substrateObject_id") == physical_obj.object_id and
+                                rel_entry.get("substrateImage_id") == physical_obj.image_id):
+                                util_method = rel_entry.get("substrateUtilizationMethod")
+                                break
+                    except Exception as e:
+                        print(f"Warning: Could not load relationship data for substrate utilization: {e}")
+            
             if util_method:
                 assignment_info["utilization_method"] = util_method
 
