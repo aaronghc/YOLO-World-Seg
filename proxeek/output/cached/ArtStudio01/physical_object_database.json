@@ -1,0 +1,366 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "black upholstered office swivel chair with caster wheels",
+      "position": "bottom left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.160400390625,
+          "y1": 52.9525146484375,
+          "x2": 560.7545166015625,
+          "y2": 959.6968994140625,
+          "width": 560.5941162109375,
+          "height": 906.744384765625,
+          "center_x": 280.45745849609375,
+          "center_y": 506.32470703125
+        },
+        "mask_center": {
+          "x": 122.0,
+          "y": 301.0
+        },
+        "confidence": 0.9375966787338257,
+        "detected_name": "black upholstered office swivel chair with caster wheels",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.18166077,
+        "y": 0.7553046,
+        "z": 1.27005458
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "white rectangular table with metal legs",
+      "position": "center to right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 487.7310791015625,
+          "y1": 157.492919921875,
+          "x2": 1280.0,
+          "y2": 959.922607421875,
+          "width": 792.2689208984375,
+          "height": 802.4296875,
+          "center_x": 883.8655395507812,
+          "center_y": 558.707763671875
+        },
+        "mask_center": {
+          "x": 1264.0,
+          "y": 297.0
+        },
+        "confidence": 0.8511975407600403,
+        "detected_name": "white rectangular table with metal legs",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.240264952,
+        "y": 0.7270242,
+        "z": 2.07386637
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "black telescoping selfie stick/monopod with a grip handle",
+      "position": "center of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 621.1422119140625,
+          "y1": 231.9937744140625,
+          "x2": 865.8411865234375,
+          "y2": 515.4617919921875,
+          "width": 244.698974609375,
+          "height": 283.468017578125,
+          "center_x": 743.49169921875,
+          "center_y": 373.727783203125
+        },
+        "mask_center": {
+          "x": 765.0,
+          "y": 406.0
+        },
+        "confidence": 0.4673255681991577,
+        "detected_name": "black telescoping selfie stick/monopod with a grip handle",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.556292653,
+        "y": 0.7393898,
+        "z": 1.54528832
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "white paper towel roll standing upright",
+      "position": "upper center of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 728.0758056640625,
+          "y1": 57.95025634765625,
+          "x2": 850.7327880859375,
+          "y2": 276.08489990234375,
+          "width": 122.656982421875,
+          "height": 218.1346435546875,
+          "center_x": 789.404296875,
+          "center_y": 167.017578125
+        },
+        "mask_center": {
+          "x": 784.0,
+          "y": 213.0
+        },
+        "confidence": 0.9556408524513245,
+        "detected_name": "white paper towel roll standing upright",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.685068369,
+        "y": 0.8084482,
+        "z": 1.7773056
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "red Coca-Cola soda can",
+      "position": "upper right of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 964.4178466796875,
+          "y1": 163.21621704101562,
+          "x2": 1057.0775146484375,
+          "y2": 292.15380859375,
+          "width": 92.65966796875,
+          "height": 128.93759155273438,
+          "center_x": 1010.7476806640625,
+          "center_y": 227.6850128173828
+        },
+        "mask_center": {
+          "x": 1018.0,
+          "y": 202.0
+        },
+        "confidence": 0.14703699946403503,
+        "detected_name": "red Coca-Cola soda can",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.482809782,
+        "y": 0.828116536,
+        "z": 1.91028523
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "AA battery with silver and black casing",
+      "position": "slightly right of center on the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 879.378662109375,
+          "y1": 374.6651611328125,
+          "x2": 912.716796875,
+          "y2": 416.981689453125,
+          "width": 33.338134765625,
+          "height": 42.3165283203125,
+          "center_x": 896.0477294921875,
+          "center_y": 395.82342529296875
+        },
+        "mask_center": {
+          "x": 899.0,
+          "y": 391.0
+        },
+        "confidence": 0.09301190078258514,
+        "detected_name": "AA battery with silver and black casing",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.4672407,
+        "y": 0.746872365,
+        "z": 1.6311512
+      }
+    },
+    {
+      "object_id": 7,
+      "object": "yellow and green rectangular kitchen sponge",
+      "position": "right side of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1088.48681640625,
+          "y1": 398.0306396484375,
+          "x2": 1246.30517578125,
+          "y2": 504.619384765625,
+          "width": 157.818359375,
+          "height": 106.5887451171875,
+          "center_x": 1167.39599609375,
+          "center_y": 451.32501220703125
+        },
+        "mask_center": {
+          "x": 1183.0,
+          "y": 460.0
+        },
+        "confidence": 0.04002457857131958,
+        "detected_name": "yellow and green rectangular kitchen sponge",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.239206776,
+        "y": 0.746026456,
+        "z": 1.68408465
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "small black portable electric fan",
+      "position": "top left of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 26.27545166015625,
+          "y1": 1.081451416015625,
+          "x2": 422.12982177734375,
+          "y2": 464.8332214355469,
+          "width": 395.8543701171875,
+          "height": 463.75177001953125,
+          "center_x": 224.20263671875,
+          "center_y": 232.95733642578125
+        },
+        "mask_center": {
+          "x": 204.0,
+          "y": 86.0
+        },
+        "confidence": 0.14532512426376343,
+        "detected_name": "small black portable electric fan",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.046522,
+        "y": 0.9738293,
+        "z": -0.362923682
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "white plastic spray bottle",
+      "position": "top center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 651.83056640625,
+          "y1": 0.0,
+          "x2": 762.2469482421875,
+          "y2": 329.0886535644531,
+          "width": 110.4163818359375,
+          "height": 329.0886535644531,
+          "center_x": 707.0387573242188,
+          "center_y": 164.54432678222656
+        },
+        "mask_center": {
+          "x": 699.0,
+          "y": 145.0
+        },
+        "confidence": 0.9207145571708679,
+        "detected_name": "white plastic spray bottle",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 1.90625715,
+        "y": 0.8586392,
+        "z": -0.638534546
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "yellow snack pack with Japanese text and peanuts illustration",
+      "position": "top right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 945.609130859375,
+          "y1": 241.31320190429688,
+          "x2": 1166.048583984375,
+          "y2": 421.6933898925781,
+          "width": 220.439453125,
+          "height": 180.38018798828125,
+          "center_x": 1055.828857421875,
+          "center_y": 331.5032958984375
+        },
+        "mask_center": {
+          "x": 1075.0,
+          "y": 328.0
+        },
+        "confidence": 0.0008713187417015433,
+        "detected_name": "yellow snack pack with Japanese text and peanuts illustration",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 1.63767684,
+        "y": 0.7175343,
+        "z": -0.7947414
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "stainless steel butter knife",
+      "position": "lower center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 387.96142578125,
+          "y1": 456.8070068359375,
+          "x2": 660.67333984375,
+          "y2": 672.371337890625,
+          "width": 272.7119140625,
+          "height": 215.5643310546875,
+          "center_x": 524.3173828125,
+          "center_y": 564.5891723632812
+        },
+        "mask_center": {
+          "x": 410.0,
+          "y": 652.0
+        },
+        "confidence": 0.430130273103714,
+        "detected_name": "stainless steel butter knife",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 1.83049369,
+        "y": 0.7231327,
+        "z": -0.253376961
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "white ping pong ball",
+      "position": "center right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 830.513427734375,
+          "y1": 471.36181640625,
+          "x2": 893.938720703125,
+          "y2": 532.7154541015625,
+          "width": 63.42529296875,
+          "height": 61.3536376953125,
+          "center_x": 862.22607421875,
+          "center_y": 502.03863525390625
+        },
+        "mask_center": {
+          "x": 862.0,
+          "y": 501.0
+        },
+        "confidence": 0.10639600455760956,
+        "detected_name": "white ping pong ball",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 1.67456353,
+        "y": 0.7291087,
+        "z": -0.524879754
+      }
+    }
+  ]
+}

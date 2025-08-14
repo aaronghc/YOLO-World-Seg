@@ -1,11 +1,11 @@
 {
   "optimization_summary": {
-    "total_loss": -10.513412994182161,
+    "total_loss": -26.561504954766416,
     "loss_components": {
-      "L_realism": -5.03365848458255,
-      "L_interaction": -5.479754509599612,
-      "L_spatial": 5.292840594786456,
-      "total": -10.513412994182161
+      "L_realism": -13.909821013642018,
+      "L_interaction": -14.274267102057635,
+      "L_spatial": 1.6225831609332355,
+      "total": -26.561504954766416
     },
     "num_virtual_objects": 6,
     "num_physical_objects": 12,
@@ -13,112 +13,112 @@
     "loss_weights": {
       "w_realism": 1,
       "w_interaction": 1,
-      "w_spatial": 0
+      "w_spatial": 1
     },
     "priority_weighting_enabled": true
   },
   "assignments": [
     {
       "virtual_object": {
-        "name": "Watermelon",
+        "name": "Easel",
         "index": 0,
-        "engagement_level": 1.0,
+        "engagement_level": 1.2840254166877414,
         "involvement_type": "substrate",
-        "priority_weight": 1.0
+        "priority_weight": 1.2840254166877414
       },
       "physical_object": {
-        "name": "roll of beige masking tape",
-        "object_id": 5,
-        "image_id": 0,
-        "index": 4
-      },
-      "realism_score": 0.0,
-      "utilization_method": "Place the tape roll flat on the table with its hole centred. Guide the bottle cap so it strikes directly onto the inner rim. The cap meets the rigid cardboard edge first (noticeable resistance), then slips suddenly through the hollow centre, causing the roll to tilt and the resistance to disappear\u2014delivering a clean \u2018break-in\u2019 sensation similar to the rind finally splitting."
-    },
-    {
-      "virtual_object": {
-        "name": "FireWood",
-        "index": 1,
-        "engagement_level": 1.0,
-        "involvement_type": "substrate",
-        "priority_weight": 1.0
-      },
-      "physical_object": {
-        "name": "white paper towel roll",
-        "object_id": 2,
-        "image_id": 1,
-        "index": 6
-      },
-      "realism_score": 0.0,
-      "utilization_method": "Stand the roll vertically like a small log. Bring the plush down onto the cut edge. The dense paper layers give a solid, resistive feel; as the force increases, the inner cardboard tube collapses slightly and sheets separate, letting the plush suddenly push through\u2014providing that dramatic give-way of wood cracking."
-    },
-    {
-      "virtual_object": {
-        "name": "Mug",
-        "index": 2,
-        "engagement_level": 1.161834242728283,
-        "involvement_type": "grasp",
-        "priority_weight": 1.161834242728283
-      },
-      "physical_object": {
-        "name": "black stainless steel water bottle with 'TESLA' branding",
-        "object_id": 2,
-        "image_id": 0,
-        "index": 1
-      },
-      "realism_score": 6.0769232610861454,
-      "utilization_method": "Grip the narrow neck of the bottle (\u22482\u20133 cm diameter) as though it were the mug handle, keeping the heavier body hanging below your hand.  This offset mass reproduces the mug\u2019s forward roll when lifted.  Pitching the wrist 30\u201370\u00b0 gives clear inertial resistance from the full bottle, simulating the sensation of tilting a full mug toward the mouth."
-    },
-    {
-      "virtual_object": {
-        "name": "Axe",
-        "index": 3,
-        "engagement_level": 1.5683121854901687,
-        "involvement_type": "grasp",
-        "priority_weight": 1.5683121854901687
-      },
-      "physical_object": {
-        "name": "green plush turtle shell with white rim",
-        "object_id": 1,
-        "image_id": 1,
-        "index": 5
-      },
-      "realism_score": 3.1666666666666665,
-      "utilization_method": "Clamp both hands around one edge of the plush shell and swing the opposite, padded bulk forward as the axe head.  The size and moderate weight offer noticeable inertia while the soft impact surface lets users safely practice the abrupt stop of a virtual chop."
-    },
-    {
-      "virtual_object": {
-        "name": "Hammer",
-        "index": 4,
-        "engagement_level": 0.8607079764250578,
-        "involvement_type": "grasp",
-        "priority_weight": 0.8607079764250578
-      },
-      "physical_object": {
-        "name": "black and silver telescopic selfie stick with phone holder clamp",
-        "object_id": 1,
-        "image_id": 2,
-        "index": 9
-      },
-      "realism_score": 6.333333333333334,
-      "utilization_method": "Extend the telescopic arm halfway and grip the rubberized handle at the bottom. The phone clamp on the far end concentrates mass away from your hand, giving a pronounced head-heavy feel. This length and weight distribution closely match the dynamics of a full-size claw hammer when swung."
-    },
-    {
-      "virtual_object": {
-        "name": "Sickle",
-        "index": 5,
-        "engagement_level": 0.6376281516217733,
-        "involvement_type": "grasp",
-        "priority_weight": 0.6376281516217733
-      },
-      "physical_object": {
-        "name": "camouflage-pattern video game controller (wireless)",
+        "name": "black upholstered office swivel chair with caster wheels",
         "object_id": 1,
         "image_id": 0,
         "index": 0
       },
-      "realism_score": 4.166666666666666,
-      "utilization_method": "Grasp only the right-hand grip of the controller in a power grip so that your knuckles point toward the opposite left grip. The single occupied grip becomes a short cylindrical handle while the bulk of the controller body overhangs forward, creating slight forward weight. Perform crescent-shaped pulling motions; the protruding left grip gives the sense of a curved blade leading the swing."
+      "realism_score": 0.0,
+      "utilization_method": "Rotate the chair so that the upholstered back-rest faces the user at chest level, providing a near-vertical plane similar to a mounted canvas. Stroke the selfie-stick tip across the fabric surface; the underlying foam compresses slightly, creating a gradual increase in resistance that delivers the desired cushioned pushback while still feeling firm enough to guide precise wrist-led brushwork."
+    },
+    {
+      "virtual_object": {
+        "name": "Marker",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "AA battery with silver and black casing",
+        "object_id": 6,
+        "image_id": 0,
+        "index": 5
+      },
+      "realism_score": 5.999999642372131,
+      "utilization_method": "Use the battery exactly like a real marker: pinch the lower third between thumb and index finger, rest the middle finger underneath, and perform writing strokes. Its 1.4 cm diameter, smooth metal case, and low mass make it the closest match for a felt-tip marker barrel."
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "yellow snack pack with Japanese text and peanuts illustration",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 6.111111293236414,
+      "utilization_method": "Hold the sealed corner like a nozzle and progressively \u2018milk\u2019 the contents forward by pinching from the bottom toward the top. The foil pouch is soft, easily deformed, and air-filled, allowing repeated squeeze-and-push motions that faithfully echo emptying a paint tube."
+    },
+    {
+      "virtual_object": {
+        "name": "Paper",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "white rectangular table with metal legs",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Simply use the tabletop as the writing surface. The laminate top is smooth but has a faint texture that provides gentle, uniform drag when the battery\u2019s end is slid across, delivering feedback similar to a marker on copier paper."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black telescoping selfie stick/monopod with a grip handle",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 5.999999642372131,
+      "utilization_method": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "small black portable electric fan",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 5.5,
+      "utilization_method": "Grasp the slim fan stem like a roller handle and swing the device in long arcs; the heavy fan head creates a pronounced top-heavy inertia comparable to a loaded roller. The circular grill offers an imagined rotating surface even though it stays static."
     }
   ]
 }

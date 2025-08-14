@@ -1,0 +1,578 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "black stainless steel Tesla-branded water bottle",
+      "position": "top right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 784.6712646484375,
+          "y1": 50.8106689453125,
+          "x2": 927.2930908203125,
+          "y2": 436.96563720703125,
+          "width": 142.621826171875,
+          "height": 386.15496826171875,
+          "center_x": 855.982177734375,
+          "center_y": 243.88815307617188
+        },
+        "mask_center": {
+          "x": 859.0,
+          "y": 182.0
+        },
+        "confidence": 0.5166388154029846,
+        "detected_name": "black stainless steel Tesla-branded water bottle",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.36594963,
+        "y": 0.9490709,
+        "z": 2.02767467
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "white and grey digital camo wireless game controller",
+      "position": "upper center-left",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 12.735931396484375,
+          "y1": 539.1321411132812,
+          "x2": 472.3401184082031,
+          "y2": 873.0253295898438,
+          "width": 459.60418701171875,
+          "height": 333.8931884765625,
+          "center_x": 242.53802490234375,
+          "center_y": 706.0787353515625
+        },
+        "mask_center": {
+          "x": 220.0,
+          "y": 737.0
+        },
+        "confidence": 0.046789612621068954,
+        "detected_name": "white and grey digital camo wireless game controller",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.73984063,
+        "y": 0.7813359,
+        "z": 1.78561187
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "yellow paper coffee cup with 'Caf\u00e9' logo",
+      "position": "right side, center vertically",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1005.1832275390625,
+          "y1": 477.15423583984375,
+          "x2": 1228.7723388671875,
+          "y2": 713.4751586914062,
+          "width": 223.589111328125,
+          "height": 236.3209228515625,
+          "center_x": 1116.977783203125,
+          "center_y": 595.314697265625
+        },
+        "mask_center": {
+          "x": 1108.0,
+          "y": 573.0
+        },
+        "confidence": 0.9251186847686768,
+        "detected_name": "yellow paper coffee cup with 'Caf\u00e9' logo",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.33146632,
+        "y": 0.855833948,
+        "z": 1.75858021
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "small yellow binder clip",
+      "position": "center bottom",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 696.326171875,
+          "y1": 637.8985595703125,
+          "x2": 750.771240234375,
+          "y2": 703.2860107421875,
+          "width": 54.445068359375,
+          "height": 65.387451171875,
+          "center_x": 723.5487060546875,
+          "center_y": 670.59228515625
+        },
+        "mask_center": {
+          "x": 724.0,
+          "y": 679.0
+        },
+        "confidence": 0.022836152464151382,
+        "detected_name": "small yellow binder clip",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.49412239,
+        "y": 0.777763844,
+        "z": 1.7903192
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "yellow bag of Japanese snack (round puffed legumes)",
+      "position": "bottom left",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 12.961578369140625,
+          "y1": 540.19189453125,
+          "x2": 472.4102478027344,
+          "y2": 877.637451171875,
+          "width": 459.44866943359375,
+          "height": 337.445556640625,
+          "center_x": 242.6859130859375,
+          "center_y": 708.9146728515625
+        },
+        "mask_center": {
+          "x": 220.0,
+          "y": 737.0
+        },
+        "confidence": 0.0041841985657811165,
+        "detected_name": "yellow bag of Japanese snack (round puffed legumes) (bottom left)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.73984063,
+        "y": 0.7813359,
+        "z": 1.78561187
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "black and silver telescoping selfie stick with phone holder",
+      "position": "top left of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 94.98095703125,
+          "y1": 166.96240234375,
+          "x2": 656.7674560546875,
+          "y2": 387.73388671875,
+          "width": 561.7864990234375,
+          "height": 220.771484375,
+          "center_x": 375.87420654296875,
+          "center_y": 277.34814453125
+        },
+        "mask_center": {
+          "x": 309.0,
+          "y": 305.0
+        },
+        "confidence": 0.06045481190085411,
+        "detected_name": "black and silver telescoping selfie stick with phone holder",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.72819257,
+        "y": 0.8053263,
+        "z": -1.34642124
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "gray USB-C hub adapter",
+      "position": "upper right-center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 132.81192016601562,
+          "y1": 445.57713317871094,
+          "x2": 411.3479919433594,
+          "y2": 724.7036285400391,
+          "width": 278.53607177734375,
+          "height": 279.1264953613281,
+          "center_x": 272.0799560546875,
+          "center_y": 585.140380859375
+        },
+        "mask_center": {
+          "x": 314.0,
+          "y": 624.0
+        },
+        "confidence": 0.04507530480623245,
+        "detected_name": "gray USB-C hub adapter",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.76732612,
+        "y": 0.8376538,
+        "z": -1.06040132
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "white cylindrical paper roll",
+      "position": "right side of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1004.6573486328125,
+          "y1": 54.4888916015625,
+          "x2": 1265.8570556640625,
+          "y2": 402.3388671875,
+          "width": 261.19970703125,
+          "height": 347.8499755859375,
+          "center_x": 1135.2572021484375,
+          "center_y": 228.41387939453125
+        },
+        "mask_center": {
+          "x": 1180.0,
+          "y": 121.0
+        },
+        "confidence": 0.7274650931358337,
+        "detected_name": "white cylindrical paper roll",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.2636025,
+        "y": 0.978336453,
+        "z": -1.23070157
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "blue rectangular box of Pilot V-board whiteboard erasers",
+      "position": "bottom left of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 916.42431640625,
+          "y1": 492.77392578125,
+          "x2": 1053.31884765625,
+          "y2": 702.274658203125,
+          "width": 136.89453125,
+          "height": 209.500732421875,
+          "center_x": 984.87158203125,
+          "center_y": 597.5242919921875
+        },
+        "mask_center": {
+          "x": 1015.0,
+          "y": 650.0
+        },
+        "confidence": 0.019788360223174095,
+        "detected_name": "blue rectangular box of Pilot V-board whiteboard erasers",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.1465888,
+        "y": 0.804129362,
+        "z": -1.01091766
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "small silver cylindrical weight",
+      "position": "center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 242.82196807861328,
+          "y1": 576.4302978515625,
+          "x2": 301.6831588745117,
+          "y2": 626.0274658203125,
+          "width": 58.86119079589844,
+          "height": 49.59716796875,
+          "center_x": 272.2525634765625,
+          "center_y": 601.2288818359375
+        },
+        "mask_center": {
+          "x": 268.0,
+          "y": 602.0
+        },
+        "confidence": 0.005464338231831789,
+        "detected_name": "small silver cylindrical weight",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.74460459,
+        "y": 0.8455787,
+        "z": -1.07245648
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "silver capped pen",
+      "position": "bottom right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 916.52001953125,
+          "y1": 492.2967529296875,
+          "x2": 1053.808837890625,
+          "y2": 705.2327880859375,
+          "width": 137.288818359375,
+          "height": 212.93603515625,
+          "center_x": 985.1644287109375,
+          "center_y": 598.7647705078125
+        },
+        "mask_center": {
+          "x": 1015.0,
+          "y": 650.0
+        },
+        "confidence": 0.6510867476463318,
+        "detected_name": "silver capped pen (bottom right of the image)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.1465888,
+        "y": 0.804129362,
+        "z": -1.01091766
+      }
+    }
+  ],
+  "2": [
+    {
+      "object_id": 1,
+      "object": "yellow rectangular table",
+      "position": "spanning left to center of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.310302734375,
+          "y1": 0.13983154296875,
+          "x2": 1278.7568359375,
+          "y2": 805.0197143554688,
+          "width": 1278.446533203125,
+          "height": 804.8798828125,
+          "center_x": 639.5335693359375,
+          "center_y": 402.57977294921875
+        },
+        "mask_center": {
+          "x": 469.0,
+          "y": 655.0
+        },
+        "confidence": 0.039624594151973724,
+        "detected_name": "yellow rectangular table",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.91861176,
+        "y": 0.09159267,
+        "z": 0.455537081
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "black over-ear headphones",
+      "position": "top left on the table",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 265.06317138671875,
+          "y1": 122.34664916992188,
+          "x2": 429.40863037109375,
+          "y2": 256.736328125,
+          "width": 164.345458984375,
+          "height": 134.38967895507812,
+          "center_x": 347.23590087890625,
+          "center_y": 189.54148864746094
+        },
+        "mask_center": {
+          "x": 339.0,
+          "y": 189.0
+        },
+        "confidence": 0.49733665585517883,
+        "detected_name": "black over-ear headphones",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -4.115736,
+        "y": 0.8885456,
+        "z": 0.466775954
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "green plush turtle shell hat",
+      "position": "top right on the table",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 595.3245849609375,
+          "y1": 0.0,
+          "x2": 899.065673828125,
+          "y2": 218.8607940673828,
+          "width": 303.7410888671875,
+          "height": 218.8607940673828,
+          "center_x": 747.1951293945312,
+          "center_y": 109.4303970336914
+        },
+        "mask_center": {
+          "x": 737.0,
+          "y": 92.0
+        },
+        "confidence": 0.027335381135344505,
+        "detected_name": "green plush turtle shell hat",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.99990749,
+        "y": 0.966261744,
+        "z": 0.925521135
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "white ping-pong ball",
+      "position": "slightly right of center on the table",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 587.2401123046875,
+          "y1": 180.14450073242188,
+          "x2": 620.872802734375,
+          "y2": 214.27163696289062,
+          "width": 33.6326904296875,
+          "height": 34.12713623046875,
+          "center_x": 604.0564575195312,
+          "center_y": 197.20806884765625
+        },
+        "mask_center": {
+          "x": 604.0,
+          "y": 196.0
+        },
+        "confidence": 0.04812965169548988,
+        "detected_name": "white ping-pong ball",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -4.01560354,
+        "y": 0.8616763,
+        "z": 0.7598635
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "roll of white adhesive tape",
+      "position": "lower left on the table",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 303.75567626953125,
+          "y1": 304.12237548828125,
+          "x2": 352.60296630859375,
+          "y2": 343.10797119140625,
+          "width": 48.8472900390625,
+          "height": 38.985595703125,
+          "center_x": 328.1793212890625,
+          "center_y": 323.61517333984375
+        },
+        "mask_center": {
+          "x": 330.0,
+          "y": 323.0
+        },
+        "confidence": 0.016074983403086662,
+        "detected_name": "roll of white adhesive tape",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.94283581,
+        "y": 0.845281541,
+        "z": 0.401718616
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "brown spiral-bound notebook",
+      "position": "center left on the table",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 395.39080810546875,
+          "y1": 231.67825317382812,
+          "x2": 595.1033935546875,
+          "y2": 388.0640563964844,
+          "width": 199.71258544921875,
+          "height": 156.38580322265625,
+          "center_x": 495.2471008300781,
+          "center_y": 309.87115478515625
+        },
+        "mask_center": {
+          "x": 496.0,
+          "y": 311.0
+        },
+        "confidence": 0.012086234986782074,
+        "detected_name": "brown spiral-bound notebook (center left on the table)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.89657521,
+        "y": 0.8378107,
+        "z": 0.571535349
+      }
+    },
+    {
+      "object_id": 7,
+      "object": "black triangular smartphone stand",
+      "position": "center right on the table",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 625.3673095703125,
+          "y1": 258.44384765625,
+          "x2": 717.6654052734375,
+          "y2": 365.3848876953125,
+          "width": 92.298095703125,
+          "height": 106.9410400390625,
+          "center_x": 671.516357421875,
+          "center_y": 311.91436767578125
+        },
+        "mask_center": {
+          "x": 681.0,
+          "y": 297.0
+        },
+        "confidence": 0.22300651669502258,
+        "detected_name": "black triangular smartphone stand",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.784918,
+        "y": 0.883193552,
+        "z": 0.7400645
+      }
+    },
+    {
+      "object_id": 8,
+      "object": "black office chair with mesh back and padded seat",
+      "position": "right half of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 581.557373046875,
+          "y1": 202.7037353515625,
+          "x2": 1279.4581298828125,
+          "y2": 959.7952880859375,
+          "width": 697.9007568359375,
+          "height": 757.091552734375,
+          "center_x": 930.5077514648438,
+          "center_y": 581.24951171875
+        },
+        "mask_center": {
+          "x": 873.0,
+          "y": 842.0
+        },
+        "confidence": 0.9960846900939941,
+        "detected_name": "black office chair with mesh back and padded seat",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.2828536,
+        "y": 0.5859826,
+        "z": 0.707700133
+      }
+    }
+  ]
+}

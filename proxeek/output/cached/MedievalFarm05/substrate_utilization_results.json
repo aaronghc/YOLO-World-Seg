@@ -1,0 +1,1982 @@
+[
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "wireless game controller with grey digital camouflage pattern",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Rest the controller upside-down so the two rounded hand-grips point upward. Strike the centre of one up-facing grip with the phone-clamp \"hammer head.\" The curved hard-plastic shell offers firm initial resistance. As force builds, static friction is suddenly overcome and the controller tips over with an audible plastic clack, creating an abrupt loss of resistance that mimics the rind giving way.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "matte black stainless steel water bottle with Tesla logo",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the bottle upright on a flat surface. Aim a 45-degree downward strike near the shoulder just below the cap. The bottle\u2019s mass and narrow base produce solid resistance until the centre of gravity crosses its tipping point; at that instant it abruptly topples and slides, yielding a sudden release that feels like a rind cracking open, accompanied by a metallic clunk.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the rabbit upright facing away. Deliver a downward strike on the crown of the head. The rigid PLA surface gives a crisp, immovable feel at first; once the strike overcomes its low centre of gravity the figurine instantly topples, producing a sharp drop in resistance and a brief vibration through the hammer head \u2013 a convincing \u2018breakthrough\u2019 sensation.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the wrapped cracker flat on the table. Strike the centre of the biscuit through the plastic. The hard, brittle cracker resists until its internal structure fractures; the instant it snaps there\u2019s a loud crack and the hammer head sinks a few millimetres into the softened crumbs, producing a very clear breakthrough moment without needing to open the packaging.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the tube flat with the cap pointing away. Strike the mid-body of the tube. The semi-rigid aluminium/plastic wall feels firm initially; as you drive the clamp down the wall buckles, suddenly flattening and letting the head sink another few millimetres. That quick denting shift recreates the sensation of the rind giving way.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the cup so the open rim sits on the table. Deliver a straight downward strike to the centre of the base. The upright walls initially present a firm column; a fraction of a second later the side wall buckles inward and the cup collapses, producing an unmistakable drop in resistance and a hollow pop similar to breaking through a watermelon\u2019s rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "green plush turtle shell with white rim",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the shell rim-down so the firm white ring touches the table and the green dome bulges upward. Strike the very top of the dome. Compressible stuffing offers steady resistance; once the plush compresses fully the clamp suddenly meets the hard tabletop through the fabric, creating an instantaneous stop after the soft descent \u2013 the same abrupt \u2018breakthrough\u2019 transition from soft rind to hard core.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "beige paper towel roll",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the roll vertically. Target the top rim with a downward blow. The layered cardboard resists compression until the inner spiral begins to crumple; at that moment the rim caves inward and the clamp sinks suddenly several centimetres, delivering a clear crisp drop in resistance akin to breaking through rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "silver cylindrical calibration weight marked '50g'",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the weight upright near the centre of the table. Strike its top edge sideways. Its dense mass resists firmly until the strike angle overcomes static friction; then it rockets into a roll, instantly freeing the hammer head from contact and delivering the sudden drop in opposition that simulates the watermelon cracking.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the pen horizontally so it cannot roll away (e.g., positioned along the table edge groove). Strike the mid-section. The thin metal tube offers a brief, sharp resistance; the pen instantly pops sideways, escaping the hammer face and generating an abrupt release of counter-force that echoes the moment the rind splits.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind \u2013 a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the small cardboard box on one narrow end. Deliver a straight downward blow to the top face. The box\u2019s internal eraser gives stout resistance; once crushed the cardboard panel suddenly folds inward, allowing the clamp to drop a short distance and creating the immediate loss of resistance characteristic of a rind break.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its bottom end, letting the filled metal body extend above your hand. The bottle\u2019s mass is now concentrated forward, creating a clearly head-heavy inertia. Swing and strike with the bottle\u2019s shoulder as the hammer head.",
+    "expectedHapticFeedback": "A distinct breakthrough moment \u2013 initial firm resistance followed by a sudden release as the rind gives way.",
+    "physicalSubstrateObject": "wireless game controller with grey digital camouflage pattern",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Rest the controller flat on the table with the LEFT ANALOG STICK pointing straight up. Aim the bottle-\u201chammer\u201d directly at the top of that stick. On impact the stick offers a stiff, spring-loaded resistance for the first centimetre, then abruptly bottoms-out with a hard plastic stop, letting the bottle travel a few extra millimetres. This quick drop reproduces the \u2018rind-penetration\u2019 release while the controller\u2019s weight keeps it from sliding.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the rabbit upright on its base. Strike the crown of its head. The rigid PLA initially blocks the bottle, but because the figurine is light and narrow, the moment it tips past its balance point it topples, suddenly removing support so the bottle head drops a bit lower. The quick loss of counter-force simulates the shell finally giving way.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the wrapped cracker flat on the table. Bring the bottle down squarely on its centre. The intact cracker offers a crisp, crunchy resistance, then snaps and crumbles with an audible crack, letting the bottle sink instantly as the fragments disperse\u2014closely mirroring rind fracture and collapse.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the aluminium glue tube FLAT on the table with the cap pointing away. Strike the mid-section. The filled tube resists firmly at first, then abruptly buckles and flattens, forcing glue toward the ends; this sudden collapse gives a clear give-way sensation akin to punching through a rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the paper cup (open end down) on the table. Hammer the centre of the cup\u2019s base. The conical walls initially hold shape, then buckle suddenly, collapsing inward so the bottle plunges a few extra centimetres\u2014a satisfying breakthrough analogue with audible paper crunch.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "black and silver telescoping selfie stick with phone clamp",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the folded stick horizontally so the spring-loaded PHONE CLAMP stands vertically open just enough to touch. Strike the front face of the clamp. It offers firm spring resistance for a short travel, then the jaws snap fully open and the bottle continues forward an extra bit, creating a crisp pop-through effect that mimics rind penetration.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "green plush turtle shell with white rim",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the plush shell dome-side up on the table. Strike the highest point. The soft stuffing compresses progressively, but once the internal fibres compact fully the bottle suddenly meets the firm tabletop underneath, creating a quick shift from soft resistance to hard stop that approximates the moment of rind break and inner flesh contact.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "beige paper towel roll",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the roll upright like a column. Drive the bottle straight down onto the top edge. The cardboard core and layered paper resist firmly, then crumple inward once the walls buckle, letting the bottle descend further all at once\u2014delivering the desired \u2018shell-gives-way\u2019 sensation.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "silver cylindrical calibration weight marked '50g'",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the 50 g weight upright near the table edge. Strike its top off-centre so it RESISTS solidly for a split second, then instantly tips and rolls off the edge, removing all counterforce and letting the bottle follow through into free space\u2014creating a clear sensation of resistance followed by sudden release.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the pen so it bridges a narrow gap between two hardback books (or two table leaves). Strike the midpoint. The thin metal barrel offers rigid resistance, then snaps downward into the gap once its bending limit is reached, making the bottle drop suddenly a few millimetres\u2014providing the breakthrough cue.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold near the bottom, head-heavy swing.",
+    "expectedHapticFeedback": "Distinct breakthrough after initial resistance.",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the small card box on its narrow edge. Drive the bottle down onto its top. The thin cardboard walls resist compression for an instant, then collapse inward and crease, allowing the bottle to sink further very quickly\u2014delivering the crisp give-way sensation similar to cracking the melon\u2019s rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "wireless game controller with grey digital camouflage pattern",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the controller belly-down so the spring-loaded triggers point upward. Swing the paper-towel roll straight onto one trigger: the trigger resists firmly for a short travel, then snaps through its click, giving a crisp drop in resistance that mimics the rind giving way.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "matte black stainless steel water bottle with Tesla logo",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the bottle upright on the table. Strike the shoulder of the bottle off-centre: you feel a solid stop on contact, but the bottle quickly tips and falls, removing resistance abruptly \u2013 a perceptible \u2018break-through\u2019 as the mass suddenly moves away.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the rabbit on the smooth tabletop. Swing horizontally and strike its side. Static friction holds for an instant, then the light figurine skids away, creating a brief stop followed by sudden give that replicates breaking through the shell.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the wrapped cracker flat. Deliver a downward strike with the roll. The plastic and intact cracker resist momentarily, then crack and crumble with a sharp crunch and sudden loss of height \u2013 a highly convincing breakthrough sensation.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the glue tube horizontally. Strike the centre of the tube. The soft plastic wall compresses with resistance, then suddenly collapses flatter as air and paste shift, giving the quick drop in force that mirrors rind penetration.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Turn the cup upside-down on the desk. Hit the base with the roll. The rim holds firm briefly, then the sidewalls buckle inward, causing the base to cave with a quick pop that replicates breaking through the watermelon rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "black and silver telescoping selfie stick with phone clamp",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Open the spring-loaded phone clamp so it points upward. Drive the roll head between the jaws. The clamp resists until the spring stretches enough, then snaps open, giving an abrupt release identical to the breakthrough moment.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "green plush turtle shell with white rim",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the plush shell flat. Strike straight down onto the centre. The soft stuffing compresses steadily, then bottoms-out against the denser rim seam, causing an abrupt stop-to-give transition that conveys the shell cracking.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "silver cylindrical calibration weight marked '50g'",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the weight upright. Deliver an angled strike near its top edge. The heavy cylinder resists firmly, then abruptly topples and rolls away once its tipping point is reached, giving an immediate loss of resistance akin to breaking through.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the pen perpendicular to the swing path. Strike the barrel lightly. Friction keeps it still for a moment; once the force exceeds that friction, the slim pen shoots forward suddenly, producing the desired break-through drop in resistance.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the lightweight cardboard box upright on its smallest face. Drive the roll downward onto the top panel. The thin cardboard dents slowly, then caves in with a soft pop, ending resistance sharply and imitating the rind fracture.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "matte black stainless steel water bottle with Tesla logo",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the capped bottle upright on the table. Strike the curved shoulder just below the cap. First contact feels hard and immovable; a slightly stronger blow tips the tall bottle over, abruptly removing resistance as it begins to fall. The controller head surges forward into open air, giving a sudden \u2018give-way\u2019 moment that echoes cracking through a rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the rabbit upright, ears pointing away from you. Tap the top of a rigid ear with the controller \u2018hammer\u2019. The ear offers a crisp resistance until the figurine topples; as it begins to slide, resistance vanishes, producing a quick drop-off that feels like the rind giving way.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the wrapped cracker flat on the table. Strike the centre. The rigid cracker resists for an instant, then abruptly snaps with an audible crack and the brittle crumbs collapse, giving a fast transition from firm to soft that mirrors breaking through rind into pulp.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the unopened tube horizontally. Strike near the crimped metal tail. The soft metal skin at first feels firm, then buckles and flattens suddenly as the adhesive redistributes, producing a noticeable \u2018give\u2019 right after impact much like rind rupture.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Turn the cup upside-down so the rim is on the table. Strike the bottom centre. The rigid bottom first resists; a slightly harder blow caves the thin wall inward and collapses the cup, instantly dropping resistance and providing a convincing breakthrough feel.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "black and silver telescoping selfie stick with phone clamp",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Fold the telescopic pole halfway so it resembles a short rod, then rest its clamp end on the table edge with the handle end hanging slightly off. Strike the hinged clamp. It provides a solid stop until the hinge suddenly folds, causing the entire stick to drop off the edge. That rapid hinge collapse and weight drop creates an immediate disappearance of resistance akin to rind breakage.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "green plush turtle shell with white rim",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the plush shell flat on the table. Strike the centre dome. Stuffing offers spongy firmness; an extra bit of force compresses to the hard tabletop and the controller head suddenly sinks another centimetre, giving a perceptible \u2018pop-through\u2019 that copies rind yield into softer interior.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "beige paper towel roll",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the roll upright. Strike the top edge. The compacted paper layers push back firmly; with modest force the cardboard core buckles and the roll collapses quarter-way before stabilising, producing an abrupt drop in resistance equivalent to breaking the rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "silver cylindrical calibration weight marked '50g'",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the weight on its flat base near the table edge. Strike the dome-shaped top. The dense metal feels immovable until the blow tips the small cylinder; the instant it passes balance point, resistance disappears and it falls, reproducing the sudden give-way of rind puncture.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the capped pen vertically with tip down, supported by your off-hand fingers. Tap the top end with the controller. The pen resists until the narrow base slips from the fingers and the pen drops, creating a quick disappearance of force that echoes rind penetration.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "wireless game controller with grey digital camouflage pattern",
+    "contactObject_id": 1,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. Swing in short arcs like a small hammer.",
+    "expectedHapticFeedback": "Distinct breakthrough sensation\u2014initial resistance that suddenly releases, mimicking a hammer punching through watermelon rind.",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the unopened cardboard box on its broad face. Strike the centre of the top panel. The box sides maintain shape briefly; after impact the thin cardboard caves, letting the controller head sink a centimetre as the internal eraser compresses. That sharp transition from rigid to soft delivers a clear breakthrough cue.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "wireless game controller with grey digital camouflage pattern",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the controller upside-down so its two convex grip backs form a small raised \u2018hill\u2019. Strike the soft rubber thumb-stick cap (now pointing outward) with the dangling weight. The cap first resists while its internal spring compresses, then bottoms out abruptly against the plastic housing, giving a clear momentary loss of motion that mimics breaking through a rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "matte black stainless steel water bottle with Tesla logo",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the bottle upside-down so the slightly concave metal base faces up. Tap directly in the centre of this dimple. The base flexes inward a millimetre or two under the impact, then instantaneously snaps back, giving the hand a short, crisp relaxation that feels like the rind finally giving way.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the rabbit so a single upright ear is presented horizontally over the tabletop edge. Strike the midpoint of the ear. The thin PLA ear bends slightly, offering firm resistance, then suddenly flicks away as it passes its flex limit, creating a rapid drop in counter-force that feels like the hammer popping through the rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the packaged cracker flat on the table. Deliver a firm downward tap to its centre. The plastic film cushions the first milliseconds, then the crisp cracker snaps, producing a sudden disappearance of resistance accompanied by an audible crack\u2014very similar to the rind fracturing.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the aluminium tube horizontally and strike the broad side near the midpoint. The thin metal skin flattens modestly, resisting at first, then buckles with a quick give as the internal glue shifts, giving an unmistakable breakthrough sensation.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Set the cup upside-down. Strike near the rim. The stiff rolled rim holds for a moment, then collapses inward, making the cup suddenly dip under the hammer\u2014mirroring the hammer finally punching through the watermelon rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "black and silver telescoping selfie stick with phone clamp",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Collapse the stick and place it horizontally so the spring-loaded phone clamp jaws face upward and closed. Strike the centre of the jaws. They resist until the spring is overcome, then snap open, providing a crisp drop in resistance emulating the rind split.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "green plush turtle shell with white rim",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the plush shell on the table with the soft green dome upward. Strike firmly; the stuffing compresses steadily until the hard tabletop is reached, at which point the weight abruptly halts while your fingers continue a few millimetres, delivering the classic \u2018pop-through\u2019 feeling.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "beige paper towel roll",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the roll vertically. Strike the top layer. The compressed paper resists until the thin sheet tears and the cylinder sinks a few millimetres into the hollow core, producing a swift reduction in force akin to the rind cracking open.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the pen horizontally with the press-fit cap seam facing up. Tap directly over the seam. The plastic cap momentarily resists then pops loose, giving a crisp release of resistance that mimics the hammer puncturing the rind.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Hammer",
+    "virtualSubstrateObject": "Watermelon",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "expectedHapticFeedback": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the small cardboard box on its narrow edge so the broad face is vertical. Strike the centre of that face. The thin cardboard compresses then caves inward quickly, producing a noticeable 'give' that feels like the moment the rind finally yields.",
+    "relationshipAnnotation": {
+      "contactObject": "Hammer",
+      "substrateObject": "Watermelon",
+      "annotationText": "The user should then experience a distinct \"breakthrough\" moment as the hammer penetrates the rind - a sudden release of resistance like breaking through a moderately tough shell"
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "wireless game controller with grey digital camouflage pattern",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the controller upside-down on a firm table so the slightly curved bumper surface is exposed. Swing the phone-clamp \u2018axe head\u2019 straight down onto the centre of the hard plastic shell. The first contact produces a crisp click; as you push a fraction farther, the controller rocks on its rounded back, then abruptly flips or slides away, giving the sudden \u2018release\u2019 that mimics the moment the log splits.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "matte black stainless steel water bottle with Tesla logo",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the full metal bottle upright on the floor or tabletop directly in front of you. Chop downward onto the flat metal cap. The rigid stainless steel yields a loud, sharp impact; continued force causes the smooth cylinder to topple and clang against the surface, creating an immediate loss of resistance that convincingly echoes the crack-and-split moment.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the rigid rabbit figurine upright on its feet. Deliver a vertical chop to the top of its head. The brittle-feeling PLA plastic provides a crisp tap, then the light figurine instantly scoots or tips away, achieving a fast transition from resistance to release similar to a split log breaking free.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the wrapped cracker flat on a hard surface. Chop down firmly with the phone clamp. First you feel the stiff resistance of the intact cracker, then a satisfying crunch as it breaks inside the wrapper, instantly removing tension and providing an audible \u2018split\u2019 cue identical to wood cracking.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the soft glue tube horizontally on the table. Strike the centre of the aluminium tube. The metal skin gives a brief hard tap, then compresses\u2014offering growing resistance\u2014before the tube squirts sideways and the force suddenly vanishes, producing a clear release sensation.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the paper cup so its open rim rests on the table and its rigid base faces upward. Chop onto the centre of the base. You get a quick pop as the stiff circle is hit, then the thin sidewalls crumple and the cup collapses, causing resistance to disappear abruptly\u2014mirroring the split-through moment.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "green plush turtle shell with white rim",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the plush shell dome-side up on a low surface. Chop into the centre of the padded shell. The soft exterior absorbs the first hit with a muffled thud, while the dense stuffing briefly stiffens. Pushing through compresses the plush until the phone clamp rebounds and the shell springs back, providing a clear elastic \u2018give-then-release\u2019 analogous to wood fibres snapping.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "beige paper towel roll",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the cardboard roll vertically. Aim the chop at the top edge. You feel a crisp strike on the circular rim; continued downward pressure crushes the hollow tube until it buckles, suddenly eliminating resistance much like the moment a log splits along its grain.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "silver cylindrical calibration weight marked '50g'",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the heavy metal weight upright. Strike the flat top. The dense metal yields an immediate, ringing impact. Because the base is small and smooth, the cylinder tips and slides away after the hit, removing resistance in an instant and conveying the \u2018separation\u2019 of split timber.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the pen vertically on its capped end and steady it lightly with your free hand until the moment of contact (remove the supporting finger just before impact). The hard plastic cap delivers a small but crisp strike; the narrow cylinder immediately falls sideways, giving a rapid drop-off in force that sells the impression of wood giving way.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "black and silver telescoping selfie stick with phone clamp",
+    "contactObject_id": 1,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the small cardboard box on one short end like a miniature log. Chop down into the top panel. The stiff cardboard offers an initial firm stop; keep pressing and the box buckles, then topples flat, removing resistance and producing a tangible \u2018break\u2019 that aligns with the visual of firewood splitting.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "wireless game controller with grey digital camouflage pattern",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Rest the controller upside-down on a table so the curved underside faces upward like a small log round. Swing the bottle so its cap edge meets the hard ABS plastic near the centre bulge. The first touch gives a crisp, rigid smack; the controller then rocks and rebounds slightly on its shoulder buttons, supplying brief resistance followed by a tiny drop as it settles\u2014mimicking the split-and-release sensation of chopping wood.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the rabbit upright on its hind feet. Bring the bottle straight down onto the rigid back of the figurine. The stiff PLA surface produces a sharp tap on contact, while the lightweight body instantly topples forward, providing a quick, satisfying \u2018give\u2019 that resembles the crack and separation of split firewood.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the cracker upright on its short edge like a miniature log. When the bottle strikes, the hard baked cracker inside offers an initial snap, followed by crumbling under the force. The audible crack and sudden collapse of its core convincingly mirror wood splitting apart.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the unopened glue tube flat on the table. Strike the aluminium-foil tube near its centre. The thin metal skin delivers a crisp metallic hit at first contact; a fraction of a second later it buckles and forces glue to shift inside, creating a brief squeeze and sudden softening that emulates the resistance build-up and release of a log cracking.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the cup so its rim rests on the table surface like a stump. Bring the bottle down on the centre of the base. The stiff rolled paper rim offers a firm snap on first touch, then buckles inward and quickly folds, giving a sudden release and audible crunch that parallels wood fibres giving way.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "black and silver telescoping selfie stick with phone clamp",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Unlock and extend the selfie stick one segment, then stand it vertically with the phone clamp touching the table. Strike close to the top of the aluminium shaft. The hollow metal wall provides a concise ringing impact; the telescoping joint momentarily resists then slides inward, producing a rapid drop that echoes the \u2018giving way\u2019 of firewood after the blade bites through.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "green plush turtle shell with white rim",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the plush shell dome-up on the floor. Deliver a strong downward chop to the centre. The first contact compresses the fabric cover over densely packed stuffing, giving a noticeable thud. Continued force squeezes air out and suddenly bottoms out on the underlying floor, creating a quick release and deeper thump\u2014mimicking wood fibres compressing then yielding.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "beige paper towel roll",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the roll vertically like a log round. Chop straight down onto the exposed cardboard edge. The hard spiral core offers an initial stiff impact, then the layered towels compress and tear slightly, giving way in a sudden slump that resembles wood cracking down the grain.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "silver cylindrical calibration weight marked '50g'",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the steel weight flat on the table. Strike the very top. The dense metal offers an immediate, solid \u2018clang\u2019 that halts motion abruptly; the bottle\u2019s mass then bounces off slightly, providing a rapid separation that can stand in for the split-through moment.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the pen upright on its capped tip. A precise downward chop on the exposed barrel yields a high-pitched tap, then the pen topples instantly, creating an abrupt disappearance of resistance\u2014the kinetic equivalent of a chopped log falling open.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "matte black stainless steel water bottle with Tesla logo",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the unopened cardboard box on its narrow end so it stands tall. Strike the top edge with the bottle. The rigid cardboard walls resist firmly at first, then deform and collapse into the hollow interior, giving a pronounced snap-then-sink that convincingly conveys the fracture and separation of a split log.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "wireless game controller with grey digital camouflage pattern",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the controller flat on a desk with the buttons facing upward. Swing the plush shell straight down onto the hard plastic top shell. The rigid housing delivers a crisp stop on first contact. As the plush compresses further, the thumb-sticks and triggers depress slightly, adding a brief springy \"tension\" that is released when the plush rebounds, imitating the moment the log fibers finally give way.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "matte black stainless steel water bottle with Tesla logo",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the bottle upright on the floor or table with the cap facing up. Bring the plush shell down onto the cap or shoulder of the bottle. The rigid steel wall provides a firm jolt; the narrow footprint lets the bottle wobble and tip when extra force is applied, producing a momentary increase in resistance followed by a sudden loss of support as it topples\u2014mimicking a log splitting apart and falling.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the figurine upright on its feet. Strike the top of the rabbit's back with the plush shell. The hard, lightweight plastic creates a crisp tap; a fraction of a second later the figurine topples, producing a rapid drop in resistance that stands in for the clean split and separation of chopped firewood.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the wrapped cracker flat on a firm surface. Chop down with the plush shell. The first contact is firm as the crackers resist; an instant later the internal cracker snaps with an audible crackle and the resistance disappears, perfectly echoing the tension-then-break sensation of wood splitting.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Set the glue tube length-wise on the table, cap pointing away. Bring the plush shell down onto the middle of the tube. The semi-filled soft tube resists compression at first (building tension), then suddenly flattens as the glue redistributes, producing a noticeable drop in force reminiscent of a log yielding and opening.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the paper cup upright on a hard surface. Strike the rim with the plush shell. The stiff rim gives a quick, sharp stop, then the cup walls crumple inward, releasing resistance abruptly\u2014an intuitive parallel to wood fibers compressing and then splitting apart.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "black and silver telescoping selfie stick with phone clamp",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the collapsed selfie stick horizontally on a desk with the plastic phone clamp facing upward like the end grain of a log. Chop onto the clamp. The rigid plastic jaws stop the plush abruptly; the metal shaft rolls slightly afterwards, letting the stick pivot and drop off the surface edge if the blow is strong\u2014providing a tensioned hit followed by a sudden release that feels like a split log sliding away.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "beige paper towel roll",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the roll on end like a short log. Deliver a downward chop onto the exposed cardboard core. The densely wound paper offers firm initial resistance; as the plush compresses, the roll buckles slightly, then collapses inward with a noticeable give, recreating the progressive crush and snap of wood fibers breaking.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "silver cylindrical calibration weight marked '50g'",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the weight upright on the table. Strike its flat top with the plush shell. The dense metal mass provides an immediate hard stop; continued force makes the small cylinder slide or tip suddenly, removing resistance as it skids away\u2014mirroring the moment a split log piece breaks free.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the pen vertically on its flat cap end. Bring the plush shell down onto the top. The slim pen feels rigid at contact, then quickly topples, causing resistance to disappear in a snap\u2014evoking the clean crack and separation when chopped wood splits and falls.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "green plush turtle shell with white rim",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the box on its narrow edge so it resembles a short plank. Deliver a chopping blow to the broad face. The cardboard exterior and dense eraser inside create a stiff first impact; the box then flexes and topples, giving a momentary resistance followed by a quick release, similar to a split firewood chunk losing its support.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "wireless game controller with grey digital camouflage pattern",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the controller upside-down on a hard table so its curved top shell becomes the striking face. Swing the paper-towel-roll \"axe\" downward onto the highest central hump of the shell. The rigid plastic gives an immediate sharp tap, then the controller rocks and tips sideways, providing a brief resistance followed by a quick loss of support that mimics wood giving way and splitting.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "matte black stainless steel water bottle with Tesla logo",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the full bottle upright on the floor or desk. Bring the paper-towel roll down squarely onto the bottle\u2019s flat metal cap. The solid cap produces a crisp clang-like impact; the bottle\u2019s tall, narrow stance then causes it to wobble and topple after a fraction of a second, imitating the moment the log splits and falls apart.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the rabbit upright, presenting its broad back as the strike zone. A quick hit on the rigid PLA surface yields a distinct tap. Because the figurine is light, it skids away instantly, giving a short resistance then a sudden absence that echoes wood cracking apart.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the wrapped cracker flat on the table. Chop squarely onto the center. The brittle cracker fractures inside the wrapper with an audible crunch after the first hard tap, delivering both the sharp impact and an immediate tactile release reminiscent of a log splitting.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Set the capped glue tube horizontally so that the rigid plastic cap faces upward. Strike the cap. The cap\u2019s small hard surface produces a concise tap; the soft metal tube immediately buckles slightly and rolls away, giving a brief resistance followed by a slackening that parallels the \u2018split-and-give\u2019 sensation.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the cup upside-down so its rigid rolled rim is on top. Chop onto the rim. The rim offers a short crisp hit, then the lightweight cup collapses and slides, simulating resistance followed by sudden collapse like a split log half sliding off the stump.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "black and silver telescoping selfie stick with phone clamp",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Retract the selfie stick fully and lay it flat on the table with the phone clamp pointing away. Strike the metal shaft near its midpoint. The hollow aluminum provides a metallic snap, and the stick rolls quickly to one side right after impact, mirroring the instant give-way after a successful wood split.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "green plush turtle shell with white rim",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the plush shell dome-side up on the floor. Chop downward into the soft center. The initial contact is cushioned but quickly compresses, building resistance. As the foam rebounds and the roll pushes through the plush, the sudden drop in resistance at full compression gives a releasing sensation, analogous to the moment the log splits.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "silver cylindrical calibration weight marked '50g'",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the weight upright on a rigid surface. Aim the roll squarely onto the flat top. The dense steel gives an unmistakably hard \u2018clack\u2019. Because the weight is small and heavy, it barely moves, so the user feels a jolt that instantly stops the swing; rebound through the soft paper shaft then provides the brief tension-and-release pattern comparable to splitting through a knot in wood.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Position the pen vertically, tip down, with your non-dominant hand lightly pinching the clip so the barrel is exposed. Strike the top end of the pen. The metal barrel transmits a crisp sting, then your fingers naturally let the pen slip free, creating a momentary resistance followed by a drop\u2014emulating the crack and fall of split timber.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "beige paper towel roll",
+    "contactObject_id": 3,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the cardboard box on its smallest end so the weight of the eraser inside keeps it stable. Bring the roll down onto the top panel. The stiff cardboard yields a solid thud that quickly deforms and rebounds, creating a brief \u2018press then pop\u2019 feel comparable to a log cleaving and separating.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "wireless game controller with grey digital camouflage pattern",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Turn the controller upside-down on the desk so its curved battery-cover ridge is upper-most. Bring the dangling weight straight down onto that ridge. You feel a crisp hard plastic strike, then\u2014if you keep pushing\u2014the controller rocks until its flanks suddenly slap flat to the table, removing resistance in a pop that mimics the log finally splitting.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "matte black stainless steel water bottle with Tesla logo",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the bottle upright. Drop or drive the weight onto the domed metal cap. Metal-on-metal produces a sharp clang and abrupt stop. If you continue to push, the tall bottle leans, building sideways resistance until it tips past its balance point and suddenly falls, giving the satisfying release that echoes wood giving way.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "small grey 3D-printed rabbit figurine",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the rabbit on its side so its flat base faces up. Strike the weight onto the base edge. The hard printed plastic gives a clean crack-like impact, and the light figurine immediately topples, removing all resistance in a single motion that imitates the split.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the wrapped cracker flat on the table. Chop straight down with the weight. First you feel a hard tap against the biscuit, then increasing resistance as it flexes\u2014followed by an audible crunch and noticeable drop as the cracker snaps, perfectly recreating the buildup and sudden split of firewood.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "yellow tube of UHU all-purpose adhesive glue",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the unopened glue tube horizontally. Bring the weight down on the aluminium mid-section. The metal skin is firm at first, then slowly dents as internal paste shifts, abruptly buckling with a tiny pop when the crease forms\u2014delivering that growing tension and sudden give of a log cracking.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "empty yellow McCaf\u00e9 paper cup",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the cup on the table so its open end is down. Drive the weight into the center of the cup bottom. The stiff paper yields with a short crunch, then the walls buckle inward all at once, causing the weight to drop a few millimetres\u2014mirroring the progressive bite and final snap of splitting wood.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "black and silver telescoping selfie stick with phone clamp",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the collapsed selfie stick flat on the desk and strike the weight onto one of its telescopic joints. The first contact is a clean metallic clang; a little extra force makes the nested tubes slide a notch, suddenly shortening and releasing resistance\u2014the click and drop emulate the final break of the log.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "green plush turtle shell with white rim",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the plush shell flat. Swing the weight down firmly; the soft fill absorbs the blow but compresses until your fingers feel the tabletop underneath. That moment of bottoming-out delivers an abrupt stop after a gradual squeeze, echoing the rise in tension followed by the decisive split.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "beige paper towel roll",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the roll upright. Chop onto the soft top layers. They compress steadily until the weight meets the rigid inner cardboard tube, producing a crisp stop and a slight rebound\u2014the layered give then instant halt gives the same build-up and release as chopping through a log.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "silver barrel fine-liner pen with black tip",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the pen horizontally on the desk and strike its mid-section with the weight. The slim metal body gives a bright tap; continued pressure rolls the pen abruptly out from under the weight, removing resistance in an instant\u2014mirroring the final freeing motion when the wood finally parts.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  },
+  {
+    "virtualContactObject": "Axe",
+    "virtualSubstrateObject": "FireWood",
+    "physicalContactObject": "silver cylindrical calibration weight marked '50g'",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "expectedHapticFeedback": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely.",
+    "physicalSubstrateObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Stand the lightweight cardboard box on its narrow end. Drive the weight onto the top panel. The box surface dents slightly, offers growing resistance, then the entire box tips over and slaps the table, clearing the force in a single motion that feels like the final crack of split firewood.",
+    "relationshipAnnotation": {
+      "contactObject": "Axe",
+      "substrateObject": "FireWood",
+      "annotationText": "The user feels sharp initial impact as the axe strikes wood. Tension increases until a sudden satisfying release occurs - the wood cracks and splits completely."
+    }
+  }
+]

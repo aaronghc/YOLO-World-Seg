@@ -432,20 +432,20 @@ proxy_matching_llm = ChatOpenAI(
     api_key=SecretStr(api_key) if api_key else None
 )
 
-# # Initialize the property rating LLM (using fine-tuned model)
-# property_rating_llm = ChatOpenAI(
-#     model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
-#     temperature=0.3,
-#     base_url="https://api.openai.com/v1",
-#     api_key=SecretStr(finetune_api_key) if finetune_api_key else None
-# )
-
+# Initialize the property rating LLM (using fine-tuned model)
 property_rating_llm = ChatOpenAI(
-    model="o4-mini-2025-04-16",
+    model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
     temperature=0.3,
-    base_url="https://api.nuwaapi.com/v1",
-    api_key=SecretStr(api_key) if api_key else None
+    base_url="https://api.openai.com/v1",
+    api_key=SecretStr(finetune_api_key) if finetune_api_key else None
 )
+
+# property_rating_llm = ChatOpenAI(
+#     model="o4-mini-2025-04-16",
+#     temperature=0.3,
+#     base_url="https://api.nuwaapi.com/v1",
+#     api_key=SecretStr(api_key) if api_key else None
+# )
 
 # Initialize the relationship rating LLM
 relationship_rating_llm = ChatOpenAI(
@@ -627,7 +627,7 @@ def get_property_rating_system_prompt(property_name):
     base_prompt = f"""
 You are an expert in haptic design who specializes in evaluating how well physical objects can deliver the expected haptic feedback for virtual objects in VR.
 
-Your task is to evaluate how well each physical object can provide the expected {property_type} haptic feedback described for the virtual object. Focus on the specific haptic description provided rather than making general assumptions about the property type.
+Your task is to **critically** and **rigorously** evaluate how well each physical object can provide the expected {property_type} haptic feedback described for the virtual object. Focus on the specific haptic description provided rather than making general assumptions about the property type.
 
 Rate each physical object on a 7-point Likert scale based on how well it can deliver the described {property_type} experience:
 1 - Strongly Disagree 
@@ -735,7 +735,7 @@ def get_relationship_rating_system_prompt(dimension_name):
     base_prompt = f"""
 You are an expert in haptic design who specializes in evaluating how well pairs of physical objects can simulate the expected haptic feedback when two virtual objects interact with each other in VR.
 
-You will be provided with pre-generated substrate utilization methods for each contact-substrate pair. Your task is to **critically** evaluate how well each pair can deliver the expected haptic feedback, considering both the contact object's utilization method and the provided substrate utilization method.
+You will be provided with pre-generated substrate utilization methods for each contact-substrate pair. Your task is to **critically** and **rigorously** evaluate how well each pair can deliver the expected haptic feedback, considering both the contact object's utilization method and the provided substrate utilization method.
 
 Rate each physical object pair on a 7-point Likert scale for {dimension_name}:
 1 - Strongly Disagree 
@@ -2900,11 +2900,18 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
             contact_ratings = []
             for rating in property_rating_results:
                 if rating.get("virtualObject") == virtual_contact_name:
-                    # Calculate mean rating from the three runs
+                    # Calculate mean rating from the available runs
                     rating_1 = rating.get("rating_1", 0)
                     rating_2 = rating.get("rating_2", 0) 
                     rating_3 = rating.get("rating_3", 0)
-                    mean_rating = (rating_1 + rating_2 + rating_3) / 3 if (rating_1 or rating_2 or rating_3) else 0
+                    
+                    # Only include ratings that are greater than 0 (valid ratings)
+                    valid_ratings = [r for r in [rating_1, rating_2, rating_3] if r > 0]
+                    
+                    if valid_ratings:
+                        mean_rating = sum(valid_ratings) / len(valid_ratings)
+                    else:
+                        mean_rating = 0
                     
                     # Get property value for weighting
                     property_value = rating.get("propertyValue", 0.0)
@@ -3090,13 +3097,15 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
             if "error" in result:
                 continue
                 
-            # Create a key for this contact-substrate pair
+            # Create a key for this contact-substrate pair, including virtual objects to distinguish different virtual object pairs using same physical proxies
             contact_id = result.get("contactObject_id", "unknown")
             contact_img_id = result.get("contactImage_id", "unknown")
             substrate_id = result.get("substrateObject_id", "unknown")
             substrate_img_id = result.get("substrateImage_id", "unknown")
+            virtual_contact_object = result.get("virtualContactObject", "unknown")
+            virtual_substrate_object = result.get("virtualSubstrateObject", "unknown")
             
-            pair_key = f"{contact_id}_{contact_img_id}_{substrate_id}_{substrate_img_id}"
+            pair_key = f"{virtual_contact_object}_{virtual_substrate_object}_{contact_id}_{contact_img_id}_{substrate_id}_{substrate_img_id}"
             
             # Initialize the combined entry if it doesn't exist
             if pair_key not in combined_results:
@@ -3128,64 +3137,9 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
         # Convert combined results back to list
         final_relationship_results = list(combined_results.values())
         
-        # Generate unrated pairs with 0 scores for comprehensive coverage
-        log("Generating unrated pairs with 0 scores for comprehensive coverage")
-        
-        # Create a set of rated pairs from the results
-        rated_pairs_from_results = set()
-        for result in final_relationship_results:
-            if "error" not in result:
-                pair_key = f"{result.get('virtualContactObject', '')}_{result.get('virtualSubstrateObject', '')}_{result.get('contactObject_id', '')}_{result.get('contactImage_id', '')}_{result.get('substrateObject_id', '')}_{result.get('substrateImage_id', '')}"
-                rated_pairs_from_results.add(pair_key)
-        
-        # Generate all possible pairs and add unrated ones with 0 scores
-        unrated_pairs = []
-        for relationship in relationship_annotations:
-            virtual_contact_name = relationship.get("contactObject", "")
-            virtual_substrate_name = relationship.get("substrateObject", "")
-            annotation_text = relationship.get("annotationText", "No annotation available")
-            
-            # Create unrated pairs for all possible combinations
-            for contact_obj in all_physical_objects:
-                for substrate_obj in all_physical_objects:
-                    # Skip if same object
-                    if (contact_obj.get('object_id') == substrate_obj.get('object_id') and 
-                        contact_obj.get('image_id') == substrate_obj.get('image_id')):
-                        continue
-                    
-                    pair_key = f"{virtual_contact_name}_{virtual_substrate_name}_{contact_obj.get('object_id')}_{contact_obj.get('image_id')}_{substrate_obj.get('object_id')}_{substrate_obj.get('image_id')}"
-                    
-                    # If this pair was not rated, add it with 0 scores
-                    if pair_key not in rated_pairs_from_results:
-                        unrated_pair = {
-                            "virtualContactObject": virtual_contact_name,
-                            "virtualSubstrateObject": virtual_substrate_name,
-                            "physicalContactObject": contact_obj.get('object', 'Unknown'),
-                            "physicalSubstrateObject": substrate_obj.get('object', 'Unknown'),
-                            "contactObject_id": contact_obj.get('object_id'),
-                            "contactImage_id": contact_obj.get('image_id'),
-                            "substrateObject_id": substrate_obj.get('object_id'),
-                            "substrateImage_id": substrate_obj.get('image_id'),
-                            "contactUtilizationMethod": "Not evaluated - not in top 5",
-                            "substrateUtilizationMethod": "Not evaluated - not in top 5",
-                            "harmony_rating": 0,
-                            "harmony_explanation": "Not evaluated - contact object not in top 5 for this virtual contact object",
-                            "expressivity_rating": 0,
-                            "expressivity_explanation": "Not evaluated - contact object not in top 5 for this virtual contact object",
-                            "realism_rating": 0,
-                            "realism_explanation": "Not evaluated - contact object not in top 5 for this virtual contact object",
-                            "group_index": 0,
-                            "expectedHapticFeedback": annotation_text
-                        }
-                        unrated_pairs.append(unrated_pair)
-        
-        # Combine rated and unrated pairs
-        final_relationship_results.extend(unrated_pairs)
-        
-        # Log summary of results
-        log(f"Completed relationship ratings with {len(final_relationship_results)} total ratings")
-        log(f"  - Rated pairs: {len(final_relationship_results) - len(unrated_pairs)}")
-        log(f"  - Unrated pairs (0 scores): {len(unrated_pairs)}")
+        # Log summary of results - only save rated pairs
+        log(f"Completed relationship ratings with {len(final_relationship_results)} rated pairs")
+        log(f"  - All pairs were evaluated by LLM")
         
         return final_relationship_results
         
@@ -3451,11 +3405,18 @@ def calculate_final_scores(property_rating_results, proxy_matching_results):
         pair_key = f"{virt_obj}:{obj_id}:{img_id}"
         property_name = rating.get("property", "unknown")
         
-        # Calculate the mean of the three ratings
+        # Calculate the mean of the available ratings
         rating_1 = rating.get("rating_1", 0)
         rating_2 = rating.get("rating_2", 0)
         rating_3 = rating.get("rating_3", 0)
-        mean_rating = (rating_1 + rating_2 + rating_3) / 3 if (rating_1 or rating_2 or rating_3) else 0
+        
+        # Only include ratings that are greater than 0 (valid ratings)
+        valid_ratings = [r for r in [rating_1, rating_2, rating_3] if r > 0]
+        
+        if valid_ratings:
+            mean_rating = sum(valid_ratings) / len(valid_ratings)
+        else:
+            mean_rating = 0
         
         # Get the property value (significance)
         property_value = rating.get("propertyValue", 0.0)
@@ -4114,11 +4075,18 @@ async def run_substrate_utilization_methods(haptic_annotation_json, environment_
             contact_ratings = []
             for rating in property_rating_results:
                 if rating.get("virtualObject") == virtual_contact_name:
-                    # Calculate mean rating from the three runs
+                    # Calculate mean rating from the available runs
                     rating_1 = rating.get("rating_1", 0)
                     rating_2 = rating.get("rating_2", 0) 
                     rating_3 = rating.get("rating_3", 0)
-                    mean_rating = (rating_1 + rating_2 + rating_3) / 3 if (rating_1 or rating_2 or rating_3) else 0
+                    
+                    # Only include ratings that are greater than 0 (valid ratings)
+                    valid_ratings = [r for r in [rating_1, rating_2, rating_3] if r > 0]
+                    
+                    if valid_ratings:
+                        mean_rating = sum(valid_ratings) / len(valid_ratings)
+                    else:
+                        mean_rating = 0
                     
                     # Get property value for weighting
                     property_value = rating.get("propertyValue", 0.0)

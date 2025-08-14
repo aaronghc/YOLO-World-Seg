@@ -1,0 +1,2642 @@
+[
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "wireless game controller with grey digital camouflage pattern",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "top-left of snapshot 1, lying flat on the tabletop",
+    "utilizationMethod": "Grip the right-hand horn of the controller as if it were the mug\u2019s wooden rod-handle: slide the index and middle fingers between the underside of the horn and the main body while the thumb wraps over the top. The larger mass of the controller body now sits forward of the grip point, providing a noticeable forward torque when you lift and tilt\u2014similar to the virtual mug\u2019s offset centre of mass.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 4.888888597488403,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.333333333333333,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 3.5555553436279297
+      },
+      "outline": {
+        "mean_rating": 4.0,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 1.3333332538604736
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "matte black stainless steel water bottle with Tesla logo",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "top-centre of snapshot 1, standing upright",
+    "utilizationMethod": "Hold the bottle horizontally by pinching the narrow neck just below the cap with a C-shaped hand. The thick cylindrical body projects forward like the mug, so when you raise and rotate the wrist, the bottle\u2019s weight produces the same forward-pulling inertia you would feel from a full wooden tankard.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 5.666666328907013,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 6.0,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 3.999999761581421
+      },
+      "outline": {
+        "mean_rating": 5.0,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 1.666666567325592
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "small grey 3D-printed rabbit figurine",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "top-right of snapshot 1, near the back edge",
+    "utilizationMethod": "Pinch one of the rabbit\u2019s upright ears between thumb and curled index finger; the ear\u2019s ~1\u20132 cm thickness mimics a slender handle while the bulk of the body hangs in front of the grip, giving a subtle forward moment that must be countered\u2014echoing the mug\u2019s feel.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 3.6666664481163025,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.0,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 2.6666665077209473
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 0.9999999403953552
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "individually wrapped rectangular cracker snack",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "bottom-left of snapshot 1",
+    "utilizationMethod": "Curl the fingers around one short edge of the packet and let the rest of the cracker extend outward. Although light, the rectangular mass projects beyond the pinch point so that lifting and tilting still gives some sense of an offset load, letting users rehearse the reach-grasp-tilt sequence.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 2.222222089767456,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 1.5555554628372192
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 0.6666666269302368
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "yellow tube of UHU all-purpose adhesive glue",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "bottom-centre of snapshot 1",
+    "utilizationMethod": "Grasp only the black plastic cap between thumb and two fingers; the soft metal tube hangs down like a mug body in front of a small cylindrical handle (~2 cm diameter). Rotating the wrist to \u2018pour\u2019 makes the tube flop forward under gravity, reproducing the mug\u2019s off-axis inertia.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 4.111110866069794,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.0,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 2.6666665077209473
+      },
+      "outline": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 1.4444443583488464
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "empty yellow McCaf\u00e9 paper cup",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "bottom-right of snapshot 1",
+    "utilizationMethod": "Hook the index finger inside the rim while the thumb rests on the outer wall, creating a loop similar to a mug handle. With the cup held sideways, most of its (admittedly light) mass sits ahead of the grip so the user still practises the same lift-and-tilt motion.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 3.444444239139557,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 1.5555554628372192
+      },
+      "outline": {
+        "mean_rating": 5.666666666666667,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 1.8888887763023376
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "black and silver telescoping selfie stick with phone clamp",
+    "object_id": 1,
+    "image_id": 1,
+    "proxyLocation": "top-left of snapshot 2, lying diagonally",
+    "utilizationMethod": "Keep the stick collapsed and grip the phone clamp jaws as a 2 cm-thick handle; the aluminium shaft and plastic grip extend forward as the mug body. Lifting by the clamp makes the forward mass clearly felt, matching the mug\u2019s inertia and allowing natural tilt control.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 5.666666328907013,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.666666666666667,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 3.7777775526046753
+      },
+      "outline": {
+        "mean_rating": 5.666666666666667,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 1.8888887763023376
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "green plush turtle shell with white rim",
+    "object_id": 2,
+    "image_id": 1,
+    "proxyLocation": "top-right of snapshot 2",
+    "utilizationMethod": "Pinch a section of the white plush rim between thumb and fingers, treating it as the curved handle. The large soft shell protrudes forward so the user must stabilise a bulky body from a small grip point, mirroring the mug\u2019s torque\u2014albeit with a softer texture.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 3.444444239139557,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 2.4444442987442017
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 0.9999999403953552
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "beige paper towel roll",
+    "object_id": 3,
+    "image_id": 1,
+    "proxyLocation": "right-centre of snapshot 2",
+    "utilizationMethod": "Insert two fingers through the hollow core while the thumb rests outside, forming a loop handle. The cylindrical roll extends away from the hand, so when you tilt it, the forward weight distribution feels comparable to swinging a wooden tankard.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 4.888888597488403,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 3.1111109256744385
+      },
+      "outline": {
+        "mean_rating": 5.333333333333333,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 1.7777776718139648
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "silver cylindrical calibration weight marked '50g'",
+    "object_id": 4,
+    "image_id": 1,
+    "proxyLocation": "centre of snapshot 2",
+    "utilizationMethod": "Grip the narrow top knob (about 1.5\u20132 cm diameter) as the handle and let the heavier main cylinder hang below and forward. The dense 50 g mass gives clear inertia, closely imitating the sensation of a filled mug hanging from a small rod handle.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 5.8888885378837585,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.666666666666667,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 3.7777775526046753
+      },
+      "outline": {
+        "mean_rating": 6.333333333333333,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 2.1111109852790833
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "silver barrel fine-liner pen with black tip",
+    "object_id": 5,
+    "image_id": 1,
+    "proxyLocation": "bottom-right of snapshot 2",
+    "utilizationMethod": "Hold the pen perpendicular to the hand by pinching the clip end (if present) or rear cap between thumb and index finger, treating that stub as the handle while the pen\u2019s length extends forward as the mug body. Though light, tilting still rehearses the same wrist rotation sequence.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 2.77777761220932,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 1.5555554628372192
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 1.2222221493721008
+      }
+    }
+  },
+  {
+    "virtualObject": "Mug",
+    "physicalObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "object_id": 6,
+    "image_id": 1,
+    "proxyLocation": "bottom-left of snapshot 2",
+    "utilizationMethod": "Slide the fingertips under one short bottom edge while the thumb rests on the top face, creating a makeshift side handle. The rectangular box sticks out from the hand, giving an off-centre mass that must be balanced during lift and pour motions, similar to wielding a mug by its handle.",
+    "virtualObjectInfo": {
+      "objectName": "Mug",
+      "involvementType": "grasp",
+      "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+      "engagementLevel": 1,
+      "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+      "interactivity": "",
+      "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6666666269302368,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333134651184,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.19",
+        "z": "0.27"
+      },
+      "globalPosition": {
+        "x": 1.1699999570846558,
+        "y": 0.027000000700354576,
+        "z": 0.6579999923706055
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 231.77813720703125,
+        "z": 0.0
+      },
+      "interactionDeduction": "Users will insert their fingers between the mug body and the slender wooden rod-handle, then curl the fingers and thumb into a small power-pinch/pistol grip around the 2 cm-diameter rod. The wrist rotates the mug about the handle\u2019s long axis to lift it off a surface, bring it toward the mouth, and tilt it so liquid pours out. Because the mug\u2019s center of mass sits several centimetres forward of the grip point, the user feels a constant forward torque that must be countered by forearm pronation. Typical motion sequence: reach \u2192 grasp handle with C-shaped hand \u2192 elbow flexion to raise \u2192 wrist supination/pronation to adjust tilt \u2192 brief static hold while \u2018drinking\u2019 \u2192 lower and release. The mug itself offers little compliance; it feels rigid and maintains its cylindrical outline, but its inertia is clearly felt as the weight shifts farther from the wrist when tilted."
+    },
+    "rating_score": 3.999999761581421,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.6666666269302368,
+        "weighted_score": 2.888888716697693
+      },
+      "outline": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.3333333134651184,
+        "weighted_score": 1.111111044883728
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "wireless game controller with grey digital camouflage pattern",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "lying near the top-left area of the white tabletop",
+    "utilizationMethod": "Grip the controller by one of its hand-grips so that the bulk of the controller body sits above your fist. Swing your arm in a chopping motion; the asymmetrical weight distribution (bulkier body vs. thinner grip) gives a mild head-heavy feel similar to a very short-handled hatchet.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 3.333333333333333,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.8333333333333333
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "matte black stainless steel water bottle with Tesla logo",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "upright at the top-center of the white tabletop",
+    "utilizationMethod": "Hold the bottle near its narrow base so that most of its mass extends forward. This provides a cylindrical handle and noticeable top-heavy inertia; performing an overhead or side swing reproduces the lag of an axe head and the momentum during follow-through.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 6.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 6.0,
+        "property_value": 0.5,
+        "weighted_score": 3.0
+      },
+      "outline": {
+        "mean_rating": 6.0,
+        "property_value": 0.5,
+        "weighted_score": 3.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "small grey 3D-printed rabbit figurine",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "top-right on the white tabletop",
+    "utilizationMethod": "Pinch the rabbit by its hind legs, letting the heavier head project forward. Although very light, the protruding head forms a miniature mass at the far end; use wrist-flick chopping motions to mimic fine, wrist-scale axe swings.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 2.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "individually wrapped rectangular cracker snack",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "bottom-left on the white tabletop",
+    "utilizationMethod": "Grip one short edge of the package, leaving the rest to extend outward. The flexing wrapper offers slight drag and mass distribution away from the hand, allowing small swinging gestures that imitate a floppy but head-offset axe.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 1.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.0,
+        "property_value": 0.5,
+        "weighted_score": 0.5
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "yellow tube of UHU all-purpose adhesive glue",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "bottom-center of the white tabletop",
+    "utilizationMethod": "Hold the tube near its crimped metal end so the bulk of the tube and cap extend outward. This yields a small cylindrical grip with modest forward mass, enabling short chopping motions that reproduce the handle-plus-head layout.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 3.1666666666666665,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.3333333333333333
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.8333333333333333
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "empty yellow McCaf\u00e9 paper cup",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "bottom-right of the white tabletop",
+    "utilizationMethod": "Invert the cup and pinch the rim with thumb and fingers, allowing the conical body to protrude like an axe head. Swinging the cup gives a hollow but forward-projecting volume that cues the user to an offset mass\u2014useful for rehearsing the direction and follow-through of an axe swing.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 2.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 0.8333333333333334
+      },
+      "outline": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.5,
+        "weighted_score": 1.1666666666666667
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "black and silver telescoping selfie stick with phone clamp",
+    "object_id": 1,
+    "image_id": 1,
+    "proxyLocation": "top-left of the yellow table, partially extended",
+    "utilizationMethod": "Extend the telescoping rod one or two sections and grip the rubberized handle at the very end. The open phone clamp forms a heavier head relative to the thin shaft, creating clear head-heavy inertia; full-arm chopping swings convincingly replicate an axe\u2019s mass distribution and leverage.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 6.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 6.0,
+        "property_value": 0.5,
+        "weighted_score": 3.0
+      },
+      "outline": {
+        "mean_rating": 7.0,
+        "property_value": 0.5,
+        "weighted_score": 3.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "green plush turtle shell with white rim",
+    "object_id": 2,
+    "image_id": 1,
+    "proxyLocation": "top-center/right of the yellow table",
+    "utilizationMethod": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 4.833333333333334,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 2.3333333333333335
+      },
+      "outline": {
+        "mean_rating": 5.0,
+        "property_value": 0.5,
+        "weighted_score": 2.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "beige paper towel roll",
+    "object_id": 3,
+    "image_id": 1,
+    "proxyLocation": "right-center of the yellow table, standing upright",
+    "utilizationMethod": "Grasp the roll near one edge (either inner tube or outer surface) so the bulk of the roll projects forward. Its cylindrical form and uneven weight distribution deliver a noticeable head offset when swung, approximating a light practice axe.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 4.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.8333333333333333
+      },
+      "outline": {
+        "mean_rating": 5.333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 2.6666666666666665
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "silver cylindrical calibration weight marked '50g'",
+    "object_id": 4,
+    "image_id": 1,
+    "proxyLocation": "center of the yellow table",
+    "utilizationMethod": "Pinch the weight by its small top knob, letting the dense cylinder dangle below your fingers. Although handle length is minimal, the concentrated mass at the end distinctly conveys the sensation of a heavy axe head initiating and stopping motion.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 4.333333333333333,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.0,
+        "property_value": 0.5,
+        "weighted_score": 2.5
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.8333333333333333
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "silver barrel fine-liner pen with black tip",
+    "object_id": 5,
+    "image_id": 1,
+    "proxyLocation": "bottom-right of the yellow table",
+    "utilizationMethod": "Hold the pen near its rear cap, leaving the writing tip extended forward. Using full-hand or two-finger grip, perform miniature chopping motions\u2014the metal body supplies slight forward weight and a thin cylindrical shaft resembling a scaled-down axe handle.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 2.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Axe",
+    "physicalObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "object_id": 6,
+    "image_id": 1,
+    "proxyLocation": "bottom-left of the yellow table",
+    "utilizationMethod": "Grip one short end of the rectangular box so the wider mass extends outward. The rigid block creates a clear weight offset; swinging the box from the held end emulates the feel of a compact hatchet with a squarish head.",
+    "virtualObjectInfo": {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.25",
+        "y": "0.06",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": 0.5770000219345093,
+        "y": 0.04078630357980728,
+        "z": 0.35199999809265137
+      },
+      "globalRotation": {
+        "x": 349.0732421875,
+        "y": 113.15540313720703,
+        "z": 89.79319763183594
+      },
+      "interactionDeduction": "Users adopt a full power grip: all fingers wrap around the wooden shaft, thumb closes over the index finger, and the handle rests diagonally across the palm. Most will grasp close to the butt end to maximize swing leverage. Interaction involves large-amplitude shoulder and elbow motion\u2014raising the axe overhead or to the side, then accelerating it through a chopping arc generated by trunk rotation and elbow extension. The head-heavy inertia causes a pronounced lag at swing initiation and strong momentum at follow-through, which the user must dampen with wrist flexors when stopping. Secondary manipulation includes minor wrist roll for aim adjustment and two-handed grips for heavier chops. The virtual axe gives the sensation of a concentrated mass at the far end; once the impact animation plays, the haptic expectation is a sudden stop and vibration through the handle, after which the user relaxes grip pressure to reset."
+    },
+    "rating_score": 3.6666666666666665,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.8333333333333333
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.8333333333333333
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "wireless game controller with grey digital camouflage pattern",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "lying near the upper-left quadrant of snapshot 1",
+    "utilizationMethod": "Grip only the right-hand grip horn so the bulk of the controller (with its batteries inside) sits forward of your fist. This concentrates most of the mass beyond the knuckles, giving a modest head-heavy feel. Swing the wrist in short arcs; the asymmetrical weight of the controller produces a slight pendulum sensation similar to a small hammer.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 4.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.0,
+        "property_value": 0.5,
+        "weighted_score": 2.0
+      },
+      "outline": {
+        "mean_rating": 4.0,
+        "property_value": 0.5,
+        "weighted_score": 2.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "matte black stainless steel water bottle with Tesla logo",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "standing in the center-top area of snapshot 1",
+    "utilizationMethod": "Hold the bottle near its bottom end, letting the filled metal body extend above your hand. The bottle\u2019s mass is now concentrated forward, creating a clearly head-heavy inertia. The cylindrical body also provides the thick, solid grip found on a hammer handle, allowing natural cock-and-swing motions.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 6.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 6.0,
+        "property_value": 0.5,
+        "weighted_score": 3.0
+      },
+      "outline": {
+        "mean_rating": 6.0,
+        "property_value": 0.5,
+        "weighted_score": 3.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "small grey 3D-printed rabbit figurine",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "top-right of snapshot 1",
+    "utilizationMethod": "Pinch the rabbit by its rear legs so the solid torso and head jut forward as the striking mass. While short, this still places most weight beyond the fingers, imitating a mini-mallet where the user feels a small forward jolt on impact.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 2.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "individually wrapped rectangular cracker snack",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "bottom-left of snapshot 1",
+    "utilizationMethod": "Grip one narrow end of the package so the cracker slab swings out in front. The stiffness of the cracker provides a tiny flat 'head' while the plastic wrapper creates slight slip that encourages a squeeze-tighten rhythm, loosely reflecting repetitive hammer strikes (albeit at very low weight).",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 1.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      },
+      "outline": {
+        "mean_rating": 1.0,
+        "property_value": 0.5,
+        "weighted_score": 0.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "yellow tube of UHU all-purpose adhesive glue",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "bottom-center of snapshot 1",
+    "utilizationMethod": "Hold the tube near the crimped tail end; the denser adhesive collected toward the capped tip gives a modest top-weight. The tube\u2019s diameter matches a slim handle, so swinging from the tail provides a perceptible forward inertia during quick wrist snaps.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 3.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "empty yellow McCaf\u00e9 paper cup",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "bottom-right of snapshot 1",
+    "utilizationMethod": "Insert two fingers inside the cup and clasp the rim as a pseudo-handle, letting the wider base act as a soft striking face. Although very light, the flared shape lets users practise the hammering motion and the abrupt stop when the base meets a surface recreates a mild impact cue.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 1.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.0,
+        "property_value": 0.5,
+        "weighted_score": 0.5
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "black and silver telescoping selfie stick with phone clamp",
+    "object_id": 1,
+    "image_id": 1,
+    "proxyLocation": "upper-left of snapshot 2",
+    "utilizationMethod": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 6.833333333333334,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 6.666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 3.3333333333333335
+      },
+      "outline": {
+        "mean_rating": 7.0,
+        "property_value": 0.5,
+        "weighted_score": 3.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "green plush turtle shell with white rim",
+    "object_id": 2,
+    "image_id": 1,
+    "proxyLocation": "upper-right of snapshot 2",
+    "utilizationMethod": "Pinch a section of the white rim with one hand so the broad, cushioned shell extends ahead like an oversized soft mallet head. The plush mass offers detectable inertia and the squishy impact surface simulates a dead-blow hammer used for delicate strikes.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 3.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 2.1666666666666665
+      },
+      "outline": {
+        "mean_rating": 2.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.3333333333333333
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "beige paper towel roll",
+    "object_id": 3,
+    "image_id": 1,
+    "proxyLocation": "right-center of snapshot 2",
+    "utilizationMethod": "Grip the roll near one end; the remaining tube projects forward as a lightweight but elongated head, permitting the same cock-and-snap motion. The diameter approximates a handle, while the length produces rotational inertia felt during swings.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 4.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.0,
+        "property_value": 0.5,
+        "weighted_score": 2.0
+      },
+      "outline": {
+        "mean_rating": 5.0,
+        "property_value": 0.5,
+        "weighted_score": 2.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "silver cylindrical calibration weight marked '50g'",
+    "object_id": 4,
+    "image_id": 1,
+    "proxyLocation": "center of snapshot 2",
+    "utilizationMethod": "Pinch the small knob on top with thumb and index finger; the dense metal cylinder dangles below as a concentrated head. Your pinched fingers act as a very short handle, making the weight behave like a miniature jeweller\u2019s hammer, providing strong head-heavy feedback despite the tiny size.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 4.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.0,
+        "property_value": 0.5,
+        "weighted_score": 2.5
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "silver barrel fine-liner pen with black tip",
+    "object_id": 5,
+    "image_id": 1,
+    "proxyLocation": "bottom-right of snapshot 2",
+    "utilizationMethod": "Hold the pen near its rear end so the metal tip and ink cartridge weight are forward. While slim, the pen affords a clear cylindrical grip and a slight top-weight, enabling users to rehearse precise tap-strikes resembling a small tack hammer.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 2.8333333333333335,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.5,
+        "weighted_score": 1.1666666666666667
+      },
+      "outline": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.5,
+        "weighted_score": 1.6666666666666667
+      }
+    }
+  },
+  {
+    "virtualObject": "Hammer",
+    "physicalObject": "blue Pilot Vboard Master whiteboard eraser box",
+    "object_id": 6,
+    "image_id": 1,
+    "proxyLocation": "bottom-left of snapshot 2",
+    "utilizationMethod": "Grasp one narrow side of the cardboard box so the bulk of the box extends outward as a rectangular striking head. The box\u2019s mass is farther from the wrist than the grip, introducing perceptible rotational inertia when the user flicks or pounds downward, imitating the stop-and-jolt sensation of hammer impact.",
+    "virtualObjectInfo": {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "This hammer serves as a striking tool ",
+      "engagementLevel": 2,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.12",
+        "z": "0.39"
+      },
+      "globalPosition": {
+        "x": 0.33634281158447266,
+        "y": 0.04249180108308792,
+        "z": 0.34802526235580444
+      },
+      "globalRotation": {
+        "x": 3.252650499343872,
+        "y": 109.54983520507812,
+        "z": 85.54302215576172
+      },
+      "interactionDeduction": "Users wrap a firm power grip around the cylindrical handle, often near the midpoint or slightly toward the end opposite the head. Typical motion pattern: wrist and elbow cock backward, then snap forward in a short, high-precision arc to strike a target. Because the mass is concentrated in the rectangular head, users perceive a pendulum effect\u2014initial resistance followed by rapid acceleration. On \u2018impact\u2019 the hammer stops abruptly while the arm continues a few millimetres, creating an expected jolt that propagates back through the stiff handle. Repetitive strikes lead to a rhythmic squeeze-release pattern where grip tightens during the downswing and relaxes during the upswing."
+    },
+    "rating_score": 3.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.0,
+        "property_value": 0.5,
+        "weighted_score": 2.0
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "wireless game controller with grey digital camouflage pattern",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "top left of Snapshot 1",
+    "utilizationMethod": "Hold the controller by wrapping your fingers around ONLY the left-hand grip, letting the right grip and trigger section protrude forward. This gives you a short, thick cylindrical handle in your palm while the opposite side creates a forward extension that produces slight front-loaded inertia. Swing your forearm in small lateral arcs; the protruding half drags through the air and supplies a mild tug at the end of each stroke, approximating the sickle\u2019s weighted blade.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 4.166666666666666,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.0,
+        "property_value": 0.5,
+        "weighted_score": 2.0
+      },
+      "outline": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 2.1666666666666665
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "matte black stainless steel water bottle with Tesla logo",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "top center of Snapshot 1",
+    "utilizationMethod": "Grip the narrow neck just below the cap using a firm power grip; allow the main body of the bottle to jut forward beyond your knuckles. The smooth cylindrical neck imitates the sickle\u2019s wooden handle while the bottle\u2019s mass ahead of your fist provides forward-weighted inertia along its length. Now perform sweeping, inward cutting motions\u2014the water bottle\u2019s weight will create momentum and a noticeable follow-through similar to a real sickle stroke.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 5.666666666666666,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 2.6666666666666665
+      },
+      "outline": {
+        "mean_rating": 6.0,
+        "property_value": 0.5,
+        "weighted_score": 3.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "small grey 3D-printed rabbit figurine",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "top right of Snapshot 1",
+    "utilizationMethod": "Clamp the rabbit\u2019s hind legs between your fingers so they act as a stubby handle, letting the torso and head curve outward like a hooked blade. Although lightweight, the arched body introduces an off-axis mass that you can sweep through the air; the curved profile provides the sensation of dragging a hook through vegetation.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 3.166666666666667,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      },
+      "outline": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.5,
+        "weighted_score": 1.6666666666666667
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "individually wrapped rectangular cracker snack",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "bottom left of Snapshot 1",
+    "utilizationMethod": "Pinch one short edge of the packet between thumb and index finger so the longer cracker portion extends forward. The thin, flexible packet lets you feel a slight fluttering drag as you swing, giving minimal tactile resistance that can mimic the light slicing of soft plant stems, useful for a low-force practice of the cutting arc.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 2.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "yellow tube of UHU all-purpose adhesive glue",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "bottom center of Snapshot 1",
+    "utilizationMethod": "Grip the crimped metal tail of the glue tube as the handle; the squeezable body projects forward similar to a short curved blade. The soft metal and paste inside shift slightly during motion, providing a modest sense of inertia change and a subtle jerk when the filling sloshes to the front\u2014this echoes the sickle\u2019s drag-and-release feeling during a cut.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 4.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 2.1666666666666665
+      },
+      "outline": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 2.3333333333333335
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "empty yellow McCaf\u00e9 paper cup",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "bottom right of Snapshot 1",
+    "utilizationMethod": "Insert your thumb inside the cup and wrap your remaining fingers around the outer base, turning the cup on its side. The tapered cylinder becomes a comfortable handle while the broad rim describes a semi-circular outline reminiscent of a sickle blade. Swinging it sideways lets the wide rim catch air, giving a brief drag followed by release that cues the completion of a cut.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 3.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      },
+      "outline": {
+        "mean_rating": 4.0,
+        "property_value": 0.5,
+        "weighted_score": 2.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "black and silver telescoping selfie stick with phone clamp",
+    "object_id": 1,
+    "image_id": 1,
+    "proxyLocation": "top left of Snapshot 2",
+    "utilizationMethod": "Collapse the telescoping arm fully and grip the foam-covered handle. Angle the phone clamp forward so it curves inward toward your wrist, imitating the sickle\u2019s hooked blade. The stick\u2019s weight is concentrated toward the clamp end, giving forward-weighted inertia. Perform sweeping inward arcs; the extended clamp supplies a clear stopping point and a slight tug when you reverse direction, similar to cutting resistance.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 6.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 6.0,
+        "property_value": 0.5,
+        "weighted_score": 3.0
+      },
+      "outline": {
+        "mean_rating": 6.0,
+        "property_value": 0.5,
+        "weighted_score": 3.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "green plush turtle shell with white rim",
+    "object_id": 2,
+    "image_id": 1,
+    "proxyLocation": "top right of Snapshot 2",
+    "utilizationMethod": "Grab the soft white rim with both thumb and fingers forming a power grip on a small section, letting the large curved shell project outward. The shell\u2019s broad, padded curvature replicates the exaggerated arc of an outsized sickle blade; its mass creates gentle inertia and the plush surface yields slightly, providing the sensation of slicing through soft foliage when you sweep it across your body.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 3.833333333333333,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 2.1666666666666665
+      },
+      "outline": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.5,
+        "weighted_score": 1.6666666666666667
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "beige paper towel roll",
+    "object_id": 3,
+    "image_id": 1,
+    "proxyLocation": "right center of Snapshot 2",
+    "utilizationMethod": "Hold the inner cardboard core at one edge with a firm grip, allowing the bulk of the roll to extend forward. The cylindrical handle is firm while the paper layers add moderate weight, creating front-loaded inertia. As you swing, sheets flutter and create air resistance, approximating the drag the sickle experiences before breaking through a stem.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 5.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.0,
+        "property_value": 0.5,
+        "weighted_score": 2.5
+      },
+      "outline": {
+        "mean_rating": 5.0,
+        "property_value": 0.5,
+        "weighted_score": 2.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "silver cylindrical calibration weight marked '50g'",
+    "object_id": 4,
+    "image_id": 1,
+    "proxyLocation": "center of Snapshot 2",
+    "utilizationMethod": "Pinch the narrow knob on top between thumb and forefinger so the heavier cylinder hangs below like an inverted blade. The dense metal weight supplies a pronounced forward pull; small wrist arcs let you feel momentum and sudden stop when you change direction, capturing the inertial snap of a sickle finishing a cut.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 4.666666666666667,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 2.3333333333333335
+      },
+      "outline": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 2.3333333333333335
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "silver barrel fine-liner pen with black tip",
+    "object_id": 5,
+    "image_id": 1,
+    "proxyLocation": "bottom right of Snapshot 2",
+    "utilizationMethod": "Grip the rear butt of the pen as the handle, leaving the capped writing tip projecting forward. Though lightweight, the rigid metal cylinder supplies the correct handle shape and the dark tip visually guides the curved motion; fast lateral wrist flicks recreate the hooking gesture used with a sickle.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 2.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Sickle",
+    "physicalObject": "blue Pilot V-board Master whiteboard eraser box",
+    "object_id": 6,
+    "image_id": 1,
+    "proxyLocation": "bottom left of Snapshot 2",
+    "utilizationMethod": "Hold one narrow end of the rectangular box like a stub handle, letting the larger flat body jut ahead of your fist. The box\u2019s mass is concentrated beyond your grip, yielding a forward-weighted feel. Swinging it in short arcs provides a blunt yet perceptible drag followed by release, simulating the sensation of a sickle\u2019s blade cleaving through thicker stalks.",
+    "virtualObjectInfo": {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.30",
+        "y": "0.07",
+        "z": "0.43"
+      },
+      "globalPosition": {
+        "x": 0.10269107669591904,
+        "y": 0.047491803765296936,
+        "z": 0.3642806112766266
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "interactionDeduction": "Users form a secure power grip around the short, straight handle, with the blade curving forward and inward. Interaction consists of sweeping, semi-circular cutting motions: the forearm rotates inward while the wrist arcs so the blade\u2019s inner edge hooks vegetation. Movements are generally lateral or diagonal across the body, followed by a pull toward the user\u2019s torso. Because the curved blade distributes moderate weight along its arc, users feel forward-weighted inertia but less of a single heavy point than with an axe. During each stroke the sickle glides through resistant material; the user expects a slight drag followed by a sudden release once the cut completes, producing a brief jerk along the handle\u2019s axis."
+    },
+    "rating_score": 4.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.0,
+        "property_value": 0.5,
+        "weighted_score": 2.0
+      },
+      "outline": {
+        "mean_rating": 4.0,
+        "property_value": 0.5,
+        "weighted_score": 2.0
+      }
+    }
+  }
+]

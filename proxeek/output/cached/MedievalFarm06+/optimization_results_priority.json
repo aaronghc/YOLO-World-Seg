@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -26.028447940861984,
+    "loss_components": {
+      "L_realism": -10.777777582406998,
+      "L_interaction": -15.381634040840439,
+      "L_spatial": 0.13096368238545383,
+      "total": -26.028447940861984
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 12,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "rectangular cracker in a transparent wrapper with red accents",
+        "object_id": 6,
+        "image_id": 0,
+        "index": 5
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the wrapped cracker flat on the table. Strike the center with the base of the bottle. The brittle cracker resists briefly then fractures with an audible snap and the bottle sinks several millimetres into the crumbs. The crisp crack followed by a soft crumble closely matches the rind-then-flesh transition of breaking open a watermelon."
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "yellow McCaf\u00e9 disposable paper cup",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Invert the empty cup so its open rim rests on the table. Chop the centre of the base. The thin paper wall resists briefly, buckles, and then folds inward; the quick collapse followed by a rebound of the paper wall recreates the tension-then-release sensation of wood splitting."
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "small silver calibration weight labeled 'M 500g'",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 6.555555164813995,
+      "utilization_method": "Grip the tiny knob on top between thumb and forefinger as the mug handle. The dense 500 g mass beneath your fingers immediately produces strong forward-pulling inertia, closely matching the virtual mug\u2019s heavy, forward-weighted feel when you lift or tilt it."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "green turtle-shell plush cushion with white rim",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 6
+      },
+      "realism_score": 4.5,
+      "utilization_method": "Slip fingers under the firm white rim and hold it like the butt of an axe handle, letting the broad plush shell act as an oversized, weighty blade. Its bulk gives a clear sense of forward mass and encourages whole-arm chopping arcs."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black collapsible selfie stick",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 5.5,
+      "utilization_method": "Extend the telescopic rod partly, then grip the foam handle. The phone clamp at the far end adds extra mass, creating a convincing head-heavy distribution. The cylindrical handle matches a hammer grip, and wrist or elbow swings reproduce realistic inertia and reach."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "gray and white camouflage-patterned game controller",
+        "object_id": 4,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 5.0,
+      "utilization_method": "Envelop one of the controller\u2019s handgrips in a power grip so that the opposite, heavier wing extends forward like a hooked blade. Swinging the controller yields an off-center mass that simulates the sickle\u2019s forward-weighted feel."
+    }
+  ]
+}

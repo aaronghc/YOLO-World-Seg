@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -28.87218460146653,
+    "loss_components": {
+      "L_realism": -14.076842943710334,
+      "L_interaction": -15.037937879377722,
+      "L_spatial": 0.24259622162152483,
+      "total": -28.87218460146653
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 12,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the wrapped cracker flat on the table. Strike the centre of the biscuit through the plastic. The hard, brittle cracker resists until its internal structure fractures; the instant it snaps there\u2019s a loud crack and the hammer head sinks a few millimetres into the softened crumbs, producing a very clear breakthrough moment without needing to open the packaging."
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "blue Pilot Vboard Master whiteboard eraser box",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand the small cardboard box on one short end like a miniature log. Chop down into the top panel. The stiff cardboard offers an initial firm stop; keep pressing and the box buckles, then topples flat, removing resistance and producing a tangible \u2018break\u2019 that aligns with the visual of firewood splitting."
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "silver cylindrical calibration weight marked '50g'",
+        "object_id": 4,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 5.8888885378837585,
+      "utilization_method": "Grip the narrow top knob (about 1.5\u20132 cm diameter) as the handle and let the heavier main cylinder hang below and forward. The dense 50 g mass gives clear inertia, closely imitating the sensation of a filled mug hanging from a small rod handle."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "green plush turtle shell with white rim",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 4.833333333333334,
+      "utilization_method": "Grip the plush shell by squeezing a section of the white rim so the large padded mass hangs outward. The soft, substantial volume provides pronounced inertia that lags at swing start and follows through heavily, giving a cushioned but convincing sensation of a weighted axe head."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black and silver telescoping selfie stick with phone clamp",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 6
+      },
+      "realism_score": 6.833333333333334,
+      "utilization_method": "Keep the pole retracted and grip the rubber handle; the metal phone clamp on the opposite end delivers pronounced forward weight. This configuration closely mimics an actual hammer: cylindrical grip, clear head-heavy balance, and sufficient length for wrist-plus-elbow swings."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "beige paper towel roll",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 8
+      },
+      "realism_score": 5.0,
+      "utilization_method": "Hold the inner cardboard core at one edge with a firm grip, allowing the bulk of the roll to extend forward. The cylindrical handle is firm while the paper layers add moderate weight, creating front-loaded inertia. As you swing, sheets flutter and create air resistance, approximating the drag the sickle experiences before breaking through a stem."
+    }
+  ]
+}

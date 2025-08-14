@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -26.561504954766416,
+    "loss_components": {
+      "L_realism": -13.909821013642018,
+      "L_interaction": -14.274267102057635,
+      "L_spatial": 1.6225831609332355,
+      "total": -26.561504954766416
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 12,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "black upholstered office swivel chair with caster wheels",
+        "object_id": 1,
+        "image_id": 0,
+        "index": 0
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Rotate the chair so that the upholstered back-rest faces the user at chest level, providing a near-vertical plane similar to a mounted canvas. Stroke the selfie-stick tip across the fabric surface; the underlying foam compresses slightly, creating a gradual increase in resistance that delivers the desired cushioned pushback while still feeling firm enough to guide precise wrist-led brushwork."
+    },
+    {
+      "virtual_object": {
+        "name": "Marker",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "AA battery with silver and black casing",
+        "object_id": 6,
+        "image_id": 0,
+        "index": 5
+      },
+      "realism_score": 5.999999642372131,
+      "utilization_method": "Use the battery exactly like a real marker: pinch the lower third between thumb and index finger, rest the middle finger underneath, and perform writing strokes. Its 1.4 cm diameter, smooth metal case, and low mass make it the closest match for a felt-tip marker barrel."
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "yellow snack pack with Japanese text and peanuts illustration",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 6.111111293236414,
+      "utilization_method": "Hold the sealed corner like a nozzle and progressively \u2018milk\u2019 the contents forward by pinching from the bottom toward the top. The foil pouch is soft, easily deformed, and air-filled, allowing repeated squeeze-and-push motions that faithfully echo emptying a paint tube."
+    },
+    {
+      "virtual_object": {
+        "name": "Paper",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "white rectangular table with metal legs",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Simply use the tabletop as the writing surface. The laminate top is smooth but has a faint texture that provides gentle, uniform drag when the battery\u2019s end is slid across, delivering feedback similar to a marker on copier paper."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black telescoping selfie stick/monopod with a grip handle",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 5.999999642372131,
+      "utilization_method": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "small black portable electric fan",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 5.5,
+      "utilization_method": "Grasp the slim fan stem like a roller handle and swing the device in long arcs; the heavy fan head creates a pronounced top-heavy inertia comparable to a loaded roller. The circular grill offers an imagined rotating surface even though it stays static."
+    }
+  ]
+}

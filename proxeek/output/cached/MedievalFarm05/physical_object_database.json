@@ -1,0 +1,366 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "wireless game controller with grey digital camouflage pattern",
+      "position": "top left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 245.70266723632812,
+          "y1": 350.81658935546875,
+          "x2": 491.9279479980469,
+          "y2": 507.24468994140625,
+          "width": 246.22528076171875,
+          "height": 156.4281005859375,
+          "center_x": 368.8153076171875,
+          "center_y": 429.0306396484375
+        },
+        "mask_center": {
+          "x": 325.0,
+          "y": 400.0
+        },
+        "confidence": 0.08681175112724304,
+        "detected_name": "wireless game controller with grey digital camouflage pattern",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.014538,
+        "y": 0.7666944,
+        "z": 0.545147
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "matte black stainless steel water bottle with Tesla logo",
+      "position": "top center of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 673.7735595703125,
+          "y1": 26.62884521484375,
+          "x2": 810.7474365234375,
+          "y2": 420.8109130859375,
+          "width": 136.973876953125,
+          "height": 394.18206787109375,
+          "center_x": 742.260498046875,
+          "center_y": 223.71987915039062
+        },
+        "mask_center": {
+          "x": 741.0,
+          "y": 166.0
+        },
+        "confidence": 0.2393224537372589,
+        "detected_name": "matte black stainless steel water bottle with Tesla logo",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.809981,
+        "y": 0.9050821,
+        "z": 0.731252432
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "small grey 3D-printed rabbit figurine",
+      "position": "top right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 972.4434814453125,
+          "y1": 335.62445068359375,
+          "x2": 1086.5162353515625,
+          "y2": 489.71588134765625,
+          "width": 114.07275390625,
+          "height": 154.0914306640625,
+          "center_x": 1029.4798583984375,
+          "center_y": 412.670166015625
+        },
+        "mask_center": {
+          "x": 1038.0,
+          "y": 444.0
+        },
+        "confidence": 0.023676151409745216,
+        "detected_name": "small grey 3D-printed rabbit figurine",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.60473919,
+        "y": 0.7460864,
+        "z": 0.7814039
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+      "position": "bottom left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 31.334014892578125,
+          "y1": 583.1910400390625,
+          "x2": 347.4692687988281,
+          "y2": 851.759521484375,
+          "width": 316.13525390625,
+          "height": 268.5684814453125,
+          "center_x": 189.40164184570312,
+          "center_y": 717.4752807617188
+        },
+        "mask_center": {
+          "x": 141.0,
+          "y": 751.0
+        },
+        "confidence": 0.0031922904308885336,
+        "detected_name": "individually wrapped rectangular cracker snack in clear red-accented plastic packaging",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.91566181,
+        "y": 0.7350689,
+        "z": 0.324662626
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "yellow tube of UHU all-purpose adhesive glue",
+      "position": "bottom center of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 583.8787231445312,
+          "y1": 632.9526977539062,
+          "x2": 757.8324584960938,
+          "y2": 872.2987670898438,
+          "width": 173.9537353515625,
+          "height": 239.3460693359375,
+          "center_x": 670.8555908203125,
+          "center_y": 752.625732421875
+        },
+        "mask_center": {
+          "x": 703.0,
+          "y": 816.0
+        },
+        "confidence": 0.07008058577775955,
+        "detected_name": "yellow tube of UHU all-purpose adhesive glue",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.663624,
+        "y": 0.7317604,
+        "z": 0.4517936
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "empty yellow McCaf\u00e9 paper cup",
+      "position": "bottom right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 993.5074462890625,
+          "y1": 543.8924560546875,
+          "x2": 1226.0277099609375,
+          "y2": 773.9698486328125,
+          "width": 232.520263671875,
+          "height": 230.077392578125,
+          "center_x": 1109.767578125,
+          "center_y": 658.93115234375
+        },
+        "mask_center": {
+          "x": 1103.0,
+          "y": 643.0
+        },
+        "confidence": 0.5598235726356506,
+        "detected_name": "empty yellow McCaf\u00e9 paper cup (bottom right of the image)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.54009223,
+        "y": 0.8058591,
+        "z": 0.587063849
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "black and silver telescoping selfie stick with phone clamp",
+      "position": "top left",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 17.4532470703125,
+          "y1": 204.38580322265625,
+          "x2": 543.834716796875,
+          "y2": 466.50982666015625,
+          "width": 526.3814697265625,
+          "height": 262.1240234375,
+          "center_x": 280.64398193359375,
+          "center_y": 335.44781494140625
+        },
+        "mask_center": {
+          "x": 210.0,
+          "y": 369.0
+        },
+        "confidence": 0.4221014678478241,
+        "detected_name": "black and silver telescoping selfie stick with phone clamp",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.8541175,
+        "y": 0.71227634,
+        "z": -2.06611753
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "green plush turtle shell with white rim",
+      "position": "top right",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 609.7427978515625,
+          "y1": 0.0,
+          "x2": 1115.845947265625,
+          "y2": 323.078125,
+          "width": 506.1031494140625,
+          "height": 323.078125,
+          "center_x": 862.7943725585938,
+          "center_y": 161.5390625
+        },
+        "mask_center": {
+          "x": 861.0,
+          "y": 126.0
+        },
+        "confidence": 0.5099753141403198,
+        "detected_name": "green plush turtle shell with white rim",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.22943163,
+        "y": 0.852297664,
+        "z": -2.38976979
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "beige paper towel roll",
+      "position": "right center",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1015.046630859375,
+          "y1": 232.3995361328125,
+          "x2": 1280.0,
+          "y2": 577.5701904296875,
+          "width": 264.953369140625,
+          "height": 345.170654296875,
+          "center_x": 1147.5233154296875,
+          "center_y": 404.98486328125
+        },
+        "mask_center": {
+          "x": 1188.0,
+          "y": 332.0
+        },
+        "confidence": 0.26021793484687805,
+        "detected_name": "beige paper towel roll",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.45389378,
+        "y": 0.8814954,
+        "z": -2.25952816
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "silver cylindrical calibration weight marked '50g'",
+      "position": "center",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 666.8834228515625,
+          "y1": 497.74005126953125,
+          "x2": 730.1656494140625,
+          "y2": 598.8418579101562,
+          "width": 63.2822265625,
+          "height": 101.101806640625,
+          "center_x": 698.5245361328125,
+          "center_y": 548.2909545898438
+        },
+        "mask_center": {
+          "x": 699.0,
+          "y": 532.0
+        },
+        "confidence": 0.009690266102552414,
+        "detected_name": "silver cylindrical calibration weight marked '50g'",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.259439,
+        "y": 0.735525,
+        "z": -2.114091
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "silver barrel fine-liner pen with black tip",
+      "position": "bottom right",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 914.3707275390625,
+          "y1": 577.304443359375,
+          "x2": 1096.198974609375,
+          "y2": 766.56787109375,
+          "width": 181.8282470703125,
+          "height": 189.263427734375,
+          "center_x": 1005.2848510742188,
+          "center_y": 671.9361572265625
+        },
+        "mask_center": {
+          "x": 1058.0,
+          "y": 730.0
+        },
+        "confidence": 0.5408807396888733,
+        "detected_name": "silver barrel fine-liner pen with black tip",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.49379277,
+        "y": 0.7059829,
+        "z": -2.11731219
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "blue Pilot Vboard Master whiteboard eraser box",
+      "position": "bottom left",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 105.88372802734375,
+          "y1": 504.18910217285156,
+          "x2": 369.8102111816406,
+          "y2": 768.4305267333984,
+          "width": 263.9264831542969,
+          "height": 264.2414245605469,
+          "center_x": 237.8469696044922,
+          "center_y": 636.309814453125
+        },
+        "mask_center": {
+          "x": 273.0,
+          "y": 674.0
+        },
+        "confidence": 0.016871018335223198,
+        "detected_name": "blue Pilot Vboard Master whiteboard eraser box",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.10081792,
+        "y": 0.747042835,
+        "z": -1.90482771
+      }
+    }
+  ]
+}

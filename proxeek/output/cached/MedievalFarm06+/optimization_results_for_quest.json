@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "rectangular cracker in a transparent wrapper with red accents",
+      "utilizationMethod": "Lay the wrapped cracker flat on the table. Strike the center with the base of the bottle. The brittle cracker resists briefly then fractures with an audible snap and the bottle sinks several millimetres into the crumbs. The crisp crack followed by a soft crumble closely matches the rind-then-flesh transition of breaking open a watermelon."
+    },
+    {
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "yellow McCaf\u00e9 disposable paper cup",
+      "utilizationMethod": "Invert the empty cup so its open rim rests on the table. Chop the centre of the base. The thin paper wall resists briefly, buckles, and then folds inward; the quick collapse followed by a rebound of the paper wall recreates the tension-then-release sensation of wood splitting."
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "small silver calibration weight labeled 'M 500g'",
+      "utilizationMethod": "Grip the tiny knob on top between thumb and forefinger as the mug handle. The dense 500 g mass beneath your fingers immediately produces strong forward-pulling inertia, closely matching the virtual mug\u2019s heavy, forward-weighted feel when you lift or tilt it."
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "green turtle-shell plush cushion with white rim",
+      "utilizationMethod": "Slip fingers under the firm white rim and hold it like the butt of an axe handle, letting the broad plush shell act as an oversized, weighty blade. Its bulk gives a clear sense of forward mass and encourages whole-arm chopping arcs."
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "black collapsible selfie stick",
+      "utilizationMethod": "Extend the telescopic rod partly, then grip the foam handle. The phone clamp at the far end adds extra mass, creating a convincing head-heavy distribution. The cylindrical handle matches a hammer grip, and wrist or elbow swings reproduce realistic inertia and reach."
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "gray and white camouflage-patterned game controller",
+      "utilizationMethod": "Envelop one of the controller\u2019s handgrips in a power grip so that the opposite, heavier wing extends forward like a hooked blade. Swinging the controller yields an off-center mass that simulates the sickle\u2019s forward-weighted feel."
+    }
+  ],
+  "timestamp": "bada04a2-cb68-4e13-b593-e82e083c9e88",
+  "total_assignments": 6
+}

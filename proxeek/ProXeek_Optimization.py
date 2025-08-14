@@ -55,11 +55,12 @@ class Assignment:
 class ProXeekOptimizer:
     """Global optimization for haptic proxy assignment
     
-    The optimizer now uses a combined L_realism loss that incorporates priority weighting:
-    - When priority weighting is enabled: L_realism = -∑ᵢ∑ⱼ (priority_weight[i] × realism_rating[i,j] × X[i,j])
-    - When priority weighting is disabled: L_realism = -∑ᵢ∑ⱼ (realism_rating[i,j] × X[i,j])
+    The optimizer now uses updated loss functions:
+    - L_realism = -∑ᵢ∑ⱼ (2 × priority_weight[i] × realism_rating[i,j] × X[i,j]) for grasp and contact objects only
+    - L_interaction = -∑ᵢ∑ₖ (interaction_exists[i,k] × interaction_rating[proxy_assigned[i], proxy_assigned[k]] × combined_priority_weight[i,k])
+    - L_spatial = (1/N) × Σᵢₖ [(virtual_distance[i,k] - physical_distance[proxy_i,proxy_k])² × combined_priority_weight[i,k]]
     
-    This combines the previous separate L_realism and L_priority losses into a single, more intuitive loss function.
+    Where combined_priority_weight[i,k] = priority_weight[i] + priority_weight[k] for both interaction and spatial losses
     """
     
     def __init__(self, data_dir: str = r"C:\Users\aaron\Documents\GitHub\YOLO-World-Seg\proxeek\output"):
@@ -238,28 +239,32 @@ class ProXeekOptimizer:
         for obj in filtered_objects:
             print(f"  DEBUG: {obj.get('objectName', 'Unknown')} - Type: {obj.get('involvementType', 'Unknown')}")
         
-        # Filter priority order to exclude substrate objects (only grasp and contact objects get ranked)
+        # Create separate priority orders for different object types
         grasp_contact_priority_order = []
+        substrate_priority_order = []
+        
         for obj_name in complete_priority_order:
             # Find the object in filtered_objects to check its type
             for obj in filtered_objects:
-                if obj.get("objectName") == obj_name and obj.get("involvementType") in ["grasp", "contact"]:
-                    grasp_contact_priority_order.append(obj_name)
+                if obj.get("objectName") == obj_name:
+                    if obj.get("involvementType") in ["grasp", "contact"]:
+                        grasp_contact_priority_order.append(obj_name)
+                    elif obj.get("involvementType") == "substrate":
+                        substrate_priority_order.append(obj_name)
                     break
         
         print(f"DEBUG: Priority order for grasp/contact objects: {grasp_contact_priority_order}")
+        print(f"DEBUG: Priority order for substrate objects: {substrate_priority_order}")
         
         for i, obj in enumerate(filtered_objects):
             name = obj.get("objectName", "")
             involvement_type = obj.get("involvementType", "")
             
-            # Determine engagement level based on object type
-            if involvement_type == "substrate":
-                # Substrate objects get priority weight 1.0 (no ranking)
-                engagement_level = 1.0
-            else:
+            # Calculate engagement level based on object type and ranking
+            engagement_level = 0.0  # default for unranked objects
+            
+            if involvement_type in ["grasp", "contact"]:
                 # Grasp and contact objects get priority weights from ranking
-                engagement_level = 0.0  # default for unranked objects
                 if name in grasp_contact_priority_order:
                     # Symmetric exponential priority weighting
                     priority_rank = grasp_contact_priority_order.index(name)
@@ -267,10 +272,27 @@ class ProXeekOptimizer:
                     if N > 0:  # Only calculate if we have ranked objects
                         center = (N - 1) / 2.0
                         x_i = center - priority_rank          # evenly spaced, centred at 0
-                        k = 0.3                                # slope parameter for exp
+                        k = 0.5                                # slope parameter for exp
                         engagement_level = math.exp(k * x_i)
                     else:
                         engagement_level = 1.0  # Default if no ranking available
+                else:
+                    engagement_level = 1.0  # Default for unranked grasp/contact objects
+            elif involvement_type == "substrate":
+                # Substrate objects now get priority weights from ranking similar to grasp/contact objects
+                if name in substrate_priority_order:
+                    # Symmetric exponential priority weighting
+                    priority_rank = substrate_priority_order.index(name)
+                    N = len(substrate_priority_order)
+                    if N > 0:  # Only calculate if we have ranked objects
+                        center = (N - 1) / 2.0
+                        x_i = center - priority_rank          # evenly spaced, centred at 0
+                        k = 0.5                                # slope parameter for exp
+                        engagement_level = math.exp(k * x_i)
+                    else:
+                        engagement_level = 1.0  # Default if no ranking available
+                else:
+                    engagement_level = 1.0  # Default for unranked substrate objects
             
             virtual_obj = VirtualObject(
                 name=name,
@@ -640,7 +662,7 @@ class ProXeekOptimizer:
             print("No spatial relationships found - L_spatial will be 0")
     
     def calculate_realism_loss(self, assignment_matrix: np.ndarray) -> float:
-        """Calculate combined L_realism = -∑ᵢ∑ⱼ (priority_weight[i] × realism_rating[i,j] × X[i,j])"""
+        """Calculate combined L_realism = -∑ᵢ∑ⱼ (2 × priority_weight[i] × realism_rating[i,j] × X[i,j]) for grasp and contact objects only"""
         if self.realism_matrix is None:
             return 0.0
             
@@ -651,9 +673,15 @@ class ProXeekOptimizer:
         grasp_contact_count = 0
         
         for i in range(n_virtual):
+            virtual_obj = self.virtual_objects[i]
+            
+            # Skip substrate objects - only calculate realism loss for grasp and contact objects
+            if virtual_obj.involvement_type == "substrate":
+                continue
+            
             # Get priority weight for this virtual object
             if self.enable_priority_weighting:
-                priority_weight = self.virtual_objects[i].engagement_level
+                priority_weight = virtual_obj.engagement_level
             else:
                 priority_weight = 1.0  # Equal priority when disabled
             
@@ -661,11 +689,19 @@ class ProXeekOptimizer:
             for j in range(len(self.physical_objects)):
                 if assignment_matrix[i, j] > 0:  # If virtual object i is assigned to physical object j
                     realism_rating = self.realism_matrix[i, j]
-                    # Apply priority weight to realism rating (no squaring)
-                    loss -= priority_weight * realism_rating
+                    # Apply 2 × priority weight to realism rating
+                    weighted_loss = 2 * priority_weight * realism_rating
+                    loss -= weighted_loss
+                    
+                    # # Debug: show first few realism calculations
+                    # if grasp_contact_count < 3:
+                    #     physical_obj_name = self.physical_objects[j].name
+                    #     print(f"DEBUG: Realism {virtual_obj.name} -> {physical_obj_name}: "
+                    #           f"priority={priority_weight:.3f}, rating={realism_rating:.3f}, "
+                    #           f"2×weighted={weighted_loss:.3f}")
             
             # Count grasp and contact objects (exclude substrate)
-            if self.virtual_objects[i].involvement_type in ['grasp', 'contact']:
+            if virtual_obj.involvement_type in ['grasp', 'contact']:
                 grasp_contact_count += 1
         
         # Normalize by the count of grasp and contact objects
@@ -674,18 +710,18 @@ class ProXeekOptimizer:
         
         return float(loss)
     
-    def calculate_interaction_loss(self, assignment_matrix: np.ndarray) -> float:
-        """Calculate L_interaction = -∑ᵢ∑ₖ (interaction_exists[i,k] × interaction_rating[proxy_assigned[i], proxy_assigned[k]])"""
+    def calculate_interaction_loss(self, assignment_matrix: np.ndarray, verbose: bool = False) -> float:
+        """Calculate L_interaction = -∑ᵢ∑ₖ (interaction_exists[i,k] × interaction_rating[proxy_assigned[i], proxy_assigned[k]] × combined_priority_weight[i,k])"""
         if self.interaction_exists is None:
             return 0.0
             
         # Use 3D matrix for accurate interaction calculation
         if hasattr(self, 'interaction_matrix_3d') and hasattr(self, 'virtual_relationship_pairs'):
-            return self._calculate_interaction_loss_3d(assignment_matrix)
+            return self._calculate_interaction_loss_3d(assignment_matrix, verbose)
         else:
             return 0.0
     
-    def _calculate_interaction_loss_3d(self, assignment_matrix: np.ndarray) -> float:
+    def _calculate_interaction_loss_3d(self, assignment_matrix: np.ndarray, verbose: bool = False) -> float:
         """Calculate interaction loss using 3D interaction matrix"""
         if not hasattr(self, 'interaction_matrix_3d') or not hasattr(self, 'virtual_relationship_pairs'):
             return 0.0
@@ -696,6 +732,14 @@ class ProXeekOptimizer:
         n_virtual = len(self.virtual_objects)
         interaction_relationships_count = 0
         
+        if verbose:
+            print("\n" + "="*60)
+            print("L_INTERACTION CALCULATION DETAILS")
+            print("="*60)
+            print("Formula: L_interaction = -∑ᵢ∑ₖ (interaction_exists[i,k] × interaction_rating[proxy_assigned[i], proxy_assigned[k]] × combined_priority_weight[i,k])")
+            print("Where combined_priority_weight[i,k] = priority_weight[i] + priority_weight[k]")
+            print()
+        
         # Iterate through each virtual relationship
         for rel_idx, (contact_virtual_idx, substrate_virtual_idx) in enumerate(self.virtual_relationship_pairs):
             if self.interaction_exists[contact_virtual_idx, substrate_virtual_idx] > 0:
@@ -705,17 +749,46 @@ class ProXeekOptimizer:
                 
                 # Get interaction rating from 3D matrix for this specific relationship
                 interaction_rating = self.interaction_matrix_3d[rel_idx, proxy_contact, proxy_substrate]
-                loss -= interaction_rating
+                
+                # Calculate the sum of contact and substrate virtual objects' priority weights
+                contact_priority_weight = self.virtual_objects[contact_virtual_idx].engagement_level
+                substrate_priority_weight = self.virtual_objects[substrate_virtual_idx].engagement_level
+                combined_priority_weight = contact_priority_weight + substrate_priority_weight
+                
+                # Calculate contribution to loss for this relationship
+                relationship_loss = interaction_rating * combined_priority_weight
+                loss -= relationship_loss
                 interaction_relationships_count += 1
+                
+                if verbose:
+                    contact_name = self.virtual_objects[contact_virtual_idx].name
+                    substrate_name = self.virtual_objects[substrate_virtual_idx].name
+                    contact_phys_name = self.physical_objects[proxy_contact].name
+                    substrate_phys_name = self.physical_objects[proxy_substrate].name
+                    
+                    print(f"Relationship {rel_idx}: {contact_name} -> {substrate_name}")
+                    print(f"  Virtual Objects: {contact_name} (contact) -> {substrate_name} (substrate)")
+                    print(f"  Assigned Physical Objects: {contact_phys_name} -> {substrate_phys_name}")
+                    print(f"  Contact Priority Weight: {contact_priority_weight:.3f}")
+                    print(f"  Substrate Priority Weight: {substrate_priority_weight:.3f}")
+                    print(f"  Combined Priority Weight: {combined_priority_weight:.3f}")
+                    print(f"  Interaction Rating: {interaction_rating:.3f}")
+                    print(f"  Relationship Loss Contribution: {relationship_loss:.3f}")
+                    print(f"  Running Total Loss: {loss:.3f}")
+                    print()
         
         # Normalize by the count of interaction relationships
         if interaction_relationships_count > 0:
             loss = loss / interaction_relationships_count
+            if verbose:
+                print(f"Normalization: Divided by {interaction_relationships_count} relationships")
+                print(f"Final L_interaction: {loss:.3f}")
+                print("="*60)
         
         return loss
     
     def calculate_spatial_loss(self, assignment_matrix: np.ndarray) -> float:
-        """Calculate L_spatial based only on distance distortions (no direction)"""
+        """Calculate L_spatial based on distance distortions weighted by combined priority weights"""
         if (self.spatial_group_matrix is None or
             self.virtual_distance_matrix is None or self.physical_distance_matrix is None):
             print("DEBUG: Spatial loss returning 0 - missing required matrices")
@@ -737,13 +810,24 @@ class ProXeekOptimizer:
                 v_dist = virtual_dist_mat[i, k]
                 p_dist = physical_dist_mat[assigned_physical[i], assigned_physical[k]]
                 dist_diff = v_dist - p_dist
-                loss += dist_diff ** 2
+                
+                # Calculate the combined priority weight for this spatial relationship
+                # Similar to interaction loss: combined_priority_weight[i,k] = priority_weight[i] + priority_weight[k]
+                priority_weight_i = self.virtual_objects[i].engagement_level
+                priority_weight_k = self.virtual_objects[k].engagement_level
+                combined_priority_weight = priority_weight_i + priority_weight_k
+                
+                # Apply combined priority weight to the squared distance difference
+                weighted_loss = (dist_diff ** 2) * combined_priority_weight
+                loss += weighted_loss
                 relationships_processed += 1
                 
                 # # Debug: show first few relationships
                 # if relationships_processed <= 3:
                 #     print(f"DEBUG: Spatial relationship {self.virtual_objects[i].name}->{self.virtual_objects[k].name}: "
-                #           f"virtual_dist={v_dist:.3f}, physical_dist={p_dist:.3f}, diff={dist_diff:.3f}")
+                #           f"virtual_dist={v_dist:.3f}, physical_dist={p_dist:.3f}, diff={dist_diff:.3f}, "
+                #           f"priority_i={priority_weight_i:.3f}, priority_k={priority_weight_k:.3f}, "
+                #           f"combined_priority={combined_priority_weight:.3f}, weighted_loss={weighted_loss:.6f}")
         
         # Normalize by the count of spatial relationships
         if relationships_processed > 0:
@@ -752,10 +836,10 @@ class ProXeekOptimizer:
         # print(f"DEBUG: Processed {relationships_processed} spatial relationships, total loss: {loss:.6f}")
         return float(loss)
     
-    def calculate_total_loss(self, assignment_matrix: np.ndarray) -> Tuple[float, Dict[str, float]]:
+    def calculate_total_loss(self, assignment_matrix: np.ndarray, verbose: bool = False) -> Tuple[float, Dict[str, float]]:
         """Calculate the total multi-objective loss function"""
         l_realism = self.calculate_realism_loss(assignment_matrix)
-        l_interaction = self.calculate_interaction_loss(assignment_matrix)
+        l_interaction = self.calculate_interaction_loss(assignment_matrix, verbose)
         l_spatial = self.calculate_spatial_loss(assignment_matrix)
         
         total_loss = (self.w_realism * l_realism + 
@@ -1206,6 +1290,37 @@ class ProXeekOptimizer:
             print(f"  Physical ID: {physical_obj.object_id}, Image: {physical_obj.image_id}")
             print()
     
+    def print_detailed_loss_calculation(self, assignment: Assignment) -> None:
+        """Print detailed calculation process for all loss components including L_interaction"""
+        print("\n" + "="*60)
+        print("DETAILED LOSS CALCULATION PROCESS")
+        print("="*60)
+        
+        # Recalculate all losses with verbose output
+        print("\n1. L_REALISM CALCULATION:")
+        print("-" * 40)
+        l_realism = self.calculate_realism_loss(assignment.assignment_matrix)
+        print(f"Final L_realism: {l_realism:.4f}")
+        
+        print("\n2. L_INTERACTION CALCULATION:")
+        print("-" * 40)
+        l_interaction = self.calculate_interaction_loss(assignment.assignment_matrix, verbose=True)
+        
+        print("\n3. L_SPATIAL CALCULATION:")
+        print("-" * 40)
+        l_spatial = self.calculate_spatial_loss(assignment.assignment_matrix)
+        print(f"Final L_spatial: {l_spatial:.4f}")
+        
+        print("\n4. TOTAL LOSS CALCULATION:")
+        print("-" * 40)
+        total_loss = (self.w_realism * l_realism + 
+                     self.w_interaction * l_interaction +
+                     self.w_spatial * l_spatial)
+        print(f"Weights: w_realism={self.w_realism}, w_interaction={self.w_interaction}, w_spatial={self.w_spatial}")
+        print(f"Components: {l_realism:.4f} + {l_interaction:.4f} + {l_spatial:.4f}")
+        print(f"Final Total Loss: {total_loss:.4f}")
+        print("="*60)
+    
     def save_results(self, assignment: Assignment, output_file: str = "optimization_results.json") -> None:
         """Save optimization results to JSON file"""
         results = {
@@ -1485,7 +1600,7 @@ def main():
     # Set loss function weights (can be adjusted)
     optimizer.w_realism = 1
     optimizer.w_interaction = 1
-    optimizer.w_spatial = 0
+    optimizer.w_spatial = 1
     
     # Enable/disable exclusivity constraint
     optimizer.enable_exclusivity = True
@@ -1506,6 +1621,9 @@ def main():
     if best_assignment:
         # Print results
         optimizer.print_assignment_details(best_assignment)
+        
+        # Print detailed loss calculation process
+        optimizer.print_detailed_loss_calculation(best_assignment)
         
         # Save results
         optimizer.save_results(best_assignment)

@@ -1,0 +1,138 @@
+[
+  {
+    "objectName": "Marker",
+    "involvementType": "grasp",
+    "usage": "This marker serves as a drawing tool.",
+    "engagementLevel": 1,
+    "inertia": "The marker would feel moderately lightweight",
+    "interactivity": "",
+    "outline": "User should feel the cylindrical body with smooth rounded edges and consistent 1.7cm diameter.",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.4285714030265808,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5714285373687744,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.04",
+      "y": "0.02",
+      "z": "0.11"
+    },
+    "globalPosition": {
+      "x": 1.781999945640564,
+      "y": 0.030491802841424942,
+      "z": 0.5837856531143188
+    },
+    "globalRotation": {
+      "x": 2.0373077392578125,
+      "y": 11.642731666564941,
+      "z": 269.9999694824219
+    },
+    "interactionDeduction": "The user will pick up the marker with a precision-to-power hybrid grip\u2014thumb and index finger pinch the lower shaft while the middle finger supports underneath, very similar to holding a thick felt-tip pen. Primary motions involve wrist-led writing or sketching strokes, light taps, and occasional small rotations to adjust the nib angle. Contact is concentrated on the distal pads of thumb, index, and middle fingers wrapping a 1.7 cm-diameter plastic cylinder; the ring and little fingers loosely rest against the barrel for stability. During strokes the tip glides on the drawing surface, giving mild frictional feedback but no noticeable compliance. Inertia feels low and evenly distributed, so the marker follows rapid directional changes easily without lag. The virtual object itself offers no moving parts\u2014the cap is presumed removed\u2014so the only dynamic response is the appearance of a drawn line on the canvas while the body remains rigid and unchanged."
+  },
+  {
+    "objectName": "Tube",
+    "involvementType": "grasp",
+    "usage": "This oil paint tube serves as a paint storage. Users would grasp it to squeeze out paint.",
+    "engagementLevel": 2,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "User should feel the distinctive flattened, elongated cylindrical shape",
+    "texture": "",
+    "hardness": "User should feel the body as pliable and squeezable, deforming under pressure but maintaining structural integrity.",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3333333432674408,
+    "textureValue": 0.0,
+    "hardnessValue": 0.6666666865348816,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.03",
+      "y": "0.02",
+      "z": "0.08"
+    },
+    "globalPosition": {
+      "x": 0.2680000066757202,
+      "y": 0.02551880106329918,
+      "z": -2.36899995803833
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "The tube is first grasped lightly around its neck with thumb, index, and middle finger to twist off the cap using a small torque motion (precision pinch plus forearm rotation). After uncapping, the hand shifts to a full power grip around the flattened, pliable aluminium body. The user brings the nozzle over a palette and squeezes\u2014thumb rolls forward or the entire fist compresses the tube, causing the soft metal body to indent and fold. The feeling should include localized compliance that resists initially then collapses, staying deformed after pressure is released (plastic deformation). As paint exits, the tube grows lighter and the center of mass migrates toward the user\u2019s palm. Interaction cycles between squeeze-release sequences and occasional \u2018milking\u2019 motions from bottom to top to push remaining paint forward. Haptically, the main feedback is squeezable softness contrasted with a hard plastic/metal neck and cap."
+  },
+  {
+    "objectName": "Paint Brush",
+    "involvementType": "grasp",
+    "usage": "It serves as an artistic tool for painting. Users would make controlled strokes across canvas surfaces.",
+    "engagementLevel": 2,
+    "inertia": "The brush would feel lightweight.",
+    "interactivity": "",
+    "outline": "User should feel the cylindrical handle (1cm diameter) with smooth, rounded edges. ",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.4285714030265808,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5714285373687744,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.20",
+      "y": "0.02",
+      "z": "0.11"
+    },
+    "globalPosition": {
+      "x": 1.565000057220459,
+      "y": 0.025491803884506226,
+      "z": 0.2176625281572342
+    },
+    "globalRotation": {
+      "x": 8.165133476257324,
+      "y": 16.372602462768555,
+      "z": 299.2464294433594
+    },
+    "interactionDeduction": "The user holds the brush exactly like a thin artist\u2019s brush\u2014precision tripod grip with thumb and index finger pinching a 1 cm-diameter handle, middle finger cradling, and remaining fingers relaxed. Movements are small, precise wrist and finger articulations for detail work, or broader elbow-led strokes for larger coverage. The action sequence is dip (into paint), lift, translate, then stroke\u2014light to moderate downward force producing very slight flex at the bristle ferrule. Tactile feedback consists of the rigid wooden/plastic handle and a subtle vibration/drag transmitted through it whenever the soft bristles sweep across canvas. Inertia is minimal, enabling quick flicks and direction reversals. The brush visually deposits color while offering no mechanical resistance other than surface friction."
+  },
+  {
+    "objectName": "Paint Roller",
+    "involvementType": "grasp",
+    "usage": "This paint roller serves as a painting tool for covering large surfaces efficiently. ",
+    "engagementLevel": 0,
+    "inertia": "User should feel moderate weight with a slight top-heavy feel.",
+    "interactivity": "",
+    "outline": "User should feel a ergonomic cylindrical shape fitting naturally in the palm.",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.5,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.45",
+      "y": "0.08",
+      "z": "0.34"
+    },
+    "globalPosition": {
+      "x": 0.23999999463558197,
+      "y": 0.07449180632829666,
+      "z": -2.440000057220459
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 339.00634765625,
+      "z": 270.0
+    },
+    "interactionDeduction": "The roller is grasped with a firm power grip around its contoured handle\u2014fingers wrap completely while the thumb opposes for control. Hand orientation keeps the wrist neutral and allows the forearm to apply pressure downward. Interaction involves broad shoulder and elbow motions: lift to position, press, then long forward/backward strokes while the foam cylinder spins on its axle. Because the foam head is offset from the handle by a metal arm, the tool feels slightly top-heavy; users sense moderate rotational inertia when starting or stopping the roll. The roller resists lateral twisting but spins freely along its axis, providing continuous rolling feedback and low-frequency vibration as the textured foam contacts the wall or canvas. The user may periodically tilt the wrist to reload paint or to reach edges, and can exert extra force to compress the foam against the surface, feeling mild compliance at the contact patch."
+  }
+]

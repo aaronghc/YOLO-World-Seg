@@ -1,114 +1,114 @@
 [
   {
-    "objectName": "Mug",
+    "objectName": "Marker",
     "involvementType": "grasp",
-    "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+    "usage": "This marker serves as a drawing tool.",
     "engagementLevel": 1,
-    "inertia": "User should feel moderate weight that feels substantial since it's full, as well as a rotational moment around their grip point",
+    "inertia": "The marker would feel moderately lightweight",
     "interactivity": "",
-    "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+    "outline": "User should feel the cylindrical body with smooth rounded edges and consistent 1.7cm diameter.",
     "texture": "",
     "hardness": "",
     "temperature": "",
-    "inertiaValue": 0.6153846383094788,
+    "inertiaValue": 0.4285714030265808,
     "interactivityValue": 0.0,
-    "outlineValue": 0.38461539149284363,
+    "outlineValue": 0.5714285373687744,
     "textureValue": 0.0,
     "hardnessValue": 0.0,
     "temperatureValue": 0.0,
     "dimensions_meters": {
-      "x": "0.26",
-      "y": "0.19",
-      "z": "0.27"
+      "x": "0.04",
+      "y": "0.02",
+      "z": "0.11"
     },
     "globalPosition": {
-      "x": 1.1699999570846558,
-      "y": 0.027000000700354576,
-      "z": 0.6579999923706055
+      "x": 1.781999945640564,
+      "y": 0.030491802841424942,
+      "z": 0.5837856531143188
     },
     "globalRotation": {
-      "x": 270.0,
-      "y": 231.77813720703125,
+      "x": 2.0373077392578125,
+      "y": 11.642731666564941,
+      "z": 269.9999694824219
+    },
+    "interactionDeduction": "The user will pick up the marker with a precision-to-power hybrid grip\u2014thumb and index finger pinch the lower shaft while the middle finger supports underneath, very similar to holding a thick felt-tip pen. Primary motions involve wrist-led writing or sketching strokes, light taps, and occasional small rotations to adjust the nib angle. Contact is concentrated on the distal pads of thumb, index, and middle fingers wrapping a 1.7 cm-diameter plastic cylinder; the ring and little fingers loosely rest against the barrel for stability. During strokes the tip glides on the drawing surface, giving mild frictional feedback but no noticeable compliance. Inertia feels low and evenly distributed, so the marker follows rapid directional changes easily without lag. The virtual object itself offers no moving parts\u2014the cap is presumed removed\u2014so the only dynamic response is the appearance of a drawn line on the canvas while the body remains rigid and unchanged."
+  },
+  {
+    "objectName": "Tube",
+    "involvementType": "grasp",
+    "usage": "This oil paint tube serves as a paint storage. Users would grasp it to squeeze out paint.",
+    "engagementLevel": 2,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "User should feel the distinctive flattened, elongated cylindrical shape",
+    "texture": "",
+    "hardness": "User should feel the body as pliable and squeezable, deforming under pressure but maintaining structural integrity.",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3333333432674408,
+    "textureValue": 0.0,
+    "hardnessValue": 0.6666666865348816,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.03",
+      "y": "0.02",
+      "z": "0.08"
+    },
+    "globalPosition": {
+      "x": 0.2680000066757202,
+      "y": 0.02551880106329918,
+      "z": -2.36899995803833
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
       "z": 0.0
     },
-    "interactionDeduction": "Users will approach the mug by curling their thumb on one side of the handle and wrapping two-to-three fingers (index, middle, possibly ring) around the opposite side, forming a relaxed cylindrical pinch/power-pinch on the 2 cm-thick handle. The grip point is laterally offset from the mug\u2019s center of mass, so when the user lifts the mug the weight of the liquid produces a gentle forward roll that the wrist automatically counters. Typical manipulation patterns include (1) lifting straight up from a table, (2) translating toward the mouth, (3) wrist-controlled pitch rotation of roughly 30\u201370 \u00b0 to pour liquid into the mouth, and (4) reversing the motion to return the mug. Throughout these motions the mug feels moderately heavy and slightly unbalanced; quick tilts produce a momentary lag mimicking fluid slosh. When set down, the perceived mass contacts the virtual surface with a short, rigid stop, reinforcing the sense of a solid wood-and-metal vessel."
+    "interactionDeduction": "The tube is first grasped lightly around its neck with thumb, index, and middle finger to twist off the cap using a small torque motion (precision pinch plus forearm rotation). After uncapping, the hand shifts to a full power grip around the flattened, pliable aluminium body. The user brings the nozzle over a palette and squeezes\u2014thumb rolls forward or the entire fist compresses the tube, causing the soft metal body to indent and fold. The feeling should include localized compliance that resists initially then collapses, staying deformed after pressure is released (plastic deformation). As paint exits, the tube grows lighter and the center of mass migrates toward the user\u2019s palm. Interaction cycles between squeeze-release sequences and occasional \u2018milking\u2019 motions from bottom to top to push remaining paint forward. Haptically, the main feedback is squeezable softness contrasted with a hard plastic/metal neck and cap."
   },
   {
-    "objectName": "Axe",
+    "objectName": "Paint Brush",
     "involvementType": "grasp",
-    "usage": "This axe serves as a chopping tool",
+    "usage": "It serves as an artistic tool for painting. Users would make controlled strokes across canvas surfaces.",
     "engagementLevel": 2,
-    "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+    "inertia": "The brush would feel lightweight.",
     "interactivity": "",
-    "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+    "outline": "User should feel the cylindrical handle (1cm diameter) with smooth, rounded edges. ",
     "texture": "",
     "hardness": "",
     "temperature": "",
-    "inertiaValue": 0.5,
+    "inertiaValue": 0.4285714030265808,
     "interactivityValue": 0.0,
-    "outlineValue": 0.5,
+    "outlineValue": 0.5714285373687744,
     "textureValue": 0.0,
     "hardnessValue": 0.0,
     "temperatureValue": 0.0,
     "dimensions_meters": {
-      "x": "0.25",
-      "y": "0.06",
-      "z": "0.36"
+      "x": "0.20",
+      "y": "0.02",
+      "z": "0.11"
     },
     "globalPosition": {
-      "x": 0.5770000219345093,
-      "y": 0.04078630357980728,
-      "z": 0.35199999809265137
+      "x": 1.565000057220459,
+      "y": 0.025491803884506226,
+      "z": 0.2176625281572342
     },
     "globalRotation": {
-      "x": 349.0732421875,
-      "y": 113.15540313720703,
-      "z": 89.79319763183594
+      "x": 8.165133476257324,
+      "y": 16.372602462768555,
+      "z": 299.2464294433594
     },
-    "interactionDeduction": "The axe is grasped with a full power grip: fingers and thumb wrap entirely around the cylindrical wooden handle, typically near its lower third to maximize swing radius. A second hand may slide up the shaft for two-handed swings, but one-handed use is common for a hatchet of this size. Primary motions are overhead or side-arc swings generated by shoulder and elbow extension, finishing with wrist pronation that accelerates the head-heavy blade. Users feel pronounced forward inertia\u2014once the swing starts, the blade wants to keep moving, forcing the user to tighten grip and brace forearm muscles. On virtual impact with a target (wood, enemy, etc.) the axe abruptly decelerates; haptic feedback would simulate a hard stop followed by a small vibration or recoil. Rebound is minimal if the blade \u201cbites\u201d into wood, requiring the user to tug backward to free it, whereas striking a hard surface produces a sharper, quicker ricochet sensation."
+    "interactionDeduction": "The user holds the brush exactly like a thin artist\u2019s brush\u2014precision tripod grip with thumb and index finger pinching a 1 cm-diameter handle, middle finger cradling, and remaining fingers relaxed. Movements are small, precise wrist and finger articulations for detail work, or broader elbow-led strokes for larger coverage. The action sequence is dip (into paint), lift, translate, then stroke\u2014light to moderate downward force producing very slight flex at the bristle ferrule. Tactile feedback consists of the rigid wooden/plastic handle and a subtle vibration/drag transmitted through it whenever the soft bristles sweep across canvas. Inertia is minimal, enabling quick flicks and direction reversals. The brush visually deposits color while offering no mechanical resistance other than surface friction."
   },
   {
-    "objectName": "Hammer",
+    "objectName": "Paint Roller",
     "involvementType": "grasp",
-    "usage": "This hammer serves as a striking tool ",
-    "engagementLevel": 1,
-    "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
-    "interactivity": "",
-    "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
-    "texture": "",
-    "hardness": "",
-    "temperature": "",
-    "inertiaValue": 0.5,
-    "interactivityValue": 0.0,
-    "outlineValue": 0.5,
-    "textureValue": 0.0,
-    "hardnessValue": 0.0,
-    "temperatureValue": 0.0,
-    "dimensions_meters": {
-      "x": "0.24",
-      "y": "0.12",
-      "z": "0.39"
-    },
-    "globalPosition": {
-      "x": 0.33634281158447266,
-      "y": 0.04249180108308792,
-      "z": 0.34802526235580444
-    },
-    "globalRotation": {
-      "x": 3.252650499343872,
-      "y": 109.54983520507812,
-      "z": 85.54302215576172
-    },
-    "interactionDeduction": "Users grasp the hammer\u2019s handle with a power grip, dominant hand near the end cap; for heavy blows the nondominant hand may guide the handle closer to the head before sliding downward mid-swing\u2014classic carpenter\u2019s technique. Movements consist of repetitive piston-like strikes: raise via elbow flexion and shoulder lift, then accelerate downward with shoulder extension, elbow extension, and wrist snap. Because the mass is concentrated in the head, users feel significant angular momentum that stabilizes the striking face but pulls the handle forward, demanding tight grip just before impact. On contact, the hammer delivers a solid, high-frequency jolt that lasts milliseconds, followed by a lower-frequency aftershock traveling down the handle; if the strike is on a nail or object that absorbs energy, the rebound is damped, whereas hitting metal or stone produces a sharper bounce and a louder virtual audio cue."
-  },
-  {
-    "objectName": "Sickle",
-    "involvementType": "grasp",
-    "usage": "This sickle serves as a harvesting and cutting tool ",
+    "usage": "This paint roller serves as a painting tool for covering large surfaces efficiently. ",
     "engagementLevel": 0,
-    "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+    "inertia": "User should feel moderate weight with a slight top-heavy feel.",
     "interactivity": "",
-    "outline": "User should feel a cylindrical grip that requires a firm grasp around the handle's circumference.",
+    "outline": "User should feel a ergonomic cylindrical shape fitting naturally in the palm.",
     "texture": "",
     "hardness": "",
     "temperature": "",
@@ -119,20 +119,20 @@
     "hardnessValue": 0.0,
     "temperatureValue": 0.0,
     "dimensions_meters": {
-      "x": "0.30",
-      "y": "0.07",
-      "z": "0.43"
+      "x": "0.45",
+      "y": "0.08",
+      "z": "0.34"
     },
     "globalPosition": {
-      "x": 0.10269107669591904,
-      "y": 0.047491803765296936,
-      "z": 0.3642806112766266
+      "x": 0.23999999463558197,
+      "y": 0.07449180632829666,
+      "z": -2.440000057220459
     },
     "globalRotation": {
-      "x": -6.830189249740215e-06,
-      "y": 102.79971313476562,
-      "z": 93.36920928955078
+      "x": 0.0,
+      "y": 339.00634765625,
+      "z": 270.0
     },
-    "interactionDeduction": "The sickle is held with a single-hand power grip around its short cylindrical handle, knuckles oriented toward the inward curve of the blade. Cutting motions involve sweeping, crescent-shaped pulls driven by elbow flexion and wrist ulnar deviation, keeping the blade\u2019s inside edge engaged with virtual vegetation. Because the curved blade carries moderate distributed mass, users experience forward-weighted inertia but with less torque than an axe; the tool feels agile for quick, repetitive slices. When a cut connects, the user perceives progressive resistance\u2014as if stalks are being severed\u2014followed by a brief release once the slice completes. Successive reaping motions are rhythmic, with the wrist resetting after each pull. The user may also reverse-rotate the wrist to shake debris off the blade before continuing."
+    "interactionDeduction": "The roller is grasped with a firm power grip around its contoured handle\u2014fingers wrap completely while the thumb opposes for control. Hand orientation keeps the wrist neutral and allows the forearm to apply pressure downward. Interaction involves broad shoulder and elbow motions: lift to position, press, then long forward/backward strokes while the foam cylinder spins on its axle. Because the foam head is offset from the handle by a metal arm, the tool feels slightly top-heavy; users sense moderate rotational inertia when starting or stopping the roll. The roller resists lateral twisting but spins freely along its axis, providing continuous rolling feedback and low-frequency vibration as the textured foam contacts the wall or canvas. The user may periodically tilt the wrist to reload paint or to reach edges, and can exert extra force to compress the foam against the surface, feeling mild compliance at the contact patch."
   }
 ]

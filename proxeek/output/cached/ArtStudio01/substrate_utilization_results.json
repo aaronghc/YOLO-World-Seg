@@ -1,0 +1,1982 @@
+[
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Rotate the chair so that the upholstered back-rest faces the user at chest level, providing a near-vertical plane similar to a mounted canvas. Stroke the selfie-stick tip across the fabric surface; the underlying foam compresses slightly, creating a gradual increase in resistance that delivers the desired cushioned pushback while still feeling firm enough to guide precise wrist-led brushwork.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand beside the table and treat the horizontal tabletop as a very large, rigid canvas resting flat. Glide and press the selfie-stick tip across the laminate surface. Although the table is hard, applying only light-to-moderate force (as with real fine brushwork) lets micro-skidding in the laminate coating give a slight yielding feel before the solid resistance locks in, loosely approximating the expected smooth increase in resistance.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white paper towel roll standing upright",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Leave the roll standing and brush across the curved paper layers. The loosely wound sheets compress progressively as the stick presses in, providing a smooth, spring-like pushback that closely matches the cushioned feel of real canvas under a loaded paint brush.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "red Coca-Cola soda can",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Grip the aluminum can with the non-dominant hand so its side faces forward like a miniature vertical canvas. Light brushing over the thin aluminum skin lets it flex almost imperceptibly before the rigid structure stops further travel, giving a short but noticeable ramp-up of resistance\u2014enough to hint at the desired cushioned pushback for fine detailing passes.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "AA battery with silver and black casing",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Hold the battery upright between thumb and fingers of the opposite hand so its flat positive terminal is aimed toward the brush tip. Touching and gently swirling the selfie-stick end on this tiny metal cap offers immediate\u2014but very localised\u2014hard resistance for micro-strokes; the rounded edge gives a slight roll that softens initial contact, creating a miniature version of the resistance-ramp felt when first touching bristles to canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Rest the sponge flat on the table with the soft yellow foam side facing up. Glide the selfie-stick tip across this surface: the foam compresses gradually under increasing force, then rebounds when released, producing a highly authentic cushioned pushback very similar to the springy give of stretched canvas on an easel.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Switch the fan off and use the stationary front grill as a vertical lattice. Brushing across the thin plastic ribs allows each rib to flex slightly under pressure before rebounding, giving a sequence of micro cushioned pushbacks that, when combined, feel like a textured but compliant canvas surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white plastic spray bottle",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the spray bottle on its side so the broad cylindrical body presents a gentle curve. As the selfie-stick tip glides over the slightly flexible plastic shell, the surface depresses imperceptibly before firming up, providing a mild ramp-up in resistance akin to painting across a canvas with slight give.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the unopened, air-filled snack bag flat on the table. Its puffed packaging yields noticeably under the brush tip then pushes back as internal air pressure builds, recreating the smooth, cushioned resistance of stretched canvas especially well during broader, heavier strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "stainless steel butter knife",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the butter knife flat on the table with its broad blade side facing up. Use the very tip of the selfie-stick to perform tiny strokes over the cool metal surface. The knife is rigid, but its slightly curved profile lets initial contact slide minutely before full resistance engages, giving a modest but perceptible ramp-up that can substitute for tight, hard-primed canvas spots.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the collapsed aluminum tube just above its rubber grip\u2014the tube is close to 1 cm thick and lightweight. Pinch with thumb, index, and middle finger exactly like an artist\u2019s brush and perform stroke gestures; the low inertia and rigid smooth surface closely mimic a real paint-brush handle.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Cup the ping-pong ball lightly in the non-dominant hand so it stays still. Brushing onto the thin plastic sphere makes it dent ever so slightly under gentle force, then spring back instantly, giving a small-area but noticeable cushioned pushback perfect for practising pinpoint strokes or dotting techniques.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Roll the chair so the padded back-rest (or seat) faces you at chest height. The thick foam underneath the fabric compresses slightly when you glide or tap the battery tip across it, creating a smooth rise in resistance and a soft spring-back\u2014very similar to a taut but yielding canvas fixed to an easel.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand beside the table and treat the vertical plastic edge-banding of the table-top as the canvas. Stroking the battery tip along this edge delivers immediate but controllable friction; as you press a little harder the laminate surface flexes imperceptibly against its clips, adding a faint but noticeable increase in resistance\u2014mimicking the firm yet slightly responsive feel of a tightly stretched canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "black telescoping selfie stick/monopod with a grip handle",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the selfie-stick flat on the table so the rubberised grip faces upward toward you. Sweep the battery tip over that grip: its soft, slightly spongy rubber yields just a fraction under light force, producing a gentle cushioned pushback that stiffens as compression deepens\u2014perfectly echoing the easel\u2019s progressive resistance.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white paper towel roll standing upright",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the roll standing and work on its cylindrical side. The multiple layers of loosely packed paper compress softly when touched with the battery; as you apply more force the inner layers tighten, giving a smooth, graded pushback remarkably similar to brush bristles flexing against a primed canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "red Coca-Cola soda can",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the unopened can upright. Glide the battery tip across its curved aluminium wall. The thin metal wall offers low resistance at first, but light inward pressure begins to dimple it microscopically, yielding a gradual, spring-like pushback that grows firmer\u2014mimicking the subtle give of a stretched canvas surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the sponge on its long edge with the yellow foam toward you (for softer response) or the green scouring pad (for firmer drag). As you stroke or press the battery tip, the foam compresses linearly, delivering exactly the rising resistance and cushioned rebound expected from pressing bristles onto a canvas mounted on an easel.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Ensure the fan is switched off. Use the front plastic grille as a vertical surface. Each radial slat bends minutely when the battery tip travels over it, producing a sequence of gentle, elastic pushbacks. The alternating gaps and slats create nuanced feedback akin to brush hairs flexing across canvas texture.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white plastic spray bottle",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Set the spray bottle upright and work on the broad curved belly. The thin plastic wall flexes almost imperceptibly under light contact; additional pressure stiffens it noticeably, yielding the progressive, spring-like resistance associated with a canvas taut on an easel frame.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the unopened snack pack flat on the table. Its pillow-style packaging is air-filled and compressible. Brush the battery tip across its surface: initial contact is soft, then the internal air pressure pushes back smoothly as you press farther, perfectly recreating the gradual, cushioned resistance of canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "stainless steel butter knife",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Grip the knife handle in your non-dominant hand, holding the flat of the blade vertically like a miniature panel. Glide the battery tip along the broad face. Although the metal is rigid, the perfectly smooth finish increases friction gradually with applied force, giving a controllable rise in resistance that substitutes for the firmer portions of a canvas (e.g., tight centre over stretcher bars).",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the battery lengthwise between thumb, index, and middle finger. Its 1.4 cm diameter, smooth metallic surface, and low weight replicate a fine brush handle. Direct the positive-cap end toward the imaginary canvas and execute controlled wrist flicks to paint.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the ping-pong ball gently between two fingertips of your opposite hand so it forms a small, free-standing convex canvas. As you stroke the battery across its surface, the thin celluloid shell deforms slightly under load and then springs back, providing a distinct yet smooth cushioned resistance that intensifies with added pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand or sit beside the chair and use the horizontal seat cushion as the \u2018canvas\u2019. Glide the knife blade lightly over the padded fabric surface. The foam beneath the upholstery compresses progressively as more force is applied, providing a smooth increase in resistance and a gentle elastic spring-back that mimics the subtle cushioned pushback of a stretched canvas on an easel.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Use the tabletop as a broad, stable vertical or slightly inclined plane (lean forward if an easel slant is needed). Sliding the blade across the smooth laminate offers uniform friction; the very slight compliance of the laminated board and the user\u2019s own finger micro-flex create a gradually rising resistance, giving a controlled, smooth pushback similar to working on a firm artist\u2019s panel.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "black telescoping selfie stick/monopod with a grip handle",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the selfie stick horizontally on the table with its foam/rubber grip facing upward. Paint-like strokes along the compressible grip surface allow the knife blade to indent slightly; the foam rebounds smoothly, giving progressive resistance and gentle pushback that emulate the give of canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white paper towel roll standing upright",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the roll standing on the table and stroke the knife blade across the curved paper surface. The layered paper compresses gradually under pressure, supplying a smooth rise in resistance and soft rebound\u2014the cushioned feel closely parallels the tensioned fabric of a canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "red Coca-Cola soda can",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the can upright and guide the blade along its curved aluminum side. The thin metal shell flexes almost imperceptibly and its curvature maintains constant contact, supplying steadily increasing resistance. The slight give of the aluminum (and any surface condensation-generated drag) recreates a mild cushioned pushback while keeping strokes smooth.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "AA battery with silver and black casing",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Rest the battery horizontally and use its curved metal surface as a miniature \u2018canvas\u2019. As the knife blade slides, the rounded profile keeps contact centered; pushing harder causes the battery to roll slightly against the table edge, creating a self-generated counter-force that rises smoothly and pushes back in a controlled fashion.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the sponge flat on the table with the green abrasive side up for extra drag. Sweep the knife blade across the surface; the sponge compresses linearly as pressure increases and springs back when the load is lifted, giving the exact progressively resisting, cushioned pushback of a taut fabric surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Ensure the fan is powered off and stable. Use the front plastic grill as the painting surface; its concentric thin blades flex minutely under load. Stroking the knife over the grill causes the slats to bend, then elastically push back, delivering a smooth increase in resistance followed by a soft rebound.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white plastic spray bottle",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Leave the bottle standing and glide the knife blade along its curved plastic wall. The slightly flexible plastic bows inward under pressure and then returns, supplying a gentle, smoothly increasing counter-force that emulates the canvas pushback.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the unopened snack pack flat on the table. Its pillow-like, air-filled structure and shifting peanuts provide a soft, deformable surface. As the knife blade presses and slides, the packaging yields gently, building resistance and then easing back\u2014mirroring the cushioned feedback of painting on stretched fabric.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the knife by its handle near the very end so that only the last 1 cm protrudes beyond the fingers. The smooth, narrow metal section is comparable in diameter to a brush, and the elongated blade acting as an extended bristle area gives subtle inertia as the user performs painting strokes.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the ping pong ball in the spare hand or nestle it in a table corner to stop it rolling. Paint across its curved shell; the thin plastic compresses ever so slightly and the ball\u2019s tendency to roll creates a reactive force that grows with pressure, producing light, smooth pushback ideal for small, precise stroke practice.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Face the seat so it is horizontal and stationary. Stroke the pinched spray-nozzle tip across the chair\u2019s fabric seat or back-rest surface. The taut cloth stretched over medium-density foam compresses slightly at first and then firms up, providing a smooth, cushioned push-back that strengthens with deeper pressure\u2014closely matching the increasing resistance felt when a brush presses against canvas on an easel.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand beside the table and use either the horizontal top or the vertical edge closest to the user. The smooth laminate offers a consistent glide; when the nozzle is pressed more firmly, the rigid surface halts further travel, producing an intuitively stronger reaction force. Although not soft, the very slight give that comes from the user\u2019s forearm muscles absorbing load still yields a progressively firmer feeling that works for broad, confident brush strokes against a flat canvas plane.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "black telescoping selfie stick/monopod with a grip handle",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Collapse the selfie stick and lay it flat on the table so the soft rubber grip faces upward. Glide the nozzle tip along that grip. The rubber compresses a millimetre or two under light force, then stiffens quickly once it bottoms out against the metal core. This provides the desired graded resistance and a muted cushioned feel for small, controlled detailing strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white paper towel roll standing upright",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the roll horizontally or keep it upright and press the spray-nozzle tip against the packed paper edge. The soft paper layers compress easily at first, then stiffen as they squeeze together and the cardboard core is approached, giving a naturally smooth increase in resistance that recreates the cushioned push-back of a stretched canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "red Coca-Cola soda can",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the unopened can on the table and brush against the slightly concave aluminium top or curve around the side wall. The thin metal flexes imperceptibly at first contact; as pressure grows it stops yielding and the round can resists further motion, giving a perceivable increase in resistance while staying smooth\u2014sufficient for simulating firmer strokes on a taut canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "AA battery with silver and black casing",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the battery on its side so it can roll, or stand it upright to give a tiny raised \u2018canvas\u2019. Pressing the nozzle tip on the rounded end cap at first allows micro-slip and rocking; as the force increases the battery stops moving, creating a slight but perceivable escalation in resistance with a tiny cushioned feel coming from the rolling interlude.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Set the sponge flat on the table with either the soft yellow face or the firmer green scouring face upward. Brush across its surface. The porous foam compresses noticeably under light pressure and becomes progressively harder, providing a textbook smooth increase in resistance coupled with a cushioned rebound\u2014almost identical to pressing bristles against canvas on an easel.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "With the fan switched off, angle the front grille upward. Glide the spray-nozzle tip across the plastic grille ribs. Each rib flexes a fraction before firming up against the central support ring, providing little \u2018give\u2019 followed by stronger resistance, which together create a stepping cushioned push-back suitable for textural canvas strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the sealed snack pack flat. The air-filled plastic pouch yields softly when the nozzle tip is pressed, then stiffens as the internal air is compressed and kernels inside present harder points, giving a smooth, pillow-like push-back that escalates with pressure\u2014mirroring canvas elasticity.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "stainless steel butter knife",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the knife flat on the table, blade facing away. Run the nozzle tip along the broad, slightly curved blade face. The slick metal surface offers minimal friction for light strokes; when pressed harder, the firmness of steel stops further movement at once, letting the user feel a noticeable rise in resistance, useful for portraying strong, decisive brush pressure on canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the narrow cylindrical nozzle stem (just in front of the trigger). With fingers placed around that slender tube, the user gains a rigid cylinder roughly the size of a brush handle. Wrist-led strokes can be executed while the larger bottle body dangles below, analogous to a brush ferrule and bristle mass.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the ping pong ball in a stationary spot on the table (e.g., against a wall edge or corner so it cannot roll far). Light brush-contact causes the shell to flex almost imperceptibly; pressing harder quickly firms up as the rigid plastic shell resists collapse. That rapid stiffening after a tiny give delivers a subtle but clear increase in resistance suitable for highlighting firm tap or stipple strokes on the virtual canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Roll the chair next to the user and use the flat seat cushion as the \u2018canvas.\u2019 Because the foam beneath the upholstery compresses gradually, pressing the cardboard rim of the paper-towel roll against it yields a smoothly increasing resistance and a soft rebound\u2014closely mimicking the cushioned pushback of a stretched canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand at the table and treat the smooth tabletop as a rigid \u2018under-primed\u2019 canvas. The hard laminate gives immediate resistance; by varying attack angle and pressure the user can still feel a controllable, steady buildup of force through the stiff cardboard rim, although the pushback will be firmer and less cushioned than a sponge-like surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "black telescoping selfie stick/monopod with a grip handle",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the selfie-stick horizontally on the table and press the cardboard rim onto its foam-rubber hand-grip. The spongy grip compresses a few millimetres before bottoming out, providing a gentle, spring-like pushback that grows with pressure\u2014similar to bristles meeting canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "red Coca-Cola soda can",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the unopened can upright and paint on its curved aluminium side. The thin metal wall flexes imperceptibly at first and stiffens as pressure grows, offering a smooth increase in resistance; the slight give of the metal skin supplies a subtle elastic rebound through the cardboard rim.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "AA battery with silver and black casing",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the battery flat and \u2018paint\u2019 along its curved flank. Although the metal shell is rigid, the tiny contact area requires delicate control\u2014the growing friction between cardboard and metal produces a perceivable rise in resistance, useful for precision detailing even if cushioning is minimal.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the sponge on the table with the soft yellow side facing up. Stroking or dabbing the cardboard rim on this surface compresses the foam progressively, giving a clearly felt, springy pushback that ramps up smoothly\u2014closely mirroring how real bristles yield against a taut canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Switch the fan off and press the cardboard rim onto the front plastic grille. The thin grille ribs flex slightly under load, supplying a gentle springiness; increasing pressure causes the ribs to resist more strongly, producing the sought after gradual pushback.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white plastic spray bottle",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the spray bottle on its side and stroke along the gently curved body. The thin plastic wall depresses a fraction under force and rebounds once pressure is eased, giving a light, elastic response that scales with applied force.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the unopened, air-filled snack pack flat on the table. Pressing or sweeping across the pillow-like bag compresses the trapped air, resulting in an even, cushioned resistance that grows smoothly as the bag flattens\u2014closely echoing the subtle yielding of a canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "stainless steel butter knife",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the butter knife flat with its broad blade facing up. Skimming the cardboard rim over the smooth steel offers immediate, firm resistance that grows through friction rather than compression\u2014useful for representing very tight, rigid canvas areas or hard board backings.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Paint Brush",
+    "virtualSubstrateObject": "Easel",
+    "physicalContactObject": "white paper towel roll standing upright",
+    "contactObject_id": 4,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the thin cardboard edge of the inner core that protrudes slightly if the user tilts the roll. Rotating the wrist while holding only that inner rim provides a hollow, lightweight cylinder to grasp, allowing brush-like flicks even though the diameter is slightly larger than ideal.",
+    "expectedHapticFeedback": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold or set the ping-pong ball in a stationary position (e.g., in a shallow cup or between fingers) and dab the cardboard rim onto its thin plastic shell. The sphere dents slightly under load then restores its shape, providing a noticeable but gentle elastic pushback and allowing nuanced, point-contact strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker: pinch the lower third between thumb and index finger, rest the middle finger underneath, and perform writing strokes. Its 1.4 cm diameter, smooth metal case, and low mass make it the closest match for a felt-tip marker barrel.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Roll the chair so the seat cushion is directly in front of the user and stationary, then use the flat upholstered seat surface as the drawing area. The tightly-woven fabric gives a mild, even drag against the battery\u2019s tip, closely mimicking the steady resistance of a marker gliding on paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker: pinch the lower third between thumb and index finger, rest the middle finger underneath, and perform writing strokes.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Simply use the tabletop as the writing surface. The laminate top is smooth but has a faint texture that provides gentle, uniform drag when the battery\u2019s end is slid across, delivering feedback similar to a marker on copier paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance.",
+    "physicalSubstrateObject": "black telescoping selfie stick/monopod with a grip handle",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the selfie stick horizontally on the table with its rubberized grip facing upward. Glide the battery\u2019s tip along that matte rubber grip; the grip\u2019s fine texture produces moderate, continuous friction that can stand in for paper\u2019s drag.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker.",
+    "expectedHapticFeedback": "Steady, consistent drag similar to a marker on paper.",
+    "physicalSubstrateObject": "white paper towel roll standing upright",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the roll on its side so the cylindrical paper surface is horizontal and hold it still with the other hand. Slide the battery\u2019s tip across the outer paper layers; the slightly fibrous surface gives smooth, noticeable resistance that closely parallels writing on a fresh sheet of paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker.",
+    "expectedHapticFeedback": "Steady, consistent drag similar to a marker on paper.",
+    "physicalSubstrateObject": "red Coca-Cola soda can",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the can upright and grip it lightly with the non-writing hand. Glide the battery\u2019s tip along the curved aluminum side wall; the painted metal gives light, uniform friction and the continuous curvature allows long, uninterrupted strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker.",
+    "expectedHapticFeedback": "Steady, consistent drag similar to a marker on paper.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the sponge flat on the table with the yellow soft side facing up for smoother drag (or green scouring side for stronger drag). Write across the flat surface; the porous foam delivers uniform resistance, giving tactile confirmation similar to paper while cushioning minor pressure changes.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker.",
+    "expectedHapticFeedback": "Steady, consistent drag similar to a marker on paper.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Ensure the fan is off and use the broad, matte plastic base as a writing pad. Its flat, slightly textured plastic yields gentle, even friction under the battery, emulating the drag felt on paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker.",
+    "expectedHapticFeedback": "Steady, consistent drag similar to a marker on paper.",
+    "physicalSubstrateObject": "white plastic spray bottle",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the bottle steady by its neck with the off-hand so one flat side panel is exposed. Glide the battery\u2019s end along that rigid plastic face; the satin finish supplies moderate, consistent resistance much like a marker nib on smooth paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker.",
+    "expectedHapticFeedback": "Steady, consistent drag similar to a marker on paper.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the unopened snack pack flat on the table and keep it taut with the non-writing hand. The thin plastic film provides a smooth yet slightly resistive surface, giving a paper-like gliding sensation when the battery is stroked across it.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker.",
+    "expectedHapticFeedback": "Steady, consistent drag similar to a marker on paper.",
+    "physicalSubstrateObject": "stainless steel butter knife",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Set the knife blade flat on the table with its broad side facing upward. Use the wider section near the handle as the contact zone. Sliding the battery tip along polished steel offers low but perceptible friction, supplying a smooth, consistent glide comparable to a glossy sheet of paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "AA battery with silver and black casing",
+    "contactObject_id": 6,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Use the battery exactly like a real marker.",
+    "expectedHapticFeedback": "Steady, consistent drag similar to a marker on paper.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Grip the ping-pong ball lightly with the non-writing hand so that a hemisphere is exposed and stationary. Glide the battery\u2019s tip over the matte plastic surface; the slight texture and rigid shell offer uniform resistance. Although the area is curved, short strokes deliver the same smooth, consistent drag expected from writing on paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand beside the chair and use the flat fabric seat as the writing plane. The tightly-woven upholstery gives light but perceptible friction, similar to paper on a soft pad. Keep the chair from rolling by placing one knee lightly against the edge; then glide the selfie-stick tip across the seat using normal writing strokes. The slight give of the cushion creates steady drag without sudden slips, matching the expected smooth resistance.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Use the table\u2019s laminate top exactly as a desktop sheet of paper: stand or sit so the tabletop is horizontal in front of you, then glide the selfie-stick tip over the broad, smooth surface. The slightly matte finish produces gentle, uniform friction and the rigid support underneath prevents bounce, giving consistent drag that feels like writing on a firm stack of paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white paper towel roll standing upright",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the roll on its side so the tightly packed paper layers create a cylindrical \u2018scroll\u2019. Rest one hand on the roll to stop it from moving, then draw lengthwise along the outer paper surface. The fibrous paper texture offers friction very close to writing on a sheet, while the slight compliance of the rolled layers ensures steady, cushioned drag.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "red Coca-Cola soda can",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the can upright and steady it with the opposite hand. Use the selfie-stick tip to glide over the curved aluminum side in vertical or diagonal strokes. The smooth metal offers light, consistent resistance; its curvature forces subtle wrist adjustments, creating continuous but gentle drag akin to drawing long arcs on glossy paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "AA battery with silver and black casing",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Hold the battery flat on the table with the non-dominant hand to prevent rolling. Trace the selfie-stick tip along its side surface as if sketching very narrow lines. The hard metallic shell offers low-amplitude but reliable friction, allowing controlled micro-movements that still yield tactile confirmation of contact\u2014useful for fine detailing in the VR drawing.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the sponge on the table with the green scouring pad face up. Draw across this coarse surface; the fine abrasive fibers provide noticeable but uniform drag, mirroring the feel of a thick felt-tip on textured paper. The compressibility beneath adds subtle give, reinforcing the expectation of steady contact force.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Switch the fan off, then use the broad, matte plastic base as the writing surface. Its slightly textured finish offers moderate friction and the mass of the fan keeps it stable. Glide the selfie-stick tip over the base\u2019s top plate to experience even, paper-like drag while the elevated height allows comfortable wrist angles.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white plastic spray bottle",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the bottle on its side so it does not roll (rest the trigger against the table edge). Trace the selfie-stick tip along the cylindrical body in long strokes. The matte plastic provides mild, uniform resistance; curvature encourages controlled wrist motion, sustaining continuous drag comparable to sketching on a rolled sheet of paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the unopened snack pack flat on the table. The crinkly plastic front delivers modest friction with subtle micro-vibrations as the selfie-stick tip slides, mimicking the slight rasp of marker on thin paper. The flexible contents underneath give minimal cushioning, maintaining consistent drag over the whole pouch surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "stainless steel butter knife",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the knife flat with the blade facing up and steady the handle with one finger. Slide the selfie-stick tip along the flat side of the blade. The polished steel supplies low but constant friction, helping the user perceive a clear yet smooth contact line, comparable to a marker gliding over glossy presentation paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "black telescoping selfie stick/monopod with a grip handle",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grasp the padded lower grip section near its very end with a writing pinch so that only the first 3\u20134 cm protrude beyond the hand. This front segment is close to marker diameter and has a smooth, firm texture; light wrist strokes while letting the longer shaft extend behind the hand simulate drawing with an oversized marker.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the ping-pong ball gently between thumb and forefinger of the non-dominant hand so it stays still. Move the selfie-stick tip across the ball\u2019s matte plastic surface in short arcs. The fine texture of the celluloid offers delicate yet perceptible drag, while the continued spherical curvature keeps contact pressure even, simulating small circular strokes on paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Roll or steady the chair so that the seat cushion forms a horizontal plane. While maintaining the pen-style grip on the bottle neck, rest the bottle\u2019s cap on the fabric seat and execute writing-like strokes. The tight-weave upholstery offers gentle, uniform friction and the underlying padding softly absorbs pressure, delivering the same smooth yet resistant glide felt when a real marker moves across paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Use the laminate tabletop as the drawing plane. Place the spray-bottle cap against the surface and slide it while holding the neck like a marker. The tabletop\u2019s very slightly textured laminate gives a low-level, continuous drag that closely matches the feel of a marker tip gliding across paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "black telescoping selfie stick/monopod with a grip handle",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the selfie-stick flat on the table so that its rubberised grip faces upward and stays put through natural friction. Glide the bottle\u2019s cap lengthwise along this grip surface. The fine rubber texture supplies uniform, moderate resistance, letting wrist-led strokes produce the same steady drag encountered when writing on paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white paper towel roll standing upright",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the roll upright and use its flat, compressed paper top as the drawing surface. Rest the bottle\u2019s cap on this circular pad and move it with writing-style motions. The densely packed paper fibres create even, velvety friction that mimics the marker-on-paper glide, while the roll\u2019s weight keeps the surface stable.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "red Coca-Cola soda can",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the can upright and draw on its slightly domed aluminium top. Sliding the bottle cap over this brushed metal surface provides light but consistent resistance, and the rim cues edge limits\u2014together reproducing the reliable drag sensation of marker strokes on paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "AA battery with silver and black casing",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the battery on its flat positive terminal so the metallic disk faces up. Execute tiny dots or short strokes with the bottle cap on that disk. The smooth steel offers a subtle but discernible drag, suitable for quick contact confirmations similar to marking points on paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the sponge flat with the green scouring side up. Glide the spray-bottle cap over the fibrous pad. The slightly abrasive texture supplies strong, uniform friction while the sponge\u2019s compressibility cushions pressure, creating a convincing steady-drag feel akin to marker on rougher drawing paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "With the fan standing normally, use the hard plastic top of its base as the writing pad. Slide the bottle cap across that matte surface; its micro-texture gives consistent glide resistance, and the fan\u2019s weight keeps the substrate stable during brisk strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Leave the sealed snack pack flat on the table. Glide the bottle cap over the glossy plastic pouch. The crinkly material yields mild, even friction and produces a faint rustling sound, both reinforcing the steady-drag sensation expected from marker strokes on paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "stainless steel butter knife",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the butter knife flat on the table with its broad blade face upward. Move the bottle cap lengthwise along the blade. The satin stainless steel provides low-level, predictable drag, and the slight raised edges naturally bound the stroke area, approximating a smooth writing surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "white plastic spray bottle",
+    "contactObject_id": 2,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the bottle\u2019s neck (just below the trigger) with a pen grip; this section is cylindrically smooth and lightweight relative to the whole bottle. Short wrist flicks and rotations emulate turning a marker, while gentle taps of the bottle\u2019s cap against the table simulate making contact with a drawing surface.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the ping-pong ball lightly in the non-dominant hand so its matte plastic surface faces the moving bottle. Glide the bottle\u2019s cap over the ball\u2019s shell, letting the curvature prompt small wrist adjustments. The fine matte texture offers steady, perceptible drag, echoing the marker-on-paper feel even as the surface curves.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Roll the chair so it is stationary, then use the flat seat cushion as a horizontal platform. Drag or tap the base of the can across the tightly-woven fabric. The cloth\u2019s fine texture generates a gentle, uniform friction while the underlying foam slightly cushions impacts, giving a smooth but perceptible resistance similar to a marker gliding on paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Use the laminate tabletop exactly as it rests. Its broad, stable, and slightly matte surface offers low-level friction. Glide the can\u2019s base over the table in writing-like strokes to feel a steady drag very close to a marker on paper, while effortless repositioning across the wide plane preserves visual-physical alignment.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "black telescoping selfie stick/monopod with a grip handle",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the retracted selfie stick horizontally on the table so the rubberized grip points toward you. Stabilise it with your free hand. Slide the can\u2019s base lengthwise along the grip\u2019s slightly textured rubber; the ribs produce a light, repeatable drag, approximating the mild resistance of a felt-tip moving across paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white paper towel roll standing upright",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the roll on its side on the table so the cylindrical paper surface faces upward. Glide the can\u2019s base across the outer layers of the roll. The dry, fibrous paper and the gentle give of the wound towel supply continuous, soft friction analogous to marker strokes across a fresh sheet.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "AA battery with silver and black casing",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the battery horizontally on the tabletop and steady it lightly with your free hand so it does not roll. Run the can\u2019s base along the curved metallic shell. The engraved lettering and metal jacket deliver a faint, gritty drag while the rounded form maintains contact, giving intermittent tactile confirmation similar to textured paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Set the sponge flat on the table with the green abrasive side facing up. Trace writing strokes with the can\u2019s base across this surface. The mildly rough scouring pad produces stronger, steady friction, letting the user feel a clear but smooth resistance akin to a marker on heavyweight drawing paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Use the fan switched off and stationary. The plastic base top is broad and flat with shallow embossed controls. Slide the can\u2019s base across this area; the slight ridges and matte plastic yield controlled, even drag while the fan\u2019s weight keeps the base steady during writing-like motions.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white plastic spray bottle",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the spray bottle horizontally so its cylindrical side presents a smooth plastic rail. Stabilise it against the tabletop with your non-dominant hand. Glide the can\u2019s base along the length of the bottle; the slightly textured plastic provides mild, continuous friction similar to paper while the curve lets the can travel steadily.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the unopened snack pack flat on the table. Its crinkly plastic surface and the slight give from the peanuts inside create a soft, even resistance. Slide the can\u2019s base across it to experience a smooth drag coupled with faint crackling feedback, echoing the feel of a marker drawing over a slightly textured sheet.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "stainless steel butter knife",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the butter knife flat on the table with the blade facing up. Support the handle lightly with your free hand. Draw the can\u2019s base along the smooth, slightly brushed steel blade. The cool metal produces a low, consistent drag and a faint audible scrape, supplying clear tactile confirmation like pen on high-gloss paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "red Coca-Cola soda can",
+    "contactObject_id": 5,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Pinch the upper rim of the can with thumb and index finger while supporting the side with the middle finger. Short, light downward taps of the can\u2019s base against the table reproduce the feel of a marker nib touching a surface, and the aluminum can\u2019s smooth cylinder helps practice grip transitions.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the ping-pong ball steady in your free hand, presenting its matte plastic dome upward. Gently tap and slide the can\u2019s base over the curved surface. The ball\u2019s fine texture and slight compliance offer a subtle, continuous friction line-by-line, imitating the steady drag of a marker while also letting you feel pressure changes through the ball\u2019s slight flex.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "black upholstered office swivel chair with caster wheels",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Rotate the chair so its seat cushion faces the user and is level. Rest the knife\u2019s blunt tip on the tight-woven fabric of the seat and execute writing strokes across the flat cushion. The slightly textured cloth and minimal give of the foam underneath create a mild, consistent drag similar to pen-on-paper while the wide seat offers ample drawing space.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white rectangular table with metal legs",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the tabletop clear and use its smooth, matte laminate surface as the writing plane. Glide the knife\u2019s blunt tip across the table in any direction. The very slight surface texture of the laminate gives continuous, gentle resistance that convincingly imitates a marker moving over paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "black telescoping selfie stick/monopod with a grip handle",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the selfie stick horizontally on the table so the rubberized hand-grip faces up and remains still. Draw short strokes along the length of this rubber grip with the knife tip. The fine ribbing and soft rubber generate a steady, moderate drag that mimics marker friction while the cylindrical shape lets the tip follow gentle curves like sketching on a rolled sheet.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white paper towel roll standing upright",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the roll on its side so the outer paper cylinder lies horizontally. Stabilize it lightly with the non-dominant hand and slide the knife tip across the paper surface. The fibrous paper layers give uniform, gentle friction very close to pen-on-paper, and the slight spring of the roll absorbs pressure to keep strokes smooth.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "red Coca-Cola soda can",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the unopened can on its side so it cannot roll (nestle it against the table edge or steady it with the spare hand). Brush the knife tip along the painted aluminum sidewall. The slightly matte coating and printed graphics provide just enough texture to produce a light, constant drag akin to writing on glossy paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "AA battery with silver and black casing",
+    "substrateObject_id": 6,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Hold the battery flat on the tabletop with the spare hand, exposing its curved metal side. Slide the knife tip lengthwise along the casing. The thin painted lettering and knurled seam supply slight micro-texture, giving a light but perceptible resistance similar to fine sketch paper\u2014ideal for short signature-like strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "yellow and green rectangular kitchen sponge",
+    "substrateObject_id": 7,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the sponge flat on the table with its yellow foam side facing up. Write over that surface with the knife tip using light pressure. The fine, closed-cell foam skin offers a uniform, gentle drag and a hint of spring, recreating the smooth slide and subtle give felt when a marker travels over thick sketch paper.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "small black portable electric fan",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Switch the fan off and use its broad plastic base as the writing plane. Rest the knife tip on the slightly textured matte plastic and perform writing motions. The shallow micro-texture of the base supplies steady resistance on every stroke, similar to a smooth card stock sheet.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white plastic spray bottle",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the spray bottle horizontally so its smooth cylindrical side rests firmly on the tabletop. Stabilize it with the spare hand and move the knife tip along the plastic wall. The satin-finish plastic produces a friction level close to coated printer paper, delivering uniform, controllable drag during writing motions.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "yellow snack pack with Japanese text and peanuts illustration",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the unopened snack pack flat on the table and smooth it with the hand to remove large wrinkles. Glide the knife tip across the printed plastic film. The thin, crinkly surface generates light but consistent drag\u2014comparable to writing on a single sheet of loose paper\u2014while the inner contents create a slight cushion that prevents slipping.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  },
+  {
+    "virtualContactObject": "Marker",
+    "virtualSubstrateObject": "Paper",
+    "physicalContactObject": "stainless steel butter knife",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Grip the knife\u2019s handle near its tip using a pen-style hold; the slightly rounded metal handle approximates marker girth. Trace imagined lines on the table with the blunt end to simulate marker strokes, benefiting from the handle\u2019s cool, rigid feel and low inertia.",
+    "expectedHapticFeedback": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact.",
+    "physicalSubstrateObject": "white ping pong ball",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Wedge the ping-pong ball against the table\u2019s corner or cup it lightly with the non-dominant hand so it stays still. Trace small circular strokes on the ball\u2019s matte plastic shell with the knife tip. The fine, slightly roughened surface finish supplies a gentle, uniform drag reminiscent of marker nib on thick drawing paper, ideal for practicing curved lines or signatures.",
+    "relationshipAnnotation": {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  }
+]

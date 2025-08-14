@@ -2,366 +2,127 @@
   "0": [
     {
       "object_id": 1,
-      "object": "camouflage-pattern video game controller (wireless)",
-      "position": "upper left-center of the table",
+      "object": "Foldable Epson document camera (white and light gray)",
+      "position": "center of the image",
+      "worldposition": null,
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 0.0,
-          "y1": 543.3338623046875,
-          "x2": 447.749755859375,
-          "y2": 873.0257568359375,
-          "width": 447.749755859375,
-          "height": 329.69189453125,
-          "center_x": 223.8748779296875,
-          "center_y": 708.1798095703125
+          "x1": 273.2572,
+          "y1": 340.18103,
+          "x2": 962.1515,
+          "y2": 741.8237,
+          "width": 688.8943,
+          "height": 401.6427,
+          "center_x": 617.704346,
+          "center_y": 541.0024
         },
         "mask_center": {
-          "x": 151.0,
-          "y": 740.0
+          "x": 689.0,
+          "y": 544.0
         },
-        "confidence": 0.01913321577012539,
-        "detected_name": "camouflage-pattern video game controller (wireless)",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -3.17862129,
-        "y": 0.694504142,
-        "z": -0.770566
+        "confidence": 0.5843363,
+        "detected_name": "Foldable Epson document camera (white and light gray)"
       }
     },
     {
       "object_id": 2,
-      "object": "black stainless steel water bottle with 'TESLA' branding",
-      "position": "upper right-center of the table",
+      "object": "Wired black computer mouse",
+      "position": "top center of the image",
+      "worldposition": null,
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 770.196044921875,
-          "y1": 91.35455322265625,
-          "x2": 910.9071044921875,
-          "y2": 487.03875732421875,
-          "width": 140.7110595703125,
-          "height": 395.6842041015625,
-          "center_x": 840.5515747070312,
-          "center_y": 289.1966552734375
+          "x1": 653.0774,
+          "y1": 37.316452,
+          "x2": 771.614746,
+          "y2": 145.077469,
+          "width": 118.537354,
+          "height": 107.761017,
+          "center_x": 712.346069,
+          "center_y": 91.19696
         },
         "mask_center": {
-          "x": 842.0,
-          "y": 223.0
+          "x": 701.0,
+          "y": 82.0
         },
-        "confidence": 0.809823215007782,
-        "detected_name": "black stainless steel water bottle with 'TESLA' branding",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -3.13705,
-        "y": 0.8637529,
-        "z": -0.3482706
+        "confidence": 0.5947202,
+        "detected_name": "Wired black computer mouse"
       }
     },
     {
       "object_id": 3,
-      "object": "yellow paper coffee cup labeled 'Caf\u00e9'",
-      "position": "right side of the table",
+      "object": "Wired black computer keyboard",
+      "position": "top right of the image",
+      "worldposition": null,
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 959.801513671875,
-          "y1": 457.36436462402344,
-          "x2": 1158.26171875,
-          "y2": 679.2269439697266,
-          "width": 198.460205078125,
-          "height": 221.86257934570312,
-          "center_x": 1059.0316162109375,
-          "center_y": 568.295654296875
+          "x1": 845.4158,
+          "y1": 0.0,
+          "x2": 1280.0,
+          "y2": 142.051254,
+          "width": 434.584229,
+          "height": 142.051254,
+          "center_x": 1062.70789,
+          "center_y": 71.02563
         },
         "mask_center": {
-          "x": 1049.0,
-          "y": 543.0
+          "x": 1006.0,
+          "y": 15.0
         },
-        "confidence": 0.7319483160972595,
-        "detected_name": "yellow paper coffee cup labeled 'Caf\u00e9'",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -2.95146227,
-        "y": 0.7614454,
-        "z": -0.4030253
+        "confidence": 0.984093547,
+        "detected_name": "Wired black computer keyboard"
       }
     },
     {
       "object_id": 4,
-      "object": "packaged Japanese puffed cereal snack in yellow bag",
-      "position": "lower left side of the table",
+      "object": "Black monitor stand with partial monitor base",
+      "position": "right side of the image",
+      "worldposition": null,
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 0.121185302734375,
-          "y1": 543.5504150390625,
-          "x2": 450.29425048828125,
-          "y2": 877.1217041015625,
-          "width": 450.1730651855469,
-          "height": 333.5712890625,
-          "center_x": 225.2077178955078,
-          "center_y": 710.3360595703125
+          "x1": 4.254883,
+          "y1": 0.172485352,
+          "x2": 1280.0,
+          "y2": 959.5249,
+          "width": 1275.74512,
+          "height": 959.3524,
+          "center_x": 642.127441,
+          "center_y": 479.8487
         },
         "mask_center": {
-          "x": 151.0,
-          "y": 740.0
+          "x": 15.0,
+          "y": 286.0
         },
-        "confidence": 0.013264715671539307,
-        "detected_name": "packaged Japanese puffed cereal snack in yellow bag (lower left side of the table)",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -3.17862129,
-        "y": 0.694504142,
-        "z": -0.770566
+        "confidence": 0.006170793,
+        "detected_name": "Black monitor stand with partial monitor base"
       }
     },
     {
       "object_id": 5,
-      "object": "roll of beige masking tape",
-      "position": "lower center of the table",
+      "object": "Cable bundle with yellow labeled tags (e.g., microphone selector)",
+      "position": "bottom left of the image",
+      "worldposition": null,
       "image_id": 0,
       "yolo_segmentation": {
         "bbox": {
-          "x1": 641.111328125,
-          "y1": 624.9405517578125,
-          "x2": 735.9208984375,
-          "y2": 708.5428466796875,
-          "width": 94.8095703125,
-          "height": 83.602294921875,
-          "center_x": 688.51611328125,
-          "center_y": 666.74169921875
+          "x1": 70.04169,
+          "y1": 638.5288,
+          "x2": 437.7577,
+          "y2": 947.0674,
+          "width": 367.716,
+          "height": 308.538574,
+          "center_x": 253.899689,
+          "center_y": 792.7981
         },
         "mask_center": {
-          "x": 688.0,
-          "y": 666.0
+          "x": 257.0,
+          "y": 801.0
         },
-        "confidence": 0.010438562370836735,
-        "detected_name": "roll of beige masking tape",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -3.055716,
-        "y": 0.6887903,
-        "z": -0.5388526
-      }
-    }
-  ],
-  "1": [
-    {
-      "object_id": 1,
-      "object": "green plush turtle shell with white rim",
-      "position": "top center of the image",
-      "image_id": 1,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 246.48590087890625,
-          "y1": 0.15203857421875,
-          "x2": 820.0642700195312,
-          "y2": 359.7660827636719,
-          "width": 573.578369140625,
-          "height": 359.6140441894531,
-          "center_x": 533.2750854492188,
-          "center_y": 179.9590606689453
-        },
-        "mask_center": {
-          "x": 513.0,
-          "y": 136.0
-        },
-        "confidence": 0.7118706107139587,
-        "detected_name": "green plush turtle shell with white rim",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -0.7857872,
-        "y": 0.666406,
-        "z": -2.7388792
-      }
-    },
-    {
-      "object_id": 2,
-      "object": "white paper towel roll",
-      "position": "top right of the image",
-      "image_id": 1,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 909.0613098144531,
-          "y1": 1.679046630859375,
-          "x2": 1147.2043151855469,
-          "y2": 397.60406494140625,
-          "width": 238.14300537109375,
-          "height": 395.9250183105469,
-          "center_x": 1028.1328125,
-          "center_y": 199.6415557861328
-        },
-        "mask_center": {
-          "x": 1032.0,
-          "y": 124.0
-        },
-        "confidence": 0.34368905425071716,
-        "detected_name": "white paper towel roll",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -1.05310488,
-        "y": 0.7163247,
-        "z": -2.81435585
-      }
-    },
-    {
-      "object_id": 3,
-      "object": "silver-barreled fine liner pen with black tip",
-      "position": "bottom center of the image",
-      "image_id": 1,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 524.9619140625,
-          "y1": 540.71435546875,
-          "x2": 558.4234619140625,
-          "y2": 799.73779296875,
-          "width": 33.4615478515625,
-          "height": 259.0234375,
-          "center_x": 541.6926879882812,
-          "center_y": 670.22607421875
-        },
-        "mask_center": {
-          "x": 540.0,
-          "y": 734.0
-        },
-        "confidence": 0.5819911360740662,
-        "detected_name": "silver-barreled fine liner pen with black tip",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -0.998609662,
-        "y": 0.535390139,
-        "z": -2.506767
-      }
-    },
-    {
-      "object_id": 4,
-      "object": "silver rectangular NVMe SSD enclosure with USB-C connector",
-      "position": "bottom right of the image",
-      "image_id": 1,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 759.0654296875,
-          "y1": 550.2236328125,
-          "x2": 944.475830078125,
-          "y2": 682.2159423828125,
-          "width": 185.410400390625,
-          "height": 131.9923095703125,
-          "center_x": 851.7706298828125,
-          "center_y": 616.2197875976562
-        },
-        "mask_center": {
-          "x": 856.0,
-          "y": 612.0
-        },
-        "confidence": 0.2433241307735443,
-        "detected_name": "silver rectangular NVMe SSD enclosure with USB-C connector",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -1.08330715,
-        "y": 0.5397035,
-        "z": -2.650353
-      }
-    }
-  ],
-  "2": [
-    {
-      "object_id": 1,
-      "object": "black and silver telescopic selfie stick with phone holder clamp",
-      "position": "top center of the image",
-      "image_id": 2,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 158.1295166015625,
-          "y1": 74.97796630859375,
-          "x2": 879.2481689453125,
-          "y2": 345.87493896484375,
-          "width": 721.11865234375,
-          "height": 270.89697265625,
-          "center_x": 518.6888427734375,
-          "center_y": 210.42645263671875
-        },
-        "mask_center": {
-          "x": 434.0,
-          "y": 282.0
-        },
-        "confidence": 0.4323175251483917,
-        "detected_name": "black and silver telescopic selfie stick with phone holder clamp",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -0.307724029,
-        "y": 0.5422276,
-        "z": -2.14170933
-      }
-    },
-    {
-      "object_id": 2,
-      "object": "blue rectangular Pilot V Board Master whiteboard eraser box",
-      "position": "bottom left of the image",
-      "image_id": 2,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 299.58251953125,
-          "y1": 332.11122131347656,
-          "x2": 723.197021484375,
-          "y2": 703.3309173583984,
-          "width": 423.614501953125,
-          "height": 371.2196960449219,
-          "center_x": 511.3897705078125,
-          "center_y": 517.7210693359375
-        },
-        "mask_center": {
-          "x": 575.0,
-          "y": 546.0
-        },
-        "confidence": 0.06306188553571701,
-        "detected_name": "blue rectangular Pilot V Board Master whiteboard eraser box",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -0.5262585,
-        "y": 0.599552631,
-        "z": -2.07804585
-      }
-    },
-    {
-      "object_id": 3,
-      "object": "silver cylindrical calibration weight marked 'M 100g'",
-      "position": "right center of the image",
-      "image_id": 2,
-      "yolo_segmentation": {
-        "bbox": {
-          "x1": 831.740966796875,
-          "y1": 378.83197021484375,
-          "x2": 958.921875,
-          "y2": 545.6654663085938,
-          "width": 127.180908203125,
-          "height": 166.83349609375,
-          "center_x": 895.3314208984375,
-          "center_y": 462.24871826171875
-        },
-        "mask_center": {
-          "x": 901.0,
-          "y": 441.0
-        },
-        "confidence": 0.10270706564188004,
-        "detected_name": "silver cylindrical calibration weight marked 'M 100g'",
-        "has_mask": true
-      },
-      "worldposition": {
-        "x": -0.5604683,
-        "y": 0.5821043,
-        "z": -2.21220565
+        "confidence": 0.00471129362,
+        "detected_name": "Cable bundle with yellow labeled tags (e.g., microphone selector)"
       }
     }
   ]

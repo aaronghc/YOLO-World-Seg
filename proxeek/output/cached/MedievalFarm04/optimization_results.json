@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -24.700546188457174,
+    "loss_components": {
+      "L_realism": -14.071569127247395,
+      "L_interaction": -10.741049818750263,
+      "L_spatial": 0.11207275754048147,
+      "total": -24.700546188457174
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 19,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "brown spiral-bound notebook",
+        "object_id": 6,
+        "image_id": 2,
+        "index": 16
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand the notebook on its bottom short edge like a small wall. A strike on the top initially feels firm; the lightweight book instantly folds flat or falls, removing contact force and producing the desired sudden give."
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "white and grey digital camo wireless game controller",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Rest the controller on its back so its triggers point upward; swing the chair so the underside of the seat collides with the plastic shell. The hard ABS shell yields a solid knock, then the controller skids away across the floor, giving a clean break-away sensation that reads as the log splitting."
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "black stainless steel Tesla-branded water bottle",
+        "object_id": 1,
+        "image_id": 0,
+        "index": 0
+      },
+      "realism_score": 5.999999642372131,
+      "utilization_method": "Pinch the narrow neck just below the cap with your thumb on one side and two fingers on the other. The bottle\u2019s tall metal body projects forward, giving you a nose-heavy feeling very similar to a filled mug hanging from a slim handle. Lift and tilt the bottle exactly as you would tilt the virtual mug toward your mouth."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "white cylindrical paper roll",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 4.333333333333333,
+      "utilization_method": "Grasp the roll about one-third from the bottom so the longer section extends outward, imitating a blunt axe. Although mass is low, the length and cylinder encourage a full-hand grip and shoulder-swing trajectory resembling an axe handle."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black and silver telescoping selfie stick with phone holder",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 5
+      },
+      "realism_score": 6.833333333333334,
+      "utilization_method": "Collapse one or two segments so the foam grip becomes the handle and keep the phone clamp closed to form a compact, heavier tip. The stick\u2019s length, cylindrical grip, and noticeable weight at the clamp end give an excellent head-heavy hammer sensation when swung."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "small silver cylindrical weight",
+        "object_id": 5,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 5.5,
+      "utilization_method": "Partially close your fist around the top half so that the bulk of the weight hangs below the palm. The dense feel supplies pronounced inertia; quick wrist pivots imitate the momentum of the sickle\u2019s iron blade despite the missing curve."
+    }
+  ]
+}

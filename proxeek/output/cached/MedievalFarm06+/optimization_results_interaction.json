@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -12.217809688650066,
+    "loss_components": {
+      "L_realism": -12.264400715439534,
+      "L_interaction": -12.26895898315371,
+      "L_spatial": 0.04659102678946737,
+      "total": -12.217809688650066
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 12,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 0,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "yellow UHU adhesive glue tube",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the closed glue tube horizontally on the tabletop so it cannot roll. With the bottle gripped like a hammer, strike the mid-section of the tube using the base edge of the bottle. The thin, laminated foil skin momentarily resists and then dents, allowing the soft viscous glue inside to redistribute. This instant drop in resistance after the initial firm contact produces a clear \"pop-through\" feeling that mimics the watermelon rind giving way."
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "yellow McCaf\u00e9 disposable paper cup",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Invert the empty cup so its open rim rests on the table. Chop the centre of the base. The thin paper wall resists briefly, buckles, and then folds inward; the quick collapse followed by a rebound of the paper wall recreates the tension-then-release sensation of wood splitting."
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "black collapsible selfie stick",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 5.8888885378837585,
+      "utilization_method": "Clamp the phone holder around your fingers so the plastic jaws act like a curved handle; the telescopic pole and distant padded grip then become the \u2018mug body.\u2019 Rotating the assembly about the clamped handle creates forward inertia that must be balanced by the wrist, paralleling mug usage."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black Tesla-branded insulated water bottle with silver lid",
+        "object_id": 1,
+        "image_id": 0,
+        "index": 0
+      },
+      "realism_score": 5.5,
+      "utilization_method": "Grasp the bottle close to its base with a full power grip; the long cylindrical body fills the palm like an axe handle. Swing the bottle so the heavier, capped end becomes the \"axe head,\" making the mass feel slightly top-weighted and providing noticeable inertia during chopping motions."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "3D-printed grey rabbit figurine",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 3.5,
+      "utilization_method": "Grip the rabbit by its rear legs so that the solid torso and head extend forward like a hammer head. The PLA print is rigid and adds perceptible front-loaded mass; flicking the wrist gives a miniaturized feeling of striking with a mallet."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "small silver calibration weight labeled 'M 500g'",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 5.5,
+      "utilization_method": "Pinch the narrow neck on top and let the bulk of the 500 g mass hang below, producing a strong forward weight. Although there is no curve, the pronounced inertia at the far end closely simulates the tug of the sickle\u2019s metal blade during a cutting swing."
+    }
+  ]
+}
