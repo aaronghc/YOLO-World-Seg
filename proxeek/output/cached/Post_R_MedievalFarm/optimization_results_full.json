@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -22.98983170361419,
+    "loss_components": {
+      "L_realism": -11.561686140896708,
+      "L_interaction": -12.52808115412077,
+      "L_spatial": 1.0999355914032884,
+      "total": -22.98983170361419
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 30,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "red Shin Ramyun instant noodle package",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 19
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the package flat on the table and strike the centre of the packet"
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "clear plastic ruler with black markings",
+        "object_id": 4,
+        "image_id": 3,
+        "index": 23
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the ruler flat on the tabletop, align its length perpendicular to your swing, and strike the centre of the scale."
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "folded umbrella with black curved handle and checkered fabric cover",
+        "object_id": 4,
+        "image_id": 4,
+        "index": 28
+      },
+      "realism_score": 5.3333330154418945,
+      "utilization_method": "Thread index and middle fingers through the curved umbrella handle, place your thumb on the outer curve, lift the umbrella so the shaft hangs forward, rotate the tip toward your mouth, then lower it"
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "light-wood acoustic guitar with dark pickguard",
+        "object_id": 1,
+        "image_id": 4,
+        "index": 25
+      },
+      "realism_score": 5.333333333333334,
+      "utilization_method": "Wrap one hand around the guitar neck close to the headstock, lift the body slightly clear of the sofa, and sweep the body downward in a chopping arc"
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black and silver telescoping selfie stick with phone clamp",
+        "object_id": 3,
+        "image_id": 3,
+        "index": 22
+      },
+      "realism_score": 4.833333333333333,
+      "utilization_method": "Extend the pole halfway, grasp the foam handle at the end, and swing the phone clamp downward to contact the table surface"
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "handheld brush with wooden handle and black bristles",
+        "object_id": 5,
+        "image_id": 3,
+        "index": 24
+      },
+      "realism_score": 4.0,
+      "utilization_method": "Enclose the wooden handle in a fist, letting the bristles project like a curved blade, and swing the brush head forward then pull it inward."
+    }
+  ]
+}

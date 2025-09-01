@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -23.664094225157015,
+    "loss_components": {
+      "L_realism": -11.763339399326505,
+      "L_interaction": -13.521167921504373,
+      "L_spatial": 1.6204130956738592,
+      "total": -23.664094225157015
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 35,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "rectangular two-tone yellow and green kitchen sponge",
+        "object_id": 5,
+        "image_id": 1,
+        "index": 14
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the sponge flat on the desk with the soft yellow side facing up and glide the pen tip across its surface while pressing lightly to compress the foam."
+    },
+    {
+      "virtual_object": {
+        "name": "Marker",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "wood-handled brush with black bristles",
+        "object_id": 7,
+        "image_id": 3,
+        "index": 28
+      },
+      "realism_score": 4.238094985485077,
+      "utilization_method": "Grip the wooden handle near its middle with thumb and fingers and guide the bristle end like a marker tip"
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "yellow snack bag with Japanese writing",
+        "object_id": 3,
+        "image_id": 4,
+        "index": 32
+      },
+      "realism_score": 2.5555556317170462,
+      "utilization_method": "Grip the lower portion of the bag and push contents toward the top by sliding thumb upward along the back"
+    },
+    {
+      "virtual_object": {
+        "name": "Paper",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "blue and white Pilot FriXion eraser box",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 18
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the closed box flat on its largest face; glide the battery tip across the smooth top panel."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black ballpoint pen",
+        "object_id": 7,
+        "image_id": 0,
+        "index": 6
+      },
+      "realism_score": 6.999999582767487,
+      "utilization_method": "Hold the pen near its tip with a pencil grip and perform fine wrist strokes and gentle rotations."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "black and silver telescopic selfie stick",
+        "object_id": 8,
+        "image_id": 3,
+        "index": 29
+      },
+      "realism_score": 4.5,
+      "utilization_method": "Hold the foam grip firmly, extend the pole, rest the phone clamp lightly against a wall or desk, and drive the arm forward and back in long strokes."
+    }
+  ]
+}

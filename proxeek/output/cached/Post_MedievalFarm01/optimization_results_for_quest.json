@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "blue-and-white rectangular tissue box with tissues protruding",
+      "utilizationMethod": "Flip the tissue box so the soft underside faces up; crush downward until the cardboard bows and the tissues compress to the desk."
+    },
+    {
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "wooden storage box",
+      "utilizationMethod": "Stand the box upright with its lid facing up and direct chopping blows onto the center of the lid."
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "folded check-pattern umbrella with clear curved handle",
+      "utilizationMethod": "Slip index and middle fingers inside the clear curved handle while pressing thumb along the outside curve, then lift and tilt the folded canopy"
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "plain wooden dowel rod",
+      "utilizationMethod": "Wrap one hand around the lower third of the dowel and perform an over-the-shoulder chopping swing"
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "long telescoping selfie stick with black handle",
+      "utilizationMethod": "Hold the padded hand grip firmly, keep the pole retracted, and swing the phone clamp end downward like a hammer head."
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "small silver cylindrical container or weight",
+      "utilizationMethod": "Grip the cylinder from the top like a small handle, let its mass hang below the fist, and guide sweeping cuts with forearm rotation"
+    }
+  ],
+  "timestamp": "82e253b4-1d54-495d-bf94-e74a612a80a1",
+  "total_assignments": 6
+}

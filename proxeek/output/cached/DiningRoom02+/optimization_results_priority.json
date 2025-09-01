@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -19.919358386702328,
+    "loss_components": {
+      "L_realism": -5.992424090703329,
+      "L_interaction": -13.949078224024651,
+      "L_spatial": 0.02214392802565157,
+      "total": -19.919358386702328
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 12,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Fork",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "white wireless computer mouse",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 2.045454482237498,
+      "utilization_method": "Pinch the front edge of the mouse between thumb and two fingers so that the narrow front projects outward like tines"
+    },
+    {
+      "virtual_object": {
+        "name": "Knife",
+        "index": 1,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "small metal key with black plastic head",
+        "object_id": 6,
+        "image_id": 0,
+        "index": 5
+      },
+      "realism_score": 2.787878712018331,
+      "utilization_method": "Hold the plastic head fully between thumb and index finger, orient the metal shank forward, press the flat side of the shank onto the table, and push it forward in a straight slicing stroke."
+    },
+    {
+      "virtual_object": {
+        "name": "Spoon",
+        "index": 2,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "clear 30 cm plastic ruler with metric markings",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 8
+      },
+      "realism_score": 4.242424110571544,
+      "utilization_method": "Hold the ruler about one-third from one end between thumb and index finger, direct the longer section forward, dip the far end toward the surface, lift and tilt back while moving the hand toward the mouth area, and perform small stirring wrist circles."
+    },
+    {
+      "virtual_object": {
+        "name": "Soup",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "small wooden handheld broom with black bristles",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the broom on the table with the bristles facing upward. Lower the ruler\u2019s far tip into the dense bristle field and rotate the wrist in compact circles, keeping the tip nestled among the bristles."
+    },
+    {
+      "virtual_object": {
+        "name": "Steak",
+        "index": 4,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "compact mechanical keyboard with dark grey keycaps and a red escape key",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 6
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Rest the keyboard flat on the desk. Position the ruler tip between two adjacent keycaps and push downward so the key switches travel and the edge settles between the moving caps."
+    },
+    {
+      "virtual_object": {
+        "name": "Pepper",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "orange table tennis ball (ping pong ball)",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 2.9090908765792847,
+      "utilization_method": "Cup the ball inside the closed hand, rotate the hand so the ball faces downward through the fingers, and shake the wrist lightly"
+    }
+  ]
+}

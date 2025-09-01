@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -23.308290457717877,
+    "loss_components": {
+      "L_realism": -10.707420767390525,
+      "L_interaction": -12.647329229867582,
+      "L_spatial": 0.046459539540228224,
+      "total": -23.308290457717877
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 36,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Fork",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "transparent plastic 15 cm ruler",
+        "object_id": 9,
+        "image_id": 0,
+        "index": 8
+      },
+      "realism_score": 4.3650797704855595,
+      "utilization_method": "Grip the ruler\u2019s short end between thumb and index finger so the long edge projects ahead, then swing and tap the distant edge like fork tines"
+    },
+    {
+      "virtual_object": {
+        "name": "Knife",
+        "index": 1,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "pair of black and yellow scissors",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 13
+      },
+      "realism_score": 5.063492506742477,
+      "utilization_method": "Close the blades, grasp one closed blade by its flat side between thumb and fingers, extend the index finger along its spine, and saw the closed blades across the shelf"
+    },
+    {
+      "virtual_object": {
+        "name": "Spoon",
+        "index": 2,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "black car key fob",
+        "object_id": 5,
+        "image_id": 3,
+        "index": 27
+      },
+      "realism_score": 4.000000357627869,
+      "utilization_method": "Grip the metal key ring tab like a handle and swing the fob body in gentle spoon-lifting motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Soup",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "clear plastic cup",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Hold the cup upright on the desk with your free hand; dip the ruler tip inside the cup and swirl it around the inner wall in small circles near the bottom."
+    },
+    {
+      "virtual_object": {
+        "name": "Steak",
+        "index": 4,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "yellow and green cleaning sponge",
+        "object_id": 5,
+        "image_id": 1,
+        "index": 15
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the sponge flat with the yellow side up; drive the tape straight down through the soft foam until it reaches the denser green scrubbing layer."
+    },
+    {
+      "virtual_object": {
+        "name": "Pepper",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "green round retractable tape measure",
+        "object_id": 7,
+        "image_id": 0,
+        "index": 6
+      },
+      "realism_score": 4.181818167368571,
+      "utilization_method": "Hold the circular casing in the palm with thumb over the center, turn the tape outlet downward, and perform rapid shake motions"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -25.715130074369952,
+    "loss_components": {
+      "L_realism": -11.562886446498267,
+      "L_interaction": -14.19548216420695,
+      "L_spatial": 0.04323853633526781,
+      "total": -25.715130074369952
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 12,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Fork",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "dark-handled toothbrush with silver bristles",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 8
+      },
+      "realism_score": 4.566666662693024,
+      "utilization_method": "Grip the flat back of the toothbrush handle with thumb and index finger. The handle\u2019s thickness, smoothness, and length closely match a fork\u2019s. Aim the bristle head forward; tapping the bristles on the table gives soft resistance akin to fork tines, while wrist rotations and stabs feel natural."
+    },
+    {
+      "virtual_object": {
+        "name": "Knife",
+        "index": 1,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "red-handled flat-head screwdriver with a metal shaft",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 5.3166666726271306,
+      "utilization_method": "Grip the plastic handle just as you would a knife handle, resting the index finger along the metal shaft. The thin steel shaft functions as a narrow blade for precise slicing gestures, and its smooth, cool surface preserves the metallic feel of a stainless knife."
+    },
+    {
+      "virtual_object": {
+        "name": "Spoon",
+        "index": 2,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "AAA battery standing upright",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 4.983333339293798,
+      "utilization_method": "Grasp the battery near its negative end using a precision grip, letting the positive tip serve as the spoon\u2019s miniature bowl. Use small forward strokes to mimic scooping and then flip the battery so the tip points upward toward the mouth. The metal casing gives a smooth, cool feel and its small but noticeable mass reproduces the inertial response of a teaspoon."
+    },
+    {
+      "virtual_object": {
+        "name": "Soup",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "green and white rectangular tissue box",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Set the tissue box so the soft plastic dispensing film on top faces upward. Gently slide and swirl the battery tip across the slightly flexible film. The film sags and rebounds under pressure, giving a cushioned, fluid-like resistance throughout the motion."
+    },
+    {
+      "virtual_object": {
+        "name": "Steak",
+        "index": 4,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "standard Bicycle playing card deck in box",
+        "object_id": 5,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Hold the card box upright and press the screwdriver tip into the slight gap at the top flap. The thin cardboard bends inward first, then meets the dense stack of cards, allowing a short travel with resistance that stiffens quickly\u2014mimicking the feel of an outer sear giving way to firmer meat below."
+    },
+    {
+      "virtual_object": {
+        "name": "Pepper",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "wooden hand broom with black bristles and a light wood handle",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 4.5,
+      "utilization_method": "Pinch the broom\u2019s wooden handle near the bristle joint using a light power grip. The short cylindrical handle diameter approximates a shaker body, and rapid up-and-down shakes make the bristles swish, creating subtle shifting resistance that stands in for the pepper granules."
+    }
+  ]
+}

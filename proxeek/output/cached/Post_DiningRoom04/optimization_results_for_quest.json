@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Fork",
+      "proxyObjectName": "upright AA battery",
+      "utilizationMethod": "Hold the positive terminal end between thumb and index finger, orient the negative end downward, and poke the flat base against the tabletop"
+    },
+    {
+      "virtualObjectName": "Knife",
+      "proxyObjectName": "white 15-cm plastic ruler with colored markings",
+      "utilizationMethod": "Grip the ruler at one end between thumb and fingers, lay the other end flat on the desk, and slide it forward and back while maintaining light downward pressure"
+    },
+    {
+      "virtualObjectName": "Spoon",
+      "proxyObjectName": "black and orange scissors",
+      "utilizationMethod": "Close the blades, pinch one closed blade near the tip between thumb and index finger, push forward in a dipping motion, then lift and roll the grip palm-up"
+    },
+    {
+      "virtualObjectName": "Soup",
+      "proxyObjectName": "green circular retractable measuring tape with pink tape partially extended",
+      "utilizationMethod": "Pull out several centimeters of tape and lay it flat on the desk; place the ruler tip on the exposed tape, glide forward in a curved path along the tape, then lift."
+    },
+    {
+      "virtualObjectName": "Steak",
+      "proxyObjectName": "yellow rectangular sponge with green scrubbing layer",
+      "utilizationMethod": "Place the sponge flat and press the battery\u2019s base straight through the yellow foam until it meets the firm green layer."
+    },
+    {
+      "virtualObjectName": "Pepper",
+      "proxyObjectName": "folded checkered umbrella with curved handle",
+      "utilizationMethod": "No utilization method available"
+    }
+  ],
+  "timestamp": "4b678a5d-cd05-418b-b212-9cd18b579964",
+  "total_assignments": 6
+}

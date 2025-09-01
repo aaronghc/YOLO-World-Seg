@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Fork",
+      "proxyObjectName": "15 cm metal ruler",
+      "utilizationMethod": "Grip one narrow end of the ruler with thumb on one flat face and fingers on the other, then perform stabbing pokes or gentle scoops with the opposite straight edge"
+    },
+    {
+      "virtualObjectName": "Knife",
+      "proxyObjectName": "black and yellow scissors",
+      "utilizationMethod": "Close the blades, place thumb on one closed blade side, index finger along the spine, and move the scissor tips in gentle slicing motions"
+    },
+    {
+      "virtualObjectName": "Spoon",
+      "proxyObjectName": "folded black phone or tablet stand",
+      "utilizationMethod": "Grip the narrow folded edge between thumb and fingers, point the longer flat surface forward, dip it, then lift while rotating wrist to horizontal"
+    },
+    {
+      "virtualObjectName": "Soup",
+      "proxyObjectName": "green turtle-shell plush cushion with white rim",
+      "utilizationMethod": "Place the cushion flat; swirl the ruler tip over the stitched top panels in overlapping circles"
+    },
+    {
+      "virtualObjectName": "Steak",
+      "proxyObjectName": "black leather two-seat sofa",
+      "utilizationMethod": "Press the ruler tip vertically into the centre of a seat cushion, allowing it to sink several centimetres into the soft foam before the denser base resists"
+    },
+    {
+      "virtualObjectName": "Pepper",
+      "proxyObjectName": "green round retractable measuring tape with peach-colored tape",
+      "utilizationMethod": "Enclose the circular housing in a full grip, turn it upside-down, and give two short downward snaps"
+    }
+  ],
+  "timestamp": "9ffc4961-f0e6-46b4-a6ab-77d33b167564",
+  "total_assignments": 6
+}

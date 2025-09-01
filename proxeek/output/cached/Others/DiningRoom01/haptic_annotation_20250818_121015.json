@@ -1,0 +1,258 @@
+{
+  "summary": "Dining Room",
+  "highEngagementOrder": [
+    "Knife",
+    "Fork",
+    "Steak"
+  ],
+  "mediumEngagementOrder": [
+    "Spoon",
+    "Soup"
+  ],
+  "lowEngagementOrder": [
+    "Pepper"
+  ],
+  "nodeAnnotations": [
+    {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Soup",
+      "involvementType": "substrate",
+      "usage": "",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.16",
+        "y": "0.08",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.27747708559036255,
+        "y": 0.08409180492162704,
+        "z": 0.48930156230926514
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Steak",
+      "involvementType": "substrate",
+      "usage": "",
+      "engagementLevel": 2,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.03",
+        "z": "0.20"
+      },
+      "globalPosition": {
+        "x": 0.7951870560646057,
+        "y": 0.024191804230213165,
+        "z": 0.5323739051818848
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "relationshipAnnotations": [
+    {
+      "contactObject": "Spoon",
+      "substrateObject": "Soup",
+      "annotationText": "Stir the soup with a spoon. When stirring the soup, users should feel smooth, continuous resistance as the spoon moves through liquid. "
+    },
+    {
+      "contactObject": "Fork",
+      "substrateObject": "Steak",
+      "annotationText": "Use Fork to fork the cut pieces of steak. When piercing the steak, users should feel a noticeable penetration distance with progressive resistance."
+    },
+    {
+      "contactObject": "Knife",
+      "substrateObject": "Steak",
+      "annotationText": "Cut the steak with a knife. When slicing through the steak, the sawing motion creates rhythmic resistance pulses."
+    }
+  ],
+  "groups": [
+    {
+      "title": "Meal",
+      "objectNames": [
+        "Soup",
+        "Steak"
+      ],
+      "objectVectors": [
+        {
+          "objectA": "Soup",
+          "objectB": "Steak",
+          "vector": {
+            "x": 0.5177099704742432,
+            "y": -0.05990000069141388,
+            "z": 0.04307234287261963
+          },
+          "distance": 0.5229405760765076
+        }
+      ],
+      "additionalViewAngles": [
+        "StreamingAssets/Export/Arrangement_Meal_20250818_112328_angle0.png",
+        "StreamingAssets/Export/Arrangement_Meal_20250818_112328_angle1.png",
+        "StreamingAssets/Export/Arrangement_Meal_20250818_112328_angle2.png"
+      ]
+    }
+  ]
+}

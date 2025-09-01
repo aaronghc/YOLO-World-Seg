@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "red Shin Ramyun instant noodle package",
+      "utilizationMethod": "Lay the package flat on the table and strike the centre of the packet"
+    },
+    {
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "clear plastic ruler with black markings",
+      "utilizationMethod": "Lay the ruler flat on the tabletop, align its length perpendicular to your swing, and strike the centre of the scale."
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "folded umbrella with black curved handle and checkered fabric cover",
+      "utilizationMethod": "Thread index and middle fingers through the curved umbrella handle, place your thumb on the outer curve, lift the umbrella so the shaft hangs forward, rotate the tip toward your mouth, then lower it"
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "light-wood acoustic guitar with dark pickguard",
+      "utilizationMethod": "Wrap one hand around the guitar neck close to the headstock, lift the body slightly clear of the sofa, and sweep the body downward in a chopping arc"
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "black and silver telescoping selfie stick with phone clamp",
+      "utilizationMethod": "Extend the pole halfway, grasp the foam handle at the end, and swing the phone clamp downward to contact the table surface"
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "handheld brush with wooden handle and black bristles",
+      "utilizationMethod": "Enclose the wooden handle in a fist, letting the bristles project like a curved blade, and swing the brush head forward then pull it inward."
+    }
+  ],
+  "timestamp": "2f8aebf3-fd50-4ca7-9048-afde3d7f7626",
+  "total_assignments": 6
+}

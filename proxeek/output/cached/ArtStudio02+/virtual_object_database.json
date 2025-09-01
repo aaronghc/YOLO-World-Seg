@@ -1,0 +1,138 @@
+[
+  {
+    "objectName": "Marker",
+    "involvementType": "grasp",
+    "usage": "This marker serves as a drawing tool.",
+    "engagementLevel": 1,
+    "inertia": "The marker would feel moderately lightweight",
+    "interactivity": "",
+    "outline": "User should feel the cylindrical body with smooth rounded edges and consistent 1.7cm diameter.",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.4285714030265808,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5714285373687744,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.04",
+      "y": "0.02",
+      "z": "0.11"
+    },
+    "globalPosition": {
+      "x": 1.781999945640564,
+      "y": 0.030491802841424942,
+      "z": 0.5837856531143188
+    },
+    "globalRotation": {
+      "x": 2.0373077392578125,
+      "y": 11.642731666564941,
+      "z": 269.9999694824219
+    },
+    "interactionDeduction": "The user will employ a precision tripod grip (thumb, index, and middle finger) around the 1.7 cm-diameter cylindrical body, similar to holding a pen. While drawing, the hand pivots mainly at the wrist and fingers, producing small, controlled translations and rotations of the shaft. The marker stays rigid in the hand; its low mass offers minimal inertial resistance, so strokes feel light and responsive. The felt tip makes intermittent contact with virtual surfaces, giving the sense of point-contact feedback but no deformation of the barrel. Users may also rotate the marker between fingertips to change stroke angle or flip it in the hand to recap it, but the object itself does not visibly compress or change shape."
+  },
+  {
+    "objectName": "Tube",
+    "involvementType": "grasp",
+    "usage": "This oil paint tube serves as a paint storage. Users would grasp it to squeeze out paint.",
+    "engagementLevel": 2,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "User should feel the distinctive flattened, elongated cylindrical shape",
+    "texture": "",
+    "hardness": "User should feel the body as pliable and squeezable, deforming under pressure but maintaining structural integrity.",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3333333432674408,
+    "textureValue": 0.0,
+    "hardnessValue": 0.6666666865348816,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.03",
+      "y": "0.02",
+      "z": "0.08"
+    },
+    "globalPosition": {
+      "x": 0.2680000066757202,
+      "y": 0.02551880106329918,
+      "z": -2.36899995803833
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "The tube is first grasped with a light power or precision grip near the threaded neck to uncap it (thumb and index finger twist while the other fingers stabilize the body). During paint dispensing, the dominant hand shifts to a power squeeze grip that envelopes the flattened, pliable body; the palm and all fingers apply progressively increasing pressure from the sealed end toward the opening while the tube is aimed downward. The metal/foil body locally collapses under finger pressure, providing noticeable compliance and slowly re-expands if released. The resistance increases as paint volume decreases, giving tactile feedback that content is being expelled."
+  },
+  {
+    "objectName": "Paint Brush",
+    "involvementType": "grasp",
+    "usage": "It serves as an artistic tool for painting. Users would make controlled strokes across canvas surfaces.",
+    "engagementLevel": 2,
+    "inertia": "The brush would feel lightweight.",
+    "interactivity": "",
+    "outline": "User should feel the cylindrical handle (1cm diameter) with smooth, rounded edges. ",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.4285714030265808,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5714285373687744,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.20",
+      "y": "0.02",
+      "z": "0.11"
+    },
+    "globalPosition": {
+      "x": 1.565000057220459,
+      "y": 0.025491803884506226,
+      "z": 0.2176625281572342
+    },
+    "globalRotation": {
+      "x": 8.165133476257324,
+      "y": 16.372602462768555,
+      "z": 299.2464294433594
+    },
+    "interactionDeduction": "The brush is held in a relaxed tripod precision grip on its slim (\u22481 cm diameter) wooden handle, usually 2\u20138 cm behind the ferrule. The wrist and fingers guide fine, sweeping or dabbing motions over a virtual canvas. Users occasionally roll the handle between thumb and index finger to rotate the bristle orientation for line-weight control. The handle feels rigid and light; only the soft bristle tip bends, giving slight springiness on contact but no discernible deformation of the handle."
+  },
+  {
+    "objectName": "Paint Roller",
+    "involvementType": "grasp",
+    "usage": "This paint roller serves as a painting tool for covering large surfaces efficiently. ",
+    "engagementLevel": 0,
+    "inertia": "User should feel moderate weight with a slight top-heavy feel.",
+    "interactivity": "",
+    "outline": "User should feel a ergonomic cylindrical shape fitting naturally in the palm.",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.5,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.45",
+      "y": "0.08",
+      "z": "0.34"
+    },
+    "globalPosition": {
+      "x": 0.23999999463558197,
+      "y": 0.07449180632829666,
+      "z": -2.440000057220459
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 339.00634765625,
+      "z": 270.0
+    },
+    "interactionDeduction": "The roller is grasped with a full power grip around the ergonomic handle; when covering large areas the off-hand may steady the frame, turning the interaction into a two-handed tool use. Strokes involve broad shoulder and elbow movement, rolling the top-heavy cylinder along surfaces in long, continuous arcs. As the arm pushes and lifts, the roller head spins freely, generating a mild gyroscopic feel and a repeating vibration or rumble as \u2018paint\u2019 is laid down. Users also perform brief wrist flicks to lift the roller off the surface, perceiving sudden loss of contact and the weight of the roller shifting to the handle. The rigid metal frame does not deform, but the foam cylinder compresses slightly when pressed harder, providing compliant feedback."
+  }
+]

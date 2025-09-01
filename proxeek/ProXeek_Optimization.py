@@ -13,6 +13,7 @@ import math
 import numpy as np
 import pandas as pd
 import itertools
+import random
 from typing import List, Dict, Any, Tuple, Optional
 from dataclasses import dataclass
 import time
@@ -56,11 +57,15 @@ class ProXeekOptimizer:
     """Global optimization for haptic proxy assignment
     
     The optimizer now uses updated loss functions:
-    - L_realism = -∑ᵢ∑ⱼ (2 × priority_weight[i] × realism_rating[i,j] × X[i,j]) for grasp and contact objects only
-    - L_interaction = -∑ᵢ∑ₖ (interaction_exists[i,k] × interaction_rating[proxy_assigned[i], proxy_assigned[k]] × combined_priority_weight[i,k])
-    - L_spatial = (1/N) × Σᵢₖ [(virtual_distance[i,k] - physical_distance[proxy_i,proxy_k])² × combined_priority_weight[i,k]]
+    - L_realism = (1/N_grasp_contact) × -∑ᵢ∑ⱼ (2 × priority_weight[i] × realism_rating[i,j] × X[i,j]) for grasp and contact objects only
+    - L_interaction = (1/N_relationships) × -∑ᵢ∑ₖ (interaction_exists[i,k] × interaction_rating[proxy_assigned[i], proxy_assigned[k]] × combined_priority_weight[i,k])
+    - L_spatial = (1/N_spatial) × Σᵢₖ [(virtual_distance[i,k] - physical_distance[proxy_i,proxy_k])² × combined_priority_weight[i,k]]
     
-    Where combined_priority_weight[i,k] = priority_weight[i] + priority_weight[k] for both interaction and spatial losses
+    Where:
+    - combined_priority_weight[i,k] = priority_weight[i] + priority_weight[k] for both interaction and spatial losses
+    - N_grasp_contact = count of grasp and contact objects (normalization factor for L_realism)
+    - N_relationships = count of interaction relationships (normalization factor for L_interaction)  
+    - N_spatial = count of spatial relationships (normalization factor for L_spatial)
     """
     
     def __init__(self, data_dir: str = r"C:\Users\aaron\Documents\GitHub\YOLO-World-Seg\proxeek\output"):
@@ -134,7 +139,7 @@ class ProXeekOptimizer:
             self.proxy_data = proxy_data
             
             # Load relationship rating results (for interaction ratings)
-            relationship_file = os.path.join(self.data_dir, "relationship_rating_results.json")
+            relationship_file = os.path.join(self.data_dir, "relationship_rating_by_dimension.json")
             with open(relationship_file, 'r') as f:
                 relationship_data = json.load(f)
             
@@ -171,8 +176,13 @@ class ProXeekOptimizer:
     
     def load_data_from_memory(self, haptic_annotation_json: str, physical_object_database: Dict, 
                              virtual_objects: List[Dict], proxy_matching_results: List[Dict], 
-                             relationship_rating_results: List[Dict]) -> bool:
-        """Load data from in-memory objects instead of files"""
+                             relationship_rating_results) -> bool:
+        """Load data from in-memory objects instead of files
+        
+        Args:
+            relationship_rating_results: Either List[Dict] (old format) or Dict (new dimension-based format)
+                                       with keys "harmony", "expressivity", "realism"
+        """
         try:
             print(f"DEBUG: load_data_from_memory received:")
             print(f"  Physical DB keys: {list(physical_object_database.keys()) if physical_object_database else 'None'}")
@@ -184,6 +194,62 @@ class ProXeekOptimizer:
                         break
                 print(f"  Sample physical objects: {sample_objects[:3]}")
             print(f"  Proxy matching results count: {len(proxy_matching_results) if proxy_matching_results else 0}")
+            
+            # Detect relationship data format and convert if needed
+            if isinstance(relationship_rating_results, dict) and "harmony" in relationship_rating_results:
+                print("  Relationship data format: dimension-based (new format)")
+                relationship_data = relationship_rating_results
+            elif isinstance(relationship_rating_results, list):
+                print("  Relationship data format: flat list (old format) - converting to dimension-based")
+                # Convert old format to new format for compatibility
+                relationship_data = {"harmony": [], "expressivity": [], "realism": []}
+                for result in relationship_rating_results:
+                    # Create base entry
+                    base_entry = {
+                        "virtualContactObject": result.get("virtualContactObject", ""),
+                        "virtualSubstrateObject": result.get("virtualSubstrateObject", ""),
+                        "physicalContactObject": result.get("physicalContactObject", ""),
+                        "physicalSubstrateObject": result.get("physicalSubstrateObject", ""),
+                        "contactObject_id": result.get("contactObject_id", ""),
+                        "contactImage_id": result.get("contactImage_id", ""),
+                        "substrateObject_id": result.get("substrateObject_id", ""),
+                        "substrateImage_id": result.get("substrateImage_id", ""),
+                        "contactUtilizationMethod": result.get("contactUtilizationMethod", ""),
+                        "substrateUtilizationMethod": result.get("substrateUtilizationMethod", ""),
+                        "group_index": result.get("group_index", ""),
+                        "expectedHapticFeedback": result.get("expectedHapticFeedback", "")
+                    }
+                    
+                    # Add dimension-specific entries
+                    if "harmony_rating" in result:
+                        harmony_entry = base_entry.copy()
+                        harmony_entry.update({
+                            "dimension": "harmony",
+                            "rating": result.get("harmony_rating", 0),
+                            "explanation": result.get("harmony_explanation", "")
+                        })
+                        relationship_data["harmony"].append(harmony_entry)
+                    
+                    if "expressivity_rating" in result:
+                        expressivity_entry = base_entry.copy()
+                        expressivity_entry.update({
+                            "dimension": "expressivity",
+                            "rating": result.get("expressivity_rating", 0),
+                            "explanation": result.get("expressivity_explanation", "")
+                        })
+                        relationship_data["expressivity"].append(expressivity_entry)
+                    
+                    if "realism_rating" in result:
+                        realism_entry = base_entry.copy()
+                        realism_entry.update({
+                            "dimension": "realism",
+                            "rating": result.get("realism_rating", 0),
+                            "explanation": result.get("realism_explanation", "")
+                        })
+                        relationship_data["realism"].append(realism_entry)
+            else:
+                print("  Warning: Unknown relationship data format, using empty data")
+                relationship_data = {"harmony": [], "expressivity": [], "realism": []}
             
             # Parse haptic annotation JSON
             haptic_data = json.loads(haptic_annotation_json)
@@ -198,7 +264,7 @@ class ProXeekOptimizer:
             self._assign_virtual_positions(haptic_data.get("nodeAnnotations", []))
             # Build auxiliary matrices
             self._build_realism_matrix(proxy_matching_results)
-            self._build_interaction_matrices(haptic_data, relationship_rating_results)
+            self._build_interaction_matrices(haptic_data, relationship_data)
             self._build_distance_matrices()  # for spatial loss
             
             print(f"Loaded in-memory data successfully:")
@@ -454,26 +520,59 @@ class ProXeekOptimizer:
             virtual_relationship_name_to_index[(contact_name, substrate_name)] = rel_idx
         
         # Process relationship rating data to build 3D interaction matrix
+        # The data structure is now organized by dimension: {"harmony": [...], "expressivity": [...], "realism": [...]}
         ratings_processed = 0
-        for rel_result in relationship_data:
-            virtual_contact = rel_result.get("virtualContactObject", "")
-            virtual_substrate = rel_result.get("virtualSubstrateObject", "")
-            contact_obj_id = rel_result.get("contactObject_id", -1)
-            contact_img_id = rel_result.get("contactImage_id", -1)
-            substrate_obj_id = rel_result.get("substrateObject_id", -1)
-            substrate_img_id = rel_result.get("substrateImage_id", -1)
-            
-            # Find the relationship index
-            virtual_pair_key = (virtual_contact, virtual_substrate)
-            if virtual_pair_key not in virtual_relationship_name_to_index:
+        
+        # Create a mapping to collect ratings by (virtual_pair, contact_phys, substrate_phys)
+        rating_combinations = {}
+        
+        # Process each dimension separately
+        for dimension in ["harmony", "expressivity", "realism"]:
+            if dimension not in relationship_data:
                 continue
                 
-            rel_idx = virtual_relationship_name_to_index[virtual_pair_key]
+            for rel_result in relationship_data[dimension]:
+                virtual_contact = rel_result.get("virtualContactObject", "")
+                virtual_substrate = rel_result.get("virtualSubstrateObject", "")
+                contact_obj_id = rel_result.get("contactObject_id", -1)
+                contact_img_id = rel_result.get("contactImage_id", -1)
+                substrate_obj_id = rel_result.get("substrateObject_id", -1)
+                substrate_img_id = rel_result.get("substrateImage_id", -1)
+                rating = rel_result.get("rating", 0)
+                
+                # Find the relationship index
+                virtual_pair_key = (virtual_contact, virtual_substrate)
+                if virtual_pair_key not in virtual_relationship_name_to_index:
+                    continue
+                    
+                rel_idx = virtual_relationship_name_to_index[virtual_pair_key]
+                
+                # Map to physical object indices
+                contact_key = (contact_obj_id, contact_img_id)
+                substrate_key = (substrate_obj_id, substrate_img_id)
+                
+                if (contact_key in physical_id_to_index and 
+                    substrate_key in physical_id_to_index):
+                    contact_phys_idx = physical_id_to_index[contact_key]
+                    substrate_phys_idx = physical_id_to_index[substrate_key]
+                    
+                    # Create key for this specific combination
+                    combination_key = (rel_idx, contact_phys_idx, substrate_phys_idx)
+                    
+                    # Initialize if not exists
+                    if combination_key not in rating_combinations:
+                        rating_combinations[combination_key] = {"harmony": 0, "expressivity": 0, "realism": 0}
+                    
+                    # Store the rating for this dimension
+                    rating_combinations[combination_key][dimension] = rating
+        
+        # Now calculate combined ratings and populate the 3D matrix
+        for combination_key, ratings in rating_combinations.items():
+            rel_idx, contact_phys_idx, substrate_phys_idx = combination_key
             
-            # Calculate combined rating across the three dimensions
-            harmony_rating = rel_result.get("harmony_rating", 0)
-            expressivity_rating = rel_result.get("expressivity_rating", 0)
-            realism_rating = rel_result.get("realism_rating", 0)
+            harmony_rating = ratings["harmony"]
+            expressivity_rating = ratings["expressivity"]
+            realism_rating = ratings["realism"]
             
             # Use geometric mean (cube root of product) instead of arithmetic sum
             # This ensures all three dimensions must be good for a high combined rating
@@ -483,16 +582,8 @@ class ProXeekOptimizer:
                 # If any rating is 0, the combined rating is 0
                 combined_rating = 0.0
             
-            # Map to physical object indices
-            contact_key = (contact_obj_id, contact_img_id)
-            substrate_key = (substrate_obj_id, substrate_img_id)
-            
-            if (contact_key in physical_id_to_index and 
-                substrate_key in physical_id_to_index):
-                contact_phys_idx = physical_id_to_index[contact_key]
-                substrate_phys_idx = physical_id_to_index[substrate_key]
-                self.interaction_matrix_3d[rel_idx, contact_phys_idx, substrate_phys_idx] = combined_rating
-                ratings_processed += 1
+            self.interaction_matrix_3d[rel_idx, contact_phys_idx, substrate_phys_idx] = combined_rating
+            ratings_processed += 1
         
         print(f"Processed {ratings_processed} interaction ratings into 3D matrix")
     
@@ -954,9 +1045,17 @@ class ProXeekOptimizer:
                     print(f"      - {physical_obj_name}: {score:.3f}")
             else:
                 # For substrate objects, use all physical objects since realism ratings are zero
-                top_k_assignments[v_idx] = list(range(n_physical))
-                print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Using all physical objects (substrate):")
-                for idx in range(n_physical):
+                substrate_indices = list(range(n_physical))
+                
+                # Add randomization for substrate objects when interaction weight is 0
+                if self.w_interaction == 0:
+                    random.shuffle(substrate_indices)
+                    print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Using all physical objects (substrate) - RANDOMIZED ORDER due to w_interaction=0:")
+                else:
+                    print(f"  {virtual_obj.name} ({virtual_obj.involvement_type}): Using all physical objects (substrate):")
+                
+                top_k_assignments[v_idx] = substrate_indices
+                for idx in substrate_indices:
                     physical_obj_name = self.physical_objects[idx].name
                     print(f"      - {physical_obj_name}")
         
@@ -982,6 +1081,12 @@ class ProXeekOptimizer:
                 print(f"    Generated {assignment_count} assignments...")
         
         print(f"Top-K filtering generated {len(valid_assignments)} assignments")
+        
+        # Add additional randomization when interaction weight is 0 to ensure varied results
+        if self.w_interaction == 0:
+            random.shuffle(valid_assignments)
+            print("Assignment order randomized due to w_interaction=0")
+        
         return valid_assignments
     
     def generate_all_assignments(self) -> List[np.ndarray]:
@@ -1212,7 +1317,7 @@ class ProXeekOptimizer:
         if not all_assignments:
             return None
         
-        best_assignment = None
+        best_assignments = []  # Store all assignments with minimum loss
         best_loss = float('inf')
         best_components = None
         
@@ -1231,23 +1336,41 @@ class ProXeekOptimizer:
             # Calculate loss
             total_loss, loss_components = self.calculate_total_loss(assignment_matrix)
             
-            # Update best assignment if this is better
+            # Update best assignments
             if total_loss < best_loss:
+                # Found a better assignment, reset the list
                 best_loss = total_loss
                 best_components = loss_components
-                
-                # Create virtual-to-physical mapping
-                virtual_to_physical = {}
-                for virtual_idx in range(len(self.virtual_objects)):
-                    physical_idx = np.argmax(assignment_matrix[virtual_idx, :])
-                    virtual_to_physical[virtual_idx] = physical_idx
-                
-                best_assignment = Assignment(
-                    assignment_matrix=assignment_matrix.copy(),
-                    virtual_to_physical=virtual_to_physical,
-                    total_loss=total_loss,
-                    loss_components=loss_components
-                )
+                best_assignments = [assignment_matrix.copy()]
+            elif total_loss == best_loss:
+                # Found an assignment with equal loss, add to list
+                best_assignments.append(assignment_matrix.copy())
+        
+        # Select final assignment
+        if not best_assignments:
+            return None
+            
+        # If interaction weight is 0 and we have multiple optimal assignments, randomize selection
+        if self.w_interaction == 0 and len(best_assignments) > 1:
+            selected_assignment_matrix = random.choice(best_assignments)
+            print(f"Randomly selected 1 assignment from {len(best_assignments)} optimal assignments (w_interaction=0)")
+        else:
+            selected_assignment_matrix = best_assignments[0]
+            if len(best_assignments) > 1:
+                print(f"Selected first of {len(best_assignments)} optimal assignments")
+        
+        # Create virtual-to-physical mapping for the selected assignment
+        virtual_to_physical = {}
+        for virtual_idx in range(len(self.virtual_objects)):
+            physical_idx = np.argmax(selected_assignment_matrix[virtual_idx, :])
+            virtual_to_physical[virtual_idx] = physical_idx
+        
+        best_assignment = Assignment(
+            assignment_matrix=selected_assignment_matrix,
+            virtual_to_physical=virtual_to_physical,
+            total_loss=best_loss,
+            loss_components=best_components
+        )
         
         elapsed = time.time() - start_time
         print(f"Optimization completed in {elapsed:.2f}s")
@@ -1387,22 +1510,78 @@ class ProXeekOptimizer:
             # If no utilization method found and this is a substrate object, 
             # look for substrate utilization method from relationship rating results
             if not util_method and virtual_obj.involvement_type == "substrate":
-                # Load relationship rating results to find substrate utilization method
-                relationship_file = os.path.join(self.data_dir, "relationship_rating_results.json")
-                if os.path.exists(relationship_file):
-                    try:
-                        with open(relationship_file, 'r') as f:
-                            relationship_data = json.load(f)
+                # For substrate objects, we need to find the method that matches both the substrate 
+                # assignment AND the contact object assignment from the same virtual relationship
+                
+                # First, find which virtual contact object interacts with this substrate object
+                contact_virtual_obj = None
+                if hasattr(self, 'virtual_relationship_pairs') and self.virtual_relationship_pairs:
+                    for contact_idx, substrate_idx in self.virtual_relationship_pairs:
+                        if substrate_idx == virtual_obj.index:  # This substrate is part of a relationship
+                            contact_virtual_obj = self.virtual_objects[contact_idx]
+                            break
+                
+                if contact_virtual_obj:
+                    # Find the physical object assigned to the contact virtual object
+                    contact_physical_obj = None
+                    for contact_v_idx, contact_p_idx in assignment.virtual_to_physical.items():
+                        if contact_v_idx == contact_virtual_obj.index:
+                            contact_physical_obj = self.physical_objects[contact_p_idx]
+                            break
+                    
+                    if contact_physical_obj:
+                        # Load relationship rating results to find substrate utilization method
+                        relationship_file = os.path.join(self.data_dir, "relationship_rating_by_dimension.json")
+                        if os.path.exists(relationship_file):
+                            try:
+                                with open(relationship_file, 'r') as f:
+                                    relationship_data = json.load(f)
+                                
+                                # Search for matching substrate object in dimension-based relationship data
+                                # Now match BOTH contact and substrate objects to find the correct method
+                                for dimension in ["harmony", "expressivity", "realism"]:
+                                    if dimension not in relationship_data:
+                                        continue
+                                    for rel_entry in relationship_data[dimension]:
+                                        if (rel_entry.get("virtualContactObject") == contact_virtual_obj.name and
+                                            rel_entry.get("virtualSubstrateObject") == virtual_obj.name and
+                                            rel_entry.get("contactObject_id") == contact_physical_obj.object_id and
+                                            rel_entry.get("contactImage_id") == contact_physical_obj.image_id and
+                                            rel_entry.get("substrateObject_id") == physical_obj.object_id and
+                                            rel_entry.get("substrateImage_id") == physical_obj.image_id):
+                                            util_method = rel_entry.get("substrateUtilizationMethod")
+                                            print(f"Found matching substrate method for {contact_virtual_obj.name} -> {virtual_obj.name}: {contact_physical_obj.name} -> {physical_obj.name}")
+                                            break
+                                    if util_method:  # Break out of dimension loop if found
+                                        break
+                            except Exception as e:
+                                print(f"Warning: Could not load relationship data for substrate utilization: {e}")
                         
-                        # Search for matching substrate object in relationship data
-                        for rel_entry in relationship_data:
-                            if (rel_entry.get("virtualSubstrateObject") == virtual_obj.name and
-                                rel_entry.get("substrateObject_id") == physical_obj.object_id and
-                                rel_entry.get("substrateImage_id") == physical_obj.image_id):
-                                util_method = rel_entry.get("substrateUtilizationMethod")
-                                break
-                    except Exception as e:
-                        print(f"Warning: Could not load relationship data for substrate utilization: {e}")
+                        # If still no method found, try substrate utilization results file directly
+                        if not util_method:
+                            substrate_file = os.path.join(self.data_dir, "substrate_utilization_results.json")
+                            if os.path.exists(substrate_file):
+                                try:
+                                    with open(substrate_file, 'r') as f:
+                                        substrate_data = json.load(f)
+                                    
+                                    # Search for matching relationship in substrate utilization results
+                                    for sub_result in substrate_data:
+                                        if (sub_result.get("virtualContactObject") == contact_virtual_obj.name and
+                                            sub_result.get("virtualSubstrateObject") == virtual_obj.name and
+                                            sub_result.get("contactObject_id") == contact_physical_obj.object_id and
+                                            sub_result.get("contactImage_id") == contact_physical_obj.image_id and
+                                            sub_result.get("substrateObject_id") == physical_obj.object_id and
+                                            sub_result.get("substrateImage_id") == physical_obj.image_id):
+                                            util_method = sub_result.get("substrateUtilizationMethod")
+                                            print(f"Found matching substrate method in substrate_utilization_results.json")
+                                            break
+                                except Exception as e:
+                                    print(f"Warning: Could not load substrate utilization results: {e}")
+                    else:
+                        print(f"Warning: Could not find physical contact object for virtual contact '{contact_virtual_obj.name}'")
+                else:
+                    print(f"Warning: Could not find virtual contact object for substrate '{virtual_obj.name}'")
             
             if util_method:
                 assignment_info["utilization_method"] = util_method
@@ -1485,36 +1664,53 @@ class ProXeekOptimizer:
                 detailed_matrix = np.empty(rel_matrix.shape, dtype=object)
                 
                 # Load relationship rating results to get individual dimension ratings
-                relationship_file = os.path.join(self.data_dir, "relationship_rating_results.json")
+                relationship_file = os.path.join(self.data_dir, "relationship_rating_by_dimension.json")
                 if os.path.exists(relationship_file):
                     with open(relationship_file, 'r') as f:
                         relationship_data = json.load(f)
                     
                     # Create mapping from (contact_id, contact_img, substrate_id, substrate_img) to ratings
                     rating_map = {}
-                    for rel_result in relationship_data:
-                        if (rel_result.get("virtualContactObject") == contact_name and 
-                            rel_result.get("virtualSubstrateObject") == substrate_name):
+                    
+                    # Process dimension-based data format
+                    for dimension in ["harmony", "expressivity", "realism"]:
+                        if dimension not in relationship_data:
+                            continue
                             
-                            contact_obj_id = rel_result.get("contactObject_id", -1)
-                            contact_img_id = rel_result.get("contactImage_id", -1)
-                            substrate_obj_id = rel_result.get("substrateObject_id", -1)
-                            substrate_img_id = rel_result.get("substrateImage_id", -1)
-                            
-                            # Get individual dimension ratings
-                            harmony_rating = rel_result.get("harmony_rating", 0)
-                            expressivity_rating = rel_result.get("expressivity_rating", 0)
-                            realism_rating = rel_result.get("realism_rating", 0)
-                            combined_rating = rel_result.get("combined_rating", harmony_rating + expressivity_rating + realism_rating)
-                            
-                            # Create key for mapping
-                            rating_key = (contact_obj_id, contact_img_id, substrate_obj_id, substrate_img_id)
-                            rating_map[rating_key] = {
-                                'harmony': harmony_rating,
-                                'expressivity': expressivity_rating,
-                                'realism': realism_rating,
-                                'combined': combined_rating
-                            }
+                        for rel_result in relationship_data[dimension]:
+                            if (rel_result.get("virtualContactObject") == contact_name and 
+                                rel_result.get("virtualSubstrateObject") == substrate_name):
+                                
+                                contact_obj_id = rel_result.get("contactObject_id", -1)
+                                contact_img_id = rel_result.get("contactImage_id", -1)
+                                substrate_obj_id = rel_result.get("substrateObject_id", -1)
+                                substrate_img_id = rel_result.get("substrateImage_id", -1)
+                                rating = rel_result.get("rating", 0)
+                                
+                                # Create key for mapping
+                                rating_key = (contact_obj_id, contact_img_id, substrate_obj_id, substrate_img_id)
+                                
+                                # Initialize if not exists
+                                if rating_key not in rating_map:
+                                    rating_map[rating_key] = {'harmony': 0, 'expressivity': 0, 'realism': 0}
+                                
+                                # Store the rating for this dimension
+                                rating_map[rating_key][dimension] = rating
+                    
+                    # Calculate combined ratings for each key
+                    for rating_key in rating_map:
+                        ratings = rating_map[rating_key]
+                        harmony_rating = ratings['harmony']
+                        expressivity_rating = ratings['expressivity']
+                        realism_rating = ratings['realism']
+                        
+                        # Use geometric mean (same as in _build_interaction_matrices)
+                        if harmony_rating > 0 and expressivity_rating > 0 and realism_rating > 0:
+                            combined_rating = (harmony_rating * expressivity_rating * realism_rating) ** (1/3)
+                        else:
+                            combined_rating = 0.0
+                        
+                        rating_map[rating_key]['combined'] = combined_rating
                     
                     # Fill detailed matrix
                     for i, contact_obj in enumerate(self.physical_objects):
@@ -1606,7 +1802,7 @@ def main():
     optimizer.enable_exclusivity = True
     
     # Control priority weighting (can be adjusted)
-    optimizer.set_priority_weighting(True)  # Set to False to disable priority weighting
+    optimizer.set_priority_weighting(False)  # Set to False to disable priority weighting
     
     print(f"\nOptimization Parameters:")
     print(f"  Realism weight: {optimizer.w_realism}")

@@ -1,0 +1,366 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "compact mechanical keyboard with dark gray keys and one orange keycap",
+      "position": "top right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 759.2603759765625,
+          "y1": 112.81216430664062,
+          "x2": 1110.6512451171875,
+          "y2": 234.396484375,
+          "width": 351.390869140625,
+          "height": 121.58432006835938,
+          "center_x": 934.955810546875,
+          "center_y": 173.6043243408203
+        },
+        "mask_center": {
+          "x": 977.0,
+          "y": 175.0
+        },
+        "confidence": 0.8749203085899353,
+        "detected_name": "compact mechanical keyboard with dark gray keys and one orange keycap",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.62401819,
+        "y": 0.628811955,
+        "z": 0.828552067
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "wooden hand broom with black bristles and a light wood handle",
+      "position": "center right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 698.394775390625,
+          "y1": 395.17083740234375,
+          "x2": 832.9072265625,
+          "y2": 556.9932250976562,
+          "width": 134.512451171875,
+          "height": 161.8223876953125,
+          "center_x": 765.6510009765625,
+          "center_y": 476.08203125
+        },
+        "mask_center": {
+          "x": 784.0,
+          "y": 497.0
+        },
+        "confidence": 0.00045416326611302793,
+        "detected_name": "wooden hand broom with black bristles and a light wood handle",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.65298557,
+        "y": 0.6112337,
+        "z": 0.451735169
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "red-handled flat-head screwdriver with a metal shaft",
+      "position": "right side of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1043.553955078125,
+          "y1": 454.91664123535156,
+          "x2": 1145.207763671875,
+          "y2": 761.6895599365234,
+          "width": 101.65380859375,
+          "height": 306.7729187011719,
+          "center_x": 1094.380859375,
+          "center_y": 608.3031005859375
+        },
+        "mask_center": {
+          "x": 1115.0,
+          "y": 514.0
+        },
+        "confidence": 0.12926730513572693,
+        "detected_name": "red-handled flat-head screwdriver with a metal shaft",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.43160677,
+        "y": 0.611077964,
+        "z": 0.5480461
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "black over-ear hearing protection earmuffs",
+      "position": "bottom left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 64.42926025390625,
+          "y1": 525.8478393554688,
+          "x2": 349.766845703125,
+          "y2": 803.3164672851562,
+          "width": 285.33758544921875,
+          "height": 277.4686279296875,
+          "center_x": 207.09805297851562,
+          "center_y": 664.5821533203125
+        },
+        "mask_center": {
+          "x": 191.0,
+          "y": 709.0
+        },
+        "confidence": 0.01077478937804699,
+        "detected_name": "black over-ear hearing protection earmuffs",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.90678287,
+        "y": 0.670708656,
+        "z": 0.1255059
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "foldable black phone/tablet stand",
+      "position": "upper left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 316.9339294433594,
+          "y1": 284.0001525878906,
+          "x2": 451.1682434082031,
+          "y2": 433.0284118652344,
+          "width": 134.23431396484375,
+          "height": 149.02825927734375,
+          "center_x": 384.05108642578125,
+          "center_y": 358.5142822265625
+        },
+        "mask_center": {
+          "x": 374.0,
+          "y": 338.0
+        },
+        "confidence": 0.07099273800849915,
+        "detected_name": "foldable black phone/tablet stand",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.98893976,
+        "y": 0.652186453,
+        "z": 0.415291369
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "brown plastic card with printed text",
+      "position": "lower center of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 515.4860229492188,
+          "y1": 610.33984375,
+          "x2": 664.7815551757812,
+          "y2": 745.408203125,
+          "width": 149.2955322265625,
+          "height": 135.068359375,
+          "center_x": 590.1337890625,
+          "center_y": 677.8740234375
+        },
+        "mask_center": {
+          "x": 605.0,
+          "y": 686.0
+        },
+        "confidence": 0.012015068903565407,
+        "detected_name": "brown plastic card with printed text",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.70394039,
+        "y": 0.6110986,
+        "z": 0.2646499
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "red A4 carrying pocket folder with black button and elastic closure",
+      "position": "center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 363.59864807128906,
+          "y1": 351.65008544921875,
+          "x2": 773.8337249755859,
+          "y2": 809.7549438476562,
+          "width": 410.2350769042969,
+          "height": 458.1048583984375,
+          "center_x": 568.7161865234375,
+          "center_y": 580.7025146484375
+        },
+        "mask_center": {
+          "x": 586.0,
+          "y": 608.0
+        },
+        "confidence": 0.012008215300738811,
+        "detected_name": "red A4 carrying pocket folder with black button and elastic closure (center of the image)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.2014817,
+        "y": 0.600539863,
+        "z": -2.27343631
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "green and white rectangular tissue box",
+      "position": "top right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 721.6930541992188,
+          "y1": 112.57232666015625,
+          "x2": 973.9721069335938,
+          "y2": 311.9685974121094,
+          "width": 252.279052734375,
+          "height": 199.39627075195312,
+          "center_x": 847.8325805664062,
+          "center_y": 212.2704620361328
+        },
+        "mask_center": {
+          "x": 817.0,
+          "y": 203.0
+        },
+        "confidence": 0.6724570989608765,
+        "detected_name": "green and white rectangular tissue box",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.21360886,
+        "y": 0.6481642,
+        "z": -2.63833356
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "dark-handled toothbrush with silver bristles",
+      "position": "right side of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1085.204345703125,
+          "y1": 318.35845947265625,
+          "x2": 1131.455810546875,
+          "y2": 542.7153930664062,
+          "width": 46.25146484375,
+          "height": 224.35693359375,
+          "center_x": 1108.330078125,
+          "center_y": 430.53692626953125
+        },
+        "mask_center": {
+          "x": 1101.0,
+          "y": 335.0
+        },
+        "confidence": 0.15895192325115204,
+        "detected_name": "dark-handled toothbrush with silver bristles",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.45186007,
+        "y": 0.6023456,
+        "z": -2.65166235
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "white wireless earbud charging case",
+      "position": "bottom right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 889.4024047851562,
+          "y1": 567.68408203125,
+          "x2": 988.7429809570312,
+          "y2": 660.42529296875,
+          "width": 99.340576171875,
+          "height": 92.7412109375,
+          "center_x": 939.0726928710938,
+          "center_y": 614.0546875
+        },
+        "mask_center": {
+          "x": 945.0,
+          "y": 618.0
+        },
+        "confidence": 0.20698387920856476,
+        "detected_name": "white wireless earbud charging case",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.41246808,
+        "y": 0.5940846,
+        "z": -2.374655
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "standard Bicycle playing card deck in box",
+      "position": "middle left of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 407.04461669921875,
+          "y1": 492.21485900878906,
+          "x2": 570.0492553710938,
+          "y2": 592.7419281005859,
+          "width": 163.004638671875,
+          "height": 100.52706909179688,
+          "center_x": 488.54693603515625,
+          "center_y": 542.4783935546875
+        },
+        "mask_center": {
+          "x": 463.0,
+          "y": 539.0
+        },
+        "confidence": 0.002779165515676141,
+        "detected_name": "standard Bicycle playing card deck in box",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.10394514,
+        "y": 0.602011561,
+        "z": -2.27937627
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "AAA battery standing upright",
+      "position": "top center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 467.25091552734375,
+          "y1": 203.36260986328125,
+          "x2": 494.92169189453125,
+          "y2": 261.9999694824219,
+          "width": 27.6707763671875,
+          "height": 58.637359619140625,
+          "center_x": 481.0863037109375,
+          "center_y": 232.68128967285156
+        },
+        "mask_center": {
+          "x": 477.0,
+          "y": 214.0
+        },
+        "confidence": 0.022709235548973083,
+        "detected_name": "AAA battery standing upright",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.945997238,
+        "y": 0.5993641,
+        "z": -2.54952
+      }
+    }
+  ]
+}

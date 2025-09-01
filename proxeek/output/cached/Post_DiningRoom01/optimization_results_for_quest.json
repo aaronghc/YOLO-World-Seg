@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Fork",
+      "proxyObjectName": "clear plastic ruler (30 cm)",
+      "utilizationMethod": "Hold the ruler by its narrow end between thumb and two fingers and execute short spearing motions"
+    },
+    {
+      "virtualObjectName": "Knife",
+      "proxyObjectName": "pair of black-and-yellow handled scissors",
+      "utilizationMethod": "Keep the blades closed, pinch one flat blade side near the tip between thumb and index finger, and slide the scissors forward and back."
+    },
+    {
+      "virtualObjectName": "Spoon",
+      "proxyObjectName": "small cylindrical metal weight labeled '000'",
+      "utilizationMethod": "Pinch the top cap between thumb and fingertips, elevate the weight slightly, and rotate the wrist to simulate spoon motions"
+    },
+    {
+      "virtualObjectName": "Soup",
+      "proxyObjectName": "transparent plastic cup",
+      "utilizationMethod": "Stand the cup upright on the desk. Insert the distant end of the ruler into the cup opening and rotate the wrist, letting the ruler trace the inner wall."
+    },
+    {
+      "virtualObjectName": "Steak",
+      "proxyObjectName": "yellow and green rectangular kitchen sponge",
+      "utilizationMethod": "Lay the sponge flat with the yellow side facing upward. Sink the ruler\u2019s tip straight down through the foam until it reaches the firmer green pad."
+    },
+    {
+      "virtualObjectName": "Pepper",
+      "proxyObjectName": "green circular retractable tape measure",
+      "utilizationMethod": "Enclose the tape measure\u2019s rim with your hand and give short vertical shakes"
+    }
+  ],
+  "timestamp": "9c12a225-bc76-4459-9881-5842e1eafae5",
+  "total_assignments": 6
+}

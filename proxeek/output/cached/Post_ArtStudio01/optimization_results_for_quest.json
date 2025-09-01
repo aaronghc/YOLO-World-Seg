@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Easel",
+      "proxyObjectName": "black leather two-seat sofa",
+      "utilizationMethod": "Kneel beside the sofa and glide the pen across the smooth leather seat cushion in sweeping arcs."
+    },
+    {
+      "virtualObjectName": "Marker",
+      "proxyObjectName": "AA battery (upright)",
+      "utilizationMethod": "Hold the cylindrical battery near its positive terminal with a pen-like grip and move hand to draw"
+    },
+    {
+      "virtualObjectName": "Tube",
+      "proxyObjectName": "yellow UHU-brand glue tube",
+      "utilizationMethod": "Curl fingers around the flattened body while thumb rests opposite, then squeeze the pliable tube repeatedly toward the nozzle end."
+    },
+    {
+      "virtualObjectName": "Paper",
+      "proxyObjectName": "blue and white tissue box with one tissue pulled out",
+      "utilizationMethod": "Flatten the exposed tissue back against the box and use the smooth top panel of the box as the writing surface."
+    },
+    {
+      "virtualObjectName": "Paint Brush",
+      "proxyObjectName": "clear stemmed wine glass",
+      "utilizationMethod": "Hold the stem near its midpoint with a light pinch grip and guide the bowl\u2019s base rim across the table in smooth strokes"
+    },
+    {
+      "virtualObjectName": "Paint Roller",
+      "proxyObjectName": "black-handled telescoping selfie stick/monopod",
+      "utilizationMethod": "Grip the foam handle, extend the pole slightly, and sweep the phone clamp end in broad arcs as if rolling paint"
+    }
+  ],
+  "timestamp": "1bd1e010-eeb7-46a8-a20f-bd24b3baeb60",
+  "total_assignments": 6
+}

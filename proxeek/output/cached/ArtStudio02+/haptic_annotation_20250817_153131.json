@@ -1,0 +1,274 @@
+{
+  "summary": "Art Studio",
+  "highEngagementOrder": [
+    "Paint Brush",
+    "Easel",
+    "Tube"
+  ],
+  "mediumEngagementOrder": [
+    "Marker",
+    "Paper"
+  ],
+  "lowEngagementOrder": [
+    "Paint Roller"
+  ],
+  "nodeAnnotations": [
+    {
+      "objectName": "Easel",
+      "involvementType": "substrate",
+      "usage": "",
+      "engagementLevel": 2,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "1.13",
+        "y": "2.00",
+        "z": "1.00"
+      },
+      "globalPosition": {
+        "x": 0.9200000166893005,
+        "y": -0.9525080919265747,
+        "z": 1.4980000257492065
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 195.39402770996094,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Marker",
+      "involvementType": "grasp",
+      "usage": "This marker serves as a drawing tool.",
+      "engagementLevel": 1,
+      "inertia": "The marker would feel moderately lightweight",
+      "interactivity": "",
+      "outline": "User should feel the cylindrical body with smooth rounded edges and consistent 1.7cm diameter.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.4285714030265808,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5714285373687744,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.04",
+        "y": "0.02",
+        "z": "0.11"
+      },
+      "globalPosition": {
+        "x": 1.781999945640564,
+        "y": 0.030491802841424942,
+        "z": 0.5837856531143188
+      },
+      "globalRotation": {
+        "x": 2.0373077392578125,
+        "y": 11.642731666564941,
+        "z": 269.9999694824219
+      }
+    },
+    {
+      "objectName": "Tube",
+      "involvementType": "grasp",
+      "usage": "This oil paint tube serves as a paint storage. Users would grasp it to squeeze out paint.",
+      "engagementLevel": 2,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "User should feel the distinctive flattened, elongated cylindrical shape",
+      "texture": "",
+      "hardness": "User should feel the body as pliable and squeezable, deforming under pressure but maintaining structural integrity.",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333432674408,
+      "textureValue": 0.0,
+      "hardnessValue": 0.6666666865348816,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.02",
+        "z": "0.08"
+      },
+      "globalPosition": {
+        "x": 0.2680000066757202,
+        "y": 0.02551880106329918,
+        "z": -2.36899995803833
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Paper",
+      "involvementType": "substrate",
+      "usage": "",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.44",
+        "y": "0.00",
+        "z": "0.50"
+      },
+      "globalPosition": {
+        "x": 1.7690000534057617,
+        "y": 0.022691801190376282,
+        "z": 0.5626625418663025
+      },
+      "globalRotation": {
+        "x": 90.0,
+        "y": 59.135746002197266,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Paint Brush",
+      "involvementType": "grasp",
+      "usage": "It serves as an artistic tool for painting. Users would make controlled strokes across canvas surfaces.",
+      "engagementLevel": 2,
+      "inertia": "The brush would feel lightweight.",
+      "interactivity": "",
+      "outline": "User should feel the cylindrical handle (1cm diameter) with smooth, rounded edges. ",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.4285714030265808,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5714285373687744,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.20",
+        "y": "0.02",
+        "z": "0.11"
+      },
+      "globalPosition": {
+        "x": 1.565000057220459,
+        "y": 0.025491803884506226,
+        "z": 0.2176625281572342
+      },
+      "globalRotation": {
+        "x": 8.165133476257324,
+        "y": 16.372602462768555,
+        "z": 299.2464294433594
+      }
+    },
+    {
+      "objectName": "Paint Roller",
+      "involvementType": "grasp",
+      "usage": "This paint roller serves as a painting tool for covering large surfaces efficiently. ",
+      "engagementLevel": 0,
+      "inertia": "User should feel moderate weight with a slight top-heavy feel.",
+      "interactivity": "",
+      "outline": "User should feel a ergonomic cylindrical shape fitting naturally in the palm.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.45",
+        "y": "0.08",
+        "z": "0.34"
+      },
+      "globalPosition": {
+        "x": 0.23999999463558197,
+        "y": 0.07449180632829666,
+        "z": -2.440000057220459
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 339.00634765625,
+        "z": 270.0
+      }
+    }
+  ],
+  "relationshipAnnotations": [
+    {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle cushioned pushback sensation."
+    },
+    {
+      "contactObject": "Marker",
+      "substrateObject": "Paper",
+      "annotationText": "As the marker glides across the paper, the user feels steady, consistent drag - a smooth but noticeable resistance that provides tactile confirmation the marker is making contact."
+    }
+  ],
+  "groups": [
+    {
+      "title": "Oil Painting",
+      "objectNames": [
+        "Paint Brush",
+        "Easel",
+        "Tube"
+      ],
+      "objectVectors": [
+        {
+          "objectA": "Paint Brush",
+          "objectB": "Easel",
+          "vector": {
+            "x": -0.6450000405311584,
+            "y": -0.9779999256134033,
+            "z": 1.2803374528884888
+          },
+          "distance": 1.7354459762573242
+        },
+        {
+          "objectA": "Paint Brush",
+          "objectB": "Tube",
+          "vector": {
+            "x": -1.2970000505447388,
+            "y": 2.699717879295349e-05,
+            "z": -2.586662530899048
+          },
+          "distance": 2.8936192989349365
+        },
+        {
+          "objectA": "Easel",
+          "objectB": "Tube",
+          "vector": {
+            "x": -0.6520000100135803,
+            "y": 0.9780268669128418,
+            "z": -3.867000102996826
+          },
+          "distance": 4.041698932647705
+        }
+      ],
+      "additionalViewAngles": [
+        "StreamingAssets/Export/Arrangement_Oil_Painting_20250817_133536_angle0.png",
+        "StreamingAssets/Export/Arrangement_Oil_Painting_20250817_133536_angle1.png",
+        "StreamingAssets/Export/Arrangement_Oil_Painting_20250817_133536_angle2.png"
+      ]
+    }
+  ]
+}

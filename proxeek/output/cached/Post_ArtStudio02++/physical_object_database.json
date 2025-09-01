@@ -1,0 +1,1062 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "silver iMac all-in-one desktop computer with black screen and Apple logo",
+      "position": "top-left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.1142578125,
+          "y1": 0.0,
+          "x2": 606.565185546875,
+          "y2": 465.6896057128906,
+          "width": 606.450927734375,
+          "height": 465.6896057128906,
+          "center_x": 303.3397216796875,
+          "center_y": 232.8448028564453
+        },
+        "mask_center": {
+          "x": 182.0,
+          "y": 15.0
+        },
+        "confidence": 0.9932299852371216,
+        "detected_name": "silver iMac all-in-one desktop computer with black screen and Apple logo",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.21020079,
+        "y": 1.13309443,
+        "z": 0.9451761
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "white Apple wireless keyboard",
+      "position": "below the iMac, slightly left of center",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 319.64520263671875,
+          "y1": 349.456787109375,
+          "x2": 579.4120483398438,
+          "y2": 512.63818359375,
+          "width": 259.766845703125,
+          "height": 163.181396484375,
+          "center_x": 449.52862548828125,
+          "center_y": 431.0474853515625
+        },
+        "mask_center": {
+          "x": 386.0,
+          "y": 464.0
+        },
+        "confidence": 0.9822477698326111,
+        "detected_name": "white Apple wireless keyboard",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.21772671,
+        "y": 0.7088045,
+        "z": 0.7922404
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "white Apple Magic Mouse",
+      "position": "above center of the desk, to the right of the keyboard",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 633.5694580078125,
+          "y1": 344.67181396484375,
+          "x2": 725.0223388671875,
+          "y2": 399.04156494140625,
+          "width": 91.452880859375,
+          "height": 54.3697509765625,
+          "center_x": 679.2958984375,
+          "center_y": 371.856689453125
+        },
+        "mask_center": {
+          "x": 696.0,
+          "y": 375.0
+        },
+        "confidence": 0.5368056893348694,
+        "detected_name": "white Apple Magic Mouse",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.56932926,
+        "y": 0.7198058,
+        "z": 0.6687615
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "white USB charging cable",
+      "position": "left-center of the desk, coiled",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 115.37509155273438,
+          "y1": 467.43304443359375,
+          "x2": 338.3878479003906,
+          "y2": 591.7955932617188,
+          "width": 223.01275634765625,
+          "height": 124.362548828125,
+          "center_x": 226.8814697265625,
+          "center_y": 529.6143188476562
+        },
+        "mask_center": {
+          "x": 255.0,
+          "y": 538.0
+        },
+        "confidence": 0.020030982792377472,
+        "detected_name": "white USB charging cable",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.06310916,
+        "y": 0.71141845,
+        "z": 0.775513232
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "round green retractable measuring tape",
+      "position": "lower-left quadrant of the desk",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 319.3970947265625,
+          "y1": 595.1141357421875,
+          "x2": 385.13623046875,
+          "y2": 652.2647705078125,
+          "width": 65.7391357421875,
+          "height": 57.150634765625,
+          "center_x": 352.26666259765625,
+          "center_y": 623.689453125
+        },
+        "mask_center": {
+          "x": 352.0,
+          "y": 623.0
+        },
+        "confidence": 0.9971011281013489,
+        "detected_name": "round green retractable measuring tape",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.08363247,
+        "y": 0.717422,
+        "z": 0.6008901
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "transparent plastic ruler",
+      "position": "bottom-left of the desk",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.0029296875,
+          "y1": 181.93292236328125,
+          "x2": 946.8275756835938,
+          "y2": 959.6969604492188,
+          "width": 946.8246459960938,
+          "height": 777.7640380859375,
+          "center_x": 473.4152526855469,
+          "center_y": 570.81494140625
+        },
+        "mask_center": {
+          "x": 110.0,
+          "y": 716.0
+        },
+        "confidence": 0.382568895816803,
+        "detected_name": "transparent plastic ruler (bottom-left of the desk)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 1.88929236,
+        "y": 0.7024881,
+        "z": 0.662103
+      }
+    },
+    {
+      "object_id": 7,
+      "object": "black ballpoint pen",
+      "position": "centre-left of the desk, next to the green tape",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 447.5730285644531,
+          "y1": 571.755615234375,
+          "x2": 467.9085388183594,
+          "y2": 704.9052734375,
+          "width": 20.33551025390625,
+          "height": 133.149658203125,
+          "center_x": 457.74078369140625,
+          "center_y": 638.3304443359375
+        },
+        "mask_center": {
+          "x": 457.0,
+          "y": 602.0
+        },
+        "confidence": 0.5340119004249573,
+        "detected_name": "black ballpoint pen",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.16304564,
+        "y": 0.725816846,
+        "z": 0.550525248
+      }
+    },
+    {
+      "object_id": 8,
+      "object": "clear plastic cup",
+      "position": "center of the desk, slightly towards the front edge",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 523.5172729492188,
+          "y1": 418.1180419921875,
+          "x2": 604.9224243164062,
+          "y2": 530.938720703125,
+          "width": 81.4051513671875,
+          "height": 112.8206787109375,
+          "center_x": 564.2198486328125,
+          "center_y": 474.52838134765625
+        },
+        "mask_center": {
+          "x": 562.0,
+          "y": 447.0
+        },
+        "confidence": 0.25787657499313354,
+        "detected_name": "clear plastic cup",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.37624645,
+        "y": 0.709049,
+        "z": 0.681182146
+      }
+    },
+    {
+      "object_id": 9,
+      "object": "white tabletop oscillating fan",
+      "position": "top-right of the desk",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 558.738525390625,
+          "y1": 0.0,
+          "x2": 808.106689453125,
+          "y2": 327.4930114746094,
+          "width": 249.3681640625,
+          "height": 327.4930114746094,
+          "center_x": 683.422607421875,
+          "center_y": 163.7465057373047
+        },
+        "mask_center": {
+          "x": 696.0,
+          "y": 23.0
+        },
+        "confidence": 0.4900456964969635,
+        "detected_name": "white tabletop oscillating fan",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.7067554,
+        "y": 1.05611181,
+        "z": 0.81350106
+      }
+    },
+    {
+      "object_id": 10,
+      "object": "grey and black office chair",
+      "position": "right side of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 678.144775390625,
+          "y1": 233.99908447265625,
+          "x2": 1279.837890625,
+          "y2": 959.8452758789062,
+          "width": 601.693115234375,
+          "height": 725.84619140625,
+          "center_x": 978.9913330078125,
+          "center_y": 596.9221801757812
+        },
+        "mask_center": {
+          "x": 1022.0,
+          "y": 944.0
+        },
+        "confidence": 0.7643955945968628,
+        "detected_name": "grey and black office chair",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.42755365,
+        "y": 0.433802962,
+        "z": 0.08020027
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "white handheld stapler with yellow interior",
+      "position": "bottom left",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 119.72451782226562,
+          "y1": 650.3017578125,
+          "x2": 316.3883361816406,
+          "y2": 786.4542236328125,
+          "width": 196.663818359375,
+          "height": 136.1524658203125,
+          "center_x": 218.05642700195312,
+          "center_y": 718.3779907226562
+        },
+        "mask_center": {
+          "x": 257.0,
+          "y": 711.0
+        },
+        "confidence": 0.001185881206765771,
+        "detected_name": "white handheld stapler with yellow interior",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 1.88490307,
+        "y": 1.38915968,
+        "z": 0.906254649
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "orange ping-pong ball",
+      "position": "bottom center-left",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 452.7127685546875,
+          "y1": 684.853759765625,
+          "x2": 528.680908203125,
+          "y2": 766.426025390625,
+          "width": 75.9681396484375,
+          "height": 81.572265625,
+          "center_x": 490.69683837890625,
+          "center_y": 725.639892578125
+        },
+        "mask_center": {
+          "x": 490.0,
+          "y": 725.0
+        },
+        "confidence": 0.07088262587785721,
+        "detected_name": "orange ping-pong ball",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.00993347,
+        "y": 1.38057089,
+        "z": 0.9138906
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "pair of scissors with black blades and yellow handles",
+      "position": "bottom center",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 620.609130859375,
+          "y1": 681.0362548828125,
+          "x2": 775.0947265625,
+          "y2": 876.7457275390625,
+          "width": 154.485595703125,
+          "height": 195.70947265625,
+          "center_x": 697.8519287109375,
+          "center_y": 778.8909912109375
+        },
+        "mask_center": {
+          "x": 658.0,
+          "y": 842.0
+        },
+        "confidence": 0.9513298869132996,
+        "detected_name": "pair of scissors with black blades and yellow handles",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.10379815,
+        "y": 1.36733246,
+        "z": 0.838034034
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "flathead screwdriver with red transparent handle",
+      "position": "bottom center-right",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 840.5291137695312,
+          "y1": 738.1476440429688,
+          "x2": 960.1854858398438,
+          "y2": 876.5298461914062,
+          "width": 119.6563720703125,
+          "height": 138.3822021484375,
+          "center_x": 900.3572998046875,
+          "center_y": 807.3387451171875
+        },
+        "mask_center": {
+          "x": 925.0,
+          "y": 839.0
+        },
+        "confidence": 0.0026470907032489777,
+        "detected_name": "flathead screwdriver with red transparent handle",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.22300887,
+        "y": 1.37255216,
+        "z": 0.839835048
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "rectangular two-tone yellow and green kitchen sponge",
+      "position": "bottom right",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 981.7105712890625,
+          "y1": 708.5382080078125,
+          "x2": 1239.5750732421875,
+          "y2": 881.8609619140625,
+          "width": 257.864501953125,
+          "height": 173.32275390625,
+          "center_x": 1110.642822265625,
+          "center_y": 795.1995849609375
+        },
+        "mask_center": {
+          "x": 1110.0,
+          "y": 804.0
+        },
+        "confidence": 0.010190872475504875,
+        "detected_name": "rectangular two-tone yellow and green kitchen sponge",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.302943,
+        "y": 1.390532,
+        "z": 0.843940139
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "tall light-blue plastic spray bottle with white trigger",
+      "position": "upper right",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 857.763916015625,
+          "y1": 275.5067138671875,
+          "x2": 988.2271728515625,
+          "y2": 683.1544189453125,
+          "width": 130.4632568359375,
+          "height": 407.647705078125,
+          "center_x": 922.9955444335938,
+          "center_y": 479.33056640625
+        },
+        "mask_center": {
+          "x": 927.0,
+          "y": 455.0
+        },
+        "confidence": 0.917712390422821,
+        "detected_name": "tall light-blue plastic spray bottle with white trigger",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.26323748,
+        "y": 1.50898707,
+        "z": 1.02928948
+      }
+    }
+  ],
+  "2": [
+    {
+      "object_id": 1,
+      "object": "black foldable tablet/phone stand",
+      "position": "bottom left of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.0,
+          "y1": 381.65625,
+          "x2": 1278.7694091796875,
+          "y2": 959.95166015625,
+          "width": 1278.7694091796875,
+          "height": 578.29541015625,
+          "center_x": 639.3847045898438,
+          "center_y": 670.803955078125
+        },
+        "mask_center": {
+          "x": 15.0,
+          "y": 944.0
+        },
+        "confidence": 0.16046924889087677,
+        "detected_name": "black foldable tablet/phone stand",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.86234117,
+        "y": 0.734995842,
+        "z": -0.2915305
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "clear wine glass with stem",
+      "position": "center of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 526.8397216796875,
+          "y1": 236.08538818359375,
+          "x2": 645.05712890625,
+          "y2": 537.3822021484375,
+          "width": 118.2174072265625,
+          "height": 301.29681396484375,
+          "center_x": 585.9484252929688,
+          "center_y": 386.7337951660156
+        },
+        "mask_center": {
+          "x": 585.0,
+          "y": 356.0
+        },
+        "confidence": 0.8733440041542053,
+        "detected_name": "clear wine glass with stem",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.16047668,
+        "y": 0.8419337,
+        "z": -0.5260996
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "blue and white Pilot FriXion eraser box",
+      "position": "top right of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 950.817138671875,
+          "y1": 576.6312255859375,
+          "x2": 1211.019287109375,
+          "y2": 810.1131591796875,
+          "width": 260.2021484375,
+          "height": 233.48193359375,
+          "center_x": 1080.918212890625,
+          "center_y": 693.3721923828125
+        },
+        "mask_center": {
+          "x": 1127.0,
+          "y": 747.0
+        },
+        "confidence": 0.04926230013370514,
+        "detected_name": "blue and white Pilot FriXion eraser box",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.96500587,
+        "y": 0.7239176,
+        "z": -0.8158702
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "yellow packaged snack bar in plastic wrapping",
+      "position": "right side of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 926.9580688476562,
+          "y1": 401.1474304199219,
+          "x2": 969.3931274414062,
+          "y2": 429.6393127441406,
+          "width": 42.43505859375,
+          "height": 28.49188232421875,
+          "center_x": 948.1755981445312,
+          "center_y": 415.39337158203125
+        },
+        "mask_center": {
+          "x": 946.0,
+          "y": 415.0
+        },
+        "confidence": 0.005599435418844223,
+        "detected_name": "yellow packaged snack bar in plastic wrapping",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.18043542,
+        "y": 0.7827784,
+        "z": -0.7654356
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "gray camouflage-patterned game controller",
+      "position": "bottom center-left of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 261.0484619140625,
+          "y1": 582.4602661132812,
+          "x2": 579.6019287109375,
+          "y2": 830.5199584960938,
+          "width": 318.553466796875,
+          "height": 248.0596923828125,
+          "center_x": 420.3251953125,
+          "center_y": 706.4901123046875
+        },
+        "mask_center": {
+          "x": 425.0,
+          "y": 718.0
+        },
+        "confidence": 0.2863598167896271,
+        "detected_name": "gray camouflage-patterned game controller",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.95691729,
+        "y": 0.762050152,
+        "z": -0.453858137
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "small cylindrical 500 g calibration weight",
+      "position": "bottom center of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 561.5888671875,
+          "y1": 770.620849609375,
+          "x2": 649.8665771484375,
+          "y2": 874.91796875,
+          "width": 88.2777099609375,
+          "height": 104.297119140625,
+          "center_x": 605.7277221679688,
+          "center_y": 822.7694091796875
+        },
+        "mask_center": {
+          "x": 605.0,
+          "y": 823.0
+        },
+        "confidence": 0.06042361631989479,
+        "detected_name": "small cylindrical 500 g calibration weight",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.895774,
+        "y": 0.774908543,
+        "z": -0.5444842
+      }
+    }
+  ],
+  "3": [
+    {
+      "object_id": 1,
+      "object": "small white plastic 4-drawer storage organizer",
+      "position": "bottom left of the image",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 130.35809326171875,
+          "y1": 262.7164306640625,
+          "x2": 539.7146606445312,
+          "y2": 534.783203125,
+          "width": 409.3565673828125,
+          "height": 272.0667724609375,
+          "center_x": 335.036376953125,
+          "center_y": 398.74981689453125
+        },
+        "mask_center": {
+          "x": 247.0,
+          "y": 433.0
+        },
+        "confidence": 0.7381849884986877,
+        "detected_name": "small white plastic 4-drawer storage organizer",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.19781256,
+        "y": 0.7900921,
+        "z": -1.12075984
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "grey 3D printed rabbit figurine",
+      "position": "on top of the storage organizer at the top left of the image",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 215.60626220703125,
+          "y1": 204.95709228515625,
+          "x2": 357.76959228515625,
+          "y2": 342.282958984375,
+          "width": 142.163330078125,
+          "height": 137.32586669921875,
+          "center_x": 286.68792724609375,
+          "center_y": 273.6200256347656
+        },
+        "mask_center": {
+          "x": 298.0,
+          "y": 299.0
+        },
+        "confidence": 0.9011969566345215,
+        "detected_name": "grey 3D printed rabbit figurine",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.27889657,
+        "y": 0.8411107,
+        "z": -1.14274669
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "AA battery (cylindrical cell)",
+      "position": "on top of the storage organizer, near its upper right corner",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 458.0697021484375,
+          "y1": 233.12995147705078,
+          "x2": 489.352294921875,
+          "y2": 307.8091354370117,
+          "width": 31.2825927734375,
+          "height": 74.67918395996094,
+          "center_x": 473.71099853515625,
+          "center_y": 270.46954345703125
+        },
+        "mask_center": {
+          "x": 470.0,
+          "y": 248.0
+        },
+        "confidence": 0.03116573765873909,
+        "detected_name": "AA battery (cylindrical cell)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.33865166,
+        "y": 0.847729564,
+        "z": -1.25093412
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "orange plastic hook",
+      "position": "on top of the storage organizer, front center-left",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 610.2440185546875,
+          "y1": 338.3663024902344,
+          "x2": 906.08056640625,
+          "y2": 490.2115173339844,
+          "width": 295.8365478515625,
+          "height": 151.84521484375,
+          "center_x": 758.1622924804688,
+          "center_y": 414.2889099121094
+        },
+        "mask_center": {
+          "x": 835.0,
+          "y": 415.0
+        },
+        "confidence": 0.19647575914859772,
+        "detected_name": "orange plastic hook (on top of the storage organizer, front center-left)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.231206,
+        "y": 0.7862176,
+        "z": -1.50776589
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "small black plastic key-like tool",
+      "position": "on top of the storage organizer, front center-right",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 420.1152038574219,
+          "y1": 327.35614013671875,
+          "x2": 473.8690490722656,
+          "y2": 364.88348388671875,
+          "width": 53.75384521484375,
+          "height": 37.52734375,
+          "center_x": 446.99212646484375,
+          "center_y": 346.11981201171875
+        },
+        "mask_center": {
+          "x": 449.0,
+          "y": 351.0
+        },
+        "confidence": 0.4478684365749359,
+        "detected_name": "small black plastic key-like tool",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.25050235,
+        "y": 0.8200792,
+        "z": -1.24876249
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "blue and white rectangular tissue box",
+      "position": "center of the image, slightly toward the top",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 611.302490234375,
+          "y1": 336.304443359375,
+          "x2": 903.1639404296875,
+          "y2": 488.34228515625,
+          "width": 291.8614501953125,
+          "height": 152.037841796875,
+          "center_x": 757.2332153320312,
+          "center_y": 412.3233642578125
+        },
+        "mask_center": {
+          "x": 835.0,
+          "y": 415.0
+        },
+        "confidence": 0.37090805172920227,
+        "detected_name": "blue and white rectangular tissue box",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.231206,
+        "y": 0.7862176,
+        "z": -1.50776589
+      }
+    },
+    {
+      "object_id": 7,
+      "object": "wood-handled brush with black bristles",
+      "position": "right side of the image, mid-level",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 215.52633666992188,
+          "y1": 206.06774139404297,
+          "x2": 358.5224914550781,
+          "y2": 343.87244415283203,
+          "width": 142.99615478515625,
+          "height": 137.80470275878906,
+          "center_x": 287.0244140625,
+          "center_y": 274.9700927734375
+        },
+        "mask_center": {
+          "x": 298.0,
+          "y": 299.0
+        },
+        "confidence": 0.007580960169434547,
+        "detected_name": "wood-handled brush with black bristles (right side of the image, mid-level)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.27889657,
+        "y": 0.8411107,
+        "z": -1.14274669
+      }
+    },
+    {
+      "object_id": 8,
+      "object": "black and silver telescopic selfie stick",
+      "position": "spanning the bottom left toward the center of the image",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 89.14599609375,
+          "y1": 532.580322265625,
+          "x2": 752.0099487304688,
+          "y2": 926.755859375,
+          "width": 662.8639526367188,
+          "height": 394.175537109375,
+          "center_x": 420.5779724121094,
+          "center_y": 729.6680908203125
+        },
+        "mask_center": {
+          "x": 507.0,
+          "y": 748.0
+        },
+        "confidence": 0.545587420463562,
+        "detected_name": "black and silver telescopic selfie stick",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 3.00714612,
+        "y": 0.7390771,
+        "z": -1.3151195
+      }
+    }
+  ],
+  "4": [
+    {
+      "object_id": 1,
+      "object": "black leather two-seater sofa with armrests",
+      "position": "center of the image, covering the middle area",
+      "image_id": 4,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.0,
+          "y1": 141.3427734375,
+          "x2": 1233.973388671875,
+          "y2": 956.7049560546875,
+          "width": 1233.973388671875,
+          "height": 815.3621826171875,
+          "center_x": 616.9866943359375,
+          "center_y": 549.0238647460938
+        },
+        "mask_center": {
+          "x": 303.0,
+          "y": 385.0
+        },
+        "confidence": 0.9876468181610107,
+        "detected_name": "black leather two-seater sofa with armrests",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.27327728,
+        "y": 0.492545724,
+        "z": -2.31078744
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "green turtle shell plush pillow with white rim",
+      "position": "on the right seat cushion of the sofa",
+      "image_id": 4,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 598.069580078125,
+          "y1": 331.84613037109375,
+          "x2": 889.7880859375,
+          "y2": 523.1074829101562,
+          "width": 291.718505859375,
+          "height": 191.2613525390625,
+          "center_x": 743.9288330078125,
+          "center_y": 427.476806640625
+        },
+        "mask_center": {
+          "x": 748.0,
+          "y": 424.0
+        },
+        "confidence": 0.7928447723388672,
+        "detected_name": "green turtle shell plush pillow with white rim",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 1.65786719,
+        "y": 0.5430327,
+        "z": -2.03041935
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "yellow snack bag with Japanese writing",
+      "position": "on the left side of the sofa seat, slightly left of center",
+      "image_id": 4,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.9560546875,
+          "y1": 147.14013671875,
+          "x2": 1238.945556640625,
+          "y2": 956.57373046875,
+          "width": 1237.989501953125,
+          "height": 809.43359375,
+          "center_x": 619.9508056640625,
+          "center_y": 551.85693359375
+        },
+        "mask_center": {
+          "x": 303.0,
+          "y": 385.0
+        },
+        "confidence": 0.00788563210517168,
+        "detected_name": "yellow snack bag with Japanese writing (on the left side of the sofa seat, slightly left of center)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.27327728,
+        "y": 0.492545724,
+        "z": -2.31078744
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "small rectangular anime-themed card box",
+      "position": "on the left seat cushion of the sofa, next to the snack bag",
+      "image_id": 4,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 322.061279296875,
+          "y1": 561.6021728515625,
+          "x2": 417.468994140625,
+          "y2": 620.3333740234375,
+          "width": 95.40771484375,
+          "height": 58.731201171875,
+          "center_x": 369.76513671875,
+          "center_y": 590.9677734375
+        },
+        "mask_center": {
+          "x": 365.0,
+          "y": 589.0
+        },
+        "confidence": 0.08026230335235596,
+        "detected_name": "small rectangular anime-themed card box",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 2.15975237,
+        "y": 0.401533365,
+        "z": -1.9430058
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "black umbrella with geometric pattern and curved handle",
+      "position": "propped against the right armrest of the sofa",
+      "image_id": 4,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1039.271484375,
+          "y1": 277.4803466796875,
+          "x2": 1173.470703125,
+          "y2": 933.8665771484375,
+          "width": 134.19921875,
+          "height": 656.38623046875,
+          "center_x": 1106.37109375,
+          "center_y": 605.6734619140625
+        },
+        "mask_center": {
+          "x": 1137.0,
+          "y": 540.0
+        },
+        "confidence": 0.7249739170074463,
+        "detected_name": "black umbrella with geometric pattern and curved handle",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": 1.19605637,
+        "y": 0.444356918,
+        "z": -1.84540439
+      }
+    }
+  ]
+}

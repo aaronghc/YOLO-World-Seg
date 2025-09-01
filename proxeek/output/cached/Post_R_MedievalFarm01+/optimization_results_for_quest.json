@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "red packet of Shin Ramyeon spicy ramen",
+      "utilizationMethod": "Lay the unopened packet flat; strike the middle of the pouch to pop the air pocket."
+    },
+    {
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "compact mechanical keyboard with black and gray keycaps and one orange key",
+      "utilizationMethod": "Lay the keyboard flat and bring the weight straight down onto the center row of keys."
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "folded checkered umbrella with hooked handle",
+      "utilizationMethod": "Curl three fingers around the hooked handle, thumb resting on the outside, lift the umbrella, and tip the closed canopy forward as if pouring from a mug"
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "cylindrical metal calibration weight labeled 'M 500g'",
+      "utilizationMethod": "Clasp the top knob between thumb and fingers, let the heavy cylinder hang below as the axe head, and swing the mass downward in chopping arcs"
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "black-handled collapsible selfie stick / monopod",
+      "utilizationMethod": "Keep the stick collapsed, wrap hand around the foam grip, and drive the phone clamp end downward toward the desk in a hammering motion"
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "grey and white camouflage wireless game controller",
+      "utilizationMethod": "Enclose the left grip of the controller fully in one hand, let the opposite side project forward, and swing the wrist in broad cutting arcs."
+    }
+  ],
+  "timestamp": "c9ea1f6c-8ba9-4637-b959-f651ea986a15",
+  "total_assignments": 6
+}

@@ -1,3 +1,4 @@
 relationship_index,contact_virtual_object,substrate_virtual_object,matrix_shape,non_zero_entries,max_rating,mean_rating
-0,Paint Brush,Easel,12x12,54,7.0000,4.7235
-1,Marker,Paper,12x12,54,6.3164,4.4652
+0,Spoon,Soup,29x29,140,5.3133,3.0454
+1,Fork,Steak,29x29,140,6.3164,3.3285
+2,Knife,Steak,29x29,140,6.0000,3.3476

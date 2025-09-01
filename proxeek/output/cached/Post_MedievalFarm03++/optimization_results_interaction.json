@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -9.96931360357539,
+    "loss_components": {
+      "L_realism": -10.553417476371383,
+      "L_interaction": -6.773680693068275,
+      "L_spatial": 0.5841038727959923,
+      "total": -9.96931360357539
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 36,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 0,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "gray low-poly rabbit figurine (3D printed)",
+        "object_id": 2,
+        "image_id": 3,
+        "index": 24
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Cup the figurine with both hands and rotate it slowly"
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "pair of scissors with black blades and yellow handles",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 13
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Close the blades together and wrap your hand around the closed metal section"
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "black-and-white patterned umbrella with curved handle",
+        "object_id": 5,
+        "image_id": 4,
+        "index": 35
+      },
+      "realism_score": 5.222221910953522,
+      "utilization_method": "Slip fingers around the curved handle, thumb on top, raise umbrella slightly and pivot wrist to simulate mug rotation."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "wooden-handled brush with black bristles",
+        "object_id": 8,
+        "image_id": 3,
+        "index": 30
+      },
+      "realism_score": 3.8333333333333335,
+      "utilization_method": "Wrap the dominant hand around the wooden handle near the bristles, place the supporting hand farther back, and swing so the bristle head strikes first."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black and silver telescopic monopod (selfie stick)",
+        "object_id": 7,
+        "image_id": 3,
+        "index": 29
+      },
+      "realism_score": 4.5,
+      "utilization_method": "Hold the foam handle, let the phone clamp serve as the head, and swing the stick in short vertical arcs to tap the clamp against the desk"
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "gray and white camouflage-patterned game controller",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 20
+      },
+      "realism_score": 4.0,
+      "utilization_method": "Wrap your dominant hand around the left grip of the controller and swing its body in a semicircular inward cut"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -25.553395928667825,
+    "loss_components": {
+      "L_realism": -13.392900692790644,
+      "L_interaction": -12.16049523587718,
+      "L_spatial": 8.629651687119457,
+      "total": -25.553395928667825
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 29,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 0
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "black three-seat leather sofa",
+        "object_id": 1,
+        "image_id": 4,
+        "index": 25
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Sit in front of the sofa and draw the pen across the flat seat cushion in broad lateral strokes."
+    },
+    {
+      "virtual_object": {
+        "name": "Marker",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "single AA battery",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 17
+      },
+      "realism_score": 5.714285373687744,
+      "utilization_method": "Grip the cylindrical battery lengthwise between thumb and index finger, support with middle finger, and glide one flat end over the surface to mimic pen strokes"
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "red Shin Ramyun instant noodle package",
+        "object_id": 6,
+        "image_id": 2,
+        "index": 19
+      },
+      "realism_score": 4.25,
+      "utilization_method": "Grip the middle of the soft package with thumb on one face and fingers on the other, then squeeze repeatedly to feel the contents shift"
+    },
+    {
+      "virtual_object": {
+        "name": "Paper",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "playing card (Jack of Spades)",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 18
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the card flat on the tabletop and glide the battery across the face in any direction."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black ballpoint pen with silver clip",
+        "object_id": 7,
+        "image_id": 0,
+        "index": 6
+      },
+      "realism_score": 6.857142448425293,
+      "utilization_method": "Grip the pen in a precision grip near its tip and make controlled strokes over the desk surface."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "black and silver extendable selfie stick",
+        "object_id": 5,
+        "image_id": 3,
+        "index": 24
+      },
+      "realism_score": 5.0,
+      "utilization_method": "Grip the foam handle firmly, extend the rod outward, and swing the phone cradle end forward and back like a paint roller head."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -22.3099698967817,
+    "loss_components": {
+      "L_realism": -8.41666653752327,
+      "L_interaction": -14.15163334006533,
+      "L_spatial": 0.2583299808069009,
+      "total": -22.3099698967817
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 38,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "rectangular packaged snack bar with red and yellow wrapping",
+        "object_id": 7,
+        "image_id": 2,
+        "index": 24
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the snack bar flat; drive the fan\u2019s base onto the wrapper until the contents compress to the table."
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "white office desk with drawer",
+        "object_id": 9,
+        "image_id": 0,
+        "index": 8
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand beside the desk and drive the phone clamp straight down onto a clear spot on the desktop surface."
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "wooden-handled bench brush with black bristles",
+        "object_id": 8,
+        "image_id": 3,
+        "index": 32
+      },
+      "realism_score": 4.333333075046539,
+      "utilization_method": "Wrap the hand around the narrow wooden handle right behind the bristles, then lift and tilt so the bristle block swings outward"
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black telescoping selfie stick (monopod)",
+        "object_id": 7,
+        "image_id": 3,
+        "index": 31
+      },
+      "realism_score": 4.5,
+      "utilization_method": "Close fingers around the extended metal shaft near its middle, allow the phone clamp to act as the weighted head, and swing overhead in broad chopping arcs"
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "small cylindrical silver metal container or calibration weight",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 19
+      },
+      "realism_score": 3.166666666666667,
+      "utilization_method": "Clasp the sides, lift it overhead, and knock the bottom face onto the surface"
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "grey camouflage-patterned wireless game controller",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 22
+      },
+      "realism_score": 4.833333333333333,
+      "utilization_method": "Wrap your hand around one grip of the controller and swing the opposite side inward like a curved blade"
+    }
+  ]
+}

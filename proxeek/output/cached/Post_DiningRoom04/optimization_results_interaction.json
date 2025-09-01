@@ -1,0 +1,123 @@
+{
+  "optimization_summary": {
+    "total_loss": -8.775681201425419,
+    "loss_components": {
+      "L_realism": -8.775683185239528,
+      "L_interaction": -7.12904413744631,
+      "L_spatial": 1.9838141080104565e-06,
+      "total": -8.775681201425419
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 30,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 0,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Fork",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "upright AA battery",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 18
+      },
+      "realism_score": 3.9841273327668505,
+      "utilization_method": "Hold the positive terminal end between thumb and index finger, orient the negative end downward, and poke the flat base against the tabletop"
+    },
+    {
+      "virtual_object": {
+        "name": "Knife",
+        "index": 1,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "white 15-cm plastic ruler with colored markings",
+        "object_id": 4,
+        "image_id": 3,
+        "index": 24
+      },
+      "realism_score": 4.39682580033938,
+      "utilization_method": "Grip the ruler at one end between thumb and fingers, lay the other end flat on the desk, and slide it forward and back while maintaining light downward pressure"
+    },
+    {
+      "virtual_object": {
+        "name": "Spoon",
+        "index": 2,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "black and orange scissors",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 4.015873362620672,
+      "utilization_method": "Close the blades, pinch one closed blade near the tip between thumb and index finger, push forward in a dipping motion, then lift and roll the grip palm-up"
+    },
+    {
+      "virtual_object": {
+        "name": "Soup",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "white desk fan with circular protective grille",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Ensure the fan is off, keep it upright, then rest the blade tip on the wire grille and trace small clockwise and counter-clockwise circles across the concentric rings."
+    },
+    {
+      "virtual_object": {
+        "name": "Steak",
+        "index": 4,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "orange ping-pong ball",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 14
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stabilize the ball with your off-hand and press the battery\u2019s base down into the ball\u2019s surface until the shell dents firmly."
+    },
+    {
+      "virtual_object": {
+        "name": "Pepper",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "handheld cleaning brush with wooden handle and black bristles",
+        "object_id": 5,
+        "image_id": 3,
+        "index": 25
+      },
+      "realism_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Easel",
+      "proxyObjectName": "black swivel office chair with padded seat and backrest",
+      "utilizationMethod": "Stand beside the chair and use the padded seat (or backrest) as the contact surface. Its fabric-covered foam compresses smoothly under the stick\u2019s tip and rebounds gently, providing a broad, forgiving plane that closely matches the cushioned resistance of an artist\u2019s canvas."
+    },
+    {
+      "virtualObjectName": "Marker",
+      "proxyObjectName": "single cylindrical battery (AA/AAA)",
+      "utilizationMethod": "Grip the battery lengthwise in a tripod grip. Its 1.4 cm diameter metal cylinder and low mass are very close to a real marker\u2019s feel, allowing highly accurate pen-like strokes and fingertip rotations to change orientation."
+    },
+    {
+      "virtualObjectName": "Tube",
+      "proxyObjectName": "white plastic spray bottle",
+      "utilizationMethod": "Hold the narrow neck of the bottle with thumb and index finger and twist the cap or nozzle to copy the uncapping motion of the paint tube, then shift your grip to wrap the whole hand around the plastic body and squeeze rhythmically on the slightly flexible walls; the audible air displacement and mild give of the plastic replicate the feel of expelling paint from a tube."
+    },
+    {
+      "virtualObjectName": "Paper",
+      "proxyObjectName": "white rectangular desk/table with metal legs",
+      "utilizationMethod": "Simply use the tabletop as a large horizontal writing plane. Its smooth laminate finish produces consistent, light-to-medium friction under the battery tip, very close to the feel of standard printer paper on a desk and ideal for long, continuous strokes."
+    },
+    {
+      "virtualObjectName": "Paint Brush",
+      "proxyObjectName": "silver butter knife",
+      "utilizationMethod": "Hold the thin, rounded handle (not the blade) with a relaxed tripod grip, positioning fingers a few centimeters from the end.  The smooth, narrow handle can be rolled between thumb and index finger, enabling precise wrist-driven stroke motions comparable to controlling a paint brush."
+    },
+    {
+      "virtualObjectName": "Paint Roller",
+      "proxyObjectName": "black telescoping selfie stick",
+      "utilizationMethod": "Grab the rubberized bottom grip exactly as you would the roller\u2019s handle. Extend the telescoping rod to full length to approximate the metal frame distance between handle and roller head. Swing broad strokes through the air; the distributed mass along the rod reproduces the leverage and light top-weight of a real paint roller, while the round handle fills the palm ergonomically."
+    }
+  ],
+  "timestamp": "df30c69a-960c-4e4b-a2c2-6abfae16e8ca",
+  "total_assignments": 6
+}

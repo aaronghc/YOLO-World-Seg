@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -19.743034510969487,
+    "loss_components": {
+      "L_realism": -10.369047244389852,
+      "L_interaction": -10.904434011391265,
+      "L_spatial": 1.5304467448116323,
+      "total": -19.743034510969487
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 29,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "gray 3D-printed rabbit figurine",
+        "object_id": 5,
+        "image_id": 1,
+        "index": 12
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the rabbit so its side faces you; sweep the pen across the layered surface on the flank in short, gentle passes."
+    },
+    {
+      "virtual_object": {
+        "name": "Marker",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "single AA battery",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 17
+      },
+      "realism_score": 5.714285373687744,
+      "utilization_method": "Grip the cylindrical battery lengthwise between thumb and index finger, support with middle finger, and glide one flat end over the surface to mimic pen strokes"
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black three-seat leather sofa",
+        "object_id": 1,
+        "image_id": 4,
+        "index": 25
+      },
+      "realism_score": 3.166666666666667,
+      "utilization_method": "Pinch the front edge of a seat cushion between thumb on top and fingers underneath, compressing the padded leather"
+    },
+    {
+      "virtual_object": {
+        "name": "Paper",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "playing card (Jack of Spades)",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 18
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the card flat on the tabletop and glide the battery across the face in any direction."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black ballpoint pen with silver clip",
+        "object_id": 7,
+        "image_id": 0,
+        "index": 6
+      },
+      "realism_score": 6.857142448425293,
+      "utilization_method": "Grip the pen in a precision grip near its tip and make controlled strokes over the desk surface."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black and silver extendable selfie stick",
+        "object_id": 5,
+        "image_id": 3,
+        "index": 24
+      },
+      "realism_score": 5.0,
+      "utilization_method": "Grip the foam handle firmly, extend the rod outward, and swing the phone cradle end forward and back like a paint roller head."
+    }
+  ]
+}

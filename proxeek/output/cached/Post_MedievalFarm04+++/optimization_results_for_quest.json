@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "yellow rectangular cleaning sponge with green scrub side",
+      "utilizationMethod": "Place the sponge flat on the surface with the yellow soft side facing upward; deliver the downward blow to the center of that surface."
+    },
+    {
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "black and grey cushioned office chair",
+      "utilizationMethod": "No method available for this object"
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "folded umbrella with black and white checkered fabric and curved handle",
+      "utilizationMethod": "Hold the curved handle with a relaxed full-hand grip so the folded shaft extends forward"
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "white table fan with protective grill and round base",
+      "utilizationMethod": "Grasp the neck column just below the grill with one hand, lift the fan clear of the desk, and swing the heavy grill end downward like an axe head."
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "large Apple iMac desktop monitor with silver stand",
+      "utilizationMethod": "Slip one hand around the thin neck of the silver stand close to the base and swing the screen forward and downward in a short arc while maintaining that grip."
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "white spray bottle filled with blue liquid",
+      "utilizationMethod": "Clasp the cylindrical neck just below the trigger, point the nozzle outward, and sweep the bottle in repeated inward arcs."
+    }
+  ],
+  "timestamp": "cfd189cf-9f97-400b-8085-54bcb2fe5ff2",
+  "total_assignments": 6
+}

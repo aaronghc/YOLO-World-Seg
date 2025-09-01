@@ -131,6 +131,12 @@ def initialize_models():
     try:
         log("Initializing YOLO-World and EfficientSAM models...")
         
+        # Clear GPU cache before initialization to prevent memory fragmentation
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            torch.cuda.synchronize()
+            log("GPU cache cleared before model initialization")
+        
         # Initialize YOLO-World model
         yolo_world_model = YOLOWorld(model_id="yolo_world/l")
         
@@ -146,17 +152,30 @@ def initialize_models():
                     log(f"YOLO-World underlying model moved to {DEVICE}")
                 else:
                     log("Warning: Could not move YOLO-World model to GPU - no .to() method found")
+                
+                # Clear cache after YOLO-World initialization
+                torch.cuda.empty_cache()
+                
             except Exception as e:
                 log(f"Warning: Failed to move YOLO-World model to GPU: {e}")
         
         # Initialize EfficientSAM model
         efficient_sam_model = load(device=DEVICE)
         
+        # Final cache clear after all models are loaded
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            torch.cuda.synchronize()
+            log(f"GPU memory after initialization: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB allocated, {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB reserved")
+        
         log(f"YOLO-World and EfficientSAM models initialized successfully on device: {DEVICE}")
         return yolo_world_model, efficient_sam_model
         
     except Exception as e:
         log(f"Error initializing models: {e}")
+        # Clean up on error
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
         return None, None
 
 # Function to run YOLO-World + EfficientSAM detection on an image
@@ -181,9 +200,18 @@ def run_yolo_segmentation(image_base64: str, object_names: List[str], image_id: 
         # Convert BGR to RGB for YOLO-World
         image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         
-        # Set classes and run YOLO-World detection
+        # Set classes and run YOLO-World detection with memory management
+        log(f"Setting YOLO classes for image {image_id}: {len(object_names)} objects")
         yolo_model.set_classes(object_names)
+        
+        # Clear GPU cache before inference to prevent memory issues
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        
+        log(f"Running YOLO inference for image {image_id}")
         results = yolo_model.infer(image_rgb, confidence=CONFIDENCE_THRESHOLD)
+        log(f"YOLO inference completed for image {image_id}")
+        
         detections = Detections.from_inference(results)
         
         # Apply NMS
@@ -194,12 +222,18 @@ def run_yolo_segmentation(image_base64: str, object_names: List[str], image_id: 
         
         # Run EfficientSAM segmentation on detected bounding boxes
         if len(detections.xyxy) > 0:
+            log(f"Running EfficientSAM segmentation for image {image_id} on {len(detections.xyxy)} detections")
             detections.mask = inference_with_boxes(
                 image=image_rgb,
                 xyxy=detections.xyxy,
                 model=sam_model,
                 device=DEVICE
             )
+            log(f"EfficientSAM segmentation completed for image {image_id}")
+            
+            # Clear GPU cache after segmentation
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
         
         # Convert detections to our format
         segmentations = []
@@ -280,10 +314,21 @@ def run_yolo_segmentation(image_base64: str, object_names: List[str], image_id: 
                 segmentations.append(segmentation)
         
         log(f"YOLO-World + EfficientSAM segmentation completed for image {image_id}: found {len(segmentations)} objects")
+        
+        # Final cleanup
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            
         return segmentations
         
     except Exception as e:
         log(f"Error in YOLO segmentation for image {image_id}: {e}")
+        
+        # Clean up GPU memory on error
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            log(f"GPU cache cleared after error in image {image_id}")
+            
         return []
 
 # Check if we're running from Unity or from the server
@@ -409,6 +454,14 @@ else:
 # o4-mini-2025-04-16
 # Initialize the physical object recognition LLM
 # Note: LangChain ChatOpenAI has built-in LangSmith integration - no need for wrap_openai()
+
+# physical_object_recognition_llm = ChatOpenAI(
+#     model="o4-mini-2025-04-16",
+#     temperature=0.1,
+#     base_url="https://api.nuwaapi.com/v1",
+#     api_key=SecretStr(api_key) if api_key else None
+# )
+
 physical_object_recognition_llm = ChatOpenAI(
     model="o4-mini-2025-04-16",
     temperature=0.1,
@@ -427,29 +480,31 @@ virtual_object_processor_llm = ChatOpenAI(
 # Initialize the proxy matching LLM
 proxy_matching_llm = ChatOpenAI(
     model="o3-2025-04-16",
-    temperature=0.1,
+    temperature=0.3,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
 
-# Initialize the property rating LLM (using fine-tuned model)
-property_rating_llm = ChatOpenAI(
-    model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
-    temperature=0.3,
-    base_url="https://api.openai.com/v1",
-    api_key=SecretStr(finetune_api_key) if finetune_api_key else None
-)
-
+# # Initialize the property rating LLM (using fine-tuned model)
 # property_rating_llm = ChatOpenAI(
-#     model="o4-mini-2025-04-16",
+#     model="ft:gpt-4o-2024-08-06:mosra::C0WH6GHu",
 #     temperature=0.3,
-#     base_url="https://api.nuwaapi.com/v1",
-#     api_key=SecretStr(api_key) if api_key else None
+#     base_url="https://api.openai.com/v1",
+#     api_key=SecretStr(finetune_api_key) if finetune_api_key else None
 # )
+
+# "o4-mini-2025-04-16"
+
+property_rating_llm = ChatOpenAI(
+    model="o3-2025-04-16",
+    temperature=0.3,
+    base_url="https://api.nuwaapi.com/v1",
+    api_key=SecretStr(api_key) if api_key else None
+)
 
 # Initialize the relationship rating LLM
 relationship_rating_llm = ChatOpenAI(
-    model="o4-mini-2025-04-16",
+    model="o3-2025-04-16",
     temperature=0.3,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
@@ -467,7 +522,7 @@ log("Initialized relationship_rating_llm for LangSmith tracing")
 # Initialize the substrate utilization LLM
 substrate_utilization_llm = ChatOpenAI(
     model="o3-2025-04-16",
-    temperature=0.1,
+    temperature=0.3,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
@@ -478,6 +533,10 @@ substrate_utilization_llm = ChatOpenAI(
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 CONFIDENCE_THRESHOLD = 0.0001
 IOU_THRESHOLD = 0.5
+
+# GPU Memory Management Settings
+GPU_MEMORY_FRACTION = 0.8  # Use 80% of GPU memory to leave room for other processes
+ENABLE_GPU_GROWTH = True   # Allow gradual GPU memory allocation
 
 # Log CUDA availability and device info
 log(f"CUDA available: {torch.cuda.is_available()}")
@@ -504,7 +563,6 @@ For each image, create a detailed list of recognizable objects with the followin
 2. Its position in the image (e.g., "bottom left of the image")
 
 **AVOID INCLUDING:**
-- Objects that are only partially visible at image edges (less than 70% visible)
 - Objects that are too far away or too small to identify reliably
 - Objects that are heavily occluded or obscured
 - Background elements that are not distinct objects
@@ -587,7 +645,7 @@ Your task is to analyze ONE virtual object and evaluate ALL physical objects fro
 
 First, carefully consider the deduced interaction for the virtual object—how users are expected to interact with it
 
-For each physical object, propose a specific method to utilize it as a haptic proxy that best replicates the deduced interaction of the virtual object.
+For each physical object, propose a specific method to utilize it as a haptic proxy. Your utilization method should describe ONLY the practical steps of how to interact with the physical object. Do not include explanations about why it works, what sensations it provides, or how well it matches the virtual object.
 
 Focus on matching the most important haptic properties of the virtual object (those with higher importance values), but always ensure your proxy method enables the user to perform the same type of interaction as described in the interaction deduction.
 
@@ -601,10 +659,10 @@ CRITICAL CONSTRAINTS FOR REALISTIC UTILIZATION:
 7. Focus on how to hold, touch, press, move, or interact with the object using its inherent characteristics
 
 Examples of APPROPRIATE utilization methods:
-- "Press down on the flat surface to simulate button activation"
-- "Grip the cylindrical handle to replicate tool holding"
-- "Slide your finger along the smooth edge to feel texture transitions"
-- "Use the object's weight and size to simulate the virtual object's mass"
+- "Press down on the flat surface"
+- "Grip the cylindrical handle with full hand"
+- "Hold between thumb and index finger"
+- "Place palm on the surface and apply pressure"
 
 Examples of INAPPROPRIATE utilization methods:
 - "Install switches into the surface" (hardware installation)
@@ -629,6 +687,8 @@ You are an expert in haptic design who specializes in evaluating how well physic
 
 Your task is to **critically** and **rigorously** evaluate how well each physical object can provide the expected {property_type} haptic feedback described for the virtual object. Focus on the specific haptic description provided rather than making general assumptions about the property type.
 
+**CRITICAL REQUIREMENT: Always refer to the corresponding images to assess the TRUE physical properties of each object. Do not rely solely on object names - examine the visual evidence in the images to determine actual size, shape, material properties, surface characteristics, and structural details that affect haptic feedback delivery.**
+
 Rate each physical object on a 7-point Likert scale based on how well it can deliver the described {property_type} experience:
 1 - Strongly Disagree 
 2 - Disagree
@@ -646,7 +706,7 @@ Use the following rubric to guide your evaluation:
         "inertia": """
 Inertia:
 - 1-Strong Disagree
-  - The weight difference is immediately and jarringly noticeable upon first contact
+  - The weight difference is immediately and jarringly noticeable upon first contact (whether it's too heavy or too light)
   - Center of mass feels completely misaligned (e.g., top-heavy physical object for a bottom-heavy virtual object)
   - Movement resistance feels entirely wrong (e.g., extremely light physical plastic bottle for a heavy virtual sledgehammer)
 - 7-Strong Agree
@@ -719,8 +779,11 @@ FORMAT YOUR RESPONSE AS A JSON ARRAY with the following structure:
   ...
 ]
 ```
-
-Make sure to include ALL physical objects in your evaluation, even those with low ratings.
+IMPORTANT:
+1. Make sure to include ALL physical objects in your evaluation, even those with low ratings.
+2. Always refer to the corresponding images to assess the TRUE physical properties and characteristics of each object.
+3. Base your ratings on visual evidence from the images, not just object names or assumptions.
+4. Examine each object's actual appearance, size, material properties, and structural details visible in the images.
 """
     
     # Construct the complete prompt with only the relevant property rubric
@@ -737,6 +800,8 @@ You are an expert in haptic design who specializes in evaluating how well pairs 
 
 You will be provided with pre-generated substrate utilization methods for each contact-substrate pair. Your task is to **critically** and **rigorously** evaluate how well each pair can deliver the expected haptic feedback, considering both the contact object's utilization method and the provided substrate utilization method.
 
+**CRITICAL REQUIREMENT: Always refer to the corresponding images to assess the TRUE physical properties, dimensions, and viability of each object pair. Do not rely solely on object names - examine the visual evidence in the images to determine actual size relationships, material compatibility, structural integrity, and realistic interaction feasibility between the contact and substrate objects.**
+
 Rate each physical object pair on a 7-point Likert scale for {dimension_name}:
 1 - Strongly Disagree 
 2 - Disagree
@@ -752,20 +817,25 @@ Focus specifically on the {dimension_name} dimension:
     # Dimension-specific rubrics
     rubrics = {
         "harmony": """
-**Harmony Dimension**: "I felt the haptic feedback was well coordinated with visual feedback"
+**Harmony Dimension**: "I felt the haptic feedback was well synchronized with visual feedback"
 
-Focus on the synchronization of contact-substrate contact. You should refer to the **dimensions** of the virtual contact object:
+Focus ONLY on whether the user feels ANY haptic contact when visual contact occurs, not on the quality of that contact. Consider the complete physical setup - both contact object reach and substrate object dimensions:
 
 Score 1 - Strongly Disagree:
-- Visual contact occurs with no physical sensation (missing contact)
-- Force direction contradicts visual motion
-- Visual substrate responses don't match felt impact intensity at all
+- When visual contact occurs, user feels NO physical sensation at all (complete miss)
+- **Contact object is short/small to reach substrate when virtual contact occurs**
+- **Substrate object is too small/narrow to be reliably and consistently contacted during the interaction activity(e.g., thin water bottle as proxy for large wall)**
+- Physical setup makes contact geometrically impossible or highly unreliable
+- Timing is completely off - haptic contact happens at wrong moments compared to visual contact
 
 Score 7 - Strongly Agree:
-- Physical and visual contact perfectly synchronized
-- Every visual contact event has corresponding haptic feedback
-- Force vectors align naturally with visual physics
-- Substrate visual behavior matches haptic intensity
+- Every time visual contact occurs, user feels SOME physical sensation (regardless of quality)
+- Contact object has sufficient reach/size to make contact when virtual contact happens
+- Substrate object is appropriately sized/positioned to be reliably contacted
+- Physical setup enables consistent contact - user can reliably hit the substrate proxy
+- Timing is well synchronized - haptic contact occurs at same moments as visual contact
+
+**Important**: Evaluate the entire physical contact scenario. Even if one object is smaller than ideal, the setup can still work if the other compensates (e.g., shorter contact object is okay if substrate proxy is large and easy to hit).
 """,
         "expressivity": """
 **Expressivity Dimension**: "I felt the contact object effectively conveyed substrate properties and interaction variations through my hand"
@@ -822,7 +892,11 @@ FORMAT YOUR RESPONSE AS A JSON ARRAY with the following structure:
 ]
 ```
 
-Include EVERY pair in your evaluation.
+CRITICAL EVALUATION REQUIREMENTS:
+1. Include EVERY pair in your evaluation.
+2. Always refer to the corresponding images to assess the TRUE physical properties of both contact and substrate objects.
+3. Base your ratings on visual evidence from the images regarding actual object dimensions, materials, and interaction feasibility.
+4. Consider the realistic physical setup based on what you can observe in the images, not just theoretical compatibility.
 """
     
     # Construct the complete prompt with only the relevant dimension rubric
@@ -849,10 +923,11 @@ You will be given:
 3. All physical objects in the environment as potential substrate candidates
 
 For each physical substrate candidate, determine:
-- How it should be positioned or oriented to serve as a substrate (using existing physical properties)
-- What specific properties or features should be utilized
-- How it would interact with the given physical contact object's utilization method
-- Use ONLY the object's existing characteristics - NO modifications or additional setup"""
+- How it should be positioned or oriented to serve as a substrate
+- What specific method to use for interaction with the contact object
+- Use ONLY the object's existing characteristics - NO modifications or additional setup
+
+Focus your substrate utilization method on practical instructions only: how to position, orient, or use the substrate object. Do not include explanations about the resulting sensations, haptic feedback quality, or why the method works."""
     else:  # dual-role
         context_section = """
 **Important Context**: The virtual substrate object is a DUAL-ROLE object that:
@@ -867,12 +942,13 @@ You will be given:
 
 For each physical substrate candidate, consider:
 - Its existing utilization method as a proxy for the virtual substrate object (if any)
-- How this existing method can be adapted or enhanced for substrate use (using existing properties only)
+- How this existing method can be adapted for substrate use (using existing properties only)
 - How it should be positioned/oriented to work with the contact object's utilization method
-- How to combine its contact-proxy role with its substrate role
 - Use ONLY the object's existing characteristics - NO additional setup or modifications
 
-**Key Consideration**: When a physical object already has a utilization method for the virtual substrate object from proxy matching, build upon that existing method rather than completely replacing it. The substrate utilization should complement and work with the existing contact utilization using only the object's inherent properties."""
+Focus your substrate utilization method on practical instructions only: how to position, orient, or use the substrate object. Do not include explanations about the resulting sensations, haptic feedback quality, or why the method works.
+
+**Key Consideration**: When a physical object already has a utilization method, build upon that existing method rather than replacing it. The substrate utilization should complement the existing contact utilization."""
     
     # Common evaluation guidelines
     guidelines_section = """
@@ -886,10 +962,10 @@ For each physical substrate candidate, consider:
 7. Focus on how to position, orient, or interact with the object using its inherent characteristics
 
 Examples of APPROPRIATE substrate utilization methods:
-- "Position the flat surface horizontally to serve as a stable base for tapping"
-- "Orient the curved surface to provide natural resistance when pressed"
-- "Use the object's weight and stability to absorb impact forces"
-- "Leverage the object's texture to provide tactile feedback through the contact object"
+- "Position the flat surface horizontally as a base"
+- "Orient the curved surface upward for contact"
+- "Place the object firmly on the surface"
+- "Align the textured side facing the contact point"
 
 Examples of INAPPROPRIATE substrate utilization methods:
 - "Install pressure sensors into the surface" (hardware installation)
@@ -897,22 +973,10 @@ Examples of INAPPROPRIATE substrate utilization methods:
 - "Modify the object's surface" (object modification)
 - "Add mechanical components" (hardware addition)
 
-Use the following evaluation guidelines when planning substrate utilization methods:
-
-**Harmony Considerations:**
-- Ensure the substrate positioning allows for synchronized physical and visual contact
-- Consider how the substrate positioning affects force direction alignment
-- Plan for substrate responses that match expected visual behavior
-
-**Expressivity Considerations:**
-- Think about how the substrate can provide varied feedback based on interaction parameters
-- Consider how different contact speeds, angles, or forces would affect the substrate response
-- Plan for substrate properties that can be effectively conveyed through the contact object
-
-**Realism Considerations:**
-- Focus on substrate utilization that delivers the essential haptic sensations described in the expected feedback
-- Ensure the substrate setup naturally affords the intended manipulation techniques
-- Consider how well the substrate can simulate the virtual substrate's key properties"""
+When planning substrate utilization methods, focus on:
+- Positioning that allows for practical contact between objects
+- Orientation that supports the intended interaction mechanics
+- Setup that can be immediately implemented without modifications"""
     
     # Common output format
     output_format = """
@@ -936,7 +1000,11 @@ FORMAT YOUR RESPONSE AS A JSON ARRAY with the following structure:
 ]
 ```
 
-Include ALL physical objects as potential substrate candidates in your evaluation."""
+CRITICAL EVALUATION REQUIREMENTS:
+1. Include ALL physical objects as potential substrate candidates in your evaluation.
+2. Always refer to the corresponding images to assess the TRUE physical properties and viability of each potential substrate object.
+3. Base your substrate utilization methods on visual evidence from the images regarding actual object dimensions, materials, stability, and structural characteristics.
+4. Ensure your proposed utilization methods are realistic and feasible based on what you can observe in the images, not just theoretical possibilities."""
     
     # Combine all sections
     full_prompt = base_intro + context_section + guidelines_section + output_format
@@ -2389,7 +2457,7 @@ async def run_property_ratings(virtual_objects, environment_images, physical_obj
     return final_results
 
 # Function to rate a single dimension for relationship rating
-async def rate_single_relationship_dimension(relationship_annotation, contact_object, substrate_objects, environment_images, physical_object_database, object_snapshot_map, enhanced_virtual_objects, proxy_matching_results, substrate_utilization_results, dimension_name, group_index=1):
+async def rate_single_relationship_dimension(relationship_annotation, contact_object, substrate_objects, environment_images, physical_object_database, object_snapshot_map, enhanced_virtual_objects, proxy_matching_results, substrate_utilization_results, dimension_name, group_index=1, node_annotations=None):
     try:
         virtual_contact_name = relationship_annotation.get("contactObject", "Unknown Contact Object")
         virtual_substrate_name = relationship_annotation.get("substrateObject", "Unknown Substrate Object")
@@ -2439,6 +2507,14 @@ async def rate_single_relationship_dimension(relationship_annotation, contact_ob
         contact_interaction_deduction = virtual_contact_obj.get("interactionDeduction", "No interaction deduction available") if virtual_contact_obj else "No interaction deduction available"
         contact_dimensions = virtual_contact_obj.get("dimensions_meters", {}) if virtual_contact_obj else {}
         substrate_dimensions = virtual_substrate_obj.get("dimensions_meters", {}) if virtual_substrate_obj else {}
+        
+        # If substrate dimensions are not available in enhanced_virtual_objects, 
+        # fall back to the original haptic annotation data
+        if not substrate_dimensions and node_annotations:
+            for node in node_annotations:
+                if node.get("objectName") == virtual_substrate_name:
+                    substrate_dimensions = node.get("dimensions_meters", {})
+                    break
         
         # Format dimensions for display
         def format_dimensions(dims):
@@ -2879,6 +2955,7 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
         # Parse the haptic annotation JSON
         haptic_data = json.loads(haptic_annotation_json)
         relationship_annotations = haptic_data.get("relationshipAnnotations", [])
+        node_annotations = haptic_data.get("nodeAnnotations", [])
         
         if not relationship_annotations:
             log("No relationship annotations found in haptic data")
@@ -3039,7 +3116,8 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
                             proxy_matching_results,
                             substrate_utilization_results,
                             dimension,
-                            group_counter
+                            group_counter,
+                            node_annotations
                         )
                         all_tasks.append(task)
                     
@@ -3463,7 +3541,7 @@ def calculate_final_scores(property_rating_results, proxy_matching_results):
 
 # Function to generate substrate utilization methods for a single contact-substrate relationship
 @traceable(run_type="llm", metadata={"process": "substrate_utilization"})
-async def generate_substrate_utilization_for_contact(relationship_annotation, contact_object, environment_images, physical_object_database, object_snapshot_map, enhanced_virtual_objects, proxy_matching_results):
+async def generate_substrate_utilization_for_contact(relationship_annotation, contact_object, environment_images, physical_object_database, object_snapshot_map, enhanced_virtual_objects, proxy_matching_results, node_annotations=None):
     try:
         virtual_contact_name = relationship_annotation.get("contactObject", "Unknown Contact Object")
         virtual_substrate_name = relationship_annotation.get("substrateObject", "Unknown Substrate Object")
@@ -3526,6 +3604,14 @@ async def generate_substrate_utilization_for_contact(relationship_annotation, co
         contact_interaction_deduction = virtual_contact_obj.get("interactionDeduction", "No interaction deduction available") if virtual_contact_obj else "No interaction deduction available"
         contact_dimensions = virtual_contact_obj.get("dimensions_meters", {}) if virtual_contact_obj else {}
         substrate_dimensions = virtual_substrate_obj.get("dimensions_meters", {}) if virtual_substrate_obj else {}
+        
+        # If substrate dimensions are not available in enhanced_virtual_objects, 
+        # fall back to the original haptic annotation data
+        if not substrate_dimensions and node_annotations:
+            for node in node_annotations:
+                if node.get("objectName") == virtual_substrate_name:
+                    substrate_dimensions = node.get("dimensions_meters", {})
+                    break
         
         # Format dimensions for display
         def format_dimensions(dims):
@@ -4047,6 +4133,7 @@ async def run_substrate_utilization_methods(haptic_annotation_json, environment_
         # Parse the haptic annotation JSON
         haptic_data = json.loads(haptic_annotation_json)
         relationship_annotations = haptic_data.get("relationshipAnnotations", [])
+        node_annotations = haptic_data.get("nodeAnnotations", [])
         
         if not relationship_annotations:
             log("No relationship annotations found in haptic data")
@@ -4191,7 +4278,8 @@ async def run_substrate_utilization_methods(haptic_annotation_json, environment_
                         physical_object_database,
                         object_snapshot_map,
                         enhanced_virtual_objects,
-                        proxy_matching_results
+                        proxy_matching_results,
+                        node_annotations
                     )
                     all_tasks.append(task)
                 else:
@@ -4254,8 +4342,8 @@ async def run_substrate_utilization_methods(haptic_annotation_json, environment_
 
 def correct_object_ids_in_relationship_results(relationship_results, physical_object_database):
     """
-    Corrects the object IDs in relationship rating results by looking up the correct IDs
-    based on object names and image IDs from the physical object database.
+    Corrects both object IDs and image IDs in relationship rating results by looking up 
+    the correct IDs based on object names from the physical object database.
     Uses fuzzy matching to handle slight variations in object names.
     
     Args:
@@ -4267,9 +4355,11 @@ def correct_object_ids_in_relationship_results(relationship_results, physical_ob
     """
     corrected_results = []
     
-    # Create a lookup dictionary for quick ID resolution
+    # Create comprehensive lookup dictionaries
     # Format: {image_id: {object_name: object_id}}
     object_lookup = {}
+    # Format: {object_name: [(image_id, object_id)]}  # For finding correct image_id when wrong
+    name_to_locations = {}
     
     for image_id_str, objects in physical_object_database.items():
         image_id = int(image_id_str)
@@ -4280,6 +4370,11 @@ def correct_object_ids_in_relationship_results(relationship_results, physical_ob
             object_id = obj.get("object_id")
             if object_name and object_id is not None:
                 object_lookup[image_id][object_name] = object_id
+                
+                # Also build reverse lookup for finding correct image_id
+                if object_name not in name_to_locations:
+                    name_to_locations[object_name] = []
+                name_to_locations[object_name].append((image_id, object_id))
     
     def find_best_match_object_id(target_name, image_id, threshold=0.8):
         """
@@ -4314,39 +4409,128 @@ def correct_object_ids_in_relationship_results(relationship_results, physical_ob
         
         return best_match, best_score
     
+    def find_correct_image_and_object_id(target_name, threshold=0.8):
+        """
+        Find the correct image_id and object_id for an object by searching across all images.
+        Uses fuzzy matching to handle slight variations in object names.
+        
+        Args:
+            target_name: The object name to match
+            threshold: Minimum similarity threshold (0.0 to 1.0)
+        
+        Returns:
+            Tuple of (image_id, object_id, similarity_score) or (None, None, 0) if no good match
+        """
+        target_name_clean = target_name.strip().lower()
+        
+        # First try exact match across all images
+        if target_name_clean in name_to_locations:
+            # If there are multiple locations, prefer the first one (could be enhanced with additional logic)
+            image_id, object_id = name_to_locations[target_name_clean][0]
+            return image_id, object_id, 1.0
+        
+        # Try fuzzy matching across all images
+        best_match = None
+        best_score = 0
+        best_image_id = None
+        best_object_id = None
+        
+        for image_id, objects_dict in object_lookup.items():
+            for db_name, db_id in objects_dict.items():
+                similarity = difflib.SequenceMatcher(None, target_name_clean, db_name).ratio()
+                if similarity > best_score and similarity >= threshold:
+                    best_match = db_name
+                    best_score = similarity
+                    best_image_id = image_id
+                    best_object_id = db_id
+        
+        return best_image_id, best_object_id, best_score
+    
     # Process each relationship result
     for result in relationship_results:
         corrected_result = result.copy()  # Create a copy to avoid modifying the original
         
-        # Correct contact object ID
+        # Correct contact object ID and potentially image ID
         contact_object_name = result.get("physicalContactObject", "")
         contact_image_id = result.get("contactImage_id")
         
-        if contact_object_name and contact_image_id is not None:
-            correct_contact_id, similarity = find_best_match_object_id(contact_object_name, contact_image_id)
-            if correct_contact_id is not None:
-                corrected_result["contactObject_id"] = correct_contact_id
-                if similarity < 1.0:
-                    log(f"Corrected contact object ID with fuzzy match (similarity: {similarity:.2f}): '{contact_object_name}' in image {contact_image_id} from {result.get('contactObject_id')} to {correct_contact_id}")
+        if contact_object_name:
+            # First try to find object in the specified image
+            if contact_image_id is not None:
+                correct_contact_id, similarity = find_best_match_object_id(contact_object_name, contact_image_id)
+                if correct_contact_id is not None:
+                    corrected_result["contactObject_id"] = correct_contact_id
+                    if similarity < 1.0:
+                        log(f"Corrected contact object ID with fuzzy match (similarity: {similarity:.2f}): '{contact_object_name}' in image {contact_image_id} from {result.get('contactObject_id')} to {correct_contact_id}")
+                    else:
+                        log(f"Corrected contact object ID: '{contact_object_name}' in image {contact_image_id} from {result.get('contactObject_id')} to {correct_contact_id}")
                 else:
-                    log(f"Corrected contact object ID: '{contact_object_name}' in image {contact_image_id} from {result.get('contactObject_id')} to {correct_contact_id}")
+                    # Object not found in specified image, search across all images
+                    log(f"Contact object '{contact_object_name}' not found in image {contact_image_id}, searching across all images...")
+                    correct_image_id, correct_contact_id, similarity = find_correct_image_and_object_id(contact_object_name)
+                    if correct_contact_id is not None:
+                        corrected_result["contactImage_id"] = correct_image_id
+                        corrected_result["contactObject_id"] = correct_contact_id
+                        if similarity < 1.0:
+                            log(f"Corrected contact object with fuzzy match (similarity: {similarity:.2f}): '{contact_object_name}' moved from image {contact_image_id} to image {correct_image_id}, object_id from {result.get('contactObject_id')} to {correct_contact_id}")
+                        else:
+                            log(f"Corrected contact object: '{contact_object_name}' moved from image {contact_image_id} to image {correct_image_id}, object_id from {result.get('contactObject_id')} to {correct_contact_id}")
+                    else:
+                        log(f"Warning: Could not find correct IDs for contact object '{contact_object_name}' in any image")
             else:
-                log(f"Warning: Could not find correct ID for contact object '{contact_object_name}' in image {contact_image_id}")
+                # No image ID specified, search across all images
+                log(f"No contact image_id specified for '{contact_object_name}', searching across all images...")
+                correct_image_id, correct_contact_id, similarity = find_correct_image_and_object_id(contact_object_name)
+                if correct_contact_id is not None:
+                    corrected_result["contactImage_id"] = correct_image_id
+                    corrected_result["contactObject_id"] = correct_contact_id
+                    if similarity < 1.0:
+                        log(f"Found contact object with fuzzy match (similarity: {similarity:.2f}): '{contact_object_name}' in image {correct_image_id}, object_id {correct_contact_id}")
+                    else:
+                        log(f"Found contact object: '{contact_object_name}' in image {correct_image_id}, object_id {correct_contact_id}")
+                else:
+                    log(f"Warning: Could not find correct IDs for contact object '{contact_object_name}' in any image")
         
-        # Correct substrate object ID
+        # Correct substrate object ID and potentially image ID
         substrate_object_name = result.get("physicalSubstrateObject", "")
         substrate_image_id = result.get("substrateImage_id")
         
-        if substrate_object_name and substrate_image_id is not None:
-            correct_substrate_id, similarity = find_best_match_object_id(substrate_object_name, substrate_image_id)
-            if correct_substrate_id is not None:
-                corrected_result["substrateObject_id"] = correct_substrate_id
-                if similarity < 1.0:
-                    log(f"Corrected substrate object ID with fuzzy match (similarity: {similarity:.2f}): '{substrate_object_name}' in image {substrate_image_id} from {result.get('substrateObject_id')} to {correct_substrate_id}")
+        if substrate_object_name:
+            # First try to find object in the specified image
+            if substrate_image_id is not None:
+                correct_substrate_id, similarity = find_best_match_object_id(substrate_object_name, substrate_image_id)
+                if correct_substrate_id is not None:
+                    corrected_result["substrateObject_id"] = correct_substrate_id
+                    if similarity < 1.0:
+                        log(f"Corrected substrate object ID with fuzzy match (similarity: {similarity:.2f}): '{substrate_object_name}' in image {substrate_image_id} from {result.get('substrateObject_id')} to {correct_substrate_id}")
+                    else:
+                        log(f"Corrected substrate object ID: '{substrate_object_name}' in image {substrate_image_id} from {result.get('substrateObject_id')} to {correct_substrate_id}")
                 else:
-                    log(f"Corrected substrate object ID: '{substrate_object_name}' in image {substrate_image_id} from {result.get('substrateObject_id')} to {correct_substrate_id}")
+                    # Object not found in specified image, search across all images
+                    log(f"Substrate object '{substrate_object_name}' not found in image {substrate_image_id}, searching across all images...")
+                    correct_image_id, correct_substrate_id, similarity = find_correct_image_and_object_id(substrate_object_name)
+                    if correct_substrate_id is not None:
+                        corrected_result["substrateImage_id"] = correct_image_id
+                        corrected_result["substrateObject_id"] = correct_substrate_id
+                        if similarity < 1.0:
+                            log(f"Corrected substrate object with fuzzy match (similarity: {similarity:.2f}): '{substrate_object_name}' moved from image {substrate_image_id} to image {correct_image_id}, object_id from {result.get('substrateObject_id')} to {correct_substrate_id}")
+                        else:
+                            log(f"Corrected substrate object: '{substrate_object_name}' moved from image {substrate_image_id} to image {correct_image_id}, object_id from {result.get('substrateObject_id')} to {correct_substrate_id}")
+                    else:
+                        log(f"Warning: Could not find correct IDs for substrate object '{substrate_object_name}' in any image")
             else:
-                log(f"Warning: Could not find correct ID for substrate object '{substrate_object_name}' in image {substrate_image_id}")
+                # No image ID specified, search across all images
+                log(f"No substrate image_id specified for '{substrate_object_name}', searching across all images...")
+                correct_image_id, correct_substrate_id, similarity = find_correct_image_and_object_id(substrate_object_name)
+                if correct_substrate_id is not None:
+                    corrected_result["substrateImage_id"] = correct_image_id
+                    corrected_result["substrateObject_id"] = correct_substrate_id
+                    if similarity < 1.0:
+                        log(f"Found substrate object with fuzzy match (similarity: {similarity:.2f}): '{substrate_object_name}' in image {correct_image_id}, object_id {correct_substrate_id}")
+                    else:
+                        log(f"Found substrate object: '{substrate_object_name}' in image {correct_image_id}, object_id {correct_substrate_id}")
+                else:
+                    log(f"Warning: Could not find correct IDs for substrate object '{substrate_object_name}' in any image")
         
         corrected_results.append(corrected_result)
     

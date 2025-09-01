@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -25.0479873145827,
+    "loss_components": {
+      "L_realism": -10.547606396680958,
+      "L_interaction": -14.50038091790174,
+      "L_spatial": 6.122465675023917,
+      "total": -25.0479873145827
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 36,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 0
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "transparent plastic ruler with silver markings",
+        "object_id": 8,
+        "image_id": 0,
+        "index": 7
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place one palm on the flat ruler and slide it forward along the desk"
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "individually wrapped snack bar in clear plastic",
+        "object_id": 6,
+        "image_id": 2,
+        "index": 22
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Grip the bar length-wise between thumb and fingers and press gently along its sides"
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "black-and-white patterned umbrella with curved handle",
+        "object_id": 5,
+        "image_id": 4,
+        "index": 35
+      },
+      "realism_score": 5.222221910953522,
+      "utilization_method": "Slip fingers around the curved handle, thumb on top, raise umbrella slightly and pivot wrist to simulate mug rotation."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "white oscillating desk fan",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 4.166666666666667,
+      "utilization_method": "Hold the fan\u2019s neck just above the base with your dominant hand, cup the other hand under the head, and swing the fan forward like a head-heavy tool."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "white plastic spray bottle",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 16
+      },
+      "realism_score": 4.0,
+      "utilization_method": "Wrap fingers around the neck of the bottle below the trigger and swing the heavier fluid-filled base forward to tap it on the shelf"
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "black and silver telescopic monopod (selfie stick)",
+        "object_id": 7,
+        "image_id": 3,
+        "index": 29
+      },
+      "realism_score": 5.666666666666667,
+      "utilization_method": "Hold the padded grip, keep the pole retracted, and swing the clamp end inward in controlled harvesting motions"
+    }
+  ]
+}

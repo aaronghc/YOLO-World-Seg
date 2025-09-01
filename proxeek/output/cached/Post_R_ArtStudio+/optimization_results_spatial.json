@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -26.49403090541997,
+    "loss_components": {
+      "L_realism": -12.951691698285082,
+      "L_interaction": -13.542339207134887,
+      "L_spatial": 15.227100193141714,
+      "total": -26.49403090541997
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 30,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 0
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "black faux leather two-seater sofa",
+        "object_id": 1,
+        "image_id": 4,
+        "index": 26
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand in front of the sofa and draw broad strokes over the taut backrest section with the pen tip."
+    },
+    {
+      "virtual_object": {
+        "name": "Marker",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "AA battery",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 17
+      },
+      "realism_score": 5.714285373687744,
+      "utilization_method": "Grip the battery near one flat end with thumb, index, and middle finger and perform controlled drawing strokes."
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "yellow plastic bag of Japanese snacks",
+        "object_id": 2,
+        "image_id": 4,
+        "index": 27
+      },
+      "realism_score": 4.416666666666666,
+      "utilization_method": "Hold the bottom corner in one hand, place thumb on the front face and fingers on the back, then squeeze and push contents toward the opposite corner"
+    },
+    {
+      "virtual_object": {
+        "name": "Paper",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "grey office desk surface",
+        "object_id": 9,
+        "image_id": 0,
+        "index": 8
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Simply use the desktop itself, resting the battery\u2019s free flat end on the desk and executing strokes across the laminate surface."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black ballpoint pen",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 6.190475821495056,
+      "utilization_method": "Hold the pen halfway down its barrel with a writing grip and make light strokes over the desk surface"
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "telescoping metal selfie stick with black plastic handle",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 20
+      },
+      "realism_score": 5.666666666666666,
+      "utilization_method": "Grip the black handle, extend the telescoping rod fully, press the phone holder clamp against a wall, and sweep it up and down in large arcs."
+    }
+  ]
+}

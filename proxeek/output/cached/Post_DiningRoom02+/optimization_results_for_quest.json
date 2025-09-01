@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Fork",
+      "proxyObjectName": "transparent plastic 15 cm ruler",
+      "utilizationMethod": "Grip the ruler\u2019s short end between thumb and index finger so the long edge projects ahead, then swing and tap the distant edge like fork tines"
+    },
+    {
+      "virtualObjectName": "Knife",
+      "proxyObjectName": "pair of black and yellow scissors",
+      "utilizationMethod": "Close the blades, grasp one closed blade by its flat side between thumb and fingers, extend the index finger along its spine, and saw the closed blades across the shelf"
+    },
+    {
+      "virtualObjectName": "Spoon",
+      "proxyObjectName": "black car key fob",
+      "utilizationMethod": "Grip the metal key ring tab like a handle and swing the fob body in gentle spoon-lifting motions"
+    },
+    {
+      "virtualObjectName": "Soup",
+      "proxyObjectName": "clear plastic cup",
+      "utilizationMethod": "Hold the cup upright on the desk with your free hand; dip the ruler tip inside the cup and swirl it around the inner wall in small circles near the bottom."
+    },
+    {
+      "virtualObjectName": "Steak",
+      "proxyObjectName": "yellow and green cleaning sponge",
+      "utilizationMethod": "Place the sponge flat with the yellow side up; drive the tape straight down through the soft foam until it reaches the denser green scrubbing layer."
+    },
+    {
+      "virtualObjectName": "Pepper",
+      "proxyObjectName": "green round retractable tape measure",
+      "utilizationMethod": "Hold the circular casing in the palm with thumb over the center, turn the tape outlet downward, and perform rapid shake motions"
+    }
+  ],
+  "timestamp": "6bace104-bbfc-408b-9834-cb3aca661ac3",
+  "total_assignments": 6
+}

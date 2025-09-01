@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Easel",
+      "proxyObjectName": "black faux leather two-seater sofa",
+      "utilizationMethod": "Use the upright backrest as a vertical canvas and sweep the curved handle across the leather surface"
+    },
+    {
+      "virtualObjectName": "Marker",
+      "proxyObjectName": "black ballpoint pen",
+      "utilizationMethod": "Hold the pen near its writing tip with a tripod grip and move the wrist to sketch on an imaginary surface."
+    },
+    {
+      "virtualObjectName": "Tube",
+      "proxyObjectName": "clear disposable plastic cup",
+      "utilizationMethod": "Grip the rim with fingertips and thumb, then crush the side walls inward in small squeezes progressing toward the base"
+    },
+    {
+      "virtualObjectName": "Paper",
+      "proxyObjectName": "grey office desk surface",
+      "utilizationMethod": "Use the desk exactly as it sits; place the pen tip on the tabletop and move it freely across the laminate surface."
+    },
+    {
+      "virtualObjectName": "Paint Brush",
+      "proxyObjectName": "black and white patterned umbrella with curved handle",
+      "utilizationMethod": "Grip the shaft near its midpoint between thumb and index finger and sweep the curved handle end through the air like a large brush"
+    },
+    {
+      "virtualObjectName": "Paint Roller",
+      "proxyObjectName": "telescoping metal selfie stick with black plastic handle",
+      "utilizationMethod": "Grip the black handle, extend the telescoping rod fully, press the phone holder clamp against a wall, and sweep it up and down in large arcs."
+    }
+  ],
+  "timestamp": "a5312b44-e2f8-40ed-8e5e-6c1bc15a1512",
+  "total_assignments": 6
+}

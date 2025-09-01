@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Easel",
+      "proxyObjectName": "rectangular two-tone yellow and green kitchen sponge",
+      "utilizationMethod": "Place the sponge flat on the desk with the soft yellow side facing up and glide the pen tip across its surface while pressing lightly to compress the foam."
+    },
+    {
+      "virtualObjectName": "Marker",
+      "proxyObjectName": "wood-handled brush with black bristles",
+      "utilizationMethod": "Grip the wooden handle near its middle with thumb and fingers and guide the bristle end like a marker tip"
+    },
+    {
+      "virtualObjectName": "Tube",
+      "proxyObjectName": "yellow snack bag with Japanese writing",
+      "utilizationMethod": "Grip the lower portion of the bag and push contents toward the top by sliding thumb upward along the back"
+    },
+    {
+      "virtualObjectName": "Paper",
+      "proxyObjectName": "blue and white Pilot FriXion eraser box",
+      "utilizationMethod": "Lay the closed box flat on its largest face; glide the battery tip across the smooth top panel."
+    },
+    {
+      "virtualObjectName": "Paint Brush",
+      "proxyObjectName": "black ballpoint pen",
+      "utilizationMethod": "Hold the pen near its tip with a pencil grip and perform fine wrist strokes and gentle rotations."
+    },
+    {
+      "virtualObjectName": "Paint Roller",
+      "proxyObjectName": "black and silver telescopic selfie stick",
+      "utilizationMethod": "Hold the foam grip firmly, extend the pole, rest the phone clamp lightly against a wall or desk, and drive the arm forward and back in long strokes."
+    }
+  ],
+  "timestamp": "0b96b976-f6dd-451c-9405-cae6dafa6659",
+  "total_assignments": 6
+}

@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -21.084079461875152,
+    "loss_components": {
+      "L_realism": -7.6944442341725034,
+      "L_interaction": -15.445385481012869,
+      "L_spatial": 2.0557502533102188,
+      "total": -21.084079461875152
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 35,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "green turtle shell plush pillow with white rim",
+        "object_id": 2,
+        "image_id": 4,
+        "index": 31
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the plush pillow on a flat surface with the green shell facing up and glide the pen across the soft fabric while applying gradual pressure."
+    },
+    {
+      "virtual_object": {
+        "name": "Marker",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "wood-handled brush with black bristles",
+        "object_id": 7,
+        "image_id": 3,
+        "index": 28
+      },
+      "realism_score": 4.238094985485077,
+      "utilization_method": "Grip the wooden handle near its middle with thumb and fingers and guide the bristle end like a marker tip"
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "orange ping-pong ball",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 2.5555556317170462,
+      "utilization_method": "Hold the ball between thumb and two fingers and apply gentle squeezing pressure"
+    },
+    {
+      "virtual_object": {
+        "name": "Paper",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "blue and white Pilot FriXion eraser box",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 18
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the closed box flat on its largest face; glide the battery tip across the smooth top panel."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "clear wine glass with stem",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 17
+      },
+      "realism_score": 4.095237851142883,
+      "utilization_method": "Grip the stem between thumb and index finger and trace flowing arcs with the bowl."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black and silver telescopic selfie stick",
+        "object_id": 8,
+        "image_id": 3,
+        "index": 29
+      },
+      "realism_score": 4.5,
+      "utilization_method": "Hold the foam grip firmly, extend the pole, rest the phone clamp lightly against a wall or desk, and drive the arm forward and back in long strokes."
+    }
+  ]
+}

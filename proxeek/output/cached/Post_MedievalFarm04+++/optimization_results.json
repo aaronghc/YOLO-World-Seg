@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -18.08613983336464,
+    "loss_components": {
+      "L_realism": -9.932851080753506,
+      "L_interaction": -8.263472996173121,
+      "L_spatial": 0.11018424356198714,
+      "total": -18.08613983336464
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 32,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "yellow rectangular cleaning sponge with green scrub side",
+        "object_id": 5,
+        "image_id": 1,
+        "index": 14
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the sponge flat on the surface with the yellow soft side facing upward; deliver the downward blow to the center of that surface."
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "black and grey cushioned office chair",
+        "object_id": 9,
+        "image_id": 0,
+        "index": 8
+      },
+      "realism_score": 0.0,
+      "utilization_method": "No method available for this object"
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "folded umbrella with black and white checkered fabric and curved handle",
+        "object_id": 4,
+        "image_id": 4,
+        "index": 31
+      },
+      "realism_score": 4.7777774930000305,
+      "utilization_method": "Hold the curved handle with a relaxed full-hand grip so the folded shaft extends forward"
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "white table fan with protective grill and round base",
+        "object_id": 8,
+        "image_id": 0,
+        "index": 7
+      },
+      "realism_score": 4.833333333333334,
+      "utilization_method": "Grasp the neck column just below the grill with one hand, lift the fan clear of the desk, and swing the heavy grill end downward like an axe head."
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "large Apple iMac desktop monitor with silver stand",
+        "object_id": 1,
+        "image_id": 0,
+        "index": 0
+      },
+      "realism_score": 3.666666666666667,
+      "utilization_method": "Slip one hand around the thin neck of the silver stand close to the base and swing the screen forward and downward in a short arc while maintaining that grip."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "white spray bottle filled with blue liquid",
+        "object_id": 4,
+        "image_id": 1,
+        "index": 13
+      },
+      "realism_score": 4.666666666666666,
+      "utilization_method": "Clasp the cylindrical neck just below the trigger, point the nozzle outward, and sweep the bottle in repeated inward arcs."
+    }
+  ]
+}

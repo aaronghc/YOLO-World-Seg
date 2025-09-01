@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "rectangular packaged snack bar with red and yellow wrapping",
+      "utilizationMethod": "Lay the snack bar flat; drive the fan\u2019s base onto the wrapper until the contents compress to the table."
+    },
+    {
+      "virtualObjectName": "FireWood",
+      "proxyObjectName": "white office desk with drawer",
+      "utilizationMethod": "Stand beside the desk and drive the phone clamp straight down onto a clear spot on the desktop surface."
+    },
+    {
+      "virtualObjectName": "Mug",
+      "proxyObjectName": "wooden-handled bench brush with black bristles",
+      "utilizationMethod": "Wrap the hand around the narrow wooden handle right behind the bristles, then lift and tilt so the bristle block swings outward"
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "black telescoping selfie stick (monopod)",
+      "utilizationMethod": "Close fingers around the extended metal shaft near its middle, allow the phone clamp to act as the weighted head, and swing overhead in broad chopping arcs"
+    },
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "small cylindrical silver metal container or calibration weight",
+      "utilizationMethod": "Clasp the sides, lift it overhead, and knock the bottom face onto the surface"
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "grey camouflage-patterned wireless game controller",
+      "utilizationMethod": "Wrap your hand around one grip of the controller and swing the opposite side inward like a curved blade"
+    }
+  ],
+  "timestamp": "4d8ecc1c-9a24-4fd5-9f2b-382f5c1aafbd",
+  "total_assignments": 6
+}

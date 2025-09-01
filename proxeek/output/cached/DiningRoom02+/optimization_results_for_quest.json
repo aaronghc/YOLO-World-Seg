@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Fork",
+      "proxyObjectName": "white wireless computer mouse",
+      "utilizationMethod": "Pinch the front edge of the mouse between thumb and two fingers so that the narrow front projects outward like tines"
+    },
+    {
+      "virtualObjectName": "Knife",
+      "proxyObjectName": "clear 30 cm plastic ruler with metric markings",
+      "utilizationMethod": "Hold one short end of the ruler between thumb and fingers like a handle, press the long flat edge onto the table, and glide it forward and back in controlled cutting strokes."
+    },
+    {
+      "virtualObjectName": "Spoon",
+      "proxyObjectName": "dark grey metal phone/tablet stand",
+      "utilizationMethod": "Grip the stand at its hinge between thumb and index finger, let the flat support plate extend forward, dip the plate toward the surface, raise and tilt it back while moving the hand toward the mouth area."
+    },
+    {
+      "virtualObjectName": "Soup",
+      "proxyObjectName": "small wooden handheld broom with black bristles",
+      "utilizationMethod": "Place the broom on the table with the bristles facing upward. Lower the ruler\u2019s far tip into the dense bristle field and rotate the wrist in compact circles, keeping the tip nestled among the bristles."
+    },
+    {
+      "virtualObjectName": "Steak",
+      "proxyObjectName": "compact mechanical keyboard with dark grey keycaps and a red escape key",
+      "utilizationMethod": "Rest the keyboard flat on the desk. Position the ruler tip between two adjacent keycaps and push downward so the key switches travel and the edge settles between the moving caps."
+    },
+    {
+      "virtualObjectName": "Pepper",
+      "proxyObjectName": "orange table tennis ball (ping pong ball)",
+      "utilizationMethod": "Cup the ball inside the closed hand, rotate the hand so the ball faces downward through the fingers, and shake the wrist lightly"
+    }
+  ],
+  "timestamp": "62fc33d8-c091-413b-a0d7-c34dc1139979",
+  "total_assignments": 6
+}

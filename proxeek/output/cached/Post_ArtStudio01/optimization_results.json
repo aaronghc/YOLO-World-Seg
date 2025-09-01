@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -23.305760918544735,
+    "loss_components": {
+      "L_realism": -11.365079159537952,
+      "L_interaction": -13.355503768935524,
+      "L_spatial": 1.4148220099287399,
+      "total": -23.305760918544735
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 36,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black leather two-seat sofa",
+        "object_id": 1,
+        "image_id": 4,
+        "index": 31
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Kneel beside the sofa and glide the pen across the smooth leather seat cushion in sweeping arcs."
+    },
+    {
+      "virtual_object": {
+        "name": "Marker",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "AA battery (upright)",
+        "object_id": 4,
+        "image_id": 3,
+        "index": 26
+      },
+      "realism_score": 5.666666328907013,
+      "utilization_method": "Hold the cylindrical battery near its positive terminal with a pen-like grip and move hand to draw"
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "yellow UHU-brand glue tube",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 12
+      },
+      "realism_score": 6.7777779797712965,
+      "utilization_method": "Curl fingers around the flattened body while thumb rests opposite, then squeeze the pliable tube repeatedly toward the nozzle end."
+    },
+    {
+      "virtual_object": {
+        "name": "Paper",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "blue and white tissue box with one tissue pulled out",
+        "object_id": 6,
+        "image_id": 3,
+        "index": 28
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Flatten the exposed tissue back against the box and use the smooth top panel of the box as the writing surface."
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "clear stemmed wine glass",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 18
+      },
+      "realism_score": 4.6190473437309265,
+      "utilization_method": "Hold the stem near its midpoint with a light pinch grip and guide the bowl\u2019s base rim across the table in smooth strokes"
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black-handled telescoping selfie stick/monopod",
+        "object_id": 8,
+        "image_id": 3,
+        "index": 30
+      },
+      "realism_score": 5.666666666666666,
+      "utilization_method": "Grip the foam handle, extend the pole slightly, and sweep the phone clamp end in broad arcs as if rolling paint"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "small black and silver electric iron with coiled power cord",
+      "position": "bottom left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.0,
+          "y1": 289.8438720703125,
+          "x2": 436.1622619628906,
+          "y2": 739.67919921875,
+          "width": 436.1622619628906,
+          "height": 449.8353271484375,
+          "center_x": 218.0811309814453,
+          "center_y": 514.7615356445312
+        },
+        "mask_center": {
+          "x": 249.0,
+          "y": 449.0
+        },
+        "confidence": 0.26619741320610046,
+        "detected_name": "small black and silver electric iron with coiled power cord",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -0.8901638,
+        "y": 0.7228177,
+        "z": -2.228161
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "white wireless computer mouse",
+      "position": "upper center-left of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 376.251220703125,
+          "y1": 126.12557983398438,
+          "x2": 529.4346313476562,
+          "y2": 250.44085693359375,
+          "width": 153.18341064453125,
+          "height": 124.31527709960938,
+          "center_x": 452.8429260253906,
+          "center_y": 188.28321838378906
+        },
+        "mask_center": {
+          "x": 465.0,
+          "y": 188.0
+        },
+        "confidence": 0.9273771643638611,
+        "detected_name": "white wireless computer mouse",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.25611722,
+        "y": 0.7136439,
+        "z": -2.37962246
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "plain wooden stick (bamboo skewer or dowel)",
+      "position": "center of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 667.6721801757812,
+          "y1": 155.51031494140625,
+          "x2": 769.6848754882812,
+          "y2": 448.380126953125,
+          "width": 102.0126953125,
+          "height": 292.86981201171875,
+          "center_x": 718.6785278320312,
+          "center_y": 301.9452209472656
+        },
+        "mask_center": {
+          "x": 681.0,
+          "y": 424.0
+        },
+        "confidence": 0.002194069791585207,
+        "detected_name": "plain wooden stick (bamboo skewer or dowel)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.49254107,
+        "y": 0.7661253,
+        "z": -2.54039168
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "green and yellow kitchen sponge",
+      "position": "upper right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 932.609375,
+          "y1": 3.3657379150390625,
+          "x2": 1127.90625,
+          "y2": 158.4034881591797,
+          "width": 195.296875,
+          "height": 155.03775024414062,
+          "center_x": 1030.2578125,
+          "center_y": 80.88461303710938
+        },
+        "mask_center": {
+          "x": 1043.0,
+          "y": 85.0
+        },
+        "confidence": 0.0019194375490769744,
+        "detected_name": "green and yellow kitchen sponge",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.04428589,
+        "y": 0.785185933,
+        "z": -1.8908577
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "orange table tennis ball (ping pong ball)",
+      "position": "lower center-right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 881.1036376953125,
+          "y1": 455.01593017578125,
+          "x2": 971.8131103515625,
+          "y2": 544.78125,
+          "width": 90.70947265625,
+          "height": 89.76531982421875,
+          "center_x": 926.4583740234375,
+          "center_y": 499.8985900878906
+        },
+        "mask_center": {
+          "x": 925.0,
+          "y": 498.0
+        },
+        "confidence": 0.030263246968388557,
+        "detected_name": "orange table tennis ball (ping pong ball)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.295943,
+        "y": 0.7052219,
+        "z": -2.186078
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "small metal key with black plastic head",
+      "position": "center-right of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 1092.005859375,
+          "y1": 389.5064697265625,
+          "x2": 1143.427734375,
+          "y2": 473.02801513671875,
+          "width": 51.421875,
+          "height": 83.52154541015625,
+          "center_x": 1117.716796875,
+          "center_y": 431.2672424316406
+        },
+        "mask_center": {
+          "x": 1120.0,
+          "y": 413.0
+        },
+        "confidence": 0.036191340535879135,
+        "detected_name": "small metal key with black plastic head",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.44973791,
+        "y": 0.688753247,
+        "z": -2.02654576
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "compact mechanical keyboard with dark grey keycaps and a red escape key",
+      "position": "bottom left area of the table",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 96.91473388671875,
+          "y1": 165.47247314453125,
+          "x2": 513.9514770507812,
+          "y2": 503.1671142578125,
+          "width": 417.0367431640625,
+          "height": 337.69464111328125,
+          "center_x": 305.43310546875,
+          "center_y": 334.3197937011719
+        },
+        "mask_center": {
+          "x": 218.0,
+          "y": 405.0
+        },
+        "confidence": 0.6195434331893921,
+        "detected_name": "compact mechanical keyboard with dark grey keycaps and a red escape key",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -3.01107121,
+        "y": 0.7317133,
+        "z": 0.5292304
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "pack of green and white facial tissues with one tissue pulled out",
+      "position": "bottom left corner of the table",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 14.90386962890625,
+          "y1": 567.9329223632812,
+          "x2": 428.6451416015625,
+          "y2": 888.6749877929688,
+          "width": 413.74127197265625,
+          "height": 320.7420654296875,
+          "center_x": 221.77450561523438,
+          "center_y": 728.303955078125
+        },
+        "mask_center": {
+          "x": 98.0,
+          "y": 801.0
+        },
+        "confidence": 0.010020200163125992,
+        "detected_name": "pack of green and white facial tissues with one tissue pulled out",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.93995619,
+        "y": 0.729083538,
+        "z": 0.783436239
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "clear 30 cm plastic ruler with metric markings",
+      "position": "center right of the table",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 792.9700927734375,
+          "y1": 369.3831787109375,
+          "x2": 862.868408203125,
+          "y2": 657.187255859375,
+          "width": 69.8983154296875,
+          "height": 287.8040771484375,
+          "center_x": 827.9192504882812,
+          "center_y": 513.2852172851562
+        },
+        "mask_center": {
+          "x": 835.0,
+          "y": 628.0
+        },
+        "confidence": 0.38349607586860657,
+        "detected_name": "clear 30 cm plastic ruler with metric markings",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.71333814,
+        "y": 0.7182154,
+        "z": 0.719584644
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "grey 3D-printed rabbit figurine",
+      "position": "upper center of the table",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 688.8645629882812,
+          "y1": 110.29817199707031,
+          "x2": 782.7206420898438,
+          "y2": 228.68101501464844,
+          "width": 93.8560791015625,
+          "height": 118.38284301757812,
+          "center_x": 735.7926025390625,
+          "center_y": 169.48959350585938
+        },
+        "mask_center": {
+          "x": 735.0,
+          "y": 190.0
+        },
+        "confidence": 0.02366475760936737,
+        "detected_name": "grey 3D-printed rabbit figurine",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.63058376,
+        "y": 0.733461738,
+        "z": 1.03073144
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "dark grey metal phone/tablet stand",
+      "position": "top right of the table",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 932.6507568359375,
+          "y1": 17.31097412109375,
+          "x2": 1070.1126708984375,
+          "y2": 166.73779296875,
+          "width": 137.4619140625,
+          "height": 149.42681884765625,
+          "center_x": 1001.3817138671875,
+          "center_y": 92.02438354492188
+        },
+        "mask_center": {
+          "x": 1035.0,
+          "y": 55.0
+        },
+        "confidence": 0.018800679594278336,
+        "detected_name": "dark grey metal phone/tablet stand",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.55315018,
+        "y": 0.731185,
+        "z": 0.710317433
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "small wooden handheld broom with black bristles",
+      "position": "right side of the table",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 258.395263671875,
+          "y1": 0.0,
+          "x2": 1055.1220703125,
+          "y2": 61.82180404663086,
+          "width": 796.726806640625,
+          "height": 61.82180404663086,
+          "center_x": 656.7586669921875,
+          "center_y": 30.91090202331543
+        },
+        "mask_center": {
+          "x": 335.0,
+          "y": 15.0
+        },
+        "confidence": 0.0005407854914665222,
+        "detected_name": "small wooden handheld broom with black bristles",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.44194674,
+        "y": 0.7316056,
+        "z": 0.791263342
+      }
+    }
+  ]
+}

@@ -1,0 +1,2822 @@
+[
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "compact mechanical keyboard with dark gray keys and one orange keycap",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "top right of the white tabletop",
+    "utilizationMethod": "Hold the keyboard upright by gripping the narrow right-hand edge between thumb and fingers. The flat, rigid side surface gives a smooth plane that can be tapped against the table to imitate the fork\u2019s tines striking a plate while still letting the wrist perform light stabbing or scooping motions.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 2.2499999900658927,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.500000019868215
+      },
+      "outline": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.8166666527589163
+      },
+      "texture": {
+        "mean_rating": 2.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.9333333174387614
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "wooden hand broom with black bristles and a light wood handle",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "center right of the white tabletop",
+    "utilizationMethod": "Grip only the narrow wooden handle, letting the bristle head point forward. The slim, smooth wood approximates a flat utensil handle, while the light weight allows quick wrist rotations similar to turning a fork. Gentle taps with the bristle tips against the table simulate the soft contact of fork tines with food.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 2.666666666666667,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.6666666666666665,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.8000000317891438
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.2833333114782968
+      },
+      "texture": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.583333323399226
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "red-handled flat-head screwdriver with a metal shaft",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "right side of the white tabletop",
+    "utilizationMethod": "Pinch the metal shaft just below the plastic handle to feel a slender, cool, rigid surface close in width to a fork handle. Point the metal tip outward and perform short stabbing or scooping motions. Contact between the metal tip and table reproduces the brief tap sensation of fork tines hitting a plate.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 4.9833333392937975,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.333333333333333,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.6000000635782876
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.2833333114782968
+      },
+      "texture": {
+        "mean_rating": 6.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 2.099999964237213
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "black over-ear hearing protection earmuffs",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "bottom left of the white tabletop",
+    "utilizationMethod": "Grasp one side of the rigid headband near an ear cup. The narrow plastic band section offers a hard, smooth surface the fingers can wrap around. Swinging the band so the ear cup leads forward gives a mass on the end that can tap the table, loosely mimicking fork movements and light inertia.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 2.0166666607062025,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.500000019868215
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.699999988079071
+      },
+      "texture": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.8166666527589163
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "foldable black phone/tablet stand",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "upper left of the white tabletop",
+    "utilizationMethod": "Hold the long, flat support arm of the stand between thumb and fingers. Its thin, rigid plane and smooth plastic surface approximate a utensil handle. Rotate the wrist so the hinged end points outward and use that edge for gentle tapping, echoing the feel of fork tines contacting a surface.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 4.116666664679846,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.2000000476837158
+      },
+      "outline": {
+        "mean_rating": 5.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.7499999701976776
+      },
+      "texture": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.166666646798452
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "brown plastic card with printed text",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "lower center of the white tabletop",
+    "utilizationMethod": "Grip one short edge of the card between the pads of thumb and index finger, letting most of the card extend forward. Although wider than a fork, its thin, flat, smooth plastic reproduces the rigid, cool feel. Lightly jab or drag the far edge across the table to simulate fork scooping or cutting motions.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 3.9333333174387617,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.9000000357627869
+      },
+      "outline": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.6333333055178325
+      },
+      "texture": {
+        "mean_rating": 4.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.399999976158142
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "red A4 carrying pocket folder with black button and elastic closure",
+    "object_id": 1,
+    "image_id": 1,
+    "proxyLocation": "center of the yellow tabletop",
+    "utilizationMethod": "Pinch the folder along one of its shorter edges so that only a narrow strip is held. The large, flat sheet exaggerates width, but the stiff cardboard core provides a comparable rigidity. Tapping the opposite edge on the table gives audible and tactile feedback similar to metal tines.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 2.5666666626930237,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.700000027815501
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.2833333114782968
+      },
+      "texture": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.583333323399226
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "green and white rectangular tissue box",
+    "object_id": 2,
+    "image_id": 1,
+    "proxyLocation": "top right of the yellow tabletop",
+    "utilizationMethod": "Hold the box at a corner with fingertips, allowing the long, lightweight form to extend outward. Quick pokes toward the surface produce a faint compression of the cardboard similar to very light fork impacts, while the rectangular shape still affords wrist pronation movements.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 1.8666666746139526,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.700000027815501
+      },
+      "outline": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.8166666527589163
+      },
+      "texture": {
+        "mean_rating": 1.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.3499999940395355
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "dark-handled toothbrush with silver bristles",
+    "object_id": 3,
+    "image_id": 1,
+    "proxyLocation": "right side of the yellow tabletop",
+    "utilizationMethod": "Grip the flat back of the toothbrush handle with thumb and index finger. The handle\u2019s thickness, smoothness, and length closely match a fork\u2019s. Aim the bristle head forward; tapping the bristles on the table gives soft resistance akin to fork tines, while wrist rotations and stabs feel natural.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 4.566666662693024,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.3000000516573587
+      },
+      "outline": {
+        "mean_rating": 6.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 2.099999964237213
+      },
+      "texture": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.166666646798452
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "white wireless earbud charging case",
+    "object_id": 4,
+    "image_id": 1,
+    "proxyLocation": "bottom right of the yellow tabletop",
+    "utilizationMethod": "Hold the case by one narrow end so the longer body extends forward. Its hard, smooth plastic surface offers a cool, rigid feel. Lightly tapping the opposite end on the table provides a solid impact sensation recalled from fork tines touching a plate.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 4.066666682561238,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.5000000596046448
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      },
+      "texture": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.5166666408379872
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "standard Bicycle playing card deck in box",
+    "object_id": 5,
+    "image_id": 1,
+    "proxyLocation": "middle left of the yellow tabletop",
+    "utilizationMethod": "Pinch the card box along one thin side so it protrudes like a utensil handle. The box\u2019s small mass and smooth cardboard coating resemble a lightweight, polished fork. Tapping the far edge on the surface can imitate the contact of tines, while rolling the wrist simulates turning food.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 3.4333333373069763,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.1000000437100728
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.2833333114782968
+      },
+      "texture": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      }
+    }
+  },
+  {
+    "virtualObject": "Fork",
+    "physicalObject": "AAA battery standing upright",
+    "object_id": 6,
+    "image_id": 1,
+    "proxyLocation": "top center of the yellow tabletop",
+    "utilizationMethod": "Use a precision grip on the battery\u2019s cylindrical body, letting the positive nub face outward. Though shorter, the metal casing provides a cool, rigid surface and slight heft similar to a fork handle. Quick pokes with the nub onto the table emulate fork stabs, and the small diameter supports natural fingertip control.",
+    "virtualObjectInfo": {
+      "objectName": "Fork",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A fork is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.01",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.5927770733833313,
+        "y": 0.0260918028652668,
+        "z": 0.5115739107131958
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The user will pick up the fork by pinching or wrapping the thumb and first two fingers around the flat handle (precision-to-light power grip). Once grasped, the hand rotates the fork 90\u2013180\u00b0 at the wrist so the tines face downward or horizontally. Typical motions include short stabs into food, scooping gestures, and gentle wrist pronation/supination to turn or twirl food. The fork is light, so inertial feedback is minimal\u2014a quick start-stop with little lag. The narrow handle edges and smooth stainless-steel surface give a cool, rigid feel with no deformation. When the tines strike a plate or food, the user would feel a brief tap or vibration through the handle, after which the fork remains rigid and immediately follows the hand\u2019s next motion."
+    },
+    "rating_score": 4.149999986092249,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.00000003973643
+      },
+      "outline": {
+        "mean_rating": 2.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.9333333174387614
+      },
+      "texture": {
+        "mean_rating": 6.333333333333333,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 2.216666628917058
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "compact mechanical keyboard with dark gray keys and one orange keycap",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "top-right of the white table",
+    "utilizationMethod": "Grip the keyboard on one of its short narrow edges with a pinch grip from thumb and fingers; the long, flat body then extends outward like a wide knife blade. Saw or press the long edge against the table surface to imitate the knife\u2019s forward/back cutting strokes while the smooth keycaps provide a continuous, hard surface similar to stainless steel.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 2.2499999900658927,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.500000019868215
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      },
+      "texture": {
+        "mean_rating": 2.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.699999988079071
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "wooden hand broom with black bristles and a light wood handle",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "center-right of the white table",
+    "utilizationMethod": "Hold the flat wooden handle as the knife handle. The thin rectangular head and soft bristle face project outward like a blade. Perform wrist-driven sawing motions so the broom head leads the motion; the resistance of the bristles against the table provides a slight drag that mimics a knife edge meeting food.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 2.0666666825612388,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.9000000357627869
+      },
+      "outline": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.8166666527589163
+      },
+      "texture": {
+        "mean_rating": 1.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.3499999940395355
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "red-handled flat-head screwdriver with a metal shaft",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "right side of the white table",
+    "utilizationMethod": "Grip the plastic handle just as you would a knife handle, resting the index finger along the metal shaft. The thin steel shaft functions as a narrow blade for precise slicing gestures, and its smooth, cool surface preserves the metallic feel of a stainless knife.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 5.3166666726271306,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.666666666666667,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.700000067551931
+      },
+      "outline": {
+        "mean_rating": 4.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.399999976158142
+      },
+      "texture": {
+        "mean_rating": 6.333333333333333,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 2.216666628917058
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "black over-ear hearing protection earmuffs",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "bottom-left of the white table",
+    "utilizationMethod": "Pinch the center of the top head-band so one ear-cup projects forward like an oversized knife blade. Execute forward/back arm strokes letting the cup\u2019s flat rim contact the table to approximate pressing a broad kitchen knife against a board. The cup\u2019s mass gives perceivable inertia during motion.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 1.3166666726271312,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.500000019868215
+      },
+      "outline": {
+        "mean_rating": 1.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.3499999940395355
+      },
+      "texture": {
+        "mean_rating": 1.3333333333333333,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.4666666587193807
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "foldable black phone/tablet stand",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "upper-left of the white table",
+    "utilizationMethod": "Keep the stand folded; grasp the thicker hinge end as the handle while the thin, flat support panel sticks out like a butter-knife blade. Glide the panel\u2019s edge across the table to mimic spreading or gentle cutting actions.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 4.133333325386047,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.1000000437100728
+      },
+      "outline": {
+        "mean_rating": 5.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.7499999701976776
+      },
+      "texture": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.2833333114782968
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "brown plastic card with printed text",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "lower-center of the white table",
+    "utilizationMethod": "Pinch one narrow end of the card as the handle, letting the rest of the card extend outward. The card\u2019s thin, smooth, rigid plastic closely matches a knife\u2019s flat blade, enabling spreading or light slicing motions when dragged over a surface.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 3.6833332876364393,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.30000001192092896
+      },
+      "outline": {
+        "mean_rating": 5.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.7499999701976776
+      },
+      "texture": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.6333333055178325
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "red A4 carrying pocket folder with black button and elastic closure",
+    "object_id": 1,
+    "image_id": 1,
+    "proxyLocation": "center of the yellow table",
+    "utilizationMethod": "Hold the folder by one bottom corner as a handle so the large flat body fans out like an exaggerated chef\u2019s knife. Sweep the folder\u2019s long edge forward and back across the air or tabletop to imitate broad chopping or scooping strokes.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 2.1000000039736433,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.700000027815501
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.699999988079071
+      },
+      "texture": {
+        "mean_rating": 2.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.699999988079071
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "green and white rectangular tissue box",
+    "object_id": 2,
+    "image_id": 1,
+    "proxyLocation": "top-right of the yellow table",
+    "utilizationMethod": "Grasp the box on one short side so a long, flat face points outward like a cleaver blade. Use gentle downward presses and sliding motions; the box\u2019s light mass and rectangular outline give the sensation of a wide, flat cutting tool.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 1.8666666746139526,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.700000027815501
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.699999988079071
+      },
+      "texture": {
+        "mean_rating": 1.3333333333333333,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.4666666587193807
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "dark-handled toothbrush with silver bristles",
+    "object_id": 3,
+    "image_id": 1,
+    "proxyLocation": "right side of the yellow table",
+    "utilizationMethod": "Hold the toothbrush handle exactly like a paring knife, extending the index finger along the back. The narrow bristle head serves as the blade; sawing or spreading movements across a surface replicate fine knife work while the hard plastic handle reproduces the smooth, rigid feel.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 2.399999976158142,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.30000001192092896
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      },
+      "texture": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "white wireless earbud charging case",
+    "object_id": 4,
+    "image_id": 1,
+    "proxyLocation": "bottom-right of the yellow table",
+    "utilizationMethod": "Grip one thin edge of the closed case so the opposite edge projects forward. Slide that edge along the tabletop to mimic the spreading action of a butter knife; the glossy plastic provides a comparably smooth surface.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 3.14999998609225,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.700000027815501
+      },
+      "outline": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.8166666527589163
+      },
+      "texture": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.6333333055178325
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "standard Bicycle playing card deck in box",
+    "object_id": 5,
+    "image_id": 1,
+    "proxyLocation": "middle-left of the yellow table",
+    "utilizationMethod": "Hold the deck by its narrow end like a handle with fingers wrapping around the box. Use the long flat face as a blade, moving it in straight pressing or slicing gestures; the small but noticeable mass gives feedback similar to a short kitchen knife.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 3.8166666924953456,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.333333333333333,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.6000000635782876
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.2833333114782968
+      },
+      "texture": {
+        "mean_rating": 2.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.9333333174387614
+      }
+    }
+  },
+  {
+    "virtualObject": "Knife",
+    "physicalObject": "AAA battery standing upright",
+    "object_id": 6,
+    "image_id": 1,
+    "proxyLocation": "top-center of the yellow table",
+    "utilizationMethod": "Pinch the battery near one terminal so the rest of the cylinder sticks out ahead like an extremely thin blade. The metal casing is smooth and cool, closely matching the knife\u2019s material; forward/back wrist motions reproduce precise, small-scale cutting strokes.",
+    "virtualObjectInfo": {
+      "objectName": "Knife",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 2,
+      "inertia": "A knife is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.02",
+        "y": "0.00",
+        "z": "0.17"
+      },
+      "globalPosition": {
+        "x": 0.9451770782470703,
+        "y": 0.02281920239329338,
+        "z": 0.5184739232063293
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 269.3441162109375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The knife is grasped with a hybrid precision/power grip: thumb and index finger pinch either side of the flat handle while the remaining fingers wrap for stability, and the index finger often extends along the spine for guidance. The user performs sawing or downward pressing strokes to cut, or smooth lateral strokes to spread. Each cut involves forearm-driven forward/back translations plus small wrist pivots that keep the blade angled against the food. Because the knife is light and rigid, it follows hand motion closely but gives momentary resistance when the virtual blade meets food\u2014perceived as increased force or brief vibration. The stainless surface feels cool, smooth, and non-compliant throughout."
+    },
+    "rating_score": 2.9666666388511653,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.3333333333333333,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.4000000158945719
+      },
+      "outline": {
+        "mean_rating": 1.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.3499999940395355
+      },
+      "texture": {
+        "mean_rating": 6.333333333333333,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 2.216666628917058
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "compact mechanical keyboard",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "top-right of the white table",
+    "utilizationMethod": "Pinch one of the narrow top-left corners between thumb and index finger as though it were the spoon\u2019s handle. The flat underside of the board becomes the \ufffdflat bowl\ufffd; gently glide or \u2018scoop\u2019 it forward across the tabletop then tilt the wrist upward to mimic lifting food. The keyboard\u2019s weight gives noticeable inertia, so users feel a slight lag similar to the front-loaded mass of a real spoon when filled.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 2.1166666646798453,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.6000000238418579
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.699999988079071
+      },
+      "texture": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.8166666527589163
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "wooden hand broom",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "center-right of the white table",
+    "utilizationMethod": "Grasp the narrow wooden handle close to the bristle block with a precision grip. Treat the bristle block as the spoon\u2019s bowl: the soft bristles provide a shallow, compliant surface while adding front-heavy weight. Scoop forward across the table surface, then rotate the wrist to \u2018pour\u2019 the imaginary contents, reproducing the spoon\u2019s typical motions.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 2.3833333551883698,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.1000000437100728
+      },
+      "outline": {
+        "mean_rating": 2.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.9333333174387614
+      },
+      "texture": {
+        "mean_rating": 1.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.3499999940395355
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "red-handled flat-head screwdriver",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "right side of the white table",
+    "utilizationMethod": "Pinch the clear red plastic handle near its rear end as the spoon\u2019s grip; the metal shaft and tip represent the elongated neck and bowl. Glide the tip along the table for a scooping gesture, then tilt it upward. The small amount of front weight from the steel shaft mirrors a spoon\u2019s subtle inertia and the smooth metal surface approximates stainless steel texture.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 4.300000011920929,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.5000000596046448
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      },
+      "texture": {
+        "mean_rating": 5.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.7499999701976776
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "black over-ear hearing-protection earmuffs",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "bottom-left of the white table",
+    "utilizationMethod": "Hold one ear-cup hinge the way you would grasp a spoon\u2019s handle, letting the cup itself become an oversized bowl. Perform forward \u2018scooping\u2019 motions with the cup skimming the table, then rotate the wrist to bring the cup up toward the mouth. The rigid plastic and moderate weight offer the smooth, cool feel and inertia cues, though on a larger scale.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 2.2499999900658922,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.500000019868215
+      },
+      "outline": {
+        "mean_rating": 1.3333333333333333,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.4666666587193807
+      },
+      "texture": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.2833333114782968
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "foldable black phone/tablet stand",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "upper-left area of the white table",
+    "utilizationMethod": "Grip the narrow folding leg between thumb and fingers as a handle. The broad flat platform that normally supports a phone acts as the spoon\u2019s shallow bowl. Slide the platform forward against the table surface, then hinge the wrist so the platform faces upward, emulating a scooping and lifting motion.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 3.6500000059604645,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.2000000476837158
+      },
+      "outline": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.166666646798452
+      },
+      "texture": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.2833333114782968
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "brown plastic card",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "lower-center of the white table",
+    "utilizationMethod": "Pinch one short edge of the card like a slim utensil handle. The rest of the card becomes a flat, rigid \u2018bowl.\u2019 Although it lacks concavity, its smooth polished plastic lets the user feel a similar slick surface while performing the same forward scoop and wrist-tilt gestures.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 3.399999976158142,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.6000000238418579
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      },
+      "texture": {
+        "mean_rating": 5.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.7499999701976776
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "red A4 carrying pocket folder",
+    "object_id": 1,
+    "image_id": 1,
+    "proxyLocation": "center of the yellow table",
+    "utilizationMethod": "Hold one of the top corners between thumb and forefinger so the folder dangles forward; this corner serves as a thin handle while the large flat body acts as an exaggerated spoon bowl. Drag the folder\u2019s leading edge across the table as a scoop, then lift and rotate it toward the face. Its light but broad surface still conveys smoothness and a bit of air resistance, hinting at inertia.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 2.6666666666666665,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.6666666666666665,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.8000000317891438
+      },
+      "outline": {
+        "mean_rating": 1.3333333333333333,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.4666666587193807
+      },
+      "texture": {
+        "mean_rating": 4.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.399999976158142
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "green and white tissue box",
+    "object_id": 2,
+    "image_id": 1,
+    "proxyLocation": "top-right of the yellow table",
+    "utilizationMethod": "Pinch a narrow side edge near one end as a makeshift handle. The opposite broad face functions as an oversized bowl. Push the box forward against the table and rotate the wrist upward. The cardboard\u2019s light mass offers minimal inertia, but the rectangular outline still lets users practice the same grip and tilt sequence.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 1.7666666706403098,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 0.6000000238418579
+      },
+      "outline": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.583333323399226
+      },
+      "texture": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.583333323399226
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "dark-handled toothbrush",
+    "object_id": 3,
+    "image_id": 1,
+    "proxyLocation": "right side of the yellow table",
+    "utilizationMethod": "Grasp the slim handle the same way you\u2019d hold a spoon. The bristle head represents the spoon\u2019s bowl\u2014its slight front weight and small width closely match. Glide the bristles lightly across a surface as a scooping action, then pivot the wrist so the head faces upward, closely mirroring real spoon dynamics.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 4.700000027815501,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 6.333333333333333,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.9000000754992166
+      },
+      "outline": {
+        "mean_rating": 5.333333333333333,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.8666666348775227
+      },
+      "texture": {
+        "mean_rating": 2.6666666666666665,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 0.9333333174387614
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "white wireless earbud charging case",
+    "object_id": 4,
+    "image_id": 1,
+    "proxyLocation": "bottom-right of the yellow table",
+    "utilizationMethod": "Hold the hinge side between thumb and fingers, allowing the rounded opposite side to act as the bowl. Its polished plastic gives a smooth, cool touch similar to metal cutlery. Perform forward scoops with the curved face grazing the surface and tilt upward to \u2018deliver\u2019 contents.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 4.53333334128062,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.0,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.5000000596046448
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      },
+      "texture": {
+        "mean_rating": 5.666666666666667,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.983333299557368
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "Bicycle playing card deck",
+    "object_id": 5,
+    "image_id": 1,
+    "proxyLocation": "middle-left of the yellow table",
+    "utilizationMethod": "Pinch one of the narrow edges of the card box as the handle. The flat front of the deck acts as a rigid spoon bowl. Slide it forward along the table for scooping, then rotate your wrist upward. The deck\u2019s compact mass provides a mild sense of inertia comparable to a filled spoon.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 3.1000000039736433,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.3333333333333335,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.00000003973643
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      },
+      "texture": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      }
+    }
+  },
+  {
+    "virtualObject": "Spoon",
+    "physicalObject": "AAA battery",
+    "object_id": 6,
+    "image_id": 1,
+    "proxyLocation": "top-center of the yellow table, standing upright",
+    "utilizationMethod": "Grasp the battery near its negative end using a precision grip, letting the positive tip serve as the spoon\u2019s miniature bowl. Use small forward strokes to mimic scooping and then flip the battery so the tip points upward toward the mouth. The metal casing gives a smooth, cool feel and its small but noticeable mass reproduces the inertial response of a teaspoon.",
+    "virtualObjectInfo": {
+      "objectName": "Spoon",
+      "involvementType": "grasp",
+      "usage": "This virtual fork would be used for dining activities",
+      "engagementLevel": 1,
+      "inertia": "A spoon is relatively lightweight but has some mass.",
+      "interactivity": "",
+      "outline": "User should feel a flat and elongated shape with smooth, tapered edges - wider at the top and gradually narrowing toward the fork head (about 0.8-1 inch wide at its widest point, and roughly 2-3mm thick).",
+      "texture": "User should feel the surface as smooth and polished like stainless steel.",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3499999940395355,
+      "textureValue": 0.3499999940395355,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.08",
+        "y": "0.02",
+        "z": "0.16"
+      },
+      "globalPosition": {
+        "x": 0.4116770923137665,
+        "y": 0.02439180389046669,
+        "z": 0.5022739171981812
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 251.16400146484375,
+        "z": 0.0
+      },
+      "interactionDeduction": "The spoon is held much like the fork\u2014thumb and index/middle fingers pinch the narrow handle while the other fingers cradle it (precision grip). The wrist then tilts to orient the bowl upward for scooping. Typical motions include forward scoops through semi-liquid food, lifting toward the mouth, and gentle rotations to pour contents. The bowl of the spoon adds slight front-heavy weight, so users notice a small inertial lag when starting or stopping motion compared with the handle alone. When fluid content is present, users feel extra mass and shifting momentum. The utensil remains rigid, with a smooth, cool surface and a shallow concave outline that presses against the finger pads."
+    },
+    "rating_score": 4.983333339293798,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.333333333333333,
+        "property_value": 0.30000001192092896,
+        "weighted_score": 1.6000000635782876
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 1.0499999821186066
+      },
+      "texture": {
+        "mean_rating": 6.666666666666667,
+        "property_value": 0.3499999940395355,
+        "weighted_score": 2.333333293596904
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "compact mechanical keyboard",
+    "object_id": 1,
+    "image_id": 0,
+    "proxyLocation": "lying flat at the top-right of the white table",
+    "utilizationMethod": "Grip one of the short edges of the keyboard between thumb, index, and middle finger and lift it slightly above the table. Shaking the board in quick, wrist-level flicks produces a noticeable mass and slight key rattle that mimics the pepper shaker\u2019s moderate inertia and internal movement.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 2.3333333333333335,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      },
+      "outline": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 0.8333333333333334
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "wooden hand broom",
+    "object_id": 2,
+    "image_id": 0,
+    "proxyLocation": "center-right of the white table with bristles pointing left",
+    "utilizationMethod": "Pinch the broom\u2019s wooden handle near the bristle joint using a light power grip. The short cylindrical handle diameter approximates a shaker body, and rapid up-and-down shakes make the bristles swish, creating subtle shifting resistance that stands in for the pepper granules.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 4.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.8333333333333333
+      },
+      "outline": {
+        "mean_rating": 5.333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 2.6666666666666665
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "red-handled flat-head screwdriver",
+    "object_id": 3,
+    "image_id": 0,
+    "proxyLocation": "right side of the white table, tip pointing downward",
+    "utilizationMethod": "Hold the plastic handle between fingertips as if it were the shaker body. Flick the wrist so the metal shaft swings, providing a small inertial lag comparable to the pepper load while the hard plastic surface supplies the rigid outline.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 3.166666666666667,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.5,
+        "weighted_score": 1.1666666666666667
+      },
+      "outline": {
+        "mean_rating": 4.0,
+        "property_value": 0.5,
+        "weighted_score": 2.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "black over-ear hearing protection earmuffs",
+    "object_id": 4,
+    "image_id": 0,
+    "proxyLocation": "bottom-left of the white table, folded closed",
+    "utilizationMethod": "Grasp a single earcup by its rim with thumb and fingers surrounding it. Shaking that cup causes the opposite cup and headband to swing, giving perceivable weight redistribution similar to pepper shifting, while the smooth hard plastic simulates the shaker casing.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 3.1666666666666665,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 2.1666666666666665
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "foldable black phone/tablet stand",
+    "object_id": 5,
+    "image_id": 0,
+    "proxyLocation": "upper-left of the white table, folded into a block",
+    "utilizationMethod": "Pinch the folded block along its narrow side like a miniature shaker. Short shakes make the hinged sections click slightly, supplying subtle vibration and dynamic weight change to echo pepper movement.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 2.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      },
+      "outline": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "brown plastic card with printed text",
+    "object_id": 6,
+    "image_id": 0,
+    "proxyLocation": "lower-center of the white table",
+    "utilizationMethod": "Sandwich the thin card between thumb and index finger and perform rapid flicking motions. The card\u2019s light flex and air resistance give minimal but present inertial feedback, allowing users to mimic the repetitive seasoning gesture albeit with a much lighter mass.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 1.1666666666666665,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 1.3333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 0.6666666666666666
+      },
+      "outline": {
+        "mean_rating": 1.0,
+        "property_value": 0.5,
+        "weighted_score": 0.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "red A4 carrying pocket folder",
+    "object_id": 1,
+    "image_id": 1,
+    "proxyLocation": "center of the yellow table",
+    "utilizationMethod": "Grip the closed folder by the spine\u2019s edge with three fingers. Shaking causes the loose internal sleeves to flap, producing a soft mass shift and rustle that approximate pepper granules inside a larger container.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 3.166666666666667,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 2.3333333333333335
+      },
+      "outline": {
+        "mean_rating": 1.6666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 0.8333333333333334
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "green and white rectangular tissue box",
+    "object_id": 2,
+    "image_id": 1,
+    "proxyLocation": "top-right of the yellow table",
+    "utilizationMethod": "Hold the box at one short end and shake downward as if sprinkling. The bundle of tissues moves slightly inside, creating shifting weight and faint rattles that closely emulate the lag of pepper grains while the box\u2019s rectangular outline still allows a comfortable shaker-like grip.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 4.0,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.666666666666667,
+        "property_value": 0.5,
+        "weighted_score": 2.8333333333333335
+      },
+      "outline": {
+        "mean_rating": 2.3333333333333335,
+        "property_value": 0.5,
+        "weighted_score": 1.1666666666666667
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "dark-handled toothbrush",
+    "object_id": 3,
+    "image_id": 1,
+    "proxyLocation": "right edge of the yellow table",
+    "utilizationMethod": "Grip the toothbrush handle near the head. Quick flicks make the bristle head whip and vibrate, providing tactile feedback similar to pepper hitting the lid, and the slim handle diameter fits the typical finger placement of a small shaker.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 2.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "white wireless earbud charging case",
+    "object_id": 4,
+    "image_id": 1,
+    "proxyLocation": "bottom-right of the yellow table",
+    "utilizationMethod": "Enclose the case in the fingertips and perform seasoning-style shakes. The earbuds inside knock gently against the shell, producing realistic internal movement and moderate weight very close to a loaded pepper shaker.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 4.333333333333333,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 5.0,
+        "property_value": 0.5,
+        "weighted_score": 2.5
+      },
+      "outline": {
+        "mean_rating": 3.6666666666666665,
+        "property_value": 0.5,
+        "weighted_score": 1.8333333333333333
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "Bicycle playing card deck in box",
+    "object_id": 5,
+    "image_id": 1,
+    "proxyLocation": "middle-left of the yellow table",
+    "utilizationMethod": "Hold the sealed deck upright between thumb and fingers. Shaking causes cards to slide minutely inside, yielding subtle inertia shifts, and the box\u2019s small, rigid rectangular body offers a grip size comparable to a shaker.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 3.6666666666666665,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 4.333333333333333,
+        "property_value": 0.5,
+        "weighted_score": 2.1666666666666665
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      }
+    }
+  },
+  {
+    "virtualObject": "Pepper",
+    "physicalObject": "AAA battery",
+    "object_id": 6,
+    "image_id": 1,
+    "proxyLocation": "standing upright near the top-center of the yellow table",
+    "utilizationMethod": "Pinch the battery near its center and perform fast, short wrist flicks. Though solid, its small cylindrical shape and concentrated weight give clear inertial feedback in each direction change, allowing the user to rehearse the pepper-shaking motion.",
+    "virtualObjectInfo": {
+      "objectName": "Pepper",
+      "involvementType": "grasp",
+      "usage": "This virtual pepper shaker would be used for seasoning food",
+      "engagementLevel": 0,
+      "inertia": "The shaker should feel moderately weighted due to the pepper contents inside, with noticeable weight distribution that shifts dynamically as the pepper granules move during shaking.",
+      "interactivity": "",
+      "outline": "Users should feel the fitted diameter when gripped",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.03",
+        "y": "0.04",
+        "z": "0.03"
+      },
+      "globalPosition": {
+        "x": 0.8646770715713501,
+        "y": 0.021091803908348083,
+        "z": 0.6755739450454712
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "interactionDeduction": "The pepper shaker is grasped with the thumb, index, and middle fingers encircling the cylindrical body (light power grip). Users lift it a few centimeters above the plate and perform rapid wrist flicks\u2014short, repetitive vertical or diagonal shakes\u2014causing the internal granules to rattle. The shifting contents create a slightly delayed weight redistribution that can be felt as a soft inertial lag each time direction changes. The top surface occasionally taps the palm or fingers when inverted, and the user feels the cool, rigid glass/metal surface with shallow ridges where the cap meets the body. The object itself remains rigid, but the moving pepper produces subtle vibration and impact sounds that reinforce the seasoning action."
+    },
+    "rating_score": 2.5,
+    "property_scores": {
+      "inertia": {
+        "mean_rating": 2.0,
+        "property_value": 0.5,
+        "weighted_score": 1.0
+      },
+      "outline": {
+        "mean_rating": 3.0,
+        "property_value": 0.5,
+        "weighted_score": 1.5
+      }
+    }
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -23.824075235250376,
+    "loss_components": {
+      "L_realism": -11.295994081129605,
+      "L_interaction": -12.52808115412077,
+      "L_spatial": 8.783348834566313,
+      "total": -23.824075235250376
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 29,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 0
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "red packet of Shin Ramyeon spicy ramen",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 18
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the unopened packet flat; strike the middle of the pouch to pop the air pocket."
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "hand brush with wooden handle and black bristles",
+        "object_id": 6,
+        "image_id": 3,
+        "index": 24
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the brush bristles upward on the desk; strike downward so the canopy buries into the bristle field."
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "spray bottle with translucent white top and blue liquid",
+        "object_id": 4,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 5.55555522441864,
+      "utilization_method": "Hook three fingers around the narrow neck beneath the trigger, place thumb on the opposite side, lift, and tilt the bottle forward while countering the forward weight"
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "folded checkered umbrella with hooked handle",
+        "object_id": 4,
+        "image_id": 4,
+        "index": 28
+      },
+      "realism_score": 4.333333333333334,
+      "utilization_method": "Grab the straight mid-shaft with a full-hand grasp, keep the hooked handle pointing backward, and let the folded canopy act as the weighted head while performing full chopping swings"
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black-handled collapsible selfie stick / monopod",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 19
+      },
+      "realism_score": 4.666666666666667,
+      "utilization_method": "Keep the stick collapsed, wrap hand around the foam grip, and drive the phone clamp end downward toward the desk in a hammering motion"
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "small white oscillating desk fan",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 4.666666666666667,
+      "utilization_method": "Grip the narrow vertical stem beneath the fan head with a closed fist and swing the entire fan in short sweeping arcs, letting the fan head lead the motion."
+    }
+  ]
+}

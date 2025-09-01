@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -23.014134225767236,
+    "loss_components": {
+      "L_realism": -10.967173310646304,
+      "L_interaction": -12.12791193079746,
+      "L_spatial": 0.08095101567652495,
+      "total": -23.014134225767236
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 37,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Fork",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "15 cm metal ruler",
+        "object_id": 6,
+        "image_id": 0,
+        "index": 5
+      },
+      "realism_score": 5.666667173306147,
+      "utilization_method": "Grip one narrow end of the ruler with thumb on one flat face and fingers on the other, then perform stabbing pokes or gentle scoops with the opposite straight edge"
+    },
+    {
+      "virtual_object": {
+        "name": "Knife",
+        "index": 1,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "black and yellow scissors",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 14
+      },
+      "realism_score": 4.714286138614018,
+      "utilization_method": "Close the blades, place thumb on one closed blade side, index finger along the spine, and move the scissor tips in gentle slicing motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Spoon",
+        "index": 2,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "folded black phone or tablet stand",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 19
+      },
+      "realism_score": 3.3968257109324136,
+      "utilization_method": "Grip the narrow folded edge between thumb and fingers, point the longer flat surface forward, dip it, then lift while rotating wrist to horizontal"
+    },
+    {
+      "virtual_object": {
+        "name": "Soup",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "green turtle-shell plush cushion with white rim",
+        "object_id": 2,
+        "image_id": 4,
+        "index": 33
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the cushion flat; swirl the ruler tip over the stitched top panels in overlapping circles"
+    },
+    {
+      "virtual_object": {
+        "name": "Steak",
+        "index": 4,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "black leather two-seat sofa",
+        "object_id": 1,
+        "image_id": 4,
+        "index": 32
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Press the ruler tip vertically into the centre of a seat cushion, allowing it to sink several centimetres into the soft foam before the denser base resists"
+    },
+    {
+      "virtual_object": {
+        "name": "Pepper",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "green round retractable measuring tape with peach-colored tape",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 4.303030292193095,
+      "utilization_method": "Enclose the circular housing in a full grip, turn it upside-down, and give two short downward snaps"
+    }
+  ]
+}

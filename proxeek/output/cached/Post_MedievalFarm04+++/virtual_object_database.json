@@ -1,0 +1,138 @@
+[
+  {
+    "objectName": "Mug",
+    "involvementType": "grasp",
+    "usage": "This mug serves as a drinking vessel, designed to be grasped by the handle",
+    "engagementLevel": 1,
+    "inertia": "User should feel the center of mass located significantly forward from the handle grip point",
+    "interactivity": "",
+    "outline": "User should feel a relatively thin, slender rod approximately 2 cm in diameter. User should sense the handle's curved arc and rounded cross-section.",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.6666666269302368,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3333333134651184,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.26",
+      "y": "0.19",
+      "z": "0.27"
+    },
+    "globalPosition": {
+      "x": 1.1699999570846558,
+      "y": 0.027000000700354576,
+      "z": 0.6579999923706055
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 231.77813720703125,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users will employ a relaxed power-grip (three-finger or full-hand) around the slender 2 cm-diameter wooden handle. The thumb rests on the inner side of the handle loop while the index and middle fingers curl around the outer side; the ring finger may also wrap if extra support is wanted. The mug\u2019s body sits forward of the grip so the wrist automatically counters a forward-biased center of mass\u2014especially when virtual liquid is present\u2014creating a slight downward torque that the user continuously balances. Typical movements are: (1) raise the mug toward the mouth with elbow flexion and mild wrist supination, (2) tilt the mug by rotating the forearm so virtual liquid pours toward the lips, (3) lower the mug back to neutral. Secondary actions include setting the mug down, which involves opening the fingers while keeping the handle aligned vertically. Haptically the handle stays rigid and round; no compliance or texture change occurs. The user senses weight shift (inertia) when the contents slosh, but the mug itself provides no active feedback other than constant weight and collision impulses if it taps another surface."
+  },
+  {
+    "objectName": "Axe",
+    "involvementType": "grasp",
+    "usage": "This axe serves as a chopping tool",
+    "engagementLevel": 1,
+    "inertia": "User should feel significant mass with pronounced head-heavy inertia.",
+    "interactivity": "",
+    "outline": "User should feel a cylindrical and substantial grip with about 3cm diameter",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.5,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.25",
+      "y": "0.06",
+      "z": "0.36"
+    },
+    "globalPosition": {
+      "x": 0.5770000219345093,
+      "y": 0.04078630357980728,
+      "z": 0.35199999809265137
+    },
+    "globalRotation": {
+      "x": 349.0732421875,
+      "y": 113.15540313720703,
+      "z": 89.79319763183594
+    },
+    "interactionDeduction": "The user assumes a power-grip around the 3 cm-diameter wooden haft, usually near the butt end for maximum leverage. One-handed use is possible for light chops; two-handed grip (dominant hand low, support hand higher) is common for stronger swings. Movements involve large shoulder and elbow arcs: backswing followed by a forceful downward or diagonal strike, ending with wrist pronation to drive the blade. Because the head is markedly heavier than the handle, the user feels pronounced head-heavy inertia\u2014the motion naturally wants to pivot around the grip and pull the wrists forward. After impact the axe head stops abruptly while the handle may vibrate slightly, implying a jarring rebound transmitted through the shaft. Fine manipulation (e.g., re-positioning before a cut) uses small wrist rotations and micro-adjustments of grip without changing hand pose. The virtual axe remains rigid with no deformation; all perceived reaction comes from simulated momentum and collision forces."
+  },
+  {
+    "objectName": "Hammer",
+    "involvementType": "grasp",
+    "usage": "This hammer serves as a striking tool ",
+    "engagementLevel": 2,
+    "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+    "interactivity": "",
+    "outline": "User should feel a cylindrical and substantial grip with about 3cm diameter",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.5,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.24",
+      "y": "0.12",
+      "z": "0.39"
+    },
+    "globalPosition": {
+      "x": 0.33634281158447266,
+      "y": 0.04249180108308792,
+      "z": 0.34802526235580444
+    },
+    "globalRotation": {
+      "x": 3.252650499343872,
+      "y": 109.54983520507812,
+      "z": 85.54302215576172
+    },
+    "interactionDeduction": "Users grasp the 3 cm-diameter handle with a firm power-grip. For driving heavy blows they hold near the end of the haft; for precision taps they may choke up closer to the head. The striking motion is mostly wrist flexion/extension blended with elbow movement, producing a vertical or slightly angled arc. The markedly head-heavy mass causes a pendulum effect\u2014once the swing starts, momentum carries the head through, requiring users to brace for a brief recoil on impact. Contact with a target produces an instantaneous force spike followed by a short, sharp vibration up the handle. The hammer itself feels rigid and unyielding, encouraging the user to rely on body mechanics rather than squeeze modulation. Between strikes, users may rotate the hammer 180\u00b0 in the hand to inspect or align it, involving quick pronation/supination while maintaining a closed grip."
+  },
+  {
+    "objectName": "Sickle",
+    "involvementType": "grasp",
+    "usage": "This sickle serves as a harvesting and cutting tool ",
+    "engagementLevel": 0,
+    "inertia": "User should feel moderate forward-weighted inertia concentrated in the curved blade, but distributed along the arc rather than at a single point.",
+    "interactivity": "",
+    "outline": "User should feel a cylindrical and substantial grip with about 3cm diameter",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.5,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.30",
+      "y": "0.07",
+      "z": "0.43"
+    },
+    "globalPosition": {
+      "x": 0.10269107669591904,
+      "y": 0.047491803765296936,
+      "z": 0.3642806112766266
+    },
+    "globalRotation": {
+      "x": -6.830189249740215e-06,
+      "y": 102.79971313476562,
+      "z": 93.36920928955078
+    },
+    "interactionDeduction": "The user wraps the fingers around the straight wooden grip with a closed power-grip. The curved blade extends forward then sweeps back, so functional use involves a pulling, slicing motion: the user swings the wrist inward toward the body while flexing the elbow, letting the blade cut during the pull stroke. Because mass is distributed along the arc rather than concentrated at a single point, the tool feels moderately front-heavy but balanced enough for quick, repetitive cuts. Users may perform short, rhythmic wrist-led motions for harvesting vegetation, occasionally reversing grip orientation to reach awkward angles. During idle inspection the sickle may be rotated by rolling the handle between the fingertips, but active cutting keeps the grip firm with minimal finger repositioning. The virtual blade remains rigid and does not deform; any feedback comes from simulated drag and micro-impacts as the edge meets virtual material."
+  }
+]

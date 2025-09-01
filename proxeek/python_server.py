@@ -97,7 +97,7 @@ def run_python():
         stderr_thread.start()
 
         # Wait for the process to complete
-        return_code = process.wait(timeout=1000)
+        return_code = process.wait(timeout=5000)
         
         # Wait for output threads to finish
         stdout_thread.join()

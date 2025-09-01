@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -22.113435553668715,
+    "loss_components": {
+      "L_realism": -9.083333184321722,
+      "L_interaction": -13.117392951836791,
+      "L_spatial": 0.08729058248979982,
+      "total": -22.113435553668715
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 37,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "blue-and-white rectangular tissue box with tissues protruding",
+        "object_id": 6,
+        "image_id": 3,
+        "index": 27
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Flip the tissue box so the soft underside faces up; crush downward until the cardboard bows and the tissues compress to the desk."
+    },
+    {
+      "virtual_object": {
+        "name": "FireWood",
+        "index": 1,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "wooden storage box",
+        "object_id": 6,
+        "image_id": 4,
+        "index": 36
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand the box upright with its lid facing up and direct chopping blows onto the center of the lid."
+    },
+    {
+      "virtual_object": {
+        "name": "Mug",
+        "index": 2,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "folded check-pattern umbrella with clear curved handle",
+        "object_id": 2,
+        "image_id": 4,
+        "index": 32
+      },
+      "realism_score": 4.999999701976776,
+      "utilization_method": "Slip index and middle fingers inside the clear curved handle while pressing thumb along the outside curve, then lift and tilt the folded canopy"
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "plain wooden dowel rod",
+        "object_id": 8,
+        "image_id": 3,
+        "index": 29
+      },
+      "realism_score": 4.166666666666666,
+      "utilization_method": "Wrap one hand around the lower third of the dowel and perform an over-the-shoulder chopping swing"
+    },
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 4,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "long telescoping selfie stick with black handle",
+        "object_id": 7,
+        "image_id": 3,
+        "index": 28
+      },
+      "realism_score": 4.333333333333333,
+      "utilization_method": "Hold the padded hand grip firmly, keep the pole retracted, and swing the phone clamp end downward like a hammer head."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "small silver cylindrical container or weight",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 20
+      },
+      "realism_score": 4.666666666666667,
+      "utilization_method": "Grip the cylinder from the top like a small handle, let its mass hang below the fist, and guide sweeping cuts with forearm rotation"
+    }
+  ]
+}

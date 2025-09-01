@@ -1,0 +1,124 @@
+{
+  "optimization_summary": {
+    "total_loss": -21.376360889652805,
+    "loss_components": {
+      "L_realism": -8.677488890356646,
+      "L_interaction": -12.69887199929616,
+      "L_spatial": 13.902071511076379,
+      "total": -21.376360889652805
+    },
+    "num_virtual_objects": 6,
+    "num_physical_objects": 12,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 0
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Fork",
+        "index": 0,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "grasp",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "white wireless computer mouse",
+        "object_id": 2,
+        "image_id": 0,
+        "index": 1
+      },
+      "realism_score": 2.045454482237498,
+      "utilization_method": "Pinch the front edge of the mouse between thumb and two fingers so that the narrow front projects outward like tines"
+    },
+    {
+      "virtual_object": {
+        "name": "Knife",
+        "index": 1,
+        "engagement_level": 2.117000016612675,
+        "involvement_type": "grasp",
+        "priority_weight": 2.117000016612675
+      },
+      "physical_object": {
+        "name": "clear 30 cm plastic ruler with metric markings",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 8
+      },
+      "realism_score": 5.212121049563089,
+      "utilization_method": "Hold one short end of the ruler between thumb and fingers like a handle, press the long flat edge onto the table, and glide it forward and back in controlled cutting strokes."
+    },
+    {
+      "virtual_object": {
+        "name": "Spoon",
+        "index": 2,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "dark grey metal phone/tablet stand",
+        "object_id": 5,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 2.9242423474788666,
+      "utilization_method": "Grip the stand at its hinge between thumb and index finger, let the flat support plate extend forward, dip the plate toward the surface, raise and tilt it back while moving the hand toward the mouth area."
+    },
+    {
+      "virtual_object": {
+        "name": "Soup",
+        "index": 3,
+        "engagement_level": 0.7788007830714049,
+        "involvement_type": "substrate",
+        "priority_weight": 0.7788007830714049
+      },
+      "physical_object": {
+        "name": "green and yellow kitchen sponge",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the sponge flat on the table with either side facing up. Press the ruler\u2019s tip gently into the sponge surface and move in slow, overlapping circles while keeping light downward pressure."
+    },
+    {
+      "virtual_object": {
+        "name": "Steak",
+        "index": 4,
+        "engagement_level": 1.2840254166877414,
+        "involvement_type": "substrate",
+        "priority_weight": 1.2840254166877414
+      },
+      "physical_object": {
+        "name": "compact mechanical keyboard with dark grey keycaps and a red escape key",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 6
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Rest the keyboard flat on the desk. Position the ruler tip between two adjacent keycaps and push downward so the key switches travel and the edge settles between the moving caps."
+    },
+    {
+      "virtual_object": {
+        "name": "Pepper",
+        "index": 5,
+        "engagement_level": 0.4723665527410147,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4723665527410147
+      },
+      "physical_object": {
+        "name": "small wooden handheld broom with black bristles",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 3.0,
+      "utilization_method": "Wrap the hand around the wooden handle near the bristles, direct the bristle end downward, and perform a repetitive shaking action"
+    }
+  ]
+}

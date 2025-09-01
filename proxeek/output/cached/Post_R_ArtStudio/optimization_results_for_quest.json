@@ -1,0 +1,37 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Easel",
+      "proxyObjectName": "gray 3D-printed rabbit figurine",
+      "utilizationMethod": "Place the rabbit so its side faces you; sweep the pen across the layered surface on the flank in short, gentle passes."
+    },
+    {
+      "virtualObjectName": "Marker",
+      "proxyObjectName": "single AA battery",
+      "utilizationMethod": "Grip the cylindrical battery lengthwise between thumb and index finger, support with middle finger, and glide one flat end over the surface to mimic pen strokes"
+    },
+    {
+      "virtualObjectName": "Tube",
+      "proxyObjectName": "black three-seat leather sofa",
+      "utilizationMethod": "Pinch the front edge of a seat cushion between thumb on top and fingers underneath, compressing the padded leather"
+    },
+    {
+      "virtualObjectName": "Paper",
+      "proxyObjectName": "playing card (Jack of Spades)",
+      "utilizationMethod": "Place the card flat on the tabletop and glide the battery across the face in any direction."
+    },
+    {
+      "virtualObjectName": "Paint Brush",
+      "proxyObjectName": "black ballpoint pen with silver clip",
+      "utilizationMethod": "Grip the pen in a precision grip near its tip and make controlled strokes over the desk surface."
+    },
+    {
+      "virtualObjectName": "Paint Roller",
+      "proxyObjectName": "black and silver extendable selfie stick",
+      "utilizationMethod": "Grip the foam handle firmly, extend the rod outward, and swing the phone cradle end forward and back like a paint roller head."
+    }
+  ],
+  "timestamp": "8f084088-91d8-48ce-9f3a-920dbb46010f",
+  "total_assignments": 6
+}
