@@ -1,0 +1,107 @@
+{
+  "optimization_summary": {
+    "total_loss": -28.55963571812908,
+    "loss_components": {
+      "L_realism": -10.976738845423503,
+      "L_interaction": -17.582896872705575,
+      "L_spatial": 0.0,
+      "total": -28.55963571812908
+    },
+    "num_virtual_objects": 5,
+    "num_physical_objects": 22,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 0,
+        "engagement_level": 1.6487212707001282,
+        "involvement_type": "grasp",
+        "priority_weight": 1.6487212707001282
+      },
+      "physical_object": {
+        "name": "spray bottle with white trigger nozzle and translucent blue liquid",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 11
+      },
+      "realism_score": 3.214285711447398,
+      "utilization_method": "Wrap your hand around the neck just below the trigger, lift, and swing so the bottle\u2019s base impacts the target area."
+    },
+    {
+      "virtual_object": {
+        "name": "Lightsaber",
+        "index": 1,
+        "engagement_level": 2.718281828459045,
+        "involvement_type": "grasp",
+        "priority_weight": 2.718281828459045
+      },
+      "physical_object": {
+        "name": "500 g calibration weight (metal cylinder marked \u2018M 500 g\u2019)",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 4.740740805864334,
+      "utilization_method": "Close your hand around the cylindrical weight from the top, keep your wrist straight, and perform fast cutting strokes and short jabs."
+    },
+    {
+      "virtual_object": {
+        "name": "Double Slider",
+        "index": 2,
+        "engagement_level": 0.6065306597126334,
+        "involvement_type": "grasp",
+        "priority_weight": 0.6065306597126334
+      },
+      "physical_object": {
+        "name": "silver telescoping selfie stick with black handle and phone clamp",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 5.777777949968974,
+      "utilization_method": "Hold the padded grip with the full hand and extend or retract the telescoping shaft by pushing or pulling the inner segment in line with the stick."
+    },
+    {
+      "virtual_object": {
+        "name": "Button",
+        "index": 3,
+        "engagement_level": 0.36787944117144233,
+        "involvement_type": "contact",
+        "priority_weight": 0.36787944117144233
+      },
+      "physical_object": {
+        "name": "White stapler (compact handheld stapler)",
+        "object_id": 5,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 5.666666666666667,
+      "utilization_method": "Hold the stapler base with one hand, position your index finger on the center of the top arm, press the arm downward until it closes, then let it rise back."
+    },
+    {
+      "virtual_object": {
+        "name": "Slime",
+        "index": 4,
+        "engagement_level": 1.0,
+        "involvement_type": "contact",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "hand broom with wooden handle and black bristles",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 15
+      },
+      "realism_score": 3.666666666666667,
+      "utilization_method": "Point the bristles upward, lower the palm onto the bristle ends, press until they bend slightly, then sweep the hand sideways across the bristle field."
+    }
+  ]
+}

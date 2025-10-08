@@ -1,0 +1,172 @@
+[
+  {
+    "objectName": "Gold Bar",
+    "involvementType": "grasp",
+    "usage": "it serves as an educational teaching appliance for student to understand the concept of high density",
+    "engagementLevel": 0,
+    "inertia": "Users would feel the heaviness about 1kg while lifting",
+    "interactivity": "",
+    "outline": "Users would feel the shape like a solid rectangular ingot with slightly tapered sides (trapezoidal profile)",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.7142857313156128,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.2857142984867096,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.04",
+      "y": "0.02",
+      "z": "0.10"
+    },
+    "globalPosition": {
+      "x": -0.2504005432128906,
+      "y": 0.9919999837875366,
+      "z": 0.8669999837875366
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 93.54866027832031,
+      "z": 0.0
+    },
+    "interactionDeduction": "The user will approach the ingot with a power-grip, wrapping the entire hand (fingers and thumb) around the long, trapezoidal block. The bar\u2019s small width (4 cm) lets the fingers curl underneath while the thumb stabilises the top edge. After lifting, the surprising 1 kg virtual mass creates downward inertial resistance in the wrist and elbow, forcing the user to engage the larger arm muscles. Typical manipulations include simple lift-and-hold, slow tilting in all axes, and momentary setting down on a tabletop to illustrate weight. The bar itself remains perfectly rigid and unmoving in shape, only translating/rotating as the user dictates; no deformation or compliance occurs."
+  },
+  {
+    "objectName": "Canvas",
+    "involvementType": "contact",
+    "usage": "",
+    "engagementLevel": 2,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.12",
+      "y": "0.26",
+      "z": "0.21"
+    },
+    "globalPosition": {
+      "x": -1.763824701309204,
+      "y": 1.1002063751220703,
+      "z": -0.30591917037963867
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 104.4991226196289,
+      "z": 0.0
+    },
+    "interactionDeduction": "The canvas serves as a static vertical plane the user will repeatedly contact with the tip of a brush or occasionally a fingertip. Contacts are primarily light taps and smooth strokes that slide laterally or vertically across the 0.26 m \u00d7 0.21 m surface. The active body part is the distal end of the brush (held in the user\u2019s hand) or, during finger-painting exploration, the pad of the index finger. Each stroke lasts from fractions of a second (dab) to several seconds (long sweep). The canvas offers immovable, rigid resistance; it does not translate, rotate, or noticeably deform. Haptically it presents a flat, slightly textured plane that stops the brush tip with minimal indentation, immediately reflecting any force back to the user as a firm barrier."
+  },
+  {
+    "objectName": "Brush",
+    "involvementType": "grasp",
+    "usage": "it serves as an artistic tool for painting",
+    "engagementLevel": 2,
+    "inertia": "lightweight, about 10g",
+    "interactivity": "",
+    "outline": "Users should feel a cylindrical shaped graspable part",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.4285714030265808,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5714285373687744,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.26",
+      "y": "0.01",
+      "z": "0.11"
+    },
+    "globalPosition": {
+      "x": -1.4407000541687012,
+      "y": 0.980400025844574,
+      "z": -0.3715999126434326
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 69.94526672363281,
+      "z": 0.0
+    },
+    "interactionDeduction": "The user grasps the cylindrical handle (\u224810 mm diameter) using a precision pen-like grip: thumb, index, and middle finger pinch near the ferrule while the ring and little finger rest against the shaft for stability. Wrist and finger joints orchestrate fine rotational motions (roll for line width changes) and sweeping arcs to paint on the canvas. The object is extremely light (\u224810 g) so inertia is negligible\u2014rapid starts/stops feel effortless. No deformation occurs in the wooden/plastic handle; only the bristle cluster virtually bends and deposits colour, but the handle in the user\u2019s hand remains rigid and unchanged."
+  },
+  {
+    "objectName": "Common Pleco",
+    "involvementType": "contact",
+    "usage": "it serves as an educational teaching appliance for students to examine its armored plating",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "Users would feel smooth surfaces.",
+    "hardness": "Users would feel a firm surface, offering resistance to pressure",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.4375000298023224,
+    "hardnessValue": 0.5625,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.10",
+      "y": "0.06",
+      "z": "0.26"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "Instead of lifting the fish, users mainly make exploratory contacts: gently pressing or sliding finger pads along its head, dorsal armour plates, and tail to feel the smooth yet firm exterior. Typical motion is a light stroke from head toward tail, wrist moving in a 15\u201320 cm arc while maintaining minimal normal force. Contact duration ranges from brief taps to 2\u20133 second glides. The fish provides a cool, slightly slick surface with moderate stiffness\u2014yielding only a few millimetres before springing back\u2014simulating protective plating. It remains stationary; user input does not cause appreciable displacement or squirming."
+  },
+  {
+    "objectName": "Dropper",
+    "involvementType": "grasp",
+    "usage": "it serves for liquid dispensing.",
+    "engagementLevel": 1,
+    "inertia": "Users would perceive very light overall weight about 10g, with the center of mass positioned the lower dropper tip.",
+    "interactivity": "",
+    "outline": "Users would feel approximately 1cm of pinch distance",
+    "texture": "",
+    "hardness": "Users would feel soft and spring -back feedback, while squeezing and releasing an easily compressible part.",
+    "temperature": "",
+    "inertiaValue": 0.30000001192092896,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.20000000298023224,
+    "textureValue": 0.0,
+    "hardnessValue": 0.5,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.14",
+      "y": "0.02",
+      "z": "0.02"
+    },
+    "globalPosition": {
+      "x": -0.11920058727264404,
+      "y": 0.9768127202987671,
+      "z": 0.7001937627792358
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 88.79813385009766
+    },
+    "interactionDeduction": "The user picks up the dropper with a precision pinch around the narrow glass tube, then repositions fingers to place the thumb and index finger on opposite sides of the soft rubber bulb. Repeated squeeze-and-release cycles occur: thumb and index compress toward the tube axis (~1 cm travel) to expel liquid, then relax to let the bulb spring back, drawing fluid. Wrist rolls and subtle forearm supination/ pronation aim the tapered tip above a target vessel. The bulb visibly deforms and re-expands in sync with finger motion, while the glass shaft stays rigid and very light (\u224810 g total mass). A slight shift in centre-of-mass toward the tip can be felt when the dropper fills with virtual fluid."
+  }
+]

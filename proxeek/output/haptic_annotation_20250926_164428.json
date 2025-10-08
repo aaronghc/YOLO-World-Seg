@@ -1,0 +1,45 @@
+{
+  "summary": "",
+  "highEngagementOrder": [],
+  "mediumEngagementOrder": [
+    "Hammer"
+  ],
+  "lowEngagementOrder": [],
+  "nodeAnnotations": [
+    {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "smashing things",
+      "engagementLevel": 1,
+      "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.41",
+        "y": "0.05",
+        "z": "0.15"
+      },
+      "globalPosition": {
+        "x": -1.4484004974365234,
+        "y": 0.9916127324104309,
+        "z": 0.010193705558776855
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 280.48406982421875,
+        "z": 0.0
+      }
+    }
+  ],
+  "relationshipAnnotations": [],
+  "groups": []
+}

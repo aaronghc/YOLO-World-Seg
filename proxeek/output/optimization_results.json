@@ -1,0 +1,39 @@
+{
+  "optimization_summary": {
+    "total_loss": -7.666666666666666,
+    "loss_components": {
+      "L_realism": -7.666666666666666,
+      "L_interaction": 0.0,
+      "L_spatial": 0.0,
+      "total": -7.666666666666666
+    },
+    "num_virtual_objects": 1,
+    "num_physical_objects": 6,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1.0,
+      "w_interaction": 1.0,
+      "w_spatial": 1.0
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 0,
+        "engagement_level": 1.0,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "white VR controller with black circular top and braided strap",
+        "object_id": 1,
+        "image_id": 0,
+        "index": 0
+      },
+      "realism_score": 3.833333333333333,
+      "utilization_method": "Wrap your fingers fully around the controller\u2019s white grip, point the black circular top outward to act as the hammer head, and perform downward or sideward swinging motions while maintaining the fist-like grasp"
+    }
+  ]
+}

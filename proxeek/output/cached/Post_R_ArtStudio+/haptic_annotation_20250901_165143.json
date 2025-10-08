@@ -6,11 +6,11 @@
     "Tube"
   ],
   "mediumEngagementOrder": [
-    "Marker",
-    "Paper"
+    "Paint Roller"
   ],
   "lowEngagementOrder": [
-    "Paint Roller"
+    "Marker",
+    "Paper"
   ],
   "nodeAnnotations": [
     {

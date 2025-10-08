@@ -1,0 +1,172 @@
+[
+  {
+    "objectName": "Gold Bar",
+    "involvementType": "grasp",
+    "usage": "it serves as an educational teaching appliance for student to understand the concept of high density",
+    "engagementLevel": 0,
+    "inertia": "Users would feel the heaviness about 1kg while lifting",
+    "interactivity": "",
+    "outline": "Users would feel the shape like a solid rectangular ingot with slightly tapered sides (trapezoidal profile)",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.7142857313156128,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.2857142984867096,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.04",
+      "y": "0.02",
+      "z": "0.10"
+    },
+    "globalPosition": {
+      "x": -0.2504005432128906,
+      "y": 0.9919999837875366,
+      "z": 0.8669999837875366
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 93.54866027832031,
+      "z": 0.0
+    },
+    "interactionDeduction": "Because of its 1-kg apparent weight and brick-like geometry (10 cm \u00d7 4 cm \u00d7 2 cm), users will approach the bar with a power grip. The thumb opposes the four fingers along the long faces, wrapping around the tapered sides to keep the slab from slipping. Once lifted, the wrist will naturally pronate/supinate to test heft and density, and the shoulder/elbow may rise slightly to compensate for the surprising inertia. The ingot remains perfectly rigid and motionless relative to the hand\u2014no deformation, no moving parts\u2014so all perceived feedback comes from the user\u2019s muscles resisting gravity. Users may also set it down with a controlled lowering motion, feeling a sharp, metallic \u2018stop\u2019 when the bottom face meets a surface."
+  },
+  {
+    "objectName": "Canvas",
+    "involvementType": "contact",
+    "usage": "",
+    "engagementLevel": 2,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.12",
+      "y": "0.26",
+      "z": "0.21"
+    },
+    "globalPosition": {
+      "x": -1.763824701309204,
+      "y": 1.1002063751220703,
+      "z": -0.30591917037963867
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 104.4991226196289,
+      "z": 0.0
+    },
+    "interactionDeduction": "The canvas is not grasped; instead it receives repeated, light contact from another tool (the brush). The user guides the brush tip toward the vertical canvas plane, making momentary presses followed by gliding strokes of varying length. Contact is mainly between the bristles and the canvas surface, producing short, low-force taps and sustained lateral slides. Occasionally the user\u2019s fingertips or knuckles may brush the edge or front while stabilizing a stroke, but most interaction is transient and low-pressure. The canvas itself does not move; it simply offers a firm, slightly textured resistance that halts the brush at the surface while allowing friction-based feedback during each glide."
+  },
+  {
+    "objectName": "Brush",
+    "involvementType": "grasp",
+    "usage": "it serves as an artistic tool for painting",
+    "engagementLevel": 2,
+    "inertia": "lightweight, about 10g",
+    "interactivity": "",
+    "outline": "Users should feel a cylindrical shaped graspable part",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.4285714030265808,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5714285373687744,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.26",
+      "y": "0.01",
+      "z": "0.11"
+    },
+    "globalPosition": {
+      "x": -1.4407000541687012,
+      "y": 0.980400025844574,
+      "z": -0.3715999126434326
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 69.94526672363281,
+      "z": 0.0
+    },
+    "interactionDeduction": "Users hold the brush with a precision or tripod grip: thumb, index, and middle finger pinch the 1-cm-diameter cylindrical handle roughly 3-5 cm above the bristles, while the ring and little finger rest along the shaft for stability. The hand pivots at the wrist to generate strokes; fingers subtly roll the handle to vary angle and line width. Motions include tapping, dragging, flicking, and twisting. Because the brush is only about 10 g, there is minimal inertial resistance; perceived feedback comes from its rigid handle outline and the slight flex of bristles on contact with the canvas. The object itself stays rigid in the user\u2019s grip, offering no deformation or mechanical response."
+  },
+  {
+    "objectName": "Common Pleco",
+    "involvementType": "contact",
+    "usage": "it serves as an educational teaching appliance for students to examine its armored plating",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "Users would feel smooth surfaces.",
+    "hardness": "Users would feel a firm surface, offering resistance to pressure",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.4375000298023224,
+    "hardnessValue": 0.5625,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.10",
+      "y": "0.06",
+      "z": "0.26"
+    },
+    "globalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "The fish is explored primarily with fingertips and palm. Users reach toward the stationary specimen, making light, exploratory strokes along the dorsal armor and lateral plates. Contact consists of gentle presses and sliding motions along the body to feel the firm yet slightly yielding surface. The fingers may trace from head to tail, encountering subtle ridges and fin edges. Interaction is short-lived, with intermittent touches rather than continuous holding. The fish remains motionless and rigid enough to resist finger pressure, conveying the sense of tough plating without significant deformation or recoil."
+  },
+  {
+    "objectName": "Dropper",
+    "involvementType": "grasp",
+    "usage": "it serves for liquid dispensing.",
+    "engagementLevel": 1,
+    "inertia": "Users would perceive very light overall weight about 10g, with the center of mass positioned the lower dropper tip.",
+    "interactivity": "",
+    "outline": "Users would feel approximately 1cm of pinch distance",
+    "texture": "",
+    "hardness": "Users would feel soft and spring -back feedback, while squeezing and releasing an easily compressible part.",
+    "temperature": "",
+    "inertiaValue": 0.30000001192092896,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.20000000298023224,
+    "textureValue": 0.0,
+    "hardnessValue": 0.5,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.14",
+      "y": "0.02",
+      "z": "0.02"
+    },
+    "globalPosition": {
+      "x": -0.11920058727264404,
+      "y": 0.9768127202987671,
+      "z": 0.7001937627792358
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 88.79813385009766
+    },
+    "interactionDeduction": "Users pick up the dropper with a precision grip, thumb on one side of the glass tube, index and middle finger on the opposite side, positioning the rubber bulb between thumb and index. To draw liquid, they rotate the wrist so the tip points downward, then squeeze the soft bulb using a pad-to-pad pinch (thumb squeezing toward index). The bulb compresses 5-10 mm with low force and provides a spring-back sensation on release, producing a subtle suction pull perceived through the fingers. The tube remains rigid and lightweight, causing almost no inertial load. Dispensing involves slight wrist rotations and controlled bulb presses to eject droplets, with sequential squeeze-release cycles until empty."
+  }
+]

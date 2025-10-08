@@ -1,0 +1,194 @@
+{
+  "summary": "Playground01",
+  "highEngagementOrder": [
+    "Lightsaber",
+    "Hammer"
+  ],
+  "mediumEngagementOrder": [
+    "Slime",
+    "Double Slider"
+  ],
+  "lowEngagementOrder": [
+    "Button"
+  ],
+  "nodeAnnotations": [
+    {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "smashing things",
+      "engagementLevel": 2,
+      "inertia": "Users would feel significant weight concentrated in the metal head, creating a distinctly top-heavy feel.",
+      "interactivity": "",
+      "outline": "Users would overall feel a cylindrical shape while grasping with rectangular cross-section",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.6428571343421936,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3571428656578064,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.41",
+        "y": "0.05",
+        "z": "0.15"
+      },
+      "globalPosition": {
+        "x": -1.4484004974365234,
+        "y": 0.9916127324104309,
+        "z": 0.010193705558776855
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 280.48406982421875,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Lightsaber",
+      "involvementType": "grasp",
+      "usage": "cutting through things",
+      "engagementLevel": 2,
+      "inertia": "Users would feel moderate weight concentrated in the hilt (about 1 kg), with balanced weight distribution that doesn\u2019t feel front-heavy.",
+      "interactivity": "",
+      "outline": "Users would overall feel a cylindrical shape while grasping with a diameter about 3cm",
+      "texture": "",
+      "hardness": "",
+      "temperature": "User would feel the surface cool  to touch",
+      "inertiaValue": 0.4444444477558136,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3333333432674408,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.2222222238779068,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.07",
+        "z": "0.22"
+      },
+      "globalPosition": {
+        "x": 0.3688252568244934,
+        "y": 0.9909999966621399,
+        "z": 0.9419999718666077
+      },
+      "globalRotation": {
+        "x": 24.35184669494629,
+        "y": 37.62461471557617,
+        "z": 89.81838989257812
+      }
+    },
+    {
+      "objectName": "Double Slider",
+      "involvementType": "grasp",
+      "usage": "it serves as a mechanical control interface",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "Users would feel the grasping part moving linearly along their pushing and pulling direction",
+      "outline": "User would feel a cylindrical  handle while grasping",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.6666666865348816,
+      "outlineValue": 0.3333333432674408,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.22",
+        "y": "0.10",
+        "z": "0.22"
+      },
+      "globalPosition": {
+        "x": -0.9104006290435791,
+        "y": 0.9704064130783081,
+        "z": 0.3011937141418457
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 125.63567352294922,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Button",
+      "involvementType": "contact",
+      "usage": "pressing the button to trigger actions",
+      "engagementLevel": 0,
+      "inertia": "",
+      "interactivity": "Users would feel a noticeable travel distance about 4 cm and progressive compression resistance",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 1.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.11",
+        "y": "0.05",
+        "z": "0.11"
+      },
+      "globalPosition": {
+        "x": -1.2404005527496338,
+        "y": 0.9704065322875977,
+        "z": 0.2711937427520752
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Slime",
+      "involvementType": "contact",
+      "usage": "it serves as an interactive creature, used for petting and combat encounters. it shows several long spikes when players approaching to it.",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "Users would feel multiple distinct and concentrated tips of cone-shaped spikes ",
+      "hardness": "Users would feel the touched part hard to yield",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.625,
+      "hardnessValue": 0.375,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.23",
+        "y": "0.17",
+        "z": "0.23"
+      },
+      "globalPosition": {
+        "x": -0.009400486946105957,
+        "y": 0.9620000123977661,
+        "z": 1.1649999618530273
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 180.16189575195312,
+        "z": 0.0
+      }
+    }
+  ],
+  "relationshipAnnotations": [
+    {
+      "contactObject": "Hammer",
+      "substrateObject": "Slime",
+      "annotationText": "use the hammer to smash slime. user would experience a sudden dampened impact through the handle"
+    },
+    {
+      "contactObject": "Lightsaber",
+      "substrateObject": "Slime",
+      "annotationText": "use the lightsaber to cut slime. there should be NO resistance-based haptic feedback since the lightsaber blade is pure energy/light, requiring two physical proxies should avoid contact."
+    }
+  ],
+  "groups": []
+}

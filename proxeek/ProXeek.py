@@ -480,7 +480,7 @@ virtual_object_processor_llm = ChatOpenAI(
 # Initialize the proxy matching LLM
 proxy_matching_llm = ChatOpenAI(
     model="o3-2025-04-16",
-    temperature=0.3,
+    temperature=0.2,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
@@ -497,7 +497,7 @@ proxy_matching_llm = ChatOpenAI(
 
 property_rating_llm = ChatOpenAI(
     model="o3-2025-04-16",
-    temperature=0.3,
+    temperature=0.2,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
@@ -505,7 +505,7 @@ property_rating_llm = ChatOpenAI(
 # Initialize the relationship rating LLM
 relationship_rating_llm = ChatOpenAI(
     model="o3-2025-04-16",
-    temperature=0.3,
+    temperature=0.2,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
@@ -522,7 +522,7 @@ log("Initialized relationship_rating_llm for LangSmith tracing")
 # Initialize the substrate utilization LLM
 substrate_utilization_llm = ChatOpenAI(
     model="o3-2025-04-16",
-    temperature=0.3,
+    temperature=0.2,
     base_url="https://api.nuwaapi.com/v1",
     api_key=SecretStr(api_key) if api_key else None
 )
@@ -641,22 +641,34 @@ The JSON should look like:
 proxy_matching_system_prompt = """
 You are an expert in haptic design who specializes in finding physical proxies for virtual objects in VR.
 
-Your task is to analyze ONE virtual object and evaluate ALL physical objects from the environment as potential haptic proxies.
+Your task is to analyze ONE virtual object and provide utilization methods for ALL physical objects from the environment as its potential haptic proxies.
 
-First, carefully consider the deduced interaction for the virtual object—how users are expected to interact with it
+
+**STEP-BY-STEP PROCESS:**
+1. First, carefully examine the virtual object's image and deduced interaction for understanding its expected interaction pattern
+2. For each physical object:
+   a. **Visually analyze the object in the image** - What do you actually see?
+   b. **Identify its physical properties** - How are its shape, size, material, and surface characteristics?
+   c. **Assess realistic interaction possibilities** based on visible structure
+   d. **Propose a utilization method** that matches what you can visually confirm
 
 For each physical object, propose a specific method to utilize it as a haptic proxy. Your utilization method should describe ONLY the practical steps of how to interact with the physical object. Do not include explanations about why it works, what sensations it provides, or how well it matches the virtual object.
 
-Focus on matching the most important haptic properties of the virtual object (those with higher importance values), but always ensure your proxy method enables the user to perform the same type of interaction as described in the interaction deduction.
+Focus on matching the most important haptic properties of the virtual object (those with higher importance values), but always ensure your proxy method:
+- Enables the user to perform the same type of interaction as described in the interaction deduction
+- **Matches the actual physical configuration visible in the images**
+- Is based on visual evidence, not assumptions
 
 CRITICAL CONSTRAINTS FOR REALISTIC UTILIZATION:
 1. Use objects AS-IS in their current state - no modifications, installations, or adding components
 2. No installing hardware (switches, sensors, actuators, etc.) or electronic components
 3. No disassembly or reassembly of objects
 4. No adding external attachments or accessories
-5. Work with ONLY the object's existing physical properties (shape, size, weight, texture, hardness, etc.)
+5. Work with ONLY the object's existing physical properties visible in the images
 6. Propose methods that VR users can immediately perform without any setup or preparation
-7. Focus on how to hold, touch, press, move, or interact with the object using its inherent characteristics
+7. Do not propose methods that require two hands to perform if the virtual object is expected to be used/interacted with one hand
+8. **Verify that your proposed interaction aligns with the object's actual visible configuration**
+9. Focus on how to hold, touch, press, move, or interact with the object using its inherent characteristics **as shown in the image**
 
 Examples of APPROPRIATE utilization methods:
 - "Press down on the flat surface"
@@ -672,7 +684,7 @@ Examples of INAPPROPRIATE utilization methods:
 
 Make sure to include the object_id and image_id for each physical object exactly as they appear in the detected objects list.
 
-CRITICAL REQUIREMENT: You MUST evaluate and generate a utilization method for EVERY SINGLE physical object shown in list (Detected Objects in this Snapshot). Do not skip any objects. Even if an object seems unsuitable, you must still propose a utilization method and explain how it could potentially be used as a proxy.
+CRITICAL REQUIREMENT: You MUST evaluate and generate a utilization method for EVERY SINGLE physical object shown in list (Detected Objects in this Snapshot). Do not skip any objects. Even if an object seems unsuitable, you must still propose a utilization method based on what you can visually confirm but add "(not sure whether it is applicable)" to the end of your proposed utilization method.
 
 IMPORTANT: Image IDs begin at 0 (not 1). The first image has image_id=0, the second has image_id=1, etc.
 """
@@ -819,7 +831,10 @@ Focus specifically on the {dimension_name} dimension:
         "harmony": """
 **Harmony Dimension**: "I felt the haptic feedback was well synchronized with visual feedback"
 
-Focus ONLY on whether the user feels ANY haptic contact when visual contact occurs, not on the quality of that contact. Consider the complete physical setup - both contact object reach and substrate object dimensions:
+**IMPORTANT: Check the "Expected Haptic Feedback" annotation first to determine the intended interaction type:**
+
+### For CONTACT-EXPECTED scenarios (most interactions):
+Focus ONLY on whether the user feels ANY haptic contact when visual contact occurs, not on the quality of that contact. Consider the complete physical setup - **both contact object reach and substrate object dimensions**:
 
 Score 1 - Strongly Disagree:
 - When visual contact occurs, user feels NO physical sensation at all (complete miss)
@@ -835,11 +850,29 @@ Score 7 - Strongly Agree:
 - Physical setup enables consistent contact - user can reliably hit the substrate proxy
 - Timing is well synchronized - haptic contact occurs at same moments as visual contact
 
+### For NO-CONTACT scenarios:
+When the annotation explicitly mentions "NO contact", "avoid contact", "no resistance", or similar:
+
+Score 1 - Strongly Disagree:
+- Physical setup forces unwanted contact when virtual interaction occurs
+- Objects are positioned such that user cannot avoid touching physical proxies
+- Contact object and substrate are too close/large, making contact unavoidable
+- User feels resistance/contact when they should feel none
+
+Score 7 - Strongly Agree:
+- Physical setup successfully avoids contact during virtual interaction
+- User can perform the virtual action without touching physical objects
+- Objects are positioned to allow free movement without unwanted contact
+- Timing is synchronized - user feels no resistance exactly when virtual contact occurs
+
 **Important**: Evaluate the entire physical contact scenario. Even if one object is smaller than ideal, the setup can still work if the other compensates (e.g., shorter contact object is okay if substrate proxy is large and easy to hit).
 """,
         "expressivity": """
 **Expressivity Dimension**: "I felt the contact object effectively conveyed substrate properties and interaction variations through my hand"
 
+**IMPORTANT: Check the "Expected Haptic Feedback" annotation first to determine the intended interaction type:**
+
+### For CONTACT-EXPECTED scenarios (most interactions):
 Focus on how well substrate properties are conveyed through the contact object:
 
 Score 1 - Strongly Disagree:
@@ -851,10 +884,26 @@ Score 7 - Strongly Agree:
 - Rich feedback variations convey substrate properties clearly
 - Natural variations in speed, angle, and force produce different haptic responses
 - Contact object effectively transmits substrate material properties and surface characteristics
+
+### For NO-CONTACT scenarios:
+When the annotation explicitly mentions "NO contact", "avoid contact", "no resistance", or similar:
+
+Score 1 - Strongly Disagree:
+- User feels unwanted properties/sensations when they should feel nothing
+- Physical setup provides tactile feedback that contradicts the no-contact expectation
+- Any resistance or material properties are transmitted when none should be
+
+Score 7 - Strongly Agree:
+- User feels no unwanted properties or sensations during the interaction
+- Physical setup successfully avoids transmitting any material characteristics
+- Complete absence of tactile feedback maintains the illusion of no physical interaction
 """,
         "realism": """
 **Realism Dimension**: "I felt using this physical contact object on this physical substrate closely simulated the intended haptic feedback"
 
+**IMPORTANT: Check the "Expected Haptic Feedback" annotation first to determine the intended interaction type:**
+
+### For CONTACT-EXPECTED scenarios (most interactions):
 Focus on how well the overall contact-substrate interaction matches the expected haptic experience:
 
 Score 1 - Strongly Disagree:
@@ -866,6 +915,19 @@ Score 7 - Strongly Agree:
 - All characteristic sensations of the real interaction are present (impacts, resistance, texture transmission, etc.)
 - The physical pairing naturally affords the same manipulation techniques as the virtual scenario
 - The combined utilization methods deliver the essential haptic elements described in the expected feedback
+
+### For NO-CONTACT scenarios:
+When the annotation explicitly mentions "NO contact", "avoid contact", "no resistance", or similar:
+
+Score 1 - Strongly Disagree:
+- Physical setup creates realistic contact sensations when none should exist
+- User experiences resistance, impact, or material feedback contradicting the no-contact expectation
+- The interaction feels physically realistic in ways that break the virtual illusion
+
+Score 7 - Strongly Agree:
+- Physical setup successfully simulates the complete absence of physical interaction
+- User experiences no unwanted contact that would break the illusion of energy/non-physical interaction
+- The lack of haptic feedback realistically matches the expectation of no physical resistance
 """
     }
     
@@ -2060,10 +2122,10 @@ async def rate_single_property(virtual_object, property_name, environment_images
 
 ## Virtual Object: {virtual_object_name}
 ## Property to Evaluate: {property_name.replace("Value", "")}
-## Property Description: {property_description}
+## Property Description: **{property_description}**
 ## Interaction Deduction: {interaction_deduction}
 
-Please rate how well each physical object can deliver the expected {property_name.replace("Value", "")} haptic feedback described above, considering the deduced interaction pattern when used according to the utilization method.
+Please rate how well each physical object can deliver the expected {property_name.replace("Value", "")} haptic feedback described above (**Property Description**), considering the deduced interaction pattern when used according to the utilization method.
 """
         human_message_content.append({
             "type": "text", 
@@ -2299,13 +2361,80 @@ IMPORTANT: Include ALL physical objects in your evaluation, even those with low 
             
         except json.JSONDecodeError as e:
             log(f"Error parsing property rating JSON for {property_name} of {virtual_object_name} (run {run_index}): {e}")
-            log(f"Raw content: {json_content}")
+            log(f"Raw content: {json_content[:500]}...")
             
-            # Return a basic result with the error
+            # Retry the LLM call up to 3 times due to malformed JSON
+            for retry_attempt in range(3):
+                try:
+                    log(f"Retrying property rating request for {property_name} of {virtual_object_name} (run {run_index}) (attempt {retry_attempt + 1}/3) due to JSON parsing error")
+                    
+                    async def retry_property_rating_llm():
+                        log(f"Retry {retry_attempt + 1}: Sending property rating request for {property_name} of {virtual_object_name} (run {run_index})")
+                        response = await property_rating_llm.ainvoke(messages)
+                        log(f"Retry {retry_attempt + 1}: Received property ratings for {property_name} of {virtual_object_name} (run {run_index})")
+                        return response
+                    
+                    retry_response = await retry_property_rating_llm()
+                    retry_response_text = extract_response_text(retry_response.content)
+                    
+                    # Extract JSON from retry response
+                    retry_json_start = retry_response_text.find("[")
+                    retry_json_end = retry_response_text.rfind("]") + 1
+                    if retry_json_start != -1 and retry_json_end > retry_json_start:
+                        retry_json_content = retry_response_text[retry_json_start:retry_json_end]
+                    else:
+                        retry_json_start = retry_response_text.find("```json")
+                        if retry_json_start != -1:
+                            retry_json_start += 7
+                            retry_json_end = retry_response_text.find("```", retry_json_start)
+                            if retry_json_end != -1:
+                                retry_json_content = retry_response_text[retry_json_start:retry_json_end].strip()
+                            else:
+                                retry_json_content = retry_response_text[retry_json_start:].strip()
+                        else:
+                            retry_json_content = retry_response_text
+                    
+                    # Try to parse the retry response
+                    rating_results = json.loads(retry_json_content)
+                    
+                    log(f"Retry {retry_attempt + 1} successful for property rating {property_name} of {virtual_object_name} (run {run_index}): {len(rating_results)} results")
+                    
+                    # Add the property value and rename the rating field
+                    rating_key = f"rating_{run_index}"
+                    for result in rating_results:
+                        property_value = virtual_object.get(property_name, 0.0)
+                        result["propertyValue"] = property_value
+                        
+                        if "rating" in result:
+                            result[rating_key] = result["rating"]
+                            del result["rating"]
+                        
+                        # Remove any extra fields
+                        keys_to_keep = ["virtualObject", "property", "physicalObject", "object_id", "image_id", rating_key, "explanation", "propertyValue"]
+                        for key in list(result.keys()):
+                            if key not in keys_to_keep:
+                                del result[key]
+                    
+                    return rating_results
+                    
+                except json.JSONDecodeError as retry_json_e:
+                    log(f"Retry {retry_attempt + 1} also has JSON parsing error for property rating {property_name} of {virtual_object_name} (run {run_index}): {retry_json_e}")
+                    if retry_attempt == 2:  # Last attempt failed
+                        break
+                    continue
+                    
+                except Exception as retry_e:
+                    log(f"Retry {retry_attempt + 1} failed for property rating {property_name} of {virtual_object_name} (run {run_index}): {retry_e}")
+                    if retry_attempt == 2:  # Last attempt failed
+                        break
+                    continue
+            
+            # All retries failed
+            log(f"All 3 retry attempts failed for property rating {property_name} of {virtual_object_name} (run {run_index})")
             return [{
                 "virtualObject": virtual_object_name,
                 "property": property_name.replace("Value", ""),
-                "error": f"Failed to parse response: {str(e)}",
+                "error": f"Failed to parse response after 3 retries: {str(e)}",
                 "rawResponse": response_text[:500]  # First 500 chars
             }]
             
@@ -2919,15 +3048,74 @@ FORMAT YOUR RESPONSE AS A JSON ARRAY as specified in the system prompt, using th
             
         except json.JSONDecodeError as e:
             log(f"Error parsing {dimension_name} rating JSON for group {group_index}: {e}")
-            log(f"Raw content: {json_content}")
+            log(f"Raw content: {json_content[:500]}...")
             
-            # Return a basic result with the error
+            # Retry the LLM call up to 3 times due to malformed JSON
+            for retry_attempt in range(3):
+                try:
+                    log(f"Retrying {dimension_name} rating request for group {group_index} (attempt {retry_attempt + 1}/3) due to JSON parsing error")
+                    
+                    async def retry_relationship_rating_llm():
+                        log(f"Retry {retry_attempt + 1}: Sending {dimension_name} rating request for group {group_index}")
+                        response = await relationship_rating_llm.ainvoke(messages)
+                        log(f"Retry {retry_attempt + 1}: Successfully received {dimension_name} ratings for group {group_index}")
+                        return response
+                    
+                    retry_response = await retry_relationship_rating_llm()
+                    retry_response_text = extract_response_text(retry_response.content)
+                    
+                    # Extract JSON from retry response
+                    retry_json_start = retry_response_text.find("[")
+                    retry_json_end = retry_response_text.rfind("]") + 1
+                    if retry_json_start != -1 and retry_json_end > retry_json_start:
+                        retry_json_content = retry_response_text[retry_json_start:retry_json_end]
+                    else:
+                        retry_json_start = retry_response_text.find("```json")
+                        if retry_json_start != -1:
+                            retry_json_start += 7
+                            retry_json_end = retry_response_text.find("```", retry_json_start)
+                            if retry_json_end != -1:
+                                retry_json_content = retry_response_text[retry_json_start:retry_json_end].strip()
+                            else:
+                                retry_json_content = retry_response_text[retry_json_start:].strip()
+                        else:
+                            retry_json_content = retry_response_text
+                    
+                    # Try to parse the retry response
+                    rating_results = json.loads(retry_json_content)
+                    
+                    log(f"Retry {retry_attempt + 1} successful for {dimension_name} rating group {group_index}: {len(rating_results)} ratings")
+                    
+                    # Add group information
+                    for result in rating_results:
+                        result["group_index"] = group_index
+                        result["dimension"] = dimension_name
+                        result["virtualContactObject"] = virtual_contact_name
+                        result["virtualSubstrateObject"] = virtual_substrate_name
+                        result["expectedHapticFeedback"] = annotation_text
+                    
+                    return rating_results
+                    
+                except json.JSONDecodeError as retry_json_e:
+                    log(f"Retry {retry_attempt + 1} also has JSON parsing error for {dimension_name} rating group {group_index}: {retry_json_e}")
+                    if retry_attempt == 2:  # Last attempt failed
+                        break
+                    continue
+                    
+                except Exception as retry_e:
+                    log(f"Retry {retry_attempt + 1} failed for {dimension_name} rating group {group_index}: {retry_e}")
+                    if retry_attempt == 2:  # Last attempt failed
+                        break
+                    continue
+            
+            # All retries failed
+            log(f"All 3 retry attempts failed for {dimension_name} rating group {group_index}")
             return [{
                 "group_index": group_index,
                 "dimension": dimension_name,
                 "virtualContactObject": virtual_contact_name,
                 "virtualSubstrateObject": virtual_substrate_name,
-                "error": f"Failed to parse response: {str(e)}",
+                "error": f"Failed to parse response after 3 retries: {str(e)}",
                 "rawResponse": response_text[:500]  # First 500 chars
             }]
             
@@ -4012,14 +4200,69 @@ FORMAT YOUR RESPONSE as specified in the system prompt, using the EXACT object I
             
         except json.JSONDecodeError as e:
             log(f"Error parsing substrate utilization JSON for {virtual_contact_name} -> {virtual_substrate_name}: {e}")
-            log(f"Raw content: {json_content}")
+            log(f"Raw content: {json_content[:500]}...")
             
-            # Return a basic result with the error
+            # Retry the LLM call up to 3 times due to malformed JSON
+            for retry_attempt in range(3):
+                try:
+                    log(f"Retrying substrate utilization request for {virtual_contact_name} -> {virtual_substrate_name} (attempt {retry_attempt + 1}/3) due to JSON parsing error")
+                    
+                    async def retry_substrate_utilization_llm():
+                        log(f"Retry {retry_attempt + 1}: Sending substrate utilization request for {virtual_contact_name} -> {virtual_substrate_name}")
+                        response = await substrate_utilization_llm.ainvoke(messages)
+                        log(f"Retry {retry_attempt + 1}: Received substrate utilization methods for {virtual_contact_name} -> {virtual_substrate_name}")
+                        return response
+                    
+                    retry_response = await retry_substrate_utilization_llm()
+                    retry_response_text = extract_response_text(retry_response.content)
+                    
+                    # Extract JSON from retry response
+                    retry_json_start = retry_response_text.find("[")
+                    retry_json_end = retry_response_text.rfind("]") + 1
+                    if retry_json_start != -1 and retry_json_end > retry_json_start:
+                        retry_json_content = retry_response_text[retry_json_start:retry_json_end]
+                    else:
+                        retry_json_start = retry_response_text.find("```json")
+                        if retry_json_start != -1:
+                            retry_json_start += 7
+                            retry_json_end = retry_response_text.find("```", retry_json_start)
+                            if retry_json_end != -1:
+                                retry_json_content = retry_response_text[retry_json_start:retry_json_end].strip()
+                            else:
+                                retry_json_content = retry_response_text[retry_json_start:].strip()
+                        else:
+                            retry_json_content = retry_response_text
+                    
+                    # Try to parse the retry response
+                    utilization_results = json.loads(retry_json_content)
+                    
+                    log(f"Retry {retry_attempt + 1} successful for substrate utilization {virtual_contact_name} -> {virtual_substrate_name}: {len(utilization_results)} results")
+                    
+                    # Add contact object information to each result
+                    for result in utilization_results:
+                        result["relationshipAnnotation"] = relationship_annotation
+                    
+                    return utilization_results
+                    
+                except json.JSONDecodeError as retry_json_e:
+                    log(f"Retry {retry_attempt + 1} also has JSON parsing error for substrate utilization {virtual_contact_name} -> {virtual_substrate_name}: {retry_json_e}")
+                    if retry_attempt == 2:  # Last attempt failed
+                        break
+                    continue
+                    
+                except Exception as retry_e:
+                    log(f"Retry {retry_attempt + 1} failed for substrate utilization {virtual_contact_name} -> {virtual_substrate_name}: {retry_e}")
+                    if retry_attempt == 2:  # Last attempt failed
+                        break
+                    continue
+            
+            # All retries failed
+            log(f"All 3 retry attempts failed for substrate utilization {virtual_contact_name} -> {virtual_substrate_name}")
             return [{
                 "virtualContactObject": virtual_contact_name,
                 "virtualSubstrateObject": virtual_substrate_name,
                 "physicalContactObject": contact_object.get('object', 'Unknown'),
-                "error": f"Failed to parse response: {str(e)}",
+                "error": f"Failed to parse response after 3 retries: {str(e)}",
                 "rawResponse": response_text[:500]  # First 500 chars
             }]
             

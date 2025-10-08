@@ -1,0 +1,107 @@
+{
+  "optimization_summary": {
+    "total_loss": -37.22647152070399,
+    "loss_components": {
+      "L_realism": -11.269345931827152,
+      "L_interaction": -25.957125588876835,
+      "L_spatial": 0.0,
+      "total": -37.22647152070399
+    },
+    "num_virtual_objects": 5,
+    "num_physical_objects": 21,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Gold Bar",
+        "index": 0,
+        "engagement_level": 0.36787944117144233,
+        "involvement_type": "grasp",
+        "priority_weight": 0.36787944117144233
+      },
+      "physical_object": {
+        "name": "metal calibration weight cylinder labeled 'M 500g' on top",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 3.8571429649988804,
+      "utilization_method": "Clasp the cylinder with the whole hand wrapping around its sides, lift it vertically, rotate it gently, and set it down upright"
+    },
+    {
+      "virtual_object": {
+        "name": "Canvas",
+        "index": 1,
+        "engagement_level": 1.6487212707001282,
+        "involvement_type": "contact",
+        "priority_weight": 1.6487212707001282
+      },
+      "physical_object": {
+        "name": "black office chair with armrests",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 16
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand beside the chair and use the upright backrest fabric as a wide vertical plane for light taps or sweeping strokes"
+    },
+    {
+      "virtual_object": {
+        "name": "Brush",
+        "index": 2,
+        "engagement_level": 2.718281828459045,
+        "involvement_type": "grasp",
+        "priority_weight": 2.718281828459045
+      },
+      "physical_object": {
+        "name": "black ballpoint pen",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 6.857142448425293,
+      "utilization_method": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes."
+    },
+    {
+      "virtual_object": {
+        "name": "Common Pleco",
+        "index": 3,
+        "engagement_level": 1.0,
+        "involvement_type": "contact",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "white spray bottle with blue liquid inside",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 13
+      },
+      "realism_score": 5.041666805744171,
+      "utilization_method": "Hold the bottle upright by the neck and run two fingertips down the smooth cylindrical body toward the base."
+    },
+    {
+      "virtual_object": {
+        "name": "Dropper",
+        "index": 4,
+        "engagement_level": 0.6065306597126334,
+        "involvement_type": "grasp",
+        "priority_weight": 0.6065306597126334
+      },
+      "physical_object": {
+        "name": "yellow and green cellulose sponge",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 5.066666727264722,
+      "utilization_method": "Hold a corner of the sponge between thumb and index finger, compress that corner about one centimeter and let it expand back while pointing the squeezed edge downward"
+    }
+  ]
+}

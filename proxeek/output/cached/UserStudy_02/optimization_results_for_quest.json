@@ -1,0 +1,32 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Gold Bar",
+      "proxyObjectName": "compact dark gray mechanical keyboard with one red keycap",
+      "utilizationMethod": "Place both long edges between thumb and fingers, clamp firmly, lift the keyboard vertically, rotate the wrist a bit, and rest it flat again"
+    },
+    {
+      "virtualObjectName": "Canvas",
+      "proxyObjectName": "green and yellow rectangular scrubbing sponge",
+      "utilizationMethod": "Place the sponge green side up on the tabletop and move the brush tip across that surface in short strokes"
+    },
+    {
+      "virtualObjectName": "Brush",
+      "proxyObjectName": "wooden handheld brush with black bristles",
+      "utilizationMethod": "Hold the wooden handle about 4 cm from the bristles with a tripod grip and execute tapping and dragging motions."
+    },
+    {
+      "virtualObjectName": "Common Pleco",
+      "proxyObjectName": "white Apple Magic Mouse",
+      "utilizationMethod": "Place the mouse stationary, rest fingertips on its curved surface, and glide them from front to back following the arch"
+    },
+    {
+      "virtualObjectName": "Dropper",
+      "proxyObjectName": "black retractable ballpoint pen",
+      "utilizationMethod": "Hold the pen barrel between thumb and index finger near the clicker and press the retractable button rhythmically with the thumb"
+    }
+  ],
+  "timestamp": "6c387249-4850-497d-b4f5-7269f21384c3",
+  "total_assignments": 5
+}

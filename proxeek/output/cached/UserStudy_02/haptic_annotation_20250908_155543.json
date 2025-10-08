@@ -1,0 +1,189 @@
+{
+  "summary": "Playground02",
+  "highEngagementOrder": [
+    "Brush",
+    "Canvas"
+  ],
+  "mediumEngagementOrder": [
+    "Common Pleco",
+    "Dropper"
+  ],
+  "lowEngagementOrder": [
+    "Gold Bar"
+  ],
+  "nodeAnnotations": [
+    {
+      "objectName": "Gold Bar",
+      "involvementType": "grasp",
+      "usage": "it serves as an educational teaching appliance for student to understand the concept of high density",
+      "engagementLevel": 0,
+      "inertia": "Users would feel the heaviness about 1kg while lifting",
+      "interactivity": "",
+      "outline": "Users would feel the shape like a solid rectangular ingot with slightly tapered sides (trapezoidal profile)",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.7142857313156128,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.2857142984867096,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.04",
+        "y": "0.02",
+        "z": "0.10"
+      },
+      "globalPosition": {
+        "x": -0.2504005432128906,
+        "y": 0.9919999837875366,
+        "z": 0.8669999837875366
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 93.54866027832031,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Canvas",
+      "involvementType": "contact",
+      "usage": "",
+      "engagementLevel": 2,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.12",
+        "y": "0.26",
+        "z": "0.21"
+      },
+      "globalPosition": {
+        "x": -1.763824701309204,
+        "y": 1.1002063751220703,
+        "z": -0.30591917037963867
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 104.4991226196289,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Brush",
+      "involvementType": "grasp",
+      "usage": "it serves as an artistic tool for painting",
+      "engagementLevel": 2,
+      "inertia": "lightweight, about 10g",
+      "interactivity": "",
+      "outline": "Users should feel a cylindrical shaped graspable part",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.4285714030265808,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5714285373687744,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.01",
+        "z": "0.11"
+      },
+      "globalPosition": {
+        "x": -1.4407000541687012,
+        "y": 0.980400025844574,
+        "z": -0.3715999126434326
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 69.94526672363281,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Common Pleco",
+      "involvementType": "contact",
+      "usage": "it serves as an educational teaching appliance for students to examine its armored plating",
+      "engagementLevel": 1,
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "Users would feel smooth surfaces.",
+      "hardness": "Users would feel a firm surface, offering resistance to pressure",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.4375000298023224,
+      "hardnessValue": 0.5625,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.10",
+        "y": "0.06",
+        "z": "0.26"
+      },
+      "globalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "objectName": "Dropper",
+      "involvementType": "grasp",
+      "usage": "it serves for liquid dispensing.",
+      "engagementLevel": 1,
+      "inertia": "Users would perceive very light overall weight about 10g, with the center of mass positioned the lower dropper tip.",
+      "interactivity": "",
+      "outline": "Users would feel approximately 1cm of pinch distance",
+      "texture": "",
+      "hardness": "Users would feel soft and spring -back feedback, while squeezing and releasing an easily compressible part.",
+      "temperature": "",
+      "inertiaValue": 0.30000001192092896,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.20000000298023224,
+      "textureValue": 0.0,
+      "hardnessValue": 0.5,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.14",
+        "y": "0.02",
+        "z": "0.02"
+      },
+      "globalPosition": {
+        "x": -0.11920058727264404,
+        "y": 0.9768127202987671,
+        "z": 0.7001937627792358
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 88.79813385009766
+      }
+    }
+  ],
+  "relationshipAnnotations": [
+    {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  ],
+  "groups": []
+}

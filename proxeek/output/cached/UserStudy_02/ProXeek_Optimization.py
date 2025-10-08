@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 import itertools
 import random
-from typing import List, Dict, Any, Tuple, Optional, Set
+from typing import List, Dict, Any, Tuple, Optional
 from dataclasses import dataclass
 import time
 
@@ -96,10 +96,6 @@ class ProXeekOptimizer:
         # Constraints
         self.enable_exclusivity = True  # Each physical object used at most once
         
-        # Banned physical objects (by (image_id, object_id)) and their indices
-        self.banned_physical_pairs: Set[Tuple[int, int]] = set()
-        self.banned_physical_indices: Set[int] = set()
-        
     def load_data(self) -> bool:
         """Load all required data files"""
         try:
@@ -161,9 +157,6 @@ class ProXeekOptimizer:
             self._build_realism_matrix(proxy_data)
             self._build_interaction_matrices(haptic_data, relationship_data)
             self._build_distance_matrices()  # for spatial loss
-            
-            # Recompute banned indices if any pairs were set prior to load
-            self.refresh_banned_indices_after_load()
             
             print(f"Loaded data successfully:")
             print(f"  Virtual objects: {len(self.virtual_objects)}")
@@ -274,9 +267,6 @@ class ProXeekOptimizer:
             self._build_interaction_matrices(haptic_data, relationship_data)
             self._build_distance_matrices()  # for spatial loss
             
-            # Recompute banned indices if any pairs were set prior to load
-            self.refresh_banned_indices_after_load()
-            
             print(f"Loaded in-memory data successfully:")
             print(f"  Virtual objects: {len(self.virtual_objects)}")
             print(f"  Physical objects: {len(self.physical_objects)}")
@@ -348,7 +338,7 @@ class ProXeekOptimizer:
                     if N > 0:  # Only calculate if we have ranked objects
                         center = (N - 1) / 2.0
                         x_i = center - priority_rank          # evenly spaced, centred at 0
-                        k = 2                                # slope parameter for exp
+                        k = 0.5                                # slope parameter for exp
                         engagement_level = math.exp(k * x_i)
                     else:
                         engagement_level = 1.0  # Default if no ranking available
@@ -363,7 +353,7 @@ class ProXeekOptimizer:
                     if N > 0:  # Only calculate if we have ranked objects
                         center = (N - 1) / 2.0
                         x_i = center - priority_rank          # evenly spaced, centred at 0
-                        k = 2                              # slope parameter for exp
+                        k = 0.5                                # slope parameter for exp
                         engagement_level = math.exp(k * x_i)
                     else:
                         engagement_level = 1.0  # Default if no ranking available
@@ -1025,24 +1015,21 @@ class ProXeekOptimizer:
             # Only apply Top-K filtering to grasp and contact objects
             if virtual_obj.involvement_type in ["grasp", "contact"]:
                 realism_scores = self.realism_matrix[v_idx, :]
-
-                # Exclude banned indices first
-                allowed_indices = [idx for idx in range(len(realism_scores)) if idx not in self.banned_physical_indices]
-
-                # Handle ties: include all objects with the same score as the k-th object among allowed only
-                if len(allowed_indices) <= k:
-                    # If we have k or fewer allowed objects, use all of them
-                    top_k_indices = allowed_indices
+                
+                # Handle ties: include all objects with the same score as the k-th object
+                if len(realism_scores) <= k:
+                    # If we have k or fewer objects, use all of them
+                    top_k_indices = list(range(len(realism_scores)))
                 else:
-                    # Get allowed indices sorted by realism score (highest first)
-                    sorted_allowed = sorted(allowed_indices, key=lambda idx: realism_scores[idx], reverse=True)
-
-                    # Find the k-th highest score among allowed
-                    kth_score = realism_scores[sorted_allowed[k-1]]
-
-                    # Include all allowed objects with scores >= k-th score (tie handling)
+                    # Get sorted indices by realism score (highest first)
+                    sorted_indices = np.argsort(realism_scores)[::-1]
+                    
+                    # Find the k-th highest score
+                    kth_score = realism_scores[sorted_indices[k-1]]
+                    
+                    # Include all objects with scores >= k-th score
                     top_k_indices = []
-                    for idx in sorted_allowed:
+                    for idx in sorted_indices:
                         if realism_scores[idx] >= kth_score:
                             top_k_indices.append(idx)
                         else:
@@ -1058,7 +1045,7 @@ class ProXeekOptimizer:
                     print(f"      - {physical_obj_name}: {score:.3f}")
             else:
                 # For substrate objects, use all physical objects since realism ratings are zero
-                substrate_indices = [idx for idx in range(n_physical) if idx not in self.banned_physical_indices]
+                substrate_indices = list(range(n_physical))
                 
                 # Add randomization for substrate objects when interaction weight is 0
                 if self.w_interaction == 0:
@@ -1101,38 +1088,6 @@ class ProXeekOptimizer:
             print("Assignment order randomized due to w_interaction=0")
         
         return valid_assignments
-
-    def set_banned_physical_objects(self, banned_pairs: List[Tuple[int, int]]) -> None:
-        """Set banned physical objects by (image_id, object_id) pairs and compute their indices.
-        
-        Args:
-            banned_pairs: List of (image_id, object_id) pairs to exclude from consideration.
-        """
-        # Store canonicalized set
-        self.banned_physical_pairs = set((int(img_id), int(obj_id)) for img_id, obj_id in banned_pairs)
-
-        # Map to indices if physical objects already loaded
-        self.banned_physical_indices = set()
-        if self.physical_objects:
-            for phys in self.physical_objects:
-                key = (int(phys.image_id), int(phys.object_id))
-                if key in self.banned_physical_pairs:
-                    self.banned_physical_indices.add(phys.index)
-
-        if self.banned_physical_pairs:
-            print(f"Banned physical objects set: {len(self.banned_physical_pairs)} pairs")
-            # Print a few examples
-            examples = list(self.banned_physical_pairs)[:5]
-            for (img_id, obj_id) in examples:
-                print(f"  - (image_id={img_id}, object_id={obj_id})")
-        if self.banned_physical_indices:
-            print(f"Banned physical indices resolved: {sorted(self.banned_physical_indices)}")
-
-    def refresh_banned_indices_after_load(self) -> None:
-        """Recompute banned indices after data load, preserving existing banned pair list."""
-        if not self.banned_physical_pairs:
-            return
-        self.set_banned_physical_objects(list(self.banned_physical_pairs))
     
     def generate_all_assignments(self) -> List[np.ndarray]:
         """Generate all valid assignment permutations with optional Top-K filtering"""
@@ -1847,29 +1802,7 @@ def main():
     optimizer.enable_exclusivity = True
     
     # Control priority weighting (can be adjusted)
-    optimizer.set_priority_weighting(False)  # Set to False to disable priority weighting
-    
-    # ------------------------------------------------------------
-    # INPUT: Banned physical objects (image_id, object_id) pairs
-    banned_pairs_input: List[Tuple[int, int]] = [
-        # Example: (image_id, object_id)
-        # (0, 5), # black ballpoint pen
-        # (0, 1), # Apple iMac computer monitor with silver bezel and black screen
-        # (0, 2), # small white tabletop fan with round grill
-        # (0, 4), # white USB charging cable
-        # (0, 8), # green retractable tape measure
-        # (0, 3), # black mesh office chair
-        # (1, 6), # orange ping pong ball with printed logo
-        # (1, 3), # pair of scissors with black blades and orange handles
-        # (2, 3), # AA battery
-        # (2, 5), # red Shin Ramyun instant noodle packet
-        # (3, 1), # black-handled collapsible selfie stick / monopod
-        # (3, 4), # cylindrical silver 500g calibration weight marked 'M 500g'
-        # (3, 3), # yellow rectangular kitchen sponge with green scrub side
-        # (4, 1), # black faux leather two-seater sofa
-        # (4, 4), # black and white patterned umbrella with curved handle
-    ]
-    optimizer.set_banned_physical_objects(banned_pairs_input)
+    optimizer.set_priority_weighting(True)  # Set to False to disable priority weighting
     
     print(f"\nOptimization Parameters:")
     print(f"  Realism weight: {optimizer.w_realism}")

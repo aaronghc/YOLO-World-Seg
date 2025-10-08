@@ -62,6 +62,7 @@ class ProXeekOptimizer:
     - L_spatial = (1/N_spatial) × Σᵢₖ [(virtual_distance[i,k] - physical_distance[proxy_i,proxy_k])² × combined_priority_weight[i,k]]
     
     Where:
+    - priority_weight[i] uses a three-tier system: High=5.0, Medium=3.0, Low=1.0
     - combined_priority_weight[i,k] = priority_weight[i] + priority_weight[k] for both interaction and spatial losses
     - N_grasp_contact = count of grasp and contact objects (normalization factor for L_realism)
     - N_relationships = count of interaction relationships (normalization factor for L_interaction)  
@@ -336,39 +337,18 @@ class ProXeekOptimizer:
             name = obj.get("objectName", "")
             involvement_type = obj.get("involvementType", "")
             
-            # Calculate engagement level based on object type and ranking
-            engagement_level = 0.0  # default for unranked objects
+            # Calculate engagement level based on three-tier priority system
+            engagement_level = 1.0  # default for unranked objects
             
-            if involvement_type in ["grasp", "contact"]:
-                # Grasp and contact objects get priority weights from ranking
-                if name in grasp_contact_priority_order:
-                    # Symmetric exponential priority weighting
-                    priority_rank = grasp_contact_priority_order.index(name)
-                    N = len(grasp_contact_priority_order)
-                    if N > 0:  # Only calculate if we have ranked objects
-                        center = (N - 1) / 2.0
-                        x_i = center - priority_rank          # evenly spaced, centred at 0
-                        k = 2                                # slope parameter for exp
-                        engagement_level = math.exp(k * x_i)
-                    else:
-                        engagement_level = 1.0  # Default if no ranking available
-                else:
-                    engagement_level = 1.0  # Default for unranked grasp/contact objects
-            elif involvement_type == "substrate":
-                # Substrate objects now get priority weights from ranking similar to grasp/contact objects
-                if name in substrate_priority_order:
-                    # Symmetric exponential priority weighting
-                    priority_rank = substrate_priority_order.index(name)
-                    N = len(substrate_priority_order)
-                    if N > 0:  # Only calculate if we have ranked objects
-                        center = (N - 1) / 2.0
-                        x_i = center - priority_rank          # evenly spaced, centred at 0
-                        k = 2                              # slope parameter for exp
-                        engagement_level = math.exp(k * x_i)
-                    else:
-                        engagement_level = 1.0  # Default if no ranking available
-                else:
-                    engagement_level = 1.0  # Default for unranked substrate objects
+            # Determine engagement level based on which priority list the object is in
+            if name in high_engagement:
+                engagement_level = 5.0  # High priority
+            elif name in medium_engagement:
+                engagement_level = 3.0  # Medium priority
+            elif name in low_engagement:
+                engagement_level = 1.0  # Low priority
+            else:
+                engagement_level = 1.0  # Default for objects not in any engagement list
             
             virtual_obj = VirtualObject(
                 name=name,

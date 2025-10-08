@@ -1,0 +1,32 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Gold Bar",
+      "proxyObjectName": "metal calibration weight cylinder labeled 'M 500g' on top",
+      "utilizationMethod": "Clasp the cylinder with the whole hand wrapping around its sides, lift it vertically, rotate it gently, and set it down upright"
+    },
+    {
+      "virtualObjectName": "Canvas",
+      "proxyObjectName": "black office chair with armrests",
+      "utilizationMethod": "Stand beside the chair and use the upright backrest fabric as a wide vertical plane for light taps or sweeping strokes"
+    },
+    {
+      "virtualObjectName": "Brush",
+      "proxyObjectName": "black ballpoint pen",
+      "utilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes."
+    },
+    {
+      "virtualObjectName": "Common Pleco",
+      "proxyObjectName": "white spray bottle with blue liquid inside",
+      "utilizationMethod": "Hold the bottle upright by the neck and run two fingertips down the smooth cylindrical body toward the base."
+    },
+    {
+      "virtualObjectName": "Dropper",
+      "proxyObjectName": "yellow and green cellulose sponge",
+      "utilizationMethod": "Hold a corner of the sponge between thumb and index finger, compress that corner about one centimeter and let it expand back while pointing the squeezed edge downward"
+    }
+  ],
+  "timestamp": "a7207eac-cfaf-4935-b4b3-20e6db9bf198",
+  "total_assignments": 5
+}

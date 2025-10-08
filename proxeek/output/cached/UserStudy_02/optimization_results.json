@@ -1,0 +1,107 @@
+{
+  "optimization_summary": {
+    "total_loss": -33.88356807446037,
+    "loss_components": {
+      "L_realism": -7.68154947950533,
+      "L_interaction": -26.20201859495504,
+      "L_spatial": 0.0,
+      "total": -33.88356807446037
+    },
+    "num_virtual_objects": 5,
+    "num_physical_objects": 22,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Gold Bar",
+        "index": 0,
+        "engagement_level": 0.36787944117144233,
+        "involvement_type": "grasp",
+        "priority_weight": 0.36787944117144233
+      },
+      "physical_object": {
+        "name": "compact dark gray mechanical keyboard with one red keycap",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 4.285714407761892,
+      "utilization_method": "Place both long edges between thumb and fingers, clamp firmly, lift the keyboard vertically, rotate the wrist a bit, and rest it flat again"
+    },
+    {
+      "virtual_object": {
+        "name": "Canvas",
+        "index": 1,
+        "engagement_level": 1.6487212707001282,
+        "involvement_type": "contact",
+        "priority_weight": 1.6487212707001282
+      },
+      "physical_object": {
+        "name": "green and yellow rectangular scrubbing sponge",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 14
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the sponge green side up on the tabletop and move the brush tip across that surface in short strokes"
+    },
+    {
+      "virtual_object": {
+        "name": "Brush",
+        "index": 2,
+        "engagement_level": 2.718281828459045,
+        "involvement_type": "grasp",
+        "priority_weight": 2.718281828459045
+      },
+      "physical_object": {
+        "name": "wooden handheld brush with black bristles",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 16
+      },
+      "realism_score": 3.6666664481163025,
+      "utilization_method": "Hold the wooden handle about 4 cm from the bristles with a tripod grip and execute tapping and dragging motions."
+    },
+    {
+      "virtual_object": {
+        "name": "Common Pleco",
+        "index": 3,
+        "engagement_level": 1.0,
+        "involvement_type": "contact",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "white Apple Magic Mouse",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 8
+      },
+      "realism_score": 5.395833522081375,
+      "utilization_method": "Place the mouse stationary, rest fingertips on its curved surface, and glide them from front to back following the arch"
+    },
+    {
+      "virtual_object": {
+        "name": "Dropper",
+        "index": 4,
+        "engagement_level": 0.6065306597126334,
+        "involvement_type": "grasp",
+        "priority_weight": 0.6065306597126334
+      },
+      "physical_object": {
+        "name": "black retractable ballpoint pen",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 3.7333334137996035,
+      "utilization_method": "Hold the pen barrel between thumb and index finger near the clicker and press the retractable button rhythmically with the thumb"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "objectName": "Hammer",
+    "involvementType": "grasp",
+    "usage": "smashing things",
+    "engagementLevel": 2,
+    "inertia": "Users would feel significant weight concentrated in the metal head, creating a distinctly top-heavy feel.",
+    "interactivity": "",
+    "outline": "Users would overall feel a cylindrical shape while grasping with rectangular cross-section",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.6428571343421936,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3571428656578064,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.41",
+      "y": "0.05",
+      "z": "0.15"
+    },
+    "globalPosition": {
+      "x": -1.4484004974365234,
+      "y": 0.9916127324104309,
+      "z": 0.010193705558776855
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 280.48406982421875,
+      "z": 0.0
+    },
+    "interactionDeduction": "The user will wrap the fingers and thumb around the wooden shaft in a power-grip, usually with the hand positioned 3\u20135 cm above the end of the handle so the little finger rests close to the butt. One or two hands may be used, but single-hand swings are most common. After lifting, the wrist, elbow, and shoulder generate an arcing swing so the metal head strikes a target. Because the mass is concentrated in the head, the handle feels light while the distal end feels heavy, causing a noticeable pendulum effect that the user controls by tightening or loosening the grip. Upon impact the head stops abruptly while recoil force travels through the handle into the user\u2019s palm, prompting a slight vibration and a need to re-stabilize the wrist. Fine manipulation such as tapping requires small wrist flicks, whereas powerful blows require a full arm motion followed by a deceleration phase to avoid over-swinging."
+  },
+  {
+    "objectName": "Lightsaber",
+    "involvementType": "grasp",
+    "usage": "cutting through things",
+    "engagementLevel": 2,
+    "inertia": "Users would feel moderate weight concentrated in the hilt (about 1 kg), with balanced weight distribution that doesn\u2019t feel front-heavy.",
+    "interactivity": "",
+    "outline": "Users would overall feel a cylindrical shape while grasping with a diameter about 3cm",
+    "texture": "",
+    "hardness": "",
+    "temperature": "User would feel the surface cool  to touch",
+    "inertiaValue": 0.4444444477558136,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3333333432674408,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.2222222238779068,
+    "dimensions_meters": {
+      "x": "0.26",
+      "y": "0.07",
+      "z": "0.22"
+    },
+    "globalPosition": {
+      "x": 0.3688252568244934,
+      "y": 0.9909999966621399,
+      "z": 0.9419999718666077
+    },
+    "globalRotation": {
+      "x": 24.35184669494629,
+      "y": 37.62461471557617,
+      "z": 89.81838989257812
+    },
+    "interactionDeduction": "The user encloses the 3 cm-diameter hilt with one or two hands in a cylindrical power-grip similar to holding a flashlight or fencing foil. The thumb or index finger activates an on/off switch near the thumb pad. Once ignited, the user executes wide slashing and thrusting motions, pivoting mainly from the shoulders and wrists. Because the weight is balanced entirely in the hilt, the blade feels virtually massless, allowing extremely quick directional changes and rapid wrist rotations without noticeable tip inertia. The hilt itself remains cool to the touch. When the luminous blade meets a virtual object, the user feels little mechanical resistance but receives a momentary vibration or stop to indicate cutting contact, after which the stroke continues unimpeded as if slicing through the material."
+  },
+  {
+    "objectName": "Double Slider",
+    "involvementType": "grasp",
+    "usage": "it serves as a mechanical control interface",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "Users should feel the handle translating their push/pull motions into linear movement with resistance",
+    "outline": "User would feel a cylindrical  handle while grasping",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.6666666865348816,
+    "outlineValue": 0.3333333432674408,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.22",
+      "y": "0.10",
+      "z": "0.22"
+    },
+    "globalPosition": {
+      "x": -0.9104006290435791,
+      "y": 0.9704064130783081,
+      "z": 0.3011937141418457
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 125.63567352294922,
+      "z": 0.0
+    },
+    "interactionDeduction": "The user pinches or loosely power-grips the horizontal cylindrical handle, positioning the thumb on the front side and the fingers curled underneath. Interaction consists of pushing or pulling the handle along its linear rail path (roughly \u00b110 cm). Movement is shoulder-dominant for large shifts and finger-dominant for fine adjustments. Moderate static friction must be overcome at initiation, followed by steady resistive force that communicates mechanical drag. At predetermined detents the user feels a tactile notch and a mild snap-in, giving discrete feedback about slider position. Releasing the handle lets it remain in place; no spring return is implied unless the application imposes one."
+  },
+  {
+    "objectName": "Button",
+    "involvementType": "contact",
+    "usage": "pressing the button to trigger actions",
+    "engagementLevel": 0,
+    "inertia": "",
+    "interactivity": "Users would feel a noticeable travel distance about 4 cm and progressive compression resistance",
+    "outline": "",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 1.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.11",
+      "y": "0.05",
+      "z": "0.11"
+    },
+    "globalPosition": {
+      "x": -1.2404005527496338,
+      "y": 0.9704065322875977,
+      "z": 0.2711937427520752
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "interactionDeduction": "The user extends an index finger (sometimes the thumb if pressing from the side) and delivers a downward press centred on the 11 cm-wide top surface. The contact method is a short, firm push lasting about 0.3\u20130.6 s. During the first half of the 4 cm travel the force increases progressively; near mid-stroke a mechanical 'snap' or click is felt indicating actuation. The button bottoms out with a soft stop, after which the user releases finger tension and the internal spring drives the cap back to the initial position, lightly pushing the fingertip upward as contact ends."
+  },
+  {
+    "objectName": "Slime",
+    "involvementType": "contact",
+    "usage": "it serves as an interactive creature, used for petting and combat encounters. it shows several long spikes when players approaching to it.",
+    "engagementLevel": 1,
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "Users would feel multiple distinct and concentrated tips of cone-shaped spikes ",
+    "hardness": "Users would feel the touched part hard to yield",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.625,
+    "hardnessValue": 0.375,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.23",
+      "y": "0.17",
+      "z": "0.23"
+    },
+    "globalPosition": {
+      "x": -0.009400486946105957,
+      "y": 0.9620000123977661,
+      "z": 1.1649999618530273
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 180.16189575195312,
+      "z": 0.0
+    },
+    "interactionDeduction": "Approach begins with the user extending an open palm or back of the hand to stroke the creature\u2019s domed surface. Under calm conditions the surface offers modest resistance\u2014slightly firmer than gelatin\u2014so the hand gently depresses the outer layer before it elastically rebounds, creating a short, wobbly oscillation. When the slime becomes defensive, multiple narrow cone-shaped spikes project outward. The user then feels several rigid, point-contact pressures distributed over the palm or fingers, each spike resisting further compression. Quick withdrawal or a sideways swat with the forearm may occur to avoid the sharp tips. Any strike from the user produces a brief hard impact followed by a slippery slide as the smooth, semi-wet skin reduces friction."
+  }
+]

@@ -1,0 +1,1802 @@
+[
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small potted plant with green foliage in a ribbed yellow ceramic pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the pot upright on the table, steady it by lightly gripping the stem or rim with the non-dominant hand so the smooth ceramic side facing you becomes a vertical plane, then guide the pen tip in light taps or wrist-led strokes across that side.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white decorative rabbit statuette with textured lines",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Hold the rabbit\u2019s rear legs with the non-dominant hand so one flank is upright and stationary; sweep or dab the pen tip along that flat side using small controlled wrist motions.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Extend the pole slightly, hold the handle so the phone clamp faces you as a small rectangular panel, and run the pen tip in horizontal or vertical strokes across that clamp surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "round green retractable tape measure with a brownish strap",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the tape measure flat on the table with its circular top face upward and stationary, then glide or tap the pen tip across that plastic face.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "metal calibration weight cylinder labeled 'M 500g' on top",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the weight upright on the desk and use its flat metal top as a miniature canvas, moving the pen tip in small circles or lines across that surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "silver iMac desktop computer with black screen",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Sit directly in front of the monitor; keep the glass screen upright and stationary, then guide the pen tip in gentle strokes or taps across the screen\u2019s smooth surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black mechanical keyboard with one red keycap",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Keep the keyboard level; glide the pen tip lightly over the tops of adjacent keycaps along a horizontal or vertical path, maintaining gentle wrist-led pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white stapler",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the stapler closed with one flat side turned upright; move the pen tip in controlled strokes across that flat surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "clear empty wine glass",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Grip the stem with the non-dominant hand so the bowl is steady; sweep or dab the pen tip along the outer curved bowl in smooth arcs.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white Apple Magic Mouse",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the mouse on the desk with its curved top facing upward; guide the pen tip in light strokes over that top shell.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "pair of scissors with black blades and orange handles",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Keep the blades closed and hold the handles; orient one blade\u2019s flat side upward and guide the pen tip along that flat metal face.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "yellow and green cellulose sponge",
+    "substrateObject_id": 2,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the sponge on its long edge so the flat green scrubbing face is vertical; move the pen tip in gentle strokes across that face.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white spray bottle with blue liquid inside",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Grip the bottle\u2019s neck so a broad flat side of the body faces you, then tap or slide the pen tip across that side.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "red packet of instant ramen noodles with Korean text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Lay the packet flat on the table, press lightly with the non-dominant hand to keep it still, and guide the pen tip in smooth strokes across the front surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small hand broom with wooden handle and black bristles",
+    "substrateObject_id": 5,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Hold the broom by its handle so the flat wooden spine is vertical and steady; run the pen tip along that wooden spine in short controlled strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black office chair with armrests",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Stand beside the chair and use the upright backrest fabric as a broad vertical plane, moving the pen tip in sweeping or tap gestures across the fabric.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue two-seater bench/couch",
+    "substrateObject_id": 2,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Kneel or sit in front of the couch and use the taut fabric backrest as a wide canvas, guiding the pen tip in long wrist-driven strokes across it.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green turtle shell plush pillow",
+    "substrateObject_id": 3,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Turn the pillow so its flat white underside faces you; hold it steady with the non-dominant hand and move the pen tip across that underside in smooth strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "yellow snack bag with Japanese text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Grasp both top corners of the bag to hold one face taut and upright, then apply light pen strokes across that flat surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black ballpoint pen",
+    "contactObject_id": 6,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the pen near its tip with thumb, index, and middle finger, rest ring and little finger on the barrel, and perform precise wrist-controlled strokes.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camo-pattern game controller",
+    "substrateObject_id": 5,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the controller so the broad front face is upright and steady; move the pen tip in curved or straight strokes across that front surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small potted plant with green foliage in a ribbed yellow ceramic pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the pot upright on the table with the ceramic side facing you. Steady it with the non-dominant hand if needed. Holding the wine glass by the stem as described, guide the rim of the bowl in light taps or sweeping arcs across the smooth vertical side of the pot.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white decorative rabbit statuette with textured lines",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Grip the rabbit\u2019s rear legs with the non-dominant hand so one flank is upright. With the wine glass held like a brush, touch the rim of the bowl to the flat side of the rabbit and execute gentle strokes or dabs along that surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Extend the stick slightly and hold its handle so the phone clamp is vertical and facing you. Using the wine glass rim as the contact point, make light taps or horizontal strokes across the flat inner face of the clamp.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "round green retractable tape measure with a brownish strap",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the tape measure flat on the desk with its circular face upward. While holding the wine glass by the stem, glide or tap the rim of the bowl over the plastic face, maintaining gentle downward pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "metal calibration weight cylinder labeled 'M 500g' on top",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Set the weight upright on the table. Using the wine glass as a brush, bring the rim of the bowl straight down onto the flat top of the weight, then swirl or lift to create short brush-like contacts.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "silver iMac desktop computer with black screen",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Sit facing the monitor. With the wine glass held like a brush, move the rim of the bowl in light vertical or horizontal strokes across the glass screen surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black mechanical keyboard with one red keycap",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Keep the keyboard steady on the desk. While holding the wine glass, glide the rim of the bowl lightly over the tops of several adjacent keycaps in straight or arced paths.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white stapler",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Close the stapler and hold it upright so one flat side faces you. Using the wine glass, stroke or tap the rim of the bowl along that flat side.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white Apple Magic Mouse",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the mouse on the desk with its curved top facing upward. Guide the rim of the wine glass bowl over the curved shell in smooth, continuous strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black ballpoint pen",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the pen horizontally with the non-dominant hand so the barrel is exposed. With the wine glass rim, run gentle, lengthwise strokes along the pen barrel.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "pair of scissors with black blades and orange handles",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Keep the blades closed and hold the handles so one blade side stands vertically. Touch the rim of the wine glass bowl to that flat blade surface and perform light vertical or horizontal strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "yellow and green cellulose sponge",
+    "substrateObject_id": 2,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the sponge on its long edge so the green scrubbing face is vertical. Using the wine glass held like a brush, tap or glide the rim of the bowl across the green face.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white spray bottle with blue liquid inside",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Grip the bottle by its neck and hold a broad flat side facing you. Guide the rim of the wine glass bowl in gentle arcs or taps against that flat side.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "red packet of instant ramen noodles with Korean text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Lay the packet flat and hold it gently so one face is taut. Use the rim of the wine glass bowl to slide or tap across that front surface with light pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small hand broom with wooden handle and black bristles",
+    "substrateObject_id": 5,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Hold the broom by its handle so the flat wooden spine stands vertically. With the wine glass rim, perform controlled strokes along the length of the wooden spine.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black office chair with armrests",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Stand beside the chair and use the vertical backrest fabric as a wide plane. Holding the wine glass like a brush, glide the rim of the bowl in sweeping motions across the fabric surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue two-seater bench/couch",
+    "substrateObject_id": 2,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Kneel in front of the couch and use the taut fabric of the backrest as the substrate. Using the wine glass, sweep the rim of the bowl horizontally or vertically across the fabric.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green turtle shell plush pillow",
+    "substrateObject_id": 3,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Position the pillow so its flat white underside faces outward. While holding the wine glass, tap or glide the rim of the bowl across this underside surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "yellow snack bag with Japanese text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the bag at two corners so one face is pulled flat. Using the wine glass rim, slide or tap gently across that flat side.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "clear empty wine glass",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Pinch the stem near its midpoint with thumb and index finger, rest the middle finger below, and rotate and arc the wrist as though the stem were the brush handle.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camo-pattern game controller",
+    "substrateObject_id": 5,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Grip the controller so its broad front face is upright. Guide the rim of the wine glass bowl in small arcs or straight passes across that curved front surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small potted plant with green foliage in a ribbed yellow ceramic pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the pot upright on the table. Steady the pot by lightly gripping the rim or the stem with the non-dominant hand so one smooth ribbed section faces you. Approach that vertical ceramic section with the selfie-stick tip and perform light taps or short strokes while holding the handle like a brush.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white decorative rabbit statuette with textured lines",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Grip the rabbit\u2019s rear legs with the non-dominant hand so the broad flank is upright. Bring the selfie-stick tip toward that flank and make gentle, short strokes along the flat side, treating it as a miniature vertical canvas.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "round green retractable tape measure with a brownish strap",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the tape measure flat on the table with its circular face upward. Hover the selfie-stick tip over the plastic face and perform light circular or radial strokes across the surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "metal calibration weight cylinder labeled 'M 500g' on top",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the weight upright so its flat top forms a small horizontal canvas. Align the selfie-stick tip vertically above the metal top and dab or swirl lightly within that circular area.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "silver iMac desktop computer with black screen",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Sit facing the monitor. Keep the screen vertical and bring the selfie-stick tip to the glass surface, making broad horizontal or vertical strokes while keeping the telescoping shaft clear of the stand.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black mechanical keyboard with one red keycap",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Leave the keyboard steady on the desk. Glide the selfie-stick tip lightly over the tops of adjacent keycaps in straight rows, using the small key surfaces as a textured painting strip.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white stapler",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the stapler closed with the non-dominant hand so one flat side stands upright. Use that vertical face as the canvas for short upward or downward strokes with the selfie-stick tip.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "clear empty wine glass",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Steady the glass by its stem with the non-dominant hand. Approach the outer bowl with the selfie-stick tip and trace gentle arcs around the curved surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white Apple Magic Mouse",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the mouse so its curved top faces upward. Stroke the selfie-stick tip over the smooth shell from front to back, maintaining a light touch.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black ballpoint pen",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the pen horizontally with the non-dominant hand so the barrel forms a narrow ridge. Run the selfie-stick tip along the barrel\u2019s length in controlled strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "pair of scissors with black blades and orange handles",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Keep the blades closed and hold the handles. Present one flat blade side upward on the table and glide the selfie-stick tip along that metal plane.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "yellow and green cellulose sponge",
+    "substrateObject_id": 2,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the sponge on its long edge so the green scrubbing face is vertical. Stroke the selfie-stick tip lightly across that upright textured face.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white spray bottle with blue liquid inside",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Grip the bottle\u2019s neck with the non-dominant hand so one broad flat side stays steady. Tap or sweep the selfie-stick tip against that side in vertical motions.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "red packet of instant ramen noodles with Korean text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Lay the packet flat on the table and press it gently with the non-dominant hand to keep it still. Swipe the selfie-stick tip over the taut front surface in short strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small hand broom with wooden handle and black bristles",
+    "substrateObject_id": 5,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Hold the wooden handle so the flat wooden spine is vertical. Trace the selfie-stick tip along that wooden edge from top to bottom.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black office chair with armrests",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Stand beside the chair and use the upright backrest fabric as a broad vertical canvas. Sweep the selfie-stick tip horizontally across the fabric while keeping the shaft clear of the armrests.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue two-seater bench/couch",
+    "substrateObject_id": 2,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Kneel in front of the couch so the backrest fabric faces you. Use that taut fabric as a large vertical plane, making broad upward or downward strokes with the selfie-stick tip.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green turtle shell plush pillow",
+    "substrateObject_id": 3,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Place the pillow so the flat white underside faces toward you. Hold it steady with the non-dominant hand and dab or slide the selfie-stick tip across that soft flat underside.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "yellow snack bag with Japanese text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the bag taut between both hands so one flat side is vertical. Approach that surface with the selfie-stick tip and perform gentle side-to-side strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold the thinnest telescoping segment near its end with a pen-like grip and execute light painting motions while letting the longer length trail outward.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camo-pattern game controller",
+    "substrateObject_id": 5,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the controller so the broad front face is upright. Glide the selfie-stick tip over the curved shell from left grip to right grip in smooth arcs.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small potted plant with green foliage in a ribbed yellow ceramic pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the pot upright on the table, steady it at the rim with the non-dominant hand, rotate the pot so a smooth ceramic section faces you, then sweep the broom\u2019s bristles lightly across that curved ceramic wall using short wrist strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white decorative rabbit statuette with textured lines",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Hold the rabbit by its rear legs so the flank presents a broad, nearly flat side, then glide the broom bristles in gentle horizontal or vertical strokes across that side.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Extend the stick slightly, grip the handle so the phone clamp faces you like a small panel, then sweep the broom\u2019s bristles across the inner face of that clamp with light wrist motions.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "round green retractable tape measure with a brownish strap",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the tape measure flat on the table with its circular top exposed, then brush the broom bristles over the plastic face in smooth arcs.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "metal calibration weight cylinder labeled 'M 500g' on top",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Stand the weight upright on the table and glide the broom bristles gently across its flat metal top surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "silver iMac desktop computer with black screen",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Sit centered in front of the monitor and run the broom bristles in light horizontal strokes across the glass screen, keeping the bristle tips within comfortable reach.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black mechanical keyboard with one red keycap",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Keep the keyboard still and sweep the broom bristles lightly over successive rows of keycaps, using minimal pressure to let the bristles glide across the tops.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white stapler",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the stapler closed with one flat side upright and move the broom bristles across that side in short, even strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "clear empty wine glass",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Steady the glass by its stem with the non-dominant hand and sweep the broom bristles around the smooth outer bowl in gentle arcs.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white Apple Magic Mouse",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the mouse so its curved top shell faces upward, then glide the broom bristles over the shell from front to back.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black ballpoint pen",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the pen horizontally with the non-dominant hand so the barrel is exposed, then draw the broom bristle tips along the length of the barrel.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "pair of scissors with black blades and orange handles",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Keep the blades closed, grip the handles, and move the broom bristles across one flat side of a blade in light, even passes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "yellow and green cellulose sponge",
+    "substrateObject_id": 2,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the sponge on its long edge so the green scrubbing face is vertical, then stroke the broom bristles across that green face in gentle sweeps.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white spray bottle with blue liquid inside",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Hold the bottle by the neck so the broad flat side of the body faces you, then sweep the broom bristles up and down that surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "red packet of instant ramen noodles with Korean text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Lay the packet flat on the table, press it gently so it stays still, then glide the broom bristles across the front of the packet.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black office chair with armrests",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Stand beside the chair and use the vertical fabric backrest as a broad plane, sweeping the broom bristles across the center area in long strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue two-seater bench/couch",
+    "substrateObject_id": 2,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Kneel in front of the couch and sweep the broom bristles across the taut fabric of the backrest, using broad horizontal motions.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green turtle shell plush pillow",
+    "substrateObject_id": 3,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Place the pillow so the flat white underside is facing outward and run the broom bristles across that underside in short, gentle strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "yellow snack bag with Japanese text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the bag taut between both hands to create a flat surface, then sweep the broom bristles across that surface from side to side.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "small hand broom with wooden handle and black bristles",
+    "contactObject_id": 5,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Grip the wooden handle near its hole between thumb and first two fingers and sweep the wrist as though brushing paint.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camo-pattern game controller",
+    "substrateObject_id": 5,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the controller so the broad front face is upright and move the broom bristles in small arcs across that curved front surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small potted plant with green foliage in a ribbed yellow ceramic pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Keep the pot upright on the table and steady it by lightly grasping the plant stem with the non-dominant hand. Glide the hanging flat face of the sponge across the smooth ceramic side in vertical or horizontal strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white decorative rabbit statuette with textured lines",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Grip the rabbit\u2019s rear legs with the non-dominant hand so its flank faces you. Sweep the sponge\u2019s broad surface along the flat side of the rabbit\u2019s body, following gentle curved paths.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "telescoping selfie stick or monopod with black handle and phone mount",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Hold the stick by its handle so the phone clamp is facing you like a small panel. Stroke the hanging sponge across the flat inner face of the clamp using light side-to-side motions.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "round green retractable tape measure with a brownish strap",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the tape measure flat on the table with its top face upward. Slide the flat face of the sponge over the circular plastic surface in smooth arcs.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "metal calibration weight cylinder labeled 'M 500g' on top",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Rest the weight upright on the table. Sweep the sponge over the smooth flat top, or tilt the hand slightly to run the sponge down one vertical side for longer strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "silver iMac desktop computer with black screen",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Sit directly in front of the monitor. Guide the sponge\u2019s broad face smoothly across the glass screen in horizontal brush-like sweeps.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black mechanical keyboard with one red keycap",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Keep the keyboard steady on the desk. Drag the sponge lightly over the tops of several adjacent keycaps, maintaining gentle, even pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white stapler",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the stapler closed so one flat side is upright. Glide the hanging sponge up and down that upright face.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "clear empty wine glass",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Steady the glass by the stem with the non-dominant hand. Sweep the sponge around the outer bowl in smooth, continuous arcs.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white Apple Magic Mouse",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the mouse on the table with its curved top facing upward. Glide the sponge back and forth over the dome-shaped surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black ballpoint pen",
+    "substrateObject_id": 6,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Hold the pen horizontally with the non-dominant hand so the barrel points toward you. Draw the sponge lengthwise along the barrel, rotating the wrist to follow its curve.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "pair of scissors with black blades and orange handles",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Keep the blades closed and hold the handles. Stroke the sponge along the flat outer face of one blade from hinge to tip.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white spray bottle with blue liquid inside",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Grip the bottle neck so a broad flat side faces you. Glide the sponge vertically across that side, maintaining light pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "red packet of instant ramen noodles with Korean text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Lay the packet flat on the table and hold it gently to keep it from sliding. Sweep the sponge over the front surface in broad passes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small hand broom with wooden handle and black bristles",
+    "substrateObject_id": 5,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Hold the broom so the flat wooden spine is upright. Glide the sponge along that wooden spine from end to end.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black office chair with armrests",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Stand beside the chair and use the upright backrest fabric as a vertical plane. Sweep the sponge across the fabric in long, even strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue two-seater bench/couch",
+    "substrateObject_id": 2,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Kneel in front of the couch and use the taut backrest fabric as a broad vertical surface. Glide the sponge across it in wide sweeping motions.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green turtle shell plush pillow",
+    "substrateObject_id": 3,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Place the pillow so the flat white underside faces outward. Sweep the sponge across that underside, keeping strokes light and even.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "yellow snack bag with Japanese text",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the bag taut between both hands so one flat side is exposed. Brush the sponge lightly across that side from edge to edge.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "yellow and green cellulose sponge",
+    "contactObject_id": 2,
+    "contactImage_id": 2,
+    "contactUtilizationMethod": "Pinch one corner of the sponge between thumb and index finger, let the rest hang downward, and move the hand in smooth painting gestures.",
+    "expectedHapticFeedback": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camo-pattern game controller",
+    "substrateObject_id": 5,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the controller so its broad front face is upright. Glide the sponge over the curved front shell in small circular strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  }
+]

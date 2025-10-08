@@ -1,0 +1,640 @@
+{
+  "0": [
+    {
+      "object_id": 1,
+      "object": "small potted plant with green foliage in a ribbed yellow ceramic pot",
+      "position": "near the top center of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 508.38934326171875,
+          "y1": 34.89410400390625,
+          "x2": 694.8132934570312,
+          "y2": 449.59442138671875,
+          "width": 186.4239501953125,
+          "height": 414.7003173828125,
+          "center_x": 601.601318359375,
+          "center_y": 242.2442626953125
+        },
+        "mask_center": {
+          "x": 629.0,
+          "y": 346.0
+        },
+        "confidence": 0.9472479224205017,
+        "detected_name": "small potted plant with green foliage in a ribbed yellow ceramic pot",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.52485573,
+        "y": 0.807223439,
+        "z": -4.56557751
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "white decorative rabbit statuette with textured lines",
+      "position": "to the left of the potted plant, toward the upper middle of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 353.66375732421875,
+          "y1": 281.85308837890625,
+          "x2": 460.441650390625,
+          "y2": 388.896484375,
+          "width": 106.77789306640625,
+          "height": 107.04339599609375,
+          "center_x": 407.0527038574219,
+          "center_y": 335.3747863769531
+        },
+        "mask_center": {
+          "x": 414.0,
+          "y": 354.0
+        },
+        "confidence": 0.23532384634017944,
+        "detected_name": "white decorative rabbit statuette with textured lines",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.348185,
+        "y": 0.7469791,
+        "z": -4.6845026
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "telescoping selfie stick or monopod with black handle and phone mount",
+      "position": "lying diagonally across the table from bottom right to top left",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 244.18353271484375,
+          "y1": 339.6744384765625,
+          "x2": 983.7793579101562,
+          "y2": 907.0377197265625,
+          "width": 739.5958251953125,
+          "height": 567.36328125,
+          "center_x": 613.9814453125,
+          "center_y": 623.3560791015625
+        },
+        "mask_center": {
+          "x": 700.0,
+          "y": 690.0
+        },
+        "confidence": 0.03966110199689865,
+        "detected_name": "telescoping selfie stick or monopod with black handle and phone mount",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.54989827,
+        "y": 0.7374611,
+        "z": -4.324622
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "round green retractable tape measure with a brownish strap",
+      "position": "on the lower left portion of the table",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 264.2107238769531,
+          "y1": 553.0618896484375,
+          "x2": 360.8008728027344,
+          "y2": 630.65625,
+          "width": 96.59014892578125,
+          "height": 77.5943603515625,
+          "center_x": 312.50579833984375,
+          "center_y": 591.8590698242188
+        },
+        "mask_center": {
+          "x": 324.0,
+          "y": 586.0
+        },
+        "confidence": 0.969382107257843,
+        "detected_name": "round green retractable tape measure with a brownish strap",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.33546174,
+        "y": 0.732928,
+        "z": -4.421609
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "metal calibration weight cylinder labeled 'M 500g' on top",
+      "position": "near the lower center of the image",
+      "image_id": 0,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 433.9801025390625,
+          "y1": 604.6199340820312,
+          "x2": 525.263427734375,
+          "y2": 746.0966186523438,
+          "width": 91.2833251953125,
+          "height": 141.4766845703125,
+          "center_x": 479.62176513671875,
+          "center_y": 675.3582763671875
+        },
+        "mask_center": {
+          "x": 475.0,
+          "y": 659.0
+        },
+        "confidence": 0.014584895223379135,
+        "detected_name": "metal calibration weight cylinder labeled 'M 500g' on top",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.43892574,
+        "y": 0.7615338,
+        "z": -4.33146954
+      }
+    }
+  ],
+  "1": [
+    {
+      "object_id": 1,
+      "object": "silver iMac desktop computer with black screen",
+      "position": "top center of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 172.821533203125,
+          "y1": 0.0,
+          "x2": 1008.9166259765625,
+          "y2": 567.8868408203125,
+          "width": 836.0950927734375,
+          "height": 567.8868408203125,
+          "center_x": 590.8690795898438,
+          "center_y": 283.94342041015625
+        },
+        "mask_center": {
+          "x": 591.0,
+          "y": 15.0
+        },
+        "confidence": 0.985101044178009,
+        "detected_name": "silver iMac desktop computer with black screen",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.21621776,
+        "y": 1.20889544,
+        "z": -4.71717834
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "black mechanical keyboard with one red keycap",
+      "position": "center below the monitor",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 386.98716735839844,
+          "y1": 614.483154296875,
+          "x2": 814.9940338134766,
+          "y2": 727.154296875,
+          "width": 428.0068664550781,
+          "height": 112.671142578125,
+          "center_x": 600.9906005859375,
+          "center_y": 670.8187255859375
+        },
+        "mask_center": {
+          "x": 453.0,
+          "y": 669.0
+        },
+        "confidence": 0.5885776281356812,
+        "detected_name": "black mechanical keyboard with one red keycap",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.09222555,
+        "y": 0.737914443,
+        "z": -4.448355
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "white stapler",
+      "position": "bottom left of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 115.85995483398438,
+          "y1": 662.7891235351562,
+          "x2": 268.3767395019531,
+          "y2": 797.8743286132812,
+          "width": 152.51678466796875,
+          "height": 135.085205078125,
+          "center_x": 192.11834716796875,
+          "center_y": 730.3317260742188
+        },
+        "mask_center": {
+          "x": 218.0,
+          "y": 714.0
+        },
+        "confidence": 0.23163050413131714,
+        "detected_name": "white stapler",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.94110525,
+        "y": 0.7469722,
+        "z": -4.39620066
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "clear empty wine glass",
+      "position": "right side of the table",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 978.9505615234375,
+          "y1": 401.28302001953125,
+          "x2": 1095.1939697265625,
+          "y2": 616.928466796875,
+          "width": 116.243408203125,
+          "height": 215.64544677734375,
+          "center_x": 1037.072265625,
+          "center_y": 509.1057434082031
+        },
+        "mask_center": {
+          "x": 1047.0,
+          "y": 465.0
+        },
+        "confidence": 0.84849613904953,
+        "detected_name": "clear empty wine glass",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.7212255,
+        "y": 0.785516262,
+        "z": -4.71316671
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "white Apple Magic Mouse",
+      "position": "bottom right of the image",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 941.3392333984375,
+          "y1": 690.853759765625,
+          "x2": 1076.9429931640625,
+          "y2": 805.6090087890625,
+          "width": 135.603759765625,
+          "height": 114.7552490234375,
+          "center_x": 1009.14111328125,
+          "center_y": 748.2313842773438
+        },
+        "mask_center": {
+          "x": 1022.0,
+          "y": 755.0
+        },
+        "confidence": 0.7409906387329102,
+        "detected_name": "white Apple Magic Mouse",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.47962332,
+        "y": 0.7300746,
+        "z": -4.3213644
+      }
+    },
+    {
+      "object_id": 6,
+      "object": "black ballpoint pen",
+      "position": "bottom center of the image, below the keyboard",
+      "image_id": 1,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 484.47808837890625,
+          "y1": 819.47802734375,
+          "x2": 706.7755737304688,
+          "y2": 847.771240234375,
+          "width": 222.2974853515625,
+          "height": 28.293212890625,
+          "center_x": 595.6268310546875,
+          "center_y": 833.6246337890625
+        },
+        "mask_center": {
+          "x": 624.0,
+          "y": 833.0
+        },
+        "confidence": 0.4783448874950409,
+        "detected_name": "black ballpoint pen",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.20553517,
+        "y": 0.7138045,
+        "z": -4.295871
+      }
+    }
+  ],
+  "2": [
+    {
+      "object_id": 1,
+      "object": "pair of scissors with black blades and orange handles",
+      "position": "bottom left of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 112.38641357421875,
+          "y1": 569.8382568359375,
+          "x2": 353.2431945800781,
+          "y2": 830.7120361328125,
+          "width": 240.85678100585938,
+          "height": 260.873779296875,
+          "center_x": 232.81480407714844,
+          "center_y": 700.275146484375
+        },
+        "mask_center": {
+          "x": 219.0,
+          "y": 788.0
+        },
+        "confidence": 0.9587206244468689,
+        "detected_name": "pair of scissors with black blades and orange handles",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.72326922,
+        "y": 0.751755357,
+        "z": -3.29192781
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "yellow and green cellulose sponge",
+      "position": "bottom center of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 586.158935546875,
+          "y1": 568.2716064453125,
+          "x2": 802.736083984375,
+          "y2": 757.0299072265625,
+          "width": 216.5771484375,
+          "height": 188.75830078125,
+          "center_x": 694.447509765625,
+          "center_y": 662.6507568359375
+        },
+        "mask_center": {
+          "x": 714.0,
+          "y": 668.0
+        },
+        "confidence": 0.05927620828151703,
+        "detected_name": "yellow and green cellulose sponge",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.73649526,
+        "y": 0.7727475,
+        "z": -3.05195642
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "white spray bottle with blue liquid inside",
+      "position": "upper left of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 268.9020690917969,
+          "y1": 106.88592529296875,
+          "x2": 468.5699157714844,
+          "y2": 509.27825927734375,
+          "width": 199.6678466796875,
+          "height": 402.392333984375,
+          "center_x": 368.7359924316406,
+          "center_y": 308.08209228515625
+        },
+        "mask_center": {
+          "x": 389.0,
+          "y": 295.0
+        },
+        "confidence": 0.8782193660736084,
+        "detected_name": "white spray bottle with blue liquid inside",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.94180059,
+        "y": 0.900308847,
+        "z": -3.203214
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "red packet of instant ramen noodles with Korean text",
+      "position": "upper center-right of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 610.2293701171875,
+          "y1": 360.79876708984375,
+          "x2": 962.9815673828125,
+          "y2": 572.8245239257812,
+          "width": 352.752197265625,
+          "height": 212.0257568359375,
+          "center_x": 786.60546875,
+          "center_y": 466.8116455078125
+        },
+        "mask_center": {
+          "x": 753.0,
+          "y": 474.0
+        },
+        "confidence": 0.007399735506623983,
+        "detected_name": "red packet of instant ramen noodles with Korean text (upper center-right of the image)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.88769555,
+        "y": 0.7843883,
+        "z": -2.985792
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "small hand broom with wooden handle and black bristles",
+      "position": "right side of the image",
+      "image_id": 2,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 110.75103759765625,
+          "y1": 569.657470703125,
+          "x2": 355.19073486328125,
+          "y2": 833.9053955078125,
+          "width": 244.439697265625,
+          "height": 264.2479248046875,
+          "center_x": 232.97088623046875,
+          "center_y": 701.7814331054688
+        },
+        "mask_center": {
+          "x": 219.0,
+          "y": 788.0
+        },
+        "confidence": 0.010907023213803768,
+        "detected_name": "small hand broom with wooden handle and black bristles (right side of the image)",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.72326922,
+        "y": 0.751755357,
+        "z": -3.29192781
+      }
+    }
+  ],
+  "3": [
+    {
+      "object_id": 1,
+      "object": "black office chair with armrests",
+      "position": "bottom left of the image",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 0.0,
+          "y1": 37.44757080078125,
+          "x2": 621.1236572265625,
+          "y2": 950.4238891601562,
+          "width": 621.1236572265625,
+          "height": 912.976318359375,
+          "center_x": 310.56182861328125,
+          "center_y": 493.93572998046875
+        },
+        "mask_center": {
+          "x": 173.0,
+          "y": 295.0
+        },
+        "confidence": 0.9909694790840149,
+        "detected_name": "black office chair with armrests",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.48449254,
+        "y": 0.7740518,
+        "z": -3.229232
+      }
+    },
+    {
+      "object_id": 2,
+      "object": "blue two-seater bench/couch",
+      "position": "center-right of the image",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 455.2965087890625,
+          "y1": 13.9349365234375,
+          "x2": 1279.729736328125,
+          "y2": 874.9261474609375,
+          "width": 824.4332275390625,
+          "height": 860.9912109375,
+          "center_x": 867.5131225585938,
+          "center_y": 444.4305419921875
+        },
+        "mask_center": {
+          "x": 1061.0,
+          "y": 311.0
+        },
+        "confidence": 0.5155282020568848,
+        "detected_name": "blue two-seater bench/couch",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.63059068,
+        "y": 0.5218817,
+        "z": -2.530531
+      }
+    },
+    {
+      "object_id": 3,
+      "object": "green turtle shell plush pillow",
+      "position": "upper left area of the blue couch",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 571.50048828125,
+          "y1": 272.530029296875,
+          "x2": 835.297119140625,
+          "y2": 468.06396484375,
+          "width": 263.796630859375,
+          "height": 195.533935546875,
+          "center_x": 703.3988037109375,
+          "center_y": 370.2969970703125
+        },
+        "mask_center": {
+          "x": 697.0,
+          "y": 367.0
+        },
+        "confidence": 0.020208045840263367,
+        "detected_name": "green turtle shell plush pillow",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -2.075697,
+        "y": 0.479442835,
+        "z": -2.804116
+      }
+    },
+    {
+      "object_id": 4,
+      "object": "yellow snack bag with Japanese text",
+      "position": "center area of the blue couch",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 820.3173828125,
+          "y1": 451.218994140625,
+          "x2": 990.824951171875,
+          "y2": 561.0972900390625,
+          "width": 170.507568359375,
+          "height": 109.8782958984375,
+          "center_x": 905.5711669921875,
+          "center_y": 506.15814208984375
+        },
+        "mask_center": {
+          "x": 898.0,
+          "y": 507.0
+        },
+        "confidence": 0.0022523379884660244,
+        "detected_name": "yellow snack bag with Japanese text",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.75450659,
+        "y": 0.3861615,
+        "z": -2.859118
+      }
+    },
+    {
+      "object_id": 5,
+      "object": "white and gray camo-pattern game controller",
+      "position": "bottom right area of the blue couch",
+      "image_id": 3,
+      "yolo_segmentation": {
+        "bbox": {
+          "x1": 978.6131591796875,
+          "y1": 543.763427734375,
+          "x2": 1120.5618896484375,
+          "y2": 651.83056640625,
+          "width": 141.94873046875,
+          "height": 108.067138671875,
+          "center_x": 1049.5875244140625,
+          "center_y": 597.7969970703125
+        },
+        "mask_center": {
+          "x": 1081.0,
+          "y": 585.0
+        },
+        "confidence": 0.004905980546027422,
+        "detected_name": "white and gray camo-pattern game controller",
+        "has_mask": true
+      },
+      "worldposition": {
+        "x": -1.51958144,
+        "y": 0.4044816,
+        "z": -2.90668368
+      }
+    }
+  ]
+}

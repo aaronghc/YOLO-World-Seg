@@ -1,0 +1,107 @@
+{
+  "optimization_summary": {
+    "total_loss": -27.9039187346935,
+    "loss_components": {
+      "L_realism": -11.961700689324731,
+      "L_interaction": -15.94221804536877,
+      "L_spatial": 0.0,
+      "total": -27.9039187346935
+    },
+    "num_virtual_objects": 5,
+    "num_physical_objects": 21,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 0,
+        "engagement_level": 1.6487212707001282,
+        "involvement_type": "grasp",
+        "priority_weight": 1.6487212707001282
+      },
+      "physical_object": {
+        "name": "plastic spray bottle with blue liquid",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 11
+      },
+      "realism_score": 4.642857134342194,
+      "utilization_method": "Grip the narrow neck beneath the trigger and swing so the filled bottle base strikes downward like a hammerhead"
+    },
+    {
+      "virtual_object": {
+        "name": "Lightsaber",
+        "index": 1,
+        "engagement_level": 2.718281828459045,
+        "involvement_type": "grasp",
+        "priority_weight": 2.718281828459045
+      },
+      "physical_object": {
+        "name": "chrome cylindrical 500 g calibration weight",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 4.6296296914418535,
+      "utilization_method": "Enclose the cylinder in your palm like a handle and swing your forearm in diagonal and vertical cuts"
+    },
+    {
+      "virtual_object": {
+        "name": "Double Slider",
+        "index": 2,
+        "engagement_level": 0.6065306597126334,
+        "involvement_type": "grasp",
+        "priority_weight": 0.6065306597126334
+      },
+      "physical_object": {
+        "name": "telescoping stainless steel rod with black digital display handle",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 4.44444457689921,
+      "utilization_method": "Wrap the hand around the black cylindrical handle and move the entire rod forward and backward along the desk while keeping the handle level"
+    },
+    {
+      "virtual_object": {
+        "name": "Button",
+        "index": 3,
+        "engagement_level": 0.36787944117144233,
+        "involvement_type": "contact",
+        "priority_weight": 0.36787944117144233
+      },
+      "physical_object": {
+        "name": "white handheld pencil sharpener with residue visible inside",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 4.333333333333333,
+      "utilization_method": "Set the sharpener flat on the desk, press the top plastic lid directly downward with the index finger and release (not sure whether it is applicable)"
+    },
+    {
+      "virtual_object": {
+        "name": "Slime",
+        "index": 4,
+        "engagement_level": 1.0,
+        "involvement_type": "contact",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "small hand broom with wooden handle and black bristles",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 13
+      },
+      "realism_score": 5.375,
+      "utilization_method": "Hold the wooden handle and press the tip ends of the stiff bristles directly onto the skin of the palm"
+    }
+  ]
+}

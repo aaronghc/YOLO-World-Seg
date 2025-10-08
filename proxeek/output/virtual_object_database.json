@@ -1,138 +1,36 @@
 [
   {
-    "objectName": "Fork",
+    "objectName": "Hammer",
     "involvementType": "grasp",
-    "usage": "This virtual fork would be used for dining activities",
-    "engagementLevel": 2,
-    "inertia": "A fork is relatively lightweight but has some mass.",
-    "interactivity": "",
-    "outline": "User should feel a flat and elongated shape about 0.8-1 inch wide, and roughly 2-3mm thick.",
-    "texture": "User should feel the surface as smooth and polished like stainless steel.",
-    "hardness": "",
-    "temperature": "",
-    "inertiaValue": 0.3809524178504944,
-    "interactivityValue": 0.0,
-    "outlineValue": 0.3809524178504944,
-    "textureValue": 0.2380952537059784,
-    "hardnessValue": 0.0,
-    "temperatureValue": 0.0,
-    "dimensions_meters": {
-      "x": "0.02",
-      "y": "0.01",
-      "z": "0.16"
-    },
-    "globalPosition": {
-      "x": 0.5927770733833313,
-      "y": -0.08699999749660492,
-      "z": 0.5115739107131958
-    },
-    "globalRotation": {
-      "x": 270.0,
-      "y": 269.3441162109375,
-      "z": 0.0
-    },
-    "interactionDeduction": "The user will pick up the fork by wrapping thumb, index, and middle finger around the narrow handle (precision/pencil-like grip). The index finger often lies along the spine to steer the tines. Typical motions include (1) pronating the wrist to place the fork in a downward-facing position for stabbing or holding food, (2) small vertical jabs to pierce food, (3) scooping/sweeping motions to collect pieces, and (4) supinating the wrist to bring the fork to the mouth. Because the fork is light, little inertial resistance is felt; however, brief vibrations travel through the handle when the metal tines strike a plate. The user\u2019s fingers contact a smooth, hard, 2\u20133 mm-thick stainless surface with four thin prongs extending about 30 mm from the handle\u2019s end."
-  },
-  {
-    "objectName": "Knife",
-    "involvementType": "grasp",
-    "usage": "This virtual fork would be used for dining activities",
-    "engagementLevel": 2,
-    "inertia": "A knife is relatively lightweight but has some mass.",
-    "interactivity": "",
-    "outline": "User should feel a flat and elongated shape about 0.8-1 inch wide, and roughly 2-3mm thick.",
-    "texture": "User should feel the surface as smooth and polished like stainless steel.",
-    "hardness": "",
-    "temperature": "",
-    "inertiaValue": 0.3809524178504944,
-    "interactivityValue": 0.0,
-    "outlineValue": 0.3809524178504944,
-    "textureValue": 0.2380952537059784,
-    "hardnessValue": 0.0,
-    "temperatureValue": 0.0,
-    "dimensions_meters": {
-      "x": "0.02",
-      "y": "0.00",
-      "z": "0.17"
-    },
-    "globalPosition": {
-      "x": 0.9451770782470703,
-      "y": 0.02281920239329338,
-      "z": 0.5184739232063293
-    },
-    "globalRotation": {
-      "x": 270.0,
-      "y": 269.3441162109375,
-      "z": 0.0
-    },
-    "interactionDeduction": "The user will grasp the knife\u2019s handle with a precision\u2013power hybrid grip: thumb on one side, index finger resting along the blunt spine for guidance, remaining fingers curling underneath. Primary manipulations are (1) pushing the edge downward while sawing forward/back to cut food, (2) sliding strokes to spread butter, and (3) using the knife as a stabilizer to push food onto the fork. Movements involve wrist flexion/extension and forearm sawing motions. The knife offers light inertia but noticeable resistance when the edge meets food, transmitting a hard metallic vibration into the handle. The blade\u2019s outline is flat and thin (~2 mm) with a smooth, cool, rigid stainless feel throughout."
-  },
-  {
-    "objectName": "Spoon",
-    "involvementType": "grasp",
-    "usage": "This virtual fork would be used for dining activities",
+    "usage": "smashing things",
     "engagementLevel": 1,
-    "inertia": "A spoon is relatively lightweight but has some mass.",
+    "inertia": "User should feel significant mass concentrated in the head, creating a distinctly head-heavy sensation when wielding the hammer.",
     "interactivity": "",
-    "outline": "User should feel a flat and elongated shape about 0.8-1 inch wide, and roughly 2-3mm thick.",
-    "texture": "User should feel the surface as smooth and polished like stainless steel.",
-    "hardness": "",
-    "temperature": "",
-    "inertiaValue": 0.3809524178504944,
-    "interactivityValue": 0.0,
-    "outlineValue": 0.3809524178504944,
-    "textureValue": 0.2380952537059784,
-    "hardnessValue": 0.0,
-    "temperatureValue": 0.0,
-    "dimensions_meters": {
-      "x": "0.08",
-      "y": "0.02",
-      "z": "0.16"
-    },
-    "globalPosition": {
-      "x": 0.4116770923137665,
-      "y": -0.08869999647140503,
-      "z": 0.5022739171981812
-    },
-    "globalRotation": {
-      "x": 270.0,
-      "y": 251.16400146484375,
-      "z": 0.0
-    },
-    "interactionDeduction": "The spoon is lifted with a precision grip similar to the fork: thumb and fingers wrap around the handle while the index finger may rest along the back for control. Key motions include (1) dipping the bowl into liquids or semi-solids, (2) scooping via a slight wrist flexion followed by elevation, and (3) gentle tilting (supination) to pour contents into the mouth or another container. Users may also stir beverages by tracing small circles with the wrist. The object is lightweight; the main inertial feedback comes from the mass of any collected food in the bowl. The bowl\u2019s concave outline is felt by the lips, and finger pads perceive a smooth, hard, cool stainless surface along a 16 cm elongated tool."
-  },
-  {
-    "objectName": "Pepper",
-    "involvementType": "grasp",
-    "usage": "This virtual pepper shaker would be used for seasoning food",
-    "engagementLevel": 0,
-    "inertia": "User should feel light weight with little angular momentum during shaking ",
-    "interactivity": "",
-    "outline": "Users should feel the fitted diameter (about 4cm) when gripped",
+    "outline": "User should feel a cylindrical and substantial grip that requires a firm grasp around the handle's circumference.",
     "texture": "",
     "hardness": "",
     "temperature": "",
-    "inertiaValue": 0.3636363744735718,
+    "inertiaValue": 0.5,
     "interactivityValue": 0.0,
-    "outlineValue": 0.6363636255264282,
+    "outlineValue": 0.5,
     "textureValue": 0.0,
     "hardnessValue": 0.0,
     "temperatureValue": 0.0,
     "dimensions_meters": {
-      "x": "0.04",
-      "y": "0.07",
-      "z": "0.04"
+      "x": "0.41",
+      "y": "0.05",
+      "z": "0.15"
     },
     "globalPosition": {
-      "x": 0.800000011920929,
-      "y": 0.021091803908348083,
-      "z": 0.6119999885559082
+      "x": -1.4484004974365234,
+      "y": 0.9916127324104309,
+      "z": 0.010193705558776855
     },
     "globalRotation": {
-      "x": 270.0,
-      "y": 0.0,
+      "x": 0.0,
+      "y": 280.48406982421875,
       "z": 0.0
     },
-    "interactionDeduction": "The pepper shaker is typically grasped with a loose power grip: thumb, index, and middle fingers encircle the 4 cm-diameter cylindrical body while the palm supports the underside. Interaction involves brisk up-and-down or side-to-side shaking driven by wrist and forearm motions to sprinkle pepper. Users may briefly invert it against the other hand or food surface for several short bursts, then set it back down. A secondary manipulation is twisting the cap (using a fingertip pinch) to open or adjust holes. The shaker\u2019s low mass gives minimal inertial load, but the moving granules generate faint internal rattling and shifting center-of-mass cues during acceleration. Fingers sense a smooth, hard exterior; the cool metal/plastic top contrasts slightly with the glass or plastic body."
+    "interactionDeduction": "The user will employ a power-grip, wrapping their entire hand around the cylindrical wooden handle roughly 3\u20134 cm in diameter. Fingers curl fully while the thumb clamps over them, creating a secure fist-like hold that lets the wrist control the head-heavy tool. Interaction begins by lifting the hammer: the user instantly notices inertia bias toward the metal head, so the wrist naturally tilts slightly downward unless counterbalanced by forearm muscles. Typical manipulation consists of rhythmic swinging arcs\u2014either short wrist-flick taps for light blows or full elbow/shoulder swings for forceful strikes. During each swing the handle acts as a lever: the user\u2019s hand is the pivot, the heavy head accelerates, then decelerates abruptly on impact. The hammer\u2019s outline transmits a straight, 0.4 m rod terminating in a rectangular mass; the grip stops at the neck so the head seldom touches the hand. Upon collision with virtual targets, the user expects sudden stop and reverberation travelling back through the handle, signalling object hardness and successful impact. The tool itself is rigid and undeforming, staying cool and metallic at the head and warm wood along the shaft, though only the wooden section is normally in contact with the palm. Overall, the interaction pattern is: grasp firmly \u2192 raise \u2192 align head with target \u2192 swing in an arc \u2192 feel mass pull \u2192 brief forceful contact \u2192 possible quick re-chamber or repeat strokes."
   }
 ]

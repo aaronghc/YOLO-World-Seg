@@ -2,36 +2,11 @@
   "action": "optimization_results",
   "data": [
     {
-      "virtualObjectName": "Fork",
-      "proxyObjectName": "single cylindrical AA battery",
-      "utilizationMethod": "Pinch the battery near one cap with thumb and fingers, aim the opposite end outward, and perform fork-like pokes"
-    },
-    {
-      "virtualObjectName": "Knife",
-      "proxyObjectName": "pair of black-and-yellow scissors",
-      "utilizationMethod": "Close the blades, grip one closed blade spine like a handle with thumb on one flat side and fingers on the other, extend index along the spine, and perform press-and-saw motions with the tip."
-    },
-    {
-      "virtualObjectName": "Spoon",
-      "proxyObjectName": "black ballpoint pen",
-      "utilizationMethod": "Grip the pen near its midpoint with thumb, index, and middle finger, push the pen tip forward in a small arc, lift, and rotate the fingers to emulate pouring."
-    },
-    {
-      "virtualObjectName": "Soup",
-      "proxyObjectName": "wooden-handled bench brush with black bristles",
-      "utilizationMethod": "Lay the brush flat with bristles facing up; drag the pen tip through the bristle field in circular motions."
-    },
-    {
-      "virtualObjectName": "Steak",
-      "proxyObjectName": "yellow rectangular kitchen sponge with green scrubbing side",
-      "utilizationMethod": "Lay the sponge on the table with yellow side up; stab the battery tip down into the foam until it reaches the firmer green layer."
-    },
-    {
-      "virtualObjectName": "Pepper",
-      "proxyObjectName": "500 g calibration weight (cylindrical metal)",
-      "utilizationMethod": "Wrap fingers around the cylindrical body, support its base with palm, and give deliberate short shakes"
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "white VR controller with black circular top and braided strap",
+      "utilizationMethod": "Wrap your fingers fully around the controller\u2019s white grip, point the black circular top outward to act as the hammer head, and perform downward or sideward swinging motions while maintaining the fist-like grasp"
     }
   ],
-  "timestamp": "b00f649c-0a20-43da-bb5b-324bc2344bb8",
-  "total_assignments": 6
+  "timestamp": "d77d709b-7621-4b08-ad49-86cf29ece0c5",
+  "total_assignments": 1
 }

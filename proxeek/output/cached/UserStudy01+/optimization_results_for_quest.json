@@ -1,0 +1,32 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "plastic spray bottle with blue liquid",
+      "utilizationMethod": "Grip the narrow neck beneath the trigger and swing so the filled bottle base strikes downward like a hammerhead"
+    },
+    {
+      "virtualObjectName": "Lightsaber",
+      "proxyObjectName": "chrome cylindrical 500 g calibration weight",
+      "utilizationMethod": "Enclose the cylinder in your palm like a handle and swing your forearm in diagonal and vertical cuts"
+    },
+    {
+      "virtualObjectName": "Double Slider",
+      "proxyObjectName": "telescoping stainless steel rod with black digital display handle",
+      "utilizationMethod": "Wrap the hand around the black cylindrical handle and move the entire rod forward and backward along the desk while keeping the handle level"
+    },
+    {
+      "virtualObjectName": "Button",
+      "proxyObjectName": "white handheld pencil sharpener with residue visible inside",
+      "utilizationMethod": "Set the sharpener flat on the desk, press the top plastic lid directly downward with the index finger and release (not sure whether it is applicable)"
+    },
+    {
+      "virtualObjectName": "Slime",
+      "proxyObjectName": "small hand broom with wooden handle and black bristles",
+      "utilizationMethod": "Hold the wooden handle and press the tip ends of the stiff bristles directly onto the skin of the palm"
+    }
+  ],
+  "timestamp": "0e10fd8b-fa77-444c-96e1-d8485fd7b13b",
+  "total_assignments": 5
+}
