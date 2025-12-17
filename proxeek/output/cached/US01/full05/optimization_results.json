@@ -1,0 +1,141 @@
+{
+  "optimization_summary": {
+    "total_loss": -35.32260664727242,
+    "loss_components": {
+      "L_realism": -18.831222058742778,
+      "L_interaction": -16.491384588529645,
+      "L_spatial": 0.0,
+      "total": -35.32260664727242
+    },
+    "num_virtual_objects": 8,
+    "num_physical_objects": 21,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 0,
+        "engagement_level": 2.0,
+        "involvement_type": "grasp",
+        "priority_weight": 2.0
+      },
+      "physical_object": {
+        "name": "green handheld leaf blower",
+        "object_id": 2,
+        "image_id": 4,
+        "index": 19
+      },
+      "realism_score": 4.051282286643982,
+      "utilization_method": "Grab the long nozzle, raise the blower so the body points outward, and chop downward so the tip of the housing makes the striking contact"
+    },
+    {
+      "virtual_object": {
+        "name": "Lightsaber",
+        "index": 1,
+        "engagement_level": 1.0757656854799804,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0757656854799804
+      },
+      "physical_object": {
+        "name": "black pepper grinder",
+        "object_id": 2,
+        "image_id": 3,
+        "index": 15
+      },
+      "realism_score": 4.470588033397992,
+      "utilization_method": "Hold the main cylindrical body of the grinder with a full hand wrap, letting the top end point forward"
+    },
+    {
+      "virtual_object": {
+        "name": "Gold Bar",
+        "index": 2,
+        "engagement_level": 2.9242343145200196,
+        "involvement_type": "grasp",
+        "priority_weight": 2.9242343145200196
+      },
+      "physical_object": {
+        "name": "purple dumbbell hand weight",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 13
+      },
+      "realism_score": 4.523809641599655,
+      "utilization_method": "Wrap the hand around the center bar of the dumbbell, lift it straight up, roll the wrist to turn the weight, then lower it back onto the surface"
+    },
+    {
+      "virtual_object": {
+        "name": "Double Slider",
+        "index": 3,
+        "engagement_level": 0.4768116880884702,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4768116880884702
+      },
+      "physical_object": {
+        "name": "black hard-shell suitcase with top handle",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 10
+      },
+      "realism_score": 4.0000001192092896,
+      "utilization_method": "Grip the suitcase\u2019s top handle with one hand and roll or slide the suitcase a short distance forward and back on the floor"
+    },
+    {
+      "virtual_object": {
+        "name": "Dropper",
+        "index": 4,
+        "engagement_level": 0.18970349271026712,
+        "involvement_type": "grasp",
+        "priority_weight": 0.18970349271026712
+      },
+      "physical_object": {
+        "name": "teal toothbrush with white bristles",
+        "object_id": 3,
+        "image_id": 3,
+        "index": 16
+      },
+      "realism_score": 4.0877193013827,
+      "utilization_method": "Hold the middle of the handle between thumb and middle finger, press the bristle head with the index finger repeatedly"
+    },
+    {
+      "virtual_object": {
+        "name": "Slime",
+        "index": 5,
+        "engagement_level": 3.8102965072897335,
+        "involvement_type": "contact",
+        "priority_weight": 3.8102965072897335
+      },
+      "physical_object": {
+        "name": "small succulent plant in a yellow ribbed pot",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 14
+      },
+      "realism_score": 4.066666533549626,
+      "utilization_method": "Gently brush the backs of your fingers across the upper leaves"
+    },
+    {
+      "virtual_object": {
+        "name": "Party Balloon",
+        "index": 7,
+        "engagement_level": 3.5231883119115293,
+        "involvement_type": "contact",
+        "priority_weight": 3.5231883119115293
+      },
+      "physical_object": {
+        "name": "green Lay's Sour Cream & Onion potato chip bag",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 6.128205309311548,
+      "utilization_method": "Press the air-filled bag flat on the desk and give quick light pats to its center with your open hand"
+    }
+  ]
+}

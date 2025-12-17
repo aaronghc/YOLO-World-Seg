@@ -1,0 +1,48 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "green handheld leaf blower",
+      "utilizationMethod": "Grab the long nozzle, raise the blower so the body points outward, and chop downward so the tip of the housing makes the striking contact"
+    },
+    {
+      "virtualObjectName": "Lightsaber",
+      "proxyObjectName": "black pepper grinder",
+      "utilizationMethod": "Hold the main cylindrical body of the grinder with a full hand wrap, letting the top end point forward"
+    },
+    {
+      "virtualObjectName": "Gold Bar",
+      "proxyObjectName": "purple dumbbell hand weight",
+      "utilizationMethod": "Wrap the hand around the center bar of the dumbbell, lift it straight up, roll the wrist to turn the weight, then lower it back onto the surface"
+    },
+    {
+      "virtualObjectName": "Double Slider",
+      "proxyObjectName": "black hard-shell suitcase with top handle",
+      "utilizationMethod": "Grip the suitcase\u2019s top handle with one hand and roll or slide the suitcase a short distance forward and back on the floor"
+    },
+    {
+      "virtualObjectName": "Dropper",
+      "proxyObjectName": "teal toothbrush with white bristles",
+      "utilizationMethod": "Hold the middle of the handle between thumb and middle finger, press the bristle head with the index finger repeatedly"
+    },
+    {
+      "virtualObjectName": "Slime",
+      "proxyObjectName": "small succulent plant in a yellow ribbed pot",
+      "utilizationMethod": "Gently brush the backs of your fingers across the upper leaves"
+    },
+    {
+      "virtualObjectName": "Party Balloon",
+      "proxyObjectName": "green Lay's Sour Cream & Onion potato chip bag",
+      "utilizationMethod": "Press the air-filled bag flat on the desk and give quick light pats to its center with your open hand"
+    }
+  ],
+  "pinPoint": [
+    0.05245471367082616,
+    -1.1920929e-07,
+    0.9456108846708261
+  ],
+  "rotationAngle": -330.0,
+  "timestamp": "d804c043-41f0-43c9-bafe-28bb817dade9",
+  "total_assignments": 7
+}
