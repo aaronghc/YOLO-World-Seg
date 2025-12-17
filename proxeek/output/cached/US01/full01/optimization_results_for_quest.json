@@ -1,0 +1,48 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "6-string acoustic guitar with natural wood finish and cutaway",
+      "utilizationMethod": "Grip the neck just below the headstock with one hand and swing the guitar body forward in a short striking arc"
+    },
+    {
+      "virtualObjectName": "Lightsaber",
+      "proxyObjectName": "glass pepper grinder with black cap",
+      "utilizationMethod": "Wrap fingers around the main glass body just below the cap and wield it lengthwise"
+    },
+    {
+      "virtualObjectName": "Gold Bar",
+      "proxyObjectName": "purple neoprene-coated dumbbell",
+      "utilizationMethod": "Grasp the dumbbell\u2019s central handle with the entire hand, thumb on one long edge and fingers on the opposite edge, then raise it as a compact heavy bar"
+    },
+    {
+      "virtualObjectName": "Double Slider",
+      "proxyObjectName": "rolled white paper scroll",
+      "utilizationMethod": "Grip the roll at its midpoint like a small cylinder, rest one circular end on the tray or desk, and roll or slide it straight ahead and backward"
+    },
+    {
+      "virtualObjectName": "Dropper",
+      "proxyObjectName": "turquoise toothbrush with white bristles",
+      "utilizationMethod": "Hold the handle just below the brush head between index and middle fingers; press the thumb against the slightly flexible plastic handle, squeezing and releasing"
+    },
+    {
+      "virtualObjectName": "Slime",
+      "proxyObjectName": "blue upholstered two-seater couch with black metal frame",
+      "utilizationMethod": "Push your palm into the seat cushion and feel it compress before releasing"
+    },
+    {
+      "virtualObjectName": "Party Balloon",
+      "proxyObjectName": "small succulent plant in a ribbed yellow pot",
+      "utilizationMethod": "Gently tap one of the broader leaves with the back of your index finger (not sure whether it is applicable)."
+    }
+  ],
+  "pinPoint": [
+    0.16794069664241632,
+    1.78813934e-07,
+    1.5215592192848328
+  ],
+  "rotationAngle": -250.00000000000003,
+  "timestamp": "9cd23fa4-96f3-414c-8026-f0bd4276d8fb",
+  "total_assignments": 7
+}

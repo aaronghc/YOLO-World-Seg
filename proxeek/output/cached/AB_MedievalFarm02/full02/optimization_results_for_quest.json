@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Firewood",
+      "proxyObjectName": "small bright orange tangerine",
+      "utilizationMethod": "Set the tangerine on the table so it does not roll; bring the lamp head straight down onto the fruit\u2019s top."
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "white plastic adjustable desk lamp with circular head",
+      "utilizationMethod": "Grab the vertical stem near its midpoint with one hand, allow the circular head to serve as the axe head, and swing downward in an arc"
+    },
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "green-and-white pack of wet wipes with a single white tissue sheet protruding",
+      "utilizationMethod": "Place the pack flat on the table with the protruding tissue facing away; aim the lamp head at the pack\u2019s center and chop straight down."
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "clear plastic water bottle with screw cap",
+      "utilizationMethod": "Hold the narrow neck firmly as a handle and swing the bottle so its filled body cuts through the air in an arc"
+    },
+    {
+      "virtualObjectName": "Hoe",
+      "proxyObjectName": "long metal flat-head screwdriver with a translucent red handle",
+      "utilizationMethod": "Place one hand around the handle and the other near the midpoint of the shaft, set the flat tip onto the tabletop, press downward, then pull the tool toward you to mimic a scraping stroke"
+    },
+    {
+      "virtualObjectName": "Pitchfork",
+      "proxyObjectName": "black adjustable tripod stand (microphone or lighting stand)",
+      "utilizationMethod": "Grasp the central vertical tube with both hands, orient one of the extended tripod legs forward to act as tines, thrust ahead, then lift and rotate outward"
+    },
+    {
+      "virtualObjectName": "Haystack",
+      "proxyObjectName": "green hexagonal fabric ottoman",
+      "utilizationMethod": "Place the ottoman directly ahead. Drive the tripod leg into the top center so the foam interior compresses and gives."
+    },
+    {
+      "virtualObjectName": "WheelBarrow",
+      "proxyObjectName": "high-back gray upholstered booth seat with metal frame",
+      "utilizationMethod": "Stand behind the booth seat, place both hands on the two parallel horizontal sections of the metal side rails, lean forward, lift the rear legs slightly, and push the seat a short distance across the floor"
+    }
+  ],
+  "pinPoint": [
+    -1.4827229561883744,
+    0.0,
+    -0.5295941275844992
+  ],
+  "rotationAngle": -110.0,
+  "timestamp": "c2e8e840-379c-48d1-af95-fedd3058aa26",
+  "total_assignments": 8
+}

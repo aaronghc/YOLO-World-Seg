@@ -1,0 +1,141 @@
+{
+  "optimization_summary": {
+    "total_loss": -50.71045726292222,
+    "loss_components": {
+      "L_realism": -13.609144682955796,
+      "L_interaction": -39.68609792160413,
+      "L_spatial": 2.584785341637703,
+      "total": -50.71045726292222
+    },
+    "num_virtual_objects": 8,
+    "num_physical_objects": 21,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 0,
+        "engagement_level": 3.5231883119115293,
+        "involvement_type": "grasp",
+        "priority_weight": 3.5231883119115293
+      },
+      "physical_object": {
+        "name": "purple dumbbell hand weight",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 13
+      },
+      "realism_score": 3.8461540937423706,
+      "utilization_method": "Wrap your fingers around one end of the dumbbell handle, letting the far weight act as the striking head, and swing that far end downward in hammering motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Lightsaber",
+        "index": 1,
+        "engagement_level": 2.9242343145200196,
+        "involvement_type": "grasp",
+        "priority_weight": 2.9242343145200196
+      },
+      "physical_object": {
+        "name": "small succulent plant in a yellow ribbed pot",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 14
+      },
+      "realism_score": 2.8823528389136,
+      "utilization_method": "Grip the pot\u2019s ribbed sides with fingers curving underneath and thumb on the outer wall, keeping the plant upright (not sure whether it is applicable)"
+    },
+    {
+      "virtual_object": {
+        "name": "Gold Bar",
+        "index": 2,
+        "engagement_level": 0.18970349271026712,
+        "involvement_type": "grasp",
+        "priority_weight": 0.18970349271026712
+      },
+      "physical_object": {
+        "name": "gray round plate",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 2.190476248661677,
+      "utilization_method": "Grip the rim of the plate between thumb and fingers, raise it, shift the plate to rest on the palm, rotate it slowly, then place it back down"
+    },
+    {
+      "virtual_object": {
+        "name": "Double Slider",
+        "index": 3,
+        "engagement_level": 0.4768116880884702,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4768116880884702
+      },
+      "physical_object": {
+        "name": "green handheld leaf blower",
+        "object_id": 2,
+        "image_id": 4,
+        "index": 19
+      },
+      "realism_score": 3.2222223182519274,
+      "utilization_method": "Grip the blower\u2019s main handle, rest the nozzle tip on the bench seat, and push then pull the tool straight along the seat surface"
+    },
+    {
+      "virtual_object": {
+        "name": "Dropper",
+        "index": 4,
+        "engagement_level": 2.0,
+        "involvement_type": "grasp",
+        "priority_weight": 2.0
+      },
+      "physical_object": {
+        "name": "coil of green nylon rope",
+        "object_id": 3,
+        "image_id": 4,
+        "index": 20
+      },
+      "realism_score": 3.4736842115720115,
+      "utilization_method": "Hold one loose end of the coil between thumb and middle finger, press and release the springy rope bundle with the index finger"
+    },
+    {
+      "virtual_object": {
+        "name": "Slime",
+        "index": 5,
+        "engagement_level": 3.8102965072897335,
+        "involvement_type": "contact",
+        "priority_weight": 3.8102965072897335
+      },
+      "physical_object": {
+        "name": "blue upholstered two-seat bench",
+        "object_id": 1,
+        "image_id": 4,
+        "index": 18
+      },
+      "realism_score": 2.666666616996129,
+      "utilization_method": "Press your open hand into the cushioned seat and release"
+    },
+    {
+      "virtual_object": {
+        "name": "Party Balloon",
+        "index": 7,
+        "engagement_level": 1.0757656854799804,
+        "involvement_type": "contact",
+        "priority_weight": 1.0757656854799804
+      },
+      "physical_object": {
+        "name": "green Lay's Sour Cream & Onion potato chip bag",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 6.128205309311548,
+      "utilization_method": "Press the air-filled bag flat on the desk and give quick light pats to its center with your open hand"
+    }
+  ]
+}

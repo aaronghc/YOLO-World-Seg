@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Firewood",
+      "proxyObjectName": "black upholstered office chair with armrests",
+      "utilizationMethod": "Strike padded seat cushion"
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "white and gray camouflage-patterned gaming controller",
+      "utilizationMethod": "Hold one of the controller\u2019s grips as a handle and swing the opposite end downward like a small axe (not sure whether it is applicable)"
+    },
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "yellow bag of Japanese puffed peanut snack (\u3046\u3059\u30d4\u30fc\u30ca)",
+      "utilizationMethod": "Lay the sealed snack bag flat and chop the centre"
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "white plastic spray bottle with translucent body",
+      "utilizationMethod": "Grip the cylindrical neck just below the trigger, let the bottle body extend forward, and execute curved pulling cuts using wrist and elbow."
+    },
+    {
+      "virtualObjectName": "Hoe",
+      "proxyObjectName": "transparent umbrella with white curved handle",
+      "utilizationMethod": "Hold the curved handle with the trailing hand, place the leading hand midway up the shaft, raise the umbrella overhead, and swing the ferrule end downward toward the floor while drawing it back"
+    },
+    {
+      "virtualObjectName": "Pitchfork",
+      "proxyObjectName": "selfie stick (telescopic metal pole with phone mount and black handle)",
+      "utilizationMethod": "Grip the black handle with one hand, place the other hand around the middle of the metal shaft, point the phone-mount end forward, thrust the stick outward, then lift and flick your wrists upward to finish the motion"
+    },
+    {
+      "virtualObjectName": "Haystack",
+      "proxyObjectName": "large beige fabric bean bag",
+      "utilizationMethod": "Let the bean bag rest on the floor. Thrust the phone-mount end into the side of the bag, sink it into the fabric and filling, then lift and flick away."
+    },
+    {
+      "virtualObjectName": "WheelBarrow",
+      "proxyObjectName": "blue two-seater bench with black metal armrests",
+      "utilizationMethod": "Stand behind the bench, grasp the two top corners of the backrest with both hands, lift the front legs slightly, then push the bench forward a short distance (not sure whether it is applicable)"
+    }
+  ],
+  "pinPoint": [
+    -0.7137139954470345,
+    0.0,
+    0.6755779
+  ],
+  "rotationAngle": -100.0,
+  "timestamp": "512989d7-aab9-4a07-8811-f74f507d1fd5",
+  "total_assignments": 8
+}

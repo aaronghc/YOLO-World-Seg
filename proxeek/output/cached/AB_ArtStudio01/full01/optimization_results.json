@@ -1,0 +1,158 @@
+{
+  "optimization_summary": {
+    "total_loss": -45.22707996937141,
+    "loss_components": {
+      "L_realism": -19.613055033012852,
+      "L_interaction": -27.062413165333282,
+      "L_spatial": 1.4483882289747316,
+      "total": -45.22707996937141
+    },
+    "num_virtual_objects": 13,
+    "num_physical_objects": 21,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "substrate",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "office chair with black mesh back, black seat cushion, and armrests",
+        "object_id": 8,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand beside the chair and use the broad mesh backrest as the drawing area, sweeping the pen across the slightly springy mesh for smooth resistance."
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 1,
+        "engagement_level": 0.7297020952254254,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7297020952254254
+      },
+      "physical_object": {
+        "name": "yellow snack bag of Japanese pea crackers",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 3.9019605691234274,
+      "utilization_method": "Pinch the sealed top edge with thumb and index finger, cradle the body of the bag in the remaining fingers, and squeeze the contents toward the bottom"
+    },
+    {
+      "virtual_object": {
+        "name": "Spray Can",
+        "index": 2,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "grasp",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "transparent plastic umbrella with white curved handle",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 18
+      },
+      "realism_score": 3.749999721844991,
+      "utilization_method": "Hold the straight shaft just below the curved handle and press the thumb onto the small release button on the shaft"
+    },
+    {
+      "virtual_object": {
+        "name": "Round Mallet",
+        "index": 3,
+        "engagement_level": 3.2702979047745746,
+        "involvement_type": "grasp",
+        "priority_weight": 3.2702979047745746
+      },
+      "physical_object": {
+        "name": "spray bottle with white nozzle and light blue liquid",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 4.666666666666666,
+      "utilization_method": "Wrap fingers around the neck beneath the trigger, let the filled bottle act as the head, and swing the base downward for strikes"
+    },
+    {
+      "virtual_object": {
+        "name": "Chisel",
+        "index": 4,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "grasp",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "metal calibration weight labeled 'M 500g'",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 16
+      },
+      "realism_score": 4.25,
+      "utilization_method": "Clasp the top knob between thumb and forefinger, allowing the cylindrical body to extend downward as the chisel shaft"
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 7,
+        "engagement_level": 3.696567279915026,
+        "involvement_type": "grasp",
+        "priority_weight": 3.696567279915026
+      },
+      "physical_object": {
+        "name": "metallic ballpoint pen with a clear barrel",
+        "object_id": 7,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 6.523809134960175,
+      "utilization_method": "Hold the pen in a standard tripod grip and glide its tip across a surface exactly as you would move a paint brush"
+    },
+    {
+      "virtual_object": {
+        "name": "Stone Tablet",
+        "index": 8,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "substrate",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "Apple iMac desktop computer with silver aluminum stand",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 4
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Press the controller tip against the front edge of the solid aluminum stand while it remains stationary on the desk"
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 9,
+        "engagement_level": 0.3034327200849742,
+        "involvement_type": "grasp",
+        "priority_weight": 0.3034327200849742
+      },
+      "physical_object": {
+        "name": "small succulent plant in a yellow ceramic pot",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 2.833333333333333,
+      "utilization_method": "Grip the rim of the pot, keep the flat pot bottom on the table, and push it gently forward and back over the surface (not sure whether it is applicable)"
+    }
+  ]
+}

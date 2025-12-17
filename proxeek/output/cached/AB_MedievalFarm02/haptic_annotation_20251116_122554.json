@@ -1,0 +1,1166 @@
+{
+  "summary": "Medieval Farm",
+  "proxyPriorityOrder": [
+    "Axe",
+    "Firewood",
+    "Watermelon",
+    "WheelBarrow",
+    "Pitchfork",
+    "Haystack",
+    "Hoe",
+    "Sickle"
+  ],
+  "nodeAnnotations": [
+    {
+      "objectName": "Firewood",
+      "involvementType": "substrate",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.21",
+        "y": "0.26",
+        "z": "0.21"
+      },
+      "globalPosition": {
+        "x": 1.6455994844436646,
+        "y": 0.7526127099990845,
+        "z": 0.12719380855560303
+      },
+      "globalRotation": {
+        "x": 1.5292739868164062,
+        "y": 70.534912109375,
+        "z": 359.2193908691406
+      },
+      "bounds3D": {
+        "center": {
+          "x": 1.6436537504196167,
+          "y": 0.733749508857727,
+          "z": 0.1281258910894394
+        },
+        "size": {
+          "x": 0.2104528844356537,
+          "y": 0.2602875232696533,
+          "z": 0.2089489996433258
+        },
+        "min": {
+          "x": 1.5384273529052734,
+          "y": 0.6036057472229004,
+          "z": 0.02365139126777649
+        },
+        "max": {
+          "x": 1.74888014793396,
+          "y": 0.8638932704925537,
+          "z": 0.2326003909111023
+        }
+      },
+      "bounds2D": {
+        "minX": 1.5384273529052734,
+        "maxX": 1.74888014793396,
+        "minZ": 0.02365139126777649,
+        "maxZ": 0.2326003909111023,
+        "centerX": 1.6436537504196167,
+        "centerZ": 0.1281258910894394,
+        "width": 0.2104528844356537,
+        "depth": 0.2089489996433258,
+        "corners": [
+          {
+            "x": 1.542198657989502,
+            "z": 0.17980387806892395
+          },
+          {
+            "x": 1.597146987915039,
+            "z": 0.02415332943201065
+          },
+          {
+            "x": 1.7451088428497314,
+            "z": 0.07644790410995483
+          },
+          {
+            "x": 1.6901605129241943,
+            "z": 0.23209844529628754
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Axe",
+      "involvementType": "grasp",
+      "usage": "This axe serves as a chopping tool",
+      "inertia": "User should feel moderate mass with pronounced head-heavy inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip (about 3 cm \u00d8)",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.44",
+        "y": "0.33",
+        "z": "0.26"
+      },
+      "globalPosition": {
+        "x": 1.6055994033813477,
+        "y": 0.7706127166748047,
+        "z": -0.07480621337890625
+      },
+      "globalRotation": {
+        "x": 292.8609924316406,
+        "y": 68.61132049560547,
+        "z": 173.96200561523438
+      },
+      "bounds3D": {
+        "center": {
+          "x": 1.6582581996917725,
+          "y": 0.6883432865142822,
+          "z": -0.04368871450424194
+        },
+        "size": {
+          "x": 0.44289425015449524,
+          "y": 0.3269272446632385,
+          "z": 0.25899481773376465
+        },
+        "min": {
+          "x": 1.436811089515686,
+          "y": 0.5248796939849854,
+          "z": -0.17318612337112427
+        },
+        "max": {
+          "x": 1.8797053098678589,
+          "y": 0.8518068790435791,
+          "z": 0.08580869436264038
+        }
+      },
+      "bounds2D": {
+        "minX": 1.436811089515686,
+        "maxX": 1.8797053098678589,
+        "minZ": -0.17318612337112427,
+        "maxZ": 0.08580869436264038,
+        "centerX": 1.6582581996917725,
+        "centerZ": -0.04368871450424194,
+        "width": 0.44289425015449524,
+        "depth": 0.25899481773376465,
+        "corners": [
+          {
+            "x": 1.489763617515564,
+            "z": -0.16131800413131714
+          },
+          {
+            "x": 1.4671125411987305,
+            "z": -0.11677727103233337
+          },
+          {
+            "x": 1.8267526626586914,
+            "z": 0.07394054532051086
+          },
+          {
+            "x": 1.8494038581848145,
+            "z": 0.029399827122688293
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "ChoppingBlock",
+      "involvementType": "pedestal",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.53",
+        "y": "0.61",
+        "z": "0.53"
+      },
+      "globalPosition": {
+        "x": 1.6649999618530273,
+        "y": 0.0,
+        "z": 0.09399998188018799
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 1.664992094039917,
+          "y": 0.3049182891845703,
+          "z": 0.09399963170289993
+        },
+        "size": {
+          "x": 0.5320489406585693,
+          "y": 0.6098365783691406,
+          "z": 0.5320319533348083
+        },
+        "min": {
+          "x": 1.3989676237106323,
+          "y": 0.0,
+          "z": -0.17201635241508484
+        },
+        "max": {
+          "x": 1.9310165643692017,
+          "y": 0.6098365783691406,
+          "z": 0.3600156009197235
+        }
+      },
+      "bounds2D": {
+        "minX": 1.3989676237106323,
+        "maxX": 1.9310165643692017,
+        "minZ": -0.17201635241508484,
+        "maxZ": 0.3600156009197235,
+        "centerX": 1.664992094039917,
+        "centerZ": 0.09399963170289993,
+        "width": 0.5320489406585693,
+        "depth": 0.5320319533348083,
+        "corners": [
+          {
+            "x": 1.3989676237106323,
+            "z": -0.17201632261276245
+          },
+          {
+            "x": 1.9310165643692017,
+            "z": -0.17201632261276245
+          },
+          {
+            "x": 1.9310165643692017,
+            "z": 0.3600156009197235
+          },
+          {
+            "x": 1.3989676237106323,
+            "z": 0.3600156009197235
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Watermelon",
+      "involvementType": "substrate",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.29",
+        "y": "0.19",
+        "z": "0.31"
+      },
+      "globalPosition": {
+        "x": 0.42159944772720337,
+        "y": 0.747612714767456,
+        "z": 1.0231938362121582
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 242.30728149414062,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.4238366186618805,
+          "y": 0.8455618619918823,
+          "z": 1.018931269645691
+        },
+        "size": {
+          "x": 0.2884063720703125,
+          "y": 0.19414469599723816,
+          "z": 0.3059944808483124
+        },
+        "min": {
+          "x": 0.27963343262672424,
+          "y": 0.748489499092102,
+          "z": 0.8659340143203735
+        },
+        "max": {
+          "x": 0.5680397748947144,
+          "y": 0.9426342248916626,
+          "z": 1.1719285249710083
+        }
+      },
+      "bounds2D": {
+        "minX": 0.27963343262672424,
+        "maxX": 0.5680397748947144,
+        "minZ": 0.8659340143203735,
+        "maxZ": 1.1719285249710083,
+        "centerX": 0.4238366186618805,
+        "centerZ": 1.018931269645691,
+        "width": 0.2884063720703125,
+        "depth": 0.3059944808483124,
+        "corners": [
+          {
+            "x": 0.5680397748947144,
+            "z": 0.9585158228874207
+          },
+          {
+            "x": 0.4560301899909973,
+            "z": 1.1719285249710083
+          },
+          {
+            "x": 0.27963343262672424,
+            "z": 1.0793466567993164
+          },
+          {
+            "x": 0.39164304733276367,
+            "z": 0.8659340143203735
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Worktable",
+      "involvementType": "pedestal",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "1.79",
+        "y": "0.98",
+        "z": "0.77"
+      },
+      "globalPosition": {
+        "x": 0.1369999647140503,
+        "y": -0.16038724780082703,
+        "z": 1.0180000066757202
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.1369999647140503,
+          "y": 0.32457539439201355,
+          "z": 1.0191941261291504
+        },
+        "size": {
+          "x": 1.7907001972198486,
+          "y": 0.9799758195877075,
+          "z": 0.7720882892608643
+        },
+        "min": {
+          "x": -0.758350133895874,
+          "y": -0.1654125154018402,
+          "z": 0.6331499814987183
+        },
+        "max": {
+          "x": 1.0323500633239746,
+          "y": 0.8145632743835449,
+          "z": 1.4052382707595825
+        }
+      },
+      "bounds2D": {
+        "minX": -0.758350133895874,
+        "maxX": 1.0323500633239746,
+        "minZ": 0.6331499814987183,
+        "maxZ": 1.4052382707595825,
+        "centerX": 0.1369999647140503,
+        "centerZ": 1.0191941261291504,
+        "width": 1.7907001972198486,
+        "depth": 0.7720882892608643,
+        "corners": [
+          {
+            "x": 1.0323500633239746,
+            "z": 1.4052382707595825
+          },
+          {
+            "x": -0.758350133895874,
+            "z": 1.4052382707595825
+          },
+          {
+            "x": -0.758350133895874,
+            "z": 0.6331499814987183
+          },
+          {
+            "x": 1.0323500633239746,
+            "z": 0.6331499814987183
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Sickle",
+      "involvementType": "grasp",
+      "usage": "This sickle serves as a harvesting and cutting tool ",
+      "inertia": "User should feel moderate forward-weighted inertia.",
+      "interactivity": "",
+      "outline": "User should feel a cylindrical grip (about 3 cm \u00d8)",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.39",
+        "y": "0.09",
+        "z": "0.56"
+      },
+      "globalPosition": {
+        "x": -0.21740055084228516,
+        "y": 0.7676127552986145,
+        "z": 0.8491937518119812
+      },
+      "globalRotation": {
+        "x": -6.830189249740215e-06,
+        "y": 102.79971313476562,
+        "z": 93.36920928955078
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.11363828182220459,
+          "y": 0.7576399445533752,
+          "z": 1.0065691471099854
+        },
+        "size": {
+          "x": 0.3918713629245758,
+          "y": 0.08812928944826126,
+          "z": 0.5626152753829956
+        },
+        "min": {
+          "x": -0.3095739483833313,
+          "y": 0.7135753035545349,
+          "z": 0.7252615094184875
+        },
+        "max": {
+          "x": 0.08229739964008331,
+          "y": 0.8017045855522156,
+          "z": 1.287876844406128
+        }
+      },
+      "bounds2D": {
+        "minX": -0.3095739483833313,
+        "maxX": 0.08229739964008331,
+        "minZ": 0.7252615094184875,
+        "maxZ": 1.287876844406128,
+        "centerX": -0.11363828182220459,
+        "centerZ": 1.0065691471099854,
+        "width": 0.3918713629245758,
+        "depth": 0.5626152753829956,
+        "corners": [
+          {
+            "x": -0.30919456481933594,
+            "z": 0.7901861667633057
+          },
+          {
+            "x": -0.030772536993026733,
+            "z": 0.726931631565094
+          },
+          {
+            "x": 0.08191797137260437,
+            "z": 1.222952127456665
+          },
+          {
+            "x": -0.19650405645370483,
+            "z": 1.2862067222595215
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Hoe",
+      "involvementType": "grasp",
+      "usage": "Breaking and scrape soil",
+      "inertia": "Front-heavy feel from steel head (around 1 kg total). ",
+      "interactivity": "",
+      "outline": "Cylindrical handle (about 3 cm \u00d8)",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.53",
+        "y": "1.30",
+        "z": "0.76"
+      },
+      "globalPosition": {
+        "x": -3.0274007320404053,
+        "y": 0.7866127490997314,
+        "z": 0.2671937942504883
+      },
+      "globalRotation": {
+        "x": 336.644775390625,
+        "y": 205.0982666015625,
+        "z": 181.6161346435547
+      },
+      "bounds3D": {
+        "center": {
+          "x": -3.030531883239746,
+          "y": 0.5674960613250732,
+          "z": 0.27388274669647217
+        },
+        "size": {
+          "x": 0.5259227156639099,
+          "y": 1.302149772644043,
+          "z": 0.7563442587852478
+        },
+        "min": {
+          "x": -3.2934932708740234,
+          "y": -0.08357882499694824,
+          "z": -0.10428938269615173
+        },
+        "max": {
+          "x": -2.7675704956054688,
+          "y": 1.2185709476470947,
+          "z": 0.6520549058914185
+        }
+      },
+      "bounds2D": {
+        "minX": -3.2934932708740234,
+        "maxX": -2.7675704956054688,
+        "minZ": -0.10428938269615173,
+        "maxZ": 0.6520549058914185,
+        "centerX": -3.030531883239746,
+        "centerZ": 0.27388274669647217,
+        "width": 0.5259227156639099,
+        "depth": 0.7563442587852478,
+        "corners": [
+          {
+            "x": -3.062675952911377,
+            "z": 0.42712071537971497
+          },
+          {
+            "x": -2.8931233882904053,
+            "z": 0.3453780710697174
+          },
+          {
+            "x": -2.9983878135681152,
+            "z": 0.1206447035074234
+          },
+          {
+            "x": -3.167940378189087,
+            "z": 0.20238736271858215
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Barrel 01",
+      "involvementType": "surroundings",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.81",
+        "y": "1.00",
+        "z": "0.81"
+      },
+      "globalPosition": {
+        "x": -1.691999912261963,
+        "y": 0.08000004291534424,
+        "z": 1.2149999141693115
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -1.6920469999313354,
+          "y": 0.581352174282074,
+          "z": 1.2150002717971802
+        },
+        "size": {
+          "x": 0.8145620822906494,
+          "y": 1.0027045011520386,
+          "z": 0.8145618438720703
+        },
+        "min": {
+          "x": -2.09932804107666,
+          "y": 0.07999992370605469,
+          "z": 0.807719349861145
+        },
+        "max": {
+          "x": -1.2847659587860107,
+          "y": 1.0827044248580933,
+          "z": 1.6222811937332153
+        }
+      },
+      "bounds2D": {
+        "minX": -2.09932804107666,
+        "maxX": -1.2847659587860107,
+        "minZ": 0.807719349861145,
+        "maxZ": 1.6222811937332153,
+        "centerX": -1.6920469999313354,
+        "centerZ": 1.2150002717971802,
+        "width": 0.8145620822906494,
+        "depth": 0.8145618438720703,
+        "corners": [
+          {
+            "x": -2.09932804107666,
+            "z": 0.807719349861145
+          },
+          {
+            "x": -1.2847659587860107,
+            "z": 0.807719349861145
+          },
+          {
+            "x": -1.2847659587860107,
+            "z": 1.6222811937332153
+          },
+          {
+            "x": -2.09932804107666,
+            "z": 1.6222811937332153
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Pitchfork",
+      "involvementType": "grasp",
+      "usage": "Lifting and tossing hay",
+      "inertia": "Front-heavy feel from steel head (around 1 kg total)",
+      "interactivity": "",
+      "outline": "Cylindrical handle (about 3 cm \u00d8)",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.39",
+        "y": "1.87",
+        "z": "0.33"
+      },
+      "globalPosition": {
+        "x": -2.3284006118774414,
+        "y": 0.7366127967834473,
+        "z": 0.6191937923431396
+      },
+      "globalRotation": {
+        "x": 7.009954452514648,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -2.337400436401367,
+          "y": 0.634284496307373,
+          "z": 0.5967845320701599
+        },
+        "size": {
+          "x": 0.3949729800224304,
+          "y": 1.8657870292663574,
+          "z": 0.32655906677246094
+        },
+        "min": {
+          "x": -2.5348868370056152,
+          "y": -0.29860901832580566,
+          "z": 0.43350499868392944
+        },
+        "max": {
+          "x": -2.139914035797119,
+          "y": 1.5671780109405518,
+          "z": 0.7600640654563904
+        }
+      },
+      "bounds2D": {
+        "minX": -2.5348868370056152,
+        "maxX": -2.139914035797119,
+        "minZ": 0.43350499868392944,
+        "maxZ": 0.7600640654563904,
+        "centerX": -2.337400436401367,
+        "centerZ": 0.5967845320701599,
+        "width": 0.3949729800224304,
+        "depth": 0.32655906677246094,
+        "corners": [
+          {
+            "x": -2.5348868370056152,
+            "z": 0.5474688410758972
+          },
+          {
+            "x": -2.139914035797119,
+            "z": 0.5474688410758972
+          },
+          {
+            "x": -2.139914035797119,
+            "z": 0.6461002230644226
+          },
+          {
+            "x": -2.5348868370056152,
+            "z": 0.6461002230644226
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Wooden Box Pile",
+      "involvementType": "surroundings",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "1.48",
+        "y": "1.07",
+        "z": "1.51"
+      },
+      "globalPosition": {
+        "x": 2.3515994548797607,
+        "y": 0.5400000214576721,
+        "z": -1.2738063335418701
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 327.5400085449219,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 2.3516712188720703,
+          "y": 0.5385054349899292,
+          "z": -1.2299413681030273
+        },
+        "size": {
+          "x": 1.4796876907348633,
+          "y": 1.0707321166992188,
+          "z": 1.5133476257324219
+        },
+        "min": {
+          "x": 1.6118273735046387,
+          "y": 0.0031393766403198242,
+          "z": -1.9866151809692383
+        },
+        "max": {
+          "x": 3.091515064239502,
+          "y": 1.0738714933395386,
+          "z": -0.4732675552368164
+        }
+      },
+      "bounds2D": {
+        "minX": 1.6118273735046387,
+        "maxX": 3.091515064239502,
+        "minZ": -1.9866151809692383,
+        "maxZ": -0.4732675552368164,
+        "centerX": 2.3516712188720703,
+        "centerZ": -1.2299413681030273,
+        "width": 1.4796876907348633,
+        "depth": 1.5133476257324219,
+        "corners": [
+          {
+            "x": 2.186917304992676,
+            "z": -1.992955207824707
+          },
+          {
+            "x": 3.108476161956787,
+            "z": -1.4067614078521729
+          },
+          {
+            "x": 2.5138309001922607,
+            "z": -0.4719160795211792
+          },
+          {
+            "x": 1.5922720432281494,
+            "z": -1.0581098794937134
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Haystack",
+      "involvementType": "substrate",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "1.94",
+        "y": "1.17",
+        "z": "1.80"
+      },
+      "globalPosition": {
+        "x": -2.4384005069732666,
+        "y": 0.33361274003982544,
+        "z": -1.6138062477111816
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -2.411437511444092,
+          "y": 0.5617059469223022,
+          "z": -1.570383071899414
+        },
+        "size": {
+          "x": 1.9426074028015137,
+          "y": 1.1727879047393799,
+          "z": 1.7966294288635254
+        },
+        "min": {
+          "x": -3.3827412128448486,
+          "y": -0.024688005447387695,
+          "z": -2.4686977863311768
+        },
+        "max": {
+          "x": -1.440133810043335,
+          "y": 1.1480998992919922,
+          "z": -0.6720683574676514
+        }
+      },
+      "bounds2D": {
+        "minX": -3.3827412128448486,
+        "maxX": -1.440133810043335,
+        "minZ": -2.4686977863311768,
+        "maxZ": -0.6720683574676514,
+        "centerX": -2.411437511444092,
+        "centerZ": -1.570383071899414,
+        "width": 1.9426074028015137,
+        "depth": 1.7966294288635254,
+        "corners": [
+          {
+            "x": -2.9384005069732666,
+            "z": -2.1138062477111816
+          },
+          {
+            "x": -1.9384005069732666,
+            "z": -2.1138062477111816
+          },
+          {
+            "x": -1.9384005069732666,
+            "z": -1.1138062477111816
+          },
+          {
+            "x": -2.9384005069732666,
+            "z": -1.1138062477111816
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "WheelBarrow",
+      "involvementType": "grasp",
+      "usage": "Transporting hay",
+      "inertia": "",
+      "interactivity": "Low-friction structure underneath so the proxy would slide easily.",
+      "outline": "User should perceive a pair of straight cylindrical handles (~4 cm \u00d8), spaced ~45 cm apart.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.8999999761581421,
+      "outlineValue": 0.10000000149011612,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "2.03",
+        "y": "0.78",
+        "z": "2.14"
+      },
+      "globalPosition": {
+        "x": -0.4584004878997803,
+        "y": 0.4966127276420593,
+        "z": -1.7538063526153564
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 221.58001708984375,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.9776837229728699,
+          "y": 0.3866733908653259,
+          "z": -2.3550713062286377
+        },
+        "size": {
+          "x": 2.029627799987793,
+          "y": 0.7828142642974854,
+          "z": 2.1406362056732178
+        },
+        "min": {
+          "x": -1.9924976825714111,
+          "y": -0.004733741283416748,
+          "z": -3.425389289855957
+        },
+        "max": {
+          "x": 0.03713017702102661,
+          "y": 0.7780805230140686,
+          "z": -1.2847532033920288
+        }
+      },
+      "bounds2D": {
+        "minX": -1.9924976825714111,
+        "maxX": 0.03713017702102661,
+        "minZ": -3.425389289855957,
+        "maxZ": -1.2847532033920288,
+        "centerX": -0.9776837229728699,
+        "centerZ": -2.3550713062286377,
+        "width": 2.029627799987793,
+        "depth": 2.1406362056732178,
+        "corners": [
+          {
+            "x": 0.03713002800941467,
+            "z": -1.8283828496932983
+          },
+          {
+            "x": -0.575605034828186,
+            "z": -1.284753441810608
+          },
+          {
+            "x": -1.9924979209899902,
+            "z": -2.8817601203918457
+          },
+          {
+            "x": -1.379762887954712,
+            "z": -3.425389528274536
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Handcart",
+      "involvementType": "surroundings",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "3.48",
+        "y": "1.51",
+        "z": "2.76"
+      },
+      "globalPosition": {
+        "x": -0.7054004669189453,
+        "y": -0.05199998617172241,
+        "z": 3.335193634033203
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 332.035400390625,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -1.0721558332443237,
+          "y": 0.6950590014457703,
+          "z": 3.1446056365966797
+        },
+        "size": {
+          "x": 3.4818689823150635,
+          "y": 1.5056521892547607,
+          "z": 2.7596359252929688
+        },
+        "min": {
+          "x": -2.8130903244018555,
+          "y": -0.05776709318161011,
+          "z": 1.7647876739501953
+        },
+        "max": {
+          "x": 0.668778657913208,
+          "y": 1.4478850364685059,
+          "z": 4.524423599243164
+        }
+      },
+      "bounds2D": {
+        "minX": -2.8130903244018555,
+        "maxX": 0.668778657913208,
+        "minZ": 1.7647876739501953,
+        "maxZ": 4.524423599243164,
+        "centerX": -1.0721558332443237,
+        "centerZ": 3.1446056365966797,
+        "width": 3.4818689823150635,
+        "depth": 2.7596359252929688,
+        "corners": [
+          {
+            "x": -2.117119073867798,
+            "z": 1.7110533714294434
+          },
+          {
+            "x": 0.6994452476501465,
+            "z": 3.206416606903076
+          },
+          {
+            "x": -0.025054335594177246,
+            "z": 4.571034908294678
+          },
+          {
+            "x": -2.841618776321411,
+            "z": 3.075671672821045
+          }
+        ]
+      }
+    }
+  ],
+  "relationshipAnnotations": [
+    {
+      "contactObject": "Axe",
+      "substrateObject": "Firewood",
+      "annotationText": "Use axe to chop the firewood log. Users might feel increased tension, as well as noticeable penetration distance."
+    },
+    {
+      "contactObject": "Axe",
+      "substrateObject": "Watermelon",
+      "annotationText": "Use axe to split the watermelon. The user should experience sudden resistance vanishing very quickly."
+    },
+    {
+      "contactObject": "Pitchfork",
+      "substrateObject": "Haystack",
+      "annotationText": "Using the pitchfork to thrust into haystack. Light, cushion-like resistance."
+    }
+  ],
+  "groups": [
+    {
+      "title": "Chopping Wood",
+      "objectNames": [
+        "Axe",
+        "Firewood",
+        "ChoppingBlock"
+      ],
+      "pedestal": "ChoppingBlock",
+      "additionalViewAngles": [
+        "StreamingAssets/Export/Arrangement_Chopping_Wood_20251116_113603_angle0.png",
+        "StreamingAssets/Export/Arrangement_Chopping_Wood_20251116_113603_angle1.png",
+        "StreamingAssets/Export/Arrangement_Chopping_Wood_20251116_113603_angle2.png"
+      ]
+    },
+    {
+      "title": "Tools",
+      "objectNames": [
+        "Watermelon",
+        "Worktable",
+        "Sickle"
+      ],
+      "pedestal": "Worktable",
+      "additionalViewAngles": [
+        "StreamingAssets/Export/Arrangement_Tools_20251116_113603_angle0.png",
+        "StreamingAssets/Export/Arrangement_Tools_20251116_113603_angle1.png",
+        "StreamingAssets/Export/Arrangement_Tools_20251116_113603_angle2.png"
+      ]
+    }
+  ],
+  "virtualEnvironmentBounds": {
+    "center": {
+      "x": -0.1456129550933838,
+      "y": 0.634284496307373,
+      "z": 0.5495171546936035
+    },
+    "size": {
+      "x": 7.47425651550293,
+      "y": 2.8657870292663574,
+      "z": 8.949812889099121
+    },
+    "min": {
+      "x": -3.8827412128448486,
+      "y": -0.7986090183258057,
+      "z": -3.925389289855957
+    },
+    "max": {
+      "x": 3.591515302658081,
+      "y": 2.0671780109405518,
+      "z": 5.024423599243164
+    },
+    "footprint2D": {
+      "minX": -3.8827412128448486,
+      "maxX": 3.591515302658081,
+      "minZ": -3.925389289855957,
+      "maxZ": 5.024423599243164,
+      "centerX": -0.1456129550933838,
+      "centerZ": 0.5495171546936035,
+      "width": 7.47425651550293,
+      "depth": 8.949812889099121,
+      "corners": []
+    }
+  },
+  "virtualEnvironmentCenter": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

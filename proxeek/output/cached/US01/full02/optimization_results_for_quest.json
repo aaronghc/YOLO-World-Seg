@@ -1,0 +1,48 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "purple dumbbell hand weight",
+      "utilizationMethod": "Wrap your fingers around one end of the dumbbell handle, letting the far weight act as the striking head, and swing that far end downward in hammering motions"
+    },
+    {
+      "virtualObjectName": "Lightsaber",
+      "proxyObjectName": "small succulent plant in a yellow ribbed pot",
+      "utilizationMethod": "Grip the pot\u2019s ribbed sides with fingers curving underneath and thumb on the outer wall, keeping the plant upright (not sure whether it is applicable)"
+    },
+    {
+      "virtualObjectName": "Gold Bar",
+      "proxyObjectName": "gray round plate",
+      "utilizationMethod": "Grip the rim of the plate between thumb and fingers, raise it, shift the plate to rest on the palm, rotate it slowly, then place it back down"
+    },
+    {
+      "virtualObjectName": "Double Slider",
+      "proxyObjectName": "green handheld leaf blower",
+      "utilizationMethod": "Grip the blower\u2019s main handle, rest the nozzle tip on the bench seat, and push then pull the tool straight along the seat surface"
+    },
+    {
+      "virtualObjectName": "Dropper",
+      "proxyObjectName": "coil of green nylon rope",
+      "utilizationMethod": "Hold one loose end of the coil between thumb and middle finger, press and release the springy rope bundle with the index finger"
+    },
+    {
+      "virtualObjectName": "Slime",
+      "proxyObjectName": "blue upholstered two-seat bench",
+      "utilizationMethod": "Press your open hand into the cushioned seat and release"
+    },
+    {
+      "virtualObjectName": "Party Balloon",
+      "proxyObjectName": "green Lay's Sour Cream & Onion potato chip bag",
+      "utilizationMethod": "Press the air-filled bag flat on the desk and give quick light pats to its center with your open hand"
+    }
+  ],
+  "pinPoint": [
+    0.47922937272894967,
+    -1.1920929e-07,
+    0.23911229713552512
+  ],
+  "rotationAngle": -330.0,
+  "timestamp": "cc068d38-8f58-425a-a8be-cfa05b6f78b4",
+  "total_assignments": 7
+}

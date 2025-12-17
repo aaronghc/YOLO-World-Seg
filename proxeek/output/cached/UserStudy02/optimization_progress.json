@@ -1,0 +1,28 @@
+{
+  "last_pin_idx": 36,
+  "last_rot_idx": 2,
+  "evaluation_phase": "fine",
+  "best_loss": -37.3485850798687,
+  "num_best_assignments": 1,
+  "configs_evaluated": 40,
+  "configs_terminated": 56,
+  "timestamp": 1765246719.8802478,
+  "best_assignment_info": {
+    "pin_idx": 36,
+    "rot_idx": 1,
+    "pin_point": [
+      0.07899664442305471,
+      0.0,
+      0.2871410925769453
+    ],
+    "rotation_angle": 0.17453292519943295,
+    "distance": 1.0742608009821464,
+    "loss": -37.3485850798687,
+    "loss_components": {
+      "L_realism": -17.621214873454974,
+      "L_interaction": -24.705705167976998,
+      "L_spatial": 4.978334961563274,
+      "total": -37.3485850798687
+    }
+  }
+}

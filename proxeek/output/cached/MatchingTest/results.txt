@@ -1,0 +1,100 @@
+Top-K Proxy Candidates (Fixed):
+  Grasp/Contact: K=5, Substrate: K=5
+------------------------------------------------------------
+  A4 paper ball (grasp): Top-5, selected=5
+    Physical objects:
+      - crumpled printed paper ball: 7.000
+      - crumpled white tissue paper ball: 3.923
+      - white paper cup: 3.179
+      - clear plastic drinking cup: 3.077
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 1.795
+  metal spoon (grasp): Top-5, selected=5
+    Physical objects:
+      - silver metal spoon: 6.897
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 4.667
+      - tall white and gold Kirin beer can: 4.462        
+      - silver and black retractable ballpoint pen: 3.462      - wooden spoon: 2.897
+  paper cup (grasp): Top-5, selected=5
+    Physical objects:
+      - white paper cup: 6.769
+      - clear plastic drinking cup: 3.564
+      - crumpled printed paper ball: 3.308
+      - wooden spoon: 2.615
+      - crumpled white tissue paper ball: 2.385
+  plastic cup (grasp): Top-5, selected=7 [+2 tied at K-th score]
+    Physical objects:
+      - clear plastic drinking cup: 7.000
+      - white paper cup: 3.923
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 3.000
+      - tall white and gold Kirin beer can: 3.000        
+      - beige fine-liner pen: 1.462
+      - silver and black retractable ballpoint pen: 1.462      - silver metal spoon: 1.462
+  tissue paper ball (grasp): Top-5, selected=5
+    Physical objects:
+      - crumpled white tissue paper ball: 7.000
+      - crumpled printed paper ball: 5.205
+      - clear plastic drinking cup: 2.590
+      - white paper cup: 2.590
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 1.692
+  voxel burger (grasp): Top-5, selected=5
+    Physical objects:
+      - small LEGO-style hamburger model: 5.641
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 3.282
+      - grey LEGO-style pixelated rabbit figurine: 2.564 
+      - tall white and gold Kirin beer can: 2.359        
+      - clear plastic drinking cup: 2.359
+  voxel bunny (grasp): Top-5, selected=5
+    Physical objects:
+      - grey LEGO-style pixelated rabbit figurine: 7.000 
+      - small LEGO-style hamburger model: 4.615
+      - silver metal spoon: 2.692
+      - wooden spoon: 2.692
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 2.000
+  beer 500ml (grasp): Top-5, selected=6 [+1 tied at K-th 
+score]
+    Physical objects:
+      - tall white and gold Kirin beer can: 6.538        
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 4.410
+      - small LEGO-style hamburger model: 2.000
+      - grey LEGO-style pixelated rabbit figurine: 1.923 
+      - clear plastic drinking cup: 1.718
+      - white paper cup: 1.718
+  beverage 300ml (grasp): Top-5, selected=5
+    Physical objects:
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 6.308
+      - tall white and gold Kirin beer can: 3.205        
+      - small LEGO-style hamburger model: 2.000
+      - clear plastic drinking cup: 1.974
+      - white paper cup: 1.974
+  bamboo spoon (grasp): Top-5, selected=6 [+1 tied at K-th score]
+    Physical objects:
+      - wooden spoon: 7.000
+      - white paper cup: 4.231
+      - crumpled white tissue paper ball: 3.769
+      - beige fine-liner pen: 3.718
+      - crumpled printed paper ball: 3.538
+      - clear plastic drinking cup: 3.538
+  technical pen (grasp): Top-5, selected=6 [+1 tied at K-th score]
+    Physical objects:
+      - beige fine-liner pen: 4.692
+      - silver and black retractable ballpoint pen: 4.615      - silver metal spoon: 2.769
+      - wooden spoon: 2.205
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 1.795
+      - tall white and gold Kirin beer can: 1.795        
+  ballpoint pen (grasp): Top-5, selected=6 [+1 tied at K-th score]
+    Physical objects:
+      - silver and black retractable ballpoint pen: 7.000      - beige fine-liner pen: 3.333
+      - small beige beverage can with Asian script label 
+(Yeo’s tea can): 2.231
+      - tall white and gold Kirin beer can: 2.128        
+      - clear plastic drinking cup: 2.000
+      - white paper cup: 2.000

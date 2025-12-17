@@ -1,0 +1,158 @@
+{
+  "optimization_summary": {
+    "total_loss": -6.772610266331256,
+    "loss_components": {
+      "L_realism": -9.293333279093108,
+      "L_interaction": -9.122687665760258,
+      "L_spatial": 11.643410678522109,
+      "total": -6.772610266331256
+    },
+    "num_virtual_objects": 13,
+    "num_physical_objects": 22,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Firewood",
+        "index": 0,
+        "engagement_level": 2.9242343145200196,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "green and yellow scouring sponge",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 14
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the sponge flat with the green abrasive side facing up; chop into the center of the sponge."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 1,
+        "engagement_level": 3.5231883119115293,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "white plastic spray bottle with translucent body",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 13
+      },
+      "realism_score": 5.166666666666667,
+      "utilization_method": "Hold the bottle\u2019s neck just below the trigger with a full grip and swing the bottle downward so the liquid body leads like an axe head"
+    },
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 3,
+        "engagement_level": 2.0,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "yellow bag of Japanese puffed peanut snack (\u3046\u3059\u30d4\u30fc\u30ca)",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the sealed snack bag flat so it cushions and collapses when struck"
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4768116880884702,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "small yellow ceramic pot holding a green succulent plant",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 5
+      },
+      "realism_score": 3.0,
+      "utilization_method": "Cup the cylindrical pot from the side, keep the rim pointing outward, and swing the pot in short arcing motions."
+    },
+    {
+      "virtual_object": {
+        "name": "Hoe",
+        "index": 6,
+        "engagement_level": 1.0757656854799804,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "selfie stick (telescopic metal pole with phone mount and black handle)",
+        "object_id": 1,
+        "image_id": 0,
+        "index": 0
+      },
+      "realism_score": 4.0,
+      "utilization_method": "Extend the pole fully, grip the black handle with the trailing hand, place the leading hand farther up the shaft near the phone mount, raise the pole overhead, then swing the mounted end downward toward the floor while pulling it back toward the torso"
+    },
+    {
+      "virtual_object": {
+        "name": "Pitchfork",
+        "index": 8,
+        "engagement_level": 2.9242343145200196,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "transparent umbrella with white curved handle",
+        "object_id": 2,
+        "image_id": 3,
+        "index": 20
+      },
+      "realism_score": 5.166666666666666,
+      "utilization_method": "Hold the curved handle with one hand, slide the other hand halfway up the shaft, aim the umbrella tip forward, thrust outward, then lift and roll both wrists upward to mimic scooping and tossing"
+    },
+    {
+      "virtual_object": {
+        "name": "Haystack",
+        "index": 10,
+        "engagement_level": 1.0757656854799804,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "large beige fabric bean bag",
+        "object_id": 3,
+        "image_id": 3,
+        "index": 21
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Position the bean bag upright and full; thrust the umbrella tip into its side so the filling shifts and envelops the tip, then lift upward to feel it slide out."
+    },
+    {
+      "virtual_object": {
+        "name": "WheelBarrow",
+        "index": 11,
+        "engagement_level": 2.0,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black upholstered office chair with armrests",
+        "object_id": 8,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 5.899999864399433,
+      "utilization_method": "Stand behind the chair, grasp the left and right armrests with both hands, tip the chair back slightly onto its casters, then walk forward while rolling the chair ahead"
+    }
+  ]
+}

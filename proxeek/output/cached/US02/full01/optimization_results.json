@@ -1,0 +1,141 @@
+{
+  "optimization_summary": {
+    "total_loss": -28.402032766550086,
+    "loss_components": {
+      "L_realism": -15.835031740439907,
+      "L_interaction": -13.648510476127127,
+      "L_spatial": 1.0815094500169469,
+      "total": -28.402032766550086
+    },
+    "num_virtual_objects": 8,
+    "num_physical_objects": 21,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Canvas",
+        "index": 0,
+        "engagement_level": 2.0,
+        "involvement_type": "substrate",
+        "priority_weight": 2.0
+      },
+      "physical_object": {
+        "name": "green Lay's Sour Cream & Onion potato chip bag",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the sealed chip bag flat on the desk, smoothing it with one hand; paint strokes over the slightly cushioned, crinkly plastic surface with the chopstick tip."
+    },
+    {
+      "virtual_object": {
+        "name": "Brush",
+        "index": 1,
+        "engagement_level": 0.7297020952254254,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7297020952254254
+      },
+      "physical_object": {
+        "name": "pair of light wood chopsticks",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 6.142856776714325,
+      "utilization_method": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush"
+    },
+    {
+      "virtual_object": {
+        "name": "Camera",
+        "index": 2,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "grasp",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "white and gray camouflage-patterned game controller",
+        "object_id": 1,
+        "image_id": 0,
+        "index": 0
+      },
+      "realism_score": 5.333333487311999,
+      "utilization_method": "Wrap the right hand around the right-side grip, rest the index finger on the front trigger, lift the controller to eye level, and squeeze the trigger for each shutter press"
+    },
+    {
+      "virtual_object": {
+        "name": "Valve",
+        "index": 4,
+        "engagement_level": 3.696567279915026,
+        "involvement_type": "grasp",
+        "priority_weight": 3.696567279915026
+      },
+      "physical_object": {
+        "name": "black hard-shell suitcase with top handle",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 10
+      },
+      "realism_score": 3.820512940486272,
+      "utilization_method": "Stand behind the suitcase, grip the left edge with the left hand and the right edge with the right hand, tilt and rotate the suitcase body 90 degrees as though cranking a large wheel"
+    },
+    {
+      "virtual_object": {
+        "name": "Common Pleco",
+        "index": 5,
+        "engagement_level": 0.3034327200849742,
+        "involvement_type": "contact",
+        "priority_weight": 0.3034327200849742
+      },
+      "physical_object": {
+        "name": "black wireless computer mouse",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 6
+      },
+      "realism_score": 4.2812501192092896,
+      "utilization_method": "Place two fingertips on the mouse\u2019s domed surface and glide them from the peak toward the front buttons"
+    },
+    {
+      "virtual_object": {
+        "name": "Big Red Button",
+        "index": 6,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "contact",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "clear disposable plastic cup",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 3.2962964475154877,
+      "utilization_method": "Place your palm flat on the rim and press down to buckle the cup wall inward for travel"
+    },
+    {
+      "virtual_object": {
+        "name": "Keyboard",
+        "index": 7,
+        "engagement_level": 3.2702979047745746,
+        "involvement_type": "contact",
+        "priority_weight": 3.2702979047745746
+      },
+      "physical_object": {
+        "name": "blue upholstered two-seat bench",
+        "object_id": 1,
+        "image_id": 4,
+        "index": 18
+      },
+      "realism_score": 2.8571429550647736,
+      "utilization_method": "Stand beside the bench and tap fingertips across the taut seat back fabric in a horizontal line (not sure whether it is applicable)"
+    }
+  ]
+}

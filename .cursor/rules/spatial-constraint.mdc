@@ -1,0 +1,302 @@
+# ProXeek Haptic Proxy Optimization - Spatial Constraint System
+
+## Overview
+The ProXeek system optimizes haptic proxy assignment for VR experiences by matching virtual objects to physical objects in the user's environment. The spatial constraint ensures that the virtual scene layout is preserved while adapting to physical space constraints.
+
+## Spatial Constraint Architecture
+
+### Core Concept: Pin & Rotate
+The virtual environment is treated as a **rigid body** that can be:
+1. **Translated (pinned)** to different locations on the physical play area
+2. **Rotated** around the vertical Y-axis
+
+This preserves the carefully designed virtual scene layout while finding the best alignment with the physical environment.
+
+### Coordinate Transformation
+```python
+# Transform physical object position to virtual coordinate frame
+def transform_physical_to_virtual(physical_pos, pin_location, rotation_deg):
+    x_p, y_p, z_p = physical_pos
+    pin_x, pin_z = pin_location
+    
+    # Step 1: Translate (align pin with virtual center)
+    x_shifted = x_p - pin_x
+    z_shifted = z_p - pin_z
+    
+    # Step 2: Rotate around Y-axis (negative angle for inverse transform)
+    theta_rad = -np.radians(rotation_deg)
+    x_virtual = np.cos(theta_rad) * x_shifted - np.sin(theta_rad) * z_shifted
+    z_virtual = np.sin(theta_rad) * x_shifted + np.cos(theta_rad) * z_shifted
+    
+    return np.array([x_virtual, y_p, z_virtual])
+```
+
+### Two-Tier Constraint System
+
+#### 1. Occlusion Constraint (HARD)
+- **Purpose**: Prevent physical objects from being selected if they would end up inside large virtual objects (pedestals, surroundings)
+- **Implementation**: Add occluded physical objects to `banned_physical_indices` for each pin/rotation configuration
+- **Check**: Full 3D containment using virtual object bounds
+- **Effect**: Binary exclusion - physical object either available or completely banned
+
+```python
+def compute_occlusion_banned_objects(pin_location, rotation_deg):
+    banned = set()
+    for phys_obj in physical_objects:
+        phys_pos_virtual = transform_physical_to_virtual(
+            phys_obj.position, pin_location, rotation_deg
+        )
+        for vobj in virtual_objects:
+            if vobj.involvement_type in ['pedestal', 'surroundings']:
+                if is_point_inside_3d_bounds(phys_pos_virtual, vobj):
+                    banned.add(phys_obj.index)
+                    break
+    return banned
+```
+
+#### 2. Selection Pool Constraint (SOFT)
+- **Purpose**: Encourage physical proxies to be selected from appropriate spatial regions
+- **Implementation**: New loss term `L_spatial` using distance-based penalty
+- **Weighting**: Enables ablation testing by adjusting `w_spatial`
+
+**Selection Areas:**
+- **Pedestals**: Use 2D footprint bounds of the pedestal for all interactables in that group
+- **Standalone objects**: Circular area with configurable radius (default: 0.3m) around virtual object position
+
+```python
+def calculate_spatial_loss(assignment_matrix, pin_location, rotation_deg):
+    """L_spatial = (1/N) × Σᵢ distance_to_selection_area(i) × priority[i]"""
+    loss = 0.0
+    for i, virtual_obj in enumerate(virtual_objects):
+        assigned_phys = get_assigned_physical(assignment_matrix, i)
+        phys_pos_virtual = transform_physical_to_virtual(
+            assigned_phys.position, pin_location, rotation_deg
+        )
+        
+        selection_area = get_selection_area(virtual_obj)
+        
+        if not is_inside_selection_area(phys_pos_virtual, selection_area):
+            distance_penalty = distance_to_area_boundary(phys_pos_virtual, selection_area)
+            loss += distance_penalty * virtual_obj.engagement_level
+    
+    return loss / len(virtual_objects)
+```
+
+### Optimization Workflow
+
+```
+1. Load data (haptic annotations, physical objects, ratings)
+   └─ Compute virtual_scene_bounds_2d for early termination
+
+2. Check if spatial constraint is enabled:
+   
+   IF DISABLED:
+       └─ Use default virtual scene position (no pin/rotation)
+       └─ Run standard optimization with L_realism + L_interaction
+   
+   IF ENABLED:
+       3. Generate pin grid (uniform coverage of play area)
+          └─ Spacing: configurable (default 0.5m)
+       
+       4. For each pin_location in pin_grid:
+              For each rotation in [0°, 10°, 20°, ..., 350°]:
+                  
+                  5a. EARLY TERMINATION CHECK:
+                      - Count exposed candidates in (play area ∩ virtual scene)
+                      - If count < n_interactables: skip this config
+                  
+                  5b. HARD CONSTRAINT (Occlusion):
+                      - Compute occluded physical objects (3D check)
+                      - Add to banned_physical_indices
+                      - If insufficient candidates remain: skip
+                  
+                  5c. SOFT CONSTRAINT (Selection Pool):
+                      - Store current pin_location and rotation_deg
+                      - Run inner optimization (greedy/local search)
+                      - L_spatial penalty applied in loss calculation
+                  
+                  5d. Track best solution across all configs
+                  
+                  5e. Restore banned list for next iteration
+       
+       6. Return best (assignment, pin_location, rotation) triple
+```
+
+### Pin Grid Generation
+
+```python
+def generate_pin_grid():
+    """Generate uniform grid covering entire play area"""
+    pins = []
+    
+    min_x = play_area_center[0] - play_area_width / 2
+    max_x = play_area_center[0] + play_area_width / 2
+    min_z = play_area_center[1] - play_area_length / 2
+    max_z = play_area_center[1] + play_area_length / 2
+    
+    # Full grid coverage at regular spacing
+    x_coords = np.arange(min_x, max_x + pin_spacing/2, pin_spacing)
+    z_coords = np.arange(min_z, max_z + pin_spacing/2, pin_spacing)
+    
+    for x in x_coords:
+        for z in z_coords:
+            pins.append((x, z))
+    
+    return pins
+```
+
+### Loss Function Components
+
+When spatial constraint is **ENABLED**:
+```
+L_total = w_realism × L_realism + 
+          w_interaction × L_interaction + 
+          w_spatial × L_spatial
+
+where:
+  L_realism = (1/N_grasp_contact) × -Σᵢⱼ (2 × priority[i] × realism_rating[i,j] × X[i,j])
+  
+  L_interaction = (1/N_relationships) × -Σᵢₖ (interaction_exists[i,k] × 
+                   interaction_rating[proxy[i], proxy[k]] × combined_priority[i,k])
+  
+  L_spatial = (1/N_virtual) × Σᵢ distance_to_selection_area(i) × priority[i]
+              ^^^^ NEW: Selection pool distance penalty (replaces old spatial loss)
+```
+
+When spatial constraint is **DISABLED**:
+```
+L_total = w_realism × L_realism + w_interaction × L_interaction
+```
+
+### Data Requirements
+
+The haptic annotation JSON must include:
+
+```json
+{
+  "virtual_environment_center": {"x": 0.0, "y": 0.0, "z": 0.0},
+  
+  "nodeAnnotations": [
+    {
+      "objectName": "WorkTable",
+      "involvementType": "pedestal",  // or: grasp, contact, substrate, surroundings
+      
+      // For occlusion checking (3D)
+      "bounds3D": {
+        "center": {"x": 0.0, "y": 0.4, "z": 0.0},
+        "size": {"x": 2.0, "y": 0.8, "z": 1.0}
+      },
+      
+      // For selection area (2D, already exported from footprint)
+      "bounds2D_footprint": {
+        "min_x": -1.0, "max_x": 1.0,
+        "min_z": -0.5, "max_z": 0.5
+      },
+      
+      "globalPosition": {"x": ..., "y": ..., "z": ...},
+      "globalRotation": {"x": ..., "y": ..., "z": ...},
+      "dimensions_meters": {"x": ..., "y": ..., "z": ...}
+    }
+  ],
+  
+  "groups": [
+    {
+      "title": "Workbench Setup",
+      "pedestal": "WorkTable",  // Explicitly mark which object is the pedestal
+      "objectNames": ["WorkTable", "Hammer", "Saw", "Axe"],
+      "interactables": ["Hammer", "Saw", "Axe"]  // For selection pool grouping
+    }
+  ]
+}
+```
+
+### Configuration Parameters
+
+```python
+class ProXeekOptimizer:
+    # Spatial constraint toggle
+    enable_spatial_constraint = True  # Set False for ablation testing
+    
+    # Pin & rotation parameters
+    pin_spacing = 0.5              # meters between grid points
+    rotation_increment = 10         # degrees between rotations
+    standalone_selection_radius = 0.3  # meters for standalone objects
+    
+    # Loss weights (for ablation)
+    w_realism = 1.0
+    w_interaction = 1.0
+    w_spatial = 1.0  # NEW: selection pool penalty weight
+    
+    # Play area (from OVR API or pseudo values)
+    play_area_width = 3.0   # meters
+    play_area_length = 4.0  # meters
+    play_area_center = [0.0, 0.0]  # [x, z] in physical coordinates
+```
+
+### Performance Optimizations
+
+1. **Early Termination**: Skip configurations where (play area ∩ virtual scene) has fewer exposed candidates than required interactables
+
+2. **Virtual Scene Bounds**: Pre-compute 2D bounding box of entire virtual scene for overlap calculations
+
+3. **Grid Search Efficiency**: 
+   - Typical: ~100 pins × 36 rotations = 3,600 configurations
+   - Early termination reduces actual evaluations significantly
+   - Future: Consider coarse-to-fine search (1m → 0.5m, 30° → 10°)
+
+4. **Parallel Processing**: Each pin/rotation configuration is independent - can be parallelized
+
+### Key Design Decisions
+
+- **Occlusion uses 3D bounds**: Full height consideration to prevent unreachable placements
+- **Selection pools use 2D bounds**: Floor-projected footprints for spatial grouping
+- **Distance-based penalty**: Smooth gradients for optimization (vs binary in/out)
+- **Conditional activation**: Easy ablation testing by toggling `enable_spatial_constraint`
+- **Pedestal grouping**: Maintains designed spatial relationships (e.g., tools on workbench)
+
+### Common Pitfalls to Avoid
+
+1. **Don't mix coordinate frames**: Always transform physical→virtual before comparisons
+2. **Don't forget to restore banned list**: Each pin/rotation temporarily modifies it
+3. **Don't use old L_spatial**: The name was reused - old distance-distortion loss is removed
+4. **Don't skip early termination**: Critical for performance with large search spaces
+5. **Don't hardcode play area**: Leave integration point for OVR API
+
+### Integration with Unity (C# Side)
+
+The Unity haptic annotation editor must export:
+- `bounds3D` for each virtual object (from colliders/renderers)
+- `bounds2D_footprint` for pedestals (already implemented in footprint exporter)
+- `virtual_environment_center` (can use scene's designated origin)
+- Group `pedestal` field to identify which object provides selection area
+
+### Testing Strategy
+
+1. **Unit tests**: Test coordinate transformations with known pin/rotation values
+2. **Ablation tests**: Compare results with `enable_spatial_constraint = True/False`
+3. **Visualization**: Export footprints showing selected proxies for manual verification
+4. **Edge cases**: 
+   - Virtual scene larger than play area
+   - All candidates occluded at certain rotations
+   - Standalone objects at scene boundaries
+
+---
+
+## Code Style Guidelines
+
+- Use descriptive variable names: `phys_pos_virtual` not `pp`
+- Document coordinate frames in comments: `# Position in virtual coordinate frame`
+- Keep transformation logic centralized in `transform_physical_to_virtual()`
+- Use type hints for clarity: `def foo(pin: Tuple[float, float], rotation: float) -> np.ndarray`
+- Print progress for long searches: Update every 50-100 configurations
+- Structure early termination clearly with explanatory comments
+
+## Future Enhancements
+
+- [ ] Oriented bounding boxes for rotated virtual objects
+- [ ] Polygon-based selection areas (not just rectangles/circles)
+- [ ] Adaptive grid refinement (coarse-to-fine search)
+- [ ] Parallel configuration evaluation
+- [ ] Real-time OVR play area integration
+- [ ] Visualization of pin/rotation results in Unity
+

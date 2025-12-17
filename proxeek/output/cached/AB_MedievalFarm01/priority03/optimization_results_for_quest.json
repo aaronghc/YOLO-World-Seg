@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Firewood",
+      "proxyObjectName": "wooden-handled brush with black bristles",
+      "utilizationMethod": "Lay brush bristles up and strike centre"
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "white and gray camouflage-patterned gaming controller",
+      "utilizationMethod": "Hold one of the controller\u2019s grips as a handle and swing the opposite end downward like a small axe (not sure whether it is applicable)"
+    },
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "yellow bag of Japanese puffed peanut snack (\u3046\u3059\u30d4\u30fc\u30ca)",
+      "utilizationMethod": "Lay the sealed snack bag flat and chop the centre"
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "selfie stick (telescopic metal pole with phone mount and black handle)",
+      "utilizationMethod": "Grip the black rubber handle with one hand, let the extended pole project forward, and sweep the pole through the air in curved, hooking arcs."
+    },
+    {
+      "virtualObjectName": "Hoe",
+      "proxyObjectName": "white plastic spray bottle with translucent body",
+      "utilizationMethod": "Grip the neck of the bottle below the trigger with the trailing hand, clasp the base with the leading hand, raise the bottle and swing the bottom downward toward the floor while drawing it back"
+    },
+    {
+      "virtualObjectName": "Pitchfork",
+      "proxyObjectName": "transparent umbrella with white curved handle",
+      "utilizationMethod": "Hold the curved handle with one hand, slide the other hand halfway up the shaft, aim the umbrella tip forward, thrust outward, then lift and roll both wrists upward to mimic scooping and tossing"
+    },
+    {
+      "virtualObjectName": "Haystack",
+      "proxyObjectName": "large beige fabric bean bag",
+      "utilizationMethod": "Position the bean bag upright and full; thrust the umbrella tip into its side so the filling shifts and envelops the tip, then lift upward to feel it slide out."
+    },
+    {
+      "virtualObjectName": "WheelBarrow",
+      "proxyObjectName": "black upholstered office chair with armrests",
+      "utilizationMethod": "Stand behind the chair, grasp the left and right armrests with both hands, tip the chair back slightly onto its casters, then walk forward while rolling the chair ahead"
+    }
+  ],
+  "pinPoint": [
+    -1.2521993482923894,
+    0.0,
+    1.499123761219292
+  ],
+  "rotationAngle": -180.0,
+  "timestamp": "71b5aadb-6f75-4ee0-baa7-b1702cbb1d7a",
+  "total_assignments": 8
+}

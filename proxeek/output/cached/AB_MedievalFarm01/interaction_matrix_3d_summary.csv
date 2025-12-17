@@ -1,0 +1,4 @@
+relationship_index,contact_virtual_object,substrate_virtual_object,matrix_shape,non_zero_entries,max_rating,mean_rating
+0,Axe,Firewood,22x22,126,4.6416,2.9001
+1,Axe,Watermelon,22x22,126,5.3133,2.7908
+2,Pitchfork,Haystack,22x22,105,7.0000,3.0581

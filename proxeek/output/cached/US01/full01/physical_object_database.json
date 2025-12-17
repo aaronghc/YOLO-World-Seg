@@ -1,0 +1,659 @@
+{
+  "action": "segmentation_data",
+  "data": {
+    "0": [
+      {
+        "object_id": 1,
+        "object": "gray and white camouflage wireless game controller",
+        "position": "top left of the image",
+        "worldposition": {
+          "x": -1.4297421,
+          "y": 0.710036635,
+          "z": 0.3204466
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 199.156128,
+            "y1": 111.486145,
+            "x2": 441.1272,
+            "y2": 302.0918,
+            "width": 241.971054,
+            "height": 190.605652,
+            "center_x": 320.141663,
+            "center_y": 206.788971
+          },
+          "mask_center": {
+            "x": 385.0,
+            "y": 197.0
+          },
+          "confidence": 0.0162803549,
+          "detected_name": "gray and white camouflage wireless game controller"
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "pair of light brown wooden chopsticks",
+        "position": "top right of the image",
+        "worldposition": {
+          "x": -1.39221132,
+          "y": 0.705451846,
+          "z": 0.7411195
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 803.89856,
+            "y1": 133.900482,
+            "x2": 962.864136,
+            "y2": 344.6629,
+            "width": 158.965576,
+            "height": 210.762421,
+            "center_x": 883.381348,
+            "center_y": 239.2817
+          },
+          "mask_center": {
+            "x": 876.0,
+            "y": 219.0
+          },
+          "confidence": 0.148290217,
+          "detected_name": "pair of light brown wooden chopsticks (top right of the image)"
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "small black streaming media remote control",
+        "position": "center of the image",
+        "worldposition": {
+          "x": -1.16988266,
+          "y": 0.6948445,
+          "z": 0.505029261
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 556.7969,
+            "y1": 320.680542,
+            "x2": 700.449463,
+            "y2": 462.194641,
+            "width": 143.652588,
+            "height": 141.5141,
+            "center_x": 628.623169,
+            "center_y": 391.4376
+          },
+          "mask_center": {
+            "x": 616.0,
+            "y": 407.0
+          },
+          "confidence": 0.160742253,
+          "detected_name": "small black streaming media remote control"
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "clear disposable plastic cup",
+        "position": "right side of the image",
+        "worldposition": {
+          "x": -1.127678,
+          "y": 0.67861104,
+          "z": 0.856200933
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 998.1398,
+            "y1": 369.985718,
+            "x2": 1212.94714,
+            "y2": 572.8703,
+            "width": 214.807373,
+            "height": 202.884583,
+            "center_x": 1105.54346,
+            "center_y": 471.428
+          },
+          "mask_center": {
+            "x": 1105.0,
+            "y": 451.0
+          },
+          "confidence": 0.625885963,
+          "detected_name": "clear disposable plastic cup"
+        }
+      },
+      {
+        "object_id": 5,
+        "object": "ripe yellow banana",
+        "position": "bottom left of the image",
+        "worldposition": {
+          "x": -0.967005849,
+          "y": 0.702241361,
+          "z": 0.267569482
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 63.6424561,
+            "y1": 515.3728,
+            "x2": 529.528442,
+            "y2": 794.260742,
+            "width": 465.886,
+            "height": 278.887939,
+            "center_x": 296.585449,
+            "center_y": 654.8168
+          },
+          "mask_center": {
+            "x": 208.0,
+            "y": 650.0
+          },
+          "confidence": 0.7879915,
+          "detected_name": "ripe yellow banana"
+        }
+      }
+    ],
+    "1": [
+      {
+        "object_id": 1,
+        "object": "white minimalist LED desk lamp with a slim horizontal lighting bar and red cable",
+        "position": "upper right of the desk",
+        "worldposition": {
+          "x": -1.51789582,
+          "y": 0.7056939,
+          "z": 1.64065289
+        },
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 372.9807,
+            "y1": 32.3067627,
+            "x2": 939.5242,
+            "y2": 596.9374,
+            "width": 566.543457,
+            "height": 564.6306,
+            "center_x": 656.252441,
+            "center_y": 314.62207
+          },
+          "mask_center": {
+            "x": 768.0,
+            "y": 546.0
+          },
+          "confidence": 0.49772504,
+          "detected_name": "white minimalist LED desk lamp with a slim horizontal lighting bar and red cable"
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "dark grey ergonomic vertical computer mouse",
+        "position": "center left of the desk",
+        "worldposition": {
+          "x": -1.56624436,
+          "y": 0.7250143,
+          "z": 1.181003
+        },
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 412.1076,
+            "y1": 504.783752,
+            "x2": 513.2636,
+            "y2": 580.184753,
+            "width": 101.156006,
+            "height": 75.401,
+            "center_x": 462.6856,
+            "center_y": 542.484253
+          },
+          "mask_center": {
+            "x": 459.0,
+            "y": 541.0
+          },
+          "confidence": 0.149125785,
+          "detected_name": "dark grey ergonomic vertical computer mouse"
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "green bag of Lay's sour cream & onion potato chips",
+        "position": "bottom left of the desk",
+        "worldposition": {
+          "x": -0.954133034,
+          "y": 0.7184833,
+          "z": 1.16720867
+        },
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 63.1092529,
+            "y1": 658.0514,
+            "x2": 625.6645,
+            "y2": 960.0,
+            "width": 562.555237,
+            "height": 301.9486,
+            "center_x": 344.386871,
+            "center_y": 809.0257
+          },
+          "mask_center": {
+            "x": 444.0,
+            "y": 812.0
+          },
+          "confidence": 0.01478472,
+          "detected_name": "green bag of Lay's sour cream & onion potato chips"
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "white folded paper origami shape",
+        "position": "bottom right of the desk",
+        "worldposition": {
+          "x": -0.965236664,
+          "y": 0.699871838,
+          "z": 1.68939877
+        },
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 910.7446,
+            "y1": 640.2391,
+            "x2": 1079.52417,
+            "y2": 859.0269,
+            "width": 168.779541,
+            "height": 218.787842,
+            "center_x": 995.1344,
+            "center_y": 749.633
+          },
+          "mask_center": {
+            "x": 990.0,
+            "y": 760.0
+          },
+          "confidence": 0.0597430877,
+          "detected_name": "white folded paper origami shape"
+        }
+      }
+    ],
+    "2": [
+      {
+        "object_id": 1,
+        "object": "black hard-shell rolling suitcase with ribbed texture and top handle",
+        "position": "center-left of the image",
+        "worldposition": {
+          "x": -0.360972375,
+          "y": 0.7755484,
+          "z": 1.75116479
+        },
+        "image_id": 2,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 45.4224854,
+            "y1": 321.407349,
+            "x2": 770.421753,
+            "y2": 926.2268,
+            "width": 724.999268,
+            "height": 604.819458,
+            "center_x": 407.922119,
+            "center_y": 623.8171
+          },
+          "mask_center": {
+            "x": 320.0,
+            "y": 623.0
+          },
+          "confidence": 0.8396961,
+          "detected_name": "black hard-shell rolling suitcase with ribbed texture and top handle"
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "wooden-top bedside table with black frame",
+        "position": "right of the suitcase, center-right of the image",
+        "worldposition": {
+          "x": 0.0705883652,
+          "y": 0.745802164,
+          "z": 1.76276219
+        },
+        "image_id": 2,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 719.128662,
+            "y1": 244.0072,
+            "x2": 1279.62891,
+            "y2": 933.3551,
+            "width": 560.500244,
+            "height": 689.3479,
+            "center_x": 999.3788,
+            "center_y": 588.681152
+          },
+          "mask_center": {
+            "x": 911.0,
+            "y": 647.0
+          },
+          "confidence": 0.0730776861,
+          "detected_name": "wooden-top bedside table with black frame"
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "round gray ceramic plate",
+        "position": "on top of the bedside table, upper right quadrant",
+        "worldposition": {
+          "x": 0.203719825,
+          "y": 0.8096714,
+          "z": 2.06120539
+        },
+        "image_id": 2,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 900.0342,
+            "y1": 243.80188,
+            "x2": 1164.89429,
+            "y2": 432.4032,
+            "width": 264.8601,
+            "height": 188.601318,
+            "center_x": 1032.46423,
+            "center_y": 338.102539
+          },
+          "mask_center": {
+            "x": 1024.0,
+            "y": 334.0
+          },
+          "confidence": 0.9800261,
+          "detected_name": "round gray ceramic plate"
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "purple neoprene-coated dumbbell",
+        "position": "on top of the bedside table, right side",
+        "worldposition": {
+          "x": 0.332760334,
+          "y": 0.7477268,
+          "z": 1.83265352
+        },
+        "image_id": 2,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 1015.74866,
+            "y1": 484.859253,
+            "x2": 1272.04358,
+            "y2": 623.6399,
+            "width": 256.294922,
+            "height": 138.78064,
+            "center_x": 1143.89612,
+            "center_y": 554.2496
+          },
+          "mask_center": {
+            "x": 1225.0,
+            "y": 581.0
+          },
+          "confidence": 0.01708539,
+          "detected_name": "purple neoprene-coated dumbbell"
+        }
+      }
+    ],
+    "3": [
+      {
+        "object_id": 1,
+        "object": "small succulent plant in a ribbed yellow pot",
+        "position": "top left of the desk",
+        "worldposition": {
+          "x": 0.4917872,
+          "y": 0.926867843,
+          "z": 1.84186566
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 111.482513,
+            "y1": 151.567017,
+            "x2": 421.59317,
+            "y2": 610.6205,
+            "width": 310.110657,
+            "height": 459.053467,
+            "center_x": 266.537842,
+            "center_y": 381.09375
+          },
+          "mask_center": {
+            "x": 313.0,
+            "y": 478.0
+          },
+          "confidence": 0.188745633,
+          "detected_name": "small succulent plant in a ribbed yellow pot"
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "glass pepper grinder with black cap",
+        "position": "slightly above center of the desk",
+        "worldposition": {
+          "x": 0.969931245,
+          "y": 0.768915653,
+          "z": 2.04703665
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 695.9221,
+            "y1": 287.2597,
+            "x2": 811.6177,
+            "y2": 492.307434,
+            "width": 115.695557,
+            "height": 205.047729,
+            "center_x": 753.7699,
+            "center_y": 389.783569
+          },
+          "mask_center": {
+            "x": 764.0,
+            "y": 330.0
+          },
+          "confidence": 0.730462849,
+          "detected_name": "glass pepper grinder with black cap"
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "turquoise toothbrush with white bristles",
+        "position": "right side of the desk",
+        "worldposition": {
+          "x": 0.8900322,
+          "y": 0.748735249,
+          "z": 1.72899008
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 920.410156,
+            "y1": 458.6089,
+            "x2": 995.2656,
+            "y2": 680.042358,
+            "width": 74.85547,
+            "height": 221.433472,
+            "center_x": 957.8379,
+            "center_y": 569.3256
+          },
+          "mask_center": {
+            "x": 954.0,
+            "y": 587.0
+          },
+          "confidence": 0.6753072,
+          "detected_name": "turquoise toothbrush with white bristles"
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "blue Arduino Uno circuit board",
+        "position": "bottom center-left of the desk",
+        "worldposition": {
+          "x": 0.5459085,
+          "y": 0.7426964,
+          "z": 1.71774566
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 475.408875,
+            "y1": 762.3781,
+            "x2": 645.785,
+            "y2": 908.7326,
+            "width": 170.3761,
+            "height": 146.354492,
+            "center_x": 560.5969,
+            "center_y": 835.555359
+          },
+          "mask_center": {
+            "x": 558.0,
+            "y": 829.0
+          },
+          "confidence": 0.00333878514,
+          "detected_name": "blue Arduino Uno circuit board"
+        }
+      }
+    ],
+    "4": [
+      {
+        "object_id": 1,
+        "object": "6-string acoustic guitar with natural wood finish and cutaway",
+        "position": "center-right of the image, leaning against the whiteboard and resting on the couch",
+        "worldposition": {
+          "x": 0.8831594,
+          "y": 0.7419217,
+          "z": 0.589779735
+        },
+        "image_id": 4,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 543.35144,
+            "y1": 20.6050415,
+            "x2": 917.521851,
+            "y2": 888.777039,
+            "width": 374.1704,
+            "height": 868.172,
+            "center_x": 730.436646,
+            "center_y": 454.69104
+          },
+          "mask_center": {
+            "x": 705.0,
+            "y": 736.0
+          },
+          "confidence": 0.397955745,
+          "detected_name": "6-string acoustic guitar with natural wood finish and cutaway"
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "blue upholstered two-seater couch with black metal frame",
+        "position": "bottom half of the image, spanning left to center",
+        "worldposition": {
+          "x": 0.7715369,
+          "y": 0.330518246,
+          "z": 1.16309357
+        },
+        "image_id": 4,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 0.0,
+            "y1": 442.054749,
+            "x2": 933.9069,
+            "y2": 959.8592,
+            "width": 933.9069,
+            "height": 517.804443,
+            "center_x": 466.953461,
+            "center_y": 700.957
+          },
+          "mask_center": {
+            "x": 310.0,
+            "y": 944.0
+          },
+          "confidence": 0.6749209,
+          "detected_name": "blue upholstered two-seater couch with black metal frame"
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "magnetic whiteboard with silver tray",
+        "position": "upper half of the image, spanning left to right",
+        "worldposition": {
+          "x": 1.131474,
+          "y": 1.48292863,
+          "z": 0.138655
+        },
+        "image_id": 4,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 3.498169,
+            "y1": 0.9758301,
+            "x2": 1280.0,
+            "y2": 531.4517,
+            "width": 1276.50183,
+            "height": 530.4759,
+            "center_x": 641.7491,
+            "center_y": 266.213776
+          },
+          "mask_center": {
+            "x": 1264.0,
+            "y": 15.0
+          },
+          "confidence": 0.241294861,
+          "detected_name": "magnetic whiteboard with silver tray"
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "rolled white paper scroll",
+        "position": "lying on the whiteboard tray, left of center",
+        "worldposition": {
+          "x": 1.1460042,
+          "y": 0.995902836,
+          "z": 1.003245
+        },
+        "image_id": 4,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 139.75354,
+            "y1": 399.040649,
+            "x2": 460.211,
+            "y2": 470.7611,
+            "width": 320.457458,
+            "height": 71.72046,
+            "center_x": 299.982269,
+            "center_y": 434.900879
+          },
+          "mask_center": {
+            "x": 422.0,
+            "y": 440.0
+          },
+          "confidence": 0.000167618535,
+          "detected_name": "rolled white paper scroll"
+        }
+      }
+    ]
+  },
+  "timestamp": "192172f8-9808-4610-81bb-2d5c33395556",
+  "total_objects": 21,
+  "playArea": {
+    "boundaryPoints": [
+      {
+        "x": 1.41946089,
+        "y": 1.78813934e-07,
+        "z": 2.07419443
+      },
+      {
+        "x": -1.89043558,
+        "y": 1.78813934e-07,
+        "z": 2.09989214
+      },
+      {
+        "x": -1.91208136,
+        "y": 1.78813934e-07,
+        "z": -0.6880795
+      },
+      {
+        "x": 1.39781511,
+        "y": 1.78813934e-07,
+        "z": -0.7137774
+      }
+    ],
+    "center": {
+      "x": -0.246310234,
+      "y": 1.78813934e-07,
+      "z": 0.693057358
+    },
+    "width": 3.33154225,
+    "depth": 2.81366968,
+    "area": 9.228455,
+    "boundaryType": "PlayArea"
+  }
+}

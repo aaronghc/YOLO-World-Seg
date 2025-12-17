@@ -1,0 +1,226 @@
+{
+  "optimization_summary": {
+    "total_loss": -37.3485850798687,
+    "loss_components": {
+      "L_realism": -17.621214873454974,
+      "L_interaction": -24.705705167976998,
+      "L_spatial": 4.978334961563274,
+      "total": -37.3485850798687
+    },
+    "num_virtual_objects": 13,
+    "num_physical_objects": 22,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Hammer",
+        "index": 0,
+        "engagement_level": 3.973228596302861,
+        "involvement_type": "grasp",
+        "priority_weight": 3.973228596302861
+      },
+      "physical_object": {
+        "name": "purple neoprene-coated dumbbell",
+        "object_id": 2,
+        "image_id": 3,
+        "index": 15
+      },
+      "realism_score": 4.422222385803859,
+      "utilization_method": "Grip the handle close to one weight plate and swing the opposite plate downward to strike the target"
+    },
+    {
+      "virtual_object": {
+        "name": "Lightsaber",
+        "index": 1,
+        "engagement_level": 3.928055160151634,
+        "involvement_type": "grasp",
+        "priority_weight": 3.928055160151634
+      },
+      "physical_object": {
+        "name": "clear glass pepper grinder with a black lid",
+        "object_id": 4,
+        "image_id": 3,
+        "index": 17
+      },
+      "realism_score": 5.137254670262337,
+      "utilization_method": "Wrap your hand around the main cylindrical body just below the black lid and swing it like a compact lightsaber hilt"
+    },
+    {
+      "virtual_object": {
+        "name": "Gold Bar",
+        "index": 2,
+        "engagement_level": 0.4768116880884702,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4768116880884702
+      },
+      "physical_object": {
+        "name": "small green potted plant in a ribbed yellow ceramic pot",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 14
+      },
+      "realism_score": 3.3809524675210314,
+      "utilization_method": "Spread fingers around the pot\u2019s ribbed wall, squeeze gently, and lift the pot upward"
+    },
+    {
+      "virtual_object": {
+        "name": "Double Slider",
+        "index": 3,
+        "engagement_level": 1.0757656854799804,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0757656854799804
+      },
+      "physical_object": {
+        "name": "black hard-shell suitcase with top handle",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 10
+      },
+      "realism_score": 3.6666667759418488,
+      "utilization_method": "Grab the suitcase\u2019s top handle with one hand and shove or tug the whole case in a straight line on the floor"
+    },
+    {
+      "virtual_object": {
+        "name": "Canvas",
+        "index": 4,
+        "engagement_level": 2.0,
+        "involvement_type": "substrate",
+        "priority_weight": 2.0
+      },
+      "physical_object": {
+        "name": "blue upholstered bench seat with black metal frame",
+        "object_id": 2,
+        "image_id": 4,
+        "index": 20
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand beside the bench and brush along a flat section of the taut blue upholstery on the seat cushion"
+    },
+    {
+      "virtual_object": {
+        "name": "Brush",
+        "index": 5,
+        "engagement_level": 2.9242343145200196,
+        "involvement_type": "grasp",
+        "priority_weight": 2.9242343145200196
+      },
+      "physical_object": {
+        "name": "teal toothbrush with white bristles",
+        "object_id": 5,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 5.999999642372131,
+      "utilization_method": "Grip the handle at mid-shaft with a precision grip and use the bristle end to execute fine wrist-driven painting motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Dropper",
+        "index": 6,
+        "engagement_level": 3.8102965072897335,
+        "involvement_type": "grasp",
+        "priority_weight": 3.8102965072897335
+      },
+      "physical_object": {
+        "name": "green Lay's sour cream & onion potato chips bag, partially opened",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 11
+      },
+      "realism_score": 3.396825611591339,
+      "utilization_method": "Hold a loose section of the bag between thumb and middle finger and squeeze it repeatedly with the index fingertip to crinkle and release"
+    },
+    {
+      "virtual_object": {
+        "name": "Camera",
+        "index": 7,
+        "engagement_level": 2.0,
+        "involvement_type": "grasp",
+        "priority_weight": 2.0
+      },
+      "physical_object": {
+        "name": "Arduino Uno microcontroller board with USB connector",
+        "object_id": 5,
+        "image_id": 3,
+        "index": 18
+      },
+      "realism_score": 3.2857143878936768,
+      "utilization_method": "Pinch the board\u2019s sides so the thumb supports the back; press the index fingertip onto the small tactile reset button for each shutter click"
+    },
+    {
+      "virtual_object": {
+        "name": "Valve",
+        "index": 9,
+        "engagement_level": 3.5231883119115293,
+        "involvement_type": "grasp",
+        "priority_weight": 3.5231883119115293
+      },
+      "physical_object": {
+        "name": "white minimalist desk lamp with red cord",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 4.358974476655325,
+      "utilization_method": "Place one hand on the horizontal bar and the other on the vertical post, then rotate the horizontal bar downward or upward about 90\u00b0 around the post to simulate valve turning"
+    },
+    {
+      "virtual_object": {
+        "name": "Common Pleco",
+        "index": 10,
+        "engagement_level": 0.18970349271026712,
+        "involvement_type": "contact",
+        "priority_weight": 0.18970349271026712
+      },
+      "physical_object": {
+        "name": "6-string cutaway acoustic guitar with light wood top and red sides",
+        "object_id": 1,
+        "image_id": 4,
+        "index": 19
+      },
+      "realism_score": 4.687500178813934,
+      "utilization_method": "Slide your palm lightly along the smooth, curved side of the guitar\u2019s body from the lower bout toward the neck"
+    },
+    {
+      "virtual_object": {
+        "name": "Big Red Button",
+        "index": 11,
+        "engagement_level": 0.07194483984836623,
+        "involvement_type": "contact",
+        "priority_weight": 0.07194483984836623
+      },
+      "physical_object": {
+        "name": "wireless game controller with gray camouflage pattern",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 2.9814816067616148,
+      "utilization_method": "Turn the controller so its buttons face upward, rest your palm over the button cluster, and press downward clicking the underlying buttons"
+    },
+    {
+      "virtual_object": {
+        "name": "Slime",
+        "index": 12,
+        "engagement_level": 0.026771403697139422,
+        "involvement_type": "contact",
+        "priority_weight": 0.026771403697139422
+      },
+      "physical_object": {
+        "name": "ripe yellow banana",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 3.3333333333333335,
+      "utilization_method": "Cup the banana in one hand, squeeze gently along its length, and run your thumb along the peel"
+    }
+  ]
+}

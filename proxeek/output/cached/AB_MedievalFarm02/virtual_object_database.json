@@ -1,0 +1,417 @@
+[
+  {
+    "objectName": "Axe",
+    "involvementType": "grasp",
+    "usage": "This axe serves as a chopping tool",
+    "inertia": "User should feel moderate mass with pronounced head-heavy inertia.",
+    "interactivity": "",
+    "outline": "User should feel a cylindrical grip (about 3 cm \u00d8)",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.5,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.44",
+      "y": "0.33",
+      "z": "0.26"
+    },
+    "globalPosition": {
+      "x": 1.6055994033813477,
+      "y": 0.7706127166748047,
+      "z": -0.07480621337890625
+    },
+    "globalRotation": {
+      "x": 292.8609924316406,
+      "y": 68.61132049560547,
+      "z": 173.96200561523438
+    },
+    "bounds3D": {
+      "center": {
+        "x": 1.6582581996917725,
+        "y": 0.6883432865142822,
+        "z": -0.04368871450424194
+      },
+      "size": {
+        "x": 0.44289425015449524,
+        "y": 0.3269272446632385,
+        "z": 0.25899481773376465
+      },
+      "min": {
+        "x": 1.436811089515686,
+        "y": 0.5248796939849854,
+        "z": -0.17318612337112427
+      },
+      "max": {
+        "x": 1.8797053098678589,
+        "y": 0.8518068790435791,
+        "z": 0.08580869436264038
+      }
+    },
+    "bounds2D": {
+      "minX": 1.436811089515686,
+      "maxX": 1.8797053098678589,
+      "minZ": -0.17318612337112427,
+      "maxZ": 0.08580869436264038,
+      "centerX": 1.6582581996917725,
+      "centerZ": -0.04368871450424194,
+      "width": 0.44289425015449524,
+      "depth": 0.25899481773376465,
+      "corners": [
+        {
+          "x": 1.489763617515564,
+          "z": -0.16131800413131714
+        },
+        {
+          "x": 1.4671125411987305,
+          "z": -0.11677727103233337
+        },
+        {
+          "x": 1.8267526626586914,
+          "z": 0.07394054532051086
+        },
+        {
+          "x": 1.8494038581848145,
+          "z": 0.029399827122688293
+        }
+      ]
+    },
+    "interactionDeduction": "Users will employ a power-grip around the 3 cm-diameter handle. Most will place the dominant hand near the knob of the handle while the support hand (optional) sits farther up for guidance. Typical motion is a shoulder-driven overhead or diagonal swing followed by a deceleration at impact. The hand path describes a large arc; wrists remain fairly locked until the moment of contact. Because the mass is head-heavy, the user will feel the blade trying to lag behind on the upswing and pull forward on the downswing, prompting a slight counter-torque in the forearm. Upon striking a target, the virtual axe stops abruptly; a short vibration or impulse should be issued to mimic the shock that runs up the handle."
+  },
+  {
+    "objectName": "Sickle",
+    "involvementType": "grasp",
+    "usage": "This sickle serves as a harvesting and cutting tool ",
+    "inertia": "User should feel moderate forward-weighted inertia.",
+    "interactivity": "",
+    "outline": "User should feel a cylindrical grip (about 3 cm \u00d8)",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.5,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.39",
+      "y": "0.09",
+      "z": "0.56"
+    },
+    "globalPosition": {
+      "x": -0.21740055084228516,
+      "y": 0.7676127552986145,
+      "z": 0.8491937518119812
+    },
+    "globalRotation": {
+      "x": -6.830189249740215e-06,
+      "y": 102.79971313476562,
+      "z": 93.36920928955078
+    },
+    "bounds3D": {
+      "center": {
+        "x": -0.11431065201759338,
+        "y": 0.7316917181015015,
+        "z": 1.0047823190689087
+      },
+      "size": {
+        "x": 0.3918713629245758,
+        "y": 0.08812928944826126,
+        "z": 0.5626152753829956
+      },
+      "min": {
+        "x": -0.3102463483810425,
+        "y": 0.6876270771026611,
+        "z": 0.7234746813774109
+      },
+      "max": {
+        "x": 0.08162502944469452,
+        "y": 0.7757563591003418,
+        "z": 1.2860898971557617
+      }
+    },
+    "bounds2D": {
+      "minX": -0.3102463483810425,
+      "maxX": 0.08162502944469452,
+      "minZ": 0.7234746813774109,
+      "maxZ": 1.2860898971557617,
+      "centerX": -0.11431065201759338,
+      "centerZ": 1.0047823190689087,
+      "width": 0.3918713629245758,
+      "depth": 0.5626152753829956,
+      "corners": [
+        {
+          "x": -0.30986690521240234,
+          "z": 0.788399338722229
+        },
+        {
+          "x": -0.03144487738609314,
+          "z": 0.7251448035240173
+        },
+        {
+          "x": 0.08124563097953796,
+          "z": 1.221165418624878
+        },
+        {
+          "x": -0.19717641174793243,
+          "z": 1.2844198942184448
+        }
+      ]
+    },
+    "interactionDeduction": "The tool is used single-handedly with a fist/knife grip around the 3 cm cylindrical handle. The cutting edge is oriented forward, so the elbow stays close to the torso while the wrist guides a quick sweeping or hooking motion from right to left (or vice-versa) at hip height. Moderate forward-weighted inertia makes the curved blade feel heavier than the handle, producing centrifugal pull during the arc. Resistance is brief and light when the blade meets vegetation, followed by an immediate follow-through."
+  },
+  {
+    "objectName": "Hoe",
+    "involvementType": "grasp",
+    "usage": "Breaking and scrape soil",
+    "inertia": "Front-heavy feel from steel head (around 1 kg total). ",
+    "interactivity": "",
+    "outline": "Cylindrical handle (about 3 cm \u00d8)",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.5,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.53",
+      "y": "1.30",
+      "z": "0.76"
+    },
+    "globalPosition": {
+      "x": -3.0274007320404053,
+      "y": 0.7866127490997314,
+      "z": 0.2671937942504883
+    },
+    "globalRotation": {
+      "x": 336.644775390625,
+      "y": 205.0982666015625,
+      "z": 181.6161346435547
+    },
+    "bounds3D": {
+      "center": {
+        "x": -3.030531883239746,
+        "y": 0.5674960613250732,
+        "z": 0.27388274669647217
+      },
+      "size": {
+        "x": 0.5259227156639099,
+        "y": 1.302149772644043,
+        "z": 0.7563442587852478
+      },
+      "min": {
+        "x": -3.2934932708740234,
+        "y": -0.08357882499694824,
+        "z": -0.10428938269615173
+      },
+      "max": {
+        "x": -2.7675704956054688,
+        "y": 1.2185709476470947,
+        "z": 0.6520549058914185
+      }
+    },
+    "bounds2D": {
+      "minX": -3.2934932708740234,
+      "maxX": -2.7675704956054688,
+      "minZ": -0.10428938269615173,
+      "maxZ": 0.6520549058914185,
+      "centerX": -3.030531883239746,
+      "centerZ": 0.27388274669647217,
+      "width": 0.5259227156639099,
+      "depth": 0.7563442587852478,
+      "corners": [
+        {
+          "x": -3.062675952911377,
+          "z": 0.42712071537971497
+        },
+        {
+          "x": -2.8931233882904053,
+          "z": 0.3453780710697174
+        },
+        {
+          "x": -2.9983878135681152,
+          "z": 0.1206447035074234
+        },
+        {
+          "x": -3.167940378189087,
+          "z": 0.20238736271858215
+        }
+      ]
+    },
+    "interactionDeduction": "Users will grasp the long haft with two hands spaced roughly shoulder-width apart. The lead hand (near the head) steers while the trailing hand supplies leverage. Interaction starts with the tool raised slightly, then swung or dropped so the head contacts the ground in front of the user. Once embedded, the user performs a pull-back scraping motion, pivoting at the shoulders and hinging at the elbows. The strong front-heavy inertia causes a noticeable dip of the head during the downswing and a tug toward the soil when dragged. The virtual response is an abrupt stop on impact followed by continuous low-level resistance while the head scrapes, simulating soil friction."
+  },
+  {
+    "objectName": "Pitchfork",
+    "involvementType": "grasp",
+    "usage": "Lifting and tossing hay",
+    "inertia": "Front-heavy feel from steel head (around 1 kg total)",
+    "interactivity": "",
+    "outline": "Cylindrical handle (about 3 cm \u00d8)",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.5,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.39",
+      "y": "1.87",
+      "z": "0.33"
+    },
+    "globalPosition": {
+      "x": -2.3284006118774414,
+      "y": 0.7366127967834473,
+      "z": 0.6191937923431396
+    },
+    "globalRotation": {
+      "x": 7.009954452514648,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": -2.337400436401367,
+        "y": 0.634284496307373,
+        "z": 0.5967845320701599
+      },
+      "size": {
+        "x": 0.3949729800224304,
+        "y": 1.8657870292663574,
+        "z": 0.32655906677246094
+      },
+      "min": {
+        "x": -2.5348868370056152,
+        "y": -0.29860901832580566,
+        "z": 0.43350499868392944
+      },
+      "max": {
+        "x": -2.139914035797119,
+        "y": 1.5671780109405518,
+        "z": 0.7600640654563904
+      }
+    },
+    "bounds2D": {
+      "minX": -2.5348868370056152,
+      "maxX": -2.139914035797119,
+      "minZ": 0.43350499868392944,
+      "maxZ": 0.7600640654563904,
+      "centerX": -2.337400436401367,
+      "centerZ": 0.5967845320701599,
+      "width": 0.3949729800224304,
+      "depth": 0.32655906677246094,
+      "corners": [
+        {
+          "x": -2.5348868370056152,
+          "z": 0.5474688410758972
+        },
+        {
+          "x": -2.139914035797119,
+          "z": 0.5474688410758972
+        },
+        {
+          "x": -2.139914035797119,
+          "z": 0.6461002230644226
+        },
+        {
+          "x": -2.5348868370056152,
+          "z": 0.6461002230644226
+        }
+      ]
+    },
+    "interactionDeduction": "Users adopt a broad two-hand power grip on the shaft, similar to a garden shovel. The motion sequence is: thrust tines forward/down into a pile, then leverage upward by pulling the handle toward the chest, and finally fling or carry the load by rotating the wrists outward. The front-loaded weight produces a pendulum effect when the tool is lifted or turned, and slight vibrations should be felt as the tines stab into material. During transport of hay, the mass in the VR simulation will gradually increase, requiring greater controller elevation to preserve balance."
+  },
+  {
+    "objectName": "WheelBarrow",
+    "involvementType": "grasp",
+    "usage": "Transporting hay",
+    "inertia": "",
+    "interactivity": "Low-friction structure underneath so the proxy would slide easily.",
+    "outline": "User should perceive a pair of straight cylindrical handles (~4 cm \u00d8), spaced ~45 cm apart.",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.8999999761581421,
+    "outlineValue": 0.10000000149011612,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "2.03",
+      "y": "0.78",
+      "z": "2.14"
+    },
+    "globalPosition": {
+      "x": -0.4584004878997803,
+      "y": 0.4966127276420593,
+      "z": -1.7538063526153564
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 221.58001708984375,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": -0.9776837229728699,
+        "y": 0.3866733908653259,
+        "z": -2.3550713062286377
+      },
+      "size": {
+        "x": 2.029627799987793,
+        "y": 0.7828142642974854,
+        "z": 2.1406362056732178
+      },
+      "min": {
+        "x": -1.9924976825714111,
+        "y": -0.004733741283416748,
+        "z": -3.425389289855957
+      },
+      "max": {
+        "x": 0.03713017702102661,
+        "y": 0.7780805230140686,
+        "z": -1.2847532033920288
+      }
+    },
+    "bounds2D": {
+      "minX": -1.9924976825714111,
+      "maxX": 0.03713017702102661,
+      "minZ": -3.425389289855957,
+      "maxZ": -1.2847532033920288,
+      "centerX": -0.9776837229728699,
+      "centerZ": -2.3550713062286377,
+      "width": 2.029627799987793,
+      "depth": 2.1406362056732178,
+      "corners": [
+        {
+          "x": 0.03713002800941467,
+          "z": -1.8283828496932983
+        },
+        {
+          "x": -0.575605034828186,
+          "z": -1.284753441810608
+        },
+        {
+          "x": -1.9924979209899902,
+          "z": -2.8817601203918457
+        },
+        {
+          "x": -1.379762887954712,
+          "z": -3.425389528274536
+        }
+      ]
+    },
+    "interactionDeduction": "The user grips two parallel cylindrical handles (\u22484 cm \u00d8, spaced ~45 cm) with a neutral or pronated power grip. To start, the user squats or leans, tilts the wheelbarrow back by lifting the handles until the support legs clear the ground, then walks forward. Primary motion comes from elbow extension and shoulder flexion; the user compensates for load weight by adjusting fore-aft pitch. The wheel acts as a pivot point: heavier loads increase downward torque on the handles, generating continuous force feedback. Turning involves asymmetric push-pull on the handles causing the barrow to yaw about the wheel. Because the VR model specifies low friction underneath, the physical proxy should glide easily when pushed, and slight inertial lag should be felt when starting or stopping."
+  }
+]

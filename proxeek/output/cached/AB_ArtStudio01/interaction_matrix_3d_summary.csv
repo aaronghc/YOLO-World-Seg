@@ -1,0 +1,4 @@
+relationship_index,contact_virtual_object,substrate_virtual_object,matrix_shape,non_zero_entries,max_rating,mean_rating
+0,Paint Brush,Easel,21x21,100,5.6462,3.0303
+1,Round Mallet,Chisel,21x21,140,7.0000,3.4062
+2,Chisel,Stone Tablet,21x21,100,6.0000,3.5163

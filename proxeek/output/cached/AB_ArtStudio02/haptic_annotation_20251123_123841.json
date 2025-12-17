@@ -1,0 +1,1263 @@
+{
+  "summary": "Art Studio",
+  "proxyPriorityOrder": [
+    "Paint Brush",
+    "Easel",
+    "Round Mallet",
+    "Spray Can",
+    "Chisel",
+    "Stone Tablet",
+    "Tube",
+    "Paint Roller"
+  ],
+  "nodeAnnotations": [
+    {
+      "objectName": "Easel",
+      "involvementType": "substrate",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.85",
+        "y": "1.50",
+        "z": "0.75"
+      },
+      "globalPosition": {
+        "x": 0.034000009298324585,
+        "y": 0.022000044584274292,
+        "z": 1.00600004196167
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 195.39402770996094,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.019232768565416336,
+          "y": 0.7727874517440796,
+          "z": 0.9524025321006775
+        },
+        "size": {
+          "x": 0.8494367599487305,
+          "y": 1.5031859874725342,
+          "z": 0.7514998316764832
+        },
+        "min": {
+          "x": -0.405485600233078,
+          "y": 0.0211944580078125,
+          "z": 0.5766526460647583
+        },
+        "max": {
+          "x": 0.44395115971565247,
+          "y": 1.5243804454803467,
+          "z": 1.3281524181365967
+        }
+      },
+      "bounds2D": {
+        "minX": -0.405485600233078,
+        "maxX": 0.44395115971565247,
+        "minZ": 0.5766526460647583,
+        "maxZ": 1.3281524181365967,
+        "centerX": 0.019232768565416336,
+        "centerZ": 0.9524025321006775,
+        "width": 0.8494367599487305,
+        "depth": 0.7514998316764832,
+        "corners": [
+          {
+            "x": 0.28974223136901855,
+            "z": 0.5766525268554688
+          },
+          {
+            "x": -0.405485600233078,
+            "z": 0.7680721282958984
+          },
+          {
+            "x": -0.2512767016887665,
+            "z": 1.3281521797180176
+          },
+          {
+            "x": 0.4439511299133301,
+            "z": 1.136732578277588
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Tube",
+      "involvementType": "grasp",
+      "usage": "This oil paint tube serves as a paint storage. Users would grasp it to squeeze out paint.",
+      "inertia": "Overall it would feel light weight about 30g",
+      "interactivity": "",
+      "outline": "Flattened cylinder about 2 cm in diameter.",
+      "texture": "",
+      "hardness": "User should feel the body as pliable and squeezable, deforming under pressure",
+      "temperature": "",
+      "inertiaValue": 0.29411762952804565,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.11764705926179886,
+      "textureValue": 0.0,
+      "hardnessValue": 0.5882352590560913,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.04",
+        "y": "0.03",
+        "z": "0.11"
+      },
+      "globalPosition": {
+        "x": -0.8059999942779541,
+        "y": 0.7310270071029663,
+        "z": 0.8400000333786011
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.805354654788971,
+          "y": 0.746819794178009,
+          "z": 0.835906982421875
+        },
+        "size": {
+          "x": 0.03908265382051468,
+          "y": 0.02971918322145939,
+          "z": 0.10619403421878815
+        },
+        "min": {
+          "x": -0.824895977973938,
+          "y": 0.7319601774215698,
+          "z": 0.7828099727630615
+        },
+        "max": {
+          "x": -0.7858133316040039,
+          "y": 0.7616794109344482,
+          "z": 0.8890039920806885
+        }
+      },
+      "bounds2D": {
+        "minX": -0.824895977973938,
+        "maxX": -0.7858133316040039,
+        "minZ": 0.7828099727630615,
+        "maxZ": 0.8890039920806885,
+        "centerX": -0.805354654788971,
+        "centerZ": 0.835906982421875,
+        "width": 0.03908265382051468,
+        "depth": 0.10619403421878815,
+        "corners": [
+          {
+            "x": -0.824895977973938,
+            "z": 0.7828099727630615
+          },
+          {
+            "x": -0.7858133316040039,
+            "z": 0.7828099727630615
+          },
+          {
+            "x": -0.7858133316040039,
+            "z": 0.8890039920806885
+          },
+          {
+            "x": -0.824895977973938,
+            "z": 0.8890039920806885
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Spray Can",
+      "involvementType": "grasp",
+      "usage": "Hold to spray",
+      "inertia": "",
+      "interactivity": "Spring-loaded index button (about 3mm travel) which is pressed straight downward.",
+      "outline": "About 6cm wide to pinch",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.7692307829856873,
+      "outlineValue": 0.23076924681663513,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.10",
+        "y": "0.29",
+        "z": "0.10"
+      },
+      "globalPosition": {
+        "x": -0.07000000029802322,
+        "y": 0.909500002861023,
+        "z": 1.5549999475479126
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.06999760121107101,
+          "y": 0.8640158176422119,
+          "z": 1.5549921989440918
+        },
+        "size": {
+          "x": 0.10134000331163406,
+          "y": 0.2885099947452545,
+          "z": 0.09978000074625015
+        },
+        "min": {
+          "x": -0.12066760659217834,
+          "y": 0.7197608351707458,
+          "z": 1.5051021575927734
+        },
+        "max": {
+          "x": -0.019327599555253983,
+          "y": 1.0082708597183228,
+          "z": 1.6048822402954102
+        }
+      },
+      "bounds2D": {
+        "minX": -0.12066760659217834,
+        "maxX": -0.019327599555253983,
+        "minZ": 1.5051021575927734,
+        "maxZ": 1.6048822402954102,
+        "centerX": -0.06999760121107101,
+        "centerZ": 1.5549921989440918,
+        "width": 0.10134000331163406,
+        "depth": 0.09978000074625015,
+        "corners": [
+          {
+            "x": -0.12066760659217834,
+            "z": 1.5051021575927734
+          },
+          {
+            "x": -0.019327599555253983,
+            "z": 1.5051021575927734
+          },
+          {
+            "x": -0.019327599555253983,
+            "z": 1.6048822402954102
+          },
+          {
+            "x": -0.12066760659217834,
+            "z": 1.6048822402954102
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Round Mallet",
+      "involvementType": "grasp",
+      "usage": "Swing to deliver head strikes",
+      "inertia": "User should feel head-heavy sensation",
+      "interactivity": "",
+      "outline": "Round handle (about 3 cm \u00d8)",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.12",
+        "y": "0.11",
+        "z": "0.29"
+      },
+      "globalPosition": {
+        "x": 0.5609999895095825,
+        "y": 0.7490081787109375,
+        "z": -0.30699992179870605
+      },
+      "globalRotation": {
+        "x": 83.9697036743164,
+        "y": 352.5336608886719,
+        "z": 4.0634854485688265e-06
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.5525558590888977,
+          "y": 0.7561042904853821,
+          "z": -0.24268874526023865
+        },
+        "size": {
+          "x": 0.12050092220306396,
+          "y": 0.112953782081604,
+          "z": 0.2946433424949646
+        },
+        "min": {
+          "x": 0.4923053979873657,
+          "y": 0.6996273994445801,
+          "z": -0.39001041650772095
+        },
+        "max": {
+          "x": 0.6128063201904297,
+          "y": 0.8125811815261841,
+          "z": -0.09536707401275635
+        }
+      },
+      "bounds2D": {
+        "minX": 0.4923053979873657,
+        "maxX": 0.6128063201904297,
+        "minZ": -0.39001041650772095,
+        "maxZ": -0.09536707401275635,
+        "centerX": 0.5525558590888977,
+        "centerZ": -0.24268874526023865,
+        "width": 0.12050092220306396,
+        "depth": 0.2946433424949646,
+        "corners": [
+          {
+            "x": 0.5289146304130554,
+            "z": -0.3856290876865387
+          },
+          {
+            "x": 0.6122320890426636,
+            "z": -0.37470993399620056
+          },
+          {
+            "x": 0.57619708776474,
+            "z": -0.0997484028339386
+          },
+          {
+            "x": 0.49287962913513184,
+            "z": -0.11066755652427673
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Chisel",
+      "involvementType": "grasp",
+      "usage": "Struck with a mallet to remove material",
+      "inertia": "Medium heavy (about 400g)",
+      "interactivity": "",
+      "outline": "Oval shaft (about 2.5 cm in diameter)",
+      "texture": "",
+      "hardness": "",
+      "temperature": "Cool to touch",
+      "inertiaValue": 0.25,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.25,
+      "dimensions_meters": {
+        "x": "0.16",
+        "y": "0.02",
+        "z": "0.20"
+      },
+      "globalPosition": {
+        "x": 0.44600000977516174,
+        "y": 0.7250000238418579,
+        "z": -0.6299998760223389
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 124.30618286132812,
+        "z": 90.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.4458959102630615,
+          "y": 0.7251648902893066,
+          "z": -0.6300280690193176
+        },
+        "size": {
+          "x": 0.15768182277679443,
+          "y": 0.023123860359191895,
+          "z": 0.2049621343612671
+        },
+        "min": {
+          "x": 0.3670549988746643,
+          "y": 0.7136029601097107,
+          "z": -0.7325091361999512
+        },
+        "max": {
+          "x": 0.5247368216514587,
+          "y": 0.7367268204689026,
+          "z": -0.5275470018386841
+        }
+      },
+      "bounds2D": {
+        "minX": 0.3670549988746643,
+        "maxX": 0.5247368216514587,
+        "minZ": -0.7325091361999512,
+        "maxZ": -0.5275470018386841,
+        "centerX": 0.4458959102630615,
+        "centerZ": -0.6300280690193176,
+        "width": 0.15768182277679443,
+        "depth": 0.2049621343612671,
+        "corners": [
+          {
+            "x": 0.3670549988746643,
+            "z": -0.7097415328025818
+          },
+          {
+            "x": 0.4004233181476593,
+            "z": -0.7325091361999512
+          },
+          {
+            "x": 0.5247368216514587,
+            "z": -0.5503146052360535
+          },
+          {
+            "x": 0.49136850237846375,
+            "z": -0.5275470018386841
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Box Pile 02",
+      "involvementType": "surroundings",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "1.13",
+        "y": "0.93",
+        "z": "1.19"
+      },
+      "globalPosition": {
+        "x": -1.8199999332427979,
+        "y": 0.3880000412464142,
+        "z": 0.5729999542236328
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 302.6000061035156,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -1.8392221927642822,
+          "y": 0.47150006890296936,
+          "z": 0.5600389242172241
+        },
+        "size": {
+          "x": 1.1322598457336426,
+          "y": 0.9308000802993774,
+          "z": 1.1914803981781006
+        },
+        "min": {
+          "x": -2.4053521156311035,
+          "y": 0.00610002875328064,
+          "z": -0.03570127487182617
+        },
+        "max": {
+          "x": -1.273092269897461,
+          "y": 0.9369001388549805,
+          "z": 1.1557791233062744
+        }
+      },
+      "bounds2D": {
+        "minX": -2.4053521156311035,
+        "maxX": -1.273092269897461,
+        "minZ": -0.03570127487182617,
+        "maxZ": 1.1557791233062744,
+        "centerX": -1.8392221927642822,
+        "centerZ": 0.5600389242172241,
+        "width": 1.1322598457336426,
+        "depth": 1.1914803981781006,
+        "corners": [
+          {
+            "x": -1.807943344116211,
+            "z": -0.0251845121383667
+          },
+          {
+            "x": -1.2941646575927734,
+            "z": 0.7781891226768494
+          },
+          {
+            "x": -1.8689663410186768,
+            "z": 1.1457902193069458
+          },
+          {
+            "x": -2.3827452659606934,
+            "z": 0.34241658449172974
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Bust",
+      "involvementType": "surroundings",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.48",
+        "y": "1.56",
+        "z": "0.48"
+      },
+      "globalPosition": {
+        "x": 0.8299999833106995,
+        "y": 0.722000002861023,
+        "z": 1.2699999809265137
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.8230000138282776,
+          "y": 0.7893711924552917,
+          "z": 1.2719999551773071
+        },
+        "size": {
+          "x": 0.4806565046310425,
+          "y": 1.5575652122497559,
+          "z": 0.48065662384033203
+        },
+        "min": {
+          "x": 0.5826717615127563,
+          "y": 0.010588586330413818,
+          "z": 1.0316716432571411
+        },
+        "max": {
+          "x": 1.0633282661437988,
+          "y": 1.5681538581848145,
+          "z": 1.5123282670974731
+        }
+      },
+      "bounds2D": {
+        "minX": 0.5826717615127563,
+        "maxX": 1.0633282661437988,
+        "minZ": 1.0316716432571411,
+        "maxZ": 1.5123282670974731,
+        "centerX": 0.8230000138282776,
+        "centerZ": 1.2719999551773071,
+        "width": 0.4806565046310425,
+        "depth": 0.48065662384033203,
+        "corners": [
+          {
+            "x": 0.5826717615127563,
+            "z": 1.0316716432571411
+          },
+          {
+            "x": 1.0633282661437988,
+            "z": 1.0316716432571411
+          },
+          {
+            "x": 1.0633282661437988,
+            "z": 1.5123282670974731
+          },
+          {
+            "x": 0.5826717615127563,
+            "z": 1.5123282670974731
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Paint Brush",
+      "involvementType": "grasp",
+      "usage": "It serves as an artistic tool for painting. Users would make controlled strokes across canvas surfaces.",
+      "inertia": "The brush would feel lightweight.",
+      "interactivity": "",
+      "outline": "User should feel the cylindrical handle (1cm diameter) with smooth, rounded edges. ",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.4285714030265808,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5714285373687744,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.24",
+        "y": "0.01",
+        "z": "0.14"
+      },
+      "globalPosition": {
+        "x": -0.8880000114440918,
+        "y": 0.7269999980926514,
+        "z": 0.7340000867843628
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 298.4100036621094,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.8990210890769958,
+          "y": 0.7269999980926514,
+          "z": 0.7399616837501526
+        },
+        "size": {
+          "x": 0.24316930770874023,
+          "y": 0.008460426703095436,
+          "z": 0.14030414819717407
+        },
+        "min": {
+          "x": -1.0206058025360107,
+          "y": 0.7227697968482971,
+          "z": 0.6698095798492432
+        },
+        "max": {
+          "x": -0.7774364352226257,
+          "y": 0.7312301993370056,
+          "z": 0.810113787651062
+        }
+      },
+      "bounds2D": {
+        "minX": -1.0206058025360107,
+        "maxX": -0.7774364352226257,
+        "minZ": 0.6698095798492432,
+        "maxZ": 0.810113787651062,
+        "centerX": -0.8990210890769958,
+        "centerZ": 0.7399616837501526,
+        "width": 0.24316930770874023,
+        "depth": 0.14030414819717407,
+        "corners": [
+          {
+            "x": -0.7841410636901855,
+            "z": 0.6698095798492432
+          },
+          {
+            "x": -0.7774364352226257,
+            "z": 0.6822043657302856
+          },
+          {
+            "x": -1.0139011144638062,
+            "z": 0.810113787651062
+          },
+          {
+            "x": -1.0206058025360107,
+            "z": 0.7977190017700195
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Stone Tablet",
+      "involvementType": "substrate",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.45",
+        "y": "0.10",
+        "z": "0.65"
+      },
+      "globalPosition": {
+        "x": -1.0870000123977661,
+        "y": 0.7350000143051147,
+        "z": 1.6460000276565552
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -1.0947295427322388,
+          "y": 0.769493043422699,
+          "z": 1.6503485441207886
+        },
+        "size": {
+          "x": 0.4506325125694275,
+          "y": 0.10355520248413086,
+          "z": 0.6474897861480713
+        },
+        "min": {
+          "x": -1.320045828819275,
+          "y": 0.7177154421806335,
+          "z": 1.326603651046753
+        },
+        "max": {
+          "x": -0.8694132566452026,
+          "y": 0.8212706446647644,
+          "z": 1.9740934371948242
+        }
+      },
+      "bounds2D": {
+        "minX": -1.320045828819275,
+        "maxX": -0.8694132566452026,
+        "minZ": 1.326603651046753,
+        "maxZ": 1.9740934371948242,
+        "centerX": -1.0947295427322388,
+        "centerZ": 1.6503485441207886,
+        "width": 0.4506325125694275,
+        "depth": 0.6474897861480713,
+        "corners": [
+          {
+            "x": -1.271339774131775,
+            "z": 1.3525334596633911
+          },
+          {
+            "x": -0.9181193113327026,
+            "z": 1.3525334596633911
+          },
+          {
+            "x": -0.9181193113327026,
+            "z": 1.948163628578186
+          },
+          {
+            "x": -1.271339774131775,
+            "z": 1.948163628578186
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Paint Roller",
+      "involvementType": "grasp",
+      "usage": "This paint roller serves as a painting tool",
+      "inertia": "User should feel moderate weight with a slight top-heavy feel.",
+      "interactivity": "",
+      "outline": "User should feel a slim cylindrical shape (about 2 cm in diameter) while grip.",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.5714285373687744,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.4285714030265808,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.45",
+        "y": "0.08",
+        "z": "0.34"
+      },
+      "globalPosition": {
+        "x": -0.6039999723434448,
+        "y": 0.7540000677108765,
+        "z": 1.5950000286102295
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 69.69998931884766,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.5023864507675171,
+          "y": 0.7503515481948853,
+          "z": 1.6787614822387695
+        },
+        "size": {
+          "x": 0.4541053771972656,
+          "y": 0.07849758863449097,
+          "z": 0.3393775224685669
+        },
+        "min": {
+          "x": -0.7294391393661499,
+          "y": 0.7111027240753174,
+          "z": 1.5090727806091309
+        },
+        "max": {
+          "x": -0.2753337621688843,
+          "y": 0.7896003723144531,
+          "z": 1.8484501838684082
+        }
+      },
+      "bounds2D": {
+        "minX": -0.7294391393661499,
+        "maxX": -0.2753337621688843,
+        "minZ": 1.5090727806091309,
+        "maxZ": 1.8484501838684082,
+        "centerX": -0.5023864507675171,
+        "centerZ": 1.6787614822387695,
+        "width": 0.4541053771972656,
+        "depth": 0.3393775224685669,
+        "corners": [
+          {
+            "x": -0.7284154891967773,
+            "z": 1.7033913135528564
+          },
+          {
+            "x": -0.6236221790313721,
+            "z": 1.4200984239578247
+          },
+          {
+            "x": -0.24200421571731567,
+            "z": 1.5612632036209106
+          },
+          {
+            "x": -0.34679746627807617,
+            "z": 1.844556212425232
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Table 01",
+      "involvementType": "pedestal",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "1.55",
+        "y": "0.73",
+        "z": "0.72"
+      },
+      "globalPosition": {
+        "x": -0.5699999332427979,
+        "y": -0.003999918699264526,
+        "z": 1.6729999780654907
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.5700257420539856,
+          "y": 0.3539081811904907,
+          "z": 1.67313551902771
+        },
+        "size": {
+          "x": 1.55208420753479,
+          "y": 0.7283309102058411,
+          "z": 0.724677562713623
+        },
+        "min": {
+          "x": -1.3460679054260254,
+          "y": -0.01025727391242981,
+          "z": 1.3107967376708984
+        },
+        "max": {
+          "x": 0.20601636171340942,
+          "y": 0.7180736064910889,
+          "z": 2.0354743003845215
+        }
+      },
+      "bounds2D": {
+        "minX": -1.3460679054260254,
+        "maxX": 0.20601636171340942,
+        "minZ": 1.3107967376708984,
+        "maxZ": 2.0354743003845215,
+        "centerX": -0.5700257420539856,
+        "centerZ": 1.67313551902771,
+        "width": 1.55208420753479,
+        "depth": 0.724677562713623,
+        "corners": [
+          {
+            "x": -1.3460679054260254,
+            "z": 1.3107967376708984
+          },
+          {
+            "x": 0.20601630210876465,
+            "z": 1.3107967376708984
+          },
+          {
+            "x": 0.20601630210876465,
+            "z": 2.0354743003845215
+          },
+          {
+            "x": -1.3460679054260254,
+            "z": 2.0354743003845215
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Table 02",
+      "involvementType": "pedestal",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "1.25",
+        "y": "0.73",
+        "z": "1.71"
+      },
+      "globalPosition": {
+        "x": 0.6370000243186951,
+        "y": -0.003999918699264526,
+        "z": -0.17400002479553223
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 111.99998474121094,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.6371353268623352,
+          "y": 0.3539081811904907,
+          "z": -0.17402686178684235
+        },
+        "size": {
+          "x": 1.253330111503601,
+          "y": 0.7283309102058411,
+          "z": 1.7105363607406616
+        },
+        "min": {
+          "x": 0.010470271110534668,
+          "y": -0.01025727391242981,
+          "z": -1.0292950868606567
+        },
+        "max": {
+          "x": 1.2638003826141357,
+          "y": 0.7180736064910889,
+          "z": 0.6812413334846497
+        }
+      },
+      "bounds2D": {
+        "minX": 0.010470271110534668,
+        "maxX": 1.2638003826141357,
+        "minZ": -1.0292950868606567,
+        "maxZ": 0.6812413334846497,
+        "centerX": 0.6371353268623352,
+        "centerZ": -0.17402686178684235,
+        "width": 1.253330111503601,
+        "depth": 1.7105363607406616,
+        "corners": [
+          {
+            "x": 0.5918910503387451,
+            "z": 0.6812412738800049
+          },
+          {
+            "x": 0.010470330715179443,
+            "z": -0.7578260898590088
+          },
+          {
+            "x": 0.6823796629905701,
+            "z": -1.0292949676513672
+          },
+          {
+            "x": 1.2638003826141357,
+            "z": 0.4097723960876465
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Box Pile 01",
+      "involvementType": "pedestal",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.61",
+        "y": "0.72",
+        "z": "0.67"
+      },
+      "globalPosition": {
+        "x": -0.875999927520752,
+        "y": 0.37800005078315735,
+        "z": 0.8240000009536743
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 245.1999969482422,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.8802081346511841,
+          "y": 0.3628751039505005,
+          "z": 0.8221431970596313
+        },
+        "size": {
+          "x": 0.6103919148445129,
+          "y": 0.7185200452804565,
+          "z": 0.6661536693572998
+        },
+        "min": {
+          "x": -1.1854040622711182,
+          "y": 0.003615081310272217,
+          "z": 0.48906636238098145
+        },
+        "max": {
+          "x": -0.57501220703125,
+          "y": 0.7221351265907288,
+          "z": 1.1552200317382812
+        }
+      },
+      "bounds2D": {
+        "minX": -1.1854040622711182,
+        "maxX": -0.57501220703125,
+        "minZ": 0.48906636238098145,
+        "maxZ": 1.1552200317382812,
+        "centerX": -0.8802081346511841,
+        "centerZ": 0.8221431970596313,
+        "width": 0.6103919148445129,
+        "depth": 0.6661536693572998,
+        "corners": [
+          {
+            "x": -0.5987702012062073,
+            "z": 0.648699164390564
+          },
+          {
+            "x": -0.8298385143280029,
+            "z": 1.1487765312194824
+          },
+          {
+            "x": -1.1574249267578125,
+            "z": 0.9974102973937988
+          },
+          {
+            "x": -0.9263566732406616,
+            "z": 0.49733293056488037
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Cardboard Box",
+      "involvementType": "surroundings",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.40",
+        "y": "0.31",
+        "z": "0.49"
+      },
+      "globalPosition": {
+        "x": 0.8809999823570251,
+        "y": 0.871999979019165,
+        "z": 0.23800000548362732
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 84.4000015258789,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.8809981346130371,
+          "y": 0.8720000386238098,
+          "z": 0.2380313277244568
+        },
+        "size": {
+          "x": 0.3999793529510498,
+          "y": 0.3098001182079315,
+          "z": 0.491653710603714
+        },
+        "min": {
+          "x": 0.6810084581375122,
+          "y": 0.7170999646186829,
+          "z": -0.0077955275774002075
+        },
+        "max": {
+          "x": 1.080987811088562,
+          "y": 1.026900053024292,
+          "z": 0.4838581681251526
+        }
+      },
+      "bounds2D": {
+        "minX": 0.6810084581375122,
+        "maxX": 1.080987811088562,
+        "minZ": -0.0077955275774002075,
+        "maxZ": 0.4838581681251526,
+        "centerX": 0.8809981346130371,
+        "centerZ": 0.2380313277244568,
+        "width": 0.3999793529510498,
+        "depth": 0.491653710603714,
+        "corners": [
+          {
+            "x": 0.6668182611465454,
+            "z": 0.45764195919036865
+          },
+          {
+            "x": 0.7135531902313232,
+            "z": -0.018998146057128906
+          },
+          {
+            "x": 1.095178246498108,
+            "z": 0.018420487642288208
+          },
+          {
+            "x": 1.04844331741333,
+            "z": 0.49506059288978577
+          }
+        ]
+      }
+    }
+  ],
+  "relationshipAnnotations": [
+    {
+      "contactObject": "Paint Brush",
+      "substrateObject": "Easel",
+      "annotationText": "Oil paint on a large size canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    },
+    {
+      "contactObject": "Round Mallet",
+      "substrateObject": "Chisel",
+      "annotationText": "Using the mallet to strike the chisel. Sharp, high-amplitude jolt"
+    },
+    {
+      "contactObject": "Chisel",
+      "substrateObject": "Stone Tablet",
+      "annotationText": "The chisel hits against the rigid stone tablet. Firm steady upward resistance"
+    }
+  ],
+  "groups": [
+    {
+      "title": "Paint Tools",
+      "objectNames": [
+        "Tube",
+        "Paint Brush",
+        "Box Pile 01"
+      ],
+      "pedestal": "Box Pile 01",
+      "additionalViewAngles": [
+        "StreamingAssets/Export/Arrangement_Paint_Tools_20251122_151832_angle0.png",
+        "StreamingAssets/Export/Arrangement_Paint_Tools_20251122_151832_angle1.png",
+        "StreamingAssets/Export/Arrangement_Paint_Tools_20251122_151832_angle2.png"
+      ]
+    },
+    {
+      "title": "Table Top 01",
+      "objectNames": [
+        "Stone Tablet",
+        "Table 01",
+        "Paint Roller",
+        "Spray Can"
+      ],
+      "pedestal": "Table 01",
+      "additionalViewAngles": [
+        "StreamingAssets/Export/Arrangement_Table_Top_01_20251122_151832_angle0.png",
+        "StreamingAssets/Export/Arrangement_Table_Top_01_20251122_151832_angle1.png",
+        "StreamingAssets/Export/Arrangement_Table_Top_01_20251122_151832_angle2.png"
+      ]
+    },
+    {
+      "title": "Table Top 02",
+      "objectNames": [
+        "Round Mallet",
+        "Chisel",
+        "Table 02"
+      ],
+      "pedestal": "Table 02",
+      "additionalViewAngles": [
+        "StreamingAssets/Export/Arrangement_Table_Top_02_20251122_151832_angle0.png",
+        "StreamingAssets/Export/Arrangement_Table_Top_02_20251122_151832_angle1.png",
+        "StreamingAssets/Export/Arrangement_Table_Top_02_20251122_151832_angle2.png"
+      ]
+    }
+  ],
+  "virtualEnvironmentBounds": {
+    "center": {
+      "x": -0.5707758665084839,
+      "y": 0.7789483070373535,
+      "z": 0.5030895471572876
+    },
+    "size": {
+      "x": 4.66915225982666,
+      "y": 2.578411102294922,
+      "z": 4.064769268035889
+    },
+    "min": {
+      "x": -2.9053521156311035,
+      "y": -0.5102572441101074,
+      "z": -1.5292950868606567
+    },
+    "max": {
+      "x": 1.7638002634048462,
+      "y": 2.0681538581848145,
+      "z": 2.5354743003845215
+    },
+    "footprint2D": {
+      "minX": -2.9053521156311035,
+      "maxX": 1.7638002634048462,
+      "minZ": -1.5292950868606567,
+      "maxZ": 2.5354743003845215,
+      "centerX": -0.5707758665084839,
+      "centerZ": 0.5030895471572876,
+      "width": 4.66915225982666,
+      "depth": 4.064769268035889,
+      "corners": []
+    }
+  },
+  "virtualEnvironmentCenter": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

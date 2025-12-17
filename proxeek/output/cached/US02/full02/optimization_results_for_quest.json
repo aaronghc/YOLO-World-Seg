@@ -1,0 +1,48 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Canvas",
+      "proxyObjectName": "green Lay's Sour Cream & Onion potato chip bag",
+      "utilizationMethod": "Lay the sealed chip bag flat on the desk, smoothing it with one hand; paint strokes over the slightly cushioned, crinkly plastic surface with the chopstick tip."
+    },
+    {
+      "virtualObjectName": "Brush",
+      "proxyObjectName": "pair of light wood chopsticks",
+      "utilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush"
+    },
+    {
+      "virtualObjectName": "Camera",
+      "proxyObjectName": "white and gray camouflage-patterned game controller",
+      "utilizationMethod": "Wrap the right hand around the right-side grip, rest the index finger on the front trigger, lift the controller to eye level, and squeeze the trigger for each shutter press"
+    },
+    {
+      "virtualObjectName": "Valve",
+      "proxyObjectName": "black hard-shell suitcase with top handle",
+      "utilizationMethod": "Stand behind the suitcase, grip the left edge with the left hand and the right edge with the right hand, tilt and rotate the suitcase body 90 degrees as though cranking a large wheel"
+    },
+    {
+      "virtualObjectName": "Common Pleco",
+      "proxyObjectName": "black wireless computer mouse",
+      "utilizationMethod": "Place two fingertips on the mouse\u2019s domed surface and glide them from the peak toward the front buttons"
+    },
+    {
+      "virtualObjectName": "Big Red Button",
+      "proxyObjectName": "clear disposable plastic cup",
+      "utilizationMethod": "Place your palm flat on the rim and press down to buckle the cup wall inward for travel"
+    },
+    {
+      "virtualObjectName": "Keyboard",
+      "proxyObjectName": "blue upholstered two-seat bench",
+      "utilizationMethod": "Stand beside the bench and tap fingertips across the taut seat back fabric in a horizontal line (not sure whether it is applicable)"
+    }
+  ],
+  "pinPoint": [
+    -0.276286125,
+    -1.1920929e-07,
+    0.2881292073291738
+  ],
+  "rotationAngle": -29.999999999999996,
+  "timestamp": "e5f5db7a-f15d-4c31-92da-4be169411d89",
+  "total_assignments": 7
+}

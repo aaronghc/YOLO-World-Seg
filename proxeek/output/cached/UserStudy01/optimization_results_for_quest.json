@@ -1,0 +1,73 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "acoustic dreadnought guitar with natural wood finish and black pickguard",
+      "utilizationMethod": "Grip the neck near its midpoint and swing the lower bout forward to tap an imaginary nail (not sure whether it is applicable)"
+    },
+    {
+      "virtualObjectName": "Lightsaber",
+      "proxyObjectName": "white modern desk lamp with circular base",
+      "utilizationMethod": "Wrap your hand around the vertical stem just above the base and move it in slashing motions"
+    },
+    {
+      "virtualObjectName": "Gold Bar",
+      "proxyObjectName": "small purple neoprene dumbbell",
+      "utilizationMethod": "Grip the handle in the middle with a firm wrap of fingers and thumb, then lift and rotate it in the air"
+    },
+    {
+      "virtualObjectName": "Double Slider",
+      "proxyObjectName": "rolled-up white paper tube",
+      "utilizationMethod": "Hold the tube near its midpoint with a power grip and move it forward and backward in a single straight path while keeping it pressed lightly against the tabletop"
+    },
+    {
+      "virtualObjectName": "Canvas",
+      "proxyObjectName": "green bag of Lay\u2019s Sour Cream & Onion chips",
+      "utilizationMethod": "Lay the unopened bag flat on the table, logo side up. Smooth the surface with your palm, then glide the straw tip across the taut plastic front."
+    },
+    {
+      "virtualObjectName": "Brush",
+      "proxyObjectName": "bamboo drinking straw lying diagonally",
+      "utilizationMethod": "Grip the straw near its midpoint with thumb, index, and middle finger and execute delicate strokes identical to a paintbrush handle"
+    },
+    {
+      "virtualObjectName": "Dropper",
+      "proxyObjectName": "clear plastic drinking cup",
+      "utilizationMethod": "Pinch the cup\u2019s rim between thumb and index finger and squeeze the thin plastic wall until it flexes inward, then release to let it spring back"
+    },
+    {
+      "virtualObjectName": "Slime",
+      "proxyObjectName": "blue upholstered two-seater sofa with black metal armrests",
+      "utilizationMethod": "Press palm into the seat cushion and release to feel the rebound"
+    },
+    {
+      "virtualObjectName": "Camera",
+      "proxyObjectName": "gray and white camouflage-patterned game controller",
+      "utilizationMethod": "Wrap the right hand around the controller\u2019s right grip and rest the index finger on the right trigger; squeeze and release the trigger for each shutter activation"
+    },
+    {
+      "virtualObjectName": "Valve",
+      "proxyObjectName": "light gray round dinner plate",
+      "utilizationMethod": "Place both palms on opposite edges of the plate rim and turn the plate 90\u00b0 while keeping it parallel to the table surface"
+    },
+    {
+      "virtualObjectName": "Common Pleco",
+      "proxyObjectName": "yellow ripe banana",
+      "utilizationMethod": "With one hand resting palm-down on the tabletop, glide fingertips along the banana\u2019s outer curve from tip toward stem, then back again in a single continuous stroke"
+    },
+    {
+      "virtualObjectName": "Big Red Button",
+      "proxyObjectName": "black ribbed hard-shell suitcase",
+      "utilizationMethod": "Rest your palm on the suitcase\u2019s spring-loaded carry handle and press downward until the handle seats against the case"
+    }
+  ],
+  "pinPoint": [
+    -0.219385624,
+    5.96046448e-08,
+    -0.10300533151372893
+  ],
+  "rotationAngle": -20.0,
+  "timestamp": "e80990dd-5e52-433c-b8ce-6aae32d15f4c",
+  "total_assignments": 12
+}

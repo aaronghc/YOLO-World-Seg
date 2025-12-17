@@ -1,0 +1,73 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "purple neoprene-coated dumbbell",
+      "utilizationMethod": "Grip the handle close to one weight plate and swing the opposite plate downward to strike the target"
+    },
+    {
+      "virtualObjectName": "Lightsaber",
+      "proxyObjectName": "clear glass pepper grinder with a black lid",
+      "utilizationMethod": "Wrap your hand around the main cylindrical body just below the black lid and swing it like a compact lightsaber hilt"
+    },
+    {
+      "virtualObjectName": "Gold Bar",
+      "proxyObjectName": "small green potted plant in a ribbed yellow ceramic pot",
+      "utilizationMethod": "Spread fingers around the pot\u2019s ribbed wall, squeeze gently, and lift the pot upward"
+    },
+    {
+      "virtualObjectName": "Double Slider",
+      "proxyObjectName": "black hard-shell suitcase with top handle",
+      "utilizationMethod": "Grab the suitcase\u2019s top handle with one hand and shove or tug the whole case in a straight line on the floor"
+    },
+    {
+      "virtualObjectName": "Canvas",
+      "proxyObjectName": "blue upholstered bench seat with black metal frame",
+      "utilizationMethod": "Stand beside the bench and brush along a flat section of the taut blue upholstery on the seat cushion"
+    },
+    {
+      "virtualObjectName": "Brush",
+      "proxyObjectName": "teal toothbrush with white bristles",
+      "utilizationMethod": "Grip the handle at mid-shaft with a precision grip and use the bristle end to execute fine wrist-driven painting motions"
+    },
+    {
+      "virtualObjectName": "Dropper",
+      "proxyObjectName": "green Lay's sour cream & onion potato chips bag, partially opened",
+      "utilizationMethod": "Hold a loose section of the bag between thumb and middle finger and squeeze it repeatedly with the index fingertip to crinkle and release"
+    },
+    {
+      "virtualObjectName": "Camera",
+      "proxyObjectName": "Arduino Uno microcontroller board with USB connector",
+      "utilizationMethod": "Pinch the board\u2019s sides so the thumb supports the back; press the index fingertip onto the small tactile reset button for each shutter click"
+    },
+    {
+      "virtualObjectName": "Valve",
+      "proxyObjectName": "white minimalist desk lamp with red cord",
+      "utilizationMethod": "Place one hand on the horizontal bar and the other on the vertical post, then rotate the horizontal bar downward or upward about 90\u00b0 around the post to simulate valve turning"
+    },
+    {
+      "virtualObjectName": "Common Pleco",
+      "proxyObjectName": "6-string cutaway acoustic guitar with light wood top and red sides",
+      "utilizationMethod": "Slide your palm lightly along the smooth, curved side of the guitar\u2019s body from the lower bout toward the neck"
+    },
+    {
+      "virtualObjectName": "Big Red Button",
+      "proxyObjectName": "wireless game controller with gray camouflage pattern",
+      "utilizationMethod": "Turn the controller so its buttons face upward, rest your palm over the button cluster, and press downward clicking the underlying buttons"
+    },
+    {
+      "virtualObjectName": "Slime",
+      "proxyObjectName": "ripe yellow banana",
+      "utilizationMethod": "Cup the banana in one hand, squeeze gently along its length, and run your thumb along the peel"
+    }
+  ],
+  "pinPoint": [
+    0.07899664442305471,
+    0.0,
+    0.2871410925769453
+  ],
+  "rotationAngle": -10.0,
+  "timestamp": "5ab2cab0-66ac-44fa-89a1-6eae59c87c06",
+  "total_assignments": 12
+}

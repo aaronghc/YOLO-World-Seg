@@ -1,0 +1,500 @@
+[
+  {
+    "objectName": "Fork",
+    "involvementType": "grasp",
+    "usage": "This virtual fork would be used for dining activities",
+    "inertia": "A fork is relatively lightweight but has some mass.",
+    "interactivity": "",
+    "outline": "User should feel a flat and elongated shape about 0.8-1 inch wide, and roughly 2-3mm thick.",
+    "texture": "User should feel the surface as smooth and polished like stainless steel.",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.3809524178504944,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3809524178504944,
+    "textureValue": 0.2380952537059784,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.02",
+      "y": "0.01",
+      "z": "0.16"
+    },
+    "globalPosition": {
+      "x": 0.11764974892139435,
+      "y": 0.8063603639602661,
+      "z": 0.7765419483184814
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 269.3441162109375,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": 0.11764973402023315,
+        "y": 0.8065254092216492,
+        "z": 0.7765427827835083
+      },
+      "size": {
+        "x": 0.021540090441703796,
+        "y": 0.009916548617184162,
+        "z": 0.16347965598106384
+      },
+      "min": {
+        "x": 0.10687968879938126,
+        "y": 0.8015671372413635,
+        "z": 0.6948029398918152
+      },
+      "max": {
+        "x": 0.12841978669166565,
+        "y": 0.8114836812019348,
+        "z": 0.8582826256752014
+      }
+    },
+    "bounds2D": {
+      "minX": 0.10687968879938126,
+      "maxX": 0.12841978669166565,
+      "minZ": 0.6948029398918152,
+      "maxZ": 0.8582826256752014,
+      "centerX": 0.11764973402023315,
+      "centerZ": 0.7765427827835083,
+      "width": 0.021540090441703796,
+      "depth": 0.16347965598106384,
+      "corners": [
+        {
+          "x": 0.1087486743927002,
+          "z": 0.69480299949646
+        },
+        {
+          "x": 0.10687968879938126,
+          "z": 0.8580573797225952
+        },
+        {
+          "x": 0.1265507936477661,
+          "z": 0.8582825660705566
+        },
+        {
+          "x": 0.12841977179050446,
+          "z": 0.6950281858444214
+        }
+      ]
+    },
+    "interactionDeduction": "Users will pick up the fork by its handle using a precision or small-diameter power grip: the thumb and index finger pinch the narrow, flat handle while the remaining fingers curl for support. During eating, the wrist performs pitch adjustments of \u00b130\u201340\u00b0 to spear food with the tines (downward thrusts followed by lift). For scooping or transferring food, the fork may be pronated/supinated a few degrees. The object offers light inertia\u2014once lifted, it tracks hand motion closely with negligible lag. The flat metal handle transmits a cool, rigid feel; its edges are perceptible but lightly rounded, letting users register a thin (\u22482\u20133 mm), 16 cm-long outline. The tines provide very small contact points felt when fingers slide forward. The fork itself remains rigid and unmoving in response to typical table-force loads; only the user\u2019s arm supplies motion."
+  },
+  {
+    "objectName": "Knife",
+    "involvementType": "grasp",
+    "usage": "This virtual knife would be used for dining activities",
+    "inertia": "A knife is relatively lightweight but has some mass.",
+    "interactivity": "",
+    "outline": "User should feel a flat and elongated shape about 0.8-1 inch wide, and roughly 2-3mm thick.",
+    "texture": "User should feel the surface as smooth and polished like stainless steel.",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.3809524178504944,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3809524178504944,
+    "textureValue": 0.2380952537059784,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.02",
+      "y": "0.00",
+      "z": "0.17"
+    },
+    "globalPosition": {
+      "x": 0.47004956007003784,
+      "y": 0.8020603656768799,
+      "z": 0.7834422588348389
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 269.3441162109375,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": 0.47004956007003784,
+        "y": 0.8020603656768799,
+        "z": 0.7834422588348389
+      },
+      "size": {
+        "x": 0.020420527085661888,
+        "y": 0.0032177502289414406,
+        "z": 0.16783125698566437
+      },
+      "min": {
+        "x": 0.4598392844200134,
+        "y": 0.8004515171051025,
+        "z": 0.6995266079902649
+      },
+      "max": {
+        "x": 0.48025983572006226,
+        "y": 0.8036692142486572,
+        "z": 0.8673579096794128
+      }
+    },
+    "bounds2D": {
+      "minX": 0.4598392844200134,
+      "maxX": 0.48025983572006226,
+      "minZ": 0.6995266079902649,
+      "maxZ": 0.8673579096794128,
+      "centerX": 0.47004956007003784,
+      "centerZ": 0.7834422588348389,
+      "width": 0.020420527085661888,
+      "depth": 0.16783125698566437,
+      "corners": [
+        {
+          "x": 0.46175825595855713,
+          "z": 0.6995266675949097
+        },
+        {
+          "x": 0.4598392844200134,
+          "z": 0.8671461343765259
+        },
+        {
+          "x": 0.47834086418151855,
+          "z": 0.8673578500747681
+        },
+        {
+          "x": 0.48025983572006226,
+          "z": 0.6997383832931519
+        }
+      ]
+    },
+    "interactionDeduction": "The knife is grasped by its handle with a precision\u2013power hybrid grip: thumb and index finger pinch either side of the handle\u2019s mid-section while the remaining fingers wrap underneath. For spreading butter, users apply moderate downward force and execute short lateral strokes; for cutting soft food they add a shallow sawing motion (2\u20134 cm fore\u2013aft). Wrist stays neutral with slight ulnar/radial deviation. In response, the knife offers low inertia but enough length (17 cm) that users feel a moment arm; the flat blade transmits a cool, polished, hard sensation and does not deform. Edge contact with the plate gives audible/force feedback but the knife itself moves exactly with the hand, providing no active resistance except minimal drag from food substance."
+  },
+  {
+    "objectName": "Spoon",
+    "involvementType": "grasp",
+    "usage": "This virtual spoon would be used for dining activities",
+    "inertia": "A spoon is relatively lightweight but has some mass.",
+    "interactivity": "",
+    "outline": "User should feel a flat and elongated shape about 0.8-1 inch wide, and roughly 2-3mm thick.",
+    "texture": "User should feel the surface as smooth and polished like stainless steel.",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.3809524178504944,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3809524178504944,
+    "textureValue": 0.2380952537059784,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.08",
+      "y": "0.02",
+      "z": "0.16"
+    },
+    "globalPosition": {
+      "x": -0.06345014274120331,
+      "y": 0.8046603202819824,
+      "z": 0.7672421932220459
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 251.16400146484375,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": -0.06326878815889359,
+        "y": 0.8096156716346741,
+        "z": 0.7667105793952942
+      },
+      "size": {
+        "x": 0.08060090243816376,
+        "y": 0.01614949479699135,
+        "z": 0.16368450224399567
+      },
+      "min": {
+        "x": -0.10356923937797546,
+        "y": 0.8015409111976624,
+        "z": 0.684868335723877
+      },
+      "max": {
+        "x": -0.022968336939811707,
+        "y": 0.8176904320716858,
+        "z": 0.8485528230667114
+      }
+    },
+    "bounds2D": {
+      "minX": -0.10356923937797546,
+      "maxX": -0.022968336939811707,
+      "minZ": 0.684868335723877,
+      "maxZ": 0.8485528230667114,
+      "centerX": -0.06326878815889359,
+      "centerZ": 0.7667105793952942,
+      "width": 0.08060090243816376,
+      "depth": 0.16368450224399567,
+      "corners": [
+        {
+          "x": -0.05099288374185562,
+          "z": 0.684868335723877
+        },
+        {
+          "x": -0.022968340665102005,
+          "z": 0.6944282054901123
+        },
+        {
+          "x": -0.07554469257593155,
+          "z": 0.8485527038574219
+        },
+        {
+          "x": -0.10356923937797546,
+          "z": 0.8389928340911865
+        }
+      ]
+    },
+    "interactionDeduction": "The spoon\u2019s handle is held between thumb and index finger (pencil-like) or with a small power grip when scooping heavier contents. Users dip the bowl into food with a downward pitch of ~45\u00b0, then supinate the wrist to level the bowl, lift vertically, and finally tilt ~90\u00b0 toward the mouth for delivery. The oval bowl (\u22488 cm long) gives fingertip confirmation of orientation when fingers slide forward. The spoon feels smooth, cool, rigid; inertia is minimal, though filled liquid imparts perceived extra mass that the user compensates for by subtle grip tightening. The spoon itself does not change shape; visual/aural cues convey liquid flow when tilted."
+  },
+  {
+    "objectName": "Teapot",
+    "involvementType": "grasp",
+    "usage": "Pouring tea",
+    "inertia": "Moderate mass (500-700g). Center-of-gravity shifts outwards, creating downward torque that the wrist must counteract. ",
+    "interactivity": "",
+    "outline": "Curved handle.",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.4166666567325592,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5833333134651184,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.17",
+      "y": "0.15",
+      "z": "0.28"
+    },
+    "globalPosition": {
+      "x": -0.11900000274181366,
+      "y": 0.7994999885559082,
+      "z": 1.1709682941436768
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 90.00000762939453,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": -0.11912757158279419,
+        "y": 0.8754831552505493,
+        "z": 1.1738581657409668
+      },
+      "size": {
+        "x": 0.17299628257751465,
+        "y": 0.153486430644989,
+        "z": 0.27707117795944214
+      },
+      "min": {
+        "x": -0.2056257128715515,
+        "y": 0.7987399101257324,
+        "z": 1.0353225469589233
+      },
+      "max": {
+        "x": -0.032629430294036865,
+        "y": 0.9522264003753662,
+        "z": 1.3123937845230103
+      }
+    },
+    "bounds2D": {
+      "minX": -0.2056257128715515,
+      "maxX": -0.032629430294036865,
+      "minZ": 1.0353225469589233,
+      "maxZ": 1.3123937845230103,
+      "centerX": -0.11912757158279419,
+      "centerZ": 1.1738581657409668,
+      "width": 0.17299628257751465,
+      "depth": 0.27707117795944214,
+      "corners": [
+        {
+          "x": -0.03262944519519806,
+          "z": 1.3123936653137207
+        },
+        {
+          "x": -0.032629504799842834,
+          "z": 1.0353225469589233
+        },
+        {
+          "x": -0.20562569797039032,
+          "z": 1.035322666168213
+        },
+        {
+          "x": -0.20562563836574554,
+          "z": 1.3123937845230103
+        }
+      ]
+    },
+    "interactionDeduction": "Users approach with a power grip around the curved handle\u2014fingers wrap from inside to outside while the thumb braces atop or opposite the fingers. For heavier fill levels, the non-dominant hand may steady the lid knob. To pour, the elbow lifts, the wrist extends and pronates, creating a controlled forward rotation of ~90\u00b0 about the handle axis. The teapot exerts noticeable downward torque that increases with fill level; as liquid exits the spout, the torque progressively lessens, giving a dynamic shift in perceived center of gravity. Surface is ceramic-smooth, rigid, and initially warm if pre-heated. The pot remains rigid; its spout dispenses a stream that visually responds to tilt, but haptically the user only feels weight change and slight sloshing inertia lag inside the vessel."
+  },
+  {
+    "objectName": "Salt",
+    "involvementType": "grasp",
+    "usage": "This virtual salt shaker would be used for seasoning food",
+    "inertia": "User should feel light weight with little angular momentum during shaking ",
+    "interactivity": "",
+    "outline": "Users should feel the fitted diameter when gripped",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.3636363744735718,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.6363636255264282,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.04",
+      "y": "0.07",
+      "z": "0.04"
+    },
+    "globalPosition": {
+      "x": 0.39627236127853394,
+      "y": 0.8025000095367432,
+      "z": 0.9595682621002197
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": 0.39627236127853394,
+        "y": 0.8344036936759949,
+        "z": 0.9591562747955322
+      },
+      "size": {
+        "x": 0.04068533703684807,
+        "y": 0.06987857818603516,
+        "z": 0.04068532586097717
+      },
+      "min": {
+        "x": 0.37592968344688416,
+        "y": 0.7994644045829773,
+        "z": 0.9388136267662048
+      },
+      "max": {
+        "x": 0.4166150391101837,
+        "y": 0.8693429827690125,
+        "z": 0.9794989228248596
+      }
+    },
+    "bounds2D": {
+      "minX": 0.37592968344688416,
+      "maxX": 0.4166150391101837,
+      "minZ": 0.9388136267662048,
+      "maxZ": 0.9794989228248596,
+      "centerX": 0.39627236127853394,
+      "centerZ": 0.9591562747955322,
+      "width": 0.04068533703684807,
+      "depth": 0.04068532586097717,
+      "corners": [
+        {
+          "x": 0.37592968344688416,
+          "z": 0.9794989824295044
+        },
+        {
+          "x": 0.37592968344688416,
+          "z": 0.9388135671615601
+        },
+        {
+          "x": 0.4166150391101837,
+          "z": 0.9388135671615601
+        },
+        {
+          "x": 0.4166150391101837,
+          "z": 0.9794989824295044
+        }
+      ]
+    },
+    "interactionDeduction": "The salt shaker is clasped with a small cylindrical power grip\u2014fingers wrap around the 4 cm diameter body while the thumb opposes. Users perform rapid wrist flexion/extension (\u224810\u201315 cm stroke) or small vertical shakes. Because mass is light, the object stops and starts almost instantaneously with the hand, giving minimal inertial lag; faint internal particle shifts may be heard rather than felt. The top surface with perforations occasionally contacts the index finger pad, confirming orientation. Haptically it feels rigid, cool glass or plastic with slight facets along the body. The shaker itself provides no active resistance; output (salt grains) is purely visual."
+  },
+  {
+    "objectName": "Pepper Grinder",
+    "involvementType": "grasp",
+    "usage": "Hand-held condiment mill",
+    "inertia": "",
+    "interactivity": "Users should feel continuous rotational resistance while twisting.",
+    "outline": "Users should feel convex curves while holding. Base width is about 5cm.",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.7499999403953552,
+    "outlineValue": 0.25,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.06",
+      "y": "0.17",
+      "z": "0.06"
+    },
+    "globalPosition": {
+      "x": 0.7008999586105347,
+      "y": 0.8033999800682068,
+      "z": 0.8429000377655029
+    },
+    "globalRotation": {
+      "x": 270.019775390625,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": 0.7008999586105347,
+        "y": 0.8873493671417236,
+        "z": 0.8436527848243713
+      },
+      "size": {
+        "x": 0.06042651832103729,
+        "y": 0.16997796297073364,
+        "z": 0.06042654067277908
+      },
+      "min": {
+        "x": 0.6706867218017578,
+        "y": 0.8023604154586792,
+        "z": 0.8134394884109497
+      },
+      "max": {
+        "x": 0.7311131954193115,
+        "y": 0.9723383188247681,
+        "z": 0.873866081237793
+      }
+    },
+    "bounds2D": {
+      "minX": 0.6706867218017578,
+      "maxX": 0.7311131954193115,
+      "minZ": 0.8134394884109497,
+      "maxZ": 0.873866081237793,
+      "centerX": 0.7008999586105347,
+      "centerZ": 0.8436527848243713,
+      "width": 0.06042651832103729,
+      "depth": 0.06042654067277908,
+      "corners": [
+        {
+          "x": 0.6706867218017578,
+          "z": 0.8738659620285034
+        },
+        {
+          "x": 0.7311131954193115,
+          "z": 0.8738659620285034
+        },
+        {
+          "x": 0.7311131954193115,
+          "z": 0.8134394884109497
+        },
+        {
+          "x": 0.6706867218017578,
+          "z": 0.8134394884109497
+        }
+      ]
+    },
+    "interactionDeduction": "Typical use is two-handed: the dominant hand grips the bulbous top using a precision grasp (thumb and fingertips on knob or upper dome) while the non-dominant hand anchors the lower body with a cylindrical power grip. Users perform alternating pronation/supination of the top hand (\u224860\u00b0 each direction) to grind. This twist cycle creates continuous but moderate rotational resistance that the fingers perceive as coarse, gritty friction; micro-vibrations accompany each internal gear click. The grinder\u2019s 17 cm length lets the lower palm detect convex curves for positional feedback. Overall inertia is low, but the required torque makes the interaction feel deliberate. The object remains rigid; only the top screw or knob visibly turns while ground pepper visually (and often audibly) falls, reinforcing successful action."
+  }
+]

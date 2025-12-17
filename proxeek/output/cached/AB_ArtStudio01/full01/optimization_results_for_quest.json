@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Easel",
+      "proxyObjectName": "office chair with black mesh back, black seat cushion, and armrests",
+      "utilizationMethod": "Stand beside the chair and use the broad mesh backrest as the drawing area, sweeping the pen across the slightly springy mesh for smooth resistance."
+    },
+    {
+      "virtualObjectName": "Tube",
+      "proxyObjectName": "yellow snack bag of Japanese pea crackers",
+      "utilizationMethod": "Pinch the sealed top edge with thumb and index finger, cradle the body of the bag in the remaining fingers, and squeeze the contents toward the bottom"
+    },
+    {
+      "virtualObjectName": "Spray Can",
+      "proxyObjectName": "transparent plastic umbrella with white curved handle",
+      "utilizationMethod": "Hold the straight shaft just below the curved handle and press the thumb onto the small release button on the shaft"
+    },
+    {
+      "virtualObjectName": "Round Mallet",
+      "proxyObjectName": "spray bottle with white nozzle and light blue liquid",
+      "utilizationMethod": "Wrap fingers around the neck beneath the trigger, let the filled bottle act as the head, and swing the base downward for strikes"
+    },
+    {
+      "virtualObjectName": "Chisel",
+      "proxyObjectName": "metal calibration weight labeled 'M 500g'",
+      "utilizationMethod": "Clasp the top knob between thumb and forefinger, allowing the cylindrical body to extend downward as the chisel shaft"
+    },
+    {
+      "virtualObjectName": "Paint Brush",
+      "proxyObjectName": "metallic ballpoint pen with a clear barrel",
+      "utilizationMethod": "Hold the pen in a standard tripod grip and glide its tip across a surface exactly as you would move a paint brush"
+    },
+    {
+      "virtualObjectName": "Stone Tablet",
+      "proxyObjectName": "Apple iMac desktop computer with silver aluminum stand",
+      "utilizationMethod": "Press the controller tip against the front edge of the solid aluminum stand while it remains stationary on the desk"
+    },
+    {
+      "virtualObjectName": "Paint Roller",
+      "proxyObjectName": "small succulent plant in a yellow ceramic pot",
+      "utilizationMethod": "Grip the rim of the pot, keep the flat pot bottom on the table, and push it gently forward and back over the surface (not sure whether it is applicable)"
+    }
+  ],
+  "pinPoint": [
+    0.6999096670299136,
+    -1.1920929e-07,
+    -0.6766725967598273
+  ],
+  "rotationAngle": -340.0,
+  "timestamp": "a8bfb29d-c62f-47c0-b5e2-8b06608710db",
+  "total_assignments": 8
+}

@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Fork",
+      "proxyObjectName": "stainless steel metal tweezers",
+      "utilizationMethod": "Pinch the closed legs of the tweezers near their midpoint so the narrow tips extend outward, then use those tips to jab or scoop with wrist motions"
+    },
+    {
+      "virtualObjectName": "Knife",
+      "proxyObjectName": "green round retractable measuring tape with partially extended beige tape",
+      "utilizationMethod": "Hold the plastic case like a handle, extend several centimetres of tape, keep it taut with a finger, and slide the flat tape edge forward in slicing motions"
+    },
+    {
+      "virtualObjectName": "Steak",
+      "proxyObjectName": "small bright orange tangerine",
+      "utilizationMethod": "Set the tangerine on the tabletop; drive the tweezer tips straight through the peel at the top center and into the fruit."
+    },
+    {
+      "virtualObjectName": "Spoon",
+      "proxyObjectName": "long metal flat-head screwdriver with a translucent red handle",
+      "utilizationMethod": "Grip the red handle with thumb on top and fingers below, point the flat metal tip forward, and move it in a shallow scooping path toward the mouth"
+    },
+    {
+      "virtualObjectName": "Soup",
+      "proxyObjectName": "gray fabric messenger bag with zipper pocket and adjustable shoulder strap",
+      "utilizationMethod": "Lay the bag flat with the fabric panel exposed; move the tip in circular paths over the canvas surface, letting it drag across the weave."
+    },
+    {
+      "virtualObjectName": "Teapot",
+      "proxyObjectName": "white plastic adjustable desk lamp with circular head",
+      "utilizationMethod": "Grip the vertical stem just above the base with one hand, lift the lamp slightly off the table, and rotate the circular head forward as though pouring tea"
+    },
+    {
+      "virtualObjectName": "Salt",
+      "proxyObjectName": "red Shin Ramyun instant noodle packet",
+      "utilizationMethod": "Pinch the top corner of the sealed packet between thumb and fingers and perform short wrist snaps so the contents shift audibly"
+    },
+    {
+      "virtualObjectName": "Pepper Grinder",
+      "proxyObjectName": "silver and black Olympus PEN film camera",
+      "utilizationMethod": "Support the camera body with the non-dominant hand; grasp the lens focusing ring with the dominant hand and rotate the ring continuously in alternating directions"
+    }
+  ],
+  "pinPoint": [
+    -1.1535081587922495,
+    0.0,
+    2.1041242515844996
+  ],
+  "rotationAngle": -90.0,
+  "timestamp": "0399409d-1bd3-41f6-a744-e8cdc4fd3c31",
+  "total_assignments": 8
+}

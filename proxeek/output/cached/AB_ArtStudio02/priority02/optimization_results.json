@@ -1,0 +1,158 @@
+{
+  "optimization_summary": {
+    "total_loss": -14.37693945642773,
+    "loss_components": {
+      "L_realism": -8.65862221436368,
+      "L_interaction": -10.830477996382662,
+      "L_spatial": 5.112160754318614,
+      "total": -14.37693945642773
+    },
+    "num_virtual_objects": 14,
+    "num_physical_objects": 23,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "gray fabric messenger bag with zipper pocket and adjustable shoulder strap",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 16
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the bag flat on the table so the largest fabric panel faces upward; sweep the tweezers across the fabric surface in broad strokes."
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 1,
+        "engagement_level": 0.7297020952254254,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "red Shin Ramyun instant noodle packet",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 8
+      },
+      "realism_score": 3.411764519910018,
+      "utilization_method": "Grip the center of the packet between thumb and fingers and squeeze the flexible bag, letting the contents shift while pressing from one end toward the other"
+    },
+    {
+      "virtual_object": {
+        "name": "Spray Can",
+        "index": 2,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "green round retractable measuring tape with partially extended beige tape",
+        "object_id": 4,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 4.897436012824377,
+      "utilization_method": "Hold the circular housing in the hand and repeatedly press the central round release button with the index finger"
+    },
+    {
+      "virtual_object": {
+        "name": "Round Mallet",
+        "index": 3,
+        "engagement_level": 3.2702979047745746,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "white plastic adjustable desk lamp with circular head",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 4.166666666666666,
+      "utilization_method": "Grasp the slim vertical stem just below the circular head with one hand, lift the lamp off the surface, and swing so the circular head leads the motion"
+    },
+    {
+      "virtual_object": {
+        "name": "Chisel",
+        "index": 4,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "long metal flat-head screwdriver with a translucent red handle",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 15
+      },
+      "realism_score": 4.166666666666667,
+      "utilization_method": "Grip the metal shaft just above the handle between thumb and first two fingers so the handle projects upward and the flat tip points downward, then rotate the shaft between fingertips"
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 7,
+        "engagement_level": 3.696567279915026,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "stainless steel metal tweezers",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 4.476190209388733,
+      "utilization_method": "Close the tips together, hold the blunt end like a pencil, and glide the closed tips across a surface in controlled strokes"
+    },
+    {
+      "virtual_object": {
+        "name": "Stone Tablet",
+        "index": 8,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "silver and black Olympus PEN film camera",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Set the camera flat with its metal top plate upward; target the solid lens cap area with the screwdriver tip while applying rotational pressure"
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 9,
+        "engagement_level": 0.3034327200849742,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "clear plastic water bottle with screw cap",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 4.8571425676345825,
+      "utilization_method": "Grip the neck of the bottle with your whole hand, hold it sideways so the bottle body sits above the hand, and perform rolling motions"
+    }
+  ]
+}

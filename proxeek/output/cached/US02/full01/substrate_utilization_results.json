@@ -1,0 +1,1802 @@
+[
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camouflage-patterned game controller",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the controller upside-down on a stable surface so the broad, gently-curved underside faces upward; glide the chopstick tip across this plastic shell, varying pressure while keeping strokes within the central flat area between the two hand-grips.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black rectangular media remote control",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the remote flat on the table with its button side facing up; brush the chopstick tip lightly over the button area, using the slight give of the rubber buttons to mimic paint resistance.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "clear disposable plastic cup",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the cup so its wide rim sits flat on the desk, creating a taut plastic surface; trace the chopstick tip around the bottom\u2019s circular plane, modulating pressure against the slightly flexible plastic.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "ripe yellow banana",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the banana on its side on the table to expose the soft curved peel; use the chopstick tip to make gentle strokes along the mid-section where the peel yields slightly under pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white minimalist desk lamp with round base and red cord accent",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Keep the lamp standing upright; use the smooth, flat top surface of the circular base as the contact zone, brushing the chopstick lightly over it while keeping hand movements within the base\u2019s diameter.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black wireless computer mouse",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the mouse upside-down so its smooth, slightly convex underside is exposed; glide the chopstick across this plastic curvature, applying gentle pressure while making small strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green Lay's Sour Cream & Onion potato chip bag",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the sealed chip bag flat on the desk, smoothing it with one hand; paint strokes over the slightly cushioned, crinkly plastic surface with the chopstick tip.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white folded paper airplane",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Rest the paper airplane flat on its wing surface; trace the chopstick along the paper\u2019s smooth, slightly flexible wing area, keeping pressure light to avoid tearing.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black rectangular desk surface",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Use any clear area of the desk; glide the chopstick tip directly on the broad, matte tabletop, varying stroke direction while maintaining steady, gentle contact.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black hard-shell suitcase with top handle",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the suitcase upright and rest its ridged front panel facing you; move the chopstick across the vertical ribbed surface, controlling pressure as you \u2018paint\u2019 over the grooves.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small wooden cabinet or side table",
+    "substrateObject_id": 2,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Use the flat wooden top of the cabinet as the painting surface; stand or sit beside it and brush the chopstick over the wood grain, adjusting force for stroke variation.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "gray round plate",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Lay the plate flat on the cabinet; work within the central flat zone, gliding the chopstick in circular or linear strokes while keeping the tip on the ceramic surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "purple dumbbell hand weight",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Set the dumbbell so one hexagonal end faces upward; paint on that flat rubber-coated face with short strokes, rotating the dumbbell if you need fresh area.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small succulent plant in a yellow ribbed pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Grip the pot firmly with the free hand; use the smooth outer rim of the pot just above the ridges as a circular painting zone, orbiting the chopstick tip around it.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black pepper grinder",
+    "substrateObject_id": 2,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Stand the grinder upright; stroke the chopstick around the cylindrical side surface, rolling the wrist to follow its curve while maintaining light contact.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "teal toothbrush with white bristles",
+    "substrateObject_id": 3,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Lay the toothbrush flat with bristles up; paint on the dense bristle field, pressing softly so they flex under the chopstick tip.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue Arduino Uno circuit board",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Flip the board so its smoother back side is up; place it on the desk and make short, controlled strokes across the flat PCB surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue upholstered two-seat bench",
+    "substrateObject_id": 1,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Sit beside the bench and use the taut fabric seat surface as a horizontal painting plane, moving the chopstick tip over the stretched upholstery.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green handheld leaf blower",
+    "substrateObject_id": 2,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Lay the blower on its side so the broad plastic casing forms a stable, slightly curved surface; brush the chopstick along this side panel, maintaining gentle pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "pair of light wood chopsticks",
+    "contactObject_id": 3,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Hold a single chopstick close to its thicker end in a pencil grip and move it as the virtual brush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "coil of green nylon rope",
+    "substrateObject_id": 3,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Place the coiled rope flat on the bench, pressing it to keep it from rolling; drag the chopstick across the bundled strands, following their gentle contour.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camouflage-patterned game controller",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Hold the controller in the non-dominant hand with its smooth underside facing upward and level, then glide the toothbrush bristles across that plastic surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black rectangular media remote control",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the remote flat on the desk with the back side upward to create a steady, hard surface and brush across that back panel",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "pair of light wood chopsticks",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the two chopsticks parallel on the table, about 2 cm apart and level, then stroke the brush bristles lengthwise across the upper surfaces of both sticks",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "clear disposable plastic cup",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the cup on the tabletop so the flat base is uppermost and brush over that circular base",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "ripe yellow banana",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the banana on its side on the desk so the outer peel forms a gentle arch; brush along the length of the peel\u2019s convex surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white minimalist desk lamp with round base and red cord accent",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Keep the lamp upright and use the flat circular metal base as the painting surface, brushing over its top face",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black wireless computer mouse",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Turn the mouse upside down so its smooth underside faces up, resting stably, and move the bristles over that surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green Lay's Sour Cream & Onion potato chip bag",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the unopened bag flat on the desk and hold one edge lightly with the non-dominant hand while brushing across the taut plastic surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white folded paper airplane",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the airplane flat on the table and stroke the bristles along one broad wing surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black rectangular desk surface",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Use the desk\u2019s flat top directly in front of you as the painting plane, brushing across that wide surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black hard-shell suitcase with top handle",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the suitcase upright and press one of its flat ribbed sides against a wall or your legs for stability, then brush over that vertical panel",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small wooden cabinet or side table",
+    "substrateObject_id": 2,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Use the cabinet\u2019s smooth top surface as a horizontal canvas, brushing anywhere on that tabletop",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "gray round plate",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Set the plate flat on the cabinet and brush around its upper ceramic face",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "purple dumbbell hand weight",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Rest the dumbbell upright on one flat end and paint across that exposed end face",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small succulent plant in a yellow ribbed pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the pot in the non-dominant hand so its ribbed ceramic side is vertical, then brush along that outer wall",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black pepper grinder",
+    "substrateObject_id": 2,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Stand the grinder upright and brush across its flat plastic top surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue Arduino Uno circuit board",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Lay the board component-side up on the table and use its flat PCB areas between components for light brushing strokes",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue upholstered two-seat bench",
+    "substrateObject_id": 1,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Sit or kneel beside the bench and brush over the flat fabric seat area",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green handheld leaf blower",
+    "substrateObject_id": 2,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Rest the blower horizontally on the bench, nozzle pointing away, and brush along the broad side of its housing",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "teal toothbrush with white bristles",
+    "contactObject_id": 3,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Grip the toothbrush handle in a precision grip and move it exactly like the paintbrush",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "coil of green nylon rope",
+    "substrateObject_id": 3,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Place the rope coil flat on the bench backrest and brush across the top layer of loops",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camouflage-patterned game controller",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Rest the controller upside-down on a stable surface so the smooth, slightly convex battery-cover side faces upward; glide the airplane\u2019s leading edge across this plastic back as your painting area.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black rectangular media remote control",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the remote flat on a table with the button side facing up; use the central area between the buttons as the painting zone while the raised rubber keys provide natural boundaries.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "pair of light wood chopsticks",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the two chopsticks parallel and touching each other on the table, forming a narrow track; brush the airplane tip lengthwise along the upper surface of one stick for controlled strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "clear disposable plastic cup",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the cup on a flat surface so the circular bottom becomes a small, firm pad; paint by sliding the airplane across this flat base or around the curved side wall.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "ripe yellow banana",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the banana on the desk with its outer curve facing upward; steady it lightly with your non-dominant hand and glide the airplane along the peel for elastic, gently compliant strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white minimalist desk lamp with round base and red cord accent",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Keep the lamp standing upright and use the flat, circular metal base as your canvas; move the airplane tip across this smooth disk for broad or circular strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black wireless computer mouse",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the mouse so its curved top shell faces upward; paint by sweeping the airplane over this domed plastic surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green Lay's Sour Cream & Onion potato chip bag",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the unopened chip bag flat on the desk; its air-filled, crinkly surface offers a soft pushback as you glide the airplane across it.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black rectangular desk surface",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Use any clear area of the desk\u2019s matte laminate top as a broad, stable canvas; perform strokes directly on this flat plane.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black hard-shell suitcase with top handle",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Set the suitcase upright and use its ribbed front panel as a vertical painting surface; trace the airplane tip along the grooves for varied stroke feel.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small wooden cabinet or side table",
+    "substrateObject_id": 2,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand in front of the cabinet and use the flat wooden top as your canvas, sweeping the airplane across its smooth grain.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "gray round plate",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Lay the plate flat on the cabinet; the smooth ceramic center becomes a circular painting field for radial or linear strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "purple dumbbell hand weight",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the dumbbell on one of its flat ends; use that rubberized circular face as a small, cushioned canvas for dabbing motions with the airplane tip.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small succulent plant in a yellow ribbed pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Use the ribbed ceramic outer wall of the pot as a vertical textured canvas; lightly brush the airplane along the grooves while stabilizing the pot with the other hand.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black pepper grinder",
+    "substrateObject_id": 2,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Stand the grinder upright and paint around its smooth cylindrical side by rotating the grinder slowly with your free hand while keeping the airplane tip in gentle contact.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "teal toothbrush with white bristles",
+    "substrateObject_id": 3,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Grip the toothbrush handle in your non-dominant hand with the bristle side facing away; use the flat back of the brush head as a tiny canvas, guiding the airplane tip over it for minute detailing.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue Arduino Uno circuit board",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Lay the circuit board flat on the desk with components facing up; paint by tracing the airplane along the smooth areas between the components for a varied tactile path.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue upholstered two-seat bench",
+    "substrateObject_id": 1,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Sit or stand beside the bench and use the taut fabric seat as a wide, slightly cushioned canvas; sweep the airplane across the upholstery surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green handheld leaf blower",
+    "substrateObject_id": 2,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Lay the blower horizontally on its side so the broad, flat housing near the motor faces upward; paint by moving the airplane along this plastic panel.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "white folded paper airplane",
+    "contactObject_id": 4,
+    "contactImage_id": 1,
+    "contactUtilizationMethod": "Hold the airplane by its pointed nose in a pencil grip and move it as the brush tip",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "coil of green nylon rope",
+    "substrateObject_id": 3,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Place the coiled rope flat on a table, pressing it down slightly so the strands stay compact; brush the airplane across the top of the coil to trace over its woven texture.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camouflage-patterned game controller",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the controller button-side down on a stable surface so its smooth underside is facing upward and level; glide the tip of the remote across this exposed plastic panel while making brush-like strokes",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "pair of light wood chopsticks",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Hold one chopstick horizontally with the non-dominant hand at chest height, presenting its long, smooth side as a narrow rail; brush the tip of the remote lightly back and forth along the chopstick\u2019s surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "clear disposable plastic cup",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the cup so its open rim rests on the table, creating a stable stand; use the slightly flexible bottom of the cup, now facing upward, as the contact area to stroke with the remote tip",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "ripe yellow banana",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the banana on a tabletop with its curved side uppermost; steady it lightly with the non-dominant hand and sweep the remote tip along the soft peel following the curve",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white minimalist desk lamp with round base and red cord accent",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Leave the lamp standing upright; use the vertical cylindrical stem as the substrate by brushing the remote tip up and down its smooth painted surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black wireless computer mouse",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Set the mouse flat and motionless on the desk with its curved top exposed; glide the remote tip over the arching plastic surface in small controlled strokes",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green Lay's Sour Cream & Onion potato chip bag",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the unopened chip bag flat on the desk so the air-filled surface is slightly puffed; brush the remote tip across the soft, yielding plastic top layer",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white folded paper airplane",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Pinch the tail of the paper airplane with the non-dominant hand so one wing lies flat and steady; use that single flat wing surface as a miniature canvas for light remote strokes",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black rectangular desk surface",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Use any clear area of the desk as a horizontal plane; perform brush strokes by sliding the remote tip over the desk\u2019s smooth laminate finish",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black hard-shell suitcase with top handle",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the suitcase upright and steady it against a wall; use the large ridged front panel as a vertical surface to sweep the remote tip across",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small wooden cabinet or side table",
+    "substrateObject_id": 2,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Use the flat wooden top of the cabinet as a waist-high horizontal plane; glide the remote tip across the smooth wood grain in painting motions",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "gray round plate",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the plate upright by leaning it against a vertical support so its broad ceramic face is accessible; paint across the center of this smooth circular surface with the remote tip",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "purple dumbbell hand weight",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Place the dumbbell upright on one of its flat ends; use that rubber-coated end as a small, slightly cushioned pad to dab and stroke with the remote tip",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small succulent plant in a yellow ribbed pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the pot steady on the desk; brush the remote tip gently over the ribbed ceramic exterior, moving vertically along the pot wall",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black pepper grinder",
+    "substrateObject_id": 2,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Stand the grinder upright; use the smooth cylindrical side as a vertical substrate, sweeping the remote tip around its curved surface",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "teal toothbrush with white bristles",
+    "substrateObject_id": 3,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Hold the toothbrush handle so the bristle head faces upward and level; sweep the remote tip lightly across the bristle tips to simulate paint application",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue Arduino Uno circuit board",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Place the board flat on the desk with component side up; use the top surface as a small rigid canvas, guiding the remote tip over the board\u2019s flat sections between components",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue upholstered two-seat bench",
+    "substrateObject_id": 1,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Kneel beside the bench and use its taut fabric seat as a horizontal pad; sweep the remote tip across the stretched upholstery for each stroke",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green handheld leaf blower",
+    "substrateObject_id": 2,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Stand the blower upright on its nozzle so the broad motor housing is vertical and steady; brush the remote tip across the smooth side casing",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black rectangular media remote control",
+    "contactObject_id": 2,
+    "contactImage_id": 0,
+    "contactUtilizationMethod": "Grip the narrow bottom end of the remote between thumb and index finger while resting it lightly against the middle finger, then perform brush-like strokes",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "coil of green nylon rope",
+    "substrateObject_id": 3,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Place the coiled rope on the table and flatten the top loops slightly with the palm to create a broad, springy surface; glide the remote tip over the nylon strands in gentle strokes",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white and gray camouflage-patterned game controller",
+    "substrateObject_id": 1,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Set the controller on a table with its domed top shell facing upward and steady it with the non-dominant hand; glide and dab the grinder tip across the curved plastic surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black rectangular media remote control",
+    "substrateObject_id": 2,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the remote flat on a desk with the button side facing up; perform strokes along the button surface, using the raised keys for gentle resistance.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "pair of light wood chopsticks",
+    "substrateObject_id": 3,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Place the two chopsticks parallel on the table, touching each other to form a narrow, slightly raised strip; guide the grinder tip back and forth along the top edges.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "clear disposable plastic cup",
+    "substrateObject_id": 4,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Invert the cup on a flat surface so the circular rim rests on the table; move the grinder tip across the broad bottom surface, applying light downward pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "ripe yellow banana",
+    "substrateObject_id": 5,
+    "substrateImage_id": 0,
+    "substrateUtilizationMethod": "Lay the banana on its side on a desk with the outer curved peel facing up; trace gentle strokes along the soft, slightly yielding surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white minimalist desk lamp with round base and red cord accent",
+    "substrateObject_id": 1,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Keep the lamp standing; use only the flat circular base as the target, brushing the grinder tip over its smooth surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black wireless computer mouse",
+    "substrateObject_id": 2,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Place the mouse on a steady surface with its curved top upward; sweep and dab the grinder tip across the plastic shell.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green Lay's Sour Cream & Onion potato chip bag",
+    "substrateObject_id": 3,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Lay the unopened bag flat on the desk; stroke the grinder tip over the flexible plastic surface, allowing it to compress slightly.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "white folded paper airplane",
+    "substrateObject_id": 4,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Press the airplane flat so one wing lies level on the desk; use that single flat wing as a small canvas, brushing lightly along its paper surface.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black rectangular desk surface",
+    "substrateObject_id": 5,
+    "substrateImage_id": 1,
+    "substrateUtilizationMethod": "Use any clear area of the desk top as a broad flat plane; glide and press the grinder tip across the laminate surface in wide or fine strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "black hard-shell suitcase with top handle",
+    "substrateObject_id": 1,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the suitcase upright and use its vertically ribbed front panel; apply strokes downward or sideways along the ridges.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small wooden cabinet or side table",
+    "substrateObject_id": 2,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Face one of the cabinet\u2019s vertical wooden sides; work the grinder tip across the flat wooden panel with gentle pressure.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "gray round plate",
+    "substrateObject_id": 3,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Place the plate flat on the cabinet top; use the central area of the ceramic surface for circular or linear strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "purple dumbbell hand weight",
+    "substrateObject_id": 4,
+    "substrateImage_id": 2,
+    "substrateUtilizationMethod": "Stand the dumbbell on one flat end to create a stable, rubberized circular pad; perform dabbing and short strokes on the exposed end face.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "small succulent plant in a yellow ribbed pot",
+    "substrateObject_id": 1,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Focus on the pot only: keep it on the desk and use the smooth upper rim as a narrow circular track for controlled strokes.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "teal toothbrush with white bristles",
+    "substrateObject_id": 3,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Lay the toothbrush flat with bristles facing upward; sweep or dab the grinder tip across the bristle field for gentle springy contact.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue Arduino Uno circuit board",
+    "substrateObject_id": 4,
+    "substrateImage_id": 3,
+    "substrateUtilizationMethod": "Place the board flat on the desk with components facing up; trace the grinder tip over the board\u2019s surface, navigating around raised parts.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "blue upholstered two-seat bench",
+    "substrateObject_id": 1,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Use the taut fabric surface of the bench seat; sit or stand beside it and move the grinder tip across the flat cushion top.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "green handheld leaf blower",
+    "substrateObject_id": 2,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Lay the blower on its side so the flat exterior casing faces upward; apply strokes along the broad plastic housing.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  },
+  {
+    "virtualContactObject": "Brush",
+    "virtualSubstrateObject": "Canvas",
+    "physicalContactObject": "black pepper grinder",
+    "contactObject_id": 2,
+    "contactImage_id": 3,
+    "contactUtilizationMethod": "Hold the narrow neck of the grinder in a pencil grip and perform the painting motions",
+    "expectedHapticFeedback": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation",
+    "physicalSubstrateObject": "coil of green nylon rope",
+    "substrateObject_id": 3,
+    "substrateImage_id": 4,
+    "substrateUtilizationMethod": "Set the coiled rope flat on the desk so its loops form a low, springy mound; dab and swirl the grinder tip across the rope strands.",
+    "relationshipAnnotation": {
+      "contactObject": "Brush",
+      "substrateObject": "Canvas",
+      "annotationText": "Oil paint on a canvas with a paint brush. With gentle pressure, the resistance increases smoothly with a subtle pushback sensation"
+    }
+  }
+]

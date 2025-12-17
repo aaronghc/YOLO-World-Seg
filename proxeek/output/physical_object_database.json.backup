@@ -1,0 +1,252 @@
+{
+  "action": "segmentation_data",
+  "timestamp": "76d5b80b-6603-4dc3-b511-e292e51edfe3",
+  "total_objects": 7,
+  "data": {
+    "0": [
+      {
+        "object_id": 1,
+        "object": "blue cushioned rolling office chair with black base",
+        "position": "center of the image",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 370.72203063964844,
+            "y1": 0.0,
+            "x2": 741.5277252197266,
+            "y2": 455.6455993652344,
+            "width": 370.8056945800781,
+            "height": 455.6455993652344,
+            "center_x": 556.1248779296875,
+            "center_y": 227.8227996826172
+          },
+          "mask_center": {
+            "x": 484.0,
+            "y": 174.0
+          },
+          "confidence": 0.8239292502403259,
+          "detected_name": "blue cushioned rolling office chair with black base",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 2.01220441,
+          "y": 1.04386759,
+          "z": 1.1907475
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "gray folded umbrella",
+        "position": "on the seat of the office chair",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 0.0,
+            "y1": 287.38519287109375,
+            "x2": 79.49859619140625,
+            "y2": 391.47186279296875,
+            "width": 79.49859619140625,
+            "height": 104.086669921875,
+            "center_x": 39.749298095703125,
+            "center_y": 339.42852783203125
+          },
+          "mask_center": {
+            "x": 20.0,
+            "y": 362.0
+          },
+          "confidence": 0.009318693540990353,
+          "detected_name": "gray folded umbrella",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 2.551713,
+          "y": 1.02325976,
+          "z": 1.20881391
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "blue fabric tote bag",
+        "position": "bottom left of the image, under the desk",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 0.2967529296875,
+            "y1": 155.52474975585938,
+            "x2": 171.34646606445312,
+            "y2": 330.1936950683594,
+            "width": 171.04971313476562,
+            "height": 174.6689453125,
+            "center_x": 85.82160949707031,
+            "center_y": 242.85922241210938
+          },
+          "mask_center": {
+            "x": 53.0,
+            "y": 241.0
+          },
+          "confidence": 0.8759440779685974,
+          "detected_name": "blue fabric tote bag",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 2.13466263,
+          "y": 0.714285,
+          "z": 0.9888725
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "brown cardboard box inside the blue tote bag",
+        "position": "bottom left of the image",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 0.0,
+            "y1": 155.22650146484375,
+            "x2": 171.19821166992188,
+            "y2": 329.68975830078125,
+            "width": 171.19821166992188,
+            "height": 174.4632568359375,
+            "center_x": 85.59910583496094,
+            "center_y": 242.4581298828125
+          },
+          "mask_center": {
+            "x": 53.0,
+            "y": 241.0
+          },
+          "confidence": 0.7261431217193604,
+          "detected_name": "brown cardboard box inside the blue tote bag",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 2.41617227,
+          "y": 0.728063166,
+          "z": 1.02077234
+        }
+      },
+      {
+        "object_id": 5,
+        "object": "cream-colored paper shopping bag with purple handles",
+        "position": "left side of the image, on the floor",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 0.00618743896484375,
+            "y1": 118.94052124023438,
+            "x2": 82.15380096435547,
+            "y2": 396.6955261230469,
+            "width": 82.14761352539062,
+            "height": 277.7550048828125,
+            "center_x": 41.079994201660156,
+            "center_y": 257.8180236816406
+          },
+          "mask_center": {
+            "x": 19.0,
+            "y": 362.0
+          },
+          "confidence": 0.0032756433356553316,
+          "detected_name": "cream-colored paper shopping bag with purple handles",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 2.26961112,
+          "y": 0.7011001,
+          "z": 0.8792113
+        }
+      },
+      {
+        "object_id": 6,
+        "object": "large upright cardboard shipping box",
+        "position": "right side of the image, leaning against the wall",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 925.4541320800781,
+            "y1": 0.0,
+            "x2": 1279.9999694824219,
+            "y2": 378.989013671875,
+            "width": 354.54583740234375,
+            "height": 378.989013671875,
+            "center_x": 1102.72705078125,
+            "center_y": 189.4945068359375
+          },
+          "mask_center": {
+            "x": 1115.0,
+            "y": 16.0
+          },
+          "confidence": 0.04333512857556343,
+          "detected_name": "large upright cardboard shipping box",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 2.0571785,
+          "y": 0.7027971,
+          "z": 0.8355142
+        }
+      },
+      {
+        "object_id": 7,
+        "object": "black rolling suitcase or trolley case",
+        "position": "bottom right corner of the image",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 935.2680358886719,
+            "y1": 0.14984130859375,
+            "x2": 1277.4951477050781,
+            "y2": 378.862548828125,
+            "width": 342.22711181640625,
+            "height": 378.71270751953125,
+            "center_x": 1106.381591796875,
+            "center_y": 189.50619506835938
+          },
+          "mask_center": {
+            "x": 1115.0,
+            "y": 16.0
+          },
+          "confidence": 0.16982415318489075,
+          "detected_name": "black rolling suitcase or trolley case",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 2.055889,
+          "y": 0.7029005,
+          "z": 0.8352486
+        }
+      }
+    ]
+  },
+  "playArea": {
+    "boundaryPoints": [
+      {
+        "x": 0.8048415,
+        "y": 0.0,
+        "z": -5.06013536
+      },
+      {
+        "x": 1.51761889,
+        "y": 0.0,
+        "z": 1.0838666
+      },
+      {
+        "x": -1.2709024,
+        "y": 0.0,
+        "z": 1.40736818
+      },
+      {
+        "x": -1.98367977,
+        "y": 0.0,
+        "z": -4.736634
+      }
+    ],
+    "center": {
+      "x": -0.233030438,
+      "y": 0.0,
+      "z": -1.82638359
+    },
+    "width": 3.50129867,
+    "depth": 6.46750355,
+    "area": 17.363266,
+    "boundaryType": "PlayArea"
+  }
+}

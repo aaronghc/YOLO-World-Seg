@@ -1,0 +1,158 @@
+{
+  "optimization_summary": {
+    "total_loss": -45.08090988140883,
+    "loss_components": {
+      "L_realism": -17.5320805890921,
+      "L_interaction": -27.54882929231673,
+      "L_spatial": 0.0,
+      "total": -45.08090988140883
+    },
+    "num_virtual_objects": 11,
+    "num_physical_objects": 24,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Fork",
+        "index": 2,
+        "engagement_level": 3.696567279915026,
+        "involvement_type": "grasp",
+        "priority_weight": 3.696567279915026
+      },
+      "physical_object": {
+        "name": "black ballpoint pen",
+        "object_id": 4,
+        "image_id": 1,
+        "index": 7
+      },
+      "realism_score": 4.190476576487224,
+      "utilization_method": "Grip the pen near its writing tip between thumb and index finger with the barrel pointing forward, performing eating motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Knife",
+        "index": 3,
+        "engagement_level": 3.2702979047745746,
+        "involvement_type": "grasp",
+        "priority_weight": 3.2702979047745746
+      },
+      "physical_object": {
+        "name": "pair of black scissors with yellow handles",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 15
+      },
+      "realism_score": 5.666667173306147,
+      "utilization_method": "Keep the blades closed, hold one handle ring like a knife grip, and use the outside of the closed blades to perform sawing or spreading motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Steak",
+        "index": 4,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "substrate",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "green and yellow kitchen scrub sponge",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 14
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Set the sponge flat with the green abrasive side up. Stab the pen tip into the center of the sponge, sinking it through the soft yellow layer beneath before lifting out."
+    },
+    {
+      "virtual_object": {
+        "name": "Spoon",
+        "index": 5,
+        "engagement_level": 0.7297020952254254,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7297020952254254
+      },
+      "physical_object": {
+        "name": "clear stemmed wine glass",
+        "object_id": 6,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 3.7301590541998544,
+      "utilization_method": "Pinch the thin stem near its midpoint as a handle, use the bowl of the glass as the spoon head, and practice scooping and tilting by wrist rotation"
+    },
+    {
+      "virtual_object": {
+        "name": "Soup",
+        "index": 6,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "substrate",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "wooden-handled dust brush with black bristles",
+        "object_id": 6,
+        "image_id": 2,
+        "index": 18
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the brush with bristles up; move the glass bowl slowly through the bristle field, pushing the tips aside as you stir."
+    },
+    {
+      "virtual_object": {
+        "name": "Teapot",
+        "index": 7,
+        "engagement_level": 0.3034327200849742,
+        "involvement_type": "grasp",
+        "priority_weight": 0.3034327200849742
+      },
+      "physical_object": {
+        "name": "grey mechanical keyboard with dark keycaps and one red keycap",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 5
+      },
+      "realism_score": 2.3888888259728747,
+      "utilization_method": "Hold the keyboard firmly along one short edge with a full-hand grasp and tilt it forward like pouring (not sure whether it is applicable)"
+    },
+    {
+      "virtual_object": {
+        "name": "Salt",
+        "index": 8,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "grasp",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "small round metal calibration weight labeled \u201cM 5000\u201d",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 17
+      },
+      "realism_score": 3.6969696680704756,
+      "utilization_method": "Pinch the cylindrical weight between thumb and fingers and perform quick shaking motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Pepper Grinder",
+        "index": 9,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "grasp",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "clear plastic spray bottle containing blue liquid",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 13
+      },
+      "realism_score": 3.8333331147829686,
+      "utilization_method": "Hold the bottle body with one hand and twist the white spray nozzle left and right with the other hand."
+    }
+  ]
+}

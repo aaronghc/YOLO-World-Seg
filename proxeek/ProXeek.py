@@ -49,7 +49,7 @@ ENABLE_PROXY_MATCHING = True        # Set to True to enable proxy matching and d
 ENABLE_PROPERTY_RATING = True       # Set to True to enable property rating
 ENABLE_SUBSTRATE_UTILIZATION = True # Set to True to enable substrate utilization
 ENABLE_RELATIONSHIP_RATING = True   # Set to True to enable relationship rating
-ENABLE_OPTIMIZATION = True          # Set to True to enable ProXeek optimization after relationship rating
+ENABLE_OPTIMIZATION = False          # Set to True to enable ProXeek optimization after relationship rating
 
 
 # Top-K Filtering Configuration
@@ -347,11 +347,13 @@ if len(sys.argv) > 1:
         environment_image_base64_list = params.get('environmentImageBase64List', [])
         virtual_object_snapshots = params.get('virtualObjectSnapshots', [])
         arrangement_snapshots = params.get('arrangementSnapshots', [])
+        skip_object_recognition = params.get('skipObjectRecognition', False)
 
         log(f"Found {len(environment_image_base64_list)} environment images")
         log(f"Found {len(virtual_object_snapshots)} virtual object snapshots")
         log(f"Found {len(arrangement_snapshots)} arrangement snapshots")
         log(f"Haptic annotation JSON present: {'Yes' if haptic_annotation_json else 'No'}")
+        log(f"Skip object recognition mode: {'Yes' if skip_object_recognition else 'No'}")
         
         # Save haptic annotation JSON to the output directory for optimization
         if haptic_annotation_json:
@@ -385,6 +387,7 @@ else:
     environment_image_base64_list = []
     virtual_object_snapshots = []
     arrangement_snapshots = []
+    skip_object_recognition = False
 
 # Get the project path
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -431,7 +434,7 @@ if not api_key or not langchain_api_key or not finetune_api_key:
         log(f"Error reading .env file directly: {e}")
 
 # Set up LangSmith tracing (using LANGSMITH_* variables as per best practices)
-os.environ["LANGSMITH_TRACING"] = "true"
+os.environ["LANGSMITH_TRACING_V2"] = "true"
 os.environ["LANGSMITH_PROJECT"] = "ProXeek-Haptic-System"  # Set project name for better organization
 
 if langchain_api_key:
@@ -452,6 +455,7 @@ else:
     log("Warning: LangSmith API key not found - tracing may not work properly")
 
 # o4-mini-2025-04-16
+# o3-2025-04-16
 # Initialize the physical object recognition LLM
 # Note: LangChain ChatOpenAI has built-in LangSmith integration - no need for wrap_openai()
 
@@ -1416,8 +1420,10 @@ async def export_annotated_images(enhanced_database: Dict[int, List[Dict]], envi
                     cv2.putText(image, label, (x1, y1 - 5), 
                               cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
             
-            # Save annotated image
+            # Save annotated image (delete old file first to ensure fresh timestamp)
             output_path = os.path.join(annotated_dir, f"annotated_image_{image_id}.jpg")
+            if os.path.exists(output_path):
+                os.remove(output_path)
             cv2.imwrite(output_path, image)
             annotated_image_paths.append(output_path)
             
@@ -1436,31 +1442,41 @@ def save_object_database(object_db: Dict[int, List[Dict]], output_path: str) -> 
         # --- NEW: merge with existing data to preserve Quest world positions ---
         merged_db: Dict[str, List[Dict]] = {}
         existing_db = {}
+        existing_data = {}  # The actual object data
         if os.path.exists(output_path):
             try:
                 with open(output_path, "r") as prev_f:
                     existing_db = json.load(prev_f)
+                    # Handle both old format (direct object data) and new format (with 'data' key)
+                    if 'data' in existing_db:
+                        existing_data = existing_db['data']
+                    else:
+                        # Old format - object data is at top level
+                        existing_data = {k: v for k, v in existing_db.items() 
+                                       if k not in ['action', 'timestamp', 'total_objects', 'playArea']}
             except Exception as merge_err:
                 log(f"Warning: Failed reading existing physical database for merge: {merge_err}")
                 existing_db = {}
- 
+                existing_data = {}
+
         # Deep-copy incoming db first (str keys for json)
         for img_id, obj_list in object_db.items():
             merged_db[str(img_id)] = []
             for obj in obj_list:
                 merged_obj = json.loads(json.dumps(obj))  # simple deep copy
- 
-                # Try to pull worldposition from existing db if not present
+
+                # Try to pull worldposition from existing data if not present
                 if "worldposition" not in merged_obj:
-                    prev_objs = existing_db.get(str(img_id), [])
+                    prev_objs = existing_data.get(str(img_id), [])
                     for prev in prev_objs:
                         if (
                             prev.get("object_id") == merged_obj.get("object_id")
                             and "worldposition" in prev
                         ):
                             merged_obj["worldposition"] = prev["worldposition"]
+                            log(f"Preserved worldposition for object_id {merged_obj.get('object_id')}: {prev['worldposition']}")
                             break
- 
+
                 # Remove heavy mask contours before save
                 yolo_seg = merged_obj.get("yolo_segmentation")
                 if yolo_seg and "mask_contours" in yolo_seg:
@@ -1468,11 +1484,35 @@ def save_object_database(object_db: Dict[int, List[Dict]], output_path: str) -> 
                 merged_db[str(img_id)].append(merged_obj)
  
         # ------------------------------------------------------------------
-        # Persist
+        # Persist - preserve new format with playArea if it exists
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        
+        # Check if existing database has new format with playArea
+        final_output = merged_db
+        if existing_db and isinstance(existing_db, dict):
+            # If existing has 'data' and 'playArea' keys, use new format
+            if 'data' in existing_db and 'playArea' in existing_db:
+                log("Preserving new format with playArea field")
+                final_output = {
+                    "action": existing_db.get("action", "update_bounding_boxes"),
+                    "timestamp": existing_db.get("timestamp", ""),
+                    "total_objects": sum(len(obj_list) for obj_list in merged_db.values()),
+                    "data": merged_db,
+                    "playArea": existing_db["playArea"]  # Preserve play area!
+                }
+            elif 'data' in existing_db:
+                # Has 'data' but no playArea - still use new format
+                log("Converting to new format structure (no playArea)")
+                final_output = {
+                    "action": "update_bounding_boxes",
+                    "timestamp": "",
+                    "total_objects": sum(len(obj_list) for obj_list in merged_db.values()),
+                    "data": merged_db
+                }
+        
         with open(output_path, "w") as f:
-            json.dump(merged_db, f, indent=2)
- 
+            json.dump(final_output, f, indent=2)
+
         log(f"Object database saved to {output_path} (merged world positions where available)")
         return output_path
     except Exception as e:
@@ -3418,11 +3458,57 @@ async def run_relationship_ratings(haptic_annotation_json, environment_images, p
 # Modify the run_concurrent_tasks function to include proxy matching
 @traceable(run_type="chain", metadata={"process": "main_orchestration"})
 async def run_concurrent_tasks():
+    global skip_object_recognition  # Need global since we may modify it when falling back
+    
     tasks = []
     results = {}
     
-    # Add physical object task if we have environment images
-    if environment_image_base64_list:
+    # Check if we should skip object recognition and load from file instead
+    if skip_object_recognition:
+        log("Skip object recognition mode enabled - loading from existing database...")
+        
+        # Find the most recent physical_object_database.json file
+        output_dir = os.path.join(script_dir, "output")
+        database_path = os.path.join(output_dir, "physical_object_database.json")
+        
+        if os.path.exists(database_path):
+            try:
+                with open(database_path, 'r') as f:
+                    loaded_data = json.load(f)
+                
+                # Handle both old format (direct object data) and new format (with 'data' key)
+                if 'data' in loaded_data:
+                    # New format - extract the data field
+                    physical_object_database = loaded_data['data']
+                    log(f"Loaded physical object database (new format) from {database_path}")
+                    if 'playArea' in loaded_data:
+                        log("Play area data also loaded from database")
+                else:
+                    # Old format - object data is at top level
+                    physical_object_database = {k: v for k, v in loaded_data.items() 
+                                               if k not in ['action', 'timestamp', 'total_objects', 'playArea']}
+                    log(f"Loaded physical object database (old format) from {database_path}")
+                
+                # Convert string keys to int keys for consistency
+                physical_object_database = {int(k): v for k, v in physical_object_database.items()}
+                
+                total_objects = sum(len(objs) for objs in physical_object_database.values())
+                log(f"Loaded {total_objects} objects from {len(physical_object_database)} images")
+                
+                # Store in results
+                results["physical_result"] = physical_object_database
+                
+            except Exception as e:
+                log(f"Error loading physical object database: {e}")
+                log("Falling back to running object recognition...")
+                skip_object_recognition = False  # Fall back to normal mode
+        else:
+            log(f"Physical object database not found at {database_path}")
+            log("Falling back to running object recognition...")
+            skip_object_recognition = False  # Fall back to normal mode
+    
+    # Add physical object task if we have environment images and not skipping
+    if environment_image_base64_list and not skip_object_recognition:
         log(f"Setting up task to process {len(environment_image_base64_list)} environment images")
         physical_task = process_multiple_images(environment_image_base64_list)
         tasks.append(physical_task)
@@ -3442,7 +3528,7 @@ async def run_concurrent_tasks():
         task_index = 0
         
         # Handle physical objects result if that task was included
-        if environment_image_base64_list:
+        if environment_image_base64_list and not skip_object_recognition:
             physical_result = task_results[task_index]
             task_index += 1
             results["physical_result"] = physical_result
@@ -3465,29 +3551,89 @@ async def run_concurrent_tasks():
     physical_object_database = results.get("physical_result", {})
     enhanced_virtual_objects = results.get("virtual_result", [])
     
-    # Enhance physical object database with YOLO-World segmentation
-    if environment_image_base64_list and physical_object_database:
-        log("Enhancing physical object database with YOLO-World segmentation...")
-        try:
-            physical_object_database = await enhance_with_yolo_segmentation(
-                physical_object_database, 
-                environment_image_base64_list
-            )
-            log("YOLO-World segmentation enhancement completed successfully")
+    # Enhance physical object database with YOLO-World segmentation (skip if in skip mode)
+    if environment_image_base64_list and physical_object_database and not skip_object_recognition:
+        user_approved = False
+        segmentation_attempt = 0
+        
+        # Loop until user approves the segmentation results
+        while not user_approved:
+            segmentation_attempt += 1
+            if segmentation_attempt > 1:
+                log(f"\n{'='*60}")
+                log(f"Re-running YOLO-World segmentation (Attempt #{segmentation_attempt})")
+                log(f"{'='*60}\n")
+            else:
+                log("Enhancing physical object database with YOLO-World segmentation...")
             
-            # Send segmentation data to Quest immediately after enhancement
             try:
-                await send_segmentation_data_to_quest(physical_object_database)
-            except Exception as segmentation_send_error:
-                log(f"Warning: Failed to send segmentation data to Quest: {segmentation_send_error}")
-                log("Continuing with normal processing...")
+                physical_object_database = await enhance_with_yolo_segmentation(
+                    physical_object_database, 
+                    environment_image_base64_list
+                )
+                log("YOLO-World segmentation enhancement completed successfully")
                 
-        except Exception as e:
-            log(f"Error in YOLO-World enhancement: {e}")
-            log("Continuing with original object database without segmentation")
+                # Export annotated images immediately after YOLO and segmentation complete
+                annotated_image_paths = []
+                try:
+                    output_dir = os.path.join(script_dir, "output")
+                    annotated_image_paths = await export_annotated_images(
+                        physical_object_database, 
+                        environment_image_base64_list, 
+                        output_dir
+                    )
+                    log(f"Exported {len(annotated_image_paths)} annotated images after YOLO segmentation")
+                    
+                    # Display the paths of annotated images for user reference
+                    log("\n" + "="*60)
+                    log("ANNOTATED IMAGES SAVED TO:")
+                    for img_path in annotated_image_paths:
+                        log(f"  - {img_path}")
+                    log("="*60 + "\n")
+                    
+                    # Store annotated image paths in results for later retrieval
+                    results["annotated_image_paths"] = annotated_image_paths
+                except Exception as export_error:
+                    log(f"Error exporting annotated images after YOLO segmentation: {export_error}")
+                    results["annotated_image_paths"] = []
+                
+                # Ask user if they want to continue or rerun segmentation
+                log("\n" + "!"*60)
+                log("PLEASE EXAMINE THE ANNOTATED IMAGES IN THE OUTPUT FOLDER")
+                log("!"*60)
+                log("")  # Extra newline for spacing
+                
+                while True:
+                    # Use print with flush to ensure prompt appears before input
+                    print("\nDo you want to continue with these segmentation results? (yes/no): ", end='', flush=True)
+                    user_input = input().strip().lower()
+                    
+                    if user_input in ['yes', 'y']:
+                        log("User approved segmentation results. Continuing to next steps...")
+                        user_approved = True
+                        
+                        # Send segmentation data to Quest after user approval
+                        try:
+                            await send_segmentation_data_to_quest(physical_object_database)
+                        except Exception as segmentation_send_error:
+                            log(f"Warning: Failed to send segmentation data to Quest: {segmentation_send_error}")
+                            log("Continuing with normal processing...")
+                        break
+                        
+                    elif user_input in ['no', 'n']:
+                        log("User requested to rerun segmentation. Restarting YOLO-World segmentation...")
+                        break
+                    else:
+                        print("Invalid input. Please enter 'yes' or 'no'.", flush=True)
+                    
+            except Exception as e:
+                log(f"Error in YOLO-World enhancement: {e}")
+                log("Continuing with original object database without segmentation")
+                break  # Exit the loop on critical error
     
     # Run proxy matching if both physical and virtual objects are available and proxy matching is enabled
-    if environment_image_base64_list and haptic_annotation_json and ENABLE_PROXY_MATCHING:
+    # In skip mode, we have physical_object_database loaded even without environment_image_base64_list
+    if (environment_image_base64_list or skip_object_recognition) and haptic_annotation_json and ENABLE_PROXY_MATCHING and physical_object_database:
         log("Setting up proxy matching task")
         
         # Run proxy matching
@@ -4880,6 +5026,9 @@ async def run_optimization(output_dir: str = None, haptic_annotation_json: str =
             # Save optimization results
             optimizer.save_results(best_assignment)
             
+            # Export pin & rotate visualization if spatial constraint was used
+            optimizer.export_pin_rotate_visualization(best_assignment)
+            
             # Load the saved results to get the assignments data with utilization methods
             try:
                 import json
@@ -4917,14 +5066,29 @@ async def run_optimization(output_dir: str = None, haptic_annotation_json: str =
         return None
 
 
-def format_optimization_results_for_quest(optimization_result: Dict, proxy_matching_results: List[Dict]) -> List[Dict]:
-    """Format optimization results for Quest with virtualObjectName, proxyObjectName, utilizationMethod"""
+def format_optimization_results_for_quest(optimization_result: Dict, proxy_matching_results: List[Dict]) -> Dict:
+    """Format optimization results for Quest with virtualObjectName, proxyObjectName, utilizationMethod, pin_point, rotation_angle"""
     try:
         log("Formatting optimization results for Quest...")
         
         assignment = optimization_result["assignment"]
         optimizer = optimization_result["optimizer"]
         assignments_data = optimization_result.get("assignments", [])
+        
+        # Extract pin & rotate configuration if available
+        pin_point = None
+        rotation_angle_deg = None
+        if hasattr(assignment, 'pin_point') and assignment.pin_point is not None:
+            # Convert numpy array to list for JSON serialization
+            pin_point = assignment.pin_point.tolist()
+            log(f"Pin point: {pin_point}")
+        if hasattr(assignment, 'rotation_angle') and assignment.rotation_angle is not None:
+            # Convert radians to degrees for Quest
+            # IMPORTANT: Negate the angle to match Unity's rotation direction
+            # Python optimization: counter-clockwise positive (standard math convention)
+            # Unity Y-axis rotation: clockwise positive (left-handed coordinate system)
+            rotation_angle_deg = float(-np.rad2deg(assignment.rotation_angle))
+            log(f"Rotation angle: {rotation_angle_deg:.1f}° (negated for Unity coordinate system)")
         
         quest_results = []
         
@@ -4959,25 +5123,51 @@ def format_optimization_results_for_quest(optimization_result: Dict, proxy_match
             log(f"Formatted assignment: {virtual_obj.name} -> {physical_obj.name} | util: {utilization_method[:100]}...")
         
         log(f"Formatted {len(quest_results)} optimization results for Quest")
-        return quest_results
+        
+        # Return structured result with assignments and spatial configuration
+        formatted_result = {
+            "assignments": quest_results,
+            "pinPoint": pin_point,  # [x, y, z] or None
+            "rotationAngle": rotation_angle_deg  # degrees or None
+        }
+        
+        return formatted_result
         
     except Exception as e:
         log(f"Error formatting optimization results: {e}")
-        return []
+        return {"assignments": [], "pinPoint": None, "rotationAngle": None}
 
 
-async def send_optimization_results_to_quest(optimization_results: List[Dict]) -> bool:
-    """Send optimization results to Quest via the local server"""
+async def send_optimization_results_to_quest(optimization_results: Dict) -> bool:
+    """Send optimization results to Quest via the local server
+    
+    Args:
+        optimization_results: Dict containing:
+            - assignments: List of assignments (virtualObjectName, proxyObjectName, utilizationMethod)
+            - pinPoint: [x, y, z] coordinates or None
+            - rotationAngle: rotation angle in degrees or None
+    """
     try:
         log("Preparing optimization results for Quest transmission...")
         
-        total_assignments = len(optimization_results)
+        assignments = optimization_results.get("assignments", [])
+        pin_point = optimization_results.get("pinPoint")
+        rotation_angle = optimization_results.get("rotationAngle")
+        
+        total_assignments = len(assignments)
         log(f"Sending optimization results for {total_assignments} assignments to Quest")
+        
+        if pin_point is not None:
+            log(f"Pin point: {pin_point}")
+        if rotation_angle is not None:
+            log(f"Rotation angle: {rotation_angle:.1f}°")
         
         # Prepare the payload for Quest
         quest_payload = {
             "action": "optimization_results",
-            "data": optimization_results,
+            "data": assignments,
+            "pinPoint": pin_point,
+            "rotationAngle": rotation_angle,
             "timestamp": str(uuid.uuid4()),
             "total_assignments": total_assignments
         }
@@ -5021,33 +5211,45 @@ try:
     # Run all tasks concurrently in a single event loop
     concurrent_results = asyncio.run(run_concurrent_tasks())
     
-    # Process physical objects results if available
-    if environment_image_base64_list:
+    # Process physical objects results if available (including skip mode with loaded database)
+    if environment_image_base64_list or skip_object_recognition:
         log("Processing completed physical object detection results")
         # Use enhanced database with YOLO bounding boxes if available
         physical_object_database = concurrent_results.get("enhanced_physical_result", 
                                                          concurrent_results.get("physical_result", {}))
         
-        # Save physical object database
+        # Save physical object database (skip if in skip mode - we're using existing database)
         output_dir = os.path.join(script_dir, "output")
         physical_output_path = os.path.join(output_dir, "physical_object_database.json")
-        physical_saved_path = save_object_database(physical_object_database, physical_output_path)
+        
+        if skip_object_recognition:
+            log("Skip mode: Using existing physical object database, not saving new one")
+            physical_saved_path = physical_output_path  # Just reference the existing path
+        else:
+            physical_saved_path = save_object_database(physical_object_database, physical_output_path)
         
         # Calculate total objects found
         total_physical_objects = sum(len(objects) for objects in physical_object_database.values())
         log(f"Physical object recognition complete. Found {total_physical_objects} objects across {len(physical_object_database)} images.")
         
-        # Export annotated images with bounding boxes
-        annotated_image_paths = []
-        try:
-            annotated_image_paths = asyncio.run(export_annotated_images(
-                physical_object_database, 
-                environment_image_base64_list, 
-                output_dir
-            ))
-            log(f"Exported {len(annotated_image_paths)} annotated images")
-        except Exception as e:
-            log(f"Error exporting annotated images: {e}")
+        # Annotated images were already exported after YOLO segmentation completion
+        # Retrieve the annotated image paths from concurrent results
+        annotated_image_paths = concurrent_results.get("annotated_image_paths", [])
+        if not annotated_image_paths:
+            # Fallback: try to find annotated images from the output directory
+            try:
+                annotated_dir = os.path.join(output_dir, "annotated_images")
+                if os.path.exists(annotated_dir):
+                    # Find all annotated images that were already exported
+                    for image_id in range(len(environment_image_base64_list)):
+                        annotated_path = os.path.join(annotated_dir, f"annotated_image_{image_id}.jpg")
+                        if os.path.exists(annotated_path):
+                            annotated_image_paths.append(annotated_path)
+                    log(f"Found {len(annotated_image_paths)} previously exported annotated images from directory")
+            except Exception as e:
+                log(f"Error retrieving annotated image paths: {e}")
+        else:
+            log(f"Retrieved {len(annotated_image_paths)} annotated image paths from concurrent results")
         
         # Add to result
         result["physical_objects"] = {
@@ -5088,8 +5290,8 @@ try:
         log("No haptic annotation data to process")
         result["virtual_objects"] = {"status": "error", "message": "No haptic annotation data provided"}
     
-    # Process proxy matching results if available
-    if environment_image_base64_list and haptic_annotation_json and ENABLE_PROXY_MATCHING:
+    # Process proxy matching results if available (including skip mode)
+    if (environment_image_base64_list or skip_object_recognition) and haptic_annotation_json and ENABLE_PROXY_MATCHING:
         log("Processing completed proxy matching results")
         proxy_matching_results = concurrent_results.get("proxy_matching_result", [])
         
@@ -5131,8 +5333,8 @@ try:
             "matching_results": []
         }
     
-    # Process property rating results if available
-    if environment_image_base64_list and haptic_annotation_json and ENABLE_PROXY_MATCHING and ENABLE_PROPERTY_RATING:
+    # Process property rating results if available (including skip mode)
+    if (environment_image_base64_list or skip_object_recognition) and haptic_annotation_json and ENABLE_PROXY_MATCHING and ENABLE_PROPERTY_RATING:
         log("Processing completed property rating results")
         property_rating_results = concurrent_results.get("property_rating_result", [])
         
@@ -5187,8 +5389,8 @@ try:
     
 
     
-    # Process relationship rating results if available
-    if environment_image_base64_list and haptic_annotation_json and ENABLE_PROXY_MATCHING and ENABLE_RELATIONSHIP_RATING:
+    # Process relationship rating results if available (including skip mode)
+    if (environment_image_base64_list or skip_object_recognition) and haptic_annotation_json and ENABLE_PROXY_MATCHING and ENABLE_RELATIONSHIP_RATING:
         log("Processing completed relationship rating results")
         relationship_rating_results = concurrent_results.get("relationship_rating_result", [])
         
@@ -5314,8 +5516,8 @@ try:
             "rating_results": []
         }
     
-    # Process substrate utilization results if available
-    if environment_image_base64_list and haptic_annotation_json and ENABLE_PROXY_MATCHING and ENABLE_SUBSTRATE_UTILIZATION:
+    # Process substrate utilization results if available (including skip mode)
+    if (environment_image_base64_list or skip_object_recognition) and haptic_annotation_json and ENABLE_PROXY_MATCHING and ENABLE_SUBSTRATE_UTILIZATION:
         log("Processing completed substrate utilization results")
         substrate_utilization_results = concurrent_results.get("substrate_utilization_result", [])
         
@@ -5391,8 +5593,8 @@ try:
     # Print final result as JSON
     # print(json.dumps(result, indent=2))
     
-    # Run optimization separately after all data is exported (if enabled)
-    if ENABLE_OPTIMIZATION and environment_image_base64_list and haptic_annotation_json:
+    # Run optimization separately after all data is exported (if enabled, including skip mode)
+    if ENABLE_OPTIMIZATION and (environment_image_base64_list or skip_object_recognition) and haptic_annotation_json:
         try:
             log("\n" + "="*60)
             log("RUNNING POST-PIPELINE OPTIMIZATION")

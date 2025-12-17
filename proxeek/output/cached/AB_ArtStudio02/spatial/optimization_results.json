@@ -1,0 +1,158 @@
+{
+  "optimization_summary": {
+    "total_loss": -46.038933044357634,
+    "loss_components": {
+      "L_realism": -18.536373224218124,
+      "L_interaction": -27.502559820139506,
+      "L_spatial": 0.0,
+      "total": -46.038933044357634
+    },
+    "num_virtual_objects": 14,
+    "num_physical_objects": 23,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 0
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Easel",
+        "index": 0,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "substrate",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "high-back gray upholstered booth seat with metal frame",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 17
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand beside the booth and use the wide vertical fabric panel as a tall surface; move the tweezers in sweeping up-and-down strokes along the upholstery."
+    },
+    {
+      "virtual_object": {
+        "name": "Tube",
+        "index": 1,
+        "engagement_level": 0.7297020952254254,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7297020952254254
+      },
+      "physical_object": {
+        "name": "green-and-white pack of wet wipes with a single white tissue sheet protruding",
+        "object_id": 2,
+        "image_id": 2,
+        "index": 13
+      },
+      "realism_score": 4.039215465386708,
+      "utilization_method": "Grip the soft plastic pouch near one end between thumb and fingers and knead it forward in squeezing strokes toward the tissue opening"
+    },
+    {
+      "virtual_object": {
+        "name": "Spray Can",
+        "index": 2,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "grasp",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "silver and black Olympus PEN film camera",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 5.256410370270411,
+      "utilization_method": "Grip the camera body from underneath, rest the index finger on the shutter button, and press the shutter button straight down"
+    },
+    {
+      "virtual_object": {
+        "name": "Round Mallet",
+        "index": 3,
+        "engagement_level": 3.2702979047745746,
+        "involvement_type": "grasp",
+        "priority_weight": 3.2702979047745746
+      },
+      "physical_object": {
+        "name": "black adjustable tripod stand (microphone or lighting stand)",
+        "object_id": 2,
+        "image_id": 3,
+        "index": 18
+      },
+      "realism_score": 4.666666666666666,
+      "utilization_method": "Grip the main vertical pole about halfway up, lift the stand so the folded tripod legs cluster above your grip, and swing so those legs serve as the striking head"
+    },
+    {
+      "virtual_object": {
+        "name": "Chisel",
+        "index": 4,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "grasp",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "long metal flat-head screwdriver with a translucent red handle",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 15
+      },
+      "realism_score": 4.166666666666667,
+      "utilization_method": "Grip the metal shaft just above the handle between thumb and first two fingers so the handle projects upward and the flat tip points downward, then rotate the shaft between fingertips"
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Brush",
+        "index": 7,
+        "engagement_level": 3.696567279915026,
+        "involvement_type": "grasp",
+        "priority_weight": 3.696567279915026
+      },
+      "physical_object": {
+        "name": "stainless steel metal tweezers",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 4.476190209388733,
+      "utilization_method": "Close the tips together, hold the blunt end like a pencil, and glide the closed tips across a surface in controlled strokes"
+    },
+    {
+      "virtual_object": {
+        "name": "Stone Tablet",
+        "index": 8,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "substrate",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "white plastic adjustable desk lamp with circular head",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Keep the lamp standing; use the flat, weighted base as the contact surface, pressing the screwdriver tip onto its center while rotating"
+    },
+    {
+      "virtual_object": {
+        "name": "Paint Roller",
+        "index": 9,
+        "engagement_level": 0.3034327200849742,
+        "involvement_type": "grasp",
+        "priority_weight": 0.3034327200849742
+      },
+      "physical_object": {
+        "name": "clear plastic water bottle with screw cap",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 4.8571425676345825,
+      "utilization_method": "Grip the neck of the bottle with your whole hand, hold it sideways so the bottle body sits above the hand, and perform rolling motions"
+    }
+  ]
+}

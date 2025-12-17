@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Easel",
+      "proxyObjectName": "high-back gray upholstered booth seat with metal frame",
+      "utilizationMethod": "Stand beside the booth and use the wide vertical fabric panel as a tall surface; move the tweezers in sweeping up-and-down strokes along the upholstery."
+    },
+    {
+      "virtualObjectName": "Tube",
+      "proxyObjectName": "red Shin Ramyun instant noodle packet",
+      "utilizationMethod": "Grip the center of the packet between thumb and fingers and squeeze the flexible bag, letting the contents shift while pressing from one end toward the other"
+    },
+    {
+      "virtualObjectName": "Spray Can",
+      "proxyObjectName": "green round retractable measuring tape with partially extended beige tape",
+      "utilizationMethod": "Hold the circular housing in the hand and repeatedly press the central round release button with the index finger"
+    },
+    {
+      "virtualObjectName": "Round Mallet",
+      "proxyObjectName": "black adjustable tripod stand (microphone or lighting stand)",
+      "utilizationMethod": "Grip the main vertical pole about halfway up, lift the stand so the folded tripod legs cluster above your grip, and swing so those legs serve as the striking head"
+    },
+    {
+      "virtualObjectName": "Chisel",
+      "proxyObjectName": "long metal flat-head screwdriver with a translucent red handle",
+      "utilizationMethod": "Grip the metal shaft just above the handle between thumb and first two fingers so the handle projects upward and the flat tip points downward, then rotate the shaft between fingertips"
+    },
+    {
+      "virtualObjectName": "Paint Brush",
+      "proxyObjectName": "stainless steel metal tweezers",
+      "utilizationMethod": "Close the tips together, hold the blunt end like a pencil, and glide the closed tips across a surface in controlled strokes"
+    },
+    {
+      "virtualObjectName": "Stone Tablet",
+      "proxyObjectName": "silver and black Olympus PEN film camera",
+      "utilizationMethod": "Set the camera flat with its metal top plate upward; target the solid lens cap area with the screwdriver tip while applying rotational pressure"
+    },
+    {
+      "virtualObjectName": "Paint Roller",
+      "proxyObjectName": "white plastic adjustable desk lamp with circular head",
+      "utilizationMethod": "Grip the vertical stem near its midpoint, keep the circular head out in front, and sweep the arm in long strokes as though rolling paint"
+    }
+  ],
+  "pinPoint": [
+    -0.495078564,
+    0.0,
+    -0.2003793301883744
+  ],
+  "rotationAngle": -310.0,
+  "timestamp": "339137a1-1411-4289-b955-5e032e7b0f17",
+  "total_assignments": 8
+}

@@ -1,0 +1,740 @@
+{
+  "summary": "playground",
+  "proxyPriorityOrder": [
+    "Slime",
+    "Party Balloon",
+    "Double Slider",
+    "Hammer",
+    "Lightsaber",
+    "Dropper",
+    "Gold Bar"
+  ],
+  "nodeAnnotations": [
+    {
+      "objectName": "Hammer",
+      "involvementType": "grasp",
+      "usage": "smashing things",
+      "inertia": "noticable weight and top-heavy feel",
+      "interactivity": "",
+      "outline": "Straight shaft (~3cm thick, ~40 cm long) ",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.46153849363327026,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.5384615659713745,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.41",
+        "y": "0.05",
+        "z": "0.15"
+      },
+      "globalPosition": {
+        "x": 0.35199999809265137,
+        "y": 0.7418190836906433,
+        "z": 0.6690000295639038
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 280.48406982421875,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.3503626585006714,
+          "y": 0.7418191432952881,
+          "z": 0.6896796226501465
+        },
+        "size": {
+          "x": 0.4148657023906708,
+          "y": 0.04790276288986206,
+          "z": 0.15116077661514282
+        },
+        "min": {
+          "x": 0.142929807305336,
+          "y": 0.7178677320480347,
+          "z": 0.6140992641448975
+        },
+        "max": {
+          "x": 0.557795524597168,
+          "y": 0.7657705545425415,
+          "z": 0.7652599811553955
+        }
+      },
+      "bounds2D": {
+        "minX": 0.142929807305336,
+        "maxX": 0.557795524597168,
+        "minZ": 0.6140992641448975,
+        "maxZ": 0.7652599811553955,
+        "centerX": 0.3503626585006714,
+        "centerZ": 0.6896796226501465,
+        "width": 0.4148657023906708,
+        "depth": 0.15116077661514282,
+        "corners": [
+          {
+            "x": 0.5435415506362915,
+            "z": 0.5719010233879089
+          },
+          {
+            "x": 0.5656043291091919,
+            "z": 0.6911262273788452
+          },
+          {
+            "x": 0.1649925857782364,
+            "z": 0.7652599811553955
+          },
+          {
+            "x": 0.1429297924041748,
+            "z": 0.6460347771644592
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Lightsaber",
+      "involvementType": "grasp",
+      "usage": "cutting through things",
+      "inertia": "Users would feel heftier mass concentrated in the hilt (about 500 g), with balanced weight distribution that doesn\u2019t feel front-heavy.",
+      "interactivity": "",
+      "outline": "Users would overall feel a cylindrical shape while grasping with a diameter about 3cm",
+      "texture": "",
+      "hardness": "",
+      "temperature": "User would feel the surface cool to touch",
+      "inertiaValue": 0.4117646813392639,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.4117646813392639,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.1764705926179886,
+      "dimensions_meters": {
+        "x": "0.26",
+        "y": "0.07",
+        "z": "0.22"
+      },
+      "globalPosition": {
+        "x": -0.10000000149011612,
+        "y": 0.7410000562667847,
+        "z": 0.6859999895095825
+      },
+      "globalRotation": {
+        "x": 24.35184669494629,
+        "y": 37.62461471557617,
+        "z": 89.81838989257812
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.14306923747062683,
+          "y": 0.7414445877075195,
+          "z": 0.7271959781646729
+        },
+        "size": {
+          "x": 0.2567601799964905,
+          "y": 0.06685900688171387,
+          "z": 0.2195577621459961
+        },
+        "min": {
+          "x": -0.27144932746887207,
+          "y": 0.7080150842666626,
+          "z": 0.6174170970916748
+        },
+        "max": {
+          "x": -0.014689147472381592,
+          "y": 0.7748740911483765,
+          "z": 0.8369748592376709
+        }
+      },
+      "bounds2D": {
+        "minX": -0.27144932746887207,
+        "maxX": -0.014689147472381592,
+        "minZ": 0.6174170970916748,
+        "maxZ": 0.8369748592376709,
+        "centerX": -0.14306923747062683,
+        "centerZ": 0.7271959781646729,
+        "width": 0.2567601799964905,
+        "depth": 0.2195577621459961,
+        "corners": [
+          {
+            "x": -0.05120981112122536,
+            "z": 0.6227564215660095
+          },
+          {
+            "x": -0.2672487199306488,
+            "z": 0.7897272109985352
+          },
+          {
+            "x": -0.23909950256347656,
+            "z": 0.8262472748756409
+          },
+          {
+            "x": -0.02306060492992401,
+            "z": 0.6592764258384705
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Gold Bar",
+      "involvementType": "grasp",
+      "usage": "grip and lift",
+      "inertia": "Users would feel heftier mass about 1kg while lifting",
+      "interactivity": "",
+      "outline": "Users would feel the shape like a solid rectangular ingot (about 3*9cm)",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.7142857313156128,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.2857142984867096,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.04",
+        "y": "0.02",
+        "z": "0.10"
+      },
+      "globalPosition": {
+        "x": -0.6869999766349792,
+        "y": 0.7416127324104309,
+        "z": 0.8029999732971191
+      },
+      "globalRotation": {
+        "x": 270.0,
+        "y": 93.54866027832031,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.6870006322860718,
+          "y": 0.7416056394577026,
+          "z": 0.8029996752738953
+        },
+        "size": {
+          "x": 0.042943183332681656,
+          "y": 0.017545759677886963,
+          "z": 0.09896212071180344
+        },
+        "min": {
+          "x": -0.7084722518920898,
+          "y": 0.7328327894210815,
+          "z": 0.7535186409950256
+        },
+        "max": {
+          "x": -0.6655290126800537,
+          "y": 0.7503784894943237,
+          "z": 0.8524807095527649
+        }
+      },
+      "bounds2D": {
+        "minX": -0.7084722518920898,
+        "maxX": -0.6655290126800537,
+        "minZ": 0.7535186409950256,
+        "maxZ": 0.8524807095527649,
+        "centerX": -0.6870006322860718,
+        "centerZ": 0.8029996752738953,
+        "width": 0.042943183332681656,
+        "depth": 0.09896212071180344,
+        "corners": [
+          {
+            "x": -0.6655290126800537,
+            "z": 0.8501893877983093
+          },
+          {
+            "x": -0.7024771571159363,
+            "z": 0.8524807095527649
+          },
+          {
+            "x": -0.7084721922874451,
+            "z": 0.7558099627494812
+          },
+          {
+            "x": -0.6715241074562073,
+            "z": 0.7535186409950256
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Double Slider",
+      "involvementType": "grasp",
+      "usage": "it serves as a mechanical control interface",
+      "inertia": "",
+      "interactivity": "Users should feel the handle translating their push/pull motions into linear movement with resistance",
+      "outline": "User would feel a straight handle while grasping",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.6666666865348816,
+      "outlineValue": 0.3333333432674408,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.22",
+        "y": "0.10",
+        "z": "0.23"
+      },
+      "globalPosition": {
+        "x": 0.18799999356269836,
+        "y": 0.7206127643585205,
+        "z": 1.024999976158142
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 217.86997985839844,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": 0.18799999356269836,
+          "y": 0.7730951905250549,
+          "z": 1.024999976158142
+        },
+        "size": {
+          "x": 0.22411715984344482,
+          "y": 0.10263669490814209,
+          "z": 0.2259202003479004
+        },
+        "min": {
+          "x": 0.07594141364097595,
+          "y": 0.7217768430709839,
+          "z": 0.9120398759841919
+        },
+        "max": {
+          "x": 0.3000585734844208,
+          "y": 0.824413537979126,
+          "z": 1.1379600763320923
+        }
+      },
+      "bounds2D": {
+        "minX": 0.07594141364097595,
+        "maxX": 0.3000585734844208,
+        "minZ": 0.9120398759841919,
+        "maxZ": 1.1379600763320923,
+        "centerX": 0.18799999356269836,
+        "centerZ": 1.024999976158142,
+        "width": 0.22411715984344482,
+        "depth": 0.2259202003479004,
+        "corners": [
+          {
+            "x": 0.2611745595932007,
+            "z": 0.9926746487617493
+          },
+          {
+            "x": 0.13864612579345703,
+            "z": 1.0879573822021484
+          },
+          {
+            "x": 0.11482541263103485,
+            "z": 1.0573252439498901
+          },
+          {
+            "x": 0.2373538613319397,
+            "z": 0.962042510509491
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Dropper",
+      "involvementType": "grasp",
+      "usage": "liquid dispensing tool",
+      "inertia": "Users should perceive very light overall weight about 10g",
+      "interactivity": "",
+      "outline": "Users\u2019 thumb and index finger sit about 1 cm apart",
+      "texture": "",
+      "hardness": "Users should feel soft and elastic feedback while squeezing and releasing",
+      "temperature": "",
+      "inertiaValue": 0.21052631735801697,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.3684210479259491,
+      "textureValue": 0.0,
+      "hardnessValue": 0.42105263471603394,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.14",
+        "y": "0.02",
+        "z": "0.02"
+      },
+      "globalPosition": {
+        "x": -0.40700000524520874,
+        "y": 0.7276127338409424,
+        "z": 0.6510000228881836
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 88.79813385009766
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.4061073362827301,
+          "y": 0.7275940179824829,
+          "z": 0.6510000228881836
+        },
+        "size": {
+          "x": 0.1393791288137436,
+          "y": 0.018202919512987137,
+          "z": 0.015288898721337318
+        },
+        "min": {
+          "x": -0.4757969081401825,
+          "y": 0.7184925675392151,
+          "z": 0.6433555483818054
+        },
+        "max": {
+          "x": -0.3364177644252777,
+          "y": 0.7366954684257507,
+          "z": 0.6586444973945618
+        }
+      },
+      "bounds2D": {
+        "minX": -0.4757969081401825,
+        "maxX": -0.3364177644252777,
+        "minZ": 0.6433555483818054,
+        "maxZ": 0.6586444973945618,
+        "centerX": -0.4061073362827301,
+        "centerZ": 0.6510000228881836,
+        "width": 0.1393791288137436,
+        "depth": 0.015288898721337318,
+        "corners": [
+          {
+            "x": -0.3365781307220459,
+            "z": 0.6433555483818054
+          },
+          {
+            "x": -0.3365781307220459,
+            "z": 0.6586444973945618
+          },
+          {
+            "x": -0.4756365418434143,
+            "z": 0.6586444973945618
+          },
+          {
+            "x": -0.4756365418434143,
+            "z": 0.6433555483818054
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Slime",
+      "involvementType": "contact",
+      "usage": "an interactive creature for petting and combat ",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "a \u00f8\u224815 cm circular petting area",
+      "texture": "Users should feel dozens of scattered spikes",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.4000000059604645,
+      "textureValue": 0.5999999642372131,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.23",
+        "y": "0.19",
+        "z": "0.23"
+      },
+      "globalPosition": {
+        "x": -0.4519999921321869,
+        "y": 0.7120000720024109,
+        "z": 0.9580000042915344
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 180.16189575195312,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.45201608538627625,
+          "y": 0.8136074542999268,
+          "z": 0.9523051381111145
+        },
+        "size": {
+          "x": 0.23342007398605347,
+          "y": 0.18839049339294434,
+          "z": 0.22929489612579346
+        },
+        "min": {
+          "x": -0.568726122379303,
+          "y": 0.7194122076034546,
+          "z": 0.8376576900482178
+        },
+        "max": {
+          "x": -0.3353060483932495,
+          "y": 0.9078027009963989,
+          "z": 1.0669525861740112
+        }
+      },
+      "bounds2D": {
+        "minX": -0.568726122379303,
+        "maxX": -0.3353060483932495,
+        "minZ": 0.8376576900482178,
+        "maxZ": 1.0669525861740112,
+        "centerX": -0.45201608538627625,
+        "centerZ": 0.9523051381111145,
+        "width": 0.23342007398605347,
+        "depth": 0.22929489612579346,
+        "corners": [
+          {
+            "x": -0.3353699743747711,
+            "z": 1.0436713695526123
+          },
+          {
+            "x": -0.5681439638137817,
+            "z": 1.0443291664123535
+          },
+          {
+            "x": -0.5687077045440674,
+            "z": 0.8448187708854675
+          },
+          {
+            "x": -0.33593374490737915,
+            "z": 0.8441609740257263
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Desk",
+      "involvementType": "pedestal",
+      "usage": "",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "",
+      "hardness": "",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.0,
+      "hardnessValue": 0.0,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "1.59",
+        "y": "0.72",
+        "z": "0.86"
+      },
+      "globalPosition": {
+        "x": -0.10899999737739563,
+        "y": 0.3619999885559082,
+        "z": 0.9169999957084656
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -0.10899996757507324,
+          "y": 0.3620000183582306,
+          "z": 0.9118503332138062
+        },
+        "size": {
+          "x": 1.5931973457336426,
+          "y": 0.7164592742919922,
+          "z": 0.8633513450622559
+        },
+        "min": {
+          "x": -0.9055986404418945,
+          "y": 0.003770381212234497,
+          "z": 0.4801746606826782
+        },
+        "max": {
+          "x": 0.687598705291748,
+          "y": 0.7202296257019043,
+          "z": 1.343526005744934
+        }
+      },
+      "bounds2D": {
+        "minX": -0.9055986404418945,
+        "maxX": 0.687598705291748,
+        "minZ": 0.4801746606826782,
+        "maxZ": 1.343526005744934,
+        "centerX": -0.10899996757507324,
+        "centerZ": 0.9118503332138062,
+        "width": 1.5931973457336426,
+        "depth": 0.8633513450622559,
+        "corners": [
+          {
+            "x": 0.687598705291748,
+            "z": 0.4801748991012573
+          },
+          {
+            "x": 0.6875985860824585,
+            "z": 1.3435261249542236
+          },
+          {
+            "x": -0.9055986404418945,
+            "z": 1.3435258865356445
+          },
+          {
+            "x": -0.905598521232605,
+            "z": 0.4801746606826782
+          }
+        ]
+      }
+    },
+    {
+      "objectName": "Party Balloon",
+      "involvementType": "contact",
+      "usage": "tapping the hovering balloon",
+      "inertia": "",
+      "interactivity": "",
+      "outline": "",
+      "texture": "User should feel a slick foil like skin",
+      "hardness": "Users should feel very soft and compliant surface",
+      "temperature": "",
+      "inertiaValue": 0.0,
+      "interactivityValue": 0.0,
+      "outlineValue": 0.0,
+      "textureValue": 0.38461539149284363,
+      "hardnessValue": 0.6153846383094788,
+      "temperatureValue": 0.0,
+      "dimensions_meters": {
+        "x": "0.41",
+        "y": "0.77",
+        "z": "0.36"
+      },
+      "globalPosition": {
+        "x": -1.284999966621399,
+        "y": 0.8709999918937683,
+        "z": 1.1100000143051147
+      },
+      "globalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "bounds3D": {
+        "center": {
+          "x": -1.257580041885376,
+          "y": 0.39051029086112976,
+          "z": 0.9924525022506714
+        },
+        "size": {
+          "x": 0.4105377197265625,
+          "y": 0.7737661004066467,
+          "z": 0.3636455535888672
+        },
+        "min": {
+          "x": -1.4628489017486572,
+          "y": 0.0036272406578063965,
+          "z": 0.8106297254562378
+        },
+        "max": {
+          "x": -1.0523111820220947,
+          "y": 0.7773933410644531,
+          "z": 1.174275279045105
+        }
+      },
+      "bounds2D": {
+        "minX": -1.4628489017486572,
+        "maxX": -1.0523111820220947,
+        "minZ": 0.8106297254562378,
+        "maxZ": 1.174275279045105,
+        "centerX": -1.257580041885376,
+        "centerZ": 0.9924525022506714,
+        "width": 0.4105377197265625,
+        "depth": 0.3636455535888672,
+        "corners": [
+          {
+            "x": -1.4628489017486572,
+            "z": 0.8426893949508667
+          },
+          {
+            "x": -1.0523111820220947,
+            "z": 0.8426893949508667
+          },
+          {
+            "x": -1.0523111820220947,
+            "z": 1.174275279045105
+          },
+          {
+            "x": -1.4628489017486572,
+            "z": 1.174275279045105
+          }
+        ]
+      }
+    }
+  ],
+  "relationshipAnnotations": [
+    {
+      "contactObject": "Lightsaber",
+      "substrateObject": "Slime",
+      "annotationText": "use the lightsaber to cut slime. there should be NO resistance-based haptic feedback since the lightsaber blade is pure energy/light, requiring two physical proxies should avoid contact."
+    },
+    {
+      "contactObject": "Hammer",
+      "substrateObject": "Slime",
+      "annotationText": "use the hammer to smash slime. user would experience a dampened impact through the handle"
+    }
+  ],
+  "groups": [
+    {
+      "title": "Group",
+      "objectNames": [
+        "Hammer",
+        "Lightsaber",
+        "Gold Bar",
+        "Double Slider",
+        "Dropper",
+        "Slime",
+        "Desk"
+      ],
+      "pedestal": "Desk",
+      "additionalViewAngles": [
+        "StreamingAssets/Export/Arrangement_Group_20251210_175055_angle0.png",
+        "StreamingAssets/Export/Arrangement_Group_20251210_175055_angle1.png",
+        "StreamingAssets/Export/Arrangement_Group_20251210_175055_angle2.png"
+      ]
+    }
+  ],
+  "virtualEnvironmentBounds": {
+    "center": {
+      "x": -0.3876250982284546,
+      "y": 0.45390135049819946,
+      "z": 0.671763002872467
+    },
+    "size": {
+      "x": 3.1504476070404053,
+      "y": 1.907802700996399,
+      "z": 2.3435258865356445
+    },
+    "min": {
+      "x": -1.9628489017486572,
+      "y": -0.5,
+      "z": -0.4999999403953552
+    },
+    "max": {
+      "x": 1.187598705291748,
+      "y": 1.407802700996399,
+      "z": 1.8435258865356445
+    },
+    "footprint2D": {
+      "minX": -1.9628489017486572,
+      "maxX": 1.187598705291748,
+      "minZ": -0.4999999403953552,
+      "maxZ": 1.8435258865356445,
+      "centerX": -0.3876250982284546,
+      "centerZ": 0.671763002872467,
+      "width": 3.1504476070404053,
+      "depth": 2.3435258865356445,
+      "corners": []
+    }
+  },
+  "virtualEnvironmentCenter": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

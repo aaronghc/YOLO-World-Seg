@@ -1,0 +1,158 @@
+{
+  "optimization_summary": {
+    "total_loss": -13.426460658492594,
+    "loss_components": {
+      "L_realism": -9.093333291014035,
+      "L_interaction": -9.91521071495868,
+      "L_spatial": 5.582083347480122,
+      "total": -13.426460658492594
+    },
+    "num_virtual_objects": 13,
+    "num_physical_objects": 23,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": false
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Firewood",
+        "index": 0,
+        "engagement_level": 2.9242343145200196,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "silver and black Olympus PEN film camera",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the camera upright on its base; strike the metal top plate near the center with the screwdriver tip."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 1,
+        "engagement_level": 3.5231883119115293,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "long metal flat-head screwdriver with a translucent red handle",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 15
+      },
+      "realism_score": 3.333333333333333,
+      "utilization_method": "Grip the red handle fully, orient the metal shaft forward, and swing in a sharp downward arc"
+    },
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 3,
+        "engagement_level": 2.0,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "yellow disposable paper cup",
+        "object_id": 5,
+        "image_id": 0,
+        "index": 4
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Stand the cup upright on its base. Center the screwdriver over the rim and punch straight through the cup wall."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 5,
+        "engagement_level": 0.4768116880884702,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "clear plastic water bottle with screw cap",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 5.5,
+      "utilization_method": "Hold the narrow neck firmly as a handle and swing the bottle so its filled body cuts through the air in an arc"
+    },
+    {
+      "virtual_object": {
+        "name": "Hoe",
+        "index": 6,
+        "engagement_level": 1.0757656854799804,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "white plastic adjustable desk lamp with circular head",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 3.5,
+      "utilization_method": "Grasp the vertical stem with one hand midway up and place the other hand on the base, tip the lamp so the circular head meets the tabletop ahead of you, press down, then draw the lamp back toward you in a controlled sweep"
+    },
+    {
+      "virtual_object": {
+        "name": "Pitchfork",
+        "index": 8,
+        "engagement_level": 2.0,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "black adjustable tripod stand (microphone or lighting stand)",
+        "object_id": 2,
+        "image_id": 3,
+        "index": 18
+      },
+      "realism_score": 5.833333333333334,
+      "utilization_method": "Grasp the central vertical tube with both hands, orient one of the extended tripod legs forward to act as tines, thrust ahead, then lift and rotate outward"
+    },
+    {
+      "virtual_object": {
+        "name": "Haystack",
+        "index": 10,
+        "engagement_level": 1.0757656854799804,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "green hexagonal fabric ottoman",
+        "object_id": 3,
+        "image_id": 3,
+        "index": 19
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the ottoman directly ahead. Drive the tripod leg into the top center so the foam interior compresses and gives."
+    },
+    {
+      "virtual_object": {
+        "name": "WheelBarrow",
+        "index": 11,
+        "engagement_level": 2.9242343145200196,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0
+      },
+      "physical_object": {
+        "name": "high-back gray upholstered booth seat with metal frame",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 17
+      },
+      "realism_score": 4.5666665608684225,
+      "utilization_method": "Stand behind the booth seat, place both hands on the two parallel horizontal sections of the metal side rails, lean forward, lift the rear legs slightly, and push the seat a short distance across the floor"
+    }
+  ]
+}

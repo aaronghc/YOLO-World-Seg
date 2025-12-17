@@ -36,8 +36,48 @@ def run_python():
             print("Invalid request format - missing 'action' or not 'run_script'")
             return jsonify({'status': 'error', 'output': 'Invalid request format'}), 400
 
-        script_name = data.get('script_name', 'ProXeek.py')
+        # Prompt user to select which script to run
+        print("\n" + "="*60)
+        print("SELECT SCRIPT TO RUN:")
+        print("  1 - ProXeek.py (Full pipeline or skip mode)")
+        print("  2 - ProXeek_ObjectRecognition.py (Object recognition only)")
+        print("="*60)
+        
+        while True:
+            user_choice = input("Enter your choice (1 or 2): ").strip()
+            if user_choice == '1':
+                script_name = 'ProXeek.py'
+                print(f"Selected: ProXeek.py")
+                break
+            elif user_choice == '2':
+                script_name = 'ProXeek_ObjectRecognition.py'
+                print(f"Selected: ProXeek_ObjectRecognition.py")
+                break
+            else:
+                print("Invalid choice. Please enter 1 or 2.")
+        
         params = data.get('params', {})
+        
+        # If ProXeek.py was selected, ask if user wants to skip object recognition
+        if script_name == 'ProXeek.py':
+            print("\n" + "="*60)
+            print("OBJECT RECOGNITION MODE:")
+            print("  1 - Run full pipeline (object recognition + YOLO + segmentation)")
+            print("  2 - Skip object recognition (use existing physical_object_database.json)")
+            print("="*60)
+            
+            while True:
+                skip_choice = input("Enter your choice (1 or 2): ").strip()
+                if skip_choice == '1':
+                    params['skipObjectRecognition'] = False
+                    print("Selected: Run full pipeline")
+                    break
+                elif skip_choice == '2':
+                    params['skipObjectRecognition'] = True
+                    print("Selected: Skip object recognition (using existing database)")
+                    break
+                else:
+                    print("Invalid choice. Please enter 1 or 2.")
 
         print(f"Script name: {script_name}")
         if 'environmentImageBase64List' in params:
@@ -210,21 +250,39 @@ def receive_updated_bounding_boxes():
         output_dir = os.path.join(SCRIPTS_PATH, 'output')
         os.makedirs(output_dir, exist_ok=True)
 
+        # Save the FULL data (including playArea if present) to physical_object_database.json
         output_path = os.path.join(output_dir, 'physical_object_database.json')
-
-        # If a top-level 'data' key is present, save only its contents (strip the wrapper)
-        to_save = data.get('data', data)
-
+        
         with open(output_path, 'w') as f:
-            json.dump(to_save, f, indent=2)
+            json.dump(data, f, indent=2)
 
         obj_count = 0
         try:
-            obj_count = sum(len(v) for v in to_save.values())
+            # Count objects in the 'data' field
+            obj_data = data.get('data', {})
+            obj_count = sum(len(v) for v in obj_data.values())
         except Exception:
             pass
 
         print(f"Received updated bounding box data. Saved {obj_count} objects to {output_path}")
+        
+        # Check if play area data is present (just for logging)
+        play_area = data.get('playArea', None)
+        if play_area:
+            print(f"Play area data found: {len(play_area.get('boundaryPoints', []))} boundary points")
+            print(f"  Width: {play_area.get('width', 0):.2f}m, Depth: {play_area.get('depth', 0):.2f}m")
+            
+            # Generate play area footprint visualization
+            try:
+                from export_play_area_footprint import export_play_area_footprint
+                
+                footprint_path = os.path.join(output_dir, 'play_area_footprint.png')
+                export_play_area_footprint(output_path, footprint_path)
+                print(f"✓ Play area footprint exported to: {footprint_path}")
+            except Exception as footprint_error:
+                print(f"Warning: Could not export play area footprint: {footprint_error}")
+        else:
+            print("No play area data in received payload (boundary not configured on Quest)")
 
         return jsonify({'status': 'success', 'message': 'Updated physical object database saved'}), 200
 

@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Fork",
+      "proxyObjectName": "black ballpoint pen",
+      "utilizationMethod": "Grip the pen near its writing tip between thumb and index finger with the barrel pointing forward, performing eating motions"
+    },
+    {
+      "virtualObjectName": "Knife",
+      "proxyObjectName": "pair of black scissors with yellow handles",
+      "utilizationMethod": "Keep the blades closed, hold one handle ring like a knife grip, and use the outside of the closed blades to perform sawing or spreading motions"
+    },
+    {
+      "virtualObjectName": "Steak",
+      "proxyObjectName": "green and yellow kitchen scrub sponge",
+      "utilizationMethod": "Set the sponge flat with the green abrasive side up. Stab the pen tip into the center of the sponge, sinking it through the soft yellow layer beneath before lifting out."
+    },
+    {
+      "virtualObjectName": "Spoon",
+      "proxyObjectName": "clear stemmed wine glass",
+      "utilizationMethod": "Pinch the thin stem near its midpoint as a handle, use the bowl of the glass as the spoon head, and practice scooping and tilting by wrist rotation"
+    },
+    {
+      "virtualObjectName": "Soup",
+      "proxyObjectName": "wooden-handled dust brush with black bristles",
+      "utilizationMethod": "Lay the brush with bristles up; move the glass bowl slowly through the bristle field, pushing the tips aside as you stir."
+    },
+    {
+      "virtualObjectName": "Teapot",
+      "proxyObjectName": "grey mechanical keyboard with dark keycaps and one red keycap",
+      "utilizationMethod": "Hold the keyboard firmly along one short edge with a full-hand grasp and tilt it forward like pouring (not sure whether it is applicable)"
+    },
+    {
+      "virtualObjectName": "Salt",
+      "proxyObjectName": "small round metal calibration weight labeled \u201cM 5000\u201d",
+      "utilizationMethod": "Pinch the cylindrical weight between thumb and fingers and perform quick shaking motions"
+    },
+    {
+      "virtualObjectName": "Pepper Grinder",
+      "proxyObjectName": "clear plastic spray bottle containing blue liquid",
+      "utilizationMethod": "Hold the bottle body with one hand and twist the white spray nozzle left and right with the other hand."
+    }
+  ],
+  "pinPoint": [
+    0.11357063888366475,
+    0.0,
+    0.6599648
+  ],
+  "rotationAngle": -29.999999999999996,
+  "timestamp": "50fc23d3-e834-4a1d-b396-449c16eeb476",
+  "total_assignments": 8
+}

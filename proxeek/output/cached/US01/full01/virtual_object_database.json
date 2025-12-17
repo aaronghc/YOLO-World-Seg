@@ -1,0 +1,583 @@
+[
+  {
+    "objectName": "Hammer",
+    "involvementType": "grasp",
+    "usage": "smashing things",
+    "inertia": "noticable top-heavy feel, overall weight is about 1 kg",
+    "interactivity": "",
+    "outline": "Straight shaft (~3cm thick, ~40 cm long) ",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.46153849363327026,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.5384615659713745,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.41",
+      "y": "0.05",
+      "z": "0.15"
+    },
+    "globalPosition": {
+      "x": 0.35199999809265137,
+      "y": 0.7418190836906433,
+      "z": 0.6690000295639038
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 280.48406982421875,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": 0.3503626585006714,
+        "y": 0.7418191432952881,
+        "z": 0.6896796226501465
+      },
+      "size": {
+        "x": 0.4148657023906708,
+        "y": 0.04790276288986206,
+        "z": 0.15116077661514282
+      },
+      "min": {
+        "x": 0.142929807305336,
+        "y": 0.7178677320480347,
+        "z": 0.6140992641448975
+      },
+      "max": {
+        "x": 0.557795524597168,
+        "y": 0.7657705545425415,
+        "z": 0.7652599811553955
+      }
+    },
+    "bounds2D": {
+      "minX": 0.142929807305336,
+      "maxX": 0.557795524597168,
+      "minZ": 0.6140992641448975,
+      "maxZ": 0.7652599811553955,
+      "centerX": 0.3503626585006714,
+      "centerZ": 0.6896796226501465,
+      "width": 0.4148657023906708,
+      "depth": 0.15116077661514282,
+      "corners": [
+        {
+          "x": 0.5435415506362915,
+          "z": 0.5719010233879089
+        },
+        {
+          "x": 0.5656043291091919,
+          "z": 0.6911262273788452
+        },
+        {
+          "x": 0.1649925857782364,
+          "z": 0.7652599811553955
+        },
+        {
+          "x": 0.1429297924041748,
+          "z": 0.6460347771644592
+        }
+      ]
+    },
+    "interactionDeduction": "Users will clasp the wooden shaft with a full power grip, wrapping all fingers around the ~3 cm-thick handle near its lower third. The dominant hand (or both hands for heavier swings) cocks rearward at the elbow and shoulder, then accelerates forward in an arcing motion to drive the steel head into a target. The top-heavy mass (\u22481 kg focused at the head) produces noticeable rotational inertia, so the wrist naturally follows through while the forearm absorbs counter-torque. On impact the virtual hammer stops abruptly, transferring a short, high-frequency vibration down the handle, after which the user either rebounds for another strike or relaxes grip to carry the tool at rest."
+  },
+  {
+    "objectName": "Lightsaber",
+    "involvementType": "grasp",
+    "usage": "cutting through things",
+    "inertia": "Users would feel heftier mass concentrated in the hilt (about 500 g), with balanced weight distribution that doesn\u2019t feel front-heavy.",
+    "interactivity": "",
+    "outline": "Users would overall feel a cylindrical shape while grasping with a diameter about 3cm",
+    "texture": "",
+    "hardness": "",
+    "temperature": "User would feel the surface cool to touch",
+    "inertiaValue": 0.4117646813392639,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.4117646813392639,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.1764705926179886,
+    "dimensions_meters": {
+      "x": "0.26",
+      "y": "0.07",
+      "z": "0.22"
+    },
+    "globalPosition": {
+      "x": -0.10000000149011612,
+      "y": 0.7410000562667847,
+      "z": 0.6859999895095825
+    },
+    "globalRotation": {
+      "x": 24.35184669494629,
+      "y": 37.62461471557617,
+      "z": 89.81838989257812
+    },
+    "bounds3D": {
+      "center": {
+        "x": -0.14306923747062683,
+        "y": 0.7414445877075195,
+        "z": 0.7271959781646729
+      },
+      "size": {
+        "x": 0.2567601799964905,
+        "y": 0.06685900688171387,
+        "z": 0.2195577621459961
+      },
+      "min": {
+        "x": -0.27144932746887207,
+        "y": 0.7080150842666626,
+        "z": 0.6174170970916748
+      },
+      "max": {
+        "x": -0.014689147472381592,
+        "y": 0.7748740911483765,
+        "z": 0.8369748592376709
+      }
+    },
+    "bounds2D": {
+      "minX": -0.27144932746887207,
+      "maxX": -0.014689147472381592,
+      "minZ": 0.6174170970916748,
+      "maxZ": 0.8369748592376709,
+      "centerX": -0.14306923747062683,
+      "centerZ": 0.7271959781646729,
+      "width": 0.2567601799964905,
+      "depth": 0.2195577621459961,
+      "corners": [
+        {
+          "x": -0.05120981112122536,
+          "z": 0.6227564215660095
+        },
+        {
+          "x": -0.2672487199306488,
+          "z": 0.7897272109985352
+        },
+        {
+          "x": -0.23909950256347656,
+          "z": 0.8262472748756409
+        },
+        {
+          "x": -0.02306060492992401,
+          "z": 0.6592764258384705
+        }
+      ]
+    },
+    "interactionDeduction": "The user encloses the cylindrical hilt (\u22483 cm diameter) with one or two hands\u2014thumbs forward, fingers curling in a symmetrical power grip similar to a flashlight or fencing weapon. A thumb press or slide of the activation switch precedes motion, after which the user performs broad slashes, diagonal cuts, and thrusts. Because the perceived mass is concentrated in the hilt (\u2248500 g) and the blade is mass-less light, the saber feels well balanced; inertia is low so direction changes are quick and wrist-driven. When the luminous blade intersects virtual objects it offers minimal resistance (it 'slices' rather than impacts), and a continuous low-frequency hum responds to speed\u2014growing louder during fast swings."
+  },
+  {
+    "objectName": "Gold Bar",
+    "involvementType": "grasp",
+    "usage": "grip and lift",
+    "inertia": "Users would feel heftier mass about 1kg while lifting",
+    "interactivity": "",
+    "outline": "Users would feel the shape like a solid rectangular ingot (about 3*9cm)",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.7142857313156128,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.2857142984867096,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.04",
+      "y": "0.02",
+      "z": "0.10"
+    },
+    "globalPosition": {
+      "x": -0.6869999766349792,
+      "y": 0.7416127324104309,
+      "z": 0.8029999732971191
+    },
+    "globalRotation": {
+      "x": 270.0,
+      "y": 93.54866027832031,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": -0.6870006322860718,
+        "y": 0.7416056394577026,
+        "z": 0.8029996752738953
+      },
+      "size": {
+        "x": 0.042943183332681656,
+        "y": 0.017545759677886963,
+        "z": 0.09896212071180344
+      },
+      "min": {
+        "x": -0.7084722518920898,
+        "y": 0.7328327894210815,
+        "z": 0.7535186409950256
+      },
+      "max": {
+        "x": -0.6655290126800537,
+        "y": 0.7503784894943237,
+        "z": 0.8524807095527649
+      }
+    },
+    "bounds2D": {
+      "minX": -0.7084722518920898,
+      "maxX": -0.6655290126800537,
+      "minZ": 0.7535186409950256,
+      "maxZ": 0.8524807095527649,
+      "centerX": -0.6870006322860718,
+      "centerZ": 0.8029996752738953,
+      "width": 0.042943183332681656,
+      "depth": 0.09896212071180344,
+      "corners": [
+        {
+          "x": -0.6655290126800537,
+          "z": 0.8501893877983093
+        },
+        {
+          "x": -0.7024771571159363,
+          "z": 0.8524807095527649
+        },
+        {
+          "x": -0.7084721922874451,
+          "z": 0.7558099627494812
+        },
+        {
+          "x": -0.6715241074562073,
+          "z": 0.7535186409950256
+        }
+      ]
+    },
+    "interactionDeduction": "The bar is pinched or palmed with a compact power grip: fingers curl under one long edge while the thumb presses the opposite edge, forming a clamp around the 3 \u00d7 9 cm rectangular ingot. Users bend the elbow to lift, feeling the unexpected heft of \u22481 kg despite its small volume. Interaction is mostly translational\u2014lifting, stacking, passing hand-to-hand\u2014without rotation once secured. The object remains perfectly rigid and unresponsive other than exhibiting weight in the hand."
+  },
+  {
+    "objectName": "Double Slider",
+    "involvementType": "grasp",
+    "usage": "it serves as a mechanical control interface",
+    "inertia": "",
+    "interactivity": "Users should feel the handle translating their push/pull motions into linear movement with resistance",
+    "outline": "User would feel a straight handle while grasping",
+    "texture": "",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.6666666865348816,
+    "outlineValue": 0.3333333432674408,
+    "textureValue": 0.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.22",
+      "y": "0.10",
+      "z": "0.23"
+    },
+    "globalPosition": {
+      "x": 0.18799999356269836,
+      "y": 0.7206127643585205,
+      "z": 1.024999976158142
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 217.86997985839844,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": 0.18799999356269836,
+        "y": 0.7730951905250549,
+        "z": 1.024999976158142
+      },
+      "size": {
+        "x": 0.22411715984344482,
+        "y": 0.10263669490814209,
+        "z": 0.2259202003479004
+      },
+      "min": {
+        "x": 0.07594141364097595,
+        "y": 0.7217768430709839,
+        "z": 0.9120398759841919
+      },
+      "max": {
+        "x": 0.3000585734844208,
+        "y": 0.824413537979126,
+        "z": 1.1379600763320923
+      }
+    },
+    "bounds2D": {
+      "minX": 0.07594141364097595,
+      "maxX": 0.3000585734844208,
+      "minZ": 0.9120398759841919,
+      "maxZ": 1.1379600763320923,
+      "centerX": 0.18799999356269836,
+      "centerZ": 1.024999976158142,
+      "width": 0.22411715984344482,
+      "depth": 0.2259202003479004,
+      "corners": [
+        {
+          "x": 0.2611745595932007,
+          "z": 0.9926746487617493
+        },
+        {
+          "x": 0.13864612579345703,
+          "z": 1.0879573822021484
+        },
+        {
+          "x": 0.11482541263103485,
+          "z": 1.0573252439498901
+        },
+        {
+          "x": 0.2373538613319397,
+          "z": 0.962042510509491
+        }
+      ]
+    },
+    "interactionDeduction": "Users set their hand over the horizontal cylindrical handle (forearm parallel to the rails) and close a relaxed power grip, thumbs resting on top. The wrist, elbow, and shoulder then drive a linear push or pull along the track\u2019s single axis. Resistance is moderate and constant\u2014akin to moving a mixing console fader\u2014so force ramps smoothly until the carriage reaches either mechanical stop, where it halts with a soft notch. Users may make short reciprocating adjustments for fine control, feeling the same friction on each reversal."
+  },
+  {
+    "objectName": "Dropper",
+    "involvementType": "grasp",
+    "usage": "liquid dispensing tool",
+    "inertia": "Users should perceive very light overall weight about 10g",
+    "interactivity": "",
+    "outline": "Users\u2019 thumb and index finger sit about 1 cm apart",
+    "texture": "",
+    "hardness": "Users should feel soft and elastic feedback while squeezing and releasing",
+    "temperature": "",
+    "inertiaValue": 0.21052631735801697,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.3684210479259491,
+    "textureValue": 0.0,
+    "hardnessValue": 0.42105263471603394,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.14",
+      "y": "0.02",
+      "z": "0.02"
+    },
+    "globalPosition": {
+      "x": -0.40700000524520874,
+      "y": 0.7276127338409424,
+      "z": 0.6510000228881836
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 88.79813385009766
+    },
+    "bounds3D": {
+      "center": {
+        "x": -0.4061073362827301,
+        "y": 0.7275940179824829,
+        "z": 0.6510000228881836
+      },
+      "size": {
+        "x": 0.1393791288137436,
+        "y": 0.018202919512987137,
+        "z": 0.015288898721337318
+      },
+      "min": {
+        "x": -0.4757969081401825,
+        "y": 0.7184925675392151,
+        "z": 0.6433555483818054
+      },
+      "max": {
+        "x": -0.3364177644252777,
+        "y": 0.7366954684257507,
+        "z": 0.6586444973945618
+      }
+    },
+    "bounds2D": {
+      "minX": -0.4757969081401825,
+      "maxX": -0.3364177644252777,
+      "minZ": 0.6433555483818054,
+      "maxZ": 0.6586444973945618,
+      "centerX": -0.4061073362827301,
+      "centerZ": 0.6510000228881836,
+      "width": 0.1393791288137436,
+      "depth": 0.015288898721337318,
+      "corners": [
+        {
+          "x": -0.3365781307220459,
+          "z": 0.6433555483818054
+        },
+        {
+          "x": -0.3365781307220459,
+          "z": 0.6586444973945618
+        },
+        {
+          "x": -0.4756365418434143,
+          "z": 0.6586444973945618
+        },
+        {
+          "x": -0.4756365418434143,
+          "z": 0.6433555483818054
+        }
+      ]
+    },
+    "interactionDeduction": "Held like a pipette between thumb and first two fingers near the rubber bulb, the dropper uses a precision pinch. The thumb pads onto the bulb\u2019s apex while index and middle fingers brace the glass stem. The thumb compresses the elastic rubber 5\u201310 mm, meeting soft resistance; releasing creates a vacuum that draws liquid up the tube. Users then tilt the wrist over a target and perform gentle repeated squeezes to dispense drops. The bulb quickly regains shape after each press, giving a springy rebound sensation with virtually no inertia due to its \u224810 g mass."
+  },
+  {
+    "objectName": "Slime",
+    "involvementType": "contact",
+    "usage": "an interactive creature for petting and combat ",
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "Users should feel dozens of dotted spikes",
+    "hardness": "",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 1.0,
+    "hardnessValue": 0.0,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.23",
+      "y": "0.19",
+      "z": "0.23"
+    },
+    "globalPosition": {
+      "x": -0.4519999921321869,
+      "y": 0.7120000720024109,
+      "z": 0.9580000042915344
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 180.16189575195312,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": -0.45201608538627625,
+        "y": 0.8136074542999268,
+        "z": 0.9523051381111145
+      },
+      "size": {
+        "x": 0.23342007398605347,
+        "y": 0.18839049339294434,
+        "z": 0.22929489612579346
+      },
+      "min": {
+        "x": -0.568726122379303,
+        "y": 0.7194122076034546,
+        "z": 0.8376576900482178
+      },
+      "max": {
+        "x": -0.3353060483932495,
+        "y": 0.9078027009963989,
+        "z": 1.0669525861740112
+      }
+    },
+    "bounds2D": {
+      "minX": -0.568726122379303,
+      "maxX": -0.3353060483932495,
+      "minZ": 0.8376576900482178,
+      "maxZ": 1.0669525861740112,
+      "centerX": -0.45201608538627625,
+      "centerZ": 0.9523051381111145,
+      "width": 0.23342007398605347,
+      "depth": 0.22929489612579346,
+      "corners": [
+        {
+          "x": -0.3353699743747711,
+          "z": 1.0436713695526123
+        },
+        {
+          "x": -0.5681439638137817,
+          "z": 1.0443291664123535
+        },
+        {
+          "x": -0.5687077045440674,
+          "z": 0.8448187708854675
+        },
+        {
+          "x": -0.33593374490737915,
+          "z": 0.8441609740257263
+        }
+      ]
+    },
+    "interactionDeduction": "Interaction is primarily tactile contact rather than grasping. Users reach out with fingertips or the palm and either stroke, pat, or poke the creature. The hand meets a squishy, compliant surface studded with many small rubbery spikes; each press depresses the body and the spikes bend, then the slime jiggles and re-expands, giving a brief wobble before settling. During combat-style contact, users may slap or punch with an open palm/fist, feeling the same soft give followed by a spring-back recoil."
+  },
+  {
+    "objectName": "Party Balloon",
+    "involvementType": "contact",
+    "usage": "tapping the hovering balloon",
+    "inertia": "",
+    "interactivity": "",
+    "outline": "",
+    "texture": "User should feel a slick foil like skin",
+    "hardness": "Users should feel very soft and compliant surface",
+    "temperature": "",
+    "inertiaValue": 0.0,
+    "interactivityValue": 0.0,
+    "outlineValue": 0.0,
+    "textureValue": 0.38461539149284363,
+    "hardnessValue": 0.6153846383094788,
+    "temperatureValue": 0.0,
+    "dimensions_meters": {
+      "x": "0.41",
+      "y": "0.77",
+      "z": "0.36"
+    },
+    "globalPosition": {
+      "x": -1.284999966621399,
+      "y": 0.8709999918937683,
+      "z": 1.1100000143051147
+    },
+    "globalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bounds3D": {
+      "center": {
+        "x": -1.257580041885376,
+        "y": 0.39051029086112976,
+        "z": 0.9924525022506714
+      },
+      "size": {
+        "x": 0.4105377197265625,
+        "y": 0.7737661004066467,
+        "z": 0.3636455535888672
+      },
+      "min": {
+        "x": -1.4628489017486572,
+        "y": 0.0036272406578063965,
+        "z": 0.8106297254562378
+      },
+      "max": {
+        "x": -1.0523111820220947,
+        "y": 0.7773933410644531,
+        "z": 1.174275279045105
+      }
+    },
+    "bounds2D": {
+      "minX": -1.4628489017486572,
+      "maxX": -1.0523111820220947,
+      "minZ": 0.8106297254562378,
+      "maxZ": 1.174275279045105,
+      "centerX": -1.257580041885376,
+      "centerZ": 0.9924525022506714,
+      "width": 0.4105377197265625,
+      "depth": 0.3636455535888672,
+      "corners": [
+        {
+          "x": -1.4628489017486572,
+          "z": 0.8426893949508667
+        },
+        {
+          "x": -1.0523111820220947,
+          "z": 0.8426893949508667
+        },
+        {
+          "x": -1.0523111820220947,
+          "z": 1.174275279045105
+        },
+        {
+          "x": -1.4628489017486572,
+          "z": 1.174275279045105
+        }
+      ]
+    },
+    "interactionDeduction": "Users lightly flick, tap, or push the hovering balloon with fingertips, knuckles, or the flat palm. Contact duration is momentary\u2014a quick tap imparts impulse, after which the balloon deforms slightly under the touch (soft compliance, foil-slick skin), then drifts away due to low mass and buoyancy. Because inertia is minimal, even gentle taps induce noticeable displacement, and the surface self-smooths as the balloon returns to its original star shape while floating."
+  }
+]

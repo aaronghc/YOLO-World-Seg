@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Firewood",
+      "proxyObjectName": "green and yellow scouring sponge",
+      "utilizationMethod": "Place the sponge flat with the green abrasive side facing up; chop into the center of the sponge."
+    },
+    {
+      "virtualObjectName": "Axe",
+      "proxyObjectName": "white plastic spray bottle with translucent body",
+      "utilizationMethod": "Hold the bottle\u2019s neck just below the trigger with a full grip and swing the bottle downward so the liquid body leads like an axe head"
+    },
+    {
+      "virtualObjectName": "Watermelon",
+      "proxyObjectName": "yellow bag of Japanese puffed peanut snack (\u3046\u3059\u30d4\u30fc\u30ca)",
+      "utilizationMethod": "Lay the sealed snack bag flat so it cushions and collapses when struck"
+    },
+    {
+      "virtualObjectName": "Sickle",
+      "proxyObjectName": "small yellow ceramic pot holding a green succulent plant",
+      "utilizationMethod": "Cup the cylindrical pot from the side, keep the rim pointing outward, and swing the pot in short arcing motions."
+    },
+    {
+      "virtualObjectName": "Hoe",
+      "proxyObjectName": "selfie stick (telescopic metal pole with phone mount and black handle)",
+      "utilizationMethod": "Extend the pole fully, grip the black handle with the trailing hand, place the leading hand farther up the shaft near the phone mount, raise the pole overhead, then swing the mounted end downward toward the floor while pulling it back toward the torso"
+    },
+    {
+      "virtualObjectName": "Pitchfork",
+      "proxyObjectName": "transparent umbrella with white curved handle",
+      "utilizationMethod": "Hold the curved handle with one hand, slide the other hand halfway up the shaft, aim the umbrella tip forward, thrust outward, then lift and roll both wrists upward to mimic scooping and tossing"
+    },
+    {
+      "virtualObjectName": "Haystack",
+      "proxyObjectName": "large beige fabric bean bag",
+      "utilizationMethod": "Position the bean bag upright and full; thrust the umbrella tip into its side so the filling shifts and envelops the tip, then lift upward to feel it slide out."
+    },
+    {
+      "virtualObjectName": "WheelBarrow",
+      "proxyObjectName": "black upholstered office chair with armrests",
+      "utilizationMethod": "Stand behind the chair, grasp the left and right armrests with both hands, tip the chair back slightly onto its casters, then walk forward while rolling the chair ahead"
+    }
+  ],
+  "pinPoint": [
+    -0.43392609772351726,
+    0.0,
+    0.3957900022764827
+  ],
+  "rotationAngle": -59.99999999999999,
+  "timestamp": "a8c7676c-1486-4fd0-83ca-0becd7d4addc",
+  "total_assignments": 8
+}

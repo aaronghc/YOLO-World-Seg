@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Easel",
+      "proxyObjectName": "beige round bean bag / floor cushion",
+      "utilizationMethod": "Place the bean bag upright against a wall to create a domed surface. Sweep the pen across the cloth cover, letting the shifting beads offer gradual pushback."
+    },
+    {
+      "virtualObjectName": "Tube",
+      "proxyObjectName": "yellow snack bag of Japanese pea crackers",
+      "utilizationMethod": "Pinch the sealed top edge with thumb and index finger, cradle the body of the bag in the remaining fingers, and squeeze the contents toward the bottom"
+    },
+    {
+      "virtualObjectName": "Spray Can",
+      "proxyObjectName": "black and silver extendable selfie stick with phone holder",
+      "utilizationMethod": "Grip the lower rubber handle with the whole hand and use the thumb to click the small rectangular shutter button on the handle"
+    },
+    {
+      "virtualObjectName": "Round Mallet",
+      "proxyObjectName": "spray bottle with white nozzle and light blue liquid",
+      "utilizationMethod": "Wrap fingers around the neck beneath the trigger, let the filled bottle act as the head, and swing the base downward for strikes"
+    },
+    {
+      "virtualObjectName": "Chisel",
+      "proxyObjectName": "metal calibration weight labeled 'M 500g'",
+      "utilizationMethod": "Clasp the top knob between thumb and forefinger, allowing the cylindrical body to extend downward as the chisel shaft"
+    },
+    {
+      "virtualObjectName": "Paint Brush",
+      "proxyObjectName": "metallic ballpoint pen with a clear barrel",
+      "utilizationMethod": "Hold the pen in a standard tripod grip and glide its tip across a surface exactly as you would move a paint brush"
+    },
+    {
+      "virtualObjectName": "Stone Tablet",
+      "proxyObjectName": "blue upholstered two-seat bench with black metal armrests",
+      "utilizationMethod": "Press the controller tip against the exposed black metal armrest of the bench"
+    },
+    {
+      "virtualObjectName": "Paint Roller",
+      "proxyObjectName": "transparent plastic umbrella with white curved handle",
+      "utilizationMethod": "Hold the curved handle firmly, place the umbrella tip on the floor or table surface, and move the handle in long up-and-down or side-to-side strokes"
+    }
+  ],
+  "pinPoint": [
+    1.5738717401196545,
+    -1.1920929e-07,
+    0.4886101673598273
+  ],
+  "rotationAngle": -100.0,
+  "timestamp": "3d272a86-04d5-4574-a4d2-6107cc6bf100",
+  "total_assignments": 8
+}

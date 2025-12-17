@@ -1,0 +1,158 @@
+{
+  "optimization_summary": {
+    "total_loss": -38.034585226892446,
+    "loss_components": {
+      "L_realism": -16.968640905986312,
+      "L_interaction": -27.88179149041717,
+      "L_spatial": 6.8158471695110405,
+      "total": -38.034585226892446
+    },
+    "num_virtual_objects": 13,
+    "num_physical_objects": 23,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Firewood",
+        "index": 0,
+        "engagement_level": 2.9242343145200196,
+        "involvement_type": "substrate",
+        "priority_weight": 2.9242343145200196
+      },
+      "physical_object": {
+        "name": "white plastic adjustable desk lamp with circular head",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Rotate the lamp arm so the circular head lies flat on the tabletop; strike the centre of the circular head with the camera body."
+    },
+    {
+      "virtual_object": {
+        "name": "Axe",
+        "index": 1,
+        "engagement_level": 3.5231883119115293,
+        "involvement_type": "grasp",
+        "priority_weight": 3.5231883119115293
+      },
+      "physical_object": {
+        "name": "silver and black Olympus PEN film camera",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 3.166666666666667,
+      "utilization_method": "Wrap the hand around the lens barrel, let the camera body act as a weighted head, and swing the unit downward carefully"
+    },
+    {
+      "virtual_object": {
+        "name": "Watermelon",
+        "index": 3,
+        "engagement_level": 2.0,
+        "involvement_type": "substrate",
+        "priority_weight": 2.0
+      },
+      "physical_object": {
+        "name": "small bright orange tangerine",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 14
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Rest the tangerine on the tabletop and chop straight through its center so the peel offers firm resistance that suddenly yields as the fruit bursts."
+    },
+    {
+      "virtual_object": {
+        "name": "Sickle",
+        "index": 4,
+        "engagement_level": 0.4768116880884702,
+        "involvement_type": "grasp",
+        "priority_weight": 0.4768116880884702
+      },
+      "physical_object": {
+        "name": "long metal flat-head screwdriver with a translucent red handle",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 15
+      },
+      "realism_score": 5.0,
+      "utilization_method": "Grip the red handle firmly in a fist and swing the steel shaft in a curved carving motion"
+    },
+    {
+      "virtual_object": {
+        "name": "Hoe",
+        "index": 5,
+        "engagement_level": 1.0757656854799804,
+        "involvement_type": "grasp",
+        "priority_weight": 1.0757656854799804
+      },
+      "physical_object": {
+        "name": "clear plastic water bottle with screw cap",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 2.5,
+      "utilization_method": "With one hand on the neck and the other around the lower half, swing the bottle forward so the base taps the tabletop, then drag the base straight back while maintaining downward pressure"
+    },
+    {
+      "virtual_object": {
+        "name": "Pitchfork",
+        "index": 7,
+        "engagement_level": 2.9242343145200196,
+        "involvement_type": "grasp",
+        "priority_weight": 2.9242343145200196
+      },
+      "physical_object": {
+        "name": "black adjustable tripod stand (microphone or lighting stand)",
+        "object_id": 2,
+        "image_id": 3,
+        "index": 18
+      },
+      "realism_score": 5.833333333333334,
+      "utilization_method": "Grasp the central vertical tube with both hands, orient one of the extended tripod legs forward to act as tines, thrust ahead, then lift and rotate outward"
+    },
+    {
+      "virtual_object": {
+        "name": "Haystack",
+        "index": 9,
+        "engagement_level": 1.0757656854799804,
+        "involvement_type": "substrate",
+        "priority_weight": 1.0757656854799804
+      },
+      "physical_object": {
+        "name": "green hexagonal fabric ottoman",
+        "object_id": 3,
+        "image_id": 3,
+        "index": 19
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the ottoman directly ahead. Drive the tripod leg into the top center so the foam interior compresses and gives."
+    },
+    {
+      "virtual_object": {
+        "name": "WheelBarrow",
+        "index": 10,
+        "engagement_level": 2.0,
+        "involvement_type": "grasp",
+        "priority_weight": 2.0
+      },
+      "physical_object": {
+        "name": "high-back gray upholstered booth seat with metal frame",
+        "object_id": 1,
+        "image_id": 3,
+        "index": 17
+      },
+      "realism_score": 4.5666665608684225,
+      "utilization_method": "Stand behind the booth seat, place both hands on the two parallel horizontal sections of the metal side rails, lean forward, lift the rear legs slightly, and push the seat a short distance across the floor"
+    }
+  ]
+}

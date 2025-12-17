@@ -1,0 +1,158 @@
+{
+  "optimization_summary": {
+    "total_loss": -41.41625457759096,
+    "loss_components": {
+      "L_realism": -18.96244871806707,
+      "L_interaction": -22.453805859523897,
+      "L_spatial": 0.0,
+      "total": -41.41625457759096
+    },
+    "num_virtual_objects": 11,
+    "num_physical_objects": 23,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 0
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Fork",
+        "index": 2,
+        "engagement_level": 3.2702979047745746,
+        "involvement_type": "grasp",
+        "priority_weight": 3.2702979047745746
+      },
+      "physical_object": {
+        "name": "stainless steel metal tweezers",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 4.9682543973127995,
+      "utilization_method": "Pinch the closed legs of the tweezers near their midpoint so the narrow tips extend outward, then use those tips to jab or scoop with wrist motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Knife",
+        "index": 3,
+        "engagement_level": 3.696567279915026,
+        "involvement_type": "grasp",
+        "priority_weight": 3.696567279915026
+      },
+      "physical_object": {
+        "name": "transparent plastic ruler",
+        "object_id": 6,
+        "image_id": 0,
+        "index": 5
+      },
+      "realism_score": 5.38095286488533,
+      "utilization_method": "Pinch one end of the ruler between thumb and fingers, orient it lengthwise, and perform forward-and-back slicing gestures with its long flat edge on the tabletop"
+    },
+    {
+      "virtual_object": {
+        "name": "Steak",
+        "index": 4,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "substrate",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "red Shin Ramyun instant noodle packet",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 8
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Place the unopened noodle packet flat; thrust the tweezer tips through the plastic wrapper and into the compressed noodles beneath."
+    },
+    {
+      "virtual_object": {
+        "name": "Spoon",
+        "index": 5,
+        "engagement_level": 0.7297020952254254,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7297020952254254
+      },
+      "physical_object": {
+        "name": "pair of black-framed glasses",
+        "object_id": 3,
+        "image_id": 0,
+        "index": 2
+      },
+      "realism_score": 4.047619412342707,
+      "utilization_method": "Hold one temple arm near the hinge with thumb on top and fingers below, letting the curved end of the arm act as the bowl while performing a gentle scooping lift"
+    },
+    {
+      "virtual_object": {
+        "name": "Soup",
+        "index": 6,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "substrate",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "white USB charging cable",
+        "object_id": 7,
+        "image_id": 0,
+        "index": 6
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Coil the cable loosely into a small pile on the table; weave the curved temple tip between the loops, stirring back and forth through the tangled segments"
+    },
+    {
+      "virtual_object": {
+        "name": "Teapot",
+        "index": 7,
+        "engagement_level": 0.3034327200849742,
+        "involvement_type": "grasp",
+        "priority_weight": 0.3034327200849742
+      },
+      "physical_object": {
+        "name": "clear plastic water bottle with screw cap",
+        "object_id": 4,
+        "image_id": 0,
+        "index": 3
+      },
+      "realism_score": 3.5833332339922586,
+      "utilization_method": "Enclose the bottle\u2019s mid-section with a full hand grasp, lift it, and tip the mouth forward to imitate pouring from a teapot spout"
+    },
+    {
+      "virtual_object": {
+        "name": "Salt",
+        "index": 8,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "grasp",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "green round retractable measuring tape with partially extended beige tape",
+        "object_id": 4,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 4.60606062412262,
+      "utilization_method": "Hold the green plastic casing between thumb and finger tips, flip it downward, and produce quick wrist flicks"
+    },
+    {
+      "virtual_object": {
+        "name": "Pepper Grinder",
+        "index": 9,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "grasp",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "silver and black Olympus PEN film camera",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 3.9166663885116577,
+      "utilization_method": "Support the camera body with the non-dominant hand; grasp the lens focusing ring with the dominant hand and rotate the ring continuously in alternating directions"
+    }
+  ]
+}

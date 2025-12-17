@@ -1,0 +1,158 @@
+{
+  "optimization_summary": {
+    "total_loss": -36.012162998972045,
+    "loss_components": {
+      "L_realism": -15.005247571998234,
+      "L_interaction": -23.48230560319978,
+      "L_spatial": 2.4753901762259725,
+      "total": -36.012162998972045
+    },
+    "num_virtual_objects": 11,
+    "num_physical_objects": 23,
+    "exclusivity_enabled": true,
+    "loss_weights": {
+      "w_realism": 1,
+      "w_interaction": 1,
+      "w_spatial": 1
+    },
+    "priority_weighting_enabled": true
+  },
+  "assignments": [
+    {
+      "virtual_object": {
+        "name": "Fork",
+        "index": 2,
+        "engagement_level": 3.2702979047745746,
+        "involvement_type": "grasp",
+        "priority_weight": 3.2702979047745746
+      },
+      "physical_object": {
+        "name": "stainless steel metal tweezers",
+        "object_id": 2,
+        "image_id": 1,
+        "index": 9
+      },
+      "realism_score": 4.9682543973127995,
+      "utilization_method": "Pinch the closed legs of the tweezers near their midpoint so the narrow tips extend outward, then use those tips to jab or scoop with wrist motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Knife",
+        "index": 3,
+        "engagement_level": 3.696567279915026,
+        "involvement_type": "grasp",
+        "priority_weight": 3.696567279915026
+      },
+      "physical_object": {
+        "name": "green round retractable measuring tape with partially extended beige tape",
+        "object_id": 4,
+        "image_id": 1,
+        "index": 11
+      },
+      "realism_score": 3.333333631356557,
+      "utilization_method": "Hold the plastic case like a handle, extend several centimetres of tape, keep it taut with a finger, and slide the flat tape edge forward in slicing motions"
+    },
+    {
+      "virtual_object": {
+        "name": "Steak",
+        "index": 4,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "substrate",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "small bright orange tangerine",
+        "object_id": 3,
+        "image_id": 2,
+        "index": 14
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Set the tangerine on the tabletop; drive the tweezer tips straight through the peel at the top center and into the fruit."
+    },
+    {
+      "virtual_object": {
+        "name": "Spoon",
+        "index": 5,
+        "engagement_level": 0.7297020952254254,
+        "involvement_type": "grasp",
+        "priority_weight": 0.7297020952254254
+      },
+      "physical_object": {
+        "name": "long metal flat-head screwdriver with a translucent red handle",
+        "object_id": 4,
+        "image_id": 2,
+        "index": 15
+      },
+      "realism_score": 3.492063800493876,
+      "utilization_method": "Grip the red handle with thumb on top and fingers below, point the flat metal tip forward, and move it in a shallow scooping path toward the mouth"
+    },
+    {
+      "virtual_object": {
+        "name": "Soup",
+        "index": 6,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "substrate",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "gray fabric messenger bag with zipper pocket and adjustable shoulder strap",
+        "object_id": 5,
+        "image_id": 2,
+        "index": 16
+      },
+      "realism_score": 0.0,
+      "utilization_method": "Lay the bag flat with the fabric panel exposed; move the tip in circular paths over the canvas surface, letting it drag across the weave."
+    },
+    {
+      "virtual_object": {
+        "name": "Teapot",
+        "index": 7,
+        "engagement_level": 0.3034327200849742,
+        "involvement_type": "grasp",
+        "priority_weight": 0.3034327200849742
+      },
+      "physical_object": {
+        "name": "white plastic adjustable desk lamp with circular head",
+        "object_id": 1,
+        "image_id": 2,
+        "index": 12
+      },
+      "realism_score": 3.8611109952131906,
+      "utilization_method": "Grip the vertical stem just above the base with one hand, lift the lamp slightly off the table, and rotate the circular head forward as though pouring tea"
+    },
+    {
+      "virtual_object": {
+        "name": "Salt",
+        "index": 8,
+        "engagement_level": 1.5101626751925816,
+        "involvement_type": "grasp",
+        "priority_weight": 1.5101626751925816
+      },
+      "physical_object": {
+        "name": "red Shin Ramyun instant noodle packet",
+        "object_id": 1,
+        "image_id": 1,
+        "index": 8
+      },
+      "realism_score": 1.9696969985961914,
+      "utilization_method": "Pinch the top corner of the sealed packet between thumb and fingers and perform short wrist snaps so the contents shift audibly"
+    },
+    {
+      "virtual_object": {
+        "name": "Pepper Grinder",
+        "index": 9,
+        "engagement_level": 2.4898373248074184,
+        "involvement_type": "grasp",
+        "priority_weight": 2.4898373248074184
+      },
+      "physical_object": {
+        "name": "silver and black Olympus PEN film camera",
+        "object_id": 3,
+        "image_id": 1,
+        "index": 10
+      },
+      "realism_score": 3.9166663885116577,
+      "utilization_method": "Support the camera body with the non-dominant hand; grasp the lens focusing ring with the dominant hand and rotate the ring continuously in alternating directions"
+    }
+  ]
+}

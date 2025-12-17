@@ -1,0 +1,53 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Easel",
+      "proxyObjectName": "gray fabric messenger bag with zipper pocket and adjustable shoulder strap",
+      "utilizationMethod": "Lay the bag flat on the table so the largest fabric panel faces upward; sweep the tweezers across the fabric surface in broad strokes."
+    },
+    {
+      "virtualObjectName": "Tube",
+      "proxyObjectName": "red Shin Ramyun instant noodle packet",
+      "utilizationMethod": "Grip the center of the packet between thumb and fingers and squeeze the flexible bag, letting the contents shift while pressing from one end toward the other"
+    },
+    {
+      "virtualObjectName": "Spray Can",
+      "proxyObjectName": "green round retractable measuring tape with partially extended beige tape",
+      "utilizationMethod": "Hold the circular housing in the hand and repeatedly press the central round release button with the index finger"
+    },
+    {
+      "virtualObjectName": "Round Mallet",
+      "proxyObjectName": "white plastic adjustable desk lamp with circular head",
+      "utilizationMethod": "Grasp the slim vertical stem just below the circular head with one hand, lift the lamp off the surface, and swing so the circular head leads the motion"
+    },
+    {
+      "virtualObjectName": "Chisel",
+      "proxyObjectName": "long metal flat-head screwdriver with a translucent red handle",
+      "utilizationMethod": "Grip the metal shaft just above the handle between thumb and first two fingers so the handle projects upward and the flat tip points downward, then rotate the shaft between fingertips"
+    },
+    {
+      "virtualObjectName": "Paint Brush",
+      "proxyObjectName": "stainless steel metal tweezers",
+      "utilizationMethod": "Close the tips together, hold the blunt end like a pencil, and glide the closed tips across a surface in controlled strokes"
+    },
+    {
+      "virtualObjectName": "Stone Tablet",
+      "proxyObjectName": "silver and black Olympus PEN film camera",
+      "utilizationMethod": "Set the camera flat with its metal top plate upward; target the solid lens cap area with the screwdriver tip while applying rotational pressure"
+    },
+    {
+      "virtualObjectName": "Paint Roller",
+      "proxyObjectName": "green-and-white pack of wet wipes with a single white tissue sheet protruding",
+      "utilizationMethod": "Grab one narrow end of the pack with a relaxed power grip, point the protruding tissue forward, and perform forearm-driven arcs"
+    }
+  ],
+  "pinPoint": [
+    -2.1411525509806237,
+    0.0,
+    1.116479859396125
+  ],
+  "rotationAngle": -310.0,
+  "timestamp": "70dfcb00-480b-425b-9f78-9ade38b67692",
+  "total_assignments": 8
+}

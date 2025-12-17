@@ -1,0 +1,48 @@
+{
+  "action": "optimization_results",
+  "data": [
+    {
+      "virtualObjectName": "Hammer",
+      "proxyObjectName": "purple dumbbell hand weight",
+      "utilizationMethod": "Wrap your fingers around one end of the dumbbell handle, letting the far weight act as the striking head, and swing that far end downward in hammering motions"
+    },
+    {
+      "virtualObjectName": "Lightsaber",
+      "proxyObjectName": "black pepper grinder",
+      "utilizationMethod": "Hold the main cylindrical body of the grinder with a full hand wrap, letting the top end point forward"
+    },
+    {
+      "virtualObjectName": "Gold Bar",
+      "proxyObjectName": "small succulent plant in a yellow ribbed pot",
+      "utilizationMethod": "Cup the sides of the ceramic pot with thumb and fingers, lift it vertically, tilt the wrist slightly to view all sides, then set it back down"
+    },
+    {
+      "virtualObjectName": "Double Slider",
+      "proxyObjectName": "black hard-shell suitcase with top handle",
+      "utilizationMethod": "Grip the suitcase\u2019s top handle with one hand and roll or slide the suitcase a short distance forward and back on the floor"
+    },
+    {
+      "virtualObjectName": "Dropper",
+      "proxyObjectName": "teal toothbrush with white bristles",
+      "utilizationMethod": "Hold the middle of the handle between thumb and middle finger, press the bristle head with the index finger repeatedly"
+    },
+    {
+      "virtualObjectName": "Slime",
+      "proxyObjectName": "blue upholstered two-seat bench",
+      "utilizationMethod": "Press your open hand into the cushioned seat and release"
+    },
+    {
+      "virtualObjectName": "Party Balloon",
+      "proxyObjectName": "green Lay's Sour Cream & Onion potato chip bag",
+      "utilizationMethod": "Press the air-filled bag flat on the desk and give quick light pats to its center with your open hand"
+    }
+  ],
+  "pinPoint": [
+    0.7837234758227316,
+    -1.1920929e-07,
+    0.9702065796075772
+  ],
+  "rotationAngle": -29.999999999999996,
+  "timestamp": "5ba44dd5-7d07-44d9-9e29-06cf4e35fbd9",
+  "total_assignments": 7
+}

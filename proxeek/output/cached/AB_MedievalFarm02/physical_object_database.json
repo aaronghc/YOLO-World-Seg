@@ -1,0 +1,715 @@
+{
+  "action": "segmentation_data",
+  "data": {
+    "0": [
+      {
+        "object_id": 1,
+        "object": "small green potted plant in a white pot",
+        "position": "top center-left of the image",
+        "worldposition": {
+          "x": 2.03252053,
+          "y": 1.032415,
+          "z": 2.52898169
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 370.951538,
+            "y1": 28.4247131,
+            "x2": 604.117432,
+            "y2": 308.696381,
+            "width": 233.1659,
+            "height": 280.271667,
+            "center_x": 487.5345,
+            "center_y": 168.560547
+          },
+          "mask_center": {
+            "x": 491.0,
+            "y": 111.0
+          },
+          "confidence": 0.982122064,
+          "detected_name": "small green potted plant in a white pot"
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "hardcover notebook with dark patterned cover",
+        "position": "middle left of the image",
+        "worldposition": {
+          "x": 1.84188414,
+          "y": 0.8113581,
+          "z": 2.69599414
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 270.943,
+            "y1": 319.1253,
+            "x2": 525.5799,
+            "y2": 471.985046,
+            "width": 254.6369,
+            "height": 152.859741,
+            "center_x": 398.261444,
+            "center_y": 395.555176
+          },
+          "mask_center": {
+            "x": 411.0,
+            "y": 394.0
+          },
+          "confidence": 0.6695022,
+          "detected_name": "hardcover notebook with dark patterned cover"
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "pair of black-framed glasses",
+        "position": "upper middle of the image",
+        "worldposition": {
+          "x": 1.77407122,
+          "y": 0.800743,
+          "z": 2.46854925
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 603.203064,
+            "y1": 362.720123,
+            "x2": 753.5262,
+            "y2": 407.168365,
+            "width": 150.32312,
+            "height": 44.4482422,
+            "center_x": 678.3646,
+            "center_y": 384.944244
+          },
+          "mask_center": {
+            "x": 644.0,
+            "y": 385.0
+          },
+          "confidence": 0.614781857,
+          "detected_name": "pair of black-framed glasses"
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "clear plastic water bottle with screw cap",
+        "position": "upper right of the image",
+        "worldposition": {
+          "x": 1.51658607,
+          "y": 0.9412216,
+          "z": 2.32778525
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 880.0702,
+            "y1": 208.24707,
+            "x2": 1005.61487,
+            "y2": 491.412476,
+            "width": 125.544678,
+            "height": 283.1654,
+            "center_x": 942.8425,
+            "center_y": 349.829773
+          },
+          "mask_center": {
+            "x": 946.0,
+            "y": 323.0
+          },
+          "confidence": 0.784179151,
+          "detected_name": "clear plastic water bottle with screw cap"
+        }
+      },
+      {
+        "object_id": 5,
+        "object": "yellow disposable paper cup",
+        "position": "right-center of the image",
+        "worldposition": {
+          "x": 1.36285162,
+          "y": 0.8586727,
+          "z": 2.411954
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 922.099731,
+            "y1": 479.20343,
+            "x2": 1063.81421,
+            "y2": 644.601868,
+            "width": 141.714478,
+            "height": 165.398438,
+            "center_x": 992.957,
+            "center_y": 561.902649
+          },
+          "mask_center": {
+            "x": 986.0,
+            "y": 541.0
+          },
+          "confidence": 0.5474865,
+          "detected_name": "yellow disposable paper cup"
+        }
+      },
+      {
+        "object_id": 6,
+        "object": "transparent plastic ruler",
+        "position": "center of the image",
+        "worldposition": {
+          "x": 1.57101583,
+          "y": 0.7897655,
+          "z": 2.7010057
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 420.660767,
+            "y1": 549.8639,
+            "x2": 698.079346,
+            "y2": 591.39624,
+            "width": 277.418579,
+            "height": 41.53235,
+            "center_x": 559.370056,
+            "center_y": 570.630066
+          },
+          "mask_center": {
+            "x": 490.0,
+            "y": 565.0
+          },
+          "confidence": 0.006961432,
+          "detected_name": "transparent plastic ruler"
+        }
+      },
+      {
+        "object_id": 7,
+        "object": "white USB charging cable",
+        "position": "bottom center of the image",
+        "worldposition": {
+          "x": 1.33986068,
+          "y": 0.789266944,
+          "z": 2.684992
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 440.9546,
+            "y1": 672.5552,
+            "x2": 801.1062,
+            "y2": 888.1561,
+            "width": 360.151642,
+            "height": 215.600952,
+            "center_x": 621.0304,
+            "center_y": 780.355652
+          },
+          "mask_center": {
+            "x": 636.0,
+            "y": 782.0
+          },
+          "confidence": 0.0481491834,
+          "detected_name": "white USB charging cable"
+        }
+      },
+      {
+        "object_id": 8,
+        "object": "small layered 3D-printed grey rabbit figurine",
+        "position": "lower right of the image",
+        "worldposition": {
+          "x": 1.32141566,
+          "y": 0.8062898,
+          "z": 2.51056075
+        },
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 838.606934,
+            "y1": 591.812744,
+            "x2": 952.9911,
+            "y2": 732.516968,
+            "width": 114.384155,
+            "height": 140.704224,
+            "center_x": 895.799,
+            "center_y": 662.164856
+          },
+          "mask_center": {
+            "x": 898.0,
+            "y": 685.0
+          },
+          "confidence": 0.297256947,
+          "detected_name": "small layered 3D-printed grey rabbit figurine"
+        }
+      }
+    ],
+    "1": [
+      {
+        "object_id": 1,
+        "object": "red Shin Ramyun instant noodle packet",
+        "position": "bottom left of the image",
+        "worldposition": {
+          "x": -1.86782026,
+          "y": 0.8438067,
+          "z": 2.55054
+        },
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 100.61145,
+            "y1": 334.2481,
+            "x2": 538.939453,
+            "y2": 809.945251,
+            "width": 438.328,
+            "height": 475.697144,
+            "center_x": 319.775452,
+            "center_y": 572.0967
+          },
+          "mask_center": {
+            "x": 309.0,
+            "y": 567.0
+          },
+          "confidence": 0.004152115,
+          "detected_name": "red Shin Ramyun instant noodle packet (bottom left of the image)"
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "stainless steel metal tweezers",
+        "position": "center of the image",
+        "worldposition": {
+          "x": -1.90754616,
+          "y": 0.8089596,
+          "z": 2.788672
+        },
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 620.8736,
+            "y1": 285.8639,
+            "x2": 810.226868,
+            "y2": 417.6903,
+            "width": 189.353271,
+            "height": 131.826416,
+            "center_x": 715.550232,
+            "center_y": 351.7771
+          },
+          "mask_center": {
+            "x": 710.0,
+            "y": 348.0
+          },
+          "confidence": 0.8780188,
+          "detected_name": "stainless steel metal tweezers"
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "silver and black Olympus PEN film camera",
+        "position": "top right of the image",
+        "worldposition": {
+          "x": -1.90337038,
+          "y": 0.846353531,
+          "z": 2.97284985
+        },
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 835.7678,
+            "y1": 100.047913,
+            "x2": 1078.638,
+            "y2": 264.062622,
+            "width": 242.870117,
+            "height": 164.014709,
+            "center_x": 957.2029,
+            "center_y": 182.055267
+          },
+          "mask_center": {
+            "x": 971.0,
+            "y": 191.0
+          },
+          "confidence": 0.0750415847,
+          "detected_name": "silver and black Olympus PEN film camera"
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "green round retractable measuring tape with partially extended beige tape",
+        "position": "bottom right of the image",
+        "worldposition": {
+          "x": -1.6684376,
+          "y": 0.8131627,
+          "z": 2.79098344
+        },
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 976.9252,
+            "y1": 624.8473,
+            "x2": 1113.94958,
+            "y2": 755.091431,
+            "width": 137.024414,
+            "height": 130.244141,
+            "center_x": 1045.43738,
+            "center_y": 689.96936
+          },
+          "mask_center": {
+            "x": 1041.0,
+            "y": 687.0
+          },
+          "confidence": 0.595498562,
+          "detected_name": "green round retractable measuring tape with partially extended beige tape"
+        }
+      }
+    ],
+    "2": [
+      {
+        "object_id": 1,
+        "object": "white plastic adjustable desk lamp with circular head",
+        "position": "upper right of the table",
+        "worldposition": {
+          "x": -2.224305,
+          "y": 0.8258571,
+          "z": 0.7206365
+        },
+        "image_id": 2,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 708.185547,
+            "y1": 0.5364685,
+            "x2": 950.219238,
+            "y2": 387.4103,
+            "width": 242.033691,
+            "height": 386.87384,
+            "center_x": 829.2024,
+            "center_y": 193.973389
+          },
+          "mask_center": {
+            "x": 814.0,
+            "y": 324.0
+          },
+          "confidence": 0.186755821,
+          "detected_name": "white plastic adjustable desk lamp with circular head"
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "green-and-white pack of wet wipes with a single white tissue sheet protruding",
+        "position": "upper left-center of the table",
+        "worldposition": {
+          "x": -2.04045749,
+          "y": 0.8742006,
+          "z": 0.607229531
+        },
+        "image_id": 2,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 460.0166,
+            "y1": 256.891541,
+            "x2": 709.293457,
+            "y2": 440.8471,
+            "width": 249.276855,
+            "height": 183.955566,
+            "center_x": 584.655,
+            "center_y": 348.869324
+          },
+          "mask_center": {
+            "x": 579.0,
+            "y": 347.0
+          },
+          "confidence": 0.03183076,
+          "detected_name": "green-and-white pack of wet wipes with a single white tissue sheet protruding"
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "small bright orange tangerine",
+        "position": "right side of the table",
+        "worldposition": {
+          "x": -2.13409877,
+          "y": 0.816087,
+          "z": 0.935516357
+        },
+        "image_id": 2,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 936.2671,
+            "y1": 490.16687,
+            "x2": 1018.14917,
+            "y2": 564.3895,
+            "width": 81.88208,
+            "height": 74.22269,
+            "center_x": 977.2081,
+            "center_y": 527.2782
+          },
+          "mask_center": {
+            "x": 978.0,
+            "y": 527.0
+          },
+          "confidence": 0.000109652894,
+          "detected_name": "small bright orange tangerine"
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "long metal flat-head screwdriver with a translucent red handle",
+        "position": "left side of the table",
+        "worldposition": {
+          "x": -1.660387,
+          "y": 0.799853563,
+          "z": 0.640233934
+        },
+        "image_id": 2,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 228.009491,
+            "y1": 506.5708,
+            "x2": 409.64798,
+            "y2": 784.8406,
+            "width": 181.638489,
+            "height": 278.269745,
+            "center_x": 318.828735,
+            "center_y": 645.7057
+          },
+          "mask_center": {
+            "x": 255.0,
+            "y": 758.0
+          },
+          "confidence": 0.157829121,
+          "detected_name": "long metal flat-head screwdriver with a translucent red handle"
+        }
+      },
+      {
+        "object_id": 5,
+        "object": "gray fabric messenger bag with zipper pocket and adjustable shoulder strap",
+        "position": "bottom center of the table",
+        "worldposition": {
+          "x": -1.8432585,
+          "y": 0.909837067,
+          "z": 0.9109823
+        },
+        "image_id": 2,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 359.635254,
+            "y1": 569.669434,
+            "x2": 1094.907,
+            "y2": 949.429932,
+            "width": 735.2717,
+            "height": 379.7605,
+            "center_x": 727.2711,
+            "center_y": 759.5497
+          },
+          "mask_center": {
+            "x": 733.0,
+            "y": 764.0
+          },
+          "confidence": 0.9454974,
+          "detected_name": "gray fabric messenger bag with zipper pocket and adjustable shoulder strap"
+        }
+      }
+    ],
+    "3": [
+      {
+        "object_id": 1,
+        "object": "high-back gray upholstered booth seat with metal frame",
+        "position": "bottom left of the image",
+        "worldposition": {
+          "x": 0.7433677,
+          "y": 1.17421174,
+          "z": -0.8191195
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 39.39868,
+            "y1": 9.976013,
+            "x2": 780.8545,
+            "y2": 910.4096,
+            "width": 741.4558,
+            "height": 900.4336,
+            "center_x": 410.1266,
+            "center_y": 460.1928
+          },
+          "mask_center": {
+            "x": 510.0,
+            "y": 276.0
+          },
+          "confidence": 0.9563507,
+          "detected_name": "high-back gray upholstered booth seat with metal frame"
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "black adjustable tripod stand (microphone or lighting stand)",
+        "position": "right side of the image",
+        "worldposition": {
+          "x": 0.173260272,
+          "y": 1.35745,
+          "z": -0.980196357
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 599.7916,
+            "y1": 147.344238,
+            "x2": 1086.05811,
+            "y2": 960.0,
+            "width": 486.266479,
+            "height": 812.655762,
+            "center_x": 842.924866,
+            "center_y": 553.6721
+          },
+          "mask_center": {
+            "x": 1048.0,
+            "y": 171.0
+          },
+          "confidence": 0.8448468,
+          "detected_name": "black adjustable tripod stand (microphone or lighting stand)"
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "green hexagonal fabric ottoman",
+        "position": "middle right of the image",
+        "worldposition": {
+          "x": 0.7200634,
+          "y": 0.430236936,
+          "z": -2.128816
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 819.5032,
+            "y1": 367.411377,
+            "x2": 1034.78442,
+            "y2": 580.6708,
+            "width": 215.28125,
+            "height": 213.2594,
+            "center_x": 927.1438,
+            "center_y": 474.041077
+          },
+          "mask_center": {
+            "x": 901.0,
+            "y": 442.0
+          },
+          "confidence": 0.921864,
+          "detected_name": "green hexagonal fabric ottoman"
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "whiteboard with drawings and writings",
+        "position": "top right of the image",
+        "worldposition": {
+          "x": 0.287745118,
+          "y": 1.44681168,
+          "z": -2.51927924
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 628.5508,
+            "y1": 0.0,
+            "x2": 1280.0,
+            "y2": 232.413315,
+            "width": 651.4492,
+            "height": 232.413315,
+            "center_x": 954.2754,
+            "center_y": 116.206657
+          },
+          "mask_center": {
+            "x": 1258.0,
+            "y": 15.0
+          },
+          "confidence": 0.5784703,
+          "detected_name": "whiteboard with drawings and writings"
+        }
+      },
+      {
+        "object_id": 5,
+        "object": "floor power outlet module with visible sockets",
+        "position": "bottom left near the booth seat",
+        "worldposition": {
+          "x": 1.61223388,
+          "y": 0.0654223,
+          "z": -0.5219536
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 115.835968,
+            "y1": 647.944458,
+            "x2": 257.0911,
+            "y2": 775.5099,
+            "width": 141.255127,
+            "height": 127.56543,
+            "center_x": 186.463531,
+            "center_y": 711.7272
+          },
+          "mask_center": {
+            "x": 185.0,
+            "y": 705.0
+          },
+          "confidence": 0.00249247625,
+          "detected_name": "floor power outlet module with visible sockets"
+        }
+      },
+      {
+        "object_id": 6,
+        "object": "loose white sheet of paper or document",
+        "position": "bottom right of the image",
+        "worldposition": {
+          "x": -0.3055847,
+          "y": 0.0513643026,
+          "z": -1.75140548
+        },
+        "image_id": 3,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 1090.11121,
+            "y1": 721.568,
+            "x2": 1279.87463,
+            "y2": 955.220337,
+            "width": 189.763428,
+            "height": 233.652344,
+            "center_x": 1184.99292,
+            "center_y": 838.394165
+          },
+          "mask_center": {
+            "x": 1264.0,
+            "y": 846.0
+          },
+          "confidence": 0.009538077,
+          "detected_name": "loose white sheet of paper or document"
+        }
+      }
+    ]
+  },
+  "timestamp": "4c956ccb-4b27-4790-bb73-b67a59e33cde",
+  "total_objects": 23,
+  "playArea": {
+    "boundaryPoints": [
+      {
+        "x": 2.60490751,
+        "y": 0.0,
+        "z": 4.05454969
+      },
+      {
+        "x": -3.438368,
+        "y": 0.0,
+        "z": 4.196387
+      },
+      {
+        "x": -3.59506464,
+        "y": 0.0,
+        "z": -2.48001957
+      },
+      {
+        "x": 2.448211,
+        "y": 0.0,
+        "z": -2.62185669
+      }
+    ],
+    "center": {
+      "x": -0.495078564,
+      "y": 0.0,
+      "z": 0.787265062
+    },
+    "width": 6.199972,
+    "depth": 6.8182435,
+    "area": 40.3695869,
+    "boundaryType": "PlayArea"
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "action": "segmentation_data",
+  "timestamp": "d7d8e428-ad57-49c0-bcac-daa9c7191c0a",
+  "total_objects": 12,
+  "data": {
+    "0": [
+      {
+        "object_id": 1,
+        "object": "small beige beverage can with Asian script label (Yeo\u2019s tea can)",
+        "position": "middle top left of the image",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 365.864501953125,
+            "y1": 181.01129150390625,
+            "x2": 531.3364868164062,
+            "y2": 449.36444091796875,
+            "width": 165.47198486328125,
+            "height": 268.3531494140625,
+            "center_x": 448.6004943847656,
+            "center_y": 315.1878662109375
+          },
+          "mask_center": {
+            "x": 444.0,
+            "y": 268.0
+          },
+          "confidence": 0.8531068563461304,
+          "detected_name": "small beige beverage can with Asian script label (Yeo\u2019s tea can)",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.264301777,
+          "y": 0.804640949,
+          "z": 0.992751658
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "tall white and gold Kirin beer can",
+        "position": "top center of the image",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 655.2418212890625,
+            "y1": 50.1661376953125,
+            "x2": 824.0291748046875,
+            "y2": 431.903076171875,
+            "width": 168.787353515625,
+            "height": 381.7369384765625,
+            "center_x": 739.635498046875,
+            "center_y": 241.03460693359375
+          },
+          "mask_center": {
+            "x": 745.0,
+            "y": 127.0
+          },
+          "confidence": 0.6698859333992004,
+          "detected_name": "tall white and gold Kirin beer can",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.396075726,
+          "y": 0.862822533,
+          "z": 0.9938663
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "beige fine-liner pen",
+        "position": "middle left of the image, lying diagonally",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 647.3282470703125,
+            "y1": 496.5926513671875,
+            "x2": 945.431640625,
+            "y2": 592.8958740234375,
+            "width": 298.1033935546875,
+            "height": 96.30322265625,
+            "center_x": 796.3799438476562,
+            "center_y": 544.7442626953125
+          },
+          "mask_center": {
+            "x": 823.0,
+            "y": 539.0
+          },
+          "confidence": 0.0065311044454574585,
+          "detected_name": "beige fine-liner pen",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.42920047,
+          "y": 0.7112459,
+          "z": 0.90412426
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "silver and black retractable ballpoint pen",
+        "position": "middle right of the image, lying diagonally",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 641.4054565429688,
+            "y1": 497.81427001953125,
+            "x2": 938.7188110351562,
+            "y2": 592.7228393554688,
+            "width": 297.3133544921875,
+            "height": 94.9085693359375,
+            "center_x": 790.0621337890625,
+            "center_y": 545.2685546875
+          },
+          "mask_center": {
+            "x": 823.0,
+            "y": 539.0
+          },
+          "confidence": 0.9225406050682068,
+          "detected_name": "silver and black retractable ballpoint pen",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.42920047,
+          "y": 0.7112459,
+          "z": 0.90412426
+        }
+      },
+      {
+        "object_id": 5,
+        "object": "crumpled printed paper ball",
+        "position": "bottom left of the image",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 445.87176513671875,
+            "y1": 633.5936279296875,
+            "x2": 571.7800903320312,
+            "y2": 764.8079833984375,
+            "width": 125.9083251953125,
+            "height": 131.21435546875,
+            "center_x": 508.825927734375,
+            "center_y": 699.2008056640625
+          },
+          "mask_center": {
+            "x": 514.0,
+            "y": 697.0
+          },
+          "confidence": 0.0010734039824455976,
+          "detected_name": "crumpled printed paper ball",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.2985333,
+          "y": 0.7389859,
+          "z": 0.807374
+        }
+      },
+      {
+        "object_id": 6,
+        "object": "crumpled white tissue paper ball",
+        "position": "bottom right of the image",
+        "image_id": 0,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 798.1666259765625,
+            "y1": 626.744384765625,
+            "x2": 939.2843017578125,
+            "y2": 766.8427734375,
+            "width": 141.11767578125,
+            "height": 140.098388671875,
+            "center_x": 868.7254638671875,
+            "center_y": 696.7935791015625
+          },
+          "mask_center": {
+            "x": 873.0,
+            "y": 697.0
+          },
+          "confidence": 0.0052997274324297905,
+          "detected_name": "crumpled white tissue paper ball",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.4204634,
+          "y": 0.734895,
+          "z": 0.802770734
+        }
+      }
+    ],
+    "1": [
+      {
+        "object_id": 1,
+        "object": "clear plastic drinking cup",
+        "position": "upper center-left of the image",
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 398.85748291015625,
+            "y1": 198.21014404296875,
+            "x2": 583.0272827148438,
+            "y2": 448.74261474609375,
+            "width": 184.1697998046875,
+            "height": 250.532470703125,
+            "center_x": 490.9423828125,
+            "center_y": 323.47637939453125
+          },
+          "mask_center": {
+            "x": 503.0,
+            "y": 341.0
+          },
+          "confidence": 0.6936150193214417,
+          "detected_name": "clear plastic drinking cup",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.92121017,
+          "y": 0.709293544,
+          "z": 0.985455632
+        }
+      },
+      {
+        "object_id": 2,
+        "object": "white paper cup",
+        "position": "upper center-right of the image",
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 708.733642578125,
+            "y1": 199.02963256835938,
+            "x2": 871.068603515625,
+            "y2": 417.6956481933594,
+            "width": 162.3349609375,
+            "height": 218.666015625,
+            "center_x": 789.901123046875,
+            "center_y": 308.3626403808594
+          },
+          "mask_center": {
+            "x": 785.0,
+            "y": 269.0
+          },
+          "confidence": 0.7229272127151489,
+          "detected_name": "white paper cup",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.9576365,
+          "y": 0.792880535,
+          "z": 0.827130139
+        }
+      },
+      {
+        "object_id": 3,
+        "object": "silver metal spoon",
+        "position": "bottom left of the image",
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 252.00228881835938,
+            "y1": 517.5870971679688,
+            "x2": 510.1015319824219,
+            "y2": 850.0598754882812,
+            "width": 258.0992431640625,
+            "height": 332.4727783203125,
+            "center_x": 381.0519104003906,
+            "center_y": 683.823486328125
+          },
+          "mask_center": {
+            "x": 306.0,
+            "y": 571.0
+          },
+          "confidence": 0.9481505155563354,
+          "detected_name": "silver metal spoon",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.7297535,
+          "y": 0.7308961,
+          "z": 0.9060095
+        }
+      },
+      {
+        "object_id": 4,
+        "object": "wooden spoon",
+        "position": "bottom right of the image",
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 251.22137451171875,
+            "y1": 518.4356689453125,
+            "x2": 510.84625244140625,
+            "y2": 851.3072509765625,
+            "width": 259.6248779296875,
+            "height": 332.87158203125,
+            "center_x": 381.0338134765625,
+            "center_y": 684.8714599609375
+          },
+          "mask_center": {
+            "x": 306.0,
+            "y": 571.0
+          },
+          "confidence": 0.7178071141242981,
+          "detected_name": "wooden spoon (bottom right of the image)",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.7297535,
+          "y": 0.7308961,
+          "z": 0.9060095
+        }
+      },
+      {
+        "object_id": 5,
+        "object": "small LEGO-style hamburger model",
+        "position": "center-left of the image",
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 449.13230895996094,
+            "y1": 489.006591796875,
+            "x2": 603.3969879150391,
+            "y2": 651.7132568359375,
+            "width": 154.26467895507812,
+            "height": 162.7066650390625,
+            "center_x": 526.2646484375,
+            "center_y": 570.3599243164062
+          },
+          "mask_center": {
+            "x": 523.0,
+            "y": 563.0
+          },
+          "confidence": 0.00999993272125721,
+          "detected_name": "small LEGO-style hamburger model",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.7771186,
+          "y": 0.745095551,
+          "z": 0.830320954
+        }
+      },
+      {
+        "object_id": 6,
+        "object": "grey LEGO-style pixelated rabbit figurine",
+        "position": "center-right of the image",
+        "image_id": 1,
+        "yolo_segmentation": {
+          "bbox": {
+            "x1": 685.7327880859375,
+            "y1": 380.26300048828125,
+            "x2": 867.4388427734375,
+            "y2": 598.9096069335938,
+            "width": 181.7060546875,
+            "height": 218.6466064453125,
+            "center_x": 776.5858154296875,
+            "center_y": 489.5863037109375
+          },
+          "mask_center": {
+            "x": 780.0,
+            "y": 535.0
+          },
+          "confidence": 0.02906922809779644,
+          "detected_name": "grey LEGO-style pixelated rabbit figurine",
+          "has_mask": true
+        },
+        "worldposition": {
+          "x": 0.857242763,
+          "y": 0.737145543,
+          "z": 0.76336
+        }
+      }
+    ]
+  },
+  "playArea": {
+    "boundaryPoints": [
+      {
+        "x": 1.30094421,
+        "y": 0.0,
+        "z": -1.65307117
+      },
+      {
+        "x": 1.51879728,
+        "y": 0.0,
+        "z": 0.966230869
+      },
+      {
+        "x": -1.51124179,
+        "y": 0.0,
+        "z": 1.21824574
+      },
+      {
+        "x": -1.72909486,
+        "y": 0.0,
+        "z": -1.40105629
+      }
+    ],
+    "center": {
+      "x": -0.105148792,
+      "y": 0.0,
+      "z": -0.21741271
+    },
+    "width": 3.24789214,
+    "depth": 2.871317,
+    "area": 7.99149,
+    "boundaryType": "PlayArea"
+  }
+}
