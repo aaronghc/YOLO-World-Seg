@@ -1,0 +1,65 @@
+Top-K Proxy Candidates (Fixed):
+  Grasp/Contact: K=5, Substrate: K=5
+------------------------------------------------------------
+  Fork (grasp): Top-5, selected=5
+    Physical objects:
+      - pair of black scissors with yellow handles: 5.365
+      - black ballpoint pen: 4.190
+      - clear stemmed wine glass: 3.730
+      - wooden-handled dust brush with black bristles: 3.302
+      - telescoping selfie stick with black handle and phone mount: 3.175
+  Knife (grasp): Top-5, selected=5
+    Physical objects:
+      - pair of black scissors with yellow handles: 5.667
+      - clear stemmed wine glass: 3.222
+      - iMac desktop computer with silver aluminum stand: 3.206
+      - white Apple Magic Mouse: 3.190
+      - black ballpoint pen: 3.143
+  Steak (substrate): Top-5 per relationship, UNION
+    2 relationships → 8 total candidates
+      Fork → Steak: 5 candidates
+      Knife → Steak: 5 candidates
+    Final union candidates:
+      - green and yellow kitchen scrub sponge: 6.316
+      - grey mechanical keyboard with dark keycaps and one red keycap: 5.646
+      - small succulent plant in yellow ribbed ceramic pot: 5.646
+      - black mesh-backed office chair with armrests: 5.313
+      - blue upholstered bench with black metal armrests: 5.313
+      ... and 3 more
+  Spoon (grasp): Top-5, selected=5
+    Physical objects:
+      - pair of black scissors with yellow handles: 4.254
+      - black ballpoint pen: 4.222
+      - clear stemmed wine glass: 3.730
+      - small white desktop stapler: 3.286
+      - white Apple Magic Mouse: 3.270
+  Soup (substrate): Top-5 per relationship, UNION
+    1 relationships → 5 total candidates
+      Spoon → Soup: 5 candidates
+    Final union candidates:
+      - green and yellow kitchen scrub sponge: 5.313
+      - wooden-handled dust brush with black bristles: 4.932
+      - grey fabric bean bag chair: 4.932
+      - clear stemmed wine glass: 4.762
+      - blue upholstered bench with black metal armrests: 4.579
+  Teapot (grasp): Top-5, selected=5
+    Physical objects:
+      - transparent umbrella with white curved handle: 4.750
+      - clear plastic spray bottle containing blue liquid: 3.944
+      - white and grey camouflage-pattern video game controller: 2.667
+      - telescoping selfie stick with black handle and phone mount: 2.472
+      - grey mechanical keyboard with dark keycaps and one red keycap: 2.389
+  Salt (grasp): Top-5, selected=5
+    Physical objects:
+      - red Coca-Cola aluminum can (opened): 3.879
+      - small round metal calibration weight labeled “M 5000”: 3.697
+      - small white desktop stapler: 3.091
+      - small succulent plant in yellow ribbed ceramic pot: 3.061
+      - white Apple Magic Mouse: 2.879
+  Pepper Grinder (grasp): Top-5, selected=5
+    Physical objects:
+      - black ballpoint pen: 4.000
+      - clear plastic spray bottle containing blue liquid: 3.833
+      - small round metal calibration weight labeled “M 5000”: 3.167
+      - telescoping selfie stick with black handle and phone mount: 3.000
+      - transparent umbrella with white curved handle: 2.750

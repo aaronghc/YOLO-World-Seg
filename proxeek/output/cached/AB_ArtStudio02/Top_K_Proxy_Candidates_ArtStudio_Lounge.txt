@@ -1,0 +1,62 @@
+Top-K Proxy Candidates (Fixed):
+  Grasp/Contact: K=5, Substrate: K=5
+------------------------------------------------------------
+  Easel (substrate): Top-5 per relationship, UNION
+    1 relationships → 5 total candidates
+      Paint Brush → Easel: 5 candidates
+    Final union candidates:
+      - high-back gray upholstered booth seat with metal frame: 5.944
+      - green hexagonal fabric ottoman: 5.313
+      - gray fabric messenger bag with zipper pocket and adjustable shoulder strap: 4.932
+      - green-and-white pack of wet wipes with a single white tissue sheet protruding: 4.932
+      - red Shin Ramyun instant noodle packet: 4.309
+  Tube (grasp): Top-5, selected=5
+    Physical objects:
+      - green-and-white pack of wet wipes with a single white tissue sheet protruding: 4.039
+      - small bright orange tangerine: 3.980
+      - clear plastic water bottle with screw cap: 3.765
+      - red Shin Ramyun instant noodle packet: 3.412
+      - yellow disposable paper cup: 2.961
+  Spray Can (grasp): Top-5, selected=5
+    Physical objects:
+      - silver and black Olympus PEN film camera: 5.256
+      - green round retractable measuring tape with partially extended beige tape: 4.897      - stainless steel metal tweezers: 3.564
+      - clear plastic water bottle with screw cap: 3.103
+      - transparent plastic ruler: 2.538
+  Round Mallet (grasp): Top-5, selected=5
+    Physical objects:
+      - clear plastic water bottle with screw cap: 4.833
+      - black adjustable tripod stand (microphone or lighting stand): 4.667
+      - white plastic adjustable desk lamp with circular head: 4.167
+      - silver and black Olympus PEN film camera: 4.000
+      - long metal flat-head screwdriver with a translucent red handle: 3.000
+  Chisel (grasp): Top-5, selected=5
+    Physical objects:
+      - long metal flat-head screwdriver with a translucent red handle: 4.167
+      - black adjustable tripod stand (microphone or lighting stand): 3.750
+      - white plastic adjustable desk lamp with circular head: 3.250
+      - stainless steel metal tweezers: 3.083
+      - silver and black Olympus PEN film camera: 2.833
+  Paint Brush (grasp): Top-5, selected=5
+    Physical objects:
+      - long metal flat-head screwdriver with a translucent red handle: 5.143
+      - stainless steel metal tweezers: 4.476
+      - transparent plastic ruler: 3.381
+      - pair of black-framed glasses: 3.286
+      - yellow disposable paper cup: 2.810
+  Stone Tablet (substrate): Top-5 per relationship, UNION
+    1 relationships → 5 total candidates
+      Chisel → Stone Tablet: 5 candidates
+    Final union candidates:
+      - silver and black Olympus PEN film camera: 6.000
+      - hardcover notebook with dark patterned cover: 5.646
+      - high-back gray upholstered booth seat with metal frame: 5.646
+      - white plastic adjustable desk lamp with circular head: 5.646
+      - transparent plastic ruler: 4.932
+  Paint Roller (grasp): Top-5, selected=5
+    Physical objects:
+      - clear plastic water bottle with screw cap: 4.857
+      - white plastic adjustable desk lamp with circular head: 4.381
+      - long metal flat-head screwdriver with a translucent red handle: 4.095
+      - silver and black Olympus PEN film camera: 4.048
+      - black adjustable tripod stand (microphone or lighting stand): 3.810

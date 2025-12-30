@@ -1,0 +1,68 @@
+Top-K Proxy Candidates (Fixed):
+  Grasp/Contact: K=5, Substrate: K=5
+------------------------------------------------------------
+  Firewood (substrate): Top-5 per relationship, UNION
+    1 relationships → 5 total candidates
+      Axe → Firewood: 5 candidates
+    Final union candidates:
+      - wooden-handled brush with black bristles: 4.642
+      - black upholstered office chair with armrests: 4.481
+      - green and yellow scouring sponge: 4.481
+      - small yellow ceramic pot holding a green succulent plant: 4.309
+      - red Coca-Cola soda can: 4.217
+  Axe (grasp): Top-5, selected=6 [+1 tied at K-th score]
+    Physical objects:
+      - white plastic spray bottle with translucent body: 5.167
+      - selfie stick (telescopic metal pole with phone mount and black handle): 4.333
+      - compact black mechanical keyboard with one red key cap: 3.000
+      - wooden-handled brush with black bristles: 2.833
+      - empty clear wine glass: 2.667
+      - white and gray camouflage-patterned gaming controller: 2.667
+  Watermelon (substrate): Top-5 per relationship, UNION
+    1 relationships → 6 total candidates
+      Axe → Watermelon: 6 candidates
+    Final union candidates:
+      - green and yellow scouring sponge: 5.313
+      - yellow bag of Japanese puffed peanut snack (うすピーナ): 4.932
+      - blue two-seater bench with black metal armrests: 4.579
+      - large beige fabric bean bag: 4.380
+      - small yellow ceramic pot holding a green succulent plant: 4.309
+      ... and 1 more
+  Sickle (grasp): Top-5, selected=5
+    Physical objects:
+      - selfie stick (telescopic metal pole with phone mount and black handle): 4.833
+      - white plastic spray bottle with translucent body: 4.667
+      - transparent umbrella with white curved handle: 4.333
+      - cylindrical metal calibration weight labeled M 500g: 3.667
+      - white and gray camouflage-patterned gaming controller: 3.167
+  Hoe (grasp): Top-5, selected=5
+    Physical objects:
+      - transparent umbrella with white curved handle: 4.333
+      - selfie stick (telescopic metal pole with phone mount and black handle): 4.000
+      - white plastic spray bottle with translucent body: 2.667
+      - wooden-handled brush with black bristles: 2.500
+      - black upholstered office chair with armrests: 2.167
+  Pitchfork (grasp): Top-5, selected=5
+    Physical objects:
+      - transparent umbrella with white curved handle: 5.167
+      - selfie stick (telescopic metal pole with phone mount and black handle): 4.167
+      - wooden-handled brush with black bristles: 2.667
+      - white plastic spray bottle with translucent body: 2.167
+      - compact black mechanical keyboard with one red key cap: 1.833
+  Haystack (substrate): Top-5 per relationship, UNION
+    1 relationships → 6 total candidates
+      Pitchfork → Haystack: 6 candidates
+    Final union candidates:
+      - large beige fabric bean bag: 7.000
+      - plush green turtle-shell shaped cushion with white rim: 6.316
+      - blue two-seater bench with black metal armrests: 6.316
+      - black upholstered office chair with armrests: 6.316
+      - green and yellow scouring sponge: 5.313
+      ... and 1 more
+  WheelBarrow (grasp): Top-5, selected=5
+    Physical objects:
+      - black upholstered office chair with armrests: 5.900
+      - blue two-seater bench with black metal armrests: 3.067
+      - white and gray camouflage-patterned gaming controller: 3.000
+      - compact black mechanical keyboard with one red key cap: 2.600
+      - selfie stick (telescopic metal pole with phone mount and black handle): 2.033

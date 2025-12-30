@@ -1,0 +1,66 @@
+Top-K Proxy Candidates (Fixed):
+  Grasp/Contact: K=5, Substrate: K=5
+------------------------------------------------------------
+  Easel (substrate): Top-5 per relationship, UNION
+    1 relationships → 6 total candidates
+      Paint Brush → Easel: 6 candidates
+    Final union candidates:
+      - blue upholstered two-seat bench with black metal armrests: 5.646
+      - beige round bean bag / floor cushion: 5.646
+      - plush turtle shell pet bed (green top, white rim): 5.313
+      - office chair with black mesh back, black seat cushion, and armrests: 5.313
+      - mechanical keyboard with dark gray keycaps and one orange key: 4.932
+      ... and 1 more
+  Tube (grasp): Top-5, selected=5
+    Physical objects:
+      - yellow snack bag of Japanese pea crackers: 3.902
+      - green and yellow scouring sponge: 3.608
+      - white plastic clip device (mini stapler or bag sealer): 3.039
+      - metallic ballpoint pen with a clear barrel: 2.549
+      - red Coca-Cola aluminum can: 2.235
+  Spray Can (grasp): Top-5, selected=5
+    Physical objects:
+      - metallic ballpoint pen with a clear barrel: 4.821
+      - red Coca-Cola aluminum can: 3.692
+      - black and silver extendable selfie stick with phone holder: 3.692
+      - white camo-pattern Xbox controller: 3.462
+      - transparent plastic umbrella with white curved handle: 3.205
+  Round Mallet (grasp): Top-5, selected=7 [+2 tied at K-th score]
+    Physical objects:
+      - spray bottle with white nozzle and light blue liquid: 4.667
+      - black and silver extendable selfie stick with phone holder: 4.333
+      - metal calibration weight labeled 'M 500g': 4.000
+      - white camo-pattern Xbox controller: 3.000
+      - Apple iMac desktop computer with silver aluminum stand: 2.500
+      - wooden-handled brush with black bristles: 2.500
+      - transparent plastic umbrella with white curved handle: 2.500
+  Chisel (grasp): Top-5, selected=5
+    Physical objects:
+      - black and silver extendable selfie stick with phone holder: 4.750
+      - transparent plastic umbrella with white curved handle: 4.500
+      - metal calibration weight labeled 'M 500g': 4.250
+      - red Coca-Cola aluminum can: 4.000
+      - spray bottle with white nozzle and light blue liquid: 3.667
+  Paint Brush (grasp): Top-5, selected=5
+    Physical objects:
+      - metallic ballpoint pen with a clear barrel: 6.524
+      - empty wine glass with long stem: 4.476
+      - transparent plastic umbrella with white curved handle: 4.190
+      - black and silver extendable selfie stick with phone holder: 3.095
+      - spray bottle with white nozzle and light blue liquid: 2.905
+  Stone Tablet (substrate): Top-5 per relationship, UNION
+    1 relationships → 5 total candidates
+      Chisel → Stone Tablet: 5 candidates
+    Final union candidates:
+      - metal calibration weight labeled 'M 500g': 6.000
+      - blue upholstered two-seat bench with black metal armrests: 6.000
+      - Apple iMac desktop computer with silver aluminum stand: 6.000
+      - small succulent plant in a yellow ceramic pot: 6.000
+      - black and silver extendable selfie stick with phone holder: 5.313
+  Paint Roller (grasp): Top-5, selected=5
+    Physical objects:
+      - black and silver extendable selfie stick with phone holder: 5.048
+      - transparent plastic umbrella with white curved handle: 4.810
+      - spray bottle with white nozzle and light blue liquid: 4.238
+      - empty wine glass with long stem: 4.048
+      - metal calibration weight labeled 'M 500g': 3.905

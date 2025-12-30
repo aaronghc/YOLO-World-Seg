@@ -1,0 +1,65 @@
+Top-K Proxy Candidates (Fixed):
+  Grasp/Contact: K=5, Substrate: K=5
+------------------------------------------------------------
+  Firewood (substrate): Top-5 per relationship, UNION
+    1 relationships → 5 total candidates
+      Axe → Firewood: 5 candidates
+    Final union candidates:
+      - green hexagonal fabric ottoman: 4.160
+      - white plastic adjustable desk lamp with circular head: 4.160
+      - small green potted plant in a white pot: 3.915
+      - silver and black Olympus PEN film camera: 3.915
+      - small bright orange tangerine: 3.780
+  Axe (grasp): Top-5, selected=5
+    Physical objects:
+      - black adjustable tripod stand (microphone or lighting stand): 5.000
+      - white plastic adjustable desk lamp with circular head: 4.833
+      - clear plastic water bottle with screw cap: 3.333
+      - long metal flat-head screwdriver with a translucent red handle: 3.333
+      - silver and black Olympus PEN film camera: 3.167
+  Watermelon (substrate): Top-5 per relationship, UNION
+    1 relationships → 5 total candidates
+      Axe → Watermelon: 5 candidates
+    Final union candidates:
+      - small bright orange tangerine: 6.000
+      - red Shin Ramyun instant noodle packet: 5.646
+      - yellow disposable paper cup: 5.313
+      - hardcover notebook with dark patterned cover: 4.932
+      - green-and-white pack of wet wipes with a single white tissue sheet protruding: 4.932
+  Sickle (grasp): Top-5, selected=5
+    Physical objects:
+      - clear plastic water bottle with screw cap: 5.500
+      - long metal flat-head screwdriver with a translucent red handle: 5.000
+      - black adjustable tripod stand (microphone or lighting stand): 4.667
+      - silver and black Olympus PEN film camera: 4.000
+      - white plastic adjustable desk lamp with circular head: 4.000
+  Hoe (grasp): Top-5, selected=5
+    Physical objects:
+      - black adjustable tripod stand (microphone or lighting stand): 5.667
+      - white plastic adjustable desk lamp with circular head: 3.500
+      - long metal flat-head screwdriver with a translucent red handle: 2.833
+      - clear plastic water bottle with screw cap: 2.500
+      - small green potted plant in a white pot: 1.833
+  Pitchfork (grasp): Top-5, selected=5
+    Physical objects:
+      - black adjustable tripod stand (microphone or lighting stand): 5.833
+      - white plastic adjustable desk lamp with circular head: 4.167
+      - clear plastic water bottle with screw cap: 2.833
+      - long metal flat-head screwdriver with a translucent red handle: 2.333
+      - high-back gray upholstered booth seat with metal frame: 2.333
+  Haystack (substrate): Top-5 per relationship, UNION
+    1 relationships → 5 total candidates
+      Pitchfork → Haystack: 5 candidates
+    Final union candidates:
+      - high-back gray upholstered booth seat with metal frame: 6.316
+      - green hexagonal fabric ottoman: 6.316
+      - green-and-white pack of wet wipes with a single white tissue sheet protruding: 6.000
+      - gray fabric messenger bag with zipper pocket and adjustable shoulder strap: 5.944
+      - red Shin Ramyun instant noodle packet: 5.646
+  WheelBarrow (grasp): Top-5, selected=5
+    Physical objects:
+      - high-back gray upholstered booth seat with metal frame: 4.567
+      - white plastic adjustable desk lamp with circular head: 2.933
+      - black adjustable tripod stand (microphone or lighting stand): 2.767
+      - gray fabric messenger bag with zipper pocket and adjustable shoulder strap: 2.433
+      - green hexagonal fabric ottoman: 2.267
