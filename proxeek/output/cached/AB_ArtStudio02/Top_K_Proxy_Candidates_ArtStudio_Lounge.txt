@@ -1,6 +1,3 @@
-Top-K Proxy Candidates (Fixed):
-  Grasp/Contact: K=5, Substrate: K=5
-------------------------------------------------------------
   Easel (substrate): Top-5 per relationship, UNION
     1 relationships → 5 total candidates
       Paint Brush → Easel: 5 candidates
@@ -20,7 +17,8 @@ Top-K Proxy Candidates (Fixed):
   Spray Can (grasp): Top-5, selected=5
     Physical objects:
       - silver and black Olympus PEN film camera: 5.256
-      - green round retractable measuring tape with partially extended beige tape: 4.897      - stainless steel metal tweezers: 3.564
+      - green round retractable measuring tape with partially extended beige tape: 4.897
+      - stainless steel metal tweezers: 3.564
       - clear plastic water bottle with screw cap: 3.103
       - transparent plastic ruler: 2.538
   Round Mallet (grasp): Top-5, selected=5

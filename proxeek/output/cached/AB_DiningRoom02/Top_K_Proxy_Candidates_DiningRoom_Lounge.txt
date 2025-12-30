@@ -13,7 +13,7 @@ Top-K Proxy Candidates (Fixed):
       - transparent plastic ruler: 5.381
       - long metal flat-head screwdriver with a translucent red handle: 4.222
       - stainless steel metal tweezers: 3.841
-      - green round retractable measuring tape with partially extended beige tape: 3.333      
+      - green round retractable measuring tape with partially extended beige tape: 3.333
       - hardcover notebook with dark patterned cover: 2.810
   Steak (substrate): Top-5 per relationship, UNION
     2 relationships → 9 total candidates
@@ -25,14 +25,18 @@ Top-K Proxy Candidates (Fixed):
       - green-and-white pack of wet wipes with a single white tissue sheet protruding: 5.646
       - gray fabric messenger bag with zipper pocket and adjustable shoulder strap: 5.646
       - green hexagonal fabric ottoman: 5.313
-      ... and 4 more
+      - small green potted plant in a white pot: 4.932
+      - hardcover notebook with dark patterned cover: 4.932
+      - silver and black Olympus PEN film camera: 4.932
+      - high-back gray upholstered booth seat with metal frame: 4.932
   Spoon (grasp): Top-5, selected=5
     Physical objects:
       - stainless steel metal tweezers: 5.365
       - transparent plastic ruler: 5.190
       - pair of black-framed glasses: 4.048
       - long metal flat-head screwdriver with a translucent red handle: 3.492
-      - green round retractable measuring tape with partially extended beige tape: 2.921  Soup (substrate): Top-5 per relationship, UNION
+      - green round retractable measuring tape with partially extended beige tape: 2.921
+  Soup (substrate): Top-5 per relationship, UNION
     1 relationships → 7 total candidates
       Spoon → Soup: 7 candidates
     Final union candidates:
@@ -41,7 +45,8 @@ Top-K Proxy Candidates (Fixed):
       - green hexagonal fabric ottoman: 4.579
       - red Shin Ramyun instant noodle packet: 4.579
       - small green potted plant in a white pot: 4.481
-      ... and 2 more
+      - high-back gray upholstered booth seat with metal frame: 4.481
+      - clear plastic water bottle with screw cap: 4.481
   Teapot (grasp): Top-5, selected=5
     Physical objects:
       - white plastic adjustable desk lamp with circular head: 3.861
@@ -51,7 +56,7 @@ Top-K Proxy Candidates (Fixed):
       - black adjustable tripod stand (microphone or lighting stand): 2.750
   Salt (grasp): Top-5, selected=5
     Physical objects:
-      - green round retractable measuring tape with partially extended beige tape: 4.606      
+      - green round retractable measuring tape with partially extended beige tape: 4.606
       - clear plastic water bottle with screw cap: 3.727
       - small bright orange tangerine: 3.576
       - yellow disposable paper cup: 3.485
@@ -59,7 +64,7 @@ Top-K Proxy Candidates (Fixed):
   Pepper Grinder (grasp): Top-5, selected=5
     Physical objects:
       - silver and black Olympus PEN film camera: 3.917
-      - green round retractable measuring tape with partially extended beige tape: 3.500      
+      - green round retractable measuring tape with partially extended beige tape: 3.500
       - clear plastic water bottle with screw cap: 3.250
       - white plastic adjustable desk lamp with circular head: 3.250
       - black adjustable tripod stand (microphone or lighting stand): 2.833

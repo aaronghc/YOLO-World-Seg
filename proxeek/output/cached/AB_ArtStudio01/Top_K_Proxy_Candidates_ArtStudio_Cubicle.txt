@@ -10,7 +10,7 @@ Top-K Proxy Candidates (Fixed):
       - plush turtle shell pet bed (green top, white rim): 5.313
       - office chair with black mesh back, black seat cushion, and armrests: 5.313
       - mechanical keyboard with dark gray keycaps and one orange key: 4.932
-      ... and 1 more
+      - wooden-handled brush with black bristles: 4.932
   Tube (grasp): Top-5, selected=5
     Physical objects:
       - yellow snack bag of Japanese pea crackers: 3.902

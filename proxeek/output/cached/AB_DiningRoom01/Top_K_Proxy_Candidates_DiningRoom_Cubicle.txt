@@ -25,7 +25,9 @@ Top-K Proxy Candidates (Fixed):
       - small succulent plant in yellow ribbed ceramic pot: 5.646
       - black mesh-backed office chair with armrests: 5.313
       - blue upholstered bench with black metal armrests: 5.313
-      ... and 3 more
+      - grey fabric bean bag chair: 5.241
+      - yellow bag of Japanese snack (appears to be roasted peanuts): 5.000
+      - wooden-handled dust brush with black bristles: 4.932
   Spoon (grasp): Top-5, selected=5
     Physical objects:
       - pair of black scissors with yellow handles: 4.254

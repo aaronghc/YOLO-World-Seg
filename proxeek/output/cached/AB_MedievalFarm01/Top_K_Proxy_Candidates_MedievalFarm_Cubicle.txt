@@ -27,7 +27,7 @@ Top-K Proxy Candidates (Fixed):
       - blue two-seater bench with black metal armrests: 4.579
       - large beige fabric bean bag: 4.380
       - small yellow ceramic pot holding a green succulent plant: 4.309
-      ... and 1 more
+      - empty clear wine glass: 4.309
   Sickle (grasp): Top-5, selected=5
     Physical objects:
       - selfie stick (telescopic metal pole with phone mount and black handle): 4.833
@@ -58,7 +58,7 @@ Top-K Proxy Candidates (Fixed):
       - blue two-seater bench with black metal armrests: 6.316
       - black upholstered office chair with armrests: 6.316
       - green and yellow scouring sponge: 5.313
-      ... and 1 more
+      - wooden-handled brush with black bristles: 5.313
   WheelBarrow (grasp): Top-5, selected=5
     Physical objects:
       - black upholstered office chair with armrests: 5.900
